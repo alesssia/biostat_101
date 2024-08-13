@@ -25,37 +25,13 @@ style: |
 
 <div style="font-size: 90%">
 
-- Conoscere le differenti fasi della ricerca
 - Conoscere le differenze tra popolazione e campione
-- Conoscere e usare in modo opportuno i diversi approcci di campionamento
+- Conoscere alcuni tra gli approcci di campionamento
 - Individuare errori di campionamento e bias
 
 </div>
 
----
-## Le fasi della ricerca
 
-<span style="display:block; height:2px;"></span>
-
-<center>
-<img src="./img/sampling/Fasi_della_ricerca.png" img height="450px" border="0px"/>
-</center>
-
-
-<!-- Programmazione - campionamento
-  •Scelta del disegno dello studio
-  •Modalità di selezione del campione
-  •Definizione della numerosità
-
-Descrizione del campione
-  •Produzione delle statistiche
-
-Inferenza – dal campione alla popolazione
-  •Si «trasferiscono» alla popolazione le misure effettuate sul campione
-  •I parametri sono le stesse misure effettuate sul campione, ma riferite alla pololazione
-  • Statistiche sul campione = parametri sulla popolazione
-
-Decisioni in base ai parametri stimati -->
 
 --- 
 ## Popolazione *vs*  &nbsp;campione
@@ -336,7 +312,7 @@ Il campione si forma estraendo casualmente un numero prestabilito di cluster, do
 </center>
 
 ---
-### Exercizio #1
+## Exercizio #1
 
 :question: &nbsp;&nbsp;&nbsp; Un rappresentante di una ditta di formaggi sta facendo un
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  sondaggio sul consumo di gorgonzola fermando un cliente
@@ -436,7 +412,7 @@ updateButton_exercise_1();
 
 
 ---
-### Exercizio #1 -- Soluzione
+## Exercizio #1 -- Soluzione
 
 :question: &nbsp;&nbsp;&nbsp; Un rappresentante di una ditta di formaggi sta facendo un
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  sondaggio sul consumo di gorgonzola fermando un cliente
@@ -523,7 +499,7 @@ Antetokounmpo: 2.11 -->
 - sto testando un nuovo farmaco, le persone che hanno i side effect peggiori possono interromperlo, o quelli per cui non funziona possono morire -->
 
 ---
-### Exercizio #2
+## Exercizio #2
 
 :question: &nbsp;&nbsp;&nbsp; Ricercatori spediscono a dei pensionati un questionario  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  cartaceo chiedendo loro del loro stato mentale durante il   
@@ -623,7 +599,7 @@ updateButton_exercise_2();
 
 
 ---
-### Exercizio #2 -- Soluzione
+## Exercizio #2 -- Soluzione
 
 :question: &nbsp;&nbsp;&nbsp; Ricercatori spediscono a dei pensionati un questionario  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  cartaceo chiedendo loro del loro stato mentale durante il   
@@ -637,10 +613,234 @@ updateButton_exercise_2();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Sia b) che c) &nbsp;&nbsp;&nbsp; :white_check_mark: 
  
 ---
+## Esercizio #3
+
+:question: &nbsp;&nbsp;&nbsp; Quanti alberi ci sono al mondo?
+
+<span style="display:block; height:300px;"></span>
+
+<style>
+  #countdown_think {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #countdown_think.running {
+    background-color: green;
+  }
+  #countdown_think.finished {
+    background-color: red;
+  }
+</style>
+
+<div align="right"> Think &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button></div>
+
+<script>
+<!--
+const countdown_think = document.getElementById("countdown_think");
+const seconds_think = 120; // seconds_think
+let timeLeft_think = seconds_think;
+let timerInterval_think = null;
+
+function formatTime_think(seconds_think) {
+  const minutes = Math.floor(seconds_think / 60);
+  const remainingseconds_think = seconds_think % 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_think).padStart(2, '0')}`;
+}
+
+function updateButton_think() {
+  countdown_think.textContent = formatTime_think(timeLeft_think);
+}
+
+function startTimer_think() {
+  if (timerInterval_think === null) {
+    countdown_think.classList.add('running');
+    countdown_think.classList.remove('finished');
+    timerInterval_think = setInterval(() => {
+      if (timeLeft_think > 0) {
+        timeLeft_think--;
+        updateButton_think();
+      } else {
+        clearInterval(timerInterval_think);
+        timerInterval_think = null;
+        countdown_think.classList.remove('running');
+        countdown_think.classList.add('finished');
+        countdown_think.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_think();
+  }
+}
+
+function pauseTimer_think() {
+  clearInterval(timerInterval_think);
+  timerInterval_think = null;
+  countdown_think.classList.remove('running');
+}
+
+function resetTimer_think() {
+  timeLeft_think = seconds_think;
+  updateButton_think();
+  countdown_think.classList.remove('finished');
+  countdown_think.classList.remove('running');
+  timerInterval_think = null;
+}
+
+countdown_think.addEventListener("click", () => {
+  if (countdown_think.classList.contains('finished')) {
+    resetTimer_think();
+  } else {
+    startTimer_think();
+  }
+});
+
+updateButton_think();
+-->
+</script>
+
+<!-- Think -->
+
+---
+## Esercizio #3
+
+:question: &nbsp;&nbsp;&nbsp; Quanti alberi ci sono al mondo?
+
+<span style="display:block; height:300px;"></span> 
+
+<style>
+  #countdown_share {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #countdown_share.running {
+    background-color: green;
+  }
+  #countdown_share.finished {
+    background-color: red;
+  }
+</style>
+
+<div align="right"> Share &nbsp;&nbsp;&nbsp; <button id="countdown_share"></button></div>
+
+<script>
+<!--
+const countdown_share = document.getElementById("countdown_share");
+const seconds_share = 300; // seconds_share
+let timeLeft_share = seconds_share;
+let timerInterval_share = null;
+
+function formatTime_share(seconds_share) {
+  const minutes = Math.floor(seconds_share / 60);
+  const remainingseconds_share = seconds_share % 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_share).padStart(2, '0')}`;
+}
+
+function updateButton_share() {
+  countdown_share.textContent = formatTime_share(timeLeft_share);
+}
+
+function startTimer_share() {
+  if (timerInterval_share === null) {
+    countdown_share.classList.add('running');
+    countdown_share.classList.remove('finished');
+    timerInterval_share = setInterval(() => {
+      if (timeLeft_share > 0) {
+        timeLeft_share--;
+        updateButton_share();
+      } else {
+        clearInterval(timerInterval_share);
+        timerInterval_share = null;
+        countdown_share.classList.remove('running');
+        countdown_share.classList.add('finished');
+        countdown_share.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_share();
+  }
+}
+
+function pauseTimer_share() {
+  clearInterval(timerInterval_share);
+  timerInterval_share = null;
+  countdown_share.classList.remove('running');
+}
+
+function resetTimer_share() {
+  timeLeft_share = seconds_share;
+  updateButton_share();
+  countdown_share.classList.remove('finished');
+  countdown_share.classList.remove('running');
+  timerInterval_share = null;
+}
+
+countdown_share.addEventListener("click", () => {
+  if (countdown_share.classList.contains('finished')) {
+    resetTimer_share();
+  } else {
+    startTimer_share();
+  }
+});
+
+updateButton_share();
+-->
+</script>
+
+<!-- But we cannot wander round the entire planet individually measuring each woody-stemmed plant and counting up those that meet this criterion. So the researchers who investigated this question took a more pragmatic approach: they first took a series of areas with a common type of landscape, known as a biome, and counted the average number of trees found per square kilometre. They then used satellite imaging to estimate the total area of the planet covered by each type of biome, carried out some complex statistical modelling
+-->
+
+---
+## Esercizio 3 -- Soluzione (3.04 trillions)
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/sampling/tree_counting.png" img height="450px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+<br/> Crowther, T., *et al.*, *Mapping tree density at a global scale*. Nature, 2015, doi:10.1038/nature14967
+</div>
+
+<!-- , and eventually came up with an estimated total of 3.04 trillion (that is 3,040,000,000,000) trees on the planet. This sounds a lot, except they reckoned there used to be twice this number
+
+we estimate that over 15 billion trees are cut down each year, and the global number of trees has fallen by approximately 46% since the start of human civilization.
+  -->
+
+---
+## Il metodo induttivo
+
+<span style="display:block; height:60px;"></span>
+
+* stabilire una legge universale partendo da singoli casi particolari
+
+
+<!-- Quello che abbiamo fatto e' stato in taking particular instances and trying to work out general conclusions.
+
+we don’t know the customs in a community about kissing female friends on the cheek, and we have to try to work it out by observing whether people kiss once, twice, three times, or not at all.
+
+Questo e' il contrario del ragionamento deduttivo, using the rules of cold logic to work from general premises to particular conclusions. 
+
+If the law of the country is that cars should drive on the right, then we can deduce that on any particular occasion it is best to drive on the right. But induction works the other way,  -->
+
+---
 ### In questa lezione abbiamo...
 
-- introdotto le differenti fasi della ricerca
-- imparato perche' dobbiamo usare un campione della popolazione
-- introdotto diversi approcci di campionamento
-- imparato che esistono errori di campionamento
+<span style="display:block; height:20px;"></span>
+
+- imparato la differenza tra popolazione e campione
+- capito perche' dobbiamo usare un campione della popolazione
+- descritto diversi approcci di campionamento
+- imparato che esistono errori di campionamento e bias
+- introdotto il metodo induttivo
 

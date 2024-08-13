@@ -21,8 +21,9 @@ style: |
 
 <span style="display:block; height:50px;"></span>
 
-- Definire un dato
+- Saper definire cos'e' un dato
 - Conoscere le differenze tra i diversi tipi di dati
+- Saper pianificare una raccolta dati 
 
 ---
 
@@ -47,15 +48,6 @@ Informazioni che non sono presenti nei rilevamenti. Per esempio nelle SDO non si
 
 Alcuni dati non possono essere raccolti con dei semplici sondaggi. Per esempio se volessimo sapere quale terapia e' meglio per curare la depressione
 -->
----
-## Raccogliamo dei dati?
-
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<div style="font-size: 80%" align="right">
-<br/> 
-Attivita': Think-pair-share
-<div>
 
 ---
 ## Raccogliamo dei dati?
@@ -68,10 +60,7 @@ Attivita': Think-pair-share
 </center>
 
 
-<div style="font-size: 80%" align="right">
-<br/> 
-Attivita': Think-pair-share
-<div>
+<!-- Vediamo come si passa dalla fase "Problem" alla fase "Planning" -->
 
 
 ---
@@ -101,7 +90,7 @@ Attivita': Think-pair-share
   }
 </style>
 
-Think &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button>
+<div align="right"> Think &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button></div>
 
 <script>
 <!--
@@ -196,7 +185,7 @@ updateButton_think();
   }
 </style>
 
-Pair &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button>
+<div align="right"> Pair &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button></div>
 
 <script>
 <!--
@@ -290,7 +279,7 @@ updateButton_pair();
   }
 </style>
 
-Share &nbsp;&nbsp;&nbsp; <button id="countdown_share"></button>
+<div align="right"> Share &nbsp;&nbsp;&nbsp; <button id="countdown_share"></button></div>
 
 <script>
 <!--
@@ -591,7 +580,7 @@ cardiaci, titolo di studio, età,…) -->
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
 
-:question: &nbsp;&nbsp;&nbsp; L'inidice di massa corporea (BMI) e' una variabile qualitativa 
+:question: &nbsp;&nbsp;&nbsp; L'indice di massa corporea (BMI) e' una variabile qualitativa 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multi-categoria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
@@ -697,7 +686,7 @@ updateButton_exercise_2();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
 
-:question: &nbsp;&nbsp;&nbsp; L'inidice di massa corporea (BMI) e' una variabile qualitativa 
+:question: &nbsp;&nbsp;&nbsp; L'indice di massa corporea (BMI) e' una variabile qualitativa 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multi-categoria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere 
@@ -723,5 +712,5 @@ updateButton_exercise_2();
 <span style="display:block; height:50px;"></span>
 
 - definito cos'e' un dato
+- proposto un piano di raccolta dati a partire da un problema
 - spiegato le differenze tra i diversi tipi di dati
-- introdotto come i dati vengono raccolti

@@ -61,7 +61,7 @@ style: |
 <!-- Pesante in lunedi', interrompero' con esercizi -->
 
 ---
-## Come fare domande/commenti
+## Un po' di interazione, per favore :pray:
 
 <!-- <span style="display:block; height:10px;"></span> -->
 
@@ -75,20 +75,12 @@ style: |
 - (Sperimentale) via note anonime
 
 ---
-## Cosa pensate di conoscere?
+## Perche' siamo qui?
 
-<span style="display:block; height:60px;"></span>
-
-- Scrivete tutto quello che vi viene in mente quando dico "statistica"
-
-<span style="display:block; height:160px;"></span>
-
-<!-- Vorrei che queste lezioni siano il meno noioso possibile, quindi mi serve capire cosa gia' sapete e cosa vorreste imparare.  
-Inoltre, quando apprendiamo, lo facciamo andando a connettere i nuovi concetti con quelli che conosciamo gia'.
-Quindi e' importante che i concetti che conosciamo siano corretti -->
+<span style="display:block; height:360px;"></span>
 
 <style>
-  #countdown_queston_1{
+  #countdown_think{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -96,82 +88,80 @@ Quindi e' importante che i concetti che conosciamo siano corretti -->
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    float: right;
   }
-  #countdown_queston_1.running {
+  #countdown_think.running {
     background-color: green;
   }
-  #countdown_queston_1.finished {
+  #countdown_think.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_queston_1"></button>
+<div align="right"> Think: &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button></div>
 
 <script>
 <!--
-const countdown_queston_1= document.getElementById("countdown_queston_1");
-const seconds_queston_1= 300; // seconds_queston_1
-let timeLeft_queston_1= seconds_queston_1;
-let timerInterval_queston_1= null;
+const countdown_think= document.getElementById("countdown_think");
+const seconds_think= 120; // seconds_think
+let timeLeft_think= seconds_think;
+let timerInterval_think= null;
 
-function formatTime_queston_1(seconds_queston_1) {
-  const minutes = Math.floor(seconds_queston_1/ 60);
-  const remainingseconds_queston_1= seconds_queston_1% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_queston_1).padStart(2, '0')}`;
+function formatTime_think(seconds_think) {
+  const minutes = Math.floor(seconds_think/ 60);
+  const remainingseconds_think= seconds_think% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_think).padStart(2, '0')}`;
 }
 
-function updateButton_queston_1() {
-  countdown_queston_1.textContent = formatTime_queston_1(timeLeft_queston_1);
+function updateButton_think() {
+  countdown_think.textContent = formatTime_think(timeLeft_think);
 }
 
-function startTimer_queston_1() {
-  if (timerInterval_queston_1=== null) {
-    countdown_queston_1.classList.add('running');
-    countdown_queston_1.classList.remove('finished');
-    timerInterval_queston_1= setInterval(() => {
-      if (timeLeft_queston_1> 0) {
-        timeLeft_queston_1--;
-        updateButton_queston_1();
+function startTimer_think() {
+  if (timerInterval_think=== null) {
+    countdown_think.classList.add('running');
+    countdown_think.classList.remove('finished');
+    timerInterval_think= setInterval(() => {
+      if (timeLeft_think> 0) {
+        timeLeft_think--;
+        updateButton_think();
       } else {
-        clearInterval(timerInterval_queston_1);
-        timerInterval_queston_1= null;
-        countdown_queston_1.classList.remove('running');
-        countdown_queston_1.classList.add('finished');
-        countdown_queston_1.textContent = "Time's up!";
+        clearInterval(timerInterval_think);
+        timerInterval_think= null;
+        countdown_think.classList.remove('running');
+        countdown_think.classList.add('finished');
+        countdown_think.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_queston_1();
+    pauseTimer_think();
   }
 }
 
-function pauseTimer_queston_1() {
-  clearInterval(timerInterval_queston_1);
-  timerInterval_queston_1= null;
-  countdown_queston_1.classList.remove('running');
+function pauseTimer_think() {
+  clearInterval(timerInterval_think);
+  timerInterval_think= null;
+  countdown_think.classList.remove('running');
 }
 
-function resetTimer_queston_1() {
-  timeLeft_queston_1= seconds_queston_1;
-  updateButton_queston_1();
-  countdown_queston_1.classList.remove('finished');
-  countdown_queston_1.classList.remove('running');
-  timerInterval_queston_1= null;
+function resetTimer_think() {
+  timeLeft_think= seconds_think;
+  updateButton_think();
+  countdown_think.classList.remove('finished');
+  countdown_think.classList.remove('running');
+  timerInterval_think= null;
 }
 
-countdown_queston_1.addEventListener("click", () => {
-  if (countdown_queston_1.classList.contains('finished')) {
-    resetTimer_queston_1();
+countdown_think.addEventListener("click", () => {
+  if (countdown_think.classList.contains('finished')) {
+    resetTimer_think();
   } else {
-    startTimer_queston_1();
+    startTimer_think();
   }
 });
 
-updateButton_queston_1();
+updateButton_think();
 -->
 </script>
-
 
 ---
 ## Perche' siamo qui?
@@ -179,7 +169,7 @@ updateButton_queston_1();
 <span style="display:block; height:360px;"></span>
 
 <style>
-  #countdown_queston_2{
+  #countdown_pair{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -187,79 +177,167 @@ updateButton_queston_1();
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    float: right;
   }
-  #countdown_queston_2.running {
+  #countdown_pair.running {
     background-color: green;
   }
-  #countdown_queston_2.finished {
+  #countdown_pair.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_queston_2"></button>
+<div align="right"> Pair: &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button></div>
 
 <script>
 <!--
-const countdown_queston_2= document.getElementById("countdown_queston_2");
-const seconds_queston_2= 300; // seconds_queston_2
-let timeLeft_queston_2= seconds_queston_2;
-let timerInterval_queston_2= null;
+const countdown_pair= document.getElementById("countdown_pair");
+const seconds_pair= 300; // seconds_pair
+let timeLeft_pair= seconds_pair;
+let timerInterval_pair= null;
 
-function formatTime_queston_2(seconds_queston_2) {
-  const minutes = Math.floor(seconds_queston_2/ 60);
-  const remainingseconds_queston_2= seconds_queston_2% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_queston_2).padStart(2, '0')}`;
+function formatTime_pair(seconds_pair) {
+  const minutes = Math.floor(seconds_pair/ 60);
+  const remainingseconds_pair= seconds_pair% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_pair).padStart(2, '0')}`;
 }
 
-function updateButton_queston_2() {
-  countdown_queston_2.textContent = formatTime_queston_2(timeLeft_queston_2);
+function updateButton_pair() {
+  countdown_pair.textContent = formatTime_pair(timeLeft_pair);
 }
 
-function startTimer_queston_2() {
-  if (timerInterval_queston_2=== null) {
-    countdown_queston_2.classList.add('running');
-    countdown_queston_2.classList.remove('finished');
-    timerInterval_queston_2= setInterval(() => {
-      if (timeLeft_queston_2> 0) {
-        timeLeft_queston_2--;
-        updateButton_queston_2();
+function startTimer_pair() {
+  if (timerInterval_pair=== null) {
+    countdown_pair.classList.add('running');
+    countdown_pair.classList.remove('finished');
+    timerInterval_pair= setInterval(() => {
+      if (timeLeft_pair> 0) {
+        timeLeft_pair--;
+        updateButton_pair();
       } else {
-        clearInterval(timerInterval_queston_2);
-        timerInterval_queston_2= null;
-        countdown_queston_2.classList.remove('running');
-        countdown_queston_2.classList.add('finished');
-        countdown_queston_2.textContent = "Time's up!";
+        clearInterval(timerInterval_pair);
+        timerInterval_pair= null;
+        countdown_pair.classList.remove('running');
+        countdown_pair.classList.add('finished');
+        countdown_pair.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_queston_2();
+    pauseTimer_pair();
   }
 }
 
-function pauseTimer_queston_2() {
-  clearInterval(timerInterval_queston_2);
-  timerInterval_queston_2= null;
-  countdown_queston_2.classList.remove('running');
+function pauseTimer_pair() {
+  clearInterval(timerInterval_pair);
+  timerInterval_pair= null;
+  countdown_pair.classList.remove('running');
 }
 
-function resetTimer_queston_2() {
-  timeLeft_queston_2= seconds_queston_2;
-  updateButton_queston_2();
-  countdown_queston_2.classList.remove('finished');
-  countdown_queston_2.classList.remove('running');
-  timerInterval_queston_2= null;
+function resetTimer_pair() {
+  timeLeft_pair= seconds_pair;
+  updateButton_pair();
+  countdown_pair.classList.remove('finished');
+  countdown_pair.classList.remove('running');
+  timerInterval_pair= null;
 }
 
-countdown_queston_2.addEventListener("click", () => {
-  if (countdown_queston_2.classList.contains('finished')) {
-    resetTimer_queston_2();
+countdown_pair.addEventListener("click", () => {
+  if (countdown_pair.classList.contains('finished')) {
+    resetTimer_pair();
   } else {
-    startTimer_queston_2();
+    startTimer_pair();
   }
 });
 
-updateButton_queston_2();
+updateButton_pair();
+-->
+</script>
+
+---
+## Perche' siamo qui?
+
+<span style="display:block; height:360px;"></span>
+
+<style>
+  #countdown_share{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #countdown_share.running {
+    background-color: green;
+  }
+  #countdown_share.finished {
+    background-color: red;
+  }
+</style>
+
+<div align="right"> Share: &nbsp;&nbsp;&nbsp; <button id="countdown_share"></button></div>
+
+<script>
+<!--
+const countdown_share= document.getElementById("countdown_share");
+const seconds_share= 300; // seconds_share
+let timeLeft_share= seconds_share;
+let timerInterval_share= null;
+
+function formatTime_share(seconds_share) {
+  const minutes = Math.floor(seconds_share/ 60);
+  const remainingseconds_share= seconds_share% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_share).padStart(2, '0')}`;
+}
+
+function updateButton_share() {
+  countdown_share.textContent = formatTime_share(timeLeft_share);
+}
+
+function startTimer_share() {
+  if (timerInterval_share=== null) {
+    countdown_share.classList.add('running');
+    countdown_share.classList.remove('finished');
+    timerInterval_share= setInterval(() => {
+      if (timeLeft_share> 0) {
+        timeLeft_share--;
+        updateButton_share();
+      } else {
+        clearInterval(timerInterval_share);
+        timerInterval_share= null;
+        countdown_share.classList.remove('running');
+        countdown_share.classList.add('finished');
+        countdown_share.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_share();
+  }
+}
+
+function pauseTimer_share() {
+  clearInterval(timerInterval_share);
+  timerInterval_share= null;
+  countdown_share.classList.remove('running');
+}
+
+function resetTimer_share() {
+  timeLeft_share= seconds_share;
+  updateButton_share();
+  countdown_share.classList.remove('finished');
+  countdown_share.classList.remove('running');
+  timerInterval_share= null;
+}
+
+countdown_share.addEventListener("click", () => {
+  if (countdown_share.classList.contains('finished')) {
+    resetTimer_share();
+  } else {
+    startTimer_share();
+  }
+});
+
+updateButton_share();
 -->
 </script>
 
@@ -271,8 +349,93 @@ updateButton_queston_2();
 <span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/introduction/colluttorio.png" img height="480px" border="4px"/>
+<img src="./img/introduction/colluttorio.png" img height="450px" border="4px"/>
 </center>
+
+---
+## Ma quanti sono il 99.99% dei batteri?
+
+<span style="display:block; height:50px;"></span>
+
+<center>
+<img src="./img/introduction/hand_sanitizer.png" img height="350px" border="4px"/>
+</center>
+
+---
+## Vi sottoporrested a un trattamento con...
+
+<div style="font-size: 120%" align="left">
+<br/> ...una probabilita' di insuccesso del 5%?
+<div>
+
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<center>
+<img src="./img/introduction/Unsuccess_rate.png" img height="350px" border="0px"/>
+</center>
+
+</div>
+<div>
+
+</div>
+</div>
+
+---
+## Vi sottoporrested a un trattamento con...
+
+<div style="font-size: 120%" align="right">
+<br/> ...una probabilita' di successo del 95%?
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+
+</div>
+<div>
+
+<center>
+<img src="./img/introduction/Success_rate.png" img height="350px" border="0px"/>
+</center>
+
+
+</div>
+</div>
+
+---
+## Vi sottoporrested a un trattamento con...
+
+<div style="font-size: 120%" align="right">
+<br/> &nbsp; 
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<center>
+<img src="./img/introduction/Unsuccess_rate.png" img height="350px" border="0px"/>
+</center>
+
+</div>
+<div>
+
+<center>
+<img src="./img/introduction/Success_rate.png" img height="350px" border="0px"/>
+</center>
+
+
+</div>
+</div>
+
+<!-- Positive or negative framing of proportions can change their emotional impact.  -->
 
 ---
 ## Cosa ci dice questo grafico?
@@ -284,7 +447,7 @@ updateButton_queston_2();
 </center>
 
 <div style="font-size: 50%" align="right">
-<br/>Jensen, C.M., et al, Time Trends Over 16 Years in Incidence-Rates of Autism Spectrum Disorders Across the Lifespan Based on Nationwide Danish Register Data. J Autism Dev Disord (2014). doi:10.1007/s10803-014-2053-6
+<br/>Jensen, C.M., *et al*, *Time Trends Over 16 Years in Incidence-Rates of Autism Spectrum Disorders Across the Lifespan Based on Nationwide Danish Register Data*. J Autism Dev Disord (2014). doi:10.1007/s10803-014-2053-6
 <div>
 
 ---
@@ -295,6 +458,15 @@ updateButton_queston_2();
 <center>
 <img src="./img/introduction/autism_epidemic.png" img height="220px" border="4px"/>
 </center>
+
+<!-- Better diagnostic practices may explain these large hikes in incidence, says Maureen Durkin, professor of population health sciences and pediatrics at the University of Wisconsin in Madison.
+
+“There’s much more awareness of autism,” say Durkin, who was not involved in the study. “There’s much more screening going on. And the newer generation of clinicians are being trained in this so they are more likely to see it.”
+
+This increased attention to autism and its symptoms may also explain the rise in diagnoses of teenagers and adults.
+
+“If the incidence [in adults] is increasing, it just has to do with recognition of cases that have been missed up to that age,” Fombonne says. “It cannot be that you develop autism at age 50.”
+ -->
 
 ---
 ## Come prosegue questo grafico?
@@ -315,7 +487,7 @@ updateButton_queston_2();
 </center>
 
 ---
-## Educazione civica, 1935 (ca)
+## Educazione civica, 1935 (ca.)
 
 <span style="display:block; height:10px;"></span>
 
@@ -324,7 +496,7 @@ updateButton_queston_2();
 </center>
 
 ---
-## Correlation is not causation
+## Cicogne e bambini
 
 <span style="display:block; height:1px;"></span>
 
@@ -334,12 +506,19 @@ updateButton_queston_2();
 
 <div style="font-size: 50%" align="right">
 <br/>
-Sies, H. A new parameter for sex education. Nature 332, 495 (1988). doi:10.1038/332495a0
+Sies, H., *A new parameter for sex education*. Nature, 1988, doi:10.1038/332495a0
 <div>
 
 
+<!-- Correlation is not causation, Correlazione non e' causalita', "dopo di" non significa "a causa di". 
+
+La maggioranza delle malattie che secondo alcuni (profani) sarebbero sorte "a causa del vaccino" iniziano a manifestarsi (o sono diagnosticate) proprio nell'età in cui ci si vaccina. Come sappiamo la vaccinazione si fa nella primissima infanzia, proprio per proteggere questa fascia della popolazione (tra le più deboli) dalle malattie infettive. La correlazione principe di cui si è parlato spesso in questi anni è quella tra vaccini ed autismo. Scientificamente smentita, una delle affermazioni che si ripetono continuamente è: "il bambino stava bene, dopo la vaccinazione è diventato autistico". 
+
+Artefatto dovuto alla doppia scala, ne parleremo ancora quando vedremo la visualizzazione dei dati
+-->
+
 ---
-## Correlation is not causation
+## L'insostenibile pesantezza del gatto
 
 <span style="display:block; height:1px;"></span>
 
@@ -352,61 +531,258 @@ Sies, H. A new parameter for sex education. Nature 332, 495 (1988). doi:10.1038/
 
 <span style="display:block; height:10px;"></span>
 
-<div class="columns"> 
-<div>
-
 - perché i "numeri" (o meglio, il modo in cui sono presentati) a volte ingannano!
 
-</div>
-<div>
-
-</div>
-</div>
-
-<span style="display:block; height:1px;"></span>
+<span style="display:block; height:40px;"></span>
 
 <center>
 <img src="./img/introduction/correlation.png" img height="200px" border="4px"/>
 </center>
 
+<!-- The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.
+
+— Nate Silver, The Signal and the Noise1 -->
+
 ---
-## Chi e' questa persona?
+## Perche' siamo qui?
+
+<!-- Ma la statistica non serve solo a districarci nel mondo, ma anche ad interpretarlo. Per esempio per rispondere a delle domande inusuali, per esempio: -->
+
+---
+## Il caso Shipman
 
 <div class="columns">
 <div>
 
+<span style="display:block; height:60px;"></span>
+
+> Quest'uomo e' un serial killer?
+
 </div>
 <div>
 
+<span style="display:block; height:1px;"></span>
+
 <center>
-<img src="./img/introduction/220px-Florence_Nightingale_(H_Hering_NPG_x82368).jpg" img height="500px" align="right" border="4px"/>
+<img src="./img/introduction/harold-shipman-headshot.jpg" img height="450px" align="right" border="4px"/>
 </center>
 
 </div>
 </div>
 
+<!-- Shipman era un medico di famiglia come tanti altri. Tutto ciò cambiò quando, dopo la morte di una sua anziana paziente, all'atto dell'apertura del testamento si notò che esso era stato falsificato, sancendo l'attribuzione al medico di una ingente somma di denaro. 
+Fu dunque riesumato il cadavere, e si scoprì che l'anziana signora non era morta per cause naturali bensì per un'overdose di morfina, somministrata 3 ore prima del decesso (la morfina permane molto a lungo nei cadaveri). 
+Furono riesumate allora le salme di altre pazienti del medico morte di recente (14, molti erano stati cremati o il cadavere era ormai indisponibile), e in alcune furono trovate tracce della stessa sostanza che aveva ucciso la prima vittima. 
+
+-->
+
 ---
-## Florence Nightingale
+## Il caso Shipman
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+- Che persone sono state uccise da Shipman e quando?
+
+</div>
+<div>
+
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/introduction/harold-shipman-headshot.jpg" img height="450px" align="right" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- Il numero delle vittime di Shipman è ignoto: quelle accertate sono poco più di una dozzina, morte poco tempo prima della scoperta del primo delitto. Il medico tuttavia aveva lavorato per una trentina di anni, quindi si suppone che le morti furono assai più numerose.  
+
+Uno studio statistico, fatto confrontando il numero di decessi tra i pazienti di Shipman con quelli di altri medici della zona nel corso del periodo di attività del medico, ha dimostrato che le sue vittime sarebbero state almeno 223. Sotto le sue cure in generale morirono 459 persone. Gli omicidi attribuitigli nel processo furono 15, con 15 condanne all'ergastolo. Le vittime erano tutte persone di una certa età, che lui uccideva per poi attribuire la morte (nel referto) a "cause naturali", plausibili nel caso di persone anziane. 
+-->
+
+---
+## Il caso Shipman
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+- Che persone sono state uccise da Shipman e quando?
+
+</div>
+<div>
+
+<center>
+<img src="./img/introduction/shipman-confirmed-victims.png" img height="500px" align="right" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<div style="font-size: 50%" align="right">
+<br/> Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+</div>
+
+<!-- 
+
+There are more black than white dots, and so Shipman’s victims were mainly women. The bar-chart on the right of the picture shows that most of his victims were in their 70s and 80s, but looking at the scatter of points reveals that although initially they were all elderly, some younger cases crept in as the years went by. The bar-chart at the top clearly shows a gap around 1992 when there were no murders. It turned out that before that time Shipman had been working in a joint practice with other doctors but then, possibly as he felt under suspicion, he left to form a single-handed general practice. After this his activities accelerated, as demonstrated by the top bar-chart.
+
+-->
+
+---
+## Il caso Shipman
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+- Che persone sono state uccise da Shipman e quando?
+
+</div>
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<center>
+<img src="./img/introduction/shipman-time.png" img height="400px" align="right" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<div style="font-size: 50%" align="right">
+<br/> Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+</div>
+
+<!-- This analysis of the victims identified by the inquiry raises further questions about the way he committed his murders. Some statistical evidence is provided by data on the time of day of the death of his supposed victims, as recorded on the death certificate. Figure 0.2 is a line graph comparing the times of day that Shipman’s patients died to the times that a sample of patients of other local family doctors died. The pattern does not require subtle analysis: the conclusion is sometimes known as ‘inter-ocular’, since it hits you between the eyes. Shipman’s patients tended overwhelmingly to die in the early afternoon.
+
+The data cannot tell us why they tended to die at that time, but further investigation revealed that he performed his home visits after lunch, when he was generally alone with his elderly patients.  
+
+Later in this book, in Chapter 10, we will see whether formal statistical analysis could have helped catch Shipman earlier.fn2
+-->
+
+---
+## Perche' siamo qui?
+
+<span style="display:block; height:30px;"></span>
+
+- perché i "numeri" (o meglio, il modo in cui sono presentati) a volte ingannano!
+- perche' i "numeri" (e il modo in cui sono presentati) ci aiutano a descrivere, capire e cambiare il mondo
+
+
+---
+## Perche' siamo qui?
+
+<span style="display:block; height:30px;"></span>
+
+- per imparare a leggere, comprendere e analizzare criticamente documenti scientifici o divulgativi
+- per essere in grado di effettuare ricerche che comportino l’acquisizione, l’elaborazione e l’analisi di dati
+
+<span style="display:block; height:120px;"></span>
+
+<div style="font-size: 150%" align="right">
+<b>Data literacy</b>
+</div>
+
+---
+
+<span style="display:block; height:200px;"></span>
+
+
+## La ricerca scientifica
+
+<!-- Iniziamo a spostarci piu' verso il terreno che ci interessa, ovvero come avviene la ricerca scientifica e che ruolo gioca la statistica -->
+
+---
+## In principio c'e' sempre una domanda
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+> Perche' i soldati, al fronte, muoiono?
+
+</div>
+<div>
+
+
+
+</div>
+</div>
+
+---
+## Poi si prepara un piano di azione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+* Come rispondo alla mia domanda?
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+
+<center>
+<img src="./img/introduction/220px-Florence_Nightingale_(H_Hering_NPG_x82368).jpg" img height="450px" align="right" border="4px"/>
+</center>
+
+<div style="font-size: 50%">
+
+</div>
+
+</div>
+</div>
+
+
+
+<!-- Serve qualcuno che non solo si ponga la domanda, ma sappia anche come rispondere. 
+
+Sapete chi e questa persona?
+
+Florence Nightingale era un'infermiera britannica che e' considerata la madre dell'infermieristica come la intendiamo oggi, un titolo che si e' guadagnato durante la guerra di Crimea, quando era sovrintendente di un ospedale di Instambul. 
+
+
+Appena arrivata ad Instabul, Florence, si accorge subito delle pessime condizioni di sovraffollameto e pulizia, ma oltre a cercare di mettere una pezza, pulendo e disinfettando tutto con le sue infermiere, -->
+
+---
+## Poi si raccolgono i dati
 
 <div class="columns"> 
 <div>
 
+
 </div>
 <div>
 
+<span style="display:block; height:1px;"></span>
+
 <center>
-<img src="./img/introduction/220px-Florence_Nightingale_(H_Hering_NPG_x82368).jpg" img height="500px" align="right" border="4px"/>
+<img src="./img/introduction/reparto-ospedaliero-a-scutari-joseph-austin-benwell-1856-circa_b35770b5_800x481.jpg" img height="450px" align="right" border="4px"/>
 </center>
 
+<div style="font-size: 50%" align="right">
+
+<br/> Reparto ospedaliero a Scutari. J.A. Benwell. 1856 circa
+</div>
+
 </div>
 </div>
 
-<!-- Florence Nightingale era un'infermiera britannica che e' considerata la madre dell'infermieristica come la intendiamo oggi, un titolo che si e' guadagnato durante la guerra di Crimea, quando era sovrintendente di un ospedale di Instambul. 
-
-Appena arrivata ad Instabul, Florence, si accorge subito delle pessime condizioni di sovraffollameto e pulizia, ma oltre a cercare di mettere una pezza, pulendo e disinfettando tutto con le sue infermiere, si mette anche a raccogliere dati, soprattutto sulle cause di morte dei soldati. -->
+<!--  si mette anche a raccogliere dati, soprattutto sulle cause di morte dei soldati -->
 
 ---
-## Florence Nightingale
+## Poi i dati vengono analizzati
 
 <span style="display:block; height:1px;"></span>
 
@@ -417,40 +793,51 @@ Appena arrivata ad Instabul, Florence, si accorge subito delle pessime condizion
 <!-- E questi dati non solo li raccoglie, ma li riassume e presenta anche sotto forma di polar diagram, che spedisce regolarmente al governo britannico. 
 
 Come si legge il grafico. Blu = malattie infettive, Rosso = ferite riportate in battaglia, nero = altre cause
+-->
 
-E cosa concludiamo? 
+
+---
+## Finalmente possiamo trarre delle conclusioni
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/introduction/Unknown_artist_-_Florence_Nightingale_(1820_-_1910)_at_Scutari_Hospital_in_Turkey_around_1855_-_(MeisterDrucke-1007503).jpg" img height="450px"  border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+<br/> Florence Nightingale (1820 - 1910) at Scutari Hospital in Turkey around 1855, Artista ignoto
+</div>
+
+<!-- E cosa concludiamo? 
 Che migliorare le condizioni igenice (pulizia, luce, ventilazione, ...) degli ospedali, aumenta le possibilita' di salvare il paziente. 
 
 E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e presentare i dati, e nel prendere delle decisioni basate su di essi. Insomma, grazie alla statistica. -->
 
 ---
-## Perche' siamo qui?
+## Le fasi della ricerca
 
-<span style="display:block; height:30px;"></span>
-
-<div class="columns"> 
-<div>
-
-- perché i "numeri" (o meglio, il modo in cui sono presentati) a volte ingannano!
-- perche' i "numeri" (e il modo in cui sono presentati) possono fare la differenza
-
-</div>
-<div>
+<span style="display:block; height:2px;"></span>
 
 <center>
-<img src="./img/introduction/Hygiene-Signs.png" img height="400px" align="right" b0order="0px"/>
+<img src="./img/sampling/PPDAC.png" img height="450px" border="0px"/>
 </center>
 
+<div style="font-size: 50%" align="right">
+<br/> Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 </div>
-</div>
 
----
-## Perche' siamo qui?
+<!--The first stage of the cycle is specifying a Problem; statistical inquiry always starts with a question, such as our asking about the pattern of Harold Shipman’s murders or the number of trees in the world. Later in this book we shall focus on problems ranging from the expected benefit of different therapies immediately following breast cancer surgery, to why old men have big ears.
 
-<span style="display:block; height:30px;"></span>
+It is tempting to skip over the need for a careful Plan. The Shipman question simply required the collection of as much data as possible on his victims. But the people counting trees paid meticulous attention to precise definitions and how to carry out the measurements, since confident conclusions can only be drawn from a study which has been appropriately designed. Unfortunately, in the rush to get data and start analysis, attention to design is often glossed over.
+Collecting good Data requires the kind of organizational and coding skills that are being seen as increasingly important in data science, particularly as data from routine sources may need a lot of cleaning in order to get it ready to be analysed. Data collection systems may have changed over time, there may be obvious errors, and so on – the phrase ‘found data’ neatly communicates that it may be rather messy, like something picked up in the street.
 
-- per imparare a leggere, comprendere e analizzare criticamente documenti scientifici o divulgativi
-- per essere in grado di effettuare ricerche che comportino l’acquisizione, l’elaborazione e l’analisi di dati
+The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.
+
+Although in practice the PPDAC cycle laid out in Figure 0.3 may not be followed precisely, it underscores that formal techniques for statistical analysis play only one part in the work of a statistician or data scientist. Statistical science is a lot more than a branch of mathematics involving esoteric formulae with which generations of students have (often reluctantly) struggled.
+
+Teaching statistics is changing from a focus on mathematical methods to one based on an entire problem-solving cycle.
+-->
 
 ---
 ## Cos'e' la statistica?
@@ -465,101 +852,6 @@ grandi gruppi sulla base di dati raccolti in gruppi piu' ristretti  <br/> &nbsp;
 <!-- - Individuare in maniera efficiente i tratti importanti delle informazioni che sono state raccolte
 
 - Partire dal particolare per capire come le informazioni si possono estendere alla totalità -->
-
----
-## Cosa vorreste imparare?
-
-<span style="display:block; height:60px;"></span>
-
-- Scrivete almeno 3 argomenti che vorreste imparare e/o approfondire
-
-<span style="display:block; height:160px;"></span>
-
-
-<style>
-  #countdown_queston_3{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_queston_3.running {
-    background-color: green;
-  }
-  #countdown_queston_3.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_queston_3"></button>
-
-<script>
-<!--
-const countdown_queston_3= document.getElementById("countdown_queston_3");
-const seconds_queston_3= 300; // seconds_queston_3
-let timeLeft_queston_3= seconds_queston_3;
-let timerInterval_queston_3= null;
-
-function formatTime_queston_3(seconds_queston_3) {
-  const minutes = Math.floor(seconds_queston_3/ 60);
-  const remainingseconds_queston_3= seconds_queston_3% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_queston_3).padStart(2, '0')}`;
-}
-
-function updateButton_queston_3() {
-  countdown_queston_3.textContent = formatTime_queston_3(timeLeft_queston_3);
-}
-
-function startTimer_queston_3() {
-  if (timerInterval_queston_3=== null) {
-    countdown_queston_3.classList.add('running');
-    countdown_queston_3.classList.remove('finished');
-    timerInterval_queston_3= setInterval(() => {
-      if (timeLeft_queston_3> 0) {
-        timeLeft_queston_3--;
-        updateButton_queston_3();
-      } else {
-        clearInterval(timerInterval_queston_3);
-        timerInterval_queston_3= null;
-        countdown_queston_3.classList.remove('running');
-        countdown_queston_3.classList.add('finished');
-        countdown_queston_3.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_queston_3();
-  }
-}
-
-function pauseTimer_queston_3() {
-  clearInterval(timerInterval_queston_3);
-  timerInterval_queston_3= null;
-  countdown_queston_3.classList.remove('running');
-}
-
-function resetTimer_queston_3() {
-  timeLeft_queston_3= seconds_queston_3;
-  updateButton_queston_3();
-  countdown_queston_3.classList.remove('finished');
-  countdown_queston_3.classList.remove('running');
-  timerInterval_queston_3= null;
-}
-
-countdown_queston_3.addEventListener("click", () => {
-  if (countdown_queston_3.classList.contains('finished')) {
-    resetTimer_queston_3();
-  } else {
-    startTimer_queston_3();
-  }
-});
-
-updateButton_queston_3();
--->
-</script>
 
 ---
 

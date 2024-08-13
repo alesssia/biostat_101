@@ -5,7 +5,9 @@ library(ggplot2)
 library(tidyverse)
 library(dplyr)
 library(waffle)
-library(extrafont)
+library(ggbeeswarm)
+library(gghalves)
+library(ggrepel)
 
 font.size <- 22
 graphic.settings <- theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) +  theme(legend.title = element_blank()) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size))
@@ -98,3 +100,80 @@ g <- waffle(tmp[, c("stage", "proportion")], rows = 10, colors = c("#66C2A5", "#
 png("MStage_waffle.png")
 print(g)
 dev.off()
+
+
+## Quantitative variables
+
+
+p <- ggplot(md, aes(x=age)) + geom_histogram(fill="gray74", binwidth=1, color="black") + graphic.settings + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 1")
+
+png("Age_histogram_bin1.png")
+print(p)
+dev.off()
+
+p <- ggplot(md, aes(x=age)) + geom_histogram(fill="gray74", binwidth=5, color="black") + graphic.settings + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 5")
+
+png("Age_histogram_bin5.png")
+print(p)
+dev.off()
+
+
+md$ORR[md$ORR == 1] <- "Yes"
+md$ORR[md$ORR == 0] <- "No"
+md$ORR <- as.factor(md$ORR)
+
+p <- ggplot(md, aes(x=age, fill=ORR)) + geom_histogram(binwidth=5, color="black", alpha=0.6, position = 'identity') + scale_fill_manual(values=c("#66C2A5", "#FC8D62")) + graphic.settings + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 5") + theme(legend.position="bottom")
+
+png("Age_histogram_bin5_response.png")
+print(p)
+dev.off()
+
+
+data <- data.frame(var1=md$age[md$ORR == "Yes"], var2=c(rep(NA, 10), md$age[md$ORR == "No"]))
+
+p <- ggplot(data, aes(x=x) ) +
+  geom_histogram( aes(x = var1, y=..count..), binwidth=5, color="black", fill="#66C2A5" ) +
+  geom_label( aes(x=100, y=2.5, label="Relative: Yes"), color="#66C2A5") +
+  geom_histogram( aes(x = var2, y=-..count..), binwidth=5, color="black", fill= "#FC8D62") +
+  geom_label( aes(x=100, y=-2.5, label="Relative: No"), color="#FC8D62")  +
+  ylim(-11, 11) + graphic.settings + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 5") + theme(legend.position="bottom") 
+  
+png("Age_histogram_bin5_response_mirror.png")
+print(p)
+dev.off()
+  
+  
+p <- ggplot(md, aes(x=age)) + geom_histogram(aes(y=..density.., fill=ORR), binwidth=5, color="black", alpha=0.6) + scale_fill_manual(values=c("#66C2A5", "#FC8D62")) + scale_color_manual(values=c("#66C2A5", "#FC8D62"))+ graphic.settings + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 5") + theme(legend.position="bottom") + geom_density(aes(colour=ORR), lwd=2)
+
+    
+png("Age_histogram_bin5_response_density.png")
+print(p)
+dev.off()
+
+
+p <- ggplot(md, aes(x=ORR, y=age)) + geom_boxplot(fill="grey84", size=0.8) + graphic.settings + xlab("Response") + ylab("Age (years)") 
+
+
+png("Boxplot_age_ORR_simple.png")
+print(p)
+dev.off()
+
+p <- ggplot(md, aes(x=ORR, y=age)) + geom_boxplot(fill="grey84", outlier.shape = NA, size=0.8) + graphic.settings + xlab("Response") + ylab("Age (years)")  +  geom_beeswarm(size=2, shape=16, colour="grey24", groupOnX=TRUE) 
+
+
+png("Boxplot_age_ORR_dots.png")
+print(p)
+dev.off()
+
+
+
+p <- ggplot(md, aes(x = ORR, y = age)) +
+  geom_half_boxplot(fill="grey84", outlier.shape = NA, size=0.8, nudge = 0.05) + 
+  geom_half_dotplot(colour="grey24", method="histodot", dotsize=0.5) +
+  geom_half_violin(fill="grey84", side = "r", alpha=0.5, nudge = 0.01) + graphic.settings + xlab("Response") + ylab("Age (years)")
+  
+png("Boxplot_age_ORR_violin.png")
+print(p)
+dev.off()  
+  
+ 
