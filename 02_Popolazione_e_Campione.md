@@ -822,7 +822,7 @@ we estimate that over 15 billion trees are cut down each year, and the global nu
 
 <span style="display:block; height:60px;"></span>
 
-* stabilire una legge universale partendo da singoli casi particolari
+- stabilire una legge universale partendo da singoli casi particolari
 
 
 <!-- Quello che abbiamo fatto e' stato in taking particular instances and trying to work out general conclusions.
@@ -834,13 +834,15 @@ Questo e' il contrario del ragionamento deduttivo, using the rules of cold logic
 If the law of the country is that cars should drive on the right, then we can deduce that on any particular occasion it is best to drive on the right. But induction works the other way,  -->
 
 ---
-### In questa lezione abbiamo...
+### Cosa abbiamo imparato in questa lezione?
 
-<span style="display:block; height:20px;"></span>
+<span style="display:block; height:10px;"></span>
 
-- imparato la differenza tra popolazione e campione
-- capito perche' dobbiamo usare un campione della popolazione
-- descritto diversi approcci di campionamento
-- imparato che esistono errori di campionamento e bias
-- introdotto il metodo induttivo
+<div style="font-size: 90%">
 
+- la popolazione e' l'insieme di tutti gli individui per cui vogliamo studiare un fenomeno ed è, teoricamente, infinita
+- il campione e' un sotto insieme (rappresentativo?) della popolazione
+- anche con campioni rappresentativi (casuali) possono esserci errori e/o bias
+- attraverso il metodo induttivo partiamo dalle osservazioni campionarie per trarre conclusioni sulla popolazione generale
+
+</div>

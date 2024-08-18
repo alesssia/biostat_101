@@ -24,8 +24,7 @@ style: |
 
 <span style="display:block; height:50px;"></span>
 
-- Saper calcolare e interpretare diverse misure di centralita' e dispersione
-- Saper calcolare e interpretare un indice di correlazione
+- Saper calcolare e interpretare diverse misure di centralita', dispersione e correlazione
 - Saper visualizzare dati numerici
 - Saper interpretare tabelle e figure in articoli scientifici
 
@@ -2620,24 +2619,24 @@ There is a considerable interest in the so-called ‘volume effect’ in surgery
 -->
 
 ---
-## Visualizziamo di dati (Scatter plot)
+### La relazione tra due variabili numeriche
 
 <span style="display:block; height:1px;"></span>
 
-
 <div class="columns">
+<div>
+
+Pearson's correlation coefficient
+
+* $\rho = 0.82$
+* $\rho_\text{no Bristol} = 0.93$
+
+</div>
 <div>
 
 <center>
 <img src="./img/descriptive/Children_death_vs_surgery.png" img height="500px" border="4px"/>
 </center>
-
-</div>
-<div>
-Pearson's correlation coefficient
-
-* $\rho = 0.82$
-* $\rho_\text{no Bristol} = 0.93$
 
 </div>
 </div>
@@ -2654,6 +2653,52 @@ A Pearson correlation runs between −1 and 1, and expresses how close to a stra
 Attenzione alla causalita':
 - piccoli ospedali hanno magari casi piu' semplici, che spiegano Leeds & Co -->
 
+---
+## Correlazione & valori anomali
+
+<span style="display:block; height:1px;"></span>
+
+
+<div class="columns">
+<div>
+
+Pearson's correlation coefficient
+
+- $\rho = 0.74$
+
+
+</div>
+<div>
+
+<center>
+<img src="./img/descriptive/Basketball.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+---
+## Correlazione & valori anomali
+
+<span style="display:block; height:1px;"></span>
+
+
+<div class="columns">
+<div>
+Pearson's correlation coefficient
+
+- $\rho = 0.74$
+- $\rho_\text{no outliers} = 0.07$
+
+</div>
+<div>
+
+<center>
+<img src="./img/descriptive/Basketball_noout.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
 
 ---
 ## Perche' visualizzare i dati?
@@ -2670,18 +2715,19 @@ Attenzione alla causalita':
 
 </div>
 
----
-## In questa lezione abbiamo...
 
-<span style="display:block; height:20px;"></span>
+---
+### Cosa abbiamo imparato in questa lezione?
+
+<span style="display:block; height:0px;"></span>
 
 <div style="font-size: 90%">
 
-- imparato a calcolare e interpretare diverse misure di centralita', dispersione e correlazione
-- imparato come i valori anomali possono influenzare queste misure
-- presentato diverse tecniche per la visualizzazione di dati numerici, evidenziandone limiti e vantaggi
-- imparato perche' visualizzare i dati e' importante
-- descritto le differenze tra "parametri" e "statistiche"
-<!-- - introdotto il concetto di "Wisdom of crowds" -->
+- Le variabili numeriche possono essere rappresentate con misure di centralita', dispersione e correlazione (statistiche)
+- Alcune statistiche sono "falsate" se le distribuzioni empiriche (la forma dei dati) sono asimmetriche e/o includono valori anomali
+- Le statistiche possono nascondere dettagli importanti dei dati
+- Le variabili numeriche possono essere rappresentate graficamente in diversi modi, ma alcune rappresentazioni possono nascondere dettagli importanti delle distribuzioni sottostanti
+- visualizzare i dati e' importante per "capirli"
 
 </div>
+

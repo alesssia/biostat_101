@@ -565,7 +565,11 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 <!-- Le caratteristiche di una popolazione che differiscono da individuo a
 individuo sono chiamate variabili (sesso, altezza, numero dei battiti
-cardiaci, titolo di studio, età,…) -->
+cardiaci, titolo di studio, età,…) 
+
+the inevitable differences that occur between measurements or observations, some of which may be explained by known factors, and the remainder attributed to random noise.
+
+-->
 
 ---
 ### Exercizio #2
@@ -707,10 +711,14 @@ updateButton_exercise_2();
 [Table 2](https://www.thelancet.com/action/showFullTableHTML?isHtml=true&tableId=tbl0002&pii=S2589-5370%2820%2930168-1)
 
 ---
-## In questa lezione abbiamo...
+### Cosa abbiamo imparato in questa lezione?
 
-<span style="display:block; height:50px;"></span>
+<span style="display:block; height:10px;"></span>
 
-- definito cos'e' un dato
-- proposto un piano di raccolta dati a partire da un problema
-- spiegato le differenze tra i diversi tipi di dati
+<div style="font-size: 90%">
+
+- Che l'informazione (o dati) viene codificata in variabili, la cui variabilita' (differenze che vediamo tra le osservazioni) dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
+- Come pianificare la raccolta dati a partire da un problema
+- Le differenze tra i diversi tipi di dati
+
+</div>

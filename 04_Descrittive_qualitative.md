@@ -32,6 +32,16 @@ style: |
 - Saper visualizzare dati categorici
 - Saper interpretare tabelle e figure in articoli scientifici
 
+<!-- ---
+## Distribuzione campionaria
+
+<span style="display:block; height:60px;"></span>
+
+- la "forma" di un insieme di variabili categoriche o numeriche 
+- anche chiamata "distribuzione empirica"
+
+Vedremo tra qualche lezione la distribuzione della popolazione -->
+
 ---
 
 ### I tipi di dato
@@ -1078,12 +1088,16 @@ In Figure 1.4 the ‘cancer’ icons are randomly scattered among the 100. While
  -->
 
 ---
-
-## In questa lezione abbiamo
+### Cosa abbiamo imparato in questa lezione?
 
 <span style="display:block; height:20px;"></span>
 
-- imparato a costruire e interpretare tabelle di frequenzae  di contingenza
-- imparato come passare da valori numerici a valori categorici
-- presentato diverse tecniche per la visualizzazione di dati categorici, evidenziandone limiti e vantaggi
+<div style="font-size: 90%">
+
+- Le variabili categoriche possono essere rappresentate con le loro frequenze, assolute o relative
+- Tabelle di frequenze e di contingenza ci aiutano a paragonare, a colpo d'occhio, due o piu' variabili
+- Variabili numeriche possono essere trasformate in variabili categoriche attravero la loro "discretizzazione"
+- Le variabili categoriche possono essere rappresentate graficamente in diversi modi, ma bar chart sono da preferire, seguiti da waffle chart
+
+</div>
 
