@@ -2616,6 +2616,8 @@ Sto mostrando sia morti che sopravvissuti per evirare positive/negative framing,
 <!-- Qui si vede gia' la differenza con Bristol 
 
 There is a considerable interest in the so-called ‘volume effect’ in surgery – the claim that busier hospitals get better survival rates, possibly since they achieve greater efficiency and have more experience.
+
+
 -->
 
 ---
@@ -2646,12 +2648,17 @@ A scatterplot displays the relationship between 2 numeric variables. For each da
 
 Notare assi non a zero. Per lo scatter va bene.
 
+
 launched an investigation after complaints from Joshua’s and other bereaved parents, and in 1998 two surgeons and the ex-chief executive were found guilty of serious medical misconduct. 
 
 A Pearson correlation runs between −1 and 1, and expresses how close to a straight line the dots or data-points fall. A correlation of 1 occurs if all the points lie on a straight line going upwards, while a correlation of −1 occurs if all the points lie on a straight line going downwards. A correlation near 0 can come from a random scatter of points, or any other pattern in which there is no systematic trend upwards or downwards
 
 Attenzione alla causalita':
-- piccoli ospedali hanno magari casi piu' semplici, che spiegano Leeds & Co -->
+0- the high correlation showed that bigger hospitals were associated with lower mortality. But we could not conclude that bigger hospitals caused the lower mortality.
+- piccoli ospedali hanno magari casi piu' semplici, che spiegano Leeds & Co 
+
+But, as we shall explore further in Chapter 4 on causation, this presupposes the direction in which the influence might lie. Even in Figure 2.5(a) we cannot conclude that the higher survival rates were in any sense caused by the increased number of cases – in fact it could even be the other way round: better hospitals simply attracted more patients.
+-->
 
 ---
 ## Correlazione & valori anomali

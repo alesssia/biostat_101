@@ -209,6 +209,96 @@ It is an impressive achievement to be able to summarize over a million births by
 
 </div>
 
+</div>
+
+<span style="display:block; height:30px;"></span>
+
+<style>
+  #countdown_exercise_1{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float:right;
+  }
+  #countdown_exercise_1.running {
+    background-color: green;
+  }
+  #countdown_exercise_1.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_1"></button>
+
+<script>
+<!--
+const countdown_exercise_1= document.getElementById("countdown_exercise_1");
+const seconds_exercise_1= 60; // seconds_exercise_1
+let timeLeft_exercise_1= seconds_exercise_1;
+let timerInterval_exercise_1= null;
+
+function formatTime_exercise_1(seconds_exercise_1) {
+  const minutes = Math.floor(seconds_exercise_1/ 60);
+  const remainingseconds_exercise_1= seconds_exercise_1% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_1).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_1() {
+  countdown_exercise_1.textContent = formatTime_exercise_1(timeLeft_exercise_1);
+}
+
+function startTimer_exercise_1() {
+  if (timerInterval_exercise_1=== null) {
+    countdown_exercise_1.classList.add('running');
+    countdown_exercise_1.classList.remove('finished');
+    timerInterval_exercise_1= setInterval(() => {
+      if (timeLeft_exercise_1> 0) {
+        timeLeft_exercise_1--;
+        updateButton_exercise_1();
+      } else {
+        clearInterval(timerInterval_exercise_1);
+        timerInterval_exercise_1= null;
+        countdown_exercise_1.classList.remove('running');
+        countdown_exercise_1.classList.add('finished');
+        countdown_exercise_1.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_1();
+  }
+}
+
+function pauseTimer_exercise_1() {
+  clearInterval(timerInterval_exercise_1);
+  timerInterval_exercise_1= null;
+  countdown_exercise_1.classList.remove('running');
+}
+
+function resetTimer_exercise_1() {
+  timeLeft_exercise_1= seconds_exercise_1;
+  updateButton_exercise_1();
+  countdown_exercise_1.classList.remove('finished');
+  countdown_exercise_1.classList.remove('running');
+  timerInterval_exercise_1= null;
+}
+
+countdown_exercise_1.addEventListener("click", () => {
+  if (countdown_exercise_1.classList.contains('finished')) {
+    resetTimer_exercise_1();
+  } else {
+    startTimer_exercise_1();
+  }
+});
+
+updateButton_exercise_1();
+-->
+</script>
+
+
 ---
 
 ## Esercizio #1 -- Soluzione
@@ -272,6 +362,95 @@ It is an impressive achievement to be able to summarize over a million births by
 </center>
 
 </div>
+</div>
+
+<span style="display:block; height:30px;"></span>
+
+<style>
+  #countdown_exercise_2{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float:right;
+  }
+  #countdown_exercise_2.running {
+    background-color: green;
+  }
+  #countdown_exercise_2.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_2"></button>
+
+<script>
+<!--
+const countdown_exercise_2= document.getElementById("countdown_exercise_2");
+const seconds_exercise_2= 60; // seconds_exercise_2
+let timeLeft_exercise_2= seconds_exercise_2;
+let timerInterval_exercise_2= null;
+
+function formatTime_exercise_2(seconds_exercise_2) {
+  const minutes = Math.floor(seconds_exercise_2/ 60);
+  const remainingseconds_exercise_2= seconds_exercise_2% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_2).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_2() {
+  countdown_exercise_2.textContent = formatTime_exercise_2(timeLeft_exercise_2);
+}
+
+function startTimer_exercise_2() {
+  if (timerInterval_exercise_2=== null) {
+    countdown_exercise_2.classList.add('running');
+    countdown_exercise_2.classList.remove('finished');
+    timerInterval_exercise_2= setInterval(() => {
+      if (timeLeft_exercise_2> 0) {
+        timeLeft_exercise_2--;
+        updateButton_exercise_2();
+      } else {
+        clearInterval(timerInterval_exercise_2);
+        timerInterval_exercise_2= null;
+        countdown_exercise_2.classList.remove('running');
+        countdown_exercise_2.classList.add('finished');
+        countdown_exercise_2.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_2();
+  }
+}
+
+function pauseTimer_exercise_2() {
+  clearInterval(timerInterval_exercise_2);
+  timerInterval_exercise_2= null;
+  countdown_exercise_2.classList.remove('running');
+}
+
+function resetTimer_exercise_2() {
+  timeLeft_exercise_2= seconds_exercise_2;
+  updateButton_exercise_2();
+  countdown_exercise_2.classList.remove('finished');
+  countdown_exercise_2.classList.remove('running');
+  timerInterval_exercise_2= null;
+}
+
+countdown_exercise_2.addEventListener("click", () => {
+  if (countdown_exercise_2.classList.contains('finished')) {
+    resetTimer_exercise_2();
+  } else {
+    startTimer_exercise_2();
+  }
+});
+
+updateButton_exercise_2();
+-->
+</script>
+
 
 ---
 
@@ -405,6 +584,92 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 
 </div>
 
+<style>
+  #countdown_exercise_3{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_3.running {
+    background-color: green;
+  }
+  #countdown_exercise_3.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_3"></button>
+
+<script>
+<!--
+const countdown_exercise_3= document.getElementById("countdown_exercise_3");
+const seconds_exercise_3= 480; // seconds_exercise_3
+let timeLeft_exercise_3= seconds_exercise_3;
+let timerInterval_exercise_3= null;
+
+function formatTime_exercise_3(seconds_exercise_3) {
+  const minutes = Math.floor(seconds_exercise_3/ 60);
+  const remainingseconds_exercise_3= seconds_exercise_3% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_3).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_3() {
+  countdown_exercise_3.textContent = formatTime_exercise_3(timeLeft_exercise_3);
+}
+
+function startTimer_exercise_3() {
+  if (timerInterval_exercise_3=== null) {
+    countdown_exercise_3.classList.add('running');
+    countdown_exercise_3.classList.remove('finished');
+    timerInterval_exercise_3= setInterval(() => {
+      if (timeLeft_exercise_3> 0) {
+        timeLeft_exercise_3--;
+        updateButton_exercise_3();
+      } else {
+        clearInterval(timerInterval_exercise_3);
+        timerInterval_exercise_3= null;
+        countdown_exercise_3.classList.remove('running');
+        countdown_exercise_3.classList.add('finished');
+        countdown_exercise_3.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_3();
+  }
+}
+
+function pauseTimer_exercise_3() {
+  clearInterval(timerInterval_exercise_3);
+  timerInterval_exercise_3= null;
+  countdown_exercise_3.classList.remove('running');
+}
+
+function resetTimer_exercise_3() {
+  timeLeft_exercise_3= seconds_exercise_3;
+  updateButton_exercise_3();
+  countdown_exercise_3.classList.remove('finished');
+  countdown_exercise_3.classList.remove('running');
+  timerInterval_exercise_3= null;
+}
+
+countdown_exercise_3.addEventListener("click", () => {
+  if (countdown_exercise_3.classList.contains('finished')) {
+    resetTimer_exercise_3();
+  } else {
+    startTimer_exercise_3();
+  }
+});
+
+updateButton_exercise_3();
+-->
+</script>
+
+
 ---
 
 ## Esercizio #3 -- Soluzione
@@ -504,6 +769,92 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 50%
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 75%
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono piu' informazioni per poter rispondere
+
+<style>
+  #countdown_exercise_4{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float:right;
+  }
+  #countdown_exercise_4.running {
+    background-color: green;
+  }
+  #countdown_exercise_4.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_4"></button>
+
+<script>
+<!--
+const countdown_exercise_4= document.getElementById("countdown_exercise_4");
+const seconds_exercise_4= 60; // seconds_exercise_4
+let timeLeft_exercise_4= seconds_exercise_4;
+let timerInterval_exercise_4= null;
+
+function formatTime_exercise_4(seconds_exercise_4) {
+  const minutes = Math.floor(seconds_exercise_4/ 60);
+  const remainingseconds_exercise_4= seconds_exercise_4% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_4).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_4() {
+  countdown_exercise_4.textContent = formatTime_exercise_4(timeLeft_exercise_4);
+}
+
+function startTimer_exercise_4() {
+  if (timerInterval_exercise_4=== null) {
+    countdown_exercise_4.classList.add('running');
+    countdown_exercise_4.classList.remove('finished');
+    timerInterval_exercise_4= setInterval(() => {
+      if (timeLeft_exercise_4> 0) {
+        timeLeft_exercise_4--;
+        updateButton_exercise_4();
+      } else {
+        clearInterval(timerInterval_exercise_4);
+        timerInterval_exercise_4= null;
+        countdown_exercise_4.classList.remove('running');
+        countdown_exercise_4.classList.add('finished');
+        countdown_exercise_4.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_4();
+  }
+}
+
+function pauseTimer_exercise_4() {
+  clearInterval(timerInterval_exercise_4);
+  timerInterval_exercise_4= null;
+  countdown_exercise_4.classList.remove('running');
+}
+
+function resetTimer_exercise_4() {
+  timeLeft_exercise_4= seconds_exercise_4;
+  updateButton_exercise_4();
+  countdown_exercise_4.classList.remove('finished');
+  countdown_exercise_4.classList.remove('running');
+  timerInterval_exercise_4= null;
+}
+
+countdown_exercise_4.addEventListener("click", () => {
+  if (countdown_exercise_4.classList.contains('finished')) {
+    resetTimer_exercise_4();
+  } else {
+    startTimer_exercise_4();
+  }
+});
+
+updateButton_exercise_4();
+-->
+</script>
+
 
 ---
 
@@ -717,7 +1068,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x \geq 1500) = \text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500) = \text{ ?}$
 
 ---
 ## Calcoliamo la probabilita'/proporzione
@@ -807,6 +1158,6 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 - diversi fenomeni naturali sono normalmente distribuiti
 - la normale e' definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilita'
 - la distribuzione (normale) di una popolazione ci fornisce la probabilita' di estrarre un individuo da quella popolazione ma anche la sua frequenza nella popolazione 
-- se i dati sono normalmente distribuiti, il 68% della popolazione si trova a 1 SD dalla media, il 95% a 2 e il 99.7% a 3
+- se i dati sono normalmente distribuiti, il 68% della popolazione si trova a 1 SD dalla media, il 95% a 2 SD e il 99.7% a 3 SD
 
 </div>
