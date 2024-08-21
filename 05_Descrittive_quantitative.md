@@ -34,6 +34,26 @@ Le tabelle di frequenza dopo una procedura di discretizzazione non sono pero' il
 -->
 
 ---
+## Le fasi della ricerca
+
+<span style="display:block; height:2px;"></span>
+
+<center>
+<img src="./img/descriptive/PPDAC_quantitative.png" img height="450px" border="0px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
+</div>
+
+<!-- The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. 
+
+Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.
+ -->
+
+---
 
 ## Misure di centralita' e dispersione
 
@@ -1835,7 +1855,7 @@ updateButton_exercise_13();
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -1867,7 +1887,7 @@ Avoid filling with color palettes. -->
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -1891,7 +1911,7 @@ Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immu
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -1915,7 +1935,7 @@ Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immu
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -1941,7 +1961,7 @@ Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immu
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -1970,7 +1990,7 @@ Questa e' leggermente bimodale-->
 <span style="display:block; height:70px;"></span>
 
 <center>
-<img src="./img/visualization/434px-Relationship_between_mean_and_median_under_different_skewness.png" img height="350px" border="0px"/>
+<img src="./img/visualization/434px-Relationship_between_mean_and_median_under_different_skewness.png" img height="300px" border="0px"/>
 </center>
 
 ---
@@ -2044,7 +2064,7 @@ https://nightingaledvs.com/ive-stopped-using-box-plots-should-you/
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -2068,7 +2088,7 @@ Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immu
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -2517,7 +2537,9 @@ So why are men reporting so many more partners than women in this age group of 3
 </center>
 
 <div style="font-size: 50%" align="right">
-<br/> Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
 </div>
 
 
@@ -2561,9 +2583,9 @@ Brompton |        301 |       270 |     31 |              89.7 |            10.3
 
 <div style="font-size: 40%" align="right">
 
- D.J. Spiegelhalter *et al.*, *Commissioned Analysis of Surgical Performance Using Routine Data: <br/> Lessons from the Bristol Inquiry, 2002, Journal of the Royal Statistical Society Series A: Statistics in Society*
+D.J. Spiegelhalter *et al.*, *Commissioned Analysis of Surgical Performance Using Routine Data: <br/> Lessons from the Bristol Inquiry*, 2002, Journal of the Royal Statistical Society Series A: Statistics in Society
 
- </div>
+</div>
 
 
 <!-- Public concern did not die down, and an official inquiry was ordered: this brought in a team of statisticians who were given the grim task of comparing the survival rates in Bristol with elsewhere in the UK between 1984 and 1995. 
@@ -2584,8 +2606,6 @@ Sto mostrando sia morti che sopravvissuti per evirare positive/negative framing,
 
 </div>
 <div>
-
-
 
 </div>
 </div>
@@ -2615,10 +2635,7 @@ Sto mostrando sia morti che sopravvissuti per evirare positive/negative framing,
 
 <!-- Qui si vede gia' la differenza con Bristol 
 
-There is a considerable interest in the so-called ‘volume effect’ in surgery – the claim that busier hospitals get better survival rates, possibly since they achieve greater efficiency and have more experience.
-
-
--->
+There is a considerable interest in the so-called ‘volume effect’ in surgery – the claim that busier hospitals get better survival rates, possibly since they achieve greater efficiency and have more experience. -->
 
 ---
 ### La relazione tra due variabili numeriche
@@ -2734,7 +2751,7 @@ Pearson's correlation coefficient
 - Alcune statistiche sono "falsate" se le distribuzioni empiriche (la forma dei dati) sono asimmetriche e/o includono valori anomali
 - Le statistiche possono nascondere dettagli importanti dei dati
 - Le variabili numeriche possono essere rappresentate graficamente in diversi modi, ma alcune rappresentazioni possono nascondere dettagli importanti delle distribuzioni sottostanti
-- visualizzare i dati e' importante per "capirli"
+- Visualizzare i dati e' importante per interpretarli
 
 </div>
 

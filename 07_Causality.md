@@ -29,6 +29,26 @@ style: |
 - Conoscere alcuni approcci statistici per identificare causalita' 
 
 ---
+## Le fasi della ricerca
+
+<span style="display:block; height:2px;"></span>
+
+<center>
+<img src="./img/causality/PPDAC.png" img height="450px" border="0px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
+</div>
+
+<!-- The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. 
+
+Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.
+ -->
+
+---
 ## Chi causa cosa?
 
 <span style="display:block; height:1px;"></span>
@@ -397,6 +417,6 @@ These guidelines might enable causation to be determined from anecdotal evidence
 
 - Causalita', in senso statisto, implica che, a seguito di un intervento, le proabilita' di eventi diversi cambino
 - Stabilire un nesso causale in senso statistico non e' semplice, e il modo migliore e' via studi randomizzati, a patto che siano ben disegnati
-- gli studi osservazionali possono essere influenzati da fattori esterni, e mentre ci sono approcchi statistici per controllare questa influenza, serve buon senso e conoscenza del dominio per distringuere correlazione da causa
+- Gli studi osservazionali possono essere influenzati da fattori esterni, e mentre ci sono approcchi statistici per controllare questa influenza, serve buon senso e conoscenza del dominio per distringuere correlazione da causa
 
 </div>

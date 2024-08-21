@@ -34,6 +34,26 @@ style: |
 </div>
 
 ---
+## Le fasi della ricerca
+
+<span style="display:block; height:2px;"></span>
+
+<center>
+<img src="./img/normal_and_CLT/PPDAC.png" img height="450px" border="0px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
+</div>
+
+<!-- The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. 
+
+Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.
+ -->
+
+---
 
 ## La distribuzione della popolazione
 
@@ -1154,10 +1174,10 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 
 <div style="font-size: 90%">
 
-- la popolazione viene rappresentata con dei parametri equivalenti alle statistiche usate per i campioni
-- diversi fenomeni naturali sono normalmente distribuiti
-- la normale e' definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilita'
-- la distribuzione (normale) di una popolazione ci fornisce la probabilita' di estrarre un individuo da quella popolazione ma anche la sua frequenza nella popolazione 
-- se i dati sono normalmente distribuiti, il 68% della popolazione si trova a 1 SD dalla media, il 95% a 2 SD e il 99.7% a 3 SD
+- La popolazione viene rappresentata con dei parametri equivalenti alle statistiche usate per i campioni
+- Diversi fenomeni naturali sono normalmente distribuiti
+- La normale e' definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilita'
+- La distribuzione (normale) di una popolazione ci fornisce la probabilita' di estrarre un individuo da quella popolazione ma anche la sua frequenza nella popolazione 
+- Se i dati sono normalmente distribuiti, il 68% della popolazione si trova a 1 SD dalla media, il 95% a 2 SD e il 99.7% a 3 SD
 
 </div>

@@ -26,6 +26,27 @@ style: |
 - Saper pianificare una raccolta dati 
 
 ---
+## Le fasi della ricerca
+
+<span style="display:block; height:2px;"></span>
+
+<center>
+<img src="./img/data/PPDAC.png" img height="450px" border="0px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
+</div>
+
+<!-- The first stage of the cycle is specifying a Problem.
+
+It is tempting to skip over the need for a careful Plan. Confident conclusions can only be drawn from a study which has been appropriately designed. Unfortunately, in the rush to get data and start analysis, attention to design is often glossed over.
+
+Collecting good Data requires the kind of organizational and coding skills that are being seen as increasingly important in data science, particularly as data from routine sources may need a lot of cleaning in order to get it ready to be analysed. Data collection systems may have changed over time, there may be obvious errors, and so on – the phrase ‘found data’ neatly communicates that it may be rather messy, like something picked up in the street. -->
+
+---
 
 <span style="display:block; height:200px;"></span>
 
@@ -499,7 +520,7 @@ updateButton_exercise();
 
 <div style="font-size: 50%">
 	
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -532,7 +553,7 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 <div style="font-size: 50%">
 	
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 

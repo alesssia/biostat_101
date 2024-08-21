@@ -63,10 +63,6 @@ style: |
 ---
 ## Un po' di interazione, per favore :pray:
 
-<!-- <span style="display:block; height:10px;"></span> -->
-
-<!-- <img src="./img/introduction/qr_code.png" img height="300px" align="right" border="4px"/> -->
-
 <span style="display:block; height:60px;"></span>
 
 - Alzando la mano durante la lezione
@@ -505,8 +501,9 @@ This increased attention to autism and its symptoms may also explain the rise in
 </center>
 
 <div style="font-size: 50%" align="right">
-<br/>
-Sies, H., *A new parameter for sex education*. Nature, 1988, doi:10.1038/332495a0
+
+<br/> Sies, H., *A new parameter for sex education*. Nature, 1988, doi:10.1038/332495a0
+
 <div>
 
 
@@ -533,11 +530,28 @@ Artefatto dovuto alla doppia scala, ne parleremo ancora quando vedremo la visual
 
 - perché i "numeri" (o meglio, il modo in cui sono presentati) a volte ingannano!
 
-<span style="display:block; height:40px;"></span>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/introduction/correlation.png" img height="200px" border="4px"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./img/introduction/correlation.png" img height="185px" border="4px"/>
 </center>
+
+</div>
+<div>
+
+<center>
+<img src="./img/introduction/tobacco.png" img height="330px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+
+
 
 <!-- The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.
 
@@ -625,7 +639,9 @@ Uno studio statistico, fatto confrontando il numero di decessi tra i pazienti di
 </div>
 
 <div style="font-size: 50%" align="right">
-<br/> Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
 </div>
 
 <!-- 
@@ -657,7 +673,9 @@ There are more black than white dots, and so Shipman’s victims were mainly wom
 </div>
 
 <div style="font-size: 50%" align="right">
+
 <br/> Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
 </div>
 
 <!-- This analysis of the victims identified by the inquiry raises further questions about the way he committed his murders. Some statistical evidence is provided by data on the time of day of the death of his supposed victims, as recorded on the death certificate. Figure 0.2 is a line graph comparing the times of day that Shipman’s patients died to the times that a sample of patients of other local family doctors died. The pattern does not require subtle analysis: the conclusion is sometimes known as ‘inter-ocular’, since it hits you between the eyes. Shipman’s patients tended overwhelmingly to die in the early afternoon.
@@ -774,6 +792,7 @@ Appena arrivata ad Instabul, Florence, si accorge subito delle pessime condizion
 <div style="font-size: 50%" align="right">
 
 <br/> Reparto ospedaliero a Scutari. J.A. Benwell. 1856 circa
+
 </div>
 
 </div>
@@ -806,7 +825,9 @@ Come si legge il grafico. Blu = malattie infettive, Rosso = ferite riportate in 
 </center>
 
 <div style="font-size: 50%" align="right">
-<br/> Florence Nightingale (1820 - 1910) at Scutari Hospital in Turkey around 1855, Artista ignoto
+
+Florence Nightingale (1820 - 1910) at Scutari Hospital in Turkey around 1855, Artista ignoto
+
 </div>
 
 <!-- E cosa concludiamo? 
@@ -820,16 +841,19 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 <span style="display:block; height:2px;"></span>
 
 <center>
-<img src="./img/sampling/PPDAC.png" img height="450px" border="0px"/>
+<img src="./img/introduction/PPDAC.png" img height="450px" border="0px"/>
 </center>
 
 <div style="font-size: 50%" align="right">
-<br/> Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
 </div>
 
 <!--The first stage of the cycle is specifying a Problem; statistical inquiry always starts with a question, such as our asking about the pattern of Harold Shipman’s murders or the number of trees in the world. Later in this book we shall focus on problems ranging from the expected benefit of different therapies immediately following breast cancer surgery, to why old men have big ears.
 
 It is tempting to skip over the need for a careful Plan. The Shipman question simply required the collection of as much data as possible on his victims. But the people counting trees paid meticulous attention to precise definitions and how to carry out the measurements, since confident conclusions can only be drawn from a study which has been appropriately designed. Unfortunately, in the rush to get data and start analysis, attention to design is often glossed over.
+
 Collecting good Data requires the kind of organizational and coding skills that are being seen as increasingly important in data science, particularly as data from routine sources may need a lot of cleaning in order to get it ready to be analysed. Data collection systems may have changed over time, there may be obvious errors, and so on – the phrase ‘found data’ neatly communicates that it may be rather messy, like something picked up in the street.
 
 The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.

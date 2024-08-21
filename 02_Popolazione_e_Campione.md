@@ -31,7 +31,26 @@ style: |
 
 </div>
 
+---
+## Le fasi della ricerca
 
+<span style="display:block; height:2px;"></span>
+
+<center>
+<img src="./img/sampling/PPDAC.png" img height="450px" border="0px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
+</div>
+
+<!-- The first stage of the cycle is specifying a Problem.
+
+It is tempting to skip over the need for a careful Plan. Confident conclusions can only be drawn from a study which has been appropriately designed. Unfortunately, in the rush to get data and start analysis, attention to design is often glossed over.
+
+Collecting good Data requires the kind of organizational and coding skills that are being seen as increasingly important in data science, particularly as data from routine sources may need a lot of cleaning in order to get it ready to be analysed. Data collection systems may have changed over time, there may be obvious errors, and so on – the phrase ‘found data’ neatly communicates that it may be rather messy, like something picked up in the street. -->
 
 --- 
 ## Popolazione *vs*  &nbsp;campione
@@ -809,7 +828,9 @@ updateButton_share();
 </center>
 
 <div style="font-size: 50%" align="right">
-<br/> Crowther, T., *et al.*, *Mapping tree density at a global scale*. Nature, 2015, doi:10.1038/nature14967
+
+Crowther, T., *et al.*, *Mapping tree density at a global scale*. Nature, 2015, doi:10.1038/nature14967
+
 </div>
 
 <!-- , and eventually came up with an estimated total of 3.04 trillion (that is 3,040,000,000,000) trees on the planet. This sounds a lot, except they reckoned there used to be twice this number
@@ -840,9 +861,9 @@ If the law of the country is that cars should drive on the right, then we can de
 
 <div style="font-size: 90%">
 
-- la popolazione e' l'insieme di tutti gli individui per cui vogliamo studiare un fenomeno ed è, teoricamente, infinita
-- il campione e' un sotto insieme (rappresentativo?) della popolazione
-- anche con campioni rappresentativi (casuali) possono esserci errori e/o bias
-- attraverso il metodo induttivo partiamo dalle osservazioni campionarie per trarre conclusioni sulla popolazione generale
+- La popolazione e' l'insieme di tutti gli individui per cui vogliamo studiare un fenomeno ed è, teoricamente, infinita
+- Il campione e' un sotto insieme (rappresentativo?) della popolazione
+- Anche con campioni rappresentativi (casuali) possono esserci errori e/o bias
+- Attraverso il metodo induttivo partiamo dalle osservazioni campionarie per trarre conclusioni sulla popolazione generale
 
 </div>

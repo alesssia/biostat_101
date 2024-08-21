@@ -43,6 +43,26 @@ style: |
 Vedremo tra qualche lezione la distribuzione della popolazione -->
 
 ---
+## Le fasi della ricerca
+
+<span style="display:block; height:2px;"></span>
+
+<center>
+<img src="./img/descriptive/PPDAC_qualitative.png" img height="450px" border="0px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
+</div>
+
+<!-- The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. 
+
+Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.
+ -->
+
+---
 
 ### I tipi di dato
 
@@ -56,7 +76,7 @@ Vedremo tra qualche lezione la distribuzione della popolazione -->
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -98,7 +118,7 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -137,7 +157,7 @@ Numeriche media/SD, categoriche N/% -->
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -180,7 +200,7 @@ Frequenze assolute e relative forniscono le stesse informazioni sulla distribuzi
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -303,7 +323,7 @@ updateButton_exercize_1();
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -331,9 +351,11 @@ Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immu
 <img src="./img/descriptive/Cbt_sex_abstract.png" img height="350px" border="4px"/>
 </center>
 
-<div style="font-size: 70%">
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 50%" align="right">
  
-Espie. CA, *et al.*, Randomized Clinical Effectiveness Trial of Nurse-Administered Small-Group Cognitive Behavior Therapy for Persistent Insomnia in General Practice, Sleep, 2007, [doi:10.1186/s12885-023-10511-3](https://doi.org/10.1093/sleep/30.5.574)
+Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administered Small-Group Cognitive Behavior Therapy for Persistent Insomnia in General Practice*, Sleep, 2007, doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -724,15 +746,42 @@ updateButton_exercize_3();
 </div>
 
 ---
-
 ## Discretizzazione
 
-<span style="display:block; height:5px;"></span>
+<div class="columns">
+<div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 80%">
 
 - Da una serie di valori continui a intervalli (o classi)
 - La scelta del numero di classi e degli estremi è arbitraria
 - Le classi devono essere mutualmente esclusive
 - Riportate anche le classi nulle (frequenza zero)
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 90%">
+
+:pushpin: &nbsp;&nbsp;&nbsp; $\text{IMC (BMI)} = \frac{\text{peso}_\text{kg}}{\text{altezza}_m^2}$
+
+| IMC (BMI) | Classificazione
+| ----: | -----: |
+|< 18,5 | Sottopeso
+18,5 – 24, 9 | Normopeso
+25,0 – 29,9 | Sovrappeso
+30,0 – 34,9  | Obesità 1° grado
+35,0 – 39,9 | Obesità 2° grado
+| > 39,9 | Obesità 3° grado
+
+</div>
+
+</div>
+</div>
 
 <!-- Frequenze si usato per dati qualitativi, ma cosa facciamo se abbiamo dati quantitativi?
 
@@ -755,32 +804,6 @@ Le classi debbono essere mutuamente esclusive (fate attenzione agli estremi!!).
 <div class="columns">
 <div>
 
-<span style="display:block; height:150px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\text{IMC (BMI)} = \frac{\text{peso}_\text{kg}}{\text{altezza}_m^2}$
-
-</div>
-<div>
-
-| IMC (BMI) | Classificazione
-| ----: | -----: |
-|< 18,5 | Sottopeso
-18,5 – 24, 9 | Normopeso
-25,0 – 29,9 | Sovrappeso
-30,0 – 34,9  | Obesità 1° grado
-35,0 – 39,9 | Obesità 2° grado
-| > 39,9 | Obesità 3° grado
-
-</div>
-</div>
-
----
-
-## Discretizzazione
-
-<div class="columns">
-<div>
-
 <span style="display:block; height:120px;"></span>
 
 <center>
@@ -791,7 +814,7 @@ Le classi debbono essere mutuamente esclusive (fate attenzione agli estremi!!).
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -883,7 +906,7 @@ Long labels? Think of an horizontal version.
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -961,7 +984,7 @@ Wow, that’s a lot of orange. Any patterns in the data just seem to be dominate
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -990,7 +1013,6 @@ Don't put several pie charts one beside each other to compare them.
 -->
 
 ---
-
 ## Donut chart
 
 <div class="columns">
@@ -1008,7 +1030,7 @@ Don't put several pie charts one beside each other to compare them.
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -1043,7 +1065,7 @@ Ho migliorato la grafica andando ad annotare le percentuali -->
 
 <div style="font-size: 50%">
  
-Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+*Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -1078,7 +1100,9 @@ Common Mistakes
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 50%" align="right">
-<br/> Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+
 </div>
 
 <!-- Figure 1.4 uses icon arrays to directly represent the expected frequencies of bowel cancer in 100 people.
