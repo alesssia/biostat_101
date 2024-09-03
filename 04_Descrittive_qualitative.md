@@ -614,10 +614,10 @@ updateButton_exercize_2();
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; I due sessi sono equalmente distribuiti nel campione?
+:question: &nbsp;&nbsp;&nbsp; Il numero di uomini e donne nel campione e' simile?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
 
-:question: &nbsp;&nbsp;&nbsp; I due sessi sono equalmente distribuiti nei due bracci dell'esperimento?
+:question: &nbsp;&nbsp;&nbsp; Il numero di uomini e donne nei due bracci dell'esperimento e' simile? 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
 
 <center>
@@ -725,10 +725,10 @@ updateButton_exercize_3();
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; I due sessi sono equalmente distribuiti nel campione?
+:question: &nbsp;&nbsp;&nbsp; Il numero di uomini e donne nel campione e' simile?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
 
-:question: &nbsp;&nbsp;&nbsp; I due sessi sono equalmente distribuiti nei due bracci dell'esperimento?
+:question: &nbsp;&nbsp;&nbsp; Il numero di uomini e donne nei due bracci dell'esperimento e' simile? 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
 
 <center>

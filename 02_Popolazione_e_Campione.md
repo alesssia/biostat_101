@@ -26,7 +26,7 @@ style: |
 <div style="font-size: 90%">
 
 - Conoscere le differenze tra popolazione e campione
-- Conoscere alcuni tra gli approcci di campionamento
+- Conoscere le due maggiori strategie di campionamento
 - Individuare errori di campionamento e bias
 
 </div>
@@ -201,65 +201,7 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 <!--  Estrarre le unità tramite sorteggio casuale o tavole dei numeri casuali (costruite in modo da non avere vizi sistematici. Sono delle serie di numeri tra 0 e 9 disposti a caso e caratterizzati dall’avere una distribuzione uniforme) -->
 
 ---
-## Strategia 2: Campionamento sistematico
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:50px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp;  $N=90$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n=10$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $x = 42$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $passo = N/n = 90/10=9$ 
-
-</div>
-<div>
-
-<span style="display:block; height:10px;"></span>
-
-<img src="./img/sampling/numbers-tombola.jpg" img height="400px" align="right" border="0px"/>
-
-</div>
-</div>
-
-<!-- Estraggo a caso una prima unita'
-Mi calcolo il passo di campionamento, ovvero una distanza costante tra gli individui estratti 
-ovvero sogg totali/sogg nel campione
-
- -->
-
----
-## Strategia 2: Campionamento sistematico
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:50px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp;  $N=90$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n=10$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $x = 42$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $passo = N/n = 90/10=9$ 
-
-</div>
-<div>
-
-<span style="display:block; height:10px;"></span>
-
-<img src="./img/sampling/numbers-tombola_systematic.jpg" img height="400px" align="right" border="0px"/>
-
-</div>
-</div>
-
-<!--  Selezione dalla lista di campionamento un soggetto ogni K -->
-
----
-## Strategia 3: Campionamento stratificato
+## Strategia 2: Campionamento stratificato
 
 <span style="display:block; height:50px;"></span>
 
@@ -267,15 +209,14 @@ ovvero sogg totali/sogg nel campione
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e un campione casuale semplice e' estratto da ognuno
  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Variatione #1: campionamento stratificato sistematico
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Variatione #2: campionamento stratificato proporzionale
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Variatione: campionamento stratificato proporzionale
 
 <!-- Identificazione degli strati ‘rilevanti’
  Liste di campionamento per sottogruppi
 Campionamento casuale –semplice o sistematico- indipendente per ogni strato -->
 
 ---
-## Strategia 3: Campionamento stratificato
+## Strategia 2: Campionamento stratificato
 
 <div class="columns">
 <div>
@@ -305,7 +246,7 @@ Campionamento casuale –semplice o sistematico- indipendente per ogni strato --
 <!-- Esempi di strata : sesso, eta', condizione sociale -->
 
 ---
-## Strategia 4: Campionamento a cluster
+## Strategia 3: Campionamento a cluster
 
 <span style="display:block; height:10px;"></span>
 
@@ -313,7 +254,7 @@ Campionamento casuale –semplice o sistematico- indipendente per ogni strato --
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; campione casuale semplice e' estratto da ognuno
  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Variatione: 1 stadio (osservo tutto) *vs* 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 stadi (campiono all'interno dei clusters)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 stadi &nbsp; (campiono all'interno dei clusters)
 
 <!-- Le unità della popolazione sono suddivise in CLUSTER o GRAPPOLI in base a circostanze organizzative, strutturali, geografiche.
 All’interno dei cluster le unità possono essere molto diverse tra di loro.
@@ -322,7 +263,7 @@ Il campione si forma estraendo casualmente un numero prestabilito di cluster, do
  -->
 
 ---
-## Strategia 4: Campionamento a cluster
+## Strategia 3: Campionamento a cluster
 
 <span style="display:block; height:1px;"></span>
 
@@ -333,16 +274,21 @@ Il campione si forma estraendo casualmente un numero prestabilito di cluster, do
 ---
 ## Exercizio #1
 
-:question: &nbsp;&nbsp;&nbsp; Un rappresentante di una ditta di formaggi sta facendo un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  sondaggio sul consumo di gorgonzola fermando un cliente
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ogni cinque di fronte ad un supermercato
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un rappresentante di una ditta di formaggi sta facendo un sondaggio
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sul consumo di gorgonzola fermando un cliente ogni cinque di fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  a un supermercato
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Che strategia di campionamento sta usando?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) casuale semplice
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) sistematico
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) opportunistico
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) casuale semplice
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) stratificato
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) a cluster
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precendenti
+
+</div>
 
 <style>
   #countdown_exercise_1{
@@ -433,34 +379,28 @@ updateButton_exercise_1();
 ---
 ## Exercizio #1 -- Soluzione
 
-:question: &nbsp;&nbsp;&nbsp; Un rappresentante di una ditta di formaggi sta facendo un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  sondaggio sul consumo di gorgonzola fermando un cliente
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ogni cinque di fronte ad un supermercato
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un rappresentante di una ditta di formaggi sta facendo un sondaggio
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sul consumo di gorgonzola fermando un cliente ogni cinque di fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  a un supermercato
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Che strategia di campionamento sta usando?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) casuale semplice
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) sistematico
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) opportunistico &nbsp;&nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) casuale semplice
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) stratificato
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precendenti &nbsp;&nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) a cluster
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precendenti
 
+</div>
 
 ---
 ## Bias nella selezione del campione
 
-<div class="columns">
-<div>
-
-<span style="display:block; height:50px;"></span>
-
-</div>
-<div>
-
 <span style="display:block; height:50px;"></span>
 
 <img src="./img/sampling/basketball.jpg" img height="350px" align="right" border="0px"/>
-
-</div>
 
 <!-- Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
 
@@ -486,6 +426,7 @@ Antetokounmpo: 2.11 -->
 <img src="./img/sampling/Survivorship-bias.svg.png" img height="450px" align="right" border="0px"/>
 
 </div>
+</div>
 
 <!-- Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
 
@@ -504,11 +445,13 @@ Antetokounmpo: 2.11 -->
 - Volunteer bias
 * Lost to follow up bias
 * $\dots$
+
 </div>
 <div>
 
 <img src="./img/sampling/sampling_bias_comics.jpeg" img height="450px" align="right" border="0px"/>
 
+</div>
 </div>
 
 <!-- Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
@@ -520,9 +463,11 @@ Antetokounmpo: 2.11 -->
 ---
 ## Exercizio #2
 
-:question: &nbsp;&nbsp;&nbsp; Ricercatori spediscono a dei pensionati un questionario  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  cartaceo chiedendo loro del loro stato mentale durante il   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  lockdown, chiedendo loro di rispedire le risposte
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Ricercatori spediscono a dei pensionati un questionario cartaceo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; chiedendo loro del loro stato mentale durante il lockdown, chidendo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; loro di rispedire le risposte
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lo studio soffre di qualche bias?
 
@@ -530,6 +475,8 @@ Antetokounmpo: 2.11 -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Si', volunteer bias
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Si', survivor bias
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Sia b) che c)
+
+</div>
 
 <style>
   #countdown_exercise_2{
@@ -620,9 +567,11 @@ updateButton_exercise_2();
 ---
 ## Exercizio #2 -- Soluzione
 
-:question: &nbsp;&nbsp;&nbsp; Ricercatori spediscono a dei pensionati un questionario  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  cartaceo chiedendo loro del loro stato mentale durante il   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  lockdown, chiedendo loro di rispedire le risposte
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Ricercatori spediscono a dei pensionati un questionario cartaceo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; chiedendo loro del loro stato mentale durante il lockdown, chidendo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; loro di rispedire le risposte
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lo studio soffre di qualche bias?
 
@@ -630,7 +579,9 @@ updateButton_exercise_2();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Si', volunteer bias
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Si', survivor bias
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Sia b) che c) &nbsp;&nbsp;&nbsp; :white_check_mark: 
- 
+
+</div>
+
 ---
 ## Esercizio #3
 

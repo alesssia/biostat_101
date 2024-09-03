@@ -41,8 +41,6 @@ style: |
 </div>
 <div>
 
-
-
 - **Quando?**
     - Ogni lunedi' mattina (4h)
 
@@ -58,7 +56,7 @@ style: |
 </div>
 </div>
 
-<!-- Pesante in lunedi', interrompero' con esercizi -->
+<!-- Pesante in lunedi', interrompero' con esercizi, cosi' pesante che chiedo a tutti uno sforzo per farcela passare -->
 
 ---
 ## Un po' di interazione, per favore :pray:
@@ -341,7 +339,6 @@ updateButton_share();
 ---
 ## Comprereste questo colluttorio?
 
-
 <span style="display:block; height:10px;"></span>
 
 <center>
@@ -363,7 +360,6 @@ updateButton_share();
 <div style="font-size: 120%" align="left">
 <br/> ...una probabilita' di insuccesso del 5%?
 <div>
-
 
 <span style="display:block; height:10px;"></span>
 
@@ -551,8 +547,6 @@ Artefatto dovuto alla doppia scala, ne parleremo ancora quando vedremo la visual
 </div>
 
 
-
-
 <!-- The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.
 
 — Nate Silver, The Signal and the Noise1 -->
@@ -560,130 +554,48 @@ Artefatto dovuto alla doppia scala, ne parleremo ancora quando vedremo la visual
 ---
 ## Perche' siamo qui?
 
-<!-- Ma la statistica non serve solo a districarci nel mondo, ma anche ad interpretarlo. Per esempio per rispondere a delle domande inusuali, per esempio: -->
-
----
-## Il caso Shipman
-
-<div class="columns">
-<div>
-
 <span style="display:block; height:60px;"></span>
 
-> Quest'uomo e' un serial killer?
+> Perche' i soldati al fronte muoiono?
 
-</div>
-<div>
+---
+## Qualcuno conosce questa persona?
+
+<span style="display:block; height:1px;"></span>
+
+
+<center>
+<img src="./img/introduction/220px-Florence_Nightingale_(H_Hering_NPG_x82368).jpg" img height="450px" align="right" border="4px"/>
+</center>
+
+
+<!-- Serve qualcuno che non solo si ponga la domanda, ma sappia anche come rispondere. 
+
+Sapete chi e questa persona?
+
+Florence Nightingale era un'infermiera britannica che e' considerata la madre dell'infermieristica come la intendiamo oggi, un titolo che si e' guadagnato durante la guerra di Crimea, quando era sovrintendente di un ospedale di Instambul. 
+
+
+Appena arrivata ad Instabul, Florence, si accorge subito delle pessime condizioni di sovraffollameto e pulizia, ma oltre a cercare di mettere una pezza, pulendo e disinfettando tutto con le sue infermiere,  si mette anche a raccogliere dati, soprattutto sulle cause di morte dei soldati -->
+
+---
+## Perche' i soldati al fronte muoiono?
 
 <span style="display:block; height:1px;"></span>
 
 <center>
-<img src="./img/introduction/harold-shipman-headshot.jpg" img height="450px" align="right" border="4px"/>
+<img src="./img/introduction/Nightingale-mortality.png" img height="500px"  border="4px"/>
 </center>
 
-</div>
-</div>
+<!-- E questi dati non solo li raccoglie, ma li riassume e presenta anche sotto forma di polar diagram, che spedisce regolarmente al governo britannico. 
 
-<!-- Shipman era un medico di famiglia come tanti altri. Tutto ciò cambiò quando, dopo la morte di una sua anziana paziente, all'atto dell'apertura del testamento si notò che esso era stato falsificato, sancendo l'attribuzione al medico di una ingente somma di denaro. 
-Fu dunque riesumato il cadavere, e si scoprì che l'anziana signora non era morta per cause naturali bensì per un'overdose di morfina, somministrata 3 ore prima del decesso (la morfina permane molto a lungo nei cadaveri). 
-Furono riesumate allora le salme di altre pazienti del medico morte di recente (14, molti erano stati cremati o il cadavere era ormai indisponibile), e in alcune furono trovate tracce della stessa sostanza che aveva ucciso la prima vittima. 
+Come si legge il grafico. Blu = malattie infettive, Rosso = ferite riportate in battaglia, nero = altre cause
 
--->
+E cosa concludiamo? 
+Che migliorare le condizioni igenice (pulizia, luce, ventilazione, ...) degli ospedali, aumenta le possibilita' di salvare il paziente. 
 
----
-## Il caso Shipman
+E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e presentare i dati, e nel prendere delle decisioni basate su di essi. Insomma, grazie alla statistica. -->
 
-<div class="columns">
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-- Che persone sono state uccise da Shipman e quando?
-
-</div>
-<div>
-
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/introduction/harold-shipman-headshot.jpg" img height="450px" align="right" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!-- Il numero delle vittime di Shipman è ignoto: quelle accertate sono poco più di una dozzina, morte poco tempo prima della scoperta del primo delitto. Il medico tuttavia aveva lavorato per una trentina di anni, quindi si suppone che le morti furono assai più numerose.  
-
-Uno studio statistico, fatto confrontando il numero di decessi tra i pazienti di Shipman con quelli di altri medici della zona nel corso del periodo di attività del medico, ha dimostrato che le sue vittime sarebbero state almeno 223. Sotto le sue cure in generale morirono 459 persone. Gli omicidi attribuitigli nel processo furono 15, con 15 condanne all'ergastolo. Le vittime erano tutte persone di una certa età, che lui uccideva per poi attribuire la morte (nel referto) a "cause naturali", plausibili nel caso di persone anziane. 
--->
-
----
-## Il caso Shipman
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-- Che persone sono state uccise da Shipman e quando?
-
-</div>
-<div>
-
-<center>
-<img src="./img/introduction/shipman-confirmed-victims.png" img height="500px" align="right" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<div style="font-size: 50%" align="right">
-
-Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
-
-</div>
-
-<!-- 
-
-There are more black than white dots, and so Shipman’s victims were mainly women. The bar-chart on the right of the picture shows that most of his victims were in their 70s and 80s, but looking at the scatter of points reveals that although initially they were all elderly, some younger cases crept in as the years went by. The bar-chart at the top clearly shows a gap around 1992 when there were no murders. It turned out that before that time Shipman had been working in a joint practice with other doctors but then, possibly as he felt under suspicion, he left to form a single-handed general practice. After this his activities accelerated, as demonstrated by the top bar-chart.
-
--->
-
----
-## Il caso Shipman
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-- Che persone sono state uccise da Shipman e quando?
-
-</div>
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-<center>
-<img src="./img/introduction/shipman-time.png" img height="400px" align="right" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<div style="font-size: 50%" align="right">
-
-<br/> Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
-
-</div>
-
-<!-- This analysis of the victims identified by the inquiry raises further questions about the way he committed his murders. Some statistical evidence is provided by data on the time of day of the death of his supposed victims, as recorded on the death certificate. Figure 0.2 is a line graph comparing the times of day that Shipman’s patients died to the times that a sample of patients of other local family doctors died. The pattern does not require subtle analysis: the conclusion is sometimes known as ‘inter-ocular’, since it hits you between the eyes. Shipman’s patients tended overwhelmingly to die in the early afternoon.
-
-The data cannot tell us why they tended to die at that time, but further investigation revealed that he performed his home visits after lunch, when he was generally alone with his elderly patients.  
-
-Later in this book, in Chapter 10, we will see whether formal statistical analysis could have helped catch Shipman earlier.fn2
--->
 
 ---
 ## Perche' siamo qui?
@@ -731,7 +643,6 @@ Later in this book, in Chapter 10, we will see whether formal statistical analys
 <div>
 
 
-
 </div>
 </div>
 
@@ -750,55 +661,23 @@ Later in this book, in Chapter 10, we will see whether formal statistical analys
 
 <span style="display:block; height:1px;"></span>
 
-
-<center>
 <img src="./img/introduction/220px-Florence_Nightingale_(H_Hering_NPG_x82368).jpg" img height="450px" align="right" border="4px"/>
-</center>
-
-<div style="font-size: 50%">
-
-</div>
 
 </div>
 </div>
-
-
-
-<!-- Serve qualcuno che non solo si ponga la domanda, ma sappia anche come rispondere. 
-
-Sapete chi e questa persona?
-
-Florence Nightingale era un'infermiera britannica che e' considerata la madre dell'infermieristica come la intendiamo oggi, un titolo che si e' guadagnato durante la guerra di Crimea, quando era sovrintendente di un ospedale di Instambul. 
-
-
-Appena arrivata ad Instabul, Florence, si accorge subito delle pessime condizioni di sovraffollameto e pulizia, ma oltre a cercare di mettere una pezza, pulendo e disinfettando tutto con le sue infermiere, -->
 
 ---
 ## Poi si raccolgono i dati
 
-<div class="columns"> 
-<div>
-
-
-</div>
-<div>
-
 <span style="display:block; height:1px;"></span>
 
-<center>
-<img src="./img/introduction/reparto-ospedaliero-a-scutari-joseph-austin-benwell-1856-circa_b35770b5_800x481.jpg" img height="450px" align="right" border="4px"/>
-</center>
+<img src="./img/introduction/reparto-ospedaliero-a-scutari-joseph-austin-benwell-1856-circa_b35770b5_800x481.jpg" img height="430px" align="right" border="4px"/>
 
 <div style="font-size: 50%" align="right">
 
-<br/> Reparto ospedaliero a Scutari. J.A. Benwell. 1856 circa
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> Reparto ospedaliero a Scutari. J.A. Benwell. 1856 circa
 
 </div>
-
-</div>
-</div>
-
-<!--  si mette anche a raccogliere dati, soprattutto sulle cause di morte dei soldati -->
 
 ---
 ## Poi i dati vengono analizzati
@@ -806,27 +685,21 @@ Appena arrivata ad Instabul, Florence, si accorge subito delle pessime condizion
 <span style="display:block; height:1px;"></span>
 
 <center>
-<img src="./img/introduction/Nightingale-mortality.png" img height="500px"  border="4px"/>
+<img src="./img/introduction/Nightingale-mortality.png" img height="480px"  border="4px" align="right"/>
 </center>
-
-<!-- E questi dati non solo li raccoglie, ma li riassume e presenta anche sotto forma di polar diagram, che spedisce regolarmente al governo britannico. 
-
-Come si legge il grafico. Blu = malattie infettive, Rosso = ferite riportate in battaglia, nero = altre cause
--->
-
 
 ---
 ## Finalmente possiamo trarre delle conclusioni
 
 <span style="display:block; height:1px;"></span>
 
-<center>
-<img src="./img/introduction/Unknown_artist_-_Florence_Nightingale_(1820_-_1910)_at_Scutari_Hospital_in_Turkey_around_1855_-_(MeisterDrucke-1007503).jpg" img height="450px"  border="4px"/>
-</center>
+
+<img src="./img/introduction/Unknown_artist_-_Florence_Nightingale_(1820_-_1910)_at_Scutari_Hospital_in_Turkey_around_1855_-_(MeisterDrucke-1007503).jpg" img height="440px"  border="4px" align="right"/>
+
 
 <div style="font-size: 50%" align="right">
 
-Florence Nightingale (1820 - 1910) at Scutari Hospital in Turkey around 1855, Artista ignoto
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>  Florence Nightingale (1820 - 1910) at Scutari Hospital in Turkey around 1855, Artista ignoto
 
 </div>
 

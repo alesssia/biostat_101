@@ -597,16 +597,15 @@ the inevitable differences that occur between measurements or observations, some
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Il sesso e' una variabile categorica dicotomica
+:question: &nbsp;&nbsp;&nbsp; Il sesso e' una variabile categorica dicotomica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di figli e' una variabile quantitativa discreta 
+:question: &nbsp;&nbsp;&nbsp; Il numero di figli e' una variabile quantitativa discreta?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
 
-:question: &nbsp;&nbsp;&nbsp; L'indice di massa corporea (BMI) e' una variabile qualitativa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multi-categoria
+:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo e' una  variabile categorica dicotomica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
 
@@ -703,16 +702,15 @@ updateButton_exercise_2();
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Il sesso e' una variabile categorica dicotomica
+:question: &nbsp;&nbsp;&nbsp; Il sesso e' una variabile categorica dicotomica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di figli e' una variabile quantitativa discreta 
+:question: &nbsp;&nbsp;&nbsp; Il numero di figli e' una variabile quantitativa discreta?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
 
-:question: &nbsp;&nbsp;&nbsp; L'indice di massa corporea (BMI) e' una variabile qualitativa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multi-categoria
+:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo e' una  variabile categorica dicotomica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere 
  
