@@ -922,7 +922,6 @@ della distribuzione
 -->
 
 ---
-
 ## Proporzione $\equiv$ probabilita'
 
 <div class="columns">
@@ -950,24 +949,6 @@ Ma come e' stato calcolato?
 
 </div>
 
-<!-- Ritorniamo ad una cosa che vi ho detto prima -->
-
-<!-- ---
-## The Standard Normal distribution
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-- $\mathcal{N} = Z = (0, 1)$
-
-</div>
-<div>
-
-</div> -->
-
-<!-- Distribuzione normale standardizzata -->
 
 ---
 ## La standardizzazione
@@ -1076,7 +1057,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 
 <span style="display:block; height:30px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404g; \text{ } \sigma = 580g$
+:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{g}; \text{ } \sigma = 580\text{g}$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -1098,33 +1079,10 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 
 <span style="display:block; height:30px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404g; \text{ } \sigma = 580g$
+:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{g}; \text{ } \sigma = 580\text{g}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{2404 - 1500}{580}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 1.56$
-
-</div>
-<div>
-
-<span style="display:block; height:360px;"></span>
-
-</div>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500) = \text{ ?}$
-
----
-## Calcoliamo la probabilita'/proporzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404g; \text{ } \sigma = 580g$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{2404 - 1500}{580}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 1.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{g} - 2404\text{g}}{580\text{g}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
 
 </div>
 <div>
@@ -1148,10 +1106,39 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 
 <span style="display:block; height:30px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404g; \text{ } \sigma = 580g$
+:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{g}; \text{ } \sigma = 580\text{g}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{2404 - 1500}{580}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 1.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{g} - 2404\text{g}}{580\text{g}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
+
+</div>
+<div>
+
+<span style="display:block; height:160px;"></span>
+
+<center>
+<img src="./img/normal_and_CLT/area_normal_symmetrical.png" img height="180px" border="4px"/>
+</center> 
+
+</div>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500) = \text{ ?}$
+
+<!-- Fare vedere che la curva e' simmetrica quindi possiamo usare 1.56 per conoscere l'area -->
+
+---
+## Calcoliamo la probabilita'/proporzione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{g}; \text{ } \sigma = 580\text{g}$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{g} - 2404\text{g}}{580\text{g}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
 
 </div>
 <div>
@@ -1166,6 +1153,203 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500) = 1 - 0.9406 = 0.0594 \rightarrow 5.94\%$
+
+---
+### Esercizio #5
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai $2500$g e' inusuale. La madre deve preoccuparsi?
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404\text{g}; \text{ } \sigma = 580\text{g}$
+
+</div>
+
+<span style="display:block; height:170px;"></span>
+
+<style>
+  #countdown_exercise_5{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_5.running {
+    background-color: green;
+  }
+  #countdown_exercise_5.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_5"></button>
+
+<script>
+<!--
+const countdown_exercise_5= document.getElementById("countdown_exercise_5");
+const seconds_exercise_5= 300; // seconds_exercise_5
+let timeLeft_exercise_5= seconds_exercise_5;
+let timerInterval_exercise_5= null;
+
+function formatTime_exercise_5(seconds_exercise_5) {
+  const minutes = Math.floor(seconds_exercise_5/ 60);
+  const remainingseconds_exercise_5= seconds_exercise_5% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_5() {
+  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
+}
+
+function startTimer_exercise_5() {
+  if (timerInterval_exercise_5=== null) {
+    countdown_exercise_5.classList.add('running');
+    countdown_exercise_5.classList.remove('finished');
+    timerInterval_exercise_5= setInterval(() => {
+      if (timeLeft_exercise_5> 0) {
+        timeLeft_exercise_5--;
+        updateButton_exercise_5();
+      } else {
+        clearInterval(timerInterval_exercise_5);
+        timerInterval_exercise_5= null;
+        countdown_exercise_5.classList.remove('running');
+        countdown_exercise_5.classList.add('finished');
+        countdown_exercise_5.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_5();
+  }
+}
+
+function pauseTimer_exercise_5() {
+  clearInterval(timerInterval_exercise_5);
+  timerInterval_exercise_5= null;
+  countdown_exercise_5.classList.remove('running');
+}
+
+function resetTimer_exercise_5() {
+  timeLeft_exercise_5= seconds_exercise_5;
+  updateButton_exercise_5();
+  countdown_exercise_5.classList.remove('finished');
+  countdown_exercise_5.classList.remove('running');
+  timerInterval_exercise_5= null;
+}
+
+countdown_exercise_5.addEventListener("click", () => {
+  if (countdown_exercise_5.classList.contains('finished')) {
+    resetTimer_exercise_5();
+  } else {
+    startTimer_exercise_5();
+  }
+});
+
+updateButton_exercise_5();
+-->
+</script>
+
+
+</div>
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<center>
+<img src="./img/normal_and_CLT/normal_table_zoom.jpg" img height="280px" border="4px"/>
+</center> 
+
+</div>
+</div>
+
+<!-- For medical rather than statistical reasons, babies below 2,500 g are considered ‘low birth weight’, and those below 1,500 g ‘very low birth weight’.  -->
+
+---
+### Esercizio #5 -- Soluzione
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai 2500g e' inusuale. La madre deve preoccuparsi?
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404g; \text{ } \sigma = 580g$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{2500 - 2404}{580} = 0.17$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 2500) = 0.5675 \rightarrow 57.75\%$
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<center>
+<img src="./img/normal_and_CLT/normal_table_zoom.jpg" img height="280px" border="4px"/>
+</center> 
+
+</div>
+</div>
+
+---
+### Esercizio #5 -- Soluzione
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai 2500g e' inusuale. La madre deve preoccuparsi?
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404g; \text{ } \sigma = 580g$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{2500 - 2404}{580} = 0.17$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 2500) = 0.5675 \rightarrow 57.75\%$
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:20px;"></span>
+
+<center>
+<img src="./img/normal_and_CLT/Twin_BW_normale_area_exercise.png" img height="350px" border="4px"/>
+</center> 
+
+</div>
+</div>
 
 ---
 ### Cosa abbiamo imparato in questa lezione?

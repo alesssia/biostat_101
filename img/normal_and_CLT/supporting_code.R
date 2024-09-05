@@ -66,6 +66,13 @@ png("Twin_BW_normale_area.png")
 print(p1)
 dev.off()
 
+
+p2 <- p + stat_function(fun = function(x) dnorm(x, mean = mean(df$Bweight), sd = sd(df$Bweight)) * bw * n_obs, colour="black", lwd=1.5, xlim = c(min(df$Bweight), 2500), geom = "area", fill="grey74") + geom_segment(aes(x = 2500, y = 0, xend = 2500, yend = gety(2500)), colour="black", lwd=1.5)
+
+png("Twin_BW_normale_area_exercise.png")
+print(p2)
+dev.off()
+
 # getlimit <- function(p, sd, ann)
 # {
 # 	l <- mean(df$Bweight) - sd * sd(df$Bweight)
