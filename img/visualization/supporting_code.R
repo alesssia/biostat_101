@@ -133,10 +133,10 @@ data <- data.frame(var1=md$age[md$ORR == "Yes"], var2=c(rep(NA, 10), md$age[md$O
 
 p <- ggplot(data, aes(x=x) ) +
   geom_histogram( aes(x = var1, y=..count..), binwidth=5, color="black", fill="#66C2A5" ) +
-  geom_label( aes(x=100, y=2.5, label="Relative: Yes"), color="#66C2A5") +
+  geom_label( aes(x=100, y=2.5, label="Response: Yes"), color="#66C2A5") +
   geom_histogram( aes(x = var2, y=-..count..), binwidth=5, color="black", fill= "#FC8D62") +
-  geom_label( aes(x=100, y=-2.5, label="Relative: No"), color="#FC8D62")  +
-  ylim(-11, 11) + graphic.settings + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 5") + theme(legend.position="bottom") 
+  geom_label( aes(x=100, y=-2.5, label="Response: No"), color="#FC8D62")  +
+  ylim(-11, 11) + xlim(20, 110) + graphic.settings + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 5") + theme(legend.position="bottom") 
   
 png("Age_histogram_bin5_response_mirror.png")
 print(p)

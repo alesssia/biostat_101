@@ -58,7 +58,7 @@ Finally, the key to good statistical science is drawing appropriate Conclusions 
 
 <div style="font-size: 90%">
 
-> Cosa è successo ai bambini sottoposti a interventi al cardiochirugici in alcuni ospedali britannici tra il 1984 e il 1995?
+> Cosa è successo ai bambini sottoposti a interventi cardiochirugici in alcuni ospedali britannici tra il 1984 e il 1995?
 
 </div>
 

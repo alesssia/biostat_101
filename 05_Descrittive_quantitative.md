@@ -2530,7 +2530,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 <div style="font-size: 78%">
 
-> Cosa è successo ai bambini sottoposti a interventi al cardiochirugici in alcuni ospedali britannici tra il 1984 e il 1995?
+> Cosa è successo ai bambini sottoposti a interventi cardiochirugici in alcuni ospedali britannici tra il 1984 e il 1995?
 
 </div>
 

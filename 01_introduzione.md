@@ -91,7 +91,7 @@ style: |
   }
 </style>
 
-<div align="right"> Think: &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button></div>
+<div align="right"> Think: &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button> </div>
 
 <script>
 <!--
@@ -351,83 +351,10 @@ updateButton_share();
 <span style="display:block; height:50px;"></span>
 
 <center>
-<img src="./img/introduction/hand_sanitizer.png" img height="350px" border="4px"/>
+<img src="./img/introduction/hand_sanitizer.png" img height="350px" border="0px"/>
 </center>
 
----
-## Vi sottoporrested a un trattamento con...
-
-<div style="font-size: 120%" align="left">
-<br/> ...una probabilita' di insuccesso del 5%?
-<div>
-
-<span style="display:block; height:10px;"></span>
-
-<div class="columns">
-<div>
-
-<center>
-<img src="./img/introduction/Unsuccess_rate.png" img height="350px" border="0px"/>
-</center>
-
-</div>
-<div>
-
-</div>
-</div>
-
----
-## Vi sottoporrested a un trattamento con...
-
-<div style="font-size: 120%" align="right">
-<br/> ...una probabilita' di successo del 95%?
-<div>
-
-<span style="display:block; height:10px;"></span>
-
-<div class="columns">
-<div>
-
-
-</div>
-<div>
-
-<center>
-<img src="./img/introduction/Success_rate.png" img height="350px" border="0px"/>
-</center>
-
-
-</div>
-</div>
-
----
-## Vi sottoporrested a un trattamento con...
-
-<div style="font-size: 120%" align="right">
-<br/> &nbsp; 
-<div>
-
-<span style="display:block; height:10px;"></span>
-
-<div class="columns">
-<div>
-
-<center>
-<img src="./img/introduction/Unsuccess_rate.png" img height="350px" border="0px"/>
-</center>
-
-</div>
-<div>
-
-<center>
-<img src="./img/introduction/Success_rate.png" img height="350px" border="0px"/>
-</center>
-
-
-</div>
-</div>
-
-<!-- Positive or negative framing of proportions can change their emotional impact.  -->
+<!-- 20K -->
 
 ---
 ## Cosa ci dice questo grafico?
@@ -439,8 +366,10 @@ updateButton_share();
 </center>
 
 <div style="font-size: 50%" align="right">
-<br/>Jensen, C.M., *et al*, *Time Trends Over 16 Years in Incidence-Rates of Autism Spectrum Disorders Across the Lifespan Based on Nationwide Danish Register Data*. J Autism Dev Disord (2014). doi:10.1007/s10803-014-2053-6
-<div>
+
+Jensen, C.M., *et al*, *Time Trends Over 16 Years in Incidence-Rates of Autism Spectrum Disorders Across the Lifespan Based on Nationwide Danish Register Data*. J Autism Dev Disord (2014). doi:10.1007/s10803-014-2053-6
+
+</div>
 
 ---
 ## Siamo d'accordo?
@@ -498,9 +427,9 @@ This increased attention to autism and its symptoms may also explain the rise in
 
 <div style="font-size: 50%" align="right">
 
-<br/> Sies, H., *A new parameter for sex education*. Nature, 1988, doi:10.1038/332495a0
+Sies, H., *A new parameter for sex education*. Nature, 1988, doi:10.1038/332495a0
 
-<div>
+</div>
 
 
 <!-- Correlation is not causation, Correlazione non e' causalita', "dopo di" non significa "a causa di". 
@@ -557,6 +486,8 @@ Artefatto dovuto alla doppia scala, ne parleremo ancora quando vedremo la visual
 <span style="display:block; height:60px;"></span>
 
 > Perche' i soldati al fronte muoiono?
+
+<!-- Ma i numeri non ci ingannano solo, ci permettono anche di rispondere a delle domande e prendere delle decisioni -->
 
 ---
 ## Qualcuno conosce questa persona?
@@ -693,7 +624,6 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 
 <span style="display:block; height:1px;"></span>
 
-
 <img src="./img/introduction/Unknown_artist_-_Florence_Nightingale_(1820_-_1910)_at_Scutari_Hospital_in_Turkey_around_1855_-_(MeisterDrucke-1007503).jpg" img height="440px"  border="4px" align="right"/>
 
 
@@ -759,5 +689,7 @@ grandi gruppi sulla base di dati raccolti in gruppi piu' ristretti  <br/> &nbsp;
 > *Se mi rimanesse una sola ora di vita vorrei trascorrerla assistendo ad una lezione di statistica perchè mi sembrerebbe durare per sempre*
 
 <div align="right">
+
 (un&#601; Student&#601;)
+
 </div>
