@@ -38,10 +38,12 @@ p <- ggplot(df, aes(x = Bweight)) +
 
  p <- ggplot(df, aes(x = Bweight)) + 
 	  geom_segment(aes(x = 0, y = 0.01, xend = 112, yend = 0.01), color="black", lwd=1, arrow = arrow(length = unit(0.2, "cm"))) + 
-	  # geom_segment(aes(x = 0, y = 0.01, xend = -112, yend = 0.01), color="black", lwd=1, arrow = arrow(length = unit(0.2, "cm"))) +
+	  geom_segment(aes(x = 0, y = 0.01, xend = -112, yend = 0.01), color="black", lwd=1, arrow = arrow(length = unit(0.2, "cm"))) +
 	  geom_segment(aes(x = 0, y = 0.01, xend = 1000, yend = 0.01), color="black", lwd=0.7, linetype="dotted") + 
-	  # geom_segment(aes(x = 0, y = 0.01, xend = -1000, yend = 0.01), color="black", lwd=1, linetype="dotted", arrow = arrow(length = unit(0.2, "cm"))) +
+	  geom_segment(aes(x = 0, y = 0.01, xend = -1000, yend = 0.01), color="black", lwd=0.7, linetype="dotted") +
+	  geom_segment(aes(x = 0, y = 0.0099, xend = 0, yend = 0.0101), color="black", lwd=0.1) +
 	  graphic.settings + theme_classic() + xlab("Differenza di peso (g)") + ylab("") + theme(axis.line.y=element_blank(), axis.text.y=element_blank(), axis.ticks.y=element_blank()) 
+
 	  
 png("Delta_Bweight.png",width = 480, height = 100)
 print(p)
@@ -62,9 +64,65 @@ dev.off()
 p <- ggplot(data = data.frame(x = c(-9, 9)), aes(x)) +
 	 stat_function(fun = function(x) dnorm(x, 0, 1), colour="black", lwd=1) +
 	 graphic.settings + xlab("") + ylab("") + ggtitle("Normale Standard") +
-	 geom_segment(aes(x = 8.3, y = 0.1, xend = 8.3, yend = 0.001), color="black", lwd=1, arrow = arrow(length = unit(0.2, "cm")))
+	 geom_segment(aes(x = 8.3, y = 0.1, xend = 8.3, yend = 0.001), color="black", lwd=1, arrow = arrow(length = unit(0.2, "cm"))) +
+	 geom_segment(aes(x = -8.3, y = 0.1, xend = -8.3, yend = 0.001), color="black", lwd=1, arrow = arrow(length = unit(0.2, "cm")))
  
 png("Delta_Bweight_normale_standard.png")
 print(p)
 dev.off() 
+
+
+
+p <-   ggplot(data = data.frame(x = c(-15, 15)), aes(x)) +
+    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="grey74", alpha=0.2, xlim = c(-10, 10)) +
+	stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="magenta", alpha=1, xlim = c(-15, -10)) + 
+	stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="magenta", alpha=1, xlim = c(10, 15)) + 
+    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), colour="black") + ylab("") +
+	geom_segment(aes(x = -10, y = -0.0025, xend = -10, yend = dnorm(-10, mean=0, sd=4)), colour="black") +
+	geom_segment(aes(x = 10, y = -0.0025, xend = 10, yend = dnorm(10, mean=0, sd=4)), colour="black") +
+    scale_y_continuous(breaks = NULL) +
+	# annotate("text", x = -12, y = dnorm(-12, mean=0, sd=4)+0.005, label = "paste(mu[1] - mu[2], \"\")", parse = TRUE, size=7) +
+	# annotate("text", x = 12, y = dnorm(12, mean=0, sd=4)+0.005, label = "paste(mu[2] - mu[1], \"\")", parse = TRUE, size=7) +
+	geom_segment(aes(x = -12, y = dnorm(-12, mean=0, sd=4)+0.01, xend = -11, yend = 0.0025), arrow = arrow(length = unit(0.2, "cm"))) +
+	geom_segment(aes(x = 12, y = dnorm(12, mean=0, sd=4)+0.01, xend = 11, yend = 0.0025), arrow = arrow(length = unit(0.2, "cm"))) +
+	# annotate("text", x = 0, y = dnorm(12, mean=0, sd=4)+0.01, label = "paste(1- alpha, \"\")", parse = TRUE, size=7) +
+	# geom_segment(aes(x = 0, y = 0, xend = 0, yend = dnorm(0, mean=0, sd=4)), colour="grey60", linewidth=1, linetype="dotted") +
+	# geom_segment(aes(x = 0, y = -0.0025, xend = 0, yend = 0), colour="black") +
+	# annotate('text', x = 0, y = -0.005, label = "bar(x)", parse=T, size=5) +
+	annotate('text', x = -10, y = -0.005, label = "-z", parse=T, size=5) +
+	annotate('text', x = 10, y = -0.005, label = "z", parse=T, size=5) +
+	# geom_segment(aes(x = -10, y = 0, xend = 10, yend = 0), colour="magenta", lwd=2) +
+	theme_void()
+
+png("Two-tailed_test.png")
+print(p)
+dev.off()
+
+p <-   ggplot(data = data.frame(x = c(-15, 15)), aes(x)) +
+    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="grey54", alpha=0.2, xlim = c(-15, 10)) +
+	# stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="magenta", alpha=1, xlim = c(-15, -10)) + 
+	stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="magenta", alpha=1, xlim = c(10, 15)) + 
+    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), colour="black") + ylab("") +
+	# geom_segment(aes(x = -10, y = -0.0025, xend = -10, yend = dnorm(-10, mean=0, sd=4)), colour="black") +
+	geom_segment(aes(x = 10, y = -0.0025, xend = 10, yend = dnorm(10, mean=0, sd=4)), colour="black") +
+    scale_y_continuous(breaks = NULL) +
+	# annotate("text", x = -12, y = dnorm(-12, mean=0, sd=4)+0.005, label = "paste(mu[1] - mu[2], \"\")", parse = TRUE, size=7) +
+	# annotate("text", x = 12, y = dnorm(12, mean=0, sd=4)+0.005, label = "paste(mu[2] - mu[1], \"\")", parse = TRUE, size=7) +
+	geom_segment(aes(x = -12, y = dnorm(-6, mean=0, sd=4)+0.01, xend = -7, yend = dnorm(-12, mean=0, sd=4)+0.01), arrow = arrow(length = unit(0.2, "cm"))) +
+	geom_segment(aes(x = 12, y = dnorm(12, mean=0, sd=4)+0.01, xend = 11, yend = 0.0025), arrow = arrow(length = unit(0.2, "cm"))) +
+	# annotate("text", x = 0, y = dnorm(12, mean=0, sd=4)+0.01, label = "paste(1- alpha, \"\")", parse = TRUE, size=7) +
+	# geom_segment(aes(x = 0, y = 0, xend = 0, yend = dnorm(0, mean=0, sd=4)), colour="grey60", linewidth=1, linetype="dotted") +
+	# geom_segment(aes(x = 0, y = -0.0025, xend = 0, yend = 0), colour="black") +
+	# annotate('text', x = 0, y = -0.005, label = "bar(x)", parse=T, size=5) +
+	# annotate('text', x = -10, y = -0.005, label = "-z", parse=T, size=5) +
+	annotate('text', x = 10, y = -0.005, label = "z", parse=T, size=5) +
+	# geom_segment(aes(x = -10, y = 0, xend = 10, yend = 0), colour="magenta", lwd=2) +
+	theme_void()
+
+png("One-tailed_test.png")
+print(p)
+dev.off()
+
+
+
  

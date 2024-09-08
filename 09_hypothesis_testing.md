@@ -4,18 +4,11 @@ theme: gaia
 _class: lead
 paginate: false
 
-
 style: |
   .columns {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
-  }
-
-  .indentedtext
-  {
-    text-align: 5em;
-    text-indent: 5em;
   }
 
 ---
@@ -35,7 +28,7 @@ style: |
 <div style="font-size: 90%">
 
 - Formulare e testare ipotesi
-- Interpretare P value (e la loro relazione con i CI)
+- Interpretare P-value (e la loro relazione con i CI)
 - Saper distinguere tra errori del primo e del secondo tipo 
 - Interpretare la potenza di uno studio
 
@@ -91,7 +84,7 @@ A hypothesis can be defined as a proposed explanation for a phenomenon. It is no
 
 * Il peso alla nascita e' diverso nei gemelli monozigoti e dizigoti inglesi?
 * Gli uomini e le donne inglesi hanno un diverso numero di partner sessuali?
-* C'e  differenza nel trattare l'insonnia con CBT o con le cure standard?
+* Pregare dimiuisce le complicazioni di un bypass coronarico?
 * Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra il 1984 e il 1995 e' diverso rispetto ad altri ospedali britannici?
 
 </div>
@@ -112,7 +105,7 @@ Un'ipotesi puo' essere definita come una congettura
 
 * Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
 * Gli uomini e le donne inglesi hanno <s>un diverso</s> *lo stesso* numero di partner sessuali<s>?</s>
-* *Non* c'e differenza nel trattare l'insonnia con CBT o con le cure standard<s>?</s>
+* Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
 * Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 </div>
@@ -123,10 +116,131 @@ The null hypothesis is what we are willing to assume is the case until proven ot
 
 So we can never claim that the null hypothesis has been actually proved: in the words of another great British statistician, Ronald Fisher, ‘the null hypothesis is never proved or established, but is possibly disproved, in the course of experimentation. Every experiment may be said to exist only in order to give the facts a chance of disproving the null hypothesis.’
 
-infatti il fatto di aver trovato dell'evidenza in favore di un'ipotesi non vuold dire che non sara' mai possibile trovare ulteriore evidenza che la renda falsa -->
+infatti il fatto di aver trovato dell'evidenza in favore di un'ipotesi non vuold dire che non sara' mai possibile trovare ulteriore evidenza che la renda falsa
+
+
+Nulla e alternativa sono mutualmente escusive e insieme descrivono tutti possibili casi -->
 
 ---
-## Peso alla nascita dei gemelli inglesi
+### Esercizio 1
+
+:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 1
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/JAMA_isolation.png" img height="270px" border="4px"/>
+</center>
+
+<!-- 
+Sono tutti articoli pubblicati lo scorso anno
+
+Findings  In this cohort study using a national longitudinal health survey of 13 649 adults aged 50 years or older in the US, data revealed that increased isolation was associated with an increased risk of mortality, disability, and dementia. Decreased isolation was associated with a lower risk of mortality only among individuals who were nonisolated at baseline.
+
+Meaning  These results underscore the importance of interventions targeting the prevention of increased isolation among older adults to mitigate its adverse effects on mortality, as well as physical and cognitive function decline. -->
+
+---
+### Esercizio 1
+
+:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 1
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/JAMA_isolation.png" img height="270px" border="4px"/>
+</center>
+
+<div style="font-size: 80%" align="right">
+
+*Soluzione*: Social isolation changes are **NOT** associated with long-term outcomes
+
+</div>
+
+---
+### Esercizio 2
+
+:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 2
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/JAMA_virtual_reality.png" img height="250px" border="4px"/>
+</center>
+
+<!-- 
+Findings  In this randomized clinical trial including 54 US military veterans with warzone-related trauma, active tDCS delivered during VR exposure significantly improved self-reported PTSD symptoms, reduced measures of autonomic arousal, and improved social functioning compared with sham stimulation during VR exposure. This trial replicated key findings from a prior pilot study.
+
+Meaning  These findings suggest that the use of combined VR exposure plus tDCS could be a promising treatment for warzone-related PTSD.
+
+-->
+
+---
+### Esercizio 1
+
+:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 2
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/JAMA_virtual_reality.png" img height="250px" border="4px"/>
+</center>
+
+<div style="font-size: 80%" align="right">
+
+*Soluzione*: Therapeutic exposure using VR **CANNOT** <br/> be augmented with simultaneously applied tDCS
+
+</div>
+
+---
+### Esercizio 3
+
+:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 3
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/JAMA_gratitude.png" img height="200px" border="4px"/>
+</center>
+
+<!-- 
+Findings  In this cohort study of ~50K older US female nurses, experiencing more grateful affect was associated with lower mortality. Individuals in the highest tertile of gratitude, compared with the lowest tertile, had a 9% lower hazard of deaths from any cause, after accounting for baseline sociodemographic characteristics, social participation, religious involvement, physical health, lifestyle factors, cognitive function, and mental health.
+
+Meaning  The findings suggest that the experience of grateful affect is associated with increased longevity among older adults.
+
+-->
+
+---
+### Esercizio 1
+
+:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 3
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/JAMA_gratitude.png" img height="200px" border="4px"/>
+
+</center>
+
+<div style="font-size: 80%" align="right">
+
+*Soluzione*: People who more frequently notice and feel grateful <br/> for positive experiences **DO NOT** tend to live longer
+
+</div>
+
+---
+## $z$-test
 
 <div style="font-size: 80%" >
 
@@ -152,9 +266,9 @@ infatti il fatto di aver trovato dell'evidenza in favore di un'ipotesi non vuold
 </div>
 <div>
 
-<center>
+<!-- <center>
 <img src="./img/hypothesis_testing/Twin_BW_distribution_by_zyg.png" img height="400px" border="4px"/>
-</center>
+</center> -->
 
 </div>
 </div>
@@ -170,7 +284,7 @@ come per i dinosauri: non ganno piume sino a che non ne troviamo uno che ce l'ha
 Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
 ---
-## Peso alla nascita dei gemelli inglesi
+## $z$-test
 
 <div style="font-size: 80%" >
 
@@ -199,15 +313,55 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 </div>
 <div>
 
-<center>
+<!-- <center>
 <img src="./img/hypothesis_testing/Twin_BW_distribution_by_zyg.png" img height="400px" border="4px"/>
-</center>
+</center> -->
 
 </div>
 </div>
 
 ---
-## Peso alla nascita dei gemelli inglesi
+## $z$-test
+
+<div style="font-size: 80%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
+
+</div>
+
+<span style="display:block; height:5px;"></span>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{d}}\text{ }=3481, \bar{x}_{\text{d}}\text{ }=2462\text{g}, s_{\text{d}}=577\text{g}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{m}}=3823, \bar{x}_{\text{m}}=2350\text{g}, s_{\text{m}}=579\text{g}$ 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{d}} - \mu_{\text{m}} = 0$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow \text{Ipotesi nulla} \text{ } (\mathcal{H}_0)$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{d}} - \mu_{\text{m}} \neq 0$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{m}} - \mu_{\text{d}} \neq 0$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow |\mu_{\text{d}} - \mu_{\text{m}}| \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Ipotesi aternativa} \text{ } (\mathcal{H}_{1/A})$
+
+</div>
+
+</div>
+<div>
+
+<!-- <center>
+<img src="./img/hypothesis_testing/Twin_BW_distribution_by_zyg.png" img height="400px" border="4px"/>
+</center> -->
+
+</div>
+</div>
+
+
+---
+## $z$-test
 
 <div style="font-size: 80%" >
 
@@ -225,7 +379,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{d}} - \mu_{\text{m}} = 0$ &nbsp;&nbsp;&nbsp; $\leftarrow$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{d}} - \bar{x}_{\text{m}} = 2462\text{g} - 2350\text{g} = 112\text{g}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{d}} - \bar{x}_{\text{m}} = 2462 - 2350 = (\pm)112$ 
 
 </div>
 
@@ -236,10 +390,8 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 </div>
 </div>
 
-
-
 ---
-## Peso alla nascita dei gemelli inglesi
+## $z$-test
 
 <div style="font-size: 80%" >
 
@@ -257,7 +409,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{d}} - \mu_{\text{m}} = 0$ &nbsp;&nbsp;&nbsp; $\leftarrow$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{d}} - \bar{x}_{\text{m}} = 2462\text{g} - 2350\text{g} = 112\text{g}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{d}} - \bar{x}_{\text{m}} = 2462 - 2350 = (\pm)112$ 
 
 </div>
 
@@ -281,7 +433,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 </center>
 
 ---
-## Peso alla nascita dei gemelli inglesi
+## $z$-test
 
 <div style="font-size: 80%" >
 
@@ -299,7 +451,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{d}} - \mu_{\text{m}} = 0$ &nbsp;&nbsp;&nbsp; $\leftarrow$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{d}} - \bar{x}_{\text{m}} = 2462\text{g} - 2350\text{g} = 112\text{g}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{d}} - \bar{x}_{\text{m}} = 2462 - 2350 = (\pm)112$ 
 
 </div>
 
@@ -360,7 +512,7 @@ Per la differenza tra due medie
 
 
 ---
-## Peso alla nascita dei gemelli inglesi
+## $z$-test
 
 <div style="font-size: 80%" >
 
@@ -387,7 +539,7 @@ Per la differenza tra due medie
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (\mu_{\text{d}} - \mu_{\text{m}}, \text{SE}
 )$, con $\mu_{\text{d}} - \mu_{\text{m}} = 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e  $\text{SE} = \sqrt{\frac{s_\text{d}^2}{n_\text{d}} + \frac{s_\text{m}^2}{n_\text{m}}} = 13.5\text{g}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{d}} - \bar{x}_{\text{m}} = 2462 - 2350 = (\pm)112$ 
 
 
 </div>
@@ -416,7 +568,7 @@ Per la differenza tra due medie
 
 
 ---
-## Peso alla nascita dei gemelli inglesi
+## $z$-test
 
 <div style="font-size: 80%" >
 
@@ -434,7 +586,7 @@ Per la differenza tra due medie
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{d}} - \mu_{\text{m}} = 0$ &nbsp;&nbsp;&nbsp; $\leftarrow$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{d}} - \bar{x}_{\text{m}} = 2462\text{g} - 2350\text{g} = 112\text{g}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{d}} - \bar{x}_{\text{m}} = 2462 - 2350 = (\pm)112$ 
 
 </div>
 
@@ -464,39 +616,39 @@ Per la differenza tra due medie
 <div style="font-size: 78%" >
 
 :question: &nbsp;&nbsp;&nbsp; Qual e' la probabilita' di osservare una differenza di $112$g se $\mu_{\text{d}} - \mu_{\text{m}} = 0$?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Area sottesesa a $Z$ $\equiv$ probabilita' $\mathcal{P}$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $z = \frac{\bar{X}-\mu}{\hat{SE}} = \frac{112\text{g}-0}{13.5\text{g}} = 8.3$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{\bar{X}-\mu}{\hat{SE}} = \frac{\pm112-0}{13.5} = \pm8.3$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $\mathcal{P} = 2 \times(7.0  \times 10^{-17}) = 1.4 \times 10^{-16}$
 
 
 </div>
 
 <!-- P = 1.4e-16 
 
-Unsando il p value, che ci dice quanto sono improbabili i risultati ottenuti da questo campione dato che l'ipotesi nulla e' vera.
+Unsando il P-value, che ci dice quanto sono improbabili i risultati ottenuti da questo campione dato che l'ipotesi nulla e' vera.
 
-Un p value molto piccolo ci dice quindi che sia molto improbabile che H0 sia vera dandoci una forte ragione per dubitare che le due medie siano uguali 
+Un P-value molto piccolo ci dice quindi che sia molto improbabile che H0 sia vera dandoci una forte ragione per dubitare che le due medie siano uguali 
 
 -->
 ---
-## P value
+## P-value
 
 <span style="display:block; height:10px;"></span>
 
 <div style="font-size: 90%" >
 
-:dart: &nbsp;&nbsp;&nbsp; Il P value misura la discrepanza tra i dati e $\mathcal{H}_0$ e corrisponde alla
+:dart: &nbsp;&nbsp;&nbsp; Il P-value misura la discrepanza tra i dati e $\mathcal{H}_0$ e corrisponde alla
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; probabilita' di ottenere un risultato tanto estremo quanto quello 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ottenuto se l'ipotesi nulla fosse vera.
 
 </div>
 
 ---
-## P value
+## P-value
 
 <span style="display:block; height:10px;"></span>
 
 <div style="font-size: 90%" >
 
-:dart: &nbsp;&nbsp;&nbsp; Il P value misura la discrepanza tra i dati e $\mathcal{H}_0$ e corrisponde alla
+:dart: &nbsp;&nbsp;&nbsp; Il P-value misura la discrepanza tra i dati e $\mathcal{H}_0$ e corrisponde alla
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; probabilita' di ottenere un risultato tanto estremo quanto quello 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ottenuto se l'ipotesi nulla fosse vera.
 
@@ -506,11 +658,11 @@ Un p value molto piccolo ci dice quindi che sia molto improbabile che H0 sia ver
 
 <div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P value} = 0.5 \rightarrow 50\% \rightarrow 1 \text{ campione su } 2$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P value} = 0.1 \rightarrow 10\% \rightarrow 1 \text{ campione su } 10$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P value} = 0.05 \rightarrow 5\% \rightarrow 1 \text{ campione su } 20$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P value} = 0.01 \rightarrow 1\% \rightarrow 1 \text{ campione su } 100$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P value} = 0.005 \rightarrow 0.5\% \rightarrow 1 \text{ campione su } 200$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 0.5 \rightarrow 50\% \rightarrow 1 \text{ campione su } 2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 0.1 \rightarrow 10\% \rightarrow 1 \text{ campione su } 10$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 0.05 \rightarrow 5\% \rightarrow 1 \text{ campione su } 20$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 0.01 \rightarrow 1\% \rightarrow 1 \text{ campione su } 100$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 0.005 \rightarrow 0.5\% \rightarrow 1 \text{ campione su } 200$
 
 </div>
 
@@ -525,13 +677,13 @@ Un p value molto piccolo ci dice quindi che sia molto improbabile che H0 sia ver
  -->
 
 ---
-### P value e significativita' statistica
+### P-value e significativita' statistica
 
 <span style="display:block; height:10px;"></span>
 
 <div style="font-size: 90%" >
 
-:dart: &nbsp;&nbsp;&nbsp; Il P value misura la discrepanza tra i dati e $\mathcal{H}_0$ e corrisponde alla
+:dart: &nbsp;&nbsp;&nbsp; Il P-value misura la discrepanza tra i dati e $\mathcal{H}_0$ e corrisponde alla
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; probabilita' di ottenere un risultato tanto estremo quanto quello 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ottenuto se l'ipotesi nulla fosse vera.
 
@@ -541,7 +693,7 @@ Un p value molto piccolo ci dice quindi che sia molto improbabile che H0 sia ver
 
 <div style="font-size: 90%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se il P value e' minore di una soglia critica $\alpha$, possiamo dire che il nostro
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se il P-value e' minore di una soglia critica $\alpha$, possiamo dire che il nostro
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; risultato e' statisticamente significativo
 
 </div>
@@ -554,7 +706,11 @@ Un p value molto piccolo ci dice quindi che sia molto improbabile che H0 sia ver
 
 
 <!-- 
-Ronald Fisher used P < 0.05 and P < 0.01 as convenient critical thresholds for indicating significance, and produced tables of the critical values of test statistics needed to achieve these levels of significance. The popularity of these tables led to 0.05 and 0.01 becoming established conventions, although it is now recommended that exact P-values should be reported. And it is important to emphasize that the exact P-value is conditional not only on the truth of the null hypothesis, but also on all other assumptions underlying the statistical model, such as lack of systematic bias, independent observations, and so on.
+Ronald Fisher used P < 0.05 and P < 0.01 as convenient critical thresholds for indicating significance, and produced tables of the critical values of test statistics needed to achieve these levels of significance. The popularity of these tables led to 0.05 and 0.01 becoming established conventions, although it is now recommended that exact P-values should be reported. 
+
+The standard thresholds for declaring ‘significance’, P < 0.05 and P < 0.01, were fairly arbitrary choices by Ronald Fisher for his tables, back in the days when calculating exact P-values was not possible using the mechanical and electrical calculators available. 
+
+And it is important to emphasize that the exact P-value is conditional not only on the truth of the null hypothesis, but also on all other assumptions underlying the statistical model, such as lack of systematic bias, independent observations, and so on.
 
 This whole process has become known as Null Hypothesis Significance Testing (NHST) and, as we shall see below, it has become a source of major controversy. But first we should examine how Fisher’s ideas are used in practice.
 
@@ -592,7 +748,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 
 <div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; T-test della differenza di due medie campionarie
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z$-test della differenza di due medie campionarie
 
 </div>
 
@@ -620,7 +776,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
 2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
 3. Genero la distribuzione campionaria del test scelto, assumendo $\mathcal{H_0}$ vera
-4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilita' (P value) a questo evento
+4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilita' (P-value) a questo evento
 
 </div>
 
@@ -629,7 +785,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 
 <div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P value} = 1.4 \times 10^{-16}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 1.4 \times 10^{-16}$
 
 </div>
 
@@ -652,69 +808,545 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
 2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
 3. Genero la distribuzione campionaria del test scelto, assumendo $\mathcal{H_0}$ vera
-4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilita' (P value) a questo evento
-5. Dichiaro il risultato come statisticamente significativo se il P value e' inferiore a una soglia critica $\alpha$
+4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilita' (P-value) a questo evento
+5. Dichiaro il risultato come statisticamente significativo se il P-value e' inferiore a una soglia critica $\alpha$
 
 </div>
 
 <div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P value} = 1.4 \times 10^{-16} < 0.05$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 1.4 \times 10^{-16} < 0.05$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; rifiuto $\mathcal{H_0}$
 
 </div>
-
----
-### Esercizio
-
----
-## P value & intervallo di confidenza
+<!-- P-value measures how likely it is that we would have observed such an extreme value were the null hypothesis really true. -->
 
 ---
 ## Uguale, diverso, maggiore, minore?
 
-<span style="display:block; height:70px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <div class="columns">
 <div>
 
 <div style="font-size: 90%" >
 
-:dart: &nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{i}} - \mu_{\text{c}} \neq 0$   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ two-tailed test
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{}} - \mu_{\text{c}} > 0$   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{i}} - \mu_{\text{c}} < 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ one-tailed test
+:dart: &nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{i}} - \mu_{\text{c}} \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{i}} - \mu_{\text{c}} = 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a due code
 
 </div>
 
 </div>
 <div>
 
+<span style="display:block; height:10px;"></span>
+
 <center>
-<img src="./img/hypothesis_testing/CLT.png" img height="270px" border="4px"/>
+<img src="./img/hypothesis_testing/Two-tailed_test.png" img height="370px" border="4px"/>
 </center>
 
 </div>
 </div>
 
-<!-- A one-tailed test looks for an “increase” or “decrease” in the parameter whereas a two-tailed test looks for a “change” (could be increase or decrease) in the parameter. -->
+
+<!-- a one-sided hypothesis test is used when a null hypothesis specifies that, say, the effect of a medical treatment is negative. This would only be rejected by large positive values of a test statistic representing an estimated treatment effect. A two-sided test would be appropriate for a null hypothesis that a treatment effect, say, is exactly zero, and so both positive and negative estimates would lead to the null being rejected. -->
+
+
+---
+## Uguale, diverso, maggiore, minore?
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 90%" >
+
+:dart: &nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{i}} - \mu_{\text{c}} \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{i}} - \mu_{\text{c}} = 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a due code
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{i}} - \mu_{\text{c}} < 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{i}} - \mu_{\text{c}} \geq  0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  oppure
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{i}} - \mu_{\text{c}} > 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{i}} - \mu_{\text{c}} \leq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a una coda
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/One-tailed_test.png" img height="370px" border="4px"/>
+</center>
+</div>
+</div>
+
+
+<!-- a one-sided hypothesis test is used when a null hypothesis specifies that, say, the effect of a medical treatment is negative. This would only be rejected by large positive values of a test statistic representing an estimated treatment effect. A two-sided test would be appropriate for a null hypothesis that a treatment effect, say, is exactly zero, and so both positive and negative estimates would lead to the null being rejected. -->
+
+---
+## Esercizio #2
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andro' a rifiutare con $\alpha = 0.05$?
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_{\text{i}} - \mu_{\text{c}} \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_{\text{i}} - \mu_{\text{c}} \geq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\mu_{\text{i}} - \mu_{\text{c}} \leq 0$
+
+</div>
+
+</div>
+<div>
+
+<!-- <center>
+<img src="./img/hypothesis_testing/CLT.png" img height="270px" border="4px"/>
+</center> -->
+
+</div>
+</div>
+
+<!-- Qui dobbiamo andare a pescare nella memoria delle cose viste in passato -->
+
+---
+## Esercizio #2 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andro' a rifiutare con $\alpha = 0.05$?
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_{\text{i}} - \mu_{\text{c}} \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_{\text{i}} - \mu_{\text{c}} \geq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\mu_{\text{i}} - \mu_{\text{c}} \leq 0$
+
+
+</div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 80%" align="right">
+
+| Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| ----: | ----- | ---- | ----|
+| 95% | 5% | 2.5% | 1.96 |
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/alpha_level.png" img height="350px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+---
+## Esercizio #2 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andro' a rifiutare con $\alpha = 0.05$?
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_{\text{i}} - \mu_{\text{c}} \neq 0$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$\rightarrow \text{P} = 2 \times 0.29 = 0.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_{\text{i}} - \mu_{\text{c}} \geq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\mu_{\text{i}} - \mu_{\text{c}} \leq 0$
+
+
+</div>
+
+<span style="display:block; height:30px;"></span>
+
+<!-- <div style="font-size: 80%" align="right">
+
+| Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| ----: | ----- | ---- | ----|
+| 95% | 5% | 2.5% | 1.96 |
+
+</div> -->
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Two-tailed_test.png" img height="350px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+---
+## Esercizio #2 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andro' a rifiutare con $\alpha = 0.05$?
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_{\text{i}} - \mu_{\text{c}} \neq 0$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$\rightarrow \text{P} = 2 \times 0.029 = 0.056$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_{\text{i}} - \mu_{\text{c}} \geq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$\rightarrow \text{P} = 0.029$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\mu_{\text{i}} - \mu_{\text{c}} \leq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$\rightarrow \text{P} = 1-0.029 = 0.971$
+
+
+</div>
+
+<span style="display:block; height:30px;"></span>
+
+<!-- <div style="font-size: 80%" align="right">
+
+| Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| ----: | ----- | ---- | ----|
+| 95% | 5% | 2.5% | 1.96 |
+
+</div> -->
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/One-tailed_test.png" img height="350px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+---
+## Esercizio #2 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andro' a rifiutare con $\alpha = 0.05$?
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_{\text{i}} - \mu_{\text{c}} \neq 0$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$\rightarrow \text{P} = 2 \times 0.029 = 0.056$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_{\text{i}} - \mu_{\text{c}} \geq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$\rightarrow \text{P} = 0.029$ &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\mu_{\text{i}} - \mu_{\text{c}} \leq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$\rightarrow \text{P} = 1-0.029 = 0.971$
+
+
+</div>
+
+<span style="display:block; height:30px;"></span>
+
+<!-- <div style="font-size: 80%" align="right">
+
+| Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| ----: | ----- | ---- | ----|
+| 95% | 5% | 2.5% | 1.96 |
+
+</div> -->
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/One-tailed_test.png" img height="350px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+---
+## Test di ipotesi & intervallo di confidenza
+
+<div style="font-size: 90%" >
+
+:dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval e' l'insieme delle ipotesi nulle che non sono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+
+
+<span style="display:block; height:150px;"></span>
+
+<div style="font-size: 80%" align="right">
+
+| Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| ----: | ----- | ---- | ----|
+| 95% | 5% | 2.5% | 1.96 |
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/alpha_level.png" img height="350px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+---
+## Test di ipotesi & intervallo di confidenza
+
+<div style="font-size: 90%" >
+
+:dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval e' l'insieme delle ipotesi nulle che non sono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
+
+</div>
+
+<div class="columns">
+<div>
+
+
+
+<div style="font-size: 90%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In un test a due code, $\text{P} <0.05$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se il 95% CI non include l'ipotesi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   nulla (solitamente zero)
+
+</div>
+
+<!-- <span style="display:block; height:150px;"></span>
+
+<div style="font-size: 80%" align="right">
+
+| Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| ----: | ----- | ---- | ----|
+| 95% | 5% | 2.5% | 1.96 |
+
+</div> -->
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/alpha_level.png" img height="350px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- This intimate link between hypothesis testing and confidence intervals should stop people misinterpreting results that are not statistically significantly different from 0 – this does not mean that the null hypothesis is actually true, but simply that a confidence interval for the true value includes 0. Unfortunately, as we shall see later, this lesson is often ignored. -->
+
 
 ---
 ## Pearson's $\chi^2$ test
 
-:pushpin: &nbsp;&nbsp;&nbsp; Is zidovudine the same as standard care?
+<div style="font-size: 88%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Prayer_title.png" img height="300px" border="4px"/>
+</center>
+
+---
+## Pearson's $\chi^2$ test
+
+<div style="font-size: 88%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+
+</div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Prayer_results.png" img height="150px" border="4px"/>
+</center>
+
+<span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{i}}=180, m_{\text{i}}=13$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=183, m_{\text{c}}=40$ 
+1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
+
+</div>
+
+<div style="font-size: 80%" >
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{i}} - \pi_{\text{c}}  = 0$ &nbsp;&nbsp;&nbsp; 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{i}} - \pi_{\text{c}}  \neq 0$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\alpha = 0.05$
 </div>
+
+
+
+---
+## Pearson's $\chi^2$ test
+
+<div style="font-size: 88%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+
+</div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Prayer_results.png" img height="150px" border="4px"/>
+</center>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
+
+</div>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pearson's $\chi^2$ test per dati categorici
+
+</div>
+
+---
+## Pearson's $\chi^2$ test
+
+<div style="font-size: 88%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+
+</div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Prayer_results.png" img height="150px" border="4px"/>
+</center>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+3. Genero la distribuzione campionaria del test scelto, assumendo $\mathcal{H_0}$ vera
+
+</div>
+
+
+---
+## Pearson's $\chi^2$ test
+
+<div style="font-size: 88%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+
+</div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Prayer_results.png" img height="150px" border="4px"/>
+</center>
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Come completiamo questa tabella  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di contingenza?
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%" >
+
+<center>
+
+| Preghiere/Complicazioni | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Certi |   |    |   |
+| Incerti |  |    |  |
+| Totale |  |   |  |
+
+</center>
+
+</div>
+</div>
+
 
 <!-- Proviamo ora a calcolare se l'uso di zidovudine influisce sulla trasmissione del virus dell'HIV da madre a bambino usando un test diverso, il Pearson\s chi2, un testo usato comunemente per testare le differenze tra variabili categoriche
 
@@ -725,147 +1357,87 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 ---
 ## Pearson's $\chi^2$ test
 
-:pushpin: &nbsp;&nbsp;&nbsp; Is zidovudine the same as standard care?
+<div style="font-size: 88%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+
+</div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Prayer_results.png" img height="150px" border="4px"/>
+</center>
+
 
 <div class="columns">
 <div>
 
-<div style="font-size: 90%" >
+<div style="font-size: 65%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{i}}=180, m_{\text{i}}=13$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=183, m_{\text{c}}=40$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{i}} - \pi_{\text{c}}  = 0$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{i}} - \pi_{\text{c}}  \neq 0$
+<center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\alpha = 0.05$
+| Preghiere/Complicazioni | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Certi | 352  | 249   | 601  |
+| Incerti | 315  |  289  | 604 |
+| Totale | 667 | 538  | 1205 |
+
+</center>
+
 </div>
 
 </div>
 <div>
 
-<div style="font-size: 75%" >
 
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ |
-HIV- |
-Total | 180 | 183 | 363 |
-
-</div>
 
 </div>
 </div>
+
+
 
 <!-- Andiamo innanzitutto a costruirci una tabella di contigenza, dove andiamo ad indicare le dimensioni dei due campioni -->
 
 ---
 ## Pearson's $\chi^2$ test
 
-:pushpin: &nbsp;&nbsp;&nbsp; Is zidovudine the same as standard care?
+<div style="font-size: 88%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{complicazioni}^+}{tot}=\frac{667}{1205}=0.553527$
+
+</div>
+
+<span style="display:block; height:1px;"></span>
 
 <div class="columns">
 <div>
 
-<div style="font-size: 90%" >
+<div style="font-size: 70%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{i}}=180, m_{\text{i}}=13$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=183, m_{\text{c}}=40$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{i}} - \pi_{\text{c}}  = 0$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{i}} - \pi_{\text{c}}  \neq 0$
+<center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\alpha = 0.05$
-</div>
+| Preg/Compl | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Certi | 352  | 249   | 601  |
+| Incerti | 315  |  289  | 604 |
+| Totale | 667 | 538  | 1205 |
 
-</div>
-<div>
-
-<div style="font-size: 75%" >
-
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ | 13 | 40 | 53 | 
-HIV- |
-Total | 180 | 183 | 363 |
-
-</div>
-
-</div>
-</div>
-
-<!-- Anduiamo poi a riportare di casi di infezione nei due campioni -->
-
----
-## Pearson's $\chi^2$ test
-
-:pushpin: &nbsp;&nbsp;&nbsp; Is zidovudine the same as standard care?
-
-<div class="columns">
-<div>
-
-<div style="font-size: 90%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{i}}=180, m_{\text{i}}=13$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=183, m_{\text{c}}=40$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{i}} - \pi_{\text{c}}  = 0$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{i}} - \pi_{\text{c}}  \neq 0$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\alpha = 0.05$
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 75%" >
-
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ | 13 | 40 | 53 | 
-HIV- | 167 | 143 | 310
-Total | 180 | 183 | 363 |
-
-</div>
-</div>
-</div>
-
-<!-- Andiamo poi a completare la differenza per indicare anche il numero di infanti che non ha contratto l'infezione -->
-
----
-## Pearson's $\chi^2$ test
-
-:pushpin: &nbsp;&nbsp;&nbsp; Is zidovudine the same as standard care?
-
-<div class="columns">
-<div>
-
-<div style="font-size: 90%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{i}}=180, m_{\text{i}}=13$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=183, m_{\text{c}}=40$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{i}} - \pi_{\text{c}}  = 0$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{i}} - \pi_{\text{c}}  \neq 0$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\alpha = 0.05$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{tot}^+}{tot}=\frac{53}{363}=0.146$
+</center>
 
 </div>
 
 </div>
 <div>
 
-<div style="font-size: 75%" >
 
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ | 13 | 40 | 53 | 
-HIV- | 167 | 143 | 310
-Total | 180 | 183 | 363 |
 
-</div>
 </div>
 </div>
 
@@ -874,43 +1446,55 @@ Total | 180 | 183 | 363 |
 ---
 ## Pearson's $\chi^2$ test
 
-:pushpin: &nbsp;&nbsp;&nbsp; Is zidovudine the same as standard care?
+<div style="font-size: 88%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{complicazioni}^+}{tot}=\frac{667}{1205}=0.553527$
+
+</div>
+
+<span style="display:block; height:1px;"></span>
 
 <div class="columns">
 <div>
 
-<div style="font-size: 90%" >
+<div style="font-size: 70%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{i}}=180, m_{\text{i}}=13$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=183, m_{\text{c}}=40$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{i}} - \pi_{\text{c}}  = 0$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{i}} - \pi_{\text{c}}  \neq 0$
+<center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\alpha = 0.05$
+| Preg/Compl | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Certi | 352  | 249   | 601  |
+| Incerti | 315  |  289  | 604 |
+| Totale | 667 | 538  | 1205 |
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{tot}^+}{tot}=\frac{53}{363}=0.146$
+</center>
 
 </div>
 
 </div>
 <div>
 
-<div style="font-size: 75%" >
 
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ | 13 | 40 | 53 | 
-HIV- | 167 | 143 | 310
-Total | 180 | 183 | 363 |
+<div style="font-size: 70%" >
 
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ | 180 $\times$<br/> 0.146 | 183 $\times$<br/> 0.146 | 53 | 
-HIV- |  |  | 310
-Total | 180 | 183 | 363 |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
+<center>
+
+| Preg/Compl | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Certi | 601 x 0.55..  |    | 601  |
+| Incerti | 604 x 0.55..   |    | 604 |
+| Totale | 667 | 538  | 1205 |
+
+</center>
 
 </div>
+
 </div>
 </div>
 
@@ -919,86 +1503,111 @@ Total | 180 | 183 | 363 |
 ---
 ## Pearson's $\chi^2$ test
 
-:pushpin: &nbsp;&nbsp;&nbsp; Is zidovudine the same as standard care?
+<div style="font-size: 88%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{complicazioni}^+}{tot}=\frac{667}{1205}=0.553527$
+
+</div>
+
+<span style="display:block; height:1px;"></span>
 
 <div class="columns">
 <div>
 
-<div style="font-size: 90%" >
+<div style="font-size: 70%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{i}}=180, m_{\text{i}}=13$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=183, m_{\text{c}}=40$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{i}} - \pi_{\text{c}}  = 0$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{i}} - \pi_{\text{c}}  \neq 0$
+<center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\alpha = 0.05$
+| Preg/Compl | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Certi | 352  | 249   | 601  |
+| Incerti | 315  |  289  | 604 |
+| Totale | 667 | 538  | 1205 |
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{tot}^+}{tot}=\frac{53}{363}=0.146$
+</center>
 
 </div>
 
 </div>
 <div>
 
-<div style="font-size: 75%" >
+<div style="font-size: 70%" >
 
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ | 13 | 40 | 53 | 
-HIV- | 167 | 143 | 310
-Total | 180 | 183 | 363 |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
 
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ | 26.28 | 27.72 | 53 | 
-HIV- |  |   | 
-Total | 180 | 183 | 363 |
+<center>
+
+| Preg/Compl | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Certi | 332.67  |    | 601  |
+| Incerti | 334.33  |    | 604 |
+| Totale | 667 | 538  | 1205 |
+
+</center>
+
+</div>
 
 </div>
 </div>
-</div>
+
+<!-- In corsivo perche' le somme non tornano -> per semplificare i calcoli ho arrotondato un po' troppo il rapporto  -->
 
 ---
 ## Pearson's $\chi^2$ test
 
-:pushpin: &nbsp;&nbsp;&nbsp; Is zidovudine the same as standard care?
+<div style="font-size: 88%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{complicazioni}^+}{tot}=\frac{667}{1205}=0.553527$
+
+</div>
+
+<span style="display:block; height:1px;"></span>
 
 <div class="columns">
 <div>
 
-<div style="font-size: 90%" >
+<div style="font-size: 70%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{i}}=180, m_{\text{i}}=13$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=183, m_{\text{c}}=40$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{i}} - \pi_{\text{c}}  = 0$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{i}} - \pi_{\text{c}}  \neq 0$
+<center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\alpha = 0.05$
+| Preg/Compl | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Certi | 352  | 249   | 601  |
+| Incerti | 315  |  289  | 604 |
+| Totale | 667 | 538  | 1205 |
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{tot}^+}{tot}=\frac{53}{363}=0.146$
+</center>
 
 </div>
 
 </div>
 <div>
 
-<div style="font-size: 75%" >
 
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ | 13 | 40 | 53 | 
-HIV- | 167 | 143 | 310
-Total | 180 | 183 | 363 |
+<div style="font-size: 70%" >
 
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ | 26.28 | 27.72 | 53 | 
-HIV- | 153.72 | 155.28  | 310
-Total | 180 | 183 | 363 |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
+<center>
+
+| Preg/Compl | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Certi | 332.67  |  268.33  | 601  |
+| Incerti | 334.33  | 269.67   | 604 |
+| Totale | 667 | 538  | 1205 |
+
+</center>
 
 </div>
+
 </div>
 </div>
 
@@ -1007,47 +1616,58 @@ Total | 180 | 183 | 363 |
 ---
 ## Pearson's $\chi^2$ test
 
-:pushpin: &nbsp;&nbsp;&nbsp; Is zidovudine the same as standard care?
+<div style="font-size: 88%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+
+</div>
 
 <div class="columns">
 <div>
 
 <div style="font-size: 90%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{i}}=180, m_{\text{i}}=13$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=183, m_{\text{c}}=40$ 
-
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = \sum \frac{(Observed- Expected)^2}{Expected} =$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = \sum \frac{(Osservati- Attesi)^2}{Attesi} =$
 
 </div>
 
 <div style="font-size: 80%" >
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \frac{(13-16.28)^2}{26.28} + \frac{(167-153.72)^2}{153.72} +$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $+\frac{(40-27.2)^2}{27.2} + \frac{(143-155.26)^2}{155.26} =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 14.85$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \frac{(352-332.67)^2}{332.67} + \frac{(249-268.33)^2}{268.33} +$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $+\frac{(315-334.33)^2}{334.33} + \frac{(289-269.67)^2}{269.67} =$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 5.019$
 
 </div>
 
 </div>
 <div>
 
-<div style="font-size: 75%" >
+<div style="font-size: 65%" >
 
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ | 13 | 40 | 53 | 
-HIV- | 167 | 143 | 310
-Total | 180 | 183 | 363 |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
 
-| | Int | Cnt | Tot
-| :---- | -----: | ----: | ----: |
-HIV+ | 26.28 | 27.72 | 53 | 
-HIV- | 153.72 | 155.28  | 310
-Total | 180 | 183 | 363 |
+<center>
 
+| Preg/Compl | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Certi | 352  | 249   | 601  |
+| Incerti | 315  |  289  | 604 |
+| Totale | 667 | 538  | 1205 |
+
+</center>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
+<center>
+
+| Preg/Compl | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Certi | 332.67  |  268.33  | 601  |
+| Incerti | 334.33  | 269.67   | 604 |
+| Totale | 667 | 538  | 1205 |
+
+</center>
 </div>
 </div>
 </div>
@@ -1056,37 +1676,23 @@ Total | 180 | 183 | 363 |
 ---
 ## Pearson's $\chi^2$ test
 
-:pushpin: &nbsp;&nbsp;&nbsp; Is zidovudine the same as standard care?
+<div style="font-size: 88%" >
 
-<div class="columns">
-<div>
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
 
-<div style="font-size: 90%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{i}}=180, m_{\text{i}}=13$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=183, m_{\text{c}}=40$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{i}} - \pi_{\text{c}}  = 0$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{i}} - \pi_{\text{c}}  \neq 0$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\alpha = 0.05$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 14.85$ &nbsp;&nbsp;&nbsp; $\text{df} = 1$
-
-</div>
-
-</div>
-<div>
-
-<span style="display:block; height:70px;"></span>
-
+<span style="display:block; height:10px;"></span>
 
 <center>
 <img src="./img/hypothesis_testing/chitable.png" img height="210px" border="4px"/>
 </center>
 
+4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilita' (P-value) a questo evento
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 5.019$ &nbsp;&nbsp;&nbsp; $\text{df} = 1$
+
+
 </div>
-</div>
+
 
 <!-- Il chi2 e' di nuovo una distribuzione di probabilita' per cui esistono delle tavole. Come la distribuzione t, amche la chi2 e' una famiglia di distribuzioni, 1 per ogni grado di liberta'. Nel nostro caso, in cui abbiamo uan tabella 2x2 abbiamo 1 grado di liberta'. Infatti dobbiamo definire il valore di solo 3 celle perche' tutte e 4 siano definite 
 
@@ -1095,41 +1701,23 @@ I GdL sono numero di righe -1 * numero di colonne -1 -->
 ---
 ## Pearson's $\chi^2$ test
 
-:pushpin: &nbsp;&nbsp;&nbsp; Is zidovudine the same as standard care?
+<div style="font-size: 88%" >
 
-<div class="columns">
-<div>
+:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
 
-<div style="font-size: 90%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{i}}=180, m_{\text{i}}=13$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=183, m_{\text{c}}=40$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{i}} - \pi_{\text{c}}  = 0$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{i}} - \pi_{\text{c}}  \neq 0$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\alpha = 0.05$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 14.85$ &nbsp;&nbsp;&nbsp; $\text{df} = 1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2_\alpha = 3.84 < 14.85$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ reject $\mathcal{H}_0$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(\chi^2 > 14.85) = 1.2 \times 10^{-4}$
-
-</div>
-
-</div>
-<div>
-
-<span style="display:block; height:70px;"></span>
-
+<span style="display:block; height:10px;"></span>
 
 <center>
 <img src="./img/hypothesis_testing/chitable.png" img height="210px" border="4px"/>
 </center>
 
+5. Dichiaro il risultato come statisticamente significativo se il P-value e' inferiore a una soglia critica $\alpha$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 5.019$ &nbsp;&nbsp;&nbsp; $\text{df} = 1$ &nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp;&nbsp; $\text{P}=0.025 < \alpha=0.05$  
+
 </div>
-</div>
+
+<!-- Rifiuto l'ipotesi nulla, e pare che pregare AUMENTI le complicazioni -->
 
 ---
 ## Pearson's $\chi^2$ test
@@ -1176,39 +1764,79 @@ Total | | | |
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; How many degrees of freedom there are?
+:question: &nbsp;&nbsp;&nbsp; Quanti grafi di liberta' (df) ci sono in questa tabella?
 
 </div>
 
 ---
-### Exercise 16
+### Esercizio 3
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Does using seatbelt when driving changes the chance of death?
+:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{s}}=250, m_{\text{s}}=3$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=290, m_{\text{c}}=13$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 <span style="display:block; height:10px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the Pearson's $\chi^2$ test, &nbsp; $\alpha = 0.05 \text{ } (\chi^2_\alpha = 3.84)$
+<center>
+<img src="./img/hypothesis_testing/chitable.png" img height="250px" border="4px"/>
+</center>
 
 </div>
 
 ---
-### Exercise 16 -- Solution
+### Esercizio 3 -- Soluzione
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Does using seatbelt when driving changes the chance of death?
+:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{s}}=250, m_{\text{s}}=3$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=290, m_{\text{c}}=13$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Set $\mathcal{H}_0$ and $\mathcal{H}_1$ &nbsp; $\rightarrow$ &nbsp; $\mathcal{H}_0: \pi_s - \pi_c = 0 \text{, } \mathcal{H}_1: \pi_s - \pi_c \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
+
+
+<div class="columns">
+<div>
+
+<div style="font-size: 65%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
+
+<center>
+
+| Ospedale/Deceduti | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</center>
+
+</div>
+
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot} = \frac{397}{3319} = 0.1196$
+
+</div>
+
+</div>
+<div>
+
+
+
+</div>
+</div>
+
 
 <!-- H0 la proporzione di soggetti deceduti e' uguale tra coloro che usavano e non usavano le cinture di sicurezza (indipendenza) 
 
@@ -1216,229 +1844,465 @@ H1: la proporzione di deceduti e' diversa (associazione)
 -->
 
 ---
-### Exercise 16 -- Solution
+### Esercizio 3 -- Soluzione
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Does using seatbelt when driving changes the chance of death?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{s}}=250, m_{\text{s}}=3$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=290, m_{\text{c}}=13$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. $\mathcal{H}_0: \pi_s - \pi_c = 0 \text{, } \mathcal{H}_1: \pi_s - \pi_c \neq 0$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Define $\alpha$ &nbsp; $\rightarrow$ &nbsp; $\alpha = 0.05$
-
+:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+ 
 </div>
 
-<!-- Livello di significativita' -->
-
----
-### Exercise 16 -- Solution
-
-<div style="font-size: 90%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{s}}=250, m_{\text{s}}=3$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=290, m_{\text{c}}=13$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. $\mathcal{H}_0: \pi_s - \pi_c = 0 \text{, } \mathcal{H}_1: \pi_s - \pi_c \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. $\alpha = 0.05$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Calculate the test statistics &nbsp; $\downarrow$ 
-
-</div>
-
-<div style="font-size: 70%" >
+<span style="display:block; height:10px;"></span>
 
 <div class="columns">
 <div>
 
-| | Seatbelt | No seatbelt | Total
-| ---- | ---- | ---- | ---- | 
-| Death | 3 | 13 | 16 |
-| Survived | 247 | 277 | 524 |
-| Total | 250 | 290 |  540 |
+<div style="font-size: 65%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{death}}{tot} = \frac{16}{540} = 0.03$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
+
+<center>
+
+| Ospedale/Deceduti | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</center>
+
+</div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot} = \frac{397}{3319} = 0.1196$
+
+</div>
 
 </div>
 <div>
 
+<div style="font-size: 65%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
 </div>
+
+<div style="font-size: 61.5%">
+
+<center>
+
+| Ospedale/Deceduti | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Bristol | 143*0.1196  |    |  143  |
+| Altri | 3176*0.1196  |    | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</center>
+
 </div>
 
 </div>
+</div>
+
 
 <!--  Andiamo a calcolare le frequenze osservate con la tabella di contingenza
 
 Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due campioni sarebbe la stessa, e sarebbe la stessa osservata nel totale -->
 
+
 ---
-### Exercise 16 -- Solution
+### Esercizio 3 -- Soluzione
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{s}}=250, m_{\text{s}}=3$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=290, m_{\text{c}}=13$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. $\mathcal{H}_0: \pi_s - \pi_c = 0 \text{, } \mathcal{H}_1: \pi_s - \pi_c \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. $\alpha = 0.05$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Calculate the test statistics &nbsp; $\downarrow$ 
+:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 </div>
 
-<div style="font-size: 70%" >
+<span style="display:block; height:10px;"></span>
 
 <div class="columns">
 <div>
 
-| | Seatbelt | No seatbelt | Total
-| ---- | ---- | ---- | ---- | 
-| Death | 3 | 13 | 16 |
-| Survived | 247 | 277 | 524 |
-| Total | 250 | 290 |  540 |
+<div style="font-size: 65%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{death}}{tot} = \frac{16}{540} = 0.03$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
+
+<center>
+
+| Ospedale/Deceduti | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</center>
+
+</div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot} = \frac{397}{3319} = 0.1196$
+
+</div>
 
 </div>
 <div>
 
-| | Seatbelt | No seatbelt | Total
-| ---- | ---- | ---- | ---- | 
-| Death | 7.5 | 8.7 | 16 |
-| Survived | 242.5 | 281.3 | 524 |
-| Total | 250 | 290 |  540 |
+<div style="font-size: 65%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = \sum \frac{(Observed- Expected)^2}{Expected}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
+<center>
+
+| Ospedale/Deceduti | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Bristol | 17.1  | 125.9   |  143  |
+| Altri | 379.9  | 2796.1   | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</center>
+
+
+</div>
 
 </div>
 </div>
 
+
+---
+### Esercizio 3 -- Soluzione
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+
 </div>
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 65%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
+
+<center>
+
+| Ospedale/Deceduti | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</center>
+
+</div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot} = \frac{397}{3319} = 0.1196$
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 65%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
+<center>
+
+| Ospedale/Deceduti | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Bristol | 17.1  | 125.9   |  143  |
+| Altri | 379.9  | 2796.1   | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</center>
+
+</div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = \sum \frac{(Osservati- Attesi)^2}{Attesi}$
+
+</div>
+
+
+
+</div>
+</div>
+
 
 <!-- Andiamo quindi a calcolare le frequenze attese, sottp H0 e il valre del chi2-->
 
 ---
-### Exercise 16 -- Solution
+### Esercizio 3 -- Soluzione
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{s}}=250, m_{\text{s}}=3$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=290, m_{\text{c}}=13$ 
+:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. $\mathcal{H}_0: \pi_s - \pi_c = 0 \text{, } \mathcal{H}_1: \pi_s - \pi_c \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. $\alpha = 0.05$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Calculate the test statistics &nbsp; $\downarrow$ 
 
 </div>
 
-<div style="font-size: 70%" >
+<span style="display:block; height:10px;"></span>
 
 <div class="columns">
 <div>
 
-| | Seatbelt | No seatbelt | Total
-| ---- | ---- | ---- | ---- | 
-| Death | 3 | 13 | 16 |
-| Survived | 247 | 277 | 524 |
-| Total | 250 | 290 |  540 |
+<div style="font-size: 65%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
+
+<center>
+
+| Ospedale/Deceduti | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</center>
+
+</div>
 
 </div>
 <div>
 
-| | Seatbelt | No seatbelt | Total
-| ---- | ---- | ---- | ---- | 
-| Death | 7.5 | 8.7 | 16 |
-| Survived | 242.5 | 281.3 | 524 |
-| Total | 250 | 290 |  540 |
+<div style="font-size: 65%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
+<center>
+
+| Ospedale/Deceduti | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Bristol | 17.1  | 125.9   |  143  |
+| Altri | 379.9  | 2796.1   | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</center>
+
+</div>
 
 </div>
 </div>
 
-$\chi^2=\frac{(3-7.5)^2}{7.5} + \frac{(13-8.7)^2}{8.7} + \frac{(247-242.5)^2}{242.5} + \frac{(277-281.3)^2}{281.3} = 4.98$
- 
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2=\frac{(41-17.1)^2}{17.1} + \frac{(102-125.9)^2}{125.9} + \frac{(356-379.9)^2}{379.9} + \frac{(2820-2796.1)^2}{2796.1} = 39.65$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{df}=1$
 </div>
 
 ---
-### Exercise 16 -- Solution
+### Esercizio 3 -- Soluzione
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{s}}=250, m_{\text{s}}=3$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=290, m_{\text{c}}=13$ 
+:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. $\mathcal{H}_0: \pi_s - \pi_c = 0 \text{, } \mathcal{H}_1: \pi_s - \pi_c \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. $\alpha = 0.05$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Calculate the test statistics &nbsp; $\downarrow$ 
+<span style="display:block; height:1px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 4.98$ &nbsp;&nbsp; $\text{df}=1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2_\alpha = 3.84 < 4.98$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(\chi^2 \geq 4.98) = 0.03$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2= 39.65$, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{df}=1$
+
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/chitable.png" img height="250px" border="4px"/>
+</center>
 
 </div>
+
 
 <!-- Abbiamo ora il nostro valore xhi, il GdL, con alpga == 00.5 il rapporto critico sarebbe 3.84, che e' meno estremo di quello che osserviamo nei nostri dati, che infatti corrisponde a un pvalue di 0.03 
 
-P value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di osservare il risultato che abbiamo ottenuto, o una differenza ancora maggiore, sarebbe solo dell’3% -->
+P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di osservare il risultato che abbiamo ottenuto, o una differenza ancora maggiore, sarebbe solo dell’3% -->
 
 ---
-### Exercise 16 -- Solution
+### Esercizio 3 -- Soluzione
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
-<div style="font-size: 90%" >
+:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{s}}=250, m_{\text{s}}=3$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{c}}=290, m_{\text{c}}=13$ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. $\mathcal{H}_0: \pi_s - \pi_c = 0 \text{, } \mathcal{H}_1: \pi_s - \pi_c \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. $\alpha = 0.05$
+<span style="display:block; height:1px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Calculate the test statistics &nbsp; $\downarrow$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2= 39.65$, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{df}=1$ &nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp;&nbsp; $\text{P} < 0.001 = 3 \times 10^{-10}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 4.98$ &nbsp;&nbsp; $\text{df}=1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2_\alpha = 3.84 < 4.98$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(\chi^2 \geq 4.98) = 0.03$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Make a decision about $\mathcal{H}_0$ &nbsp; $\rightarrow$ We refuse  $\mathcal{H}_0$
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/chitable.png" img height="250px" border="4px"/>
+</center>
 
 </div>
 
 ---
-## Multiple testing correction
+## Rischio relativo, rischio assoluto, odds ratio
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp; We tested the mean ventilator-free days to day 28, but 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; what if we tested $M$ multiple outcomes?
+<center>
+<img src="./img/hypothesis_testing/Prayer_risk.png" img height="150px" border="4px"/>
+</center>
 
 ---
-## Multiple testing correction
+## Quando facciamo piu' di un test alla volta?
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp; We tested the mean ventilator-free days to day 28, but 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; what if we tested $M$ multiple outcomes?
+<div style="font-size: 90%" >
 
-<span style="display:block; height:10px;"></span>
+:pushpin: &nbsp;&nbsp;&nbsp;  Un gruppo di ricerca ha effettuato fMRI su un singolo soggetto (*) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mentre gli venivano mostrate delle fotografie in cui le persone 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fotografate esprimevano diverse emozioni. Sedici regioni cerebrali 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mostano un segnale a $\text{P} < 0.001$.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Bonferroni correction:  $\alpha = \alpha/M$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - False discovery rate (FDR)
+---
+## Quando facciamo piu' di un test alla volta?
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp;  Un gruppo di ricerca ha effettuato fMRI su un singolo soggetto (*) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mentre gli venivano mostrate delle fotografie in cui le persone 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fotografate esprimevano diverse emozioni. Sedici regioni cerebrali 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mostano un segnale a $\text{P} < 0.001$. 
+
+</div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/hypothesis_testing/salmon.png" img height="200px" border="4px" align="right"/>
+
+<span style="display:block; height:60px;"></span>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (*) Atlantic salmon, *'not alive at 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the time of scanning'*
+
+</div>
 
 
-<!-- livello di significicativita' alpha
+<div style="font-size: 50%">
 
+</br> Bennett, C. M., Miller M.B., and Wolford G.L.,. *Neural correlates of interspecies perspective taking in the post-mortem Atlantic Salmon: An argument for multiple comparisons correction.* Neuroimage 47.Suppl 1 (2009) doi:10.1016/S1053-8119(09)71202-9
+
+</div>
+
+---
+## Quando facciamo piu' di un test alla volta?
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; $\text{P} = 0.05 \rightarrow 5\%$ rifiutiamo $\mathcal{H}_0$ anche se e' vera
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.95 = 0.05$
+
+
+
+</div>
+
+<!-- Suppose a drug truly does not work; that the null hypothesis is true. If we do one clinical trial, we will declare the result as statistically significant if the P-value is less than 0.05 and, since the drug is ineffective, the chance of this happening is 0.05 or 5% – that is the definition of a P-value. This would be considered a false-positive result, since we incorrectly believe the drug is effective.  -->
+
+---
+## Quando facciamo piu' di un test alla volta?
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; $\text{P} = 0.05 \rightarrow 5\%$ rifiutiamo $\mathcal{H}_0$ anche se e' vera
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.95 = 0.05$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 2 test, averne almeno uno con $\text{P} < 0.05$ e':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.95 \times 0.95 = 1 - 0.95^2 = 0.0975 \rightarrow \text{ } \approx 10\%$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 3 test, averne almeno uno con $\text{P} < 0.05$ e':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.95^3 = 0.145 \rightarrow \text{ } \approx 14\%$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 10 test, averne almeno uno con $\text{P} < 0.05$ e':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.95^{10} = 0.40 \rightarrow \text{ } \approx 40\%$
+
+</div>
+
+<!--  If we do two trials, and look at the most extreme, the chance of getting at least one significant – and hence false-positive – result is close to 0.10 or 10%.fn5 The chance of getting at least one false-positive result increases quickly as we do more trials; if we do ten trials of useless drugs the chance of getting at least one significant at P < 0.05 gets as high as 40%. This is known as the problem of multiple testing, and occurs whenever many significance tests are carried out and then the most significant result is reported. -->
+
+---
+## Correzione per tesi multipli
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:dart: &nbsp;&nbsp;&nbsp; Quando si fanno piu' test, si richiede un $\alpha$ inferiore
+
+<span style="display:block; height:1px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Bonferroni-correction**: $\alpha=\frac{0.05}{N_\text{test}}$
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 10 test, averne almeno uno con $\text{P} < \frac{0.05}{10} = 0.005$ e' 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.995^{10} = 0.049 \rightarrow \text{ } \approx 5\%$
+
+<!-- One way around this problem is to demand a very low P-value at which significance is declared, and the simplest method, known as the Bonferroni correction, is to use a threshold of 0.05/n, where n is number of tests done. So, for example, the tests at each site of the salmon’s brain could be carried out demanding a P-value of 0.05/8,000 = 0.00000625, or 1 in 160,000. This technique has become standard practice when searching the human genome for sites with association with diseases: since there are roughly 1,000,000 sites for genes, a P-value smaller than 0.05/1,000,000 = 1 in 20 million is routinely demanded before claiming a discovery. 
+
+Moltp stringente
+-->
+
+
+---
+## Correzione per tesi multipli
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:dart: &nbsp;&nbsp;&nbsp; Quando si fanno piu' test, si richiede un $\alpha$ inferiore
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quando si fanno piu' test, si fissa il numero di 'scoperte' che sono false
+
+<span style="display:block; height:1px;"></span>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **False discovery rate (FDR)**: ordino i risultati per significatita' e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; considero statisticamente significativee il top X%
+
+
+<!--
+
+So when large numbers of hypotheses are being tested at the same time, as in brain imaging or genomics, the Bonferroni method can be used to decide whether the most extreme findings are significant. Simple techniques have also been developed that slightly relax the Bonferroni criterion for the second most extreme result, the third most extreme and so on, that are designed to control the overall proportion of ‘discoveries’ that turn out to be false claims – the so-called false discovery rate.
 
 FDR intuitivamente ci dice quale proporzione di falso positivi andiamo ad accettare (FDR = FP/(FP+TP) ) 
-Un FDR del 5%, per esempio, ci dice che accettiamo che oni 100 volte che "chiamiamo" un risultato (diciamo che un test e' significativo), in 5 stiamo facendo un errore-->
+Un FDR del 5%, per esempio, ci dice che accettiamo che oni 100 volte che "chiamiamo" un risultato (diciamo che un test e' significativo), in 5 stiamo facendo un errore -->
 
----
-## $\text{P value} < 0.05 \text{?}$
-
-Cosa puo' andare storto
 
 
 ---
@@ -1627,7 +2491,7 @@ Non rejected | $1 -  \alpha$ | $\beta$ |
 </div>
 
 ---
-### Exercise #17 -- Solution
+### Exercise #17 -- Soluzione
 
 <div style="font-size: 90%" >
 
@@ -1658,7 +2522,7 @@ Non rejected | $1 -  \alpha$ | $\beta$ |
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) Both a) and c)
 
 --- 
-### Exercise #18 -- Solution
+### Exercise #18 -- Soluzione
 
 :question: &nbsp;&nbsp;&nbsp; I want to increase the power of my study, what factors are
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  under my control?

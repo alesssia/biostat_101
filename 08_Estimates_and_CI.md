@@ -1249,7 +1249,8 @@ updateButton_exercise_5();
 
 > In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di eta', riferiscono di aver avuto nella loro vita?
 
-:question: &nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
+:question: &nbsp;&nbsp;&nbsp; Qual e' il 95% CI?  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s=11.2$
 
@@ -1346,6 +1347,8 @@ updateButton_exercise_6();
 ---
 ## Esercizio #6 -- Soluzione
 
+<div style="font-size: 90%" >
+
 > In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di eta', riferiscono di aver avuto nella loro vita?
 
 :question: &nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
@@ -1354,12 +1357,14 @@ updateButton_exercise_6();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?} \rightarrow$ &nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \frac{11.2}{\sqrt760}=0.41$
 
+<div>
+
 ---
 ## Esercizio #6 -- Soluzione
 
+<div style="font-size: 90%" >
 
 > In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di eta', riferiscono di aver avuto nella loro vita?
-
 
 :question: &nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
@@ -1370,6 +1375,8 @@ updateButton_exercise_6();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $=(11.4 - 1.96 \times 0.41; 11.4 + 1.96 \times 0.41) =$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (10.6; 12.2)$
 
+</div>
+
 <!-- Per il CTL e per la legge dei grandi numeri, la media del campione e' la media della popolazione. Se io prendo 2SE a sx della media e 2SE a destra (quindi x +/- 2 SE) ho il 95% di probabilta' di includere il vero valore mu, la media della popolazione
 
 1,96 e' il coefficiente di attendibilita', ci dice entro quanti errori standard si trova il 95% di tutti i possibili valori della media campionaria
@@ -1378,6 +1385,8 @@ Stima intervallare devinita come stimatore +/- il prodotto tra coeff di attendib
 
 ---
 ## Esercizio #6 -- Soluzione
+
+<div style="font-size: 90%" >
 
 > In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di eta', riferiscono di aver avuto nella loro vita?
 
@@ -1390,6 +1399,7 @@ Stima intervallare devinita come stimatore +/- il prodotto tra coeff di attendib
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  via Bootstrapping $\rightarrow 95\% \text{CI} = (10.6 ; 12.1)$
 
+</div>
 
 <!--  It is far easier to obtain exact intervals that are based on probability theory and provided in standard software, and Table 9.1 shows they give very similar results. The ‘exact’ intervals based on probability theory require more assumptions than the bootstrap approach, and strictly speaking would only be precisely correct if the underlying population distribution were normal. But the Central Limit Theorem means that with such a large sample size it is reasonable to assume our estimates have got normal distributions and so the exact intervals are acceptable.
 --->
@@ -2023,6 +2033,7 @@ Quando accettiamo un livello di confidenza del 95% accettiamo implicitamente un 
 <div class="columns">
 <div>
 <span style="display:block; height:10px;"></span>
+
 <div style="font-size: 90%" >
 
 | Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
@@ -2060,6 +2071,7 @@ $100\% - 2.5\% = 97.5\%$
 | 95% | 5% | 2.5% | 1.96 |
 
 $100\% - 2.5\% = 97.5\% \rightarrow \mathcal{z} = 1.96$  
+
 </div>
 
 </div>

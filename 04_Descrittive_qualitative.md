@@ -342,7 +342,6 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <!-- Le frequenze relative: facilitano la percezione del peso delle modalità -->
 
 ---
-
 ## Tabelle di contingenza
 
 <span style="display:block; height:10px;"></span>
