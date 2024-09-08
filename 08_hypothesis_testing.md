@@ -16,7 +16,7 @@ style: |
 ### Lezione 9
 
 # La statistica inferenziale
-## (Parte III: Test di ipotesi)
+## (Parte II: Test di ipotesi)
 ## &nbsp;
 
 ---

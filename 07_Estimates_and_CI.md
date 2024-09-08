@@ -16,7 +16,7 @@ style: |
 
 ### Lezione 8
 # La statistica inferenziale
-## (Parte II: Stime e intervalli di confidenza)
+## (Parte I: Stime e intervalli di confidenza)
 ## &nbsp;
 
 ---
