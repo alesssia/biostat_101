@@ -124,5 +124,26 @@ print(p)
 dev.off()
 
 
+p <-   ggplot(data = data.frame(x = c(-15, 15)), aes(x)) +
+    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="grey34", alpha=0.2, xlim = c(-10, 10)) + 
+    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), colour="black") + ylab("") +
+	geom_segment(aes(x = -10, y = -0.0025, xend = -10, yend = dnorm(-10, mean=0, sd=4)), colour="black") +
+	geom_segment(aes(x = 10, y = -0.0025, xend = 10, yend = dnorm(10, mean=0, sd=4)), colour="black") +
+    scale_y_continuous(breaks = NULL) +
+	annotate("text", x = -12, y = dnorm(-12, mean=0, sd=4)+0.0055, label = "Regione di rifiuto",  size=5) +
+	annotate("text", x = 12, y = dnorm(12, mean=0, sd=4)+0.0055, label = "Regione di rifiuto",  size=5) + 
+	geom_segment(aes(x = -12, y = dnorm(-12, mean=0, sd=4)+0.0025, xend = -11, yend = 0), arrow = arrow(length = unit(0.2, "cm"))) +
+	geom_segment(aes(x = 12, y = dnorm(12, mean=0, sd=4)+0.0025, xend = 11, yend = 0), arrow = arrow(length = unit(0.2, "cm"))) +
+	annotate("text", x = 0, y = dnorm(12, mean=0, sd=4)+0.01, label = "Regione di non rifiuto",  size=5) +
+	geom_segment(aes(x = 0, y = 0, xend = 0, yend = dnorm(0, mean=0, sd=4)), colour="grey60", linewidth=1, linetype="dotted") +
+	geom_segment(aes(x = 0, y = -0.0025, xend = 0, yend = 0), colour="black") +
+	annotate('text', x = 0, y = -0.005, label = "bar(x)", parse=T, size=5) +
+	annotate('text', x = -10, y = -0.005, label = "bar(x) - z[alpha/2] %*% SE", parse=T, size=5) +
+	annotate('text', x = 10, y = -0.005, label = "bar(x) + z[alpha/2] %*% SE", parse=T, size=5) +
+	geom_segment(aes(x = -10, y = 0, xend = 10, yend = 0), colour="magenta", lwd=2) + theme_void()
+
+png("rifiuto_non_rifiuto.png")
+print(p)
+dev.off()
 
  

@@ -83,8 +83,6 @@ A hypothesis can be defined as a proposed explanation for a phenomenon. It is no
 <div style="font-size: 80%">
 
 * Il peso alla nascita e' diverso nei gemelli monozigoti e dizigoti inglesi?
-* Gli uomini e le donne inglesi hanno un diverso numero di partner sessuali?
-* Pregare dimiuisce le complicazioni di un bypass coronarico?
 * Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra il 1984 e il 1995 e' diverso rispetto ad altri ospedali britannici?
 
 </div>
@@ -104,20 +102,17 @@ Un'ipotesi puo' essere definita come una congettura
 <div style="font-size: 80%">
 
 * Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
-* Gli uomini e le donne inglesi hanno <s>un diverso</s> *lo stesso* numero di partner sessuali<s>?</s>
-* Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
 * Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 </div>
 
-<!-- Il metodo scientifico si basa sulla falsificazione delle ipotesi (K. Popper). Quindi quello che andiamo a testare e' l'esatto opposto, la cosidette ipotesi
+<!-- Il metodo scientifico si basa sulla falsificazione delle ipotesi (K. Popper). Quindi quello che andiamo a testare e' l'esatto opposto, la cosidette ipotesi nulle
 
-The null hypothesis is what we are willing to assume is the case until proven otherwise. It is relentlessly negative, denying all progress and change. But this does not mean that we actually believe the null hypothesis is literally true: it should be clear that none of the hypotheses listed above could plausibly be precisely correct. 
+The null hypothesis is what we are willing to assume is the case until proven otherwise. It is relentlessly negative, denying all progress and change. But this does not mean that we actually believe the null hypothesis is literally true
 
 So we can never claim that the null hypothesis has been actually proved: in the words of another great British statistician, Ronald Fisher, ‘the null hypothesis is never proved or established, but is possibly disproved, in the course of experimentation. Every experiment may be said to exist only in order to give the facts a chance of disproving the null hypothesis.’
 
 infatti il fatto di aver trovato dell'evidenza in favore di un'ipotesi non vuold dire che non sara' mai possibile trovare ulteriore evidenza che la renda falsa
-
 
 Nulla e alternativa sono mutualmente escusive e insieme descrivono tutti possibili casi -->
 
@@ -161,7 +156,7 @@ Meaning  These results underscore the importance of interventions targeting the 
 </div>
 
 ---
-### Esercizio 2
+### Esercizio 1
 
 :question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
 
@@ -200,7 +195,7 @@ Meaning  These findings suggest that the use of combined VR exposure plus tDCS c
 </div>
 
 ---
-### Esercizio 3
+### Esercizio 1
 
 :question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
 
@@ -236,6 +231,130 @@ Meaning  The findings suggest that the experience of grateful affect is associat
 <div style="font-size: 80%" align="right">
 
 *Soluzione*: People who more frequently notice and feel grateful <br/> for positive experiences **DO NOT** tend to live longer
+
+</div>
+
+---
+### Esercizio 2
+
+<span style="display:block; height:5px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Se non rifiuto l'ipotesi nulla significa che
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) ho provato che l'ipotesi nulla sia vera
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ho provato che l'ipotesi nulla sia falsa
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) le mie osservazioni sono compatibii con l'ipotesi nulla
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) le mie osservazioni non sono compatibili con l'ipotesi nulla
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuno dei precedenti
+
+</div>
+
+<span style="display:block; height:20px;"></span>
+
+<style>
+  #countdown_exercise_2{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_2.running {
+    background-color: green;
+  }
+  #countdown_exercise_2.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_2"></button>
+
+<script>
+<!--
+const countdown_exercise_2= document.getElementById("countdown_exercise_2");
+const seconds_exercise_2= 120; // seconds_exercise_2
+let timeLeft_exercise_2= seconds_exercise_2;
+let timerInterval_exercise_2= null;
+
+function formatTime_exercise_2(seconds_exercise_2) {
+  const minutes = Math.floor(seconds_exercise_2/ 60);
+  const remainingseconds_exercise_2= seconds_exercise_2% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_2).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_2() {
+  countdown_exercise_2.textContent = formatTime_exercise_2(timeLeft_exercise_2);
+}
+
+function startTimer_exercise_2() {
+  if (timerInterval_exercise_2=== null) {
+    countdown_exercise_2.classList.add('running');
+    countdown_exercise_2.classList.remove('finished');
+    timerInterval_exercise_2= setInterval(() => {
+      if (timeLeft_exercise_2> 0) {
+        timeLeft_exercise_2--;
+        updateButton_exercise_2();
+      } else {
+        clearInterval(timerInterval_exercise_2);
+        timerInterval_exercise_2= null;
+        countdown_exercise_2.classList.remove('running');
+        countdown_exercise_2.classList.add('finished');
+        countdown_exercise_2.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_2();
+  }
+}
+
+function pauseTimer_exercise_2() {
+  clearInterval(timerInterval_exercise_2);
+  timerInterval_exercise_2= null;
+  countdown_exercise_2.classList.remove('running');
+}
+
+function resetTimer_exercise_2() {
+  timeLeft_exercise_2= seconds_exercise_2;
+  updateButton_exercise_2();
+  countdown_exercise_2.classList.remove('finished');
+  countdown_exercise_2.classList.remove('running');
+  timerInterval_exercise_2= null;
+}
+
+countdown_exercise_2.addEventListener("click", () => {
+  if (countdown_exercise_2.classList.contains('finished')) {
+    resetTimer_exercise_2();
+  } else {
+    startTimer_exercise_2();
+  }
+});
+
+updateButton_exercise_2();
+-->
+</script>
+
+
+---
+### Esercizio 2 -- Soluzione
+
+<span style="display:block; height:5px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Se non rifiuto l'ipotesi nulla significa che
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) ho provato che l'ipotesi nulla sia vera
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ho provato che l'ipotesi nulla sia falsa
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) le mie osservazioni sono compatibii con l'ipotesi nulla &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) le mie osservazioni non sono compatibili con l'ipotesi nulla
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuno dei precedenti
 
 </div>
 
@@ -890,7 +1009,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 <!-- a one-sided hypothesis test is used when a null hypothesis specifies that, say, the effect of a medical treatment is negative. This would only be rejected by large positive values of a test statistic representing an estimated treatment effect. A two-sided test would be appropriate for a null hypothesis that a treatment effect, say, is exactly zero, and so both positive and negative estimates would lead to the null being rejected. -->
 
 ---
-## Esercizio #2
+## Esercizio #3
 
 <!-- <span style="display:block; height:1px;"></span> -->
 
@@ -924,10 +1043,98 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 </div>
 </div>
 
+<span style="display:block; height:100px;"></span>
+
+<style>
+  #countdown_exercise_3{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_3.running {
+    background-color: green;
+  }
+  #countdown_exercise_3.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_3"></button>
+
+<script>
+<!--
+const countdown_exercise_3= document.getElementById("countdown_exercise_3");
+const seconds_exercise_3= 300; // seconds_exercise_3
+let timeLeft_exercise_3= seconds_exercise_3;
+let timerInterval_exercise_3= null;
+
+function formatTime_exercise_3(seconds_exercise_3) {
+  const minutes = Math.floor(seconds_exercise_3/ 60);
+  const remainingseconds_exercise_3= seconds_exercise_3% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_3).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_3() {
+  countdown_exercise_3.textContent = formatTime_exercise_3(timeLeft_exercise_3);
+}
+
+function startTimer_exercise_3() {
+  if (timerInterval_exercise_3=== null) {
+    countdown_exercise_3.classList.add('running');
+    countdown_exercise_3.classList.remove('finished');
+    timerInterval_exercise_3= setInterval(() => {
+      if (timeLeft_exercise_3> 0) {
+        timeLeft_exercise_3--;
+        updateButton_exercise_3();
+      } else {
+        clearInterval(timerInterval_exercise_3);
+        timerInterval_exercise_3= null;
+        countdown_exercise_3.classList.remove('running');
+        countdown_exercise_3.classList.add('finished');
+        countdown_exercise_3.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_3();
+  }
+}
+
+function pauseTimer_exercise_3() {
+  clearInterval(timerInterval_exercise_3);
+  timerInterval_exercise_3= null;
+  countdown_exercise_3.classList.remove('running');
+}
+
+function resetTimer_exercise_3() {
+  timeLeft_exercise_3= seconds_exercise_3;
+  updateButton_exercise_3();
+  countdown_exercise_3.classList.remove('finished');
+  countdown_exercise_3.classList.remove('running');
+  timerInterval_exercise_3= null;
+}
+
+countdown_exercise_3.addEventListener("click", () => {
+  if (countdown_exercise_3.classList.contains('finished')) {
+    resetTimer_exercise_3();
+  } else {
+    startTimer_exercise_3();
+  }
+});
+
+updateButton_exercise_3();
+-->
+</script>
+
+
 <!-- Qui dobbiamo andare a pescare nella memoria delle cose viste in passato -->
 
 ---
-## Esercizio #2 -- Soluzione
+## Esercizio #3 -- Soluzione
 
 <div style="font-size: 90%" >
 
@@ -973,7 +1180,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 </div>
 
 ---
-## Esercizio #2 -- Soluzione
+## Esercizio #3 -- Soluzione
 
 <div style="font-size: 90%" >
 
@@ -1020,7 +1227,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 </div>
 
 ---
-## Esercizio #2 -- Soluzione
+## Esercizio #3 -- Soluzione
 
 <div style="font-size: 90%" >
 
@@ -1069,7 +1276,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 </div>
 
 ---
-## Esercizio #2 -- Soluzione
+## Esercizio #3 -- Soluzione
 
 <div style="font-size: 90%" >
 
@@ -1134,7 +1341,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 
 
 
-<span style="display:block; height:150px;"></span>
+<span style="display:block; height:190px;"></span>
 
 <div style="font-size: 80%" align="right">
 
@@ -1175,7 +1382,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In un test a due code, $\text{P} <0.05$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se il 95% CI non include l'ipotesi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   nulla (solitamente zero)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nulla (solitamente zero)
 
 </div>
 
@@ -1195,7 +1402,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 <span style="display:block; height:1px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/alpha_level.png" img height="350px" border="4px"/>
+<img src="./img/hypothesis_testing/rifiuto_non_rifiuto.png" img height="350px" border="4px"/>
 </center>
 
 </div>
@@ -1207,30 +1414,32 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
-<span style="display:block; height:1px;"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
-<center>
-<img src="./img/hypothesis_testing/Prayer_title.png" img height="300px" border="4px"/>
-</center>
+</div>
 
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
 
-<span style="display:block; height:1px;"></span>
 
-<center>
-<img src="./img/hypothesis_testing/Prayer_results.png" img height="150px" border="4px"/>
-</center>
 
 <span style="display:block; height:1px;"></span>
 
@@ -1242,8 +1451,8 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 
 <div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{i}} - \pi_{\text{c}}  = 0$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{i}} - \pi_{\text{c}}  \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0: \pi_{\text{B}} - \pi_{\text{H}}  = 0$ &nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1: \pi_{\text{B}} - \pi_{\text{H}}  \neq 0$
 
 </div>
 
@@ -1252,17 +1461,17 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
 
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/Prayer_results.png" img height="150px" border="4px"/>
-</center>
 
 <span style="display:block; height:1px;"></span>
 
@@ -1281,17 +1490,16 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/Prayer_results.png" img height="150px" border="4px"/>
-</center>
 
 <span style="display:block; height:1px;"></span>
 
@@ -1305,17 +1513,17 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
 
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/Prayer_results.png" img height="150px" border="4px"/>
-</center>
 
 <span style="display:block; height:10px;"></span>
 
@@ -1336,10 +1544,10 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 
 <center>
 
-| Preghiere/Complicazioni | Si | No | Totale |
+| Ospedale/Deceduti | Si | No | Totale |
 | ----: | -----: | ----: | ----: |
-| Certi |   |    |   |
-| Incerti |  |    |  |
+| Bristol |   |    |    |
+| Altri |   |    |  |
 | Totale |  |   |  |
 
 </center>
@@ -1357,17 +1565,16 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/Prayer_results.png" img height="150px" border="4px"/>
-</center>
 
 
 <div class="columns">
@@ -1379,11 +1586,11 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 
 <center>
 
-| Preghiere/Complicazioni | Si | No | Totale |
+| Ospedale/Deceduti | Si | No | Totale |
 | ----: | -----: | ----: | ----: |
-| Certi | 352  | 249   | 601  |
-| Incerti | 315  |  289  | 604 |
-| Totale | 667 | 538  | 1205 |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
 
 </center>
 
@@ -1404,11 +1611,12 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{complicazioni}^+}{tot}=\frac{667}{1205}=0.553527$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
 </div>
 
@@ -1423,11 +1631,11 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 
 <center>
 
-| Preg/Compl | Si | No | Totale |
+| Ospedale/Deceduti | Si | No | Totale |
 | ----: | -----: | ----: | ----: |
-| Certi | 352  | 249   | 601  |
-| Incerti | 315  |  289  | 604 |
-| Totale | 667 | 538  | 1205 |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
 
 </center>
 
@@ -1446,11 +1654,12 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{complicazioni}^+}{tot}=\frac{667}{1205}=0.553527$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
 </div>
 
@@ -1465,11 +1674,11 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 
 <center>
 
-| Preg/Compl | Si | No | Totale |
+| Ospedale/Deceduti | Si | No | Totale |
 | ----: | -----: | ----: | ----: |
-| Certi | 352  | 249   | 601  |
-| Incerti | 315  |  289  | 604 |
-| Totale | 667 | 538  | 1205 |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
 
 </center>
 
@@ -1483,13 +1692,19 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
 
+</div>
+
 <center>
 
-| Preg/Compl | Si | No | Totale |
+<div style="font-size: 61%" >
+
+| Ospedale/Deceduti | Si | No | Totale |
 | ----: | -----: | ----: | ----: |
-| Certi | 601 x 0.55..  |    | 601  |
-| Incerti | 604 x 0.55..   |    | 604 |
-| Totale | 667 | 538  | 1205 |
+| Bristol | 143*0.1196  |    |  143  |
+| Altri | 3176*0.1196  |    | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</div>
 
 </center>
 
@@ -1503,11 +1718,12 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{complicazioni}^+}{tot}=\frac{667}{1205}=0.553527$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
 </div>
 
@@ -1522,11 +1738,11 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 
 <center>
 
-| Preg/Compl | Si | No | Totale |
+| Ospedale/Deceduti | Si | No | Totale |
 | ----: | -----: | ----: | ----: |
-| Certi | 352  | 249   | 601  |
-| Incerti | 315  |  289  | 604 |
-| Totale | 667 | 538  | 1205 |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
 
 </center>
 
@@ -1541,11 +1757,11 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 
 <center>
 
-| Preg/Compl | Si | No | Totale |
+| Ospedale/Deceduti | Si | No | Totale |
 | ----: | -----: | ----: | ----: |
-| Certi | 332.67  |    | 601  |
-| Incerti | 334.33  |    | 604 |
-| Totale | 667 | 538  | 1205 |
+| Bristol | 17.1  |    |  143  |
+| Altri | 379.9  |    | 3176 |
+| Totale | 397 | 2922  | 3319 |
 
 </center>
 
@@ -1559,11 +1775,12 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{\text{complicazioni}^+}{tot}=\frac{667}{1205}=0.553527$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
 </div>
 
@@ -1578,11 +1795,11 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 
 <center>
 
-| Preg/Compl | Si | No | Totale |
+| Ospedale/Deceduti | Si | No | Totale |
 | ----: | -----: | ----: | ----: |
-| Certi | 352  | 249   | 601  |
-| Incerti | 315  |  289  | 604 |
-| Totale | 667 | 538  | 1205 |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
 
 </center>
 
@@ -1598,11 +1815,11 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 
 <center>
 
-| Preg/Compl | Si | No | Totale |
+| Ospedale/Deceduti | Si | No | Totale |
 | ----: | -----: | ----: | ----: |
-| Certi | 332.67  |  268.33  | 601  |
-| Incerti | 334.33  | 269.67   | 604 |
-| Totale | 667 | 538  | 1205 |
+| Bristol | 17.1  | 125.9   |  143  |
+| Altri | 379.9  | 2796.1   | 3176 |
+| Totale | 397 | 2922  | 3319 |
 
 </center>
 
@@ -1616,69 +1833,139 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 </div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
 
 <div class="columns">
 <div>
 
-<div style="font-size: 90%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = \sum \frac{(Osservati- Attesi)^2}{Attesi} =$
-
-</div>
-
-<div style="font-size: 80%" >
-	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \frac{(352-332.67)^2}{332.67} + \frac{(249-268.33)^2}{268.33} +$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $+\frac{(315-334.33)^2}{334.33} + \frac{(289-269.67)^2}{269.67} =$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 5.019$
-
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 65%" >
+<div style="font-size: 70%" >
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
 
 <center>
 
-| Preg/Compl | Si | No | Totale |
+| Ospedale/Deceduti | Si | No | Totale |
 | ----: | -----: | ----: | ----: |
-| Certi | 352  | 249   | 601  |
-| Incerti | 315  |  289  | 604 |
-| Totale | 667 | 538  | 1205 |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
 
 </center>
+
+</div>
+
+</div>
+<div>
+
+
+<div style="font-size: 70%" >
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
 
 <center>
 
-| Preg/Compl | Si | No | Totale |
+| Ospedale/Deceduti | Si | No | Totale |
 | ----: | -----: | ----: | ----: |
-| Certi | 332.67  |  268.33  | 601  |
-| Incerti | 334.33  | 269.67   | 604 |
-| Totale | 667 | 538  | 1205 |
+| Bristol | 17.1  | 125.9   |  143  |
+| Altri | 379.9  | 2796.1   | 3176 |
+| Totale | 397 | 2922  | 3319 |
 
 </center>
+
+</div>
+
 </div>
 </div>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+$\chi^2 = \sum \frac{(Osservati- Attesi)^2}{Attesi} = \frac{(41-17.1)^2}{17.1} + \frac{(102-125.9)^2}{125.9} + \frac{(356-379.9)^2}{379.9} + \frac{(2820-2796.1)^2}{2796.1} = 39.65$
+
+
+
 </div>
 
 <!-- Andiamo quindi a calcolarci queste differenze rra la i valori attesi e quelli osservati secondo questa formula -->
+
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+
+</div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div class="columns">
+<div>
+
+<div style="font-size: 70%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
+
+<center>
+
+| Ospedale/Deceduti | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Bristol |  41 |  102  |  143  |
+| Altri | 356  |  2820  | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</center>
+
+</div>
+
+</div>
+<div>
+
+
+<div style="font-size: 70%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
+<center>
+
+| Ospedale/Deceduti | Si | No | Totale |
+| ----: | -----: | ----: | ----: |
+| Bristol | 17.1  | 125.9   |  143  |
+| Altri | 379.9  | 2796.1   | 3176 |
+| Totale | 397 | 2922  | 3319 |
+
+</center>
+
+</div>
+
+</div>
+</div>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+$\chi^2 = \sum \frac{(Osservati- Attesi)^2}{Attesi} = \frac{(41-17.1)^2}{17.1} + \frac{(102-125.9)^2}{125.9} + \frac{(356-379.9)^2}{379.9} + \frac{(2820-2796.1)^2}{2796.1} = 39.65$
+
+$\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 1$
+
+
+</div>
+
+---
+## Pearson's $\chi^2$ test
+
+<div style="font-size: 80%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 <span style="display:block; height:10px;"></span>
 
@@ -1688,7 +1975,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 
 4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilita' (P-value) a questo evento
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 5.019$ &nbsp;&nbsp;&nbsp; $\text{df} = 1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 39.65$ &nbsp;&nbsp;&nbsp; $\text{df} = 1$
 
 
 </div>
@@ -1701,9 +1988,10 @@ I GdL sono numero di righe -1 * numero di colonne -1 -->
 ---
 ## Pearson's $\chi^2$ test
 
-<div style="font-size: 88%" >
+<div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Pregare *non* dimiuisce le complicazioni di un bypass coronarico<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 <span style="display:block; height:10px;"></span>
 
@@ -1713,7 +2001,9 @@ I GdL sono numero di righe -1 * numero di colonne -1 -->
 
 5. Dichiaro il risultato come statisticamente significativo se il P-value e' inferiore a una soglia critica $\alpha$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 5.019$ &nbsp;&nbsp;&nbsp; $\text{df} = 1$ &nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp;&nbsp; $\text{P}=0.025 < \alpha=0.05$  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 39.65$ &nbsp;&nbsp;&nbsp; $\text{df} = 1$ &nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp;&nbsp; $\text{P} < 0.001 = 3 \times 10^{-10} < \alpha = 0.05$
+
+
 
 </div>
 
@@ -1722,18 +2012,25 @@ I GdL sono numero di righe -1 * numero di colonne -1 -->
 ---
 ## Pearson's $\chi^2$ test
 
-<span style="display:block; height:1px;"></span>
+<div style="font-size: 80%" >
 
-<div style="font-size: 75%" >
+:pushpin: &nbsp;&nbsp;&nbsp; Il livello di istruzione influenza la frequenza dell'esercizio fisico? 
 
-| | No Exercise |  Sporadic Exercise | Regular Exercise | Total
+</div>
+
+<br/>
+
+<div style="font-size: 65%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
+
+| | Nessuno |  Sporadico | Regolare | Totale
 | :---- | -----: | ----: | ----: | ----- |
-Primary education | |  |  | 
-Lower secondary education |  |  | 
-Upper secondary education |  |  |  |
-Bachelor/Master |  |  |  |
-Doctorate | | | |
-Total | | | |
+Licenza elementare | $f_{1,1}$ | $f_{1,2}$ | $f_{1,3}$ | $\Sigma \text{Riga}_1$
+Licenza media | $f_{1,2}$ | ... | ... |  $\Sigma \text{Riga}_2$
+Diploma | $f_{1,3}$ | ... | ... |  $\Sigma \text{Riga}_3$
+Laurea  | $f_{1,4}$ | ... | ... |  $\Sigma \text{Riga}_4$
+Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{Colonna}_3$ | Totale
 
 </div>
 
@@ -1745,63 +2042,156 @@ ATTENSIONE: funziona bene con "grandi" sample size (>5 in each cell) -> se meno 
 ---
 ## Pearson's $\chi^2$ test
 
-<span style="display:block; height:1px;"></span>
 
-<div style="font-size: 75%" >
+<div style="font-size: 80%" >
 
-| | No Exercise |  Sporadic Exercise | Regular Exercise | Total
-| :---- | -----: | ----: | ----: | ----- |
-Primary education | |  |  | 
-Lower secondary education |  |  | 
-Upper secondary education |  |  |  |
-Bachelor/Master |  |  |  |
-Doctorate | | | |
-Total | | | |
+:pushpin: &nbsp;&nbsp;&nbsp; Il livello di istruzione influenza la frequenza dell'esercizio fisico? 
 
 </div>
 
-<span style="display:block; height:1px;"></span>
+<br/>
 
-<div style="font-size: 90%" >
+<div style="font-size: 65%" >
 
-:question: &nbsp;&nbsp;&nbsp; Quanti grafi di liberta' (df) ci sono in questa tabella?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
+| | Nessuno |  Sporadico | Regolare | Totale
+| :---- | -----: | ----: | ----: | ----- |
+Licenza elementare | $\frac{\Sigma \text{Riga}_1 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | $\frac{\Sigma \text{Riga}_1 \times \Sigma \text{Colonna}_2}{\text{Totale}}$ | $\frac{\Sigma \text{Riga}_1 \times \Sigma \text{Colonna}_3}{\text{Totale}}$ | $\Sigma \text{Riga}_1$
+Licenza media | $\frac{\Sigma \text{Riga}_2 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | ... | ... |  $\Sigma \text{Riga}_2$
+Diploma | $\frac{\Sigma \text{Riga}_3 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | ... | ... |  $\Sigma \text{Riga}_3$
+Laurea  | $\frac{\Sigma \text{Riga}_4 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | ... | ... |  $\Sigma \text{Riga}_4$
+Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{Colonna}_3$ | Totale
+
+</div>
+
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; $\text{df} = \text{ ?}$
 
 </div>
 
 ---
-### Esercizio 3
+### Esercizio 4
 
-<div style="font-size: 80%" >
+<div style="font-size: 70%" >
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+:question: &nbsp;&nbsp;&nbsp; Le donne hanno un diverso atteggiamento verso l'uso di anticonceziali rispetto 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; agli uomini?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ad un questionario a cui hanno risposto 42 donne, 21 si sono dichiarate  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; favorevoli, 6 contrarie e 15 incerte, all'uso di concezionali. Dei 58 uomini, 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i favorevoli, contrari e incerti sono stati invece 11, 24 e 23.
 
-<span style="display:block; height:10px;"></span>
+
+<span style="display:block; height:1px;"></span>
 
 <center>
-<img src="./img/hypothesis_testing/chitable.png" img height="250px" border="4px"/>
+<img src="./img/hypothesis_testing/chitable.png" img height="230px" border="4px"/>
 </center>
 
 </div>
 
+<style>
+  #countdown_exercise_4{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_4.running {
+    background-color: green;
+  }
+  #countdown_exercise_4.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_4"></button>
+
+<script>
+<!--
+const countdown_exercise_4= document.getElementById("countdown_exercise_4");
+const seconds_exercise_4= 300; // seconds_exercise_4
+let timeLeft_exercise_4= seconds_exercise_4;
+let timerInterval_exercise_4= null;
+
+function formatTime_exercise_4(seconds_exercise_4) {
+  const minutes = Math.floor(seconds_exercise_4/ 60);
+  const remainingseconds_exercise_4= seconds_exercise_4% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_4).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_4() {
+  countdown_exercise_4.textContent = formatTime_exercise_4(timeLeft_exercise_4);
+}
+
+function startTimer_exercise_4() {
+  if (timerInterval_exercise_4=== null) {
+    countdown_exercise_4.classList.add('running');
+    countdown_exercise_4.classList.remove('finished');
+    timerInterval_exercise_4= setInterval(() => {
+      if (timeLeft_exercise_4> 0) {
+        timeLeft_exercise_4--;
+        updateButton_exercise_4();
+      } else {
+        clearInterval(timerInterval_exercise_4);
+        timerInterval_exercise_4= null;
+        countdown_exercise_4.classList.remove('running');
+        countdown_exercise_4.classList.add('finished');
+        countdown_exercise_4.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_4();
+  }
+}
+
+function pauseTimer_exercise_4() {
+  clearInterval(timerInterval_exercise_4);
+  timerInterval_exercise_4= null;
+  countdown_exercise_4.classList.remove('running');
+}
+
+function resetTimer_exercise_4() {
+  timeLeft_exercise_4= seconds_exercise_4;
+  updateButton_exercise_4();
+  countdown_exercise_4.classList.remove('finished');
+  countdown_exercise_4.classList.remove('running');
+  timerInterval_exercise_4= null;
+}
+
+countdown_exercise_4.addEventListener("click", () => {
+  if (countdown_exercise_4.classList.contains('finished')) {
+    resetTimer_exercise_4();
+  } else {
+    startTimer_exercise_4();
+  }
+});
+
+updateButton_exercise_4();
+-->
+</script>
+
+
 ---
-### Esercizio 3 -- Soluzione
+### Esercizio 4 -- Soluzione
 
-<div style="font-size: 80%" >
+<div style="font-size: 70%" >
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ad un questionario a cui hanno risposto 42 donne, 21 si sono dichiarate  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; favorevoli, 6 contrarie e 15 incerte, all'uso di concezionali. Dei 58 uomini, 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i favorevoli, contrari e incerti sono stati invece 11, 24 e 23.
 
 </div>
-
 
 <div class="columns">
 <div>
@@ -1812,26 +2202,20 @@ Total | | | |
 
 <center>
 
-| Ospedale/Deceduti | Si | No | Totale |
+| Risposta/Sesso | Donne | Uomini | Totale |
 | ----: | -----: | ----: | ----: |
-| Bristol |  41 |  102  |  143  |
-| Altri | 356  |  2820  | 3176 |
-| Totale | 397 | 2922  | 3319 |
+| Favorevole |  21 |  11  |  32  |
+| Contrario | 6  |  24  | 30 |
+| Incerto | 15 | 23  | 38 |
+| Totale | 42 | 58  | 100 |
 
 </center>
 
 </div>
 
 
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot} = \frac{397}{3319} = 0.1196$
-
-</div>
-
 </div>
 <div>
-
 
 
 </div>
@@ -1844,16 +2228,16 @@ H1: la proporzione di deceduti e' diversa (associazione)
 -->
 
 ---
-### Esercizio 3 -- Soluzione
+### Esercizio 4 -- Soluzione
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
- 
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
+
 </div>
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <div class="columns">
 <div>
@@ -1864,23 +2248,61 @@ H1: la proporzione di deceduti e' diversa (associazione)
 
 <center>
 
-| Ospedale/Deceduti | Si | No | Totale |
+| Risposta/Sesso | Donne | Uomini | Totale |
 | ----: | -----: | ----: | ----: |
-| Bristol |  41 |  102  |  143  |
-| Altri | 356  |  2820  | 3176 |
-| Totale | 397 | 2922  | 3319 |
+| Favorevole |  21 |  11  |  32  |
+| Contrario | 6  |  24  | 30 |
+| Incerto | 15 | 23  | 38 |
+| Totale | 42 | 58  | 100 |
 
 </center>
 
 </div>
 
-<span style="display:block; height:10px;"></span>
+
+</div>
+<div>
+
+
+</div>
+</div>
+
+
+<!-- H0 la proporzione di soggetti deceduti e' uguale tra coloro che usavano e non usavano le cinture di sicurezza (indipendenza) -->
+
+---
+### Esercizio 4 -- Soluzione
 
 <div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot} = \frac{397}{3319} = 0.1196$
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
+ 
+</div>
+
+<span style="display:block; height:1px;"></span>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 65%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
+
+<center>
+
+
+| Risposta/Sesso | Donne | Uomini | Totale |
+| ----: | -----: | ----: | ----: |
+| Favorevole |  21 |  11  |  32  |
+| Contrario | 6  |  24  | 30 |
+| Incerto | 15 | 23  | 38 |
+| Totale | 42 | 58  | 100 |
+
+</center>
 
 </div>
+
 
 </div>
 <div>
@@ -1889,17 +2311,19 @@ H1: la proporzione di deceduti e' diversa (associazione)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
 
-</div>
+<!-- </div> -->
 
-<div style="font-size: 61.5%">
+<!-- <div style="font-size: 61.5%"> -->
 
 <center>
 
-| Ospedale/Deceduti | Si | No | Totale |
+| Risposta/Sesso | Donne | Uomini | Totale |
 | ----: | -----: | ----: | ----: |
-| Bristol | 143*0.1196  |    |  143  |
-| Altri | 3176*0.1196  |    | 3176 |
-| Totale | 397 | 2922  | 3319 |
+| Favorevole |  $\frac{32 \times 42}{100}$ | $\frac{32 \times 58}{100}$  |  32  |
+| Contrario | $\frac{30 \times 42}{100}$ |  $\frac{30 \times 58}{100}$  | 30 |
+| Incerto | $\frac{38 \times 42}{100}$ |  $\frac{38 \times 58}{100}$ | 38 |
+| Totale | 42 | 58  | 100 |
+
 
 </center>
 
@@ -1915,16 +2339,16 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 
 
 ---
-### Esercizio 3 -- Soluzione
+### Esercizio 4 -- Soluzione
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
 
 </div>
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <div class="columns">
 <div>
@@ -1935,107 +2359,18 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 
 <center>
 
-| Ospedale/Deceduti | Si | No | Totale |
+
+| Risposta/Sesso | Donne | Uomini | Totale |
 | ----: | -----: | ----: | ----: |
-| Bristol |  41 |  102  |  143  |
-| Altri | 356  |  2820  | 3176 |
-| Totale | 397 | 2922  | 3319 |
+| Favorevole |  21 |  11  |  32  |
+| Contrario | 6  |  24  | 30 |
+| Incerto | 15 | 23  | 38 |
+| Totale | 42 | 58  | 100 |
 
 </center>
 
 </div>
 
-<span style="display:block; height:10px;"></span>
-
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot} = \frac{397}{3319} = 0.1196$
-
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 65%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
-
-<center>
-
-| Ospedale/Deceduti | Si | No | Totale |
-| ----: | -----: | ----: | ----: |
-| Bristol | 17.1  | 125.9   |  143  |
-| Altri | 379.9  | 2796.1   | 3176 |
-| Totale | 397 | 2922  | 3319 |
-
-</center>
-
-
-</div>
-
-</div>
-</div>
-
-
----
-### Esercizio 3 -- Soluzione
-
-<div style="font-size: 80%" >
-
-:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
-
-</div>
-
-<span style="display:block; height:10px;"></span>
-
-<div class="columns">
-<div>
-
-<div style="font-size: 65%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori osservati
-
-<center>
-
-| Ospedale/Deceduti | Si | No | Totale |
-| ----: | -----: | ----: | ----: |
-| Bristol |  41 |  102  |  143  |
-| Altri | 356  |  2820  | 3176 |
-| Totale | 397 | 2922  | 3319 |
-
-</center>
-
-</div>
-
-<span style="display:block; height:10px;"></span>
-
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot} = \frac{397}{3319} = 0.1196$
-
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 65%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
-
-<center>
-
-| Ospedale/Deceduti | Si | No | Totale |
-| ----: | -----: | ----: | ----: |
-| Bristol | 17.1  | 125.9   |  143  |
-| Altri | 379.9  | 2796.1   | 3176 |
-| Totale | 397 | 2922  | 3319 |
-
-</center>
-
-</div>
-
-<span style="display:block; height:10px;"></span>
 
 <div style="font-size: 80%" >
 
@@ -2043,6 +2378,25 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 
 </div>
 
+</div>
+<div>
+
+<div style="font-size: 65%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
+<center>
+
+| Risposta/Sesso | Donne | Uomini | Totale |
+| ----: | -----: | ----: | ----: |
+| Favorevole |  13.44 |  18.56  |  32  |
+| Contrario | 12.60  |  17.40  | 30 |
+| Incerto | 15.96 | 22.04  | 38 |
+| Totale | 42 | 58  | 100 |
+
+</center>
+
+</div>
 
 
 </div>
@@ -2052,17 +2406,16 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 <!-- Andiamo quindi a calcolare le frequenze attese, sottp H0 e il valre del chi2-->
 
 ---
-### Esercizio 3 -- Soluzione
+### Esercizio 4 -- Soluzione
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
-
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
 
 </div>
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <div class="columns">
 <div>
@@ -2073,11 +2426,13 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 
 <center>
 
-| Ospedale/Deceduti | Si | No | Totale |
+
+| Risposta/Sesso | Donne | Uomini | Totale |
 | ----: | -----: | ----: | ----: |
-| Bristol |  41 |  102  |  143  |
-| Altri | 356  |  2820  | 3176 |
-| Totale | 397 | 2922  | 3319 |
+| Favorevole |  21 |  11  |  32  |
+| Contrario | 6  |  24  | 30 |
+| Incerto | 15 | 23  | 38 |
+| Totale | 42 | 58  | 100 |
 
 </center>
 
@@ -2092,11 +2447,12 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 
 <center>
 
-| Ospedale/Deceduti | Si | No | Totale |
+| Risposta/Sesso | Donne | Uomini | Totale |
 | ----: | -----: | ----: | ----: |
-| Bristol | 17.1  | 125.9   |  143  |
-| Altri | 379.9  | 2796.1   | 3176 |
-| Totale | 397 | 2922  | 3319 |
+| Favorevole |  13.44 |  18.56  |  32  |
+| Contrario | 12.60  |  17.40  | 30 |
+| Incerto | 15.96 | 22.04  | 38 |
+| Totale | 42 | 58  | 100 |
 
 </center>
 
@@ -2105,26 +2461,27 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 </div>
 </div>
 
-<span style="display:block; height:10px;"></span>
+
 
 <div style="font-size: 80%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2=\frac{(41-17.1)^2}{17.1} + \frac{(102-125.9)^2}{125.9} + \frac{(356-379.9)^2}{379.9} + \frac{(2820-2796.1)^2}{2796.1} = 39.65$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{df}=1$
+$\chi^2=\frac{(21-13.44)^2}{13.44} + \frac{(11-18.56)^2}{18.56} + \frac{(6-12.6)^2}{12.6} + \frac{(24-17.4)^2}{17.4} + \frac{(15-15.96)^2}{15.96} + \frac{(23-22.04)^2}{22.04}  = 13.39$
+
+$\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 2$
 </div>
 
 ---
-### Esercizio 3 -- Soluzione
+### Esercizio 4 -- Soluzione
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
 
 
 <span style="display:block; height:1px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2= 39.65$, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{df}=1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2= 13.39$, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{df}=2$
 
 
 <span style="display:block; height:10px;"></span>
@@ -2141,17 +2498,17 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di osservare il risultato che abbiamo ottenuto, o una differenza ancora maggiore, sarebbe solo dell’3% -->
 
 ---
-### Esercizio 3 -- Soluzione
+### Esercizio 4 -- Soluzione
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
 
 
 <span style="display:block; height:1px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2= 39.65$, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{df}=1$ &nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp;&nbsp; $\text{P} < 0.001 = 3 \times 10^{-10}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2= 13.39$, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{df}=2$ &nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp;&nbsp; $\text{P} < 0.002 = 0.0012 < \alpha = 0.05$
 
 
 <span style="display:block; height:10px;"></span>
@@ -2165,12 +2522,307 @@ P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di 
 ---
 ## Rischio relativo, rischio assoluto, odds ratio
 
-<span style="display:block; height:1px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/hypothesis_testing/Prayer_risk.png" img height="150px" border="4px"/>
+<img src="./img/hypothesis_testing/Relative_risk.png" img height="240px" border="4px"/>
 </center>
 
+<span style="display:block; height:120px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat
+
+</div>
+
+<!-- in November 2015 the World Health Organization’s International Agency for Research in Cancer (IARC) announced that processed meat was a ‘Group I carcinogen’, putting it in the same category as cigarettes and asbestos. This inevitably led to panicky headlines such as the Daily Record’s claim that ‘Bacon, Ham and Sausages Have the Same Cancer Risk as Cigarettes Warn Experts’.4
+
+The IARC tried to quell the fuss by emphasizing that the Group 1 classification was about being confident that an increased risk of cancer existed at all, and said nothing about the actual magnitude of the risk.
+
+reported that 50g of processed meat a day was associated with an increased risk of bowel cancer of 18%. This sounds worrying, but should it be?
+-->
+
+---
+## Rischio relativo, rischio assoluto, odds ratio
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Relative_risk.png" img height="240px" border="4px"/>
+</center>
+
+<div style="font-size: 80%">
+
+$\text{Rischio relativo (RR)} = 18\%$
+
+</div>
+
+
+<!-- The figure of 18% is known as a relative risk since it represents the increase in risk of getting bowel cancer between a group of people who eat 50g of processed meat a day, which could, for example, represent a daily two-rasher bacon sandwich, and a group who don’t. 
+
+relative risk: if the absolute risk among people who are exposed to something of interest is p, and the absolute risk among people who are not exposed is q, then the relative risk is p/q.
+
+Ora vediamo a quanto corrisponde (e se dobbiamo preoccuparci) e da dove e' venuto fuori
+-->
+
+---
+## Rischio relativo, rischio assoluto, odds ratio
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Relative_risk.png" img height="240px" border="4px"/>
+</center>
+
+<div style="font-size: 80%">
+
+$\text{Rischio relativo (RR)} = 18\%$
+$\text{Rischio assoluto (baseline)} \text{ } \text{ } \text{ } \text{} \text{ } \text{ } \text{ } \text{ }  \text{ } = 6\% \text{ o } 1/16 \text{ } \text{ } \rightarrow \text{ } \text{ } Odds = 6/94$
+$\text{Rischio assoluto (+50g/giorno)} = 7\% \text{ o } 1/14 \text{ } \text{ } \rightarrow \text{ } \text{ } Odds = 7/93$
+
+</div>
+
+<!-- Technically, the odds for an event is the ratio of the chance of the event happening to the chance of it not happening. For example, since, out of 100 non-bacon eaters, 6 will get bowel cancer and 94 won’t, the odds of getting bowel cancer in this group is 6/94, sometimes referred to as ‘6 to 94’. Odds are commonly used in UK betting, but they are also used extensively in statistical modelling of proportions, and this means that medical research commonly expresses the effects associated with treatments or behaviour in terms of odds ratios. -->
+
+---
+## Rischio relativo, rischio assoluto, odds ratio
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Relative_risk.png" img height="240px" border="4px"/>
+</center>
+
+<div style="font-size: 80%">
+
+$\text{Rischio relativo (RR)} = 18\%$
+$\text{Rischio assoluto (baseline)} \text{ } \text{ } \text{ } \text{} \text{ } \text{ } \text{ } \text{ }  \text{ } = 6\% \text{ o } 1/16 \text{ } \text{ } \rightarrow \text{ } \text{ } Odds = 6/94$
+$\text{Rischio assoluto (+50g/giorno)} = 7\% \text{ o } 1/14 \text{ } \text{ } \rightarrow \text{ } \text{ } Odds = 7/93$
+
+$\text{Odds ratio (OR)} = \frac{\text{Odds}_\text{+50g/giorno}}{\text{Odds}_\text{baseline}} = \frac{7/93}{6/94} = 1.18$
+
+</div>
+
+<!-- Although extremely common in the research literature, odds ratios are a rather unintuitive way to summarize differences in risk 
+
+This bacon sandwich example illustrates the advantage of communicating risks using expected frequencies: instead of discussing percentages or probabilities, we just ask, ‘What does this mean for 100 (or 1,000) people?’ Psychological studies have shown that this technique improves understanding: in fact communicating only that this additional meat-eating led to an ‘18% increased risk’ could be considered manipulative, since we know this phrasing gives an exaggerated impression of the importance of the hazard.
+-->
+
+---
+## Rischio relativo, rischio assoluto, odds ratio
+
+<div style="font-size: 65%">
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:100px;"></span>
+
+Approccio	| Baseline | 	+50g/giorno
+| --- | --- | --- |
+Event rate | 	6%	| 7% |
+Expected frequency |	6 su 100<br/>1 in 16 |	7 su 100<br/>1 in 14 |
+Odds |	6/94 | 	7/93 |
+
+</div>
+<div>
+
+<span style="display:block; height:80px;"></span>
+
+Comparazione | | 
+| --- | --- |
+Odds ratio	| $\frac{(7/93)}{(6/94)} = 1.18$
+Relative risk	| 1.18<br/> aumento del 18%
+Absolute risk difference |	1% o 1 su 100	 
+Number Needed to Treat |	100	
+
+</div>
+</div>
+
+</div>
+
+<!-- Yet more ways to compare two proportions are shown in Table 1.2, illustrated by the risks for people who do and do not eat bacon.
+
+‘1 in X’ is a common way of expressing risk, such as saying ‘1 in 16 people’ to represent a 6% risk. But using multiple ‘1 in …’ statements is not recommended, as many people find them difficult to compare. For example, when asked the question, ‘Which is the bigger risk, 1 in 100, 1 in 10 or 1 in 1,000?’, around a quarter of people answered incorrectly: the problem is that the bigger number is associated with the smaller risk, and so some mental dexterity is required to keep things clear. 
+
+The ‘Number Needed to Treat’ is the number of people needing to eat a bacon sandwich every day of their lives, in order to expect one extra case of bowel cancer 
+-->
+
+---
+### Esercizio #5
+
+<div style="font-size: 78%" >
+
+:question: &nbsp;&nbsp;&nbsp; Uno studio di popolazione$^1$ ha osservato che nella popolazione Svedese, in circa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione piu' basso sono stati diagnosticati 5 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione piu' alto,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ne sono stati diagnosticati 6. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantita':
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Frequenza nei due gruppi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Odds ratio (baseline: livello di istruzione basso)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Rischio relativo
+
+</div>
+
+<span style="display:block; height:5px;"></span>
+
+<style>
+  #countdown_exercise_5{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_5.running {
+    background-color: green;
+  }
+  #countdown_exercise_5.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_5"></button>
+
+<script>
+<!--
+const countdown_exercise_5= document.getElementById("countdown_exercise_5");
+const seconds_exercise_5= 300; // seconds_exercise_5
+let timeLeft_exercise_5= seconds_exercise_5;
+let timerInterval_exercise_5= null;
+
+function formatTime_exercise_5(seconds_exercise_5) {
+  const minutes = Math.floor(seconds_exercise_5/ 60);
+  const remainingseconds_exercise_5= seconds_exercise_5% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_5() {
+  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
+}
+
+function startTimer_exercise_5() {
+  if (timerInterval_exercise_5=== null) {
+    countdown_exercise_5.classList.add('running');
+    countdown_exercise_5.classList.remove('finished');
+    timerInterval_exercise_5= setInterval(() => {
+      if (timeLeft_exercise_5> 0) {
+        timeLeft_exercise_5--;
+        updateButton_exercise_5();
+      } else {
+        clearInterval(timerInterval_exercise_5);
+        timerInterval_exercise_5= null;
+        countdown_exercise_5.classList.remove('running');
+        countdown_exercise_5.classList.add('finished');
+        countdown_exercise_5.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_5();
+  }
+}
+
+function pauseTimer_exercise_5() {
+  clearInterval(timerInterval_exercise_5);
+  timerInterval_exercise_5= null;
+  countdown_exercise_5.classList.remove('running');
+}
+
+function resetTimer_exercise_5() {
+  timeLeft_exercise_5= seconds_exercise_5;
+  updateButton_exercise_5();
+  countdown_exercise_5.classList.remove('finished');
+  countdown_exercise_5.classList.remove('running');
+  timerInterval_exercise_5= null;
+}
+
+countdown_exercise_5.addEventListener("click", () => {
+  if (countdown_exercise_5.classList.contains('finished')) {
+    resetTimer_exercise_5();
+  } else {
+    startTimer_exercise_5();
+  }
+});
+
+updateButton_exercise_5();
+-->
+</script>
+
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+$^1$ Khanolkar et al., *Socioeconomic Position and the Risk of Brain Tumour: A Swedish National Population-Based  <br/> Cohort Study*, Journal of Epidemiology and Community Health, 2016, doi:10.1136/jech-2015-207002
+
+</div>
+
+
+
+---
+### Esercizio #5 -- Soluzione
+
+<div style="font-size: 78%" >
+
+:question: &nbsp;&nbsp;&nbsp; Uno studio di popolazione$^1$ ha osservato che nella popolazione Svedese, in circa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione piu' basso sono stati diagnosticati 5 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione piu' alto,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ne sono stati diagnosticati 6. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantita':
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Frequenza nei due gruppi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $f_{basso} = 5 \text{ su } 3000 = 1 \text{ su } 600$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $f_{alto} = 6 \text{ su } 3000 = 1 \text{ su } 500$ 
+
+</div>
+
+---
+### Esercizio #5 -- Soluzione
+
+<div style="font-size: 78%" >
+
+:question: &nbsp;&nbsp;&nbsp; Uno studio di popolazione$^1$ ha osservato che nella popolazione Svedese, in circa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione piu' basso sono stati diagnosticati 5 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione piu' alto,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ne sono stati diagnosticati 6. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantita':
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Frequenza nei due gruppi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $f_{basso} = 5 \text{ su } 3000 = 1 \text{ su } 600$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $f_{alto} = 6 \text{ su } 3000 = 1 \text{ su } 500$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Odds ratio (baseline: livello di istruzione basso)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\frac{(1/499)}{(1/599)} = 1.20$
+
+</div>
+
+---
+### Esercizio #5 -- Soluzione
+
+<div style="font-size: 78%" >
+
+:question: &nbsp;&nbsp;&nbsp; Uno studio di popolazione$^1$ ha osservato che nella popolazione Svedese, in circa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione piu' basso sono stati diagnosticati 5 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione piu' alto,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ne sono stati diagnosticati 6. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantita':
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Frequenza nei due gruppi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $f_{basso} = 5 \text{ su } 3000 = 1 \text{ su } 600$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $f_{alto} = 6 \text{ su } 3000 = 1 \text{ su } 500$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Odds ratio (baseline: livello di istruzione basso)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\frac{(1/499)}{(1/599)} = 1.20$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Rischio relativo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1.20$ o un aumento del $20\%$
+
+</div>
+
+
 ---
 ## Quando facciamo piu' di un test alla volta?
 
@@ -2181,7 +2833,9 @@ P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di 
 :pushpin: &nbsp;&nbsp;&nbsp;  Un gruppo di ricerca ha effettuato fMRI su un singolo soggetto (*) 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mentre gli venivano mostrate delle fotografie in cui le persone 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fotografate esprimevano diverse emozioni. Sedici regioni cerebrali 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mostano un segnale a $\text{P} < 0.001$.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; risultano statisticamente significative con $\text{P} < 0.001$.  
+
+</div>
 
 ---
 ## Quando facciamo piu' di un test alla volta?
@@ -2193,7 +2847,7 @@ P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di 
 :pushpin: &nbsp;&nbsp;&nbsp;  Un gruppo di ricerca ha effettuato fMRI su un singolo soggetto (*) 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mentre gli venivano mostrate delle fotografie in cui le persone 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fotografate esprimevano diverse emozioni. Sedici regioni cerebrali 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mostano un segnale a $\text{P} < 0.001$. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; risultano statisticamente significative con $\text{P} < 0.001$.   
 
 </div>
 
@@ -2211,7 +2865,7 @@ P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di 
 </div>
 
 
-<div style="font-size: 50%">
+<div style="font-size: 50%" align="right">
 
 </br> Bennett, C. M., Miller M.B., and Wolford G.L.,. *Neural correlates of interspecies perspective taking in the post-mortem Atlantic Salmon: An argument for multiple comparisons correction.* Neuroimage 47.Suppl 1 (2009) doi:10.1016/S1053-8119(09)71202-9
 
@@ -2226,8 +2880,6 @@ P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di 
 
 :pushpin: &nbsp;&nbsp;&nbsp; $\text{P} = 0.05 \rightarrow 5\%$ rifiutiamo $\mathcal{H}_0$ anche se e' vera
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.95 = 0.05$
-
-
 
 </div>
 
@@ -2291,10 +2943,9 @@ Moltp stringente
 
 <span style="display:block; height:1px;"></span>
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **False discovery rate (FDR)**: ordino i risultati per significatita' e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; considero statisticamente significativee il top X%
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **False discovery rate (FDR, Benjamini–Hochberg procedure)**:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. ordino i risultati per P value crescente 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Rifiuto $\mathcal{H}_0$ sino a che $P_{(k)} > {\alpha \times \frac{k}{N_\text{test}}}$
 
 <!--
 
@@ -2303,89 +2954,63 @@ So when large numbers of hypotheses are being tested at the same time, as in bra
 FDR intuitivamente ci dice quale proporzione di falso positivi andiamo ad accettare (FDR = FP/(FP+TP) ) 
 Un FDR del 5%, per esempio, ci dice che accettiamo che oni 100 volte che "chiamiamo" un risultato (diciamo che un test e' significativo), in 5 stiamo facendo un errore -->
 
-
-
 ---
-## Errors in decision making 
-
-<span style="display:block; height:10px;"></span>
-
-:dart: &nbsp;&nbsp;&nbsp; $p < \alpha \rightarrow \text{reject } \mathcal{H}_0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $p \geq \alpha \rightarrow \text{fail  to reject } \mathcal{H}_0$
-
----
-## Errors in decision making 
-
-<span style="display:block; height:10px;"></span>
-
-:dart: &nbsp;&nbsp;&nbsp; $p < \alpha \rightarrow \text{reject } \mathcal{H}_0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $p \geq \alpha \rightarrow \text{fail  to reject } \mathcal{H}_0$
+## Errori dei test statistici
 
 <span style="display:block; height:10px;"></span>
 
 <center>
 
-| $\mathcal{H}_0 \text{ is}$ | TRUE | FALSE | 
+| $\mathcal{H}_0 \text{ e'}$ | Non rifiutata | Rifiutata | 
 | :---- | -----: | ----: | 
-Rejected | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  
-Non rejected |  |   | 
+Vera  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>&nbsp; | |  
+Falsa |                |  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br>&nbsp;   | 
 
 </center>
 
+
+<!-- Their framework required specification of not only a null hypothesis, but also an alternative hypothesis which represents a more complex explanation for the data. They then considered the possible decisions after a hypothesis test, which are either to reject a null hypothesis in favour of the alternative, or not to reject the null. -->
+
+
 ---
-## Errors in decision making 
-
-<span style="display:block; height:10px;"></span>
-
-&nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+## Errori dei test statistici 
 
 <span style="display:block; height:10px;"></span>
 
 <center>
 
-| $\mathcal{H}_0 \text{ is}$ | TRUE | FALSE | 
-| :---- | -----: | ----: | 
-Rejected | false positive | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  
-Non rejected | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  false negative | 
+| $\mathcal{H}_0 \text{ e'}$ | Non rifiutata | Rifiutata | 
+| :---- | :----- | :---- | 
+Vera  |  | Falso <br/>Positivo |  
+Falsa | Falso <br/>negativo   |   | 
 
 </center>
 
-<!-- Un falso positivo (o errore del primo tipo) occorre quando H0 e' corretta, ma il test conduce a un risultato significativo. E quanto e' probabile questo errore?
+<!-- Two types of mistake are therefore possible: a Type I error is made when we reject a null hypothesis when it is true, and a Type II error is made when we do not reject a null hypothesis when in fact the alternative hypothesis holds. -->
+
+---
+## Errori dei test statistici 
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+
+| Sospetto e' | Assolto | Condannato | 
+| :---- | :----- | :---- | 
+Innocente |  | Condanno un <br/>innocente  |  
+Colpevole | Assolvo un <br/>colpevole |  | 
+
+</center>
+
+<!-- There is a strong legal analogy which is illustrated in Table 10.6 – a Type I legal error is to falsely convict an innocent person, and a Type II error is to find someone ‘not guilty’ when in fact they did commit the crime.  
+
+Un falso positivo (o errore del primo tipo) occorre quando H0 e' corretta, ma il test conduce a un risultato significativo. E quanto e' probabile questo errore?
 
 Se usiamo un livello si significativita' del 5% abbiamo 5% di possibilita' di dichiarare nulla H0 quando non lo e'. 
-
-SLIDE INDIETRO: ma cosa succed se accettiamo l'ipotesi nulla? ricordamoci che accettare H0 non e' una prova formaale che non c'e' differenza tra i due gruppi, ma solo che questa ipotesi non e' supportata dai dati: in questo caso avremmo identificato un falso negativo (o errore del secondo tipo)
 -->
 
 ---
-## Errors in decision making 
-
-<span style="display:block; height:10px;"></span>
-
-:dart: &nbsp;&nbsp;&nbsp; $\alpha$ &nbsp; is the level of significance, or Type I error
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\beta$ &nbsp; is the Type II error
-
-<span style="display:block; height:10px;"></span>
-
-<center>
-
-| $\mathcal{H}_0 \text{ is}$ | TRUE | FALSE | 
-| :---- | -----: | ----: | 
-Rejected | $\alpha$ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  
-Non rejected |  | $\beta$ | 
-
-</center>
-
-<!-- Quindi l'errore del primo tipo e' il livello di significativita' alfa. 
-Come controllo per T1E? Scegliendo un alfa sufficientemente piccolo 
-
-INDIETRO CON LE SLIDE
-
-Quello che facciamo in questo caso e' un errore del secondo tipo, che viene indicato con beta. Non e' cosi' facile controllare per T2E, e vedremo in un secndo come e' possibile mitigarlo -->
-
----
-## Specificity *vs* &nbsp;sensitivity
+## Errori dei test statistici 
 
 <span style="display:block; height:1px;"></span>
 
@@ -2395,149 +3020,330 @@ Quello che facciamo in questo caso e' un errore del secondo tipo, che viene indi
 
 <!-- Un altro modo di vedere questi errori e' in termine di Specificita' e sensitivita. Un test che e' specifico e' un test che ha pochi falsi positivi (se il test e' positivo, molto probabilmente ho il COVID). Un test che e' sensibile, invece ha pochi falsi negativi (se e' negativo molto probabilmente non ho preso il covid). Qiesto test e' invece molto specifico (pochi falsi positivi) ma anche poco sensibile (molti falsi negativim, in cui il test e' negativo ma io il COVID ce l'ho)   -->
 
----
-## Errors in decision making 
+--- 
+### Esercizio #6
 
-<span style="display:block; height:10px;"></span>
+<div style="font-size: 78%" >
 
-&nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+:question: &nbsp;&nbsp;&nbsp; In un villaggio, c'era un pastorello che faceva la guardia alle pecore. Annoiandosi,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   per diverse notti, si mise ad urlare "Al lupo! Al lupo!", cosi' tutti  accorrevano per 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aiutarlo. Una notte, un lupo venne veramente. Il pastorello cominciò a gridare: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Al lupo, al  lupo!",ma nessuno venne perché tutti pensarono che fosse uno scherzo. 
 
-<span style="display:block; height:10px;"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Che tipo di errore stanno facendo gli abitanti del villaggio?
 
-<center>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Errore del primo tipo, poi del secondo tipo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Errore del secondo tipo, poi del primo tipo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Errore nullo, poi errore alternativo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Errore alternativo, poi errore nullo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuno dei precedenti
 
-| $\mathcal{H}_0 \text{ is}$ | TRUE | FALSE | 
-| :---- | -----: | ----: | 
-Rejected | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | true positive |  
-Non rejected | true negative | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | 
-
-</center>
-
-<!-- Sino ad adesso abbiamo parlato di "errori" ma ci sono ancora due caselle da riempire: quelle delle cose giuste, ovvero i TN/TP, che possono essere definiti come -->
-
----
-## Power of a study
-
-<span style="display:block; height:10px;"></span>
-
-:dart: &nbsp;&nbsp;&nbsp; $1 -  \beta$ &nbsp; is the power of a statistical test
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Acceptable power: $\geq 80\%$)
-
-<span style="display:block; height:10px;"></span>
-
-<center>
-
-| $\mathcal{H}_0 \text{ is}$ | TRUE | FALSE | 
-| :---- | -----: | ----: | 
-Rejected | $\alpha$ | $1 -  \beta$ |  
-Non rejected | $1 -  \alpha$ | $\beta$ | 
-
-</center>
-
-<!-- quello interessante e' il TP, op 1-beta, che e' anche la potenza di uno studio, ovvero la probabilita' di rifiutare G0 quando e' falsa -->
-
----
-## Power of a study
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:40px;"></span>
-
-:dart: &nbsp;&nbsp;&nbsp;  The power is increased by:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - larger $\alpha$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - larger  $\mu_i - \mu_c$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - smaller $\sigma^2$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - larger sample size $n$
 </div>
-<div>
 
-<span style="display:block; height:70px;"></span>
+<style>
+  #countdown_exercise_6{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_6.running {
+    background-color: green;
+  }
+  #countdown_exercise_6.finished {
+    background-color: red;
+  }
+</style>
 
+<button id="countdown_exercise_6"></button>
+
+<script>
+<!--
+const countdown_exercise_6= document.getElementById("countdown_exercise_6");
+const seconds_exercise_6= 120; // seconds_exercise_6
+let timeLeft_exercise_6= seconds_exercise_6;
+let timerInterval_exercise_6= null;
+
+function formatTime_exercise_6(seconds_exercise_6) {
+  const minutes = Math.floor(seconds_exercise_6/ 60);
+  const remainingseconds_exercise_6= seconds_exercise_6% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_6() {
+  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
+}
+
+function startTimer_exercise_6() {
+  if (timerInterval_exercise_6=== null) {
+    countdown_exercise_6.classList.add('running');
+    countdown_exercise_6.classList.remove('finished');
+    timerInterval_exercise_6= setInterval(() => {
+      if (timeLeft_exercise_6> 0) {
+        timeLeft_exercise_6--;
+        updateButton_exercise_6();
+      } else {
+        clearInterval(timerInterval_exercise_6);
+        timerInterval_exercise_6= null;
+        countdown_exercise_6.classList.remove('running');
+        countdown_exercise_6.classList.add('finished');
+        countdown_exercise_6.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_6();
+  }
+}
+
+function pauseTimer_exercise_6() {
+  clearInterval(timerInterval_exercise_6);
+  timerInterval_exercise_6= null;
+  countdown_exercise_6.classList.remove('running');
+}
+
+function resetTimer_exercise_6() {
+  timeLeft_exercise_6= seconds_exercise_6;
+  updateButton_exercise_6();
+  countdown_exercise_6.classList.remove('finished');
+  countdown_exercise_6.classList.remove('running');
+  timerInterval_exercise_6= null;
+}
+
+countdown_exercise_6.addEventListener("click", () => {
+  if (countdown_exercise_6.classList.contains('finished')) {
+    resetTimer_exercise_6();
+  } else {
+    startTimer_exercise_6();
+  }
+});
+
+updateButton_exercise_6();
+-->
+</script>
+
+
+--- 
+### Esercizio #6 -- Soluzione
+
+<div style="font-size: 78%" >
+
+:question: &nbsp;&nbsp;&nbsp; In un villaggio, c'era un pastorello che faceva la guardia alle pecore. Annoiandosi,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   per diverse notti, si mise ad urlare "Al lupo! Al lupo!", cosi' tutti  accorrevano per 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aiutarlo. Una notte, un lupo venne veramente. Il pastorello cominciò a gridare: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Al lupo, al  lupo!",ma nessuno venne perché tutti pensarono che fosse uno scherzo. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Che tipo di errore stanno facendo gli abitanti del villaggio?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Errore del primo tipo, poi sel secondo tipo &nbsp;&nbsp;:white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Errore del secondo tipo, poi del primo tipo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Errore nullo, poi errore alternativo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Errore alternativo, poi errore nullo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuno dei precedenti
+
+</div>
+
+---
+## Errori dei test statistici 
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+
+| $\mathcal{H}_0 \text{ e'}$ | Non rifiutata | Rifiutata | 
+| :---- | :-----: | :----: | 
+Vera  |  | $\alpha$ |  
+Falsa | $\beta$   |   | 
+
+</center>
+
+
+<!-- First, we should fix the probability of a Type I error, given the null is true, at a pre-specified value, say 0.05; this is known as the size of a test, and generally denoted α (alpha). 
+
+There is a close connection between the size α and Fisher’s P-value. If we take α as the threshold at which we consider results significant, then the results that lead us to reject the null will be exactly those for which P less than α. So α can be considered as the threshold significance level – an α of 0.05 means that we reject the null for all P-values less than 0.05.
+
+Second, we should pre-specify the probability of a Type II error, given the alternative hypothesis is true, generally known as β (beta). 
+
+
+-->
+
+---
+## La potenza di un test
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+
+| $\mathcal{H}_0 \text{ e'}$ | Non rifiutata | Rifiutata | 
+| :---- | :-----: | :----: | 
+Vera  |  | $\alpha$ |  
+Falsa | $\beta$   | $1 - \beta$  | 
+
+</center>
+
+<!-- In fact researchers generally work in terms of 1 – β, which is termed the power of a test, and is the chance of rejecting the null in favour of an alternative hypothesis, given the latter is true. In other words, the power of an experiment is the chance that it will correctly detect a real effect. -->
+
+---
+## La potenza di un test
+
+<span style="display:block; height:10px;"></span>
 
 <center>
 <img src="./img/hypothesis_testing/power.png" img height="290px" border="4px"/>
 </center>
 
-</div>
-</div>
+* $\alpha = 0.05$
+* $1-\beta = 0.8$
 
-<!-- Blu e' H0, Rossa e' H1. alfa e' nostro valore critico. La zona blu indica i falsi positivi, qunado rigettiamo l'ipotesi nulla anche se e' vera. la zona rossa indica i falsi negativi. Se il nostro scopo e' limitare i falsi negativi (e quindi la zona rossa), quello che possiamo fare e':
+<!-- 
+
+Formulae exist for the size and power of different forms of experiment, and they each depend crucially on sample size. But if the sample size is fixed, there is an inevitable trade-off: to increase power, we can always make the threshold for ‘significance’ less stringent and so make it more likely we will correctly identify a true effect, but this means increasing the chance of a Type I error (the size). In the legal analogy, we can loosen the criteria for conviction, say by loosening the requirement of proof ‘beyond reasonable doubt’, and this will result in more criminals being correctly convicted, but at the inevitable cost of more innocent people being incorrectly found guilty.
+
+Before starting a randomized clinical trial, the protocol will specify a null hypothesis that the treatment has no effect, and an alternative hypothesis, generally an effect that is considered both plausible and important. The researchers then lay down the size and power of the study, often setting α = 0.05 and β = 0.80. This means they demand a P-value of less than 0.05 to declare the result significant, and have 80% chance of this being achieved if the treatment is truly effective: together these give rise to an estimate of the number of participants that are needed.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - larger $\alpha$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - larger  $\mu_i - \mu_c$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - smaller $\sigma^2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - larger sample size $n$
+
+Blu e' H0, Rossa e' H1. alfa e' nostro valore critico. La zona blu indica i falsi positivi, qunado rigettiamo l'ipotesi nulla anche se e' vera. la zona rossa indica i falsi negativi. Se il nostro scopo e' limitare i falsi negativi (e quindi la zona rossa), quello che possiamo fare e':
 - scegliere alfa piu' grande (sposta il valore critico a sx)
 - spostare la curva rossa a dx (ovvero aumentare la differenz tra le medie)
 - avere le curve meno sovvrapposte, quindi con una standard deviation piu bassa -> gruppi piu' omogenei (e eterogenei tra di loro)
 - avere campioni piu' grandi (piu' informazioni sulla popolazione, SE piu' piccolo, piu' precisione nelle conclusioni)
 
- -->
 
---- 
-### Exercise #17
+he idea of having a large enough sample to have sufficient power to detect a plausible alternative hypothesis has become totally entrenched in planning medical studies. But studies in psychology and neuroscience often have sample sizes chosen on the basis of convenience or tradition, and can be as low as 20 subjects per condition being studied. True, and interesting, alternative hypotheses may be missed through studies simply being too small, and the need for other experimental areas to think about the power of their experiments is finally being recognized. -->
 
-<div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; There was a shepherd boy who repeatedly cried wolf when there was  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  no wolf. Yet, each time, villagers went to help him. Then, the wolf 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  arrived, but, when the boy cried wolf, no villager helped.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Which kind of errors are the villagers making? 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Type I error, then Type II error
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Type II error, then Type I error
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Null error, then alternative error
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) None of the above 
-
-</div>
-
----
-### Exercise #17 -- Soluzione
-
-<div style="font-size: 90%" >
-
-:question: &nbsp;&nbsp;&nbsp; There was a shepherd boy who repeatedly cried wolf when there was  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  no wolf. Yet, each time, villagers went to help him. Then, the wolf 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  arrived, but, when the boy cried wolf, no villager helped.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Which kind of errors are the villagers making? 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Type I error, then Type II error :white_check_mark: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Type II error, then Type I error
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Null error, then alternative error
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) None of the above 
 
 </div>
 
 --- 
-### Exercise #18
+### Esercizio #7
 
-:question: &nbsp;&nbsp;&nbsp; I want to increase the power of my study, what factors are
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  under my control?
+<div style="font-size: 90%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) the level of significance $\alpha$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) the difference $\mu_i - \mu_c$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) the samples' $\sigma^2$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) the samples' size $n$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Both a) and d)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) Both a) and c)
+:question: &nbsp;&nbsp;&nbsp; Voglio aumentare la potenza del mio studio. Quali fattori posso 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; modificare?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativita' $\alpha$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) la differenza  $\mu_i - \mu_c$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la deviazione standard ($\sigma^2$) dei due campioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) la dimensione $n$ dei due campioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
+
+</div>
+
+<span style="display:block; height:70px;"></span>
+
+<style>
+  #countdown_exercise_7{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_7.running {
+    background-color: green;
+  }
+  #countdown_exercise_7.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_7"></button>
+
+<script>
+<!--
+const countdown_exercise_7= document.getElementById("countdown_exercise_7");
+const seconds_exercise_7= 120; // seconds_exercise_7
+let timeLeft_exercise_7= seconds_exercise_7;
+let timerInterval_exercise_7= null;
+
+function formatTime_exercise_7(seconds_exercise_7) {
+  const minutes = Math.floor(seconds_exercise_7/ 60);
+  const remainingseconds_exercise_7= seconds_exercise_7% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_7).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_7() {
+  countdown_exercise_7.textContent = formatTime_exercise_7(timeLeft_exercise_7);
+}
+
+function startTimer_exercise_7() {
+  if (timerInterval_exercise_7=== null) {
+    countdown_exercise_7.classList.add('running');
+    countdown_exercise_7.classList.remove('finished');
+    timerInterval_exercise_7= setInterval(() => {
+      if (timeLeft_exercise_7> 0) {
+        timeLeft_exercise_7--;
+        updateButton_exercise_7();
+      } else {
+        clearInterval(timerInterval_exercise_7);
+        timerInterval_exercise_7= null;
+        countdown_exercise_7.classList.remove('running');
+        countdown_exercise_7.classList.add('finished');
+        countdown_exercise_7.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_7();
+  }
+}
+
+function pauseTimer_exercise_7() {
+  clearInterval(timerInterval_exercise_7);
+  timerInterval_exercise_7= null;
+  countdown_exercise_7.classList.remove('running');
+}
+
+function resetTimer_exercise_7() {
+  timeLeft_exercise_7= seconds_exercise_7;
+  updateButton_exercise_7();
+  countdown_exercise_7.classList.remove('finished');
+  countdown_exercise_7.classList.remove('running');
+  timerInterval_exercise_7= null;
+}
+
+countdown_exercise_7.addEventListener("click", () => {
+  if (countdown_exercise_7.classList.contains('finished')) {
+    resetTimer_exercise_7();
+  } else {
+    startTimer_exercise_7();
+  }
+});
+
+updateButton_exercise_7();
+-->
+</script>
+
 
 --- 
-### Exercise #18 -- Soluzione
+### Esercizio #7 -- Soluzione
 
-:question: &nbsp;&nbsp;&nbsp; I want to increase the power of my study, what factors are
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  under my control?
+<div style="font-size: 90%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) the level of significance $\alpha$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) the difference $\mu_i - \mu_c$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) the samples' $\sigma^2$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) the samples' size $n$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Both a) and d) :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) Both a) and c)
+:question: &nbsp;&nbsp;&nbsp; Voglio aumentare la potenza del mio studio. Quali fattori posso 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; modificare?
 
-<!--  Cosa vuol dire in pratica? Che per raggiunger una data potenza (80%) devo andare a decidere un livello di significativita; alfa dato le differenze in media e std delle mie popolazioni e poi a calcolare quante persone mi servono per raggiungere la potenza prefissata -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativita' $\alpha$ &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) la differenza  $\mu_i - \mu_c$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la deviazione standard ($\sigma^2$) dei due campioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) la dimensione $n$ dei due campioni &nbsp;&nbsp;:white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
+
+</div>
 
 ---
-## Independent and paired samples
+## Campioni indipendenti & dipendenti
 
 <span style="display:block; height:60px;"></span>
 
@@ -2553,7 +3359,7 @@ Indipendenti> peso nei pazienti diabetici e nei sani
 Appaiati: peso nei pazienti diabetici alla diagnosi e dopo 10 anni -->
 
 ---
-## Independent and paired samples
+## Campioni indipendenti & dipendenti
 
 <span style="display:block; height:60px;"></span>
 
@@ -2564,57 +3370,48 @@ Appaiati: peso nei pazienti diabetici alla diagnosi e dopo 10 anni -->
 <!-- I capioni appaiati possono anche essere essere persone diverse ma matchate per caratteristiche salienti (eta', sesso, peso corporeo, ...)  -->
 
 ---
-## Non-parametric tests
-
-<span style="display:block; height:20px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/unknown_distribution.png" img height="400px" border="4px"/>
-</center>
-
-
-<!-- I test studiati finora sulle variabili quantitative partono dal presupposto che i dati si distribuiscano nei campioni studiati seguendo una certa distribuzione (normale, di Student)
-
-Sono detti parametrici perché dipendono da determinati parametri (media, deviazione standard, varianza …) che devo stimare nel campione e che devo “inferire” alla popolazione
-
-Cosa succede quando le nostre assunzioni sulla distribuzione sono violate? Per esempio i nostri dati sono chiaramente non normali? 
- -->
-
----
-## Non-parametric tests
+## Test non-parametrici
 
 <span style="display:block; height:20px;"></span>
 
 
 <center>
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
-| Sample | Data type | $\mathcal{H}_0$ | Non-parametric test |
+| Campione | Tipo del dato | $\mathcal{H}_0$ | Test non parametrico |
 | ---- | ---- |  ----- | ---- | 
-| Independent | Numerical | $\mu_1 = \mu_2$ |  Mann-Whitney's test |
-| Paired | Numerical | $\mu_1 = \mu_2$ |  Wilcoxon's test |
-| Independent | Categorical | $\pi_1 = \pi_2$ | Fisher's test |
-| Paired | Categorical | $\pi_1 = \pi_2$ |  McNemar's test |
+| Indipendenti | Numerici | $\mu_1 = \mu_2$ |  Mann-Whitney's test |
+| Dipendenti | Numerici | $\mu_1 = \mu_2$ |  Wilcoxon's test |
+| Indipendenti | Categoriche | $\pi_1 = \pi_2$ | Fisher's test |
+| Dipendenti | Categoriche | $\pi_1 = \pi_2$ |  McNemar's test |
 
 </div>
 </center>
 
-<!-- Andiamo ad utilizzare dei test alternativi -->
+<!-- I test studiati finora sulle variabili quantitative partono dal presupposto che i dati si distribuiscano nei campioni studiati seguendo una certa distribuzione (normale, di Student)
+
+Sono detti parametrici perché dipendono da determinati parametri (media, deviazione standard, varianza) che devo stimare nel campione e che devo “inferire” alla popolazione
+
+Cosa succede quando le nostre assunzioni sulla distribuzione sono violate? Per esempio i nostri dati sono chiaramente non normali? 
+
+Mann-Whitney's test & Wilcoxon -> confrontano mediane, campioni con <40 osservazioni, non normali
+Fisher's campioni piccoli (1 cella < 5 osservazioni )
+ -->
 
 ---
 ### Cosa abbiamo imparato in questa lezione?
 
 <span style="display:block; height:10px;"></span>
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
-Tests of null hypotheses – default assumptions about statistical models – form a major part of statistical practice.
-A P-value is a measure of the incompatibility between the observed data and a null hypothesis: formally it is the probability of observing such an extreme result, were the null hypothesis true.
-Traditionally, P-value thresholds of 0.05 and 0.01 have been set to declare ‘statistical significance’.
-These thresholds need to be adjusted if multiple tests are conducted, for example on different subsets of the data or multiple outcome measures.
-There is a precise correspondence between confidence intervals and P-values: if, say, the 95% interval excludes 0, we can reject the null hypothesis of 0 at P < 0.05.
-Neyman–Pearson theory specifies an alternative hypothesis, and fixes Type I and Type II error rates for the two possible kinds of errors in a hypothesis test.
-Separate forms of hypothesis tests have been developed for sequential testing.
-P-values are often misinterpreted: in particular they do not convey the probability that the null hypothesis is true, nor does a non-significant result imply that the null hypothesis is true.
+- P-value misura l'incompatibilita' tra i dati e la nostra ipotesi (probabilita' di osservare valori cosi' estremi se $\mathcal{H}_0$ e' vera)
+- Tradizionalmente, $P < 0.05$ o $< 0.01$ sono considerati statisticamente significativi, ma queste soglie devono essere corrette per il numero di test 
+- C'e' una corrispondenza tra CI e P-value, e se il 95% CI non include lo zero, possiamo rifiutare $\mathcal{H}_0$ a un livello si significativita' $\alpha=0.05$
+- Errori del primo tipo dipendono dalla soglia di significativita' $\alpha$ 
+- Esiste un legame tra errori del secondo tipo $\beta$ e potenza di uno studio
+- Per dati con distribuzioni non-normali possiamo usare test non parametrici
+
+
 </div>
 
