@@ -13,7 +13,7 @@ style: |
 
 ---
 
-### Lezione 9
+### Lezione 8
 
 # La statistica inferenziale
 ## (Parte II: Test di ipotesi)

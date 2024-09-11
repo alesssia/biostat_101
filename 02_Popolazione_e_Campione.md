@@ -90,7 +90,7 @@ E’ però necessario sceglierlo “bene” affinché le informazioni che otteni
 -->
 
 ---
-## Opportunistico *vs*  &nbsp;casuale semplice
+## Campione opportunistico 
 
 <span style="display:block; height:30px;"></span>
 
@@ -120,7 +120,7 @@ Chiedere le intenzioni di voto alle prime 10 pagine di utenti con il numero di t
 -->
 
 ---
-## Opportunistico *vs*  &nbsp;casuale semplice
+## Campionamento casuale semplice
 
 <span style="display:block; height:30px;"></span>
 
@@ -147,7 +147,7 @@ data una popolazione di N individui ed un campione di dimensione n  la probabili
 -->
 
 ---
-### Strategia 1: Campionamento casuale semplice
+## Campionamento casuale semplice
 
 <div class="columns">
 <div>
@@ -174,7 +174,7 @@ data una popolazione di N individui ed un campione di dimensione n  la probabili
 Decidere quante unità si vogliono selezionare e calcolare la frazione di campionamento -->
 
 ---
-### Strategia 1: Campionamento casuale semplice
+## Campionamento casuale semplice
 
 <div class="columns">
 <div>
@@ -201,77 +201,6 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 <!--  Estrarre le unità tramite sorteggio casuale o tavole dei numeri casuali (costruite in modo da non avere vizi sistematici. Sono delle serie di numeri tra 0 e 9 disposti a caso e caratterizzati dall’avere una distribuzione uniforme) -->
 
 ---
-## Strategia 2: Campionamento stratificato
-
-<span style="display:block; height:50px;"></span>
-
-:dart: &nbsp;&nbsp;&nbsp; La popolazione e' divisa in gruppi omogenei (strata)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e un campione casuale semplice e' estratto da ognuno
- 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Variatione: campionamento stratificato proporzionale
-
-<!-- Identificazione degli strati ‘rilevanti’
- Liste di campionamento per sottogruppi
-Campionamento casuale –semplice o sistematico- indipendente per ogni strato -->
-
----
-## Strategia 2: Campionamento stratificato
-
-<div class="columns">
-<div>
-
-:pushpin: &nbsp;&nbsp;&nbsp;  $N=90$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_{femmine}=60$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_{maschi}=30$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n=9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{femmine} = 6$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{maschi} = 3$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $Femmine: 46, 20, 26,$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $50, 47,  3$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $Maschi: 69, 85, 87$
-
-</div>
-<div>
-
-<span style="display:block; height:10px;"></span>
-
-<img src="./img/sampling/numbers-tombola_stratified.jpg" img height="400px" align="right" border="0px"/>
-
-</div>
-</div>
-
-<!-- Esempi di strata : sesso, eta', condizione sociale -->
-
----
-## Strategia 3: Campionamento a cluster
-
-<span style="display:block; height:10px;"></span>
-
-:dart: &nbsp;&nbsp;&nbsp; La popolazione e' divisa in gruppi (cluster) e un 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; campione casuale semplice e' estratto da ognuno
- 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Variatione: 1 stadio (osservo tutto) *vs* 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 stadi &nbsp; (campiono all'interno dei clusters)
-
-<!-- Le unità della popolazione sono suddivise in CLUSTER o GRAPPOLI in base a circostanze organizzative, strutturali, geografiche.
-All’interno dei cluster le unità possono essere molto diverse tra di loro.
-
-Il campione si forma estraendo casualmente un numero prestabilito di cluster, dopodichè si possono includere tutte le unità che appartengono al cluster (1 stadio) o solo una parte (2 stadi, usano campionamento semplice o stratificato)
- -->
-
----
-## Strategia 3: Campionamento a cluster
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/sampling/google-earth-torino.jpg" img height="450px" border="0px"/>
-</center>
-
----
 ## Exercizio #1
 
 <div style="font-size: 90%">
@@ -284,8 +213,7 @@ Il campione si forma estraendo casualmente un numero prestabilito di cluster, do
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) opportunistico
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) casuale semplice
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) stratificato
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) a cluster
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precendenti
 
 </div>
@@ -389,8 +317,7 @@ updateButton_exercise_1();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) opportunistico &nbsp;&nbsp;&nbsp; :white_check_mark: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) casuale semplice
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) stratificato
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) a cluster
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precendenti
 
 </div>
@@ -674,6 +601,100 @@ updateButton_think();
 </script>
 
 <!-- Think -->
+
+---
+## Esercizio #3
+
+:question: &nbsp;&nbsp;&nbsp; Quanti alberi ci sono al mondo?
+
+<span style="display:block; height:300px;"></span> 
+
+<style>
+  #countdown_pair {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #countdown_pair.running {
+    background-color: green;
+  }
+  #countdown_pair.finished {
+    background-color: red;
+  }
+</style>
+
+<div align="right"> Pair &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button></div>
+
+<script>
+<!--
+const countdown_pair = document.getElementById("countdown_pair");
+const seconds_pair = 180; // seconds_pair
+let timeLeft_pair = seconds_pair;
+let timerInterval_pair = null;
+
+function formatTime_pair(seconds_pair) {
+  const minutes = Math.floor(seconds_pair / 60);
+  const remainingseconds_pair = seconds_pair % 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_pair).padStart(2, '0')}`;
+}
+
+function updateButton_pair() {
+  countdown_pair.textContent = formatTime_pair(timeLeft_pair);
+}
+
+function startTimer_pair() {
+  if (timerInterval_pair === null) {
+    countdown_pair.classList.add('running');
+    countdown_pair.classList.remove('finished');
+    timerInterval_pair = setInterval(() => {
+      if (timeLeft_pair > 0) {
+        timeLeft_pair--;
+        updateButton_pair();
+      } else {
+        clearInterval(timerInterval_pair);
+        timerInterval_pair = null;
+        countdown_pair.classList.remove('running');
+        countdown_pair.classList.add('finished');
+        countdown_pair.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_pair();
+  }
+}
+
+function pauseTimer_pair() {
+  clearInterval(timerInterval_pair);
+  timerInterval_pair = null;
+  countdown_pair.classList.remove('running');
+}
+
+function resetTimer_pair() {
+  timeLeft_pair = seconds_pair;
+  updateButton_pair();
+  countdown_pair.classList.remove('finished');
+  countdown_pair.classList.remove('running');
+  timerInterval_pair = null;
+}
+
+countdown_pair.addEventListener("click", () => {
+  if (countdown_pair.classList.contains('finished')) {
+    resetTimer_pair();
+  } else {
+    startTimer_pair();
+  }
+});
+
+updateButton_pair();
+-->
+</script>
+
+<!-- Pair -->
+
 
 ---
 ## Esercizio #3

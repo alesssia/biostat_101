@@ -505,7 +505,7 @@ updateButton_exercize_5();
 <script>
 <!--
 const countdown_exercize_6= document.getElementById("countdown_exercize_6");
-const seconds_exercize_6= 180; // seconds_exercize_6
+const seconds_exercize_6= 300; // seconds_exercize_6
 let timeLeft_exercize_6= seconds_exercize_6;
 let timerInterval_exercize_6= null;
 
@@ -703,7 +703,7 @@ $$
 <script>
 <!--
 const countdown_exercize_7= document.getElementById("countdown_exercize_7");
-const seconds_exercize_7= 180; // seconds_exercize_7
+const seconds_exercize_7= 300; // seconds_exercize_7
 let timeLeft_exercize_7= seconds_exercize_7;
 let timerInterval_exercize_7= null;
 

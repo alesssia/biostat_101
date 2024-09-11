@@ -56,7 +56,14 @@ style: |
 </div>
 </div>
 
-<!-- Pesante in lunedi', interrompero' con esercizi, cosi' pesante che chiedo a tutti uno sforzo per farcela passare -->
+<!-- Pesante in lunedi', interrompero' con esercizi, cosi' pesante che chiedo a tutti uno sforzo per farcela passare 
+
+12 e 6h accademiche
+
+Puntuali, pause volanti
+
+Slide in anticipo senza esercizi
+-->
 
 ---
 ## Un po' di interazione, per favore :pray:
@@ -71,7 +78,7 @@ style: |
 ---
 ## Perche' siamo qui?
 
-<span style="display:block; height:360px;"></span>
+<span style="display:block; height:400px;"></span>
 
 <style>
   #countdown_think{
@@ -160,7 +167,7 @@ updateButton_think();
 ---
 ## Perche' siamo qui?
 
-<span style="display:block; height:360px;"></span>
+<span style="display:block; height:400px;"></span>
 
 <style>
   #countdown_pair{
@@ -249,7 +256,7 @@ updateButton_pair();
 ---
 ## Perche' siamo qui?
 
-<span style="display:block; height:360px;"></span>
+<span style="display:block; height:400px;"></span>
 
 <style>
   #countdown_share{
@@ -345,16 +352,6 @@ updateButton_share();
 <img src="./img/introduction/colluttorio.png" img height="450px" border="4px"/>
 </center>
 
----
-## Ma quanti sono il 99.99% dei batteri?
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/introduction/hand_sanitizer.png" img height="350px" border="0px"/>
-</center>
-
-<!-- 20K -->
 
 ---
 ## Cosa ci dice questo grafico?
@@ -392,29 +389,64 @@ This increased attention to autism and its symptoms may also explain the rise in
 ---
 ## Come prosegue questo grafico?
 
+<div class="columns">
+<div>
+
 <span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/introduction/lefthandness_covered.png" img height="480px" border="4px"/>
+<img src="./img/introduction/lefthandness_covered.png" img height="450px" border="4px"/>
 </center>
+
+</div>
+<div>
+
+
+</div>
+</div>
 
 ---
 ## Cosa ci dice questo grafico?
 
+<div class="columns">
+<div>
+
 <span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/introduction/lefthandness.png" img height="480px" border="4px"/>
+<img src="./img/introduction/lefthandness.png" img height="450px" border="4px"/>
 </center>
+
+</div>
+<div>
+
+
+</div>
+</div>
 
 ---
 ## Educazione civica, 1935 (ca.)
 
+<div class="columns">
+<div>
+
 <span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/introduction/lefthandess_2.jpeg" img height="480px" border="4px"/>
+<img src="./img/introduction/lefthandness.png" img height="450px" border="4px"/>
 </center>
+
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/introduction/lefthandess_2.jpeg" img height="450px" border="4px"/>
+</center>
+
+</div>
+</div>
 
 ---
 ## Cicogne e bambini

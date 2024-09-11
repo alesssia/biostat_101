@@ -14,7 +14,7 @@ style: |
 
 ---
 
-### Lezione 8
+### Lezione 7
 # La statistica inferenziale
 ## (Parte I: Stime e intervalli di confidenza)
 ## &nbsp;
@@ -763,7 +763,7 @@ Nella maggior parte delle situazioni pratiche, n=30 e' soddisfacente, ma l'appro
 <span style="display:block; height:70px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/Standard_Normal_Distribution.png" img height="400px" border="4px"/>
+<img src="./img/normal/Standard_Normal_Distribution.png" img height="400px" border="4px"/>
 </center>
 </div>
 </div>
@@ -818,7 +818,7 @@ a confidence interval is the range of population parameters for which our observ
 <span style="display:block; height:30px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/small_large_SE.png" img height="400px" border="4px"/>
+<img src="./img/normal/small_large_SE.png" img height="400px" border="4px"/>
 </center>
 
 Piu; lo SE e' piccolo, piu' la media campionaria osservata sara' vicina alla vera media della popolazione -->
@@ -1247,16 +1247,21 @@ updateButton_exercise_5();
 ---
 ## Esercizio #6
 
+<div style="font-size: 90%" >
+
 > In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di eta', riferiscono di aver avuto nella loro vita?
 
 :question: &nbsp;&nbsp;&nbsp; Qual e' il 95% CI?  
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s=11.2$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?}$
 
-<span style="display:block; height:30px;"></span>
+</div>
+
+<span style="display:block; height:10px;"></span>
 
 <style>
   #countdown_exercise_6{
@@ -1667,7 +1672,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 ---
 ## Una regola empirica
 
-&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore al 95% (in percentuale) e' al piu' $\pm \text{ } 100/\sqrt{n}$
+&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) e' al piu' $\pm \text{ } 100/\sqrt{n}$
 
 
 <!-- A simple rule of thumb is that, if you are estimating the percentage of people who prefer something, and you ask a random sample from a population, then your margin of error (in %) is at most plus or minus 100 divided by the square root of the sample size 
@@ -1678,7 +1683,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 ---
 ## Esercizio #8
 
-&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore al 95% (in percentuale) e' al piu' $\pm \text{ } 100/\sqrt{n}$
+&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) e' al piu' $\pm \text{ } 100/\sqrt{n}$
 
 <div class="columns">
 <div>
@@ -1687,8 +1692,8 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Calcolate il 95% intervallo di
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; confidenza per i due "claim"
+:question: &nbsp;&nbsp;&nbsp; Calcolate il margine di errore
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; per i due "claim"
 
 </div>
 
@@ -1794,7 +1799,7 @@ updateButton_exercise_9();
 ---
 ## Esercizio #8 -- Soluzione
 
-&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore al 95% (in percentuale) e' al piu' $\pm \text{ } 100/\sqrt{n}$
+&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) e' al piu' $\pm \text{ } 100/\sqrt{n}$
 
 <div class="columns">
 <div>
@@ -1803,8 +1808,8 @@ updateButton_exercise_9();
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Calcolate il 95% intervallo di
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; confidenza per i due "claim"
+:question: &nbsp;&nbsp;&nbsp; Calcolate il margine di errore
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; per i due "claim"
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\text{ME} = 100/\sqrt{31} = 18\%$
 

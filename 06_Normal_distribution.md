@@ -39,7 +39,7 @@ style: |
 <span style="display:block; height:2px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/PPDAC.png" img height="450px" border="0px"/>
+<img src="./img/normal/PPDAC.png" img height="450px" border="0px"/>
 </center>
 
 <div style="font-size: 50%" align="right">
@@ -102,7 +102,7 @@ $mediana = 2408g$
 <span style="display:block; height:30px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/Twin_BW_hist.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_hist.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -136,7 +136,7 @@ $mediana = 2408g$
 <span style="display:block; height:30px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/Twin_BW_hist_normale.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_hist_normale.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -167,7 +167,7 @@ Figure shows a normal curve with the same mean and standard deviation as the rec
 <span style="display:block; height:30px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/Twin_BW_normale.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_normale.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -224,7 +224,7 @@ It is an impressive achievement to be able to summarize over a million births by
 <span style="display:block; height:80px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/1200px-Normal_Distribution_PDF.svg_covered.png" img height="300px" border="4px"/>
+<img src="./img/normal/1200px-Normal_Distribution_PDF.svg_covered.png" img height="300px" border="4px"/>
 </center>
 
 </div>
@@ -346,7 +346,7 @@ updateButton_exercise_1();
 <span style="display:block; height:80px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/1200px-Normal_Distribution_PDF.svg_sd_covered.png" img height="300px" border="4px"/>
+<img src="./img/normal/1200px-Normal_Distribution_PDF.svg_sd_covered.png" img height="300px" border="4px"/>
 </center>
 
 </div>
@@ -378,7 +378,7 @@ updateButton_exercise_1();
 <span style="display:block; height:80px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/1200px-Normal_Distribution_PDF.svg_sd_covered.png" img height="300px" border="4px"/>
+<img src="./img/normal/1200px-Normal_Distribution_PDF.svg_sd_covered.png" img height="300px" border="4px"/>
 </center>
 
 </div>
@@ -499,7 +499,7 @@ updateButton_exercise_2();
 <span style="display:block; height:80px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/1200px-Normal_Distribution_PDF.svg.png" img height="300px" border="4px"/>
+<img src="./img/normal/1200px-Normal_Distribution_PDF.svg.png" img height="300px" border="4px"/>
 </center>
 
 </div>
@@ -536,7 +536,7 @@ $\mathcal{P}(\text{"very low birth weight"}) = 0.06$
 <span style="display:block; height:30px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/Twin_BW_normale_area.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -574,7 +574,7 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 <span style="display:block; height:80px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/Standard_Normal_Distribution.png" img height="370px" border="4px"/>
+<img src="./img/normal/Standard_Normal_Distribution.png" img height="370px" border="4px"/>
 </center>
 </div>
 
@@ -944,7 +944,7 @@ Ma come e' stato calcolato?
 <span style="display:block; height:30px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/Twin_BW_normale_area.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -966,7 +966,7 @@ Ma come e' stato calcolato?
 <span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/n2z_1.png" img height="400px" border="4px"/>
+<img src="./img/normal/n2z_1.png" img height="400px" border="4px"/>
 </center>
 </div>
 
@@ -993,7 +993,7 @@ Magenta: mu=4, sd=1.5 -->
 <span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/n2z_2.png" img height="400px" border="4px"/>
+<img src="./img/normal/n2z_2.png" img height="400px" border="4px"/>
 </center>
 </div>
 
@@ -1016,7 +1016,7 @@ Magenta: mu=4, sd=1.5 -->
 <span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/n2z_3.png" img height="400px" border="4px"/>
+<img src="./img/normal/n2z_3.png" img height="400px" border="4px"/>
 </center>
 </div>
 
@@ -1037,7 +1037,7 @@ Magenta: mu=4, sd=1.5 -->
 <div>
 
 <center>
-<img src="./img/normal_and_CLT/normal_table.jpg" img height="550px" border="4px"/>
+<img src="./img/normal/normal_table.jpg" img height="550px" border="4px"/>
 </center>
 </div>
 </div>
@@ -1090,7 +1090,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 <span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/normal_table_zoom.jpg" img height="280px" border="4px"/>
+<img src="./img/normal/normal_table_zoom.jpg" img height="280px" border="4px"/>
 </center> 
 
 </div>
@@ -1117,7 +1117,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 <span style="display:block; height:160px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/area_normal_symmetrical.png" img height="180px" border="4px"/>
+<img src="./img/normal/area_normal_symmetrical.png" img height="180px" border="4px"/>
 </center> 
 
 </div>
@@ -1146,7 +1146,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 <span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/normal_table_zoom_example.jpg" img height="280px" border="4px"/>
+<img src="./img/normal/normal_table_zoom_example.jpg" img height="280px" border="4px"/>
 </center> 
 
 </div>
@@ -1269,7 +1269,7 @@ updateButton_exercise_5();
 <span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/normal_table_zoom.jpg" img height="280px" border="4px"/>
+<img src="./img/normal/normal_table_zoom.jpg" img height="280px" border="4px"/>
 </center> 
 
 </div>
@@ -1308,7 +1308,7 @@ updateButton_exercise_5();
 <span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/normal_table_zoom.jpg" img height="280px" border="4px"/>
+<img src="./img/normal/normal_table_zoom.jpg" img height="280px" border="4px"/>
 </center> 
 
 </div>
@@ -1345,7 +1345,7 @@ updateButton_exercise_5();
 <span style="display:block; height:20px;"></span>
 
 <center>
-<img src="./img/normal_and_CLT/Twin_BW_normale_area_exercise.png" img height="350px" border="4px"/>
+<img src="./img/normal/Twin_BW_normale_area_exercise.png" img height="350px" border="4px"/>
 </center> 
 
 </div>
