@@ -1,0 +1,782 @@
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% INTRODUCTION
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\newglossaryentry{data_literacy}
+{
+	 name={Data literacy},
+	 description={\`e la capacit\`a di \emph{a)}~capire i principi che guidano l'apprendimento dai dati, \emph{b)}~effettuare semplici analisi dati, e \emph{c)}~interpretare correttamente e in modo critico le conclusioni che derivano da un'analisi dati, anche in studi non effettuati in prima persona.},
+	 sort={data literacy}
+}
+
+\newglossaryentry{statistical_science}
+{
+	 name={Scienze statistiche},
+	 description={sono la disciplina che si occupa di raccogliere, organizzare, sintetizzare e analizzare i dati (statistica descrittiva) e di effettuare deduzioni su grandi gruppi sulla base di dati raccolti in gruppi pi\`u ristretti (statistica inferenziale).},
+	 sort={scienze statistiche}
+}
+
+\newglossaryentry{fasi_della_ricerca}
+{
+	 name={Fasi della ricerca},
+	 description={\`e il processo circolare che definisce i passi necessari per risolvere un problema scientifico attraverso l'analisi statistica dei dati. Un esempio \`e il \gls{PPDAC}.},
+	 sort={fasi della ricerca}
+}
+
+\newglossaryentry{PPDAC}
+{
+	 name={PPDAC cycle},
+	 description={o Problem-Plan-Data-Analysis-Conclusion cycle, \`e un processo circolare che definisce $5$ \gls{fasi_della_ricerca}. Nella prima fase si definisce un problema, solitamente formulato come una domanda di ricerca (per esempio, ``l'uso di un farmaco \`e efficace nel controllare i sintomi di una malattia?''). Nella parte di Planning, il ricercatore decide come rispondere alla domanda di ricerca. Questo include, \emph{i)}~verificare se esiste una collezione di dati di alta qualit\`a (vedi \gls{sampling_bias}) che pu\`o essere usata, \emph{ii)}~decidere e giustificare perch\'e sia necessario raccogliere nuove collezioni di dati, e quali dati siano necessari e come debbano essere raccolti (via questionario, analisi strumentali, \dots), \emph{iii)}~decidere e giustificare da quale \gls{population} i dati verranno raccolti, tenendo anche in considerazione considerazione etiche e logistiche (per esempio, questionari che richiedano un tempo troppo lungo per essere completati), \emph{iv)}~decidere e giustificare quando e dove la raccolta dati debba iniziare e finire, \emph{v)}~decidere e giustificare i metodi analitici che verranno utilizzati, e \emph{vi)}~definire delle probabili risposte alla domanda di ricerca. Nella terza fase, i dati vengono raccolti, organizzati, puliti e verificati. Nella quarta fase, i dati vengono esplorati, visualizzati e analizzati, per esempio attraverso la creazione di tabelle e/o grafici (per esempio: \gls{contingency_table}, \gls{bar_chart}, \gls{istogramma}, \dots), di statistiche descrittive (per esempio, \gls{sample_mode}, \gls{sample_median}, \gls{mean}, \gls{iqr}, \gls{standard_deviation}, \dots). In questo contesto si inseriscono anche il \gls{hypothesis_testing} e il calcolo e l'interpretazione di un \gls{confidence_interval} di una \gls{statistic}. Nell'ultima fase, i risultati vengono interpretati e comunicati e usati per formulare nuove domande di ricerca la cui risposta verr\`a ricercata nel prossimo \gls{PPDAC}.},
+	 sort={ppdac cycle}
+}
+
+\newglossaryentry{induction}
+{
+	 name={Induzione},
+	 description={o metodo induttivo, \`e il processo attraverso il quale si cerca di stabilire una legge universale partendo da singoli casi particolari.},
+	 sort={induzione}
+}
+
+\newglossaryentry{framing}
+{
+	 name={Framing},
+	 description={\`e il modo in cui i risultati e le conclusioni di una studio vengono comunicate sia alla comunit\`a scientifica sia (e soprattutto) al grande pubblico. Un diverso framing (positivo o negativo) ha la possibilit\`a di influenzare il contenuto e l'interpretazione del messaggio trasmesso. Vedi anche \gls{statisticulation}.},
+	 sort={framing}
+}
+
+\newglossaryentry{statisticulation}
+{
+	 name={Statisticulation},
+	 description={\`e un termine inventato da Darrell Huff nel suo libro \emph{``How to lie with statistics''} (pubblicato nel 1954). Viene usato per descrivere tutti quei casi un cui le \gls{statistical_science} vengono usate in modo fuorviante, sia accidentalmente (per esempio, presentando la \gls{mean} quando riportare la \gls{sample_median} sarebbe pi\`u appropriato) ma anche volontariamente (per esempio, presentando un \gls{istogramma} o un \gls{bar_chart} che partono da una posizione arbitraria sull'asse delle ordinate per accentuare una differenza tra i valori raccolti).  Vedi anche \gls{framing}.},
+	 sort={statisticulation}
+}
+
+\newglossaryentry{statistical_model}
+{
+	name={Modello statistico},
+	description={\`e una rappresentazione semplificata di un fenomeno che deriva da osservazioni e ipotesi logiche. Corrisponde a una rappresentazione matematica che descrive la distribuzione di probabilit\`a di una variabile casuale in cui uno o pi\`u parametri sono sconosciuti.},
+	sort={modello statistico}
+}
+
+
+\newglossaryentry{post_hoc_fallacy}
+{
+	name={Post hoc fallacy},
+	description={(in latino: \emph{Post hoc ergo propter hoc}, \emph{Dopo di ci\`o, quindi a causa di ci\`o}) \`e un'argomentazione apparentemente valida ma fondata su un errore logico in cui si crede che, perch\'e l'evento $Y$ accade dopo l'evento $X$, allora $X$ debba aver causato $Y$. L'errore logico consiste nel concludere che ci sia un nesso causale quando \`e presente solo un nesso temporale. Vedi anche: \gls{causation}.},
+	sort={post hoc fallacy}
+}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Population & Sampling 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newglossaryentry{population}
+{
+	 name={Popolazione},
+	 description={\`e un gruppo di elementi a cui siamo interessati in un determinato momento. In alcuni casi, il significato \`e letterale (per esempio, attraverso il censimento), ma, in generale, \`e un'idealizzazione matematica.},
+	 sort={popolazione}
+}
+
+\newglossaryentry{sample}
+{
+	 name={Campione},
+	 description={\`e un sottoinsieme di una \gls{population} di elementi a cui siamo interessati in un determinato momento. Per tecniche di campionamento vedi: \gls{campionamento_opportunistico} e \gls{campionamento_casuale_semplice}. Vedi anche: \gls{sampling_bias}.},
+	 sort={campione}
+}
+
+\newglossaryentry{population_distribution}
+{
+	 name={Distribuzione di popolazione},
+	 description={\`e la distribuzione di un'osservazione nella \gls{population} (inteso in senso letterale), ma anche la distribuzione di probabilit\`a di una variabile casuale.
+	},
+	 sort={distribuzione di popolazione}
+}
+
+\newglossaryentry{sample_distribution}
+{
+	 name={Distribuzione empirica},
+	 description={\`e la distribuzione di una serie di osservazioni (dati) raccolte in un \gls{sample}.},
+	 sort={distribuzione empirica}
+}
+
+\newglossaryentry{campionamento_opportunistico}
+{
+	 name={Campionamento opportunistico},
+	 description={\`e una tecnica di campionamento non probabilistico in cui gli individui di una \gls{population} vengono selezionati in base alla loro convenienza (per esempio, sono di facile accesso). Il \gls{sample} cos\`i ottenuto potrebbe essere distorto e non rappresentativo della popolazione che si vuole studiare.},
+	 sort={campionamento opportunistico}
+}
+
+\newglossaryentry{campionamento_casuale_semplice}
+{
+	 name={Campionamento casuale semplice},
+	 description={\`e una tecnica di campionamento probabilistico in cui tutti i soggetti di una \gls{population} hanno le stesse probabilità di essere inclusi in un \gls{sample}. Il campione cos\`i ottenuto \`e quindi rappresentativo della popolazione che si vuole studiare.},
+	 sort={campionamento casuale semplice}
+}
+
+\newglossaryentry{sampling_bias}
+{
+	 name={Bias di campionamento},
+	 description={si verifica quando un \gls{sample} viene raccolto in modo tale che alcuni membri della \gls{population} abbiano una probabilit\`a di campionamento diversa rispetto ad altri. Si ottiene cos\`i un campione distorto e non rappresentativo della popolazione.},
+	 sort={bias di campionamento}
+}
+
+\newglossaryentry{Survivor_bias}
+{
+	 name={Survivor bias},
+	 description={o survivorship bias o bias del sopravvissuto o pregiudizio di sopravvivenza, \`e l'errore logico che si commette quando si prendano in considerazione solo gli elementi che hanno superato un determinato processo di selezione, trascurando i restanti; tipicamente ciò avviene poiché i primi sono fisicamente disponibili/visibili e i secondi no. Vedi \gls{sampling_bias}.},
+	 sort={survivor bias}
+}
+
+\newglossaryentry{Volunteer_bias}
+{
+	 name={Volunteer bias},
+	 description={occorre quando i volontari hanno caratteristiche diverse rispetto alla \gls{population} che si vuole studiare. Per esempio, \`e stato dimostrato che i volontari tendono ad avere uno stato socioeconomico pi\`u alto, e che le donne sono pi\`u propense a partecipare agli studi che gli uomini. Vedi \gls{sampling_bias}.},
+	 sort={volunteer bias}
+}
+
+\newglossaryentry{Lost_to_follow_up_bias}
+{
+	 name={Lost to follow up bias},
+	 description={occorre quando uno o pi\`u soggetti di uno studio diventano irreperibili durante lo studio stesso. Vedi \gls{sampling_bias}.},
+	 sort={lost to follow up bias}
+}
+
+\newglossaryentry{ascertainment bias}
+{
+	 name={Ascertainment bias},
+	 description={occorre quando la possibilit\`a di un soggetto di essere incluso in un \gls{sample} dipende da fattori di fondo. Per esempio, \`e possibile che vengano diagnosticati pi\`u tumori nelle persone con stato socio-economico pi\`u alto, in quanto hanno un accesso facilitato ai test diagnostici e una diversa sensibilit\`a rispetto agli screening periodici. Oppure, uno studio su malattie autoimmuni e obesit\`a soffre di ascertainment bias se il campione \`e stato scelto tra i pazienti di una clinica che si specializza in by-pass gastrici, dove i grandi obesi sono over-rappresentati. Vedi \gls{sampling_bias}.},
+	 sort={ascertainment bias}
+}
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Data
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newglossaryentry{categorical_variable}
+{
+	 name={Variabile categorica},
+	 description={\`e una variabile che pu\`o assumere due o pi\`u valori discreti, che possono essere ordinati o meno. Variabili categoriche con due sole categorie vengono dette \gls{binary_data}. Variabili categoriche ordinate vengono dette ordinali.},
+	 sort={variabile categorica}
+}
+
+\newglossaryentry{binary_data}
+{
+	 name={Variabile binaria},
+	 description={\`e una variabile che pu\`o assumere solo due valori.},
+	 sort={variabile binaria}
+}
+
+\newglossaryentry{continuous_variable}
+{
+	 name={Variabile continua},
+	 description={\`e una variabile che pu\`o assumere qualsiasi valore numerico.},
+	 sort={variabile continua}
+}
+
+\newglossaryentry{count_variables}
+{
+	 name={Variabile discreta},
+	 description={\`e una variabile che pu\`o assumere qualsiasi valore intero.},
+	 sort={variabile discreta}
+}
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Descriptive Statistics
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newglossaryentry{discretizzazione}
+{
+	 name={Discretizzazione},
+	 description={\`e il processo che trasforma una \gls{continuous_variable} nella sua controparte categorica. In questo processo, i valori vengono divisi in intervalli (o classi) di cui viene riportata la \gls{relative_frequency} e/o la \gls{frequency}. La scelta del numero di classi (che devono essere mutualmente esclusive) e dei loro estremi \`e arbitraria. In generale, il numero di classi dipende dalla numerosit\`a dei dati e gli estremi vengono scelti in modo da essere preferibilmente di uguale ampiezza e/o clinicamente/biologicamente significativi.},
+	 sort={Discretizzazione}
+}
+
+\newglossaryentry{frequency}
+{
+	 name={Frequenza assoluta},
+	 description={\`e il numero di volte in cui una certa \gls{modalita} si manifesta in un campione. \`E usata per presentare una \gls{categorical_variable} o una \gls{continuous_variable}/\gls{count_variables} a seguito di un processo di \gls{discretizzazione}.},
+	 sort={frequenza assoluta }
+}
+
+\newglossaryentry{relative_frequency}
+{
+	 name={Frequenza relativa},
+	 description={o proporzione, \`e il rapporto tra la frequenza assoluta con cui si manifesta una \gls{modalita} e la numerosit\`a totale delle osservazioni raccolte nel \gls{sample}. \`E usata per presentare una \gls{categorical_variable} o una \gls{continuous_variable}/\gls{count_variables} a seguito di un processo di \gls{discretizzazione}},
+	 sort={frequenza relativa}
+}
+
+\newglossaryentry{modalita}
+{
+	 name={Modalit\`a},
+	 description={sono i valori numerici o attributi categorici che una \gls{categorical_variable} pu\`o assumere.},
+	 sort={modalita}
+}
+
+\newglossaryentry{contingency_table}
+{
+	 name={Tabella di contingenza},
+	 description={\`e una tabella a doppia entrata (con righe e colonne) in cui si riportano le frequenze congiunte di due variabili. \`E usata per presentare una \gls{categorical_variable} o una \gls{continuous_variable}/\gls{count_variables} a seguito di un processo di \gls{discretizzazione}.},
+	 sort={Tabella di contingenza}
+}
+
+\newglossaryentry{bar_chart}
+{
+	 name={Bar chart},
+	 description={o ortogramma a nastro o diagramma a nastri, \`e la rappresentazione grafica di una distribuzione in classi di una \gls{categorical_variable} o di una variabile numerica soggetta ad un processo di \gls{discretizzazione}. Ciascuna \gls{modalita} viene rappresentata da una barra, la cui dimensione \`e proporzionale alla sua frequenza, assoluta o relativa. Perch\'e le dimensioni delle barre siano esattamente proporzionali, \`e necessario che l'asse delle ordinate inizi dallo zero e non da un punto arbitrario (a questo riguardo vedi anche: \gls{statisticulation}). \`E considerata uno delle visualizzazioni pi\`u efficaci per rappresentare dati categorici.},
+	 sort={Bar chart}
+}
+
+\newglossaryentry{lollipop_chart}
+{
+	 name={Lollipop chart},
+	 description={\`e una variazione del \gls{bar_chart} in cui la barra viene sostituita da una linea e un cerchio.},
+	 sort={lollipop chart}
+}
+
+\newglossaryentry{pie_chart}
+{
+	 name={Pie chart},
+	 description={o diagramma a torta o diagramma circolare, \`e la rappresentazione grafica di una distribuzione in classi di una \gls{categorical_variable} o di una variabile numerica soggetta ad un processo di \gls{discretizzazione}. Viene costruito dividendo un cerchio in spicchi le cui ampiezze angolari sono proporzionali alle classi di \gls{relative_frequency}. Questa forma di visualizzazione \`e molto criticata, perch\'e \`e molto difficile, per un osservatore, tradurre degli angoli in quantit\`a.},
+	 sort={Pie chart}
+}
+
+\newglossaryentry{donut_chart}
+{
+	 name={Donut chart},
+	 description={o diagramma a ciambella, \`e una variante del \gls{pie_chart}, in cui il centro \`e sostituito da uno spazio bianco, in cui \`e possibile aggiungere delle informazioni addizionali. Soffre delle stesse limitazioni presentate dal pie chart.},
+	 sort={Donut chart}
+}
+
+\newglossaryentry{waffle_chart}
+{
+	 name={Waffle chart},
+	 description={\`e la rappresentazione grafica di una distribuzione in classi di una \gls{categorical_variable} o di una variabile numerica soggetta ad un processo di \gls{discretizzazione} attraverso una griglia di piccoli quadrati. Ogni \gls{modalita} \`e rappresentata da un colore diverso e il numero di quadrati assegnati a ciascuna categoria corrisponde sulla sua \gls{frequency} o \gls{relative_frequency}. Solitamente sono griglie $10 \times 10$, dove ciascuna cella (quadrato) rappresenta l'$1\%$ dei dati. Il pi\`u grande vantaggio rispetto ai \gls{pie_chart} e ai \gls{donut_chart} \`e che permette di rappresentare in modo chiaro e visibile anche piccole percentuali.},
+	 sort={Waffle chart}
+}
+
+% \newglossaryentry{population_mode}
+% {
+% 	 name={Moda (popolazione)},
+% 	 description={\`e il valore o i valori che occorre con la probablit\`a pi\`u alta.},
+% 	 sort={Moda (popolazione)}
+% }
+
+\newglossaryentry{sample_mode}
+{
+	 name={Moda},
+	 description={\`e il valore o i valori pi\`u frequenti in una \gls{sample_distribution}. Se tutti i valori hanno la stessa frequenza, la moda non esiste (ci troviamo davanti a una distribuzione uniforme). Viene usata solitamente per descrivere una \gls{categorical_variable}.},
+	 sort={moda}
+}
+
+\newglossaryentry{sample_median}
+{
+	 name={Mediana},
+	 description={\`e il valore che si trova nel mezzo della \gls{sample_distribution} (se il numero di osservazioni \`e dispari) o la \gls{mean} dei due valori nel mezzo della distribuzione (se il numero di osservazioni \`e pari). \`E robusta rispetto alla presenza di \gls{outliers} e di conseguenza \`e indicata quando la \gls{distribution_shape} \`e asimmetrica. Si accompagna sempre all'\gls{iqr}.},
+	 sort={Mediana}
+}
+
+\newglossaryentry{quartiles}
+{
+	 name={Quartile},
+	 description={\`e uno dei quattro valori che dividono la distribuzione in quattro parti uguali. La \gls{sample_median} corrisponde dal secondo quartile. Sono robusti rispetto alla presenza di \gls{outliers} e di conseguenza sono indicati quando la \gls{distribution_shape} \`e asimmetrica.},
+	 sort={quartile}
+}
+
+\newglossaryentry{mean}
+{
+	 name={Media},
+	 description={\`e la somma dei valori di una \gls{continuous_variable} o una \gls{count_variables} diviso il numero di osservazioni. \`E suscettibile alla presenza di \gls{outliers} e di conseguenza non \`e indicata quando la \gls{distribution_shape} \`e asimmetrica. Si accompagna sempre alla \gls{standard_deviation}.},
+	 sort={media}
+}
+
+\newglossaryentry{variability}
+{
+	 name={Variabilit\`a},
+	 description={sono le differenze che sono presenti tra le diverse osservazioni e/o misure.},
+	 sort={variabilit\`a}
+}
+
+\newglossaryentry{range}
+{
+	 name={Range},
+	 description={o intervallo di variazione, \`e la differenza tra i due valori estremi (massimo e minimo) di una \gls{sample_distribution}. Basandosi solo su due valori non \`e particolarmente informativa. Inoltre, \`e suscettibile alla presenza di \gls{outliers} e di conseguenza non \`e indicata quando la \gls{distribution_shape} \`e asimmetrica.},
+	 sort={range}
+}
+
+\newglossaryentry{iqr}
+{
+	 name={Inter-quartile range},
+	 description={o range interquartile, \`e la differenza tra il terzo e il primo \gls{quartiles}. \`E robusto rispetto alla presenza di \gls{outliers} e di conseguenza \`e indicato quando la \gls{distribution_shape} \`e asimmetrica. Si accompagna sempre alla \gls{sample_median}.},
+	 sort={inter-quartile range}
+}
+
+\newglossaryentry{variance}
+{
+	 name={Varianza},
+	 description={misura la distanza di ciascuna osservazione dalla \gls{mean} della  \gls{sample_distribution}. \`E suscettibile alla presenza di \gls{outliers}. Alla varianza si preferisce solitamente la \gls{standard_deviation}, che presenta le stesse unit\`a di misura della distribuzione campionaria.},
+	 sort={varianza}
+}
+
+\newglossaryentry{standard_deviation}
+{
+	 name={Standard deviation},
+	 description={o deviazione standard, \`e la radice quadrata della \gls{variance}, e ha quindi le stesse unit\`a di misura della \gls{sample_distribution}. \`E suscettibile alla presenza di \gls{outliers} e di conseguenza non \`e indicata quando la \gls{distribution_shape} \`e asimmetrica. Si accompagna sempre alla \gls{mean}},
+	 sort={standard deviation}
+}
+
+\newglossaryentry{correlation}
+{
+	 name={Correlazione},
+	 description={\`e una relazione tra due variabili in cui a ciascun valore di una corrisponda un valore dell'altra. La correlazione non dipende da un rapporto di \gls{causation} ma dalla tendenza di una variabile a cambiare in funzione dell'altra (``correlazione non significa causazione"). Vedi anche: \gls{pcc}.},
+	 sort={correlazione}
+}
+
+\newglossaryentry{istogramma}
+{
+	 name={Istogramma},
+	 description={\`e la rappresentazione grafica di una \gls{continuous_variable} soggetta ad un processo di \gls{discretizzazione}. Ciascuna classe identificata dal processo di discretizzazione viene rappresentata da una barra la cui dimensione \`e proporzionale al numero di osservazioni nella classe. Perch\'e le dimensioni delle barre siano esattamente proporzionali, \`e necessario che l'asse delle ordinate inizi dallo zero e non da un punto arbitrario (a questo riguardo vedi anche: \gls{statisticulation}).},
+	 sort={istogramma}
+}
+
+\newglossaryentry{density_plot}
+{
+	 name={Density plot},
+	 description={o kernel density plot o grafico basato sulla stima kernel di densit\`a,  \`e una rappresentazione grafica della distribuzione di una \gls{continuous_variable} alternativa all'\gls{istogramma}. Nel density plot, le barre dell'istogramma vengono convertite in \emph{gobbe} da uno stimatore kernel di densit\`a e  poi smussate a creare una linea arrotondata continua. },
+	 sort={density plot}
+}
+
+\newglossaryentry{distribution_shape}
+{
+	 name={Forma della distribuzione},
+	 description={descrive come una \gls{sample_distribution} e/o \gls{population_distribution} si distribuisce. Si dice che una distribuzione abbia una forma simmetrica quando \gls{sample_mode}, \gls{sample_median} e \gls{mean} coincidono e dividono la distribuzione stessa in due parti identiche. Qualora questa condizione non si verificasse, la forma della distribuzione viene detta asimmetrica. Una distribuzione asimmetrica positiva \`e caratterizzata da una curva in cui i valori sono raggruppati nella
+parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra). Viceversa, una distribuzione asimmetrica negativa \`e caratterizzata da una curva in cui i valori sono raggruppati nella parte destra, con una lunga coda a sinistra (anche detta: asimmetrica a sinistra). Si dice che una distribuzione sia bi- o multi-modale quando presenta due o pi\`u gobbe corrispondenti ai diversi valori che la moda pu\`o assumere nel campione.},
+	 sort={forma della distribuzione}
+}
+
+\newglossaryentry{boxplot}
+{
+	 name={Boxplot},
+	 description={o box and whiskers plot, o diagramma a scatola e baffi o diagramma degli estremi e dei quartili, \`e una rappresentazione grafica utilizzata per descrivere la distribuzione di una \gls{continuous_variable} o una \gls{count_variables} utilizzando sia indici di dispersione (\gls{iqr}) sia di posizione (\gls{sample_median} e \gls{quartiles}). Viene rappresentato da un rettangolo (box) e da due segmenti (whiskers o baffi). Il rettangolo \`e delimitato dal primo e dal terzo quartile e diviso al suo interno dalla mediana (o secondo quartile). La lunghezza dei segmenti rappresenta 1.5 volte l'interquartile range. I punti oltre il segmento rappresentano dei (possibili) \gls{outliers}. },
+	 sort={boxplot}
+}
+
+\newglossaryentry{pcc}
+{
+	 name={Pearson correlation coefficient},
+	 description={o indice di correlazione di Pearson, \`e un indice che misura l'esistenza di una relazione lineare (o \gls{correlation}) tra due variabili. Ha un valore compreso tra $+ 1$ e $- 1$ , dove $+ 1$ corrisponde alla perfetta correlazione lineare positiva, $0$ corrisponde a un'assenza di correlazione lineare e $- 1$ corrisponde alla perfetta correlazione lineare negativa.},
+	 sort={Pearson correlation coefficient}
+}
+
+\newglossaryentry{outliers}
+{
+	 name={Valori anomali},
+	 description={sono dei valori chiaramente distanti dalle altre osservazioni disponibili. Non ne esiste una definizione matematica formale, ma, empiricamente, vengono definiti come valori pi\`u lontani dal primo e terzo \gls{quartiles} di $1.5$ volte l'\gls{iqr} (vedi anche: \gls{boxplot}) o pi\`u lontani dalla \gls{mean} di $3$ \gls{standard_deviation} (vedi anche: \gls{three_sigma_rule}). Queste distanze coincidono se la \gls{sample_distribution} \`e distribuita secondo una \gls{normal_distribution}.},
+	 sort={valori anomali}
+}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Normal Dostribution
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newglossaryentry{normal_distribution}
+{
+	 name={Distribuzione Normale},
+	 description={o distribuzione di Gauss, \`e una distribuzione di probabilit\`a che dipende da due parametri, la media $\mu$ e la varianza $\sigma ^{2}$, ed \`e indicata tradizionalmente con $\mathcal{N} (\mu, \sigma^2)$. La distribuzione Normale ha una \gls{distribution_shape} che \`e simmetrica (con \gls{sample_mode}, \gls{sample_median} e \gls{mean} che coincidono) e ha una forma a campana che segue la \gls{three_sigma_rule}. La normale standardizzata \`e definita da $\mu = 0 \text{ e } \sigma^2 = 1$. Vedi anche: \gls{standardisation}.},
+	 sort={distribuzione Normale}
+}
+
+\newglossaryentry{statistic}
+{
+	 name={Statistica},
+	 description={\`e un valore (per esempio, \gls{sample_mode}, \gls{mean}, \gls{sample_median}, differenza di medie, \dots) calcolato su un \gls{sample}. Viene solitamente indicata con lettere latine.},
+	 sort={statistica}
+}
+
+\newglossaryentry{parameters}
+{
+	 name={Parametro},
+	 description={\`e un valore (per esempio, \gls{sample_mode}, \gls{mean}, \gls{sample_median}, differenza di medie, \dots) calcolato su una \gls{population}. Solitamente \`e sconosciuto e viene indicato con lettere greche.},
+	 sort={parametro}
+}
+
+\newglossaryentry{three_sigma_rule}
+{
+	 name={Regola del 3 $\mathbf{\sigma}$},
+	 description={o regola 68-95-99,7 o regola empirica, indica la percentuale di valori che si trovano a una, due e tre \gls{standard_deviation} dalla \gls{mean} in una \gls{sampling_distribution}. Vedi anche: \gls{outliers}.},
+	 sort={regola del 3 $\sigma$}
+}
+
+\newglossaryentry{standardisation}
+{
+	 name={Standardizzazione},
+	 description={\`e il procedimento che trasforma una variabile distribuita secondo una \gls{normal_distribution}  $\mathcal{N} = (\mu, \sigma^2)$ in una variabile distribuita secondo una distribuzione Normale ``standard" $Z = (0,1)$.},
+	 sort={Standardizzazione}
+}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bootstrapping & CI
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newglossaryentry{bootstrapping}
+{
+	 name={Bootstrapping},
+	 description={\`e il procedimento che permette di generare la distribuzione di un test statistico e determinarne il corrispondente \gls{confidence_interval} attraverso la generazione di nuovi campioni sintetici. I campioni sintetici hanno la stessa dimensione $n$ del \gls{sample} raccolto e vengono generati estraendo in modo casuale (con rimpiazzo) i dati disponibili nel campione.},
+	 sort={bootstrapping}
+}
+
+\newglossaryentry{CLT}
+{
+	 name={Teorema del limite centrale},
+	 description={ci dice che la \gls{sampling_distribution} tende a presentare una \gls{normal_distribution} $\mathcal{N}=(\mu, \frac{\sigma^2}{n})$, indipendentemente dalla forma della distribuzione empirica osservata nel \gls{sample} quando questo \`e sufficientemente grande ($\approx n > 30$). La statistica misurata viene considerata uno stimatore del \gls{parameters} $\mu$ della distribuzione campionaria, mentre la sua \gls{standard_deviation} $\frac{\sigma}{\sqrt{n}}$ \`e anche conosciuta come \gls{standard_error} della stima della statistica.},
+	 sort={teorema del limite centrale}
+}
+
+\newglossaryentry{confidence_interval}
+{
+	 name={Intervallo di confidenza},
+	 description={\`e un intervallo all'interno del quale un \gls{parameters} sconosciuto pu\`o trovarsi. Un intervallo di confidenza del 95\% per un parametro indica che c'\`e un 95\% di probabilit\`a che l'intervallo contenga il parametro, cio\`e che dati 100 campioni estratti dalla \gls{population}, 95 stimano un intervallo di confidenza al cui interno \`e compresa il parametro stimato. Viene calcolato a partire dallo \gls{standard_error} (o SE), e un intervallo di confidenza del 95\% corrisponde a circa $\pm \text{ } 2 \times \text{SE}$ . Vedi anche \gls{margin_of_error}. },
+	 sort={Intervallo di confidenza}
+}
+
+\newglossaryentry{LLN}
+{
+	 name={Legge dei grandi numeri},
+	 description={ci dice che una \gls{statistic} calcolata a partire da un \gls{sample} che include $n$ osservazioni, \`e un'approssimazione del \gls{parameters} nella \gls{population}, e che tale approssimazione diventa pi\`u precisa al crescere della dimensione $n$ del campione.},
+	 sort={Legge dei grandi numeri}
+}
+
+\newglossaryentry{margin_of_error}
+{
+	 name={Margine di errore},
+	 description={corrisponde solitamente all'\gls{confidence_interval} del 95\%, cio\`e a circa $\pm 2$ volte l'\gls{standard_error}.},
+	 sort={margine di errore}
+}
+
+\newglossaryentry{sampling_distribution}
+{
+	 name={Distribuzione campionaria},
+	 description={\`e la distribuzione di probabilit\`a di una \gls{statistic}, la distribuzione di tutti i possibile valori che possono essere assunti dalla statistica se calcolata da campioni della stessa dimensione estratti casualmente dalla stessa \gls{population}. },
+	 sort={distribuzione campionaria}
+}
+
+
+\newglossaryentry{standard_error}
+{
+	 name={Errore standard},
+	 description={corrisponde alla \gls{standard_deviation} della \gls{sampling_distribution} di una \gls{statistic}, ovvero una stima della sua \gls{variability} o imprecisione. Viene usato soprattutto per calcolare l'\gls{confidence_interval} della statistica stessa.},
+	 sort={errore standard}
+}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hypothesis testing
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newglossaryentry{hypothesis}
+{
+	 name={Ipotesi},
+	 description={\`e una possibile spiegazione per un fenomeno, che non rappresenta la verit\`a assoluta, ma una congettura provvisoria.},
+	 sort={ipotesi}
+}
+
+
+\newglossaryentry{hypothesis_testing}
+{
+	 name={Test di ipotesi},
+	 description={\`e la procedura formale che valuta quanto un'\gls{hypothesis} sia supportata dai dati osservati. Richiede solitamente di stimare un \gls{parameters} di una \gls{population} a partire dal una \gls{statistic} raccolta in un \gls{sample} e rappresenta uno dei principi centrali della statistica inferenziale. La ``bont\`a'' di un risultato (rifiutare o meno l'\gls{null_hypothesis}) viene solitamente misurata da un \gls{P-value}. Vedi anche: \gls{statistical_inference}.},
+	 sort={test di ipotesi}
+}
+
+\newglossaryentry{statistical_inference}
+{
+	 name={Inferenza statistica},
+	 description={\`e il processo mediante il quale vengono tratte conclusioni su una \gls{population} sulla base di dati raccolti in un \gls{sample} pi\`u ristretto.},
+	 sort={inferenza statistica}
+}
+
+
+\newglossaryentry{alternative_hypothesis}
+{
+	 name={Ipotesi alternativa},
+	 description={\`e una possibile spiegazione per un fenomeno. \`E complementare all'\gls{null_hypothesis} e viene indicata con $\mathcal{H}_1 \text{ o } \mathcal{H}_A$. },
+	 sort={ipotesi alternativa}
+}
+
+\newglossaryentry{null_hypothesis}
+{
+	 name={Ipotesi nulla},
+	 description={\`e un'affermazione che sostiene l'assenza di qualsiasi differenza e/o associazione tra fenomeni. \`E complementare all'\gls{alternative_hypothesis} e solitamente viene assunta vera finché non si trova una evidenza che la confuti. Viene indicata con $\mathcal{H}_0$.},
+	 sort={ipotesi nulla}
+}
+
+\newglossaryentry{P-value}
+{
+	 name={P-value},
+	 description={misura la discrepanza tra i dati e l'\gls{null_hypothesis} e corrisponde alla probabilit\`a di ottenere un risultato tanto estremo quanto quello ottenuto se l'ipotesi nulla fosse vera.},
+	 sort={P-value}
+}
+
+\newglossaryentry{statistical_significance}
+{
+	 name={Significativit\`a statistica},
+	 description={\`e una soglia di significativit\`a pre-specificata, solitamente indicata con $\alpha$ e uguale a $0.05$ o $0.01$, che indica se una un effetto \`e giudicato essere statisticamente significativo, ovvero se il \gls{P-value} corrispondente al fatto che l'\gls{null_hypothesis} sia vera \`e minore di $\alpha$.},
+	 sort={significativit\`a statistica}
+}
+
+\newglossaryentry{one-sided_test}
+{
+	 name={Test a una coda},
+	 description={o test unilaterale, \`e usato quando l'\gls{null_hypothesis} specifica che il risultato atteso sia negativo (o positivo; per esempio: il farmaco diminuisce/aumenta il valore di un biomarcatore nel sangue), e viene rifiutata solo quando si osservano effetti molto positivi (o molto negativi). Vedi anche: \gls{hypothesis_testing}.},
+	 sort={test a una coda}
+}
+
+\newglossaryentry{two-sided_test}
+{
+	 name={Test a due code},
+	 description={o test bilaterale, \`e usato quando l'\gls{null_hypothesis} specifica che il risultato atteso sia nullo (non esiste differenza, per esempio: il farmaco non ha un effetto sul valore di un biomarcatore nel sangue) e viene rifiutata se si osservano effetti sia molto positivi che molto negativi. Vedi anche: \gls{hypothesis_testing}.},
+	 sort={test a due code}
+}
+
+\newglossaryentry{expected_frequencies}
+{
+	 name={Frequenza attesa},
+	 description={\`e il numero di eventi che ci si aspetta di osservare in una popolazione futura secondo un \gls{statistical_model}.},
+	 sort={frequenza attesa}
+}
+
+\newglossaryentry{absolute_risk}
+{
+	 name={Rischio assoluto},
+	 description={la proporzione (o \gls{relative_frequency}) di individui in un gruppo che sono soggetti a un evento di interesse in un dato periodo di tempo.},
+	 sort={rischio assoluto}
+}
+
+\newglossaryentry{odds}
+{
+	 name={Odds},
+	 description={\`e la probabilit\`a di osservare un evento in un gruppo di individui in un dato periodo di tempo.},
+	 sort={odds}
+}
+
+\newglossaryentry{OR}
+{
+	 name={Odds ratio},
+	 description={\`e il rapporto tra la probabilit\`a di osservare un evento (vedi: \gls{odds}) in due gruppi di individui (per esempio esposti e non esposti a un fattore di rischio) in un dato periodo di tempo.},
+	 sort={odds ratio}
+}
+
+\newglossaryentry{relative_risk}
+{
+	 name={Rischio relativo},
+	 description={\`e il rapporto tra la proporzione (o \gls{relative_frequency}) di individui in due gruppi (per esempio esposti e non esposti a un fattore esterno)  che sono soggetti a un evento di interesse in un dato periodo di tempo. Vedi anche: \gls{absolute_risk}. },
+	 sort={rischio relativo}
+}
+
+\newglossaryentry{Type_I_error}
+{
+	 name={Errore del primo tipo},
+	 description={avviene quando l'\gls{null_hypothesis}, che \`e realmente vera, viene rifiutata in modo erroneo, risultando in un \gls{false_positive}. Viene solitamente indicato con $\alpha$.},
+	 sort={errore 1}
+}
+
+\newglossaryentry{Type_II_error}
+{
+	 name={Errore del secondo tipo},
+	 description={avviene quando l'\gls{null_hypothesis}, che \`e falsa,  non viene rifiutata, geenerando un errore che risulta in un \gls{false_negative}. Viene solitamente indicato con $\beta$.},
+	 sort={errore 2}
+}
+
+\newglossaryentry{multiple_testing}
+{
+	 name={Multiple testing},
+	 description={avviene quando vengono eseguiti una serie di \gls{hypothesis_testing} contemporaneamente, aumentando le possibilit\`a di avere almeno un \gls{false_positive} (o \gls{Type_I_error}).},
+	 sort={multiple testing}
+}
+
+\newglossaryentry{false_positive}
+{
+	 name={Falso positivo},
+	 description={\`e un risultato negativo che viene classificato, in modo erroneo, come positivo (per esempio, un innocente che viene dichiarato colpevole). Indica la rilevazione di un effetto positivo quando questo non \`e realmente presente. Vedi anche: \gls{Type_I_error}.},
+	 sort={falso positivo}
+}
+
+\newglossaryentry{false_negative}
+{
+	 name={Falso negativo},
+	 description={\`e un risultato positivo che viene classificato, in modo non corretto come negativo (per esempio, un colpevole che viene dichiarato innocente). Indica la rilevazione di un effetto negativo quando questo \`e realmente presente. Vedi anche: \gls{Type_II_error}},
+	 sort={falso negativo}
+}
+
+\newglossaryentry{alpha}
+{
+	 name={Livello di significativit\`a},
+	 description={\`e la probabilit\`a di incorrere in un \gls{Type_I_error} quando si esegue un \gls{hypothesis_testing}, solitamente indicato con $\alpha$.},
+	 sort={livello di significativit\`a}
+}
+
+
+
+\newglossaryentry{sensitivity}
+{
+	 name={Sensitivit\`a},
+	 description={o true positive rate, \`e la proporzione di casi ``positivi" che sono stati correttamente indicati come positivi da un test statistico. $1-sensitivit\grave{a}$ corrisponde all'\gls{Type_II_error}. Vedi anche: \gls{false_positive}.},
+	 sort={sensitivita}
+}
+
+\newglossaryentry{specificity}
+{
+	 name={Specificit\`a},
+	 description={\`e la proporzione di casi ``negativi" che sono stati correttamente indicati come negativi da un test statistico.$ 1-specificit\grave{a}$ corrisponde all'\gls{Type_I_error}. Vedi anche: \gls{false_negative}.},
+	 sort={specificita}
+}
+
+\newglossaryentry{power}
+{
+	 name={Potenza di un test},
+	 description={\`e la probabilit\`a di rifiutare in modo corretto l'\gls{null_hypothesis}, quando questa \`e falsa. \`E complementare all'\gls{Type_II_error} e viene solitamente indicata con $1 - \beta$.},
+	 sort={potenza di un test}
+}
+
+\newglossaryentry{Bonferroni_correction}
+{
+	 name={Bonferroni correction},
+	 description={\`e un approccio per mitigare l'\gls{Type_I_error} quando vengono eseguiti $n$ \gls{hypothesis_testing} contemporaneamente. Secondo questo approccio, se viene fissato un \gls{alpha} $\alpha$, viene richiesto un \gls{P-value} di $\frac{\alpha}{n}$ perch\'e un test sia considerato statisticamente significativo. Vedi anche: \gls{statistical_significance}.},
+	 sort={Bonferroni correction}
+}
+
+\newglossaryentry{FDR}
+{
+	 name={False discovery rate (FDR)},
+	 description={\`e un approccio per mitigare l'\gls{Type_I_error} quando vengono eseguiti $n$ \gls{hypothesis_testing} contemporaneamente. L'FDR va a fissare la proporzione dei risultati che rappresentano un \gls{false_positive}. Vedi anche: \gls{statistical_significance}.},
+	 sort={false discovery rate}
+}
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Epidemiology
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newglossaryentry{rct}
+{
+	 name={Randomized controlled trial (RCT)},
+	 description={o studio clinico randomizzato, \`e un disegno sperimentale in cui un gruppo di individui viene assegnato in modo casuale a diversi trattamenti (a differenza di uno \gls{observational_study}), assicurando che i diversi gruppi (rami dell'esperimento) siano ragionevolmente bilanciati per fattori conosciuti e sconosciuti. Se al termine dell'esperimento si osserva una differenza statisticamente significativa (vedi: \gls{statistical_significance}) tra i gruppi (come misurato da un \gls{P-value}) allora si pu\`o ragionevolmente concludere che essa sia dovuto al trattamento. Vedi anche: \gls{causation}.},
+	 sort={randomized controlled trial}
+}
+
+\newglossaryentry{observational_study}
+{
+	 name={Studio osservazionale},
+	 description={\`e un disegno sperimentale in cui un gruppo di individui viene osservato senza alcun intervento da parte dello sperimentatore (a differenza di un \gls{rct}) per individuare possibili fattori di rischio di una malattia o outcome di interesse. Questo tipo di studi permette di stabilire una \gls{correlation} tra il fattore di rischio individuato e la malattia/outcome, ma non \`e possibile concludere che ci sia un nesso di \gls{causation}.},
+	 sort={Studio osservazionale}
+}
+
+\newglossaryentry{causation}
+{
+	 name={Causalit\`a},
+	 description={\`e il processo attraverso cui l'evento $X$ influenza il numero di volte che avviene l'evento $Y$. Questo non significa che $Y$ accada solo quando accade $X$ n\'e che $Y$ accada ogni volta che accade $X$. Un modo per capire se $X$ causa $Y$ \`e attraverso degli esperimenti che generino pi\`u di un'osservazione, come avviene nei \gls{rct}. Secondo i criteri proposti da J. Howick, P. Glasziou e J. K. Aronson nel 2009, nel caso di uno \gls{observational_study}, si pu\`o concludere che ci sia un nesso causale se osservano le seguenti evidenze: 
+	 \begin{itemize}
+		 \item Evidenza diretta
+		 	\begin{itemize} 
+				\item effetto troppo grande per essere spiegato da altri fattori
+        		\item prossimit\`a spaziale e/o temporale
+        		\item risposta in base alla dose
+			\end{itemize}
+		\item Evidenza meccanicistica
+	 		\begin{itemize} 
+				\item esiste un meccanismo di azione (biologico, chimico, meccanico, \dots) plausibile
+			\end{itemize}
+		\item	Evidenza parallela
+	 		\begin{itemize} 
+				\item l'effetto \`e in linea con quello che si conosce
+       		 	\item l'effetto \`e osservato se lo studio \`e replicato in modo identico
+       		 	\item l'effetto \`e osservato anche in studi simili ma non identici
+			\end{itemize}
+	\end{itemize}
+	},
+	 sort={causalit\`a}
+}
+
+\newglossaryentry{retrospective_cohort_study}
+{
+	name={Retrospective cohort study},
+	description={o studio di coorte retrospettivo, \`e un tipo di \gls{observational_study} in cui si usano dati gi\`a disponibili, raccolti in un gruppo di individui nel passato, anche per studi indipendenti da quello in corso. Non necessita di ulteriori follow up all'interno dello studio stesso, ma richiede che le variabili di interesse siano tutte disponibili. Come negli studi osservazionali, un retrospective cohort study non pu\`o concludere che ci sia un nesso di \gls{causation}.},
+	sort={retrospective cohort study}
+}
+
+\newglossaryentry{prospective_cohort_study}
+{
+	 name={Prospective cohort study},
+	 description={o studio di coorte prospettico, \`e un tipo di \gls{observational_study} in cui un gruppo di individui viene identificato e seguito nel tempo attraverso follow up sino a che gli outcome di interesse non vengono osservati. Come negli studi osservazionali, un prospective cohort study non pu\`o concludere che ci sia un nesso di \gls{causation}.},
+	 sort={prospective cohort study}
+}
+
+\newglossaryentry{blinding}
+{
+	 name={Blinding},
+	 description={\`e la strategica in cui le persone coinvolte in un \gls{rct} non conoscono a quale ramo un paziente sia stato assegnato. Il blinding permette di non creare bias nella misurazione dell'evento di interesse. Single blinding avviene quando il paziente non conosce a quale ramo \`e stato assegnato; double blinding avviene quando anche le persone che monitorano il paziente non conoscono questa informazione; triple blinding avviene quando anche gli statistici che analizzano i dati e le persone che monitorano il trial non conoscono a quale trattamento corrisponda ciascun ramo. },
+	 sort={blinding}
+}
+
+\newglossaryentry{case_control}
+{
+	 name={Case-control study},
+	 description={o studio caso-controllo, \`e un tipo di \gls{retrospective_cohort_study} in cui le persone con una malattia o che presentano un outcome di interesse (i casi) vengono accoppiati con una o pi\`u persone che non hanno la malattia o l'outcome di interesse (i controlli). I due gruppi vengono confrontati allo scopo di identificarne differenze che potrebbero essere alla base della malattia o dell'outcome di interesse. Questo tipo di studi permette di stabilire una \gls{correlation} tra la differenza individuata e la malattia/outcome, ma non \`e possibile concludere che ci sia un nesso di \gls{causation}.},
+	 sort={case-control study}
+}
+
+\newglossaryentry{Cross-sectional_study}
+{
+	 name={Cross-sectional study},
+	 description={o studio trasversale, \`e un tipo di \gls{observational_study} in cui vengono analizzati dati raccolti in una singola osservazione temporale e per cui non sono presenti follow up.},
+	 sort={cross-sectional study}
+}
+
+\newglossaryentry{longitudinal_study}
+{
+	 name={Longitudinal study},
+	 description={o studio longitudinale, \`e un tipo di \gls{observational_study} in cui vengono analizzati dati raccolti attraverso due o pi\`u follow up, che possono essere sia vicini che lontani nel tempo.},
+	 sort={longitudinal study}
+}
+
+ 
+
+% \newglossaryentry{}
+% {
+% 	 name={},
+% 	 description={},
+% 	 sort={}
+% }
+%
+% \newglossaryentry{}
+% {
+% 	 name={},
+% 	 description={},
+% 	 sort={}
+% }
+%
+% \newglossaryentry{}
+% {
+% 	 name={},
+% 	 description={},
+% 	 sort={}
+% }
+ 
+ 
+ % \setacronymstyle{short-long}
+ % \newacronym{arpanet}{ARPANET}{Advanced Research Projects Agency Network}
+
+
+
+
+
+
+
