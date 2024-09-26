@@ -23,60 +23,58 @@ style: |
 
 <span style="display:block; height:1px;"></span>
 
-<div style="font-size: 85%">
+<div style="font-size: 80%">
 
 <div class="columns">
 <div>
 
-- **Chi?**
-    - Alessia Visconti alessia.visconti@unito.it
+- **Docente**
+    - alessia.visconti@unito.it
 
-- **Cosa?**
+- **Cosa (c'&egrave; nel programma)?**
     - 16h di lezione (circa)
     - 8h di laboratorio (circa)
 
-- **Dove?**
-    - Aula 9
+- **Cosa (portare a lezione)?**  
+    - laptop (per il laboratorio)
+    - 1 foglio da consegnare
 
 </div>
 <div>
 
 - **Quando?**
-    - Ogni lunedi' mattina (4h)
+    - Ogni luned&igrave; mattina (4h)
+    - Pause volanti
 
-- **Cosa (portare a lezione)?**
-    - calcolatrice
-    - fogli (da consegnare)    
-    - laptop (per il laboratorio)
-
-- **Com'e' (l'esame)?**
+- **Com'&egrave; (l'esame)?**
     - quiz a risposta chiusa (1h)
     - con formulario e calcolatrice
 
 </div>
 </div>
 
-<!-- Pesante in lunedi', interrompero' con esercizi, cosi' pesante che chiedo a tutti uno sforzo per farcela passare 
+<!-- 
+Come si interagisce con me: 
+- Alzando la mano durante la lezione
+- All'inizio/fine della lezione e nelle pause
+- Prendendo appuntamento via email
+- (Sperimentale) via note anonime
 
-12 e 6h accademiche
+E' il primo anno che insegno questo corso, quindi e' tutto un po' sperimentale, incluso questa richiesta di portare un foglio da consegnare e la divisione in lezione frontale e laboratorio
 
-Puntuali, pause volanti
+Pesante in lunedi', interrompero' con esercizi e discussioni, quindi chiedo la partecipazione di tutti.
+Gli esercizi fatti a lezione sono formative assesment, che vuole dire che servono sia a voi che a me a capire se avete capito. Non vincete niente se rispondete giusto, non vi si decurta nulla se rispondete sbagliato, ma se rispondete tutti sbagliato io capisco che qualcosa e' stato spiegato male (e voi capite su cosa dovete concentrarvi quando studiate)
+
+vi chiederei di essere puntuali, nel limiti del 43 e del parcheggio in zona, e vi chiederei se preferite pause fisse, Perch&eacute;, personalmente io sarei per pause volanti quando raggiungiamo la fine di un argomento o vi vedo particolarmente provati
 
 Slide in anticipo senza esercizi
+
+L'esame ha domande a crocette, per le quali sicuramente dovete ragionare, ma per cui dovete fare anche dei calcoli
+Potete quindi portarvi la calcolatrice (non il cellulare) e un formulario formato A5, scritto anche da entrambi i lati
 -->
 
 ---
-## Un po' di interazione, per favore :pray:
-
-<span style="display:block; height:60px;"></span>
-
-- Alzando la mano durante la lezione
-- All'inizio/fine della lezione e nelle pause
-- Prendendo appuntamento via email (alessia.visconti@unito.it)
-- (Sperimentale) via note anonime
-
----
-## Perche' siamo qui?
+## Perch&eacute; siamo qui?
 
 <span style="display:block; height:400px;"></span>
 
@@ -165,7 +163,7 @@ updateButton_think();
 </script>
 
 ---
-## Perche' siamo qui?
+## Perch&eacute; siamo qui?
 
 <span style="display:block; height:400px;"></span>
 
@@ -192,7 +190,7 @@ updateButton_think();
 <script>
 <!--
 const countdown_pair= document.getElementById("countdown_pair");
-const seconds_pair= 300; // seconds_pair
+const seconds_pair= 180; // seconds_pair
 let timeLeft_pair= seconds_pair;
 let timerInterval_pair= null;
 
@@ -254,7 +252,7 @@ updateButton_pair();
 </script>
 
 ---
-## Perche' siamo qui?
+## Perch&eacute; siamo qui?
 
 <span style="display:block; height:400px;"></span>
 
@@ -344,7 +342,7 @@ updateButton_share();
 
 
 ---
-## Comprereste questo colluttorio?
+## Comprereste questo collutorio?
 
 <span style="display:block; height:10px;"></span>
 
@@ -352,6 +350,9 @@ updateButton_share();
 <img src="./img/introduction/colluttorio.png" img height="450px" border="4px"/>
 </center>
 
+<!-- CHIEDERE SEMPRE Perch&eacute; RISPONDONO COSI'
+
+Cosa vuol dire "fino al"? Se eliminasse il 10% dei batteri e raggiungesse il 20% della bocca, questo annuncio sarebbe ancora vero, o lo dobbiamo segnalare per pubblicita' ingannevole? Unico modo per renderlo falso e' che elimini tutti batteri e raggiunga piu' di tutta la bocca (due condizioni abbastanza improbabili, nel primo caso, o impossibili, nel secondo) -->
 
 ---
 ## Cosa ci dice questo grafico?
@@ -368,23 +369,25 @@ Jensen, C.M., *et al*, *Time Trends Over 16 Years in Incidence-Rates of Autism S
 
 </div>
 
----
-## Siamo d'accordo?
+<!-- DESCRIVERE BENE IL GRAFICO
 
-<span style="display:block; height:60px;"></span>
+ Better diagnostic practices may explain these large hikes in incidence. 
+“There’s much more awareness of autism. There’s much more screening going on. And the newer generation of clinicians are being trained in this so they are more likely to see it.”
+
+This increased attention to autism and its symptoms may also explain the rise in diagnoses of teenagers and adults.
+“If the incidence [in adults] is increasing, it just has to do with recognition of cases that have been missed up to that age,” Fombonne says. “It cannot be that you develop autism at age 50.”
+ -->
+
+---
+## Evitiamo quindi di dire...
+
+<span style="display:block; height:90px;"></span>
 
 <center>
 <img src="./img/introduction/autism_epidemic.png" img height="220px" border="4px"/>
 </center>
 
-<!-- Better diagnostic practices may explain these large hikes in incidence, says Maureen Durkin, professor of population health sciences and pediatrics at the University of Wisconsin in Madison.
-
-“There’s much more awareness of autism,” say Durkin, who was not involved in the study. “There’s much more screening going on. And the newer generation of clinicians are being trained in this so they are more likely to see it.”
-
-This increased attention to autism and its symptoms may also explain the rise in diagnoses of teenagers and adults.
-
-“If the incidence [in adults] is increasing, it just has to do with recognition of cases that have been missed up to that age,” Fombonne says. “It cannot be that you develop autism at age 50.”
- -->
+<!-- Andando ad interpretare il grafico correttamente, evitiamo di dire corbellerie, come che c'e' un epidemia di autismo (magari causata dai vaccini) -->
 
 ---
 ## Come prosegue questo grafico?
@@ -405,6 +408,8 @@ This increased attention to autism and its symptoms may also explain the rise in
 </div>
 </div>
 
+<!--  DESCRIVERE BENE IL GRAFICO Come prosegue questa curva? -->
+
 ---
 ## Cosa ci dice questo grafico?
 
@@ -423,6 +428,10 @@ This increased attention to autism and its symptoms may also explain the rise in
 
 </div>
 </div>
+
+<!-- Cosa sta succedendo? Che messaggio avrei potuto passare se avessi interrotto la serie temporale al 1940, invece di proseguire sino ai giorni nostri?
+
+Quali sono le cause di questa curva? -->
 
 ---
 ## Educazione civica, 1935 (ca.)
@@ -448,6 +457,8 @@ This increased attention to autism and its symptoms may also explain the rise in
 </div>
 </div>
 
+ <!-- Ricordiamoci che per interpretare i numeri dobbiamo anche usare le nostre conoscenze sul problema in questione. om qiesyp caso sulle norme sociali che forzavano i mancini a "correggersi" --> -->
+
 ---
 ## Cicogne e bambini
 
@@ -459,29 +470,48 @@ This increased attention to autism and its symptoms may also explain the rise in
 
 <div style="font-size: 50%" align="right">
 
-Sies, H., *A new parameter for sex education*. Nature, 1988, doi:10.1038/332495a0
+<br/> Sies, H., *A new parameter for sex education*. Nature, 1988, doi:10.1038/332495a0
 
 </div>
 
+<!-- 
+DESCRIVERE BENE IL GRAFICO.
 
-<!-- Correlation is not causation, Correlazione non e' causalita', "dopo di" non significa "a causa di". 
+Qual e' lo scopo di questo grafico? Convincerci che c'e' una relazione tra questi due valori
 
-La maggioranza delle malattie che secondo alcuni (profani) sarebbero sorte "a causa del vaccino" iniziano a manifestarsi (o sono diagnosticate) proprio nell'età in cui ci si vaccina. Come sappiamo la vaccinazione si fa nella primissima infanzia, proprio per proteggere questa fascia della popolazione (tra le più deboli) dalle malattie infettive. La correlazione principe di cui si è parlato spesso in questi anni è quella tra vaccini ed autismo. Scientificamente smentita, una delle affermazioni che si ripetono continuamente è: "il bambino stava bene, dopo la vaccinazione è diventato autistico". 
-
-Artefatto dovuto alla doppia scala, ne parleremo ancora quando vedremo la visualizzazione dei dati
+Artefatto dovuto alla doppia scala, vado a trasformare le due distribuzioni empiriche (ovvero la collezione di valori raccolti) in modo che "sembrino" di avere lo stesso andamento. C'e' un sito che ne raccoglie centinaia di questi esempi
 -->
 
 ---
-## L'insostenibile pesantezza del gatto
+## Cosa ne concludete?
 
 <span style="display:block; height:1px;"></span>
 
-<center>
-<img src="./img/introduction/correlation_meme.jpg" img height="420px" border="4px"/>
-</center>
+- Le donne inglesi, che consumano grandi quantit&agrave; di latte, sviluppano alcuni tipi di tumore con 18 volte pi&ugrave; frequenza delle donne giapponesi, che raramente lo bevono
+* Solitamente i tumori si manifestano in tarda et&agrave;
+* Le donne inglesi vivono, in media, 12 anni pi&ugrave; a lungo delle donne giapponesi
+
+
+<span style="display:block; height:50px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+<br/> Huff, D., *How to lie with statistics*. W. W. Norton & Company, 1954
+
+</div>
+
+<!-- Chiedere cosa ne pensano mano a mano che aggiungo informazione.
+
+Quello che viene fatto qui e' un post-hoc fallacy. (in latino: Post hoc ergo propter hoc, Dopo di ci`o, quindi a causa di ci`o) `e un’argomentazione apparentemente valida ma fondata su un errore logico in cui si crede che, perch ́e l’evento Y accade dopo l’evento X, allora X debba aver causato Y . L’errore logico consiste nel concludere che ci sia un nesso causale quando `e presente solo un nesso temporale (prima bevo tanto latte, poi mi viene un tumore) 
+
+Per tornare a vaccino e autismo
+La maggioranza delle malattie che secondo alcuni (profani) sarebbero sorte "a causa del vaccino" iniziano a manifestarsi (o sono diagnosticate) proprio nell'età in cui ci si vaccina. Scientificamente smentita, una delle affermazioni che si ripetono continuamente è: "il bambino stava bene, dopo la vaccinazione è diventato autistico".
+
+Correlation is not causation, Correlazione non e' causalita', "dopo di" non significa "a causa di"
+-->
 
 ---
-## Perche' siamo qui?
+## Perch&eacute; siamo qui?
 
 <span style="display:block; height:10px;"></span>
 
@@ -508,16 +538,19 @@ Artefatto dovuto alla doppia scala, ne parleremo ancora quando vedremo la visual
 </div>
 
 
-<!-- The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.
+<!-- Statisticulation `e un termine inventato da Darrell Huff nel suo libro “How to lie with statistics” (pubblicato nel 1954). Viene usato per descrivere tutti quei casi un cui le Scienze statistiche vengono usate in modo fuorviante, sia accidentalmente (il ricercatore non si accorge che l'eta' media in Inghilterra e Giappone e' diversa) ma anche volontariamente (l'autismo viene dopo il vaccino, il vaccino causa l'autismo). Vedi anche Framing.
 
-— Nate Silver, The Signal and the Noise1 -->
+The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.
+
+— Nate Silver, The Signal and the Nois
+-->
 
 ---
-## Perche' siamo qui?
+## Perch&eacute; siamo qui?
 
 <span style="display:block; height:60px;"></span>
 
-> Perche' i soldati al fronte muoiono?
+> Perch&eacute; i soldati al fronte muoiono?
 
 <!-- Ma i numeri non ci ingannano solo, ci permettono anche di rispondere a delle domande e prendere delle decisioni -->
 
@@ -538,11 +571,10 @@ Sapete chi e questa persona?
 
 Florence Nightingale era un'infermiera britannica che e' considerata la madre dell'infermieristica come la intendiamo oggi, un titolo che si e' guadagnato durante la guerra di Crimea, quando era sovrintendente di un ospedale di Instambul. 
 
-
 Appena arrivata ad Instabul, Florence, si accorge subito delle pessime condizioni di sovraffollameto e pulizia, ma oltre a cercare di mettere una pezza, pulendo e disinfettando tutto con le sue infermiere,  si mette anche a raccogliere dati, soprattutto sulle cause di morte dei soldati -->
 
 ---
-## Perche' i soldati al fronte muoiono?
+## Perch&eacute; i soldati al fronte muoiono?
 
 <span style="display:block; height:1px;"></span>
 
@@ -561,16 +593,15 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 
 
 ---
-## Perche' siamo qui?
+## Perch&eacute; siamo qui?
 
 <span style="display:block; height:30px;"></span>
 
 - perché i "numeri" (o meglio, il modo in cui sono presentati) a volte ingannano!
-- perche' i "numeri" (e il modo in cui sono presentati) ci aiutano a descrivere, capire e cambiare il mondo
-
+- Perch&eacute; i "numeri" (e il modo in cui sono presentati) ci aiutano a descrivere, capire e cambiare il mondo
 
 ---
-## Perche' siamo qui?
+## Perch&eacute; siamo qui?
 
 <span style="display:block; height:30px;"></span>
 
@@ -579,9 +610,9 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 
 <span style="display:block; height:120px;"></span>
 
-<div style="font-size: 150%" align="right">
-<b>Data literacy</b>
-</div>
+<!-- <div style="font-size: 150%" align="right">
+<b>Statistica ma anche data literacy</b>
+</div> -->
 
 ---
 
@@ -590,17 +621,17 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 
 ## La ricerca scientifica
 
-<!-- Iniziamo a spostarci piu' verso il terreno che ci interessa, ovvero come avviene la ricerca scientifica e che ruolo gioca la statistica -->
+<!-- Iniziamo a spostarci piu' verso il terreno che ci interessa, ma prima facciamo un'escursus in un argomento un po' trasversale, ovvero come avviene la ricerca scientifica e che ruolo gioca la statistica -->
 
 ---
-## In principio c'e' sempre una domanda
+## In principio c'&egrave; sempre una domanda
 
 <div class="columns">
 <div>
 
 <span style="display:block; height:60px;"></span>
 
-> Perche' i soldati, al fronte, muoiono?
+> Perch&eacute; i soldati, al fronte, muoiono?
 
 </div>
 <div>
@@ -617,7 +648,7 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 
 <span style="display:block; height:60px;"></span>
 
-* Come rispondo alla mia domanda?
+- Come rispondo alla mia domanda?
 
 </div>
 <div>
@@ -628,6 +659,8 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 
 </div>
 </div>
+
+<!-- Decido di andare in un ospedale da campo per raccogliere dati -->
 
 ---
 ## Poi si raccolgono i dati
@@ -651,6 +684,8 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 <img src="./img/introduction/Nightingale-mortality.png" img height="480px"  border="4px" align="right"/>
 </center>
 
+<!-- Questo vuol dire anche andarli a presentare con altri numeri (statistiche) o con rappresentazioni grafiche, come vedremo la prossima lezione -->
+
 ---
 ## Finalmente possiamo trarre delle conclusioni
 
@@ -666,9 +701,7 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 </div>
 
 <!-- E cosa concludiamo? 
-Che migliorare le condizioni igenice (pulizia, luce, ventilazione, ...) degli ospedali, aumenta le possibilita' di salvare il paziente. 
-
-E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e presentare i dati, e nel prendere delle decisioni basate su di essi. Insomma, grazie alla statistica. -->
+Che migliorare le condizioni igenice (pulizia, luce, ventilazione, ...) degli ospedali, aumenta le possibilita' di salvare il paziente.  -->
 
 ---
 ## Le fasi della ricerca
@@ -685,28 +718,32 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 </div>
 
-<!--The first stage of the cycle is specifying a Problem; statistical inquiry always starts with a question, such as our asking about the pattern of Harold Shipman’s murders or the number of trees in the world. Later in this book we shall focus on problems ranging from the expected benefit of different therapies immediately following breast cancer surgery, to why old men have big ears.
+<!-- e' il processo circolare che definisce i passi necessari per risolvere un problema scientifico attraverso l’analisi statistica dei dati. Un esempio `e il PPDAC cycle.
 
-It is tempting to skip over the need for a careful Plan. The Shipman question simply required the collection of as much data as possible on his victims. But the people counting trees paid meticulous attention to precise definitions and how to carry out the measurements, since confident conclusions can only be drawn from a study which has been appropriately designed. Unfortunately, in the rush to get data and start analysis, attention to design is often glossed over.
-
-Collecting good Data requires the kind of organizational and coding skills that are being seen as increasingly important in data science, particularly as data from routine sources may need a lot of cleaning in order to get it ready to be analysed. Data collection systems may have changed over time, there may be obvious errors, and so on – the phrase ‘found data’ neatly communicates that it may be rather messy, like something picked up in the street.
-
-The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.
-
-Although in practice the PPDAC cycle laid out in Figure 0.3 may not be followed precisely, it underscores that formal techniques for statistical analysis play only one part in the work of a statistician or data scientist. Statistical science is a lot more than a branch of mathematics involving esoteric formulae with which generations of students have (often reluctantly) struggled.
-
-Teaching statistics is changing from a focus on mathematical methods to one based on an entire problem-solving cycle.
+ Problem-Plan-Data-Analysis-Conclusion cycle. 
+ 
+ Nella prima fase si definisce un problema, solitamente formulato come una domanda di ricerca. 
+ Nella parte di Planning, il ricercatore decide come rispondere alla domanda di ricerca. Solitamente ignorata, ma assoulutamente cruciale, GARBACE IN, GARBACE OUT. Questo include, 
+ i) verificare se esiste una collezione di dati di alta qualit`a che pu`o essere usata, ii) decidere e giustificare perch ́e sia necessario raccogliere nuove collezioni di dati, e quali dati siano necessari e come debbano essere raccolti 
+ iii) decidere e giustificare da qua- le Popolazione i dati verranno raccolti, tenendo anche in considerazione considerazione etiche e logistiche (per esempio, questionari che richiedano un tempo troppo lungo per essere completati), 
+ iv) decidere e giustificare quando e dove la raccolta dati debba iniziare e finire, 
+ v) decidere e giustifi- care i metodi analitici che verranno utilizzati, e 
+ vi) definire delle probabili risposte alla domanda di ricerca (ipotesi)
+ 
+ Nella terza fase, i dati vengono raccolti, organizzati, puliti e verificati. 
+ Nella quarta fase, i dati vengono esplora- ti, visualizzati e analizzati, per esempio attraverso la creazione di tabelle e/o grafici, di statistiche descrittive. In questo contesto si inseriscono anche il Test di ipotesi e il calcolo e l’interpretazione di un Intervallo di confidenza di una Statistica. 
+ Nell’ultima fase, i risultati vengono interpre- tati e comunicati e usati per formulare nuove domande di ricerca la cui risposta verr`a ricercata nel prossimo PPDAC cycle.
 -->
 
 ---
-## Cos'e' la statistica?
+## Cos'&egrave; la statistica?
 
 <span style="display:block; height:30px;"></span>
 
 * La raccolta, organizzazione, sintesi, e analisi dei dati <br/> &nbsp;&nbsp;&nbsp; &rarr; statistica *Descrittiva* 
 
-* Processo mediante il quale vengono effettuate deduzioni su
-grandi gruppi sulla base di dati raccolti in gruppi piu' ristretti  <br/> &nbsp;&nbsp;&nbsp; &rarr; statistica *Inferenziale* 
+* Processo mediante il quale vengono effettuate tratte conclusioni 
+su grandi gruppi sulla base di dati raccolti in gruppi pi&ugrave; ristretti  <br/> &nbsp;&nbsp;&nbsp; &rarr; statistica *Inferenziale* 
 
 <!-- - Individuare in maniera efficiente i tratti importanti delle informazioni che sono state raccolte
 
@@ -714,11 +751,11 @@ grandi gruppi sulla base di dati raccolti in gruppi piu' ristretti  <br/> &nbsp;
 
 ---
 
-## Perche' siamo qui?
+## Perch&eacute; siamo qui?
 
 <span style="display:block; height:40px;"></span>
 
-> *Se mi rimanesse una sola ora di vita vorrei trascorrerla assistendo ad una lezione di statistica perchè mi sembrerebbe durare per sempre*
+> *Se mi rimanesse una sola ora di vita vorrei trascorrerla assistendo ad una lezione di statistica perch&eacute; mi sembrerebbe durare per sempre*
 
 <div align="right">
 
