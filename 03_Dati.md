@@ -1,5 +1,5 @@
 ---
-marp: false
+marp: true
 theme: gaia
 _class: lead
 paginate: false
@@ -12,6 +12,7 @@ style: |
   }
 
 ---
+
 ### Lezione 3
 # I dati
 ## &nbsp;
@@ -21,7 +22,7 @@ style: |
 
 <span style="display:block; height:50px;"></span>
 
-- Saper definire cos'e' un dato
+- Saper definire cos'&egrave; un dato
 - Conoscere le differenze tra i diversi tipi di dati
 - Saper pianificare una raccolta dati 
 
@@ -40,24 +41,36 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 </div>
 
-<!-- The first stage of the cycle is specifying a Problem.
-
-It is tempting to skip over the need for a careful Plan. Confident conclusions can only be drawn from a study which has been appropriately designed. Unfortunately, in the rush to get data and start analysis, attention to design is often glossed over.
-
-Collecting good Data requires the kind of organizational and coding skills that are being seen as increasingly important in data science, particularly as data from routine sources may need a lot of cleaning in order to get it ready to be analysed. Data collection systems may have changed over time, there may be obvious errors, and so on – the phrase ‘found data’ neatly communicates that it may be rather messy, like something picked up in the street. -->
+<!-- Nella parte di Planning, il ricercatore decide come rispondere alla domanda di ricerca. Solitamente ignorata, ma assoulutamente cruciale, GARBACE IN, GARBACE OUT. Questo include, 
+ i) verificare se esiste una collezione di dati di alta qualit`a che pu`o essere usata, ii) decidere e giustificare perch ́e sia necessario raccogliere nuove collezioni di dati, e quali dati siano necessari e come debbano essere raccolti 
+ iii) decidere e giustificare da qua- le Popolazione i dati verranno raccolti, tenendo anche in considerazione considerazione etiche e logistiche (per esempio, questionari che richiedano un tempo troppo lungo per essere completati), 
+ iv) decidere e giustificare quando e dove la raccolta dati debba iniziare e finire, 
+ v) decidere e giustifi- care i metodi analitici che verranno utilizzati, e 
+ vi) definire delle probabili risposte alla domanda di ricerca (ipotesi)
+ 
+ Nella terza fase, i dati vengono raccolti, organizzati, puliti e verificati.  -->
 
 ---
 
-<span style="display:block; height:200px;"></span>
+<span style="display:block; height:170px;"></span>
 
-## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dato $\longleftrightarrow$ informazione
+<div style="font-size: 160%">
+
+
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dato $\longleftrightarrow$ informazione $\longleftrightarrow$ variabile**
+
+<!-- Un dato corrisponde a un'informazione su un membro di una popolazione (sesso, altezza, numero dei battiti cardiaci, titolo di studio, età,…) , viene codificata in variabili. 
+La variabilita' di tali variabili (differenze che vediamo tra le osservazioni) ci dice come le caratteristiche di una paopolazione (eta', sesso, altezza... ) differiscano da individuo a individuo 
+
+Questa variabilita' dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
+-->
 
 ---
 ## Le fonti dei dati
 
 <span style="display:block; height:50px;"></span>
 
-* Rilevazioni periodiche
+- Rilevazioni periodiche
 * Sondaggi
 * Esperimenti
 * Fonti esterne
@@ -69,20 +82,6 @@ Informazioni che non sono presenti nei rilevamenti. Per esempio nelle SDO non si
 
 Alcuni dati non possono essere raccolti con dei semplici sondaggi. Per esempio se volessimo sapere quale terapia e' meglio per curare la depressione
 -->
-
----
-## Raccogliamo dei dati?
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-<br/>
-
-<center>
-<img src="./img/data/study_questions.png" img height="300px" border="4px"/>
-</center>
-
-
-<!-- Vediamo come si passa dalla fase "Problem" alla fase "Planning" -->
-
 
 ---
 ## Raccogliamo dei dati?
@@ -177,7 +176,8 @@ updateButton_think();
 -->
 </script>
 
-<!-- Think -->
+<!-- Think 
+Vediamo come si passa dalla fase "Problem" alla fase "Planning" -->
 
 ---
 ## Raccogliamo dei dati?
@@ -366,14 +366,24 @@ updateButton_share();
 -->
 </script>
 
-<!-- Share -->
+<!-- Share 
+
+Tutti gli outcome elencati
+Sesso, eta'
+SES: income, education
+Nursing backgroun: professional title (junior/senior) e/o anni di servizio, numero di ore lavorate, shift
+COVID background: se gia' in wuhan, volonarie o trasferite a forza, previous esperience in malattie infettive, downgrade/upgrade dal trasferimento, confidence nelle proprie capacita'
+Dati privati (non esiste solo il lavoro): sposate, numero figli, caring duty
+
+-->
+
 ---
 ## Raccogliamo dei dati?
 
 - Quali dati raccogliere?
 - In che formato?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp;  Esempio: eta'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
 
 ---
 ## Raccogliamo dei dati?
@@ -381,7 +391,7 @@ updateButton_share();
 - Quali dati raccogliere?
 - In che formato?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp; Esempio: eta'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp; Esempio: et&agrave;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
 
 ---
@@ -390,9 +400,9 @@ updateButton_share();
 - Quali dati raccogliere?
 - In che formato?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp; Esempio: eta'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp; Esempio: et&agrave;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti hanni hai?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti anni hai?
 
 ---
 ## Raccogliamo dei dati?
@@ -400,10 +410,10 @@ updateButton_share();
 - Quali dati raccogliere?
 - In che formato?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp;  Esempio: eta'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti hanni hai?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A quale di queste fasce d'eta' appartieni?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti anni hai?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A quale di queste fasce d'et&agrave; appartieni?
 
 ---
 ## I tipi di dati
@@ -578,36 +588,24 @@ N: discreto
 Lactate dehydrogenase, dichotomized according to the upper limit of normal for each centre.
 -->
 
-------
 
-<span style="display:block; height:200px;"></span>
-
-## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dato $\longleftrightarrow$ variabile
-
-<!-- Le caratteristiche di una popolazione che differiscono da individuo a
-individuo sono chiamate variabili (sesso, altezza, numero dei battiti
-cardiaci, titolo di studio, età,…) 
-
-the inevitable differences that occur between measurements or observations, some of which may be explained by known factors, and the remainder attributed to random noise.
-
--->
 
 ---
-### Exercizio #2
+### Esercizio #2
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Il sesso e' una variabile categorica dicotomica?
+:question: &nbsp;&nbsp;&nbsp; Il sesso &egrave; una variabile categorica dicotomica?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di figli e' una variabile quantitativa discreta?
+:question: &nbsp;&nbsp;&nbsp; Il numero di figli &egrave; una variabile quantitativa discreta?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo e' una  variabile categorica dicotomica?
+:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile categorica ordinale?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
 </div>
 
@@ -698,24 +696,62 @@ updateButton_exercise_2();
 
 
 ---
-### Exercizio #2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Il sesso e' una variabile categorica dicotomica?
+:question: &nbsp;&nbsp;&nbsp; Il sesso &egrave; una variabile categorica dicotomica?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di figli e' una variabile quantitativa discreta?
+:question: &nbsp;&nbsp;&nbsp; Il numero di figli &egrave; una variabile quantitativa discreta?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo e' una  variabile categorica dicotomica?
+:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile categorica ordinale?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso
  
 </div>
 
+
+---
+### Esercizio #2 -- Soluzione
+
+<div style="font-size: 85%">
+
+:question: &nbsp;&nbsp;&nbsp; Il sesso &egrave; una variabile categorica dicotomica?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; Il numero di figli &egrave; una variabile quantitativa discreta?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile categorica ordinale?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+</div>
+
+
+---
+### Esercizio #2 -- Soluzione
+
+<div style="font-size: 85%">
+
+:question: &nbsp;&nbsp;&nbsp; Il sesso &egrave; una variabile categorica dicotomica?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; Il numero di figli &egrave; una variabile quantitativa discreta?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile categorica ordinale?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; 
+ 
+</div>
 
 ---
 ## Ma quali dati sono stati raccolti ?
@@ -726,8 +762,18 @@ updateButton_exercise_2();
 <img src="./img/data/study_questions.png" img height="300px" border="4px"/>
 </center>
 
+<div style="font-size: 90%">
+
 [Table 1](https://www.thelancet.com/action/showFullTableHTML?isHtml=true&tableId=tbl0001&pii=S2589-5370%2820%2930168-1)
 [Table 2](https://www.thelancet.com/action/showFullTableHTML?isHtml=true&tableId=tbl0002&pii=S2589-5370%2820%2930168-1)
+
+</div>
+
+<div style="font-size: 50%" align="right">
+
+Hu, Deying, *et al.* *"Frontline nurses’ burnout, anxiety, depression, and fear statuses and their associated factors  <br/> during the COVID-19 outbreak in Wuhan, China: A large-scale cross-sectional study."* EClinicalMedicine, 2020, <br/> doi:10.1016/j.eclinm.2020.100424
+
+</div>
 
 ---
 ### Cosa abbiamo imparato in questa lezione?
@@ -736,8 +782,8 @@ updateButton_exercise_2();
 
 <div style="font-size: 90%">
 
-- Che l'informazione (o dati) viene codificata in variabili, la cui variabilita' (differenze che vediamo tra le osservazioni) dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
-- Come pianificare la raccolta dati a partire da un problema
+- Che l'informazione viene codificata in variabili, la cui variabilit&agrave; (differenze che vediamo tra le osservazioni) dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
+- Come pianificare la raccolta dati a partire da una domanda di ricerca
 - Le differenze tra i diversi tipi di dati
 
 </div>
