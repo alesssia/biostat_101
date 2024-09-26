@@ -32,16 +32,6 @@ style: |
 - Saper visualizzare dati categorici
 - Saper interpretare tabelle e figure in articoli scientifici
 
-<!-- ---
-## Distribuzione campionaria
-
-<span style="display:block; height:60px;"></span>
-
-- la "forma" di un insieme di variabili categoriche o numeriche 
-- anche chiamata "distribuzione empirica"
-
-Vedremo tra qualche lezione la distribuzione della popolazione -->
-
 ---
 ## Le fasi della ricerca
 
@@ -56,11 +46,6 @@ Vedremo tra qualche lezione la distribuzione della popolazione -->
 Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 </div>
-
-<!-- The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. 
-
-Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.
- -->
 
 ---
 
@@ -103,7 +88,7 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 ---
 
-## Perche' ci interessa?
+## Perch&eacute; ci interessa?
 
 <div class="columns">
 <div>
@@ -191,7 +176,7 @@ Frequenze assolute e relative forniscono le stesse informazioni sulla distribuzi
 
 <div style="font-size: 97%">
 
-:question: &nbsp;&nbsp;&nbsp; Quale sesso e' predominante?
+:question: &nbsp;&nbsp;&nbsp; Quale sesso &egrave; predominante?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </div>
@@ -314,7 +299,7 @@ updateButton_exercize_1();
 
 <div style="font-size: 97%">
 
-:question: &nbsp;&nbsp;&nbsp; Quale sesso e' predominante?
+:question: &nbsp;&nbsp;&nbsp; Quale sesso &egrave; predominante?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </div>
@@ -358,14 +343,19 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 </div>
 
+<!-- SPIEGARE CHE SI TRATTA DI UN RCT E COSA DIAVOLO E' UN RCT -- Useremo questo studio per costruire e capire cos'e' una tabelle di contingenza 
+
+ `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili.
+-->
+
 ---
 
 ## Esercizio #2
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e percentuali
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstact
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -470,14 +460,16 @@ updateButton_exercize_2();
 -->
 </script>
 
+<!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili. -->
+
 ---
 
 ## Esercizio #2 -- Soluzione
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e percentuali
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstact
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -503,8 +495,8 @@ updateButton_exercize_2();
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e percentuali
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstact
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -530,8 +522,8 @@ updateButton_exercize_2();
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e percentuali
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstact
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -551,14 +543,22 @@ updateButton_exercize_2();
 
 </div>
 
+<div style="font-size: 80%" align="right">
+
+Abbiamo completato la nostra Tabella di Contingenza
+
+</div>
+
+<!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili.  -->
+
 ---
 
 ## Esercizio #2 -- Soluzione
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e percentuali
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstact
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -578,14 +578,20 @@ updateButton_exercize_2();
 
 </div>
 
+<!-- Le frequenze relative le potete fare in entrambe le direzioni, o di riga o di colonna, a seconda del messaggio che volete trasmettere.
+
+Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fatto io, dividendo per il totale di colonna) o la frequenza dei due trattamenti per ciascun sesso (se aveste diviso per il totale di riga). Qualcuno ha diviso per riga?
+
+ -->
+
 ---
 
 ## Esercizio #2 -- Soluzione
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e percentuali
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstact
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -613,11 +619,11 @@ updateButton_exercize_2();
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di uomini e donne nel campione e' simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
+:question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di uomini e donne nei due bracci dell'esperimento e' simile? 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
+:question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 <center>
 
@@ -716,7 +722,10 @@ updateButton_exercize_3();
 -->
 </script>
 
-<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità -->
+<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
+
+LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna dei totali, Le donne sono il doppio degli uomini. No, non sono uguali
+-->
 
 ---
 
@@ -724,11 +733,11 @@ updateButton_exercize_3();
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di uomini e donne nel campione e' simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
+:question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
-:question: &nbsp;&nbsp;&nbsp; Il numero di uomini e donne nei due bracci dell'esperimento e' simile? 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono piu' elementi per decidere
+:question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;   &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 <center>
 
@@ -740,7 +749,43 @@ updateButton_exercize_3();
 
 </center>
 
-<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità -->
+<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
+
+Nel campione, quindi vado a vedere la colonna dei totali, Le donne sono il doppio degli uomini. No, non sono uguali
+
+LEGGERE PRIMA DI DARE LA SOLUZIONE DELLA SECONDA Nel due bracci dell'esperimento, quindi vado a confrontare le due colonne, la proporzione di donne e' sempre il 70% e di uomini e' sempre il 30%, quindi si', sono simili
+
+-->
+
+</div>
+
+---
+
+## Esercizio #3 -- Soluzione
+
+<div style="font-size: 80%">
+
+:question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+
+:question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile? 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+
+<center>
+
+| Sesso/N | CBT | Standard | Totale |
+| ----: | -----: | ----: | ----: |
+| Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
+| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%1) |
+| Totale | 107 | 94  | 201 |
+
+</center>
+
+<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
+
+
+Nel due bracci dell'esperimento, quindi vado a confrontare le due colonne, la proporzione di donne e' sempre il 70% e di uomini e' sempre il 30%, quindi si', sono simili
+-->
 
 </div>
 
@@ -786,6 +831,8 @@ updateButton_exercize_3();
 
 In questo caso si possono ancora usare, ma la frequenza non è riferita ad un singolo valore, ma ad intervalli (o classi) di valori. 
 
+ESEMPIO QUI DEL BMI
+
 La scelta del numero di classi e degli estremi è arbitraria. Entrambi vengono determinati in base a criteri di convenienza.
 
 Il numero di classi può oscillare e dipende dalla numerosità dei dati (in genere utilizzare da 5 a 20 classi).
@@ -829,10 +876,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 </div>
 </div>
 
-<!-- Per le variabili quantitative è necessario descrivere i dati raccolti anche numericamente… Poiché generalmente il problema è che i dati sono tanti, può risultare più semplice sintetizzarli e ridurli a pochi numeri, più facili da comprendere, utilizzare e comunicare.
-
-Le tabelle di frequenza dopo una procedura di discretizzazione non sono pero' il modo piu' consono per rappresentare i dati quantitativi. E' meglio usare
--->
+<!-- Lactate dehydrogenase, dichotomized according to the upper limit of normal for each centre. -->
 
 ---
 <span style="display:block; height:150px;"></span>
@@ -875,9 +919,13 @@ Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immu
 
 <!-- Diagramma a barre 
 
-A barplot shows the relationship between a numeric and a categoric variable. Each entity of the categoric variable is represented as a bar. The size of the bar represents its numeric value.
+Qui vi mostro lo stage metastatico della corte dell'esempio precedente, che e' divisa in 5 classi.
 
-Barplot is sometimes described as a boring way to visualize information. However it is probably the most efficient way to show this kind of data. Ordering bars and providing good annotation are often necessary.
+E` considerata uno delle visualizzazioni piu` efficaci per rappresentare dati categorici, anche se noiso
+
+Ciascuna Modalit`a viene rappresentata da una barra, la cui dimensione `e proporzionale alla sua frequenza, assoluta o relativa. 
+
+NON DIRLO: Perch ́e le dimensioni delle barre siano esattamente proporzionali, `e necessario che l’asse delle ordinate inizi dallo zero e non da un punto arbitrario (a questo riguardo vedi anche: Statisticulation).
 
 Sorting bars often add insight.
 Avoid filling with color palettes.
@@ -946,6 +994,10 @@ variazione ulteriore: Circular bar chart, lollipop -->
 
 <!-- 
 16 to 19 year olds were almost twice as happy as 20 to 14 year olds, when actually they’re pretty similar – only a difference of 0.27.
+
+Ciascuna Modalit`a viene rappresentata da una barra, la cui dimensione `e proporzionale alla sua frequenza, assoluta o relativa. 
+
+Perch ́e le dimensioni delle barre siano esattamente proporzionali, `e necessario che l’asse delle ordinate inizi dallo zero e non da un punto arbitrario (a questo riguardo vedi anche: Statisticulation).
 
 Non e' necessariamente fatto per ingannare, ma i grafici pensavano di migliorare la visualizzazione
 
@@ -1080,6 +1132,8 @@ Ho migliorato la grafica andando ad annotare le percentuali -->
 
 <!-- A Waffle Chart visually represents categorical data through a grid of small squares, resembling a waffle. Each category is assigned a unique color, and the number of squares allocated to each category corresponds to its proportional share of the total data count. 
 
+They are often 10 by 10 grids, where each cell represents 1%. Despite the name, circles, pictograms (such as of people), and other shapes may be used instead of squares. One major benefit to square charts is that smaller percentages, difficult to see on traditional pie charts, can be easily depicted.
+
 Common Mistakes
  sum must add up to 100.
 
@@ -1118,8 +1172,8 @@ In Figure 1.4 the ‘cancer’ icons are randomly scattered among the 100. While
 <div style="font-size: 90%">
 
 - Le variabili categoriche possono essere rappresentate con le loro frequenze, assolute o relative
-- Tabelle di frequenze e di contingenza ci aiutano a paragonare, a colpo d'occhio, due o piu' variabili
-- Variabili numeriche possono essere trasformate in variabili categoriche attravero la loro "discretizzazione"
+- Tabelle di frequenze e di contingenza ci aiutano a paragonare, a colpo d'occhio, due o pi&ugrave; variabili
+- Variabili numeriche possono essere trasformate in variabili categoriche attraverso la loro "discretizzazione"
 - Le variabili categoriche possono essere rappresentate graficamente in diversi modi, ma bar chart sono da preferire, seguiti da waffle chart
 
 </div>
