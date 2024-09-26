@@ -46,11 +46,12 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 </div>
 
-<!-- The first stage of the cycle is specifying a Problem.
-
-It is tempting to skip over the need for a careful Plan. Confident conclusions can only be drawn from a study which has been appropriately designed. Unfortunately, in the rush to get data and start analysis, attention to design is often glossed over.
-
-Collecting good Data requires the kind of organizational and coding skills that are being seen as increasingly important in data science, particularly as data from routine sources may need a lot of cleaning in order to get it ready to be analysed. Data collection systems may have changed over time, there may be obvious errors, and so on – the phrase ‘found data’ neatly communicates that it may be rather messy, like something picked up in the street. -->
+<!-- Nella parte di Planning, il ricercatore decide come rispondere alla domanda di ricerca. Solitamente ignorata, ma assoulutamente cruciale, GARBACE IN, GARBACE OUT. Questo include, 
+ i) verificare se esiste una collezione di dati di alta qualit`a che pu`o essere usata, ii) decidere e giustificare perch ́e sia necessario raccogliere nuove collezioni di dati, e quali dati siano necessari e come debbano essere raccolti 
+ iii) decidere e giustificare da qua- le Popolazione i dati verranno raccolti, tenendo anche in considerazione considerazione etiche e logistiche (per esempio, questionari che richiedano un tempo troppo lungo per essere completati), 
+ iv) decidere e giustificare quando e dove la raccolta dati debba iniziare e finire, 
+ v) decidere e giustifi- care i metodi analitici che verranno utilizzati, e 
+ vi) definire delle probabili risposte alla domanda di ricerca (ipotesi) -->
 
 --- 
 ## Popolazione *vs*  &nbsp;campione
@@ -84,10 +85,12 @@ Altro svantaggio , e b) non e' possibile raccogliere tutte le informazioni possi
 
 <!-- Nella ricerca clinica, la popolazione e' l'insieme di tutti i pazienti che ci interessano
 
-Campione sono quelli che siamo andati a reclutare .
+Campione sono quelli che siamo andati a reclutare. 
 
 E’ però necessario sceglierlo “bene” affinché le informazioni che otteniamo sul nostro campione siano poi trasferibili alla popolazione di partenza (inferenza)m quindi con procedimenti e regole che garantiscano la capacità del campione di rappresentare la popolazione
 -->
+
+
 
 ---
 ## Campione opportunistico 
@@ -96,9 +99,9 @@ E’ però necessario sceglierlo “bene” affinché le informazioni che otteni
 
 <div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp;&nbsp; Un campione **opportunistico** e' un campione estratto da una
+:dart: &nbsp;&nbsp;&nbsp; Un campione **opportunistico** &egrave; un campione estratto da una
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  parte della popolazione a cui abbiamo un facile accesso e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  che potrebbe non rappresentarls nella sua  interezza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  che potrebbe non rappresentarla nella sua  interezza
 
 
 <span style="display:block; height:1px;"></span>
@@ -109,13 +112,13 @@ E’ però necessario sceglierlo “bene” affinché le informazioni che otteni
 
 </div>
 
-<!-- Iniziamo con il distinguere il campionamento probabilistico da quello non propabilistico.
+<!-- Iniziamo con il distinguere il campionamento probabilistico da quello non probabilistico.
 
-Nel campionamento non-probabilistico, o opportunustico, la selezione del campione avviene in base a criteri di comodo o di praticità, per esempio perché certi individui sono più facilmente contattabili, o per ragioni di costo 
+Nel campionamento non-probabilistico, o opportunistico, la selezione del campione avviene in base a criteri di comodo o di praticità, per esempio perché certi individui sono più facilmente contattabili, o per ragioni di costo 
 
-Ricordiamoci che importante e' che sia randomizzato rispetto alla variabile di interesse. Se ci interessa come rispondono, per esempio nel caso del delirio, magari il nostro campione va bene. 
+Ricordiamoci che importante e' che sia randomizzato rispetto alla variabile di interesse. Se ci interessa come rispondono, per esempio nel caso del delirio, magari il nostro campione va bene -- sarebbe proprio sfortuna se in quell'intervallo di tempo mi capitassero solo un tipo specifico di pazienti, per esempio molto giovani o con malattie mentali pregresse.
 
-Chiedere le intenzioni di voto alle prime 10 pagine di utenti con il numero di telefono non e' ottimale, ma accettabile. Farlo ad una protesta contro l'immigrazione invece no! 
+Chiedere le intenzioni di voto alle prime 10 pagine di utenti con il numero di telefono non e' ottimale (persone con lo stesso cognome tendono ad avere le stesse idee politiche), ma accettabile. Farlo ad una protesta contro l'immigrazione invece no! 
 
 -->
 
@@ -127,12 +130,12 @@ Chiedere le intenzioni di voto alle prime 10 pagine di utenti con il numero di t
 <div style="font-size: 90%">
 
 :dart: &nbsp;&nbsp;&nbsp; Nel campionamento **casuale semplice** tutti i soggetti della  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popolazione hanno la stessa probabilita' di venire inclusi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popolazione hanno la stessa probabilit&agrave; di venire inclusi 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel campione
 
 <span style="display:block; height:10px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp; Un sottoinsieme esratto in modo casuale dall'elenco dei 
+:pushpin: &nbsp;&nbsp;&nbsp; Un sottoinsieme estratto in modo casuale dall'elenco dei 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti con la malattia
 
 <!-- Nel campionamento probabilistico ogni unità della popolazione in studio ha una probabilità NOTA di essere estratta (non distorto o viziato) 
@@ -201,7 +204,7 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 <!--  Estrarre le unità tramite sorteggio casuale o tavole dei numeri casuali (costruite in modo da non avere vizi sistematici. Sono delle serie di numeri tra 0 e 9 disposti a caso e caratterizzati dall’avere una distribuzione uniforme) -->
 
 ---
-## Exercizio #1
+### Esercizio #1
 
 <div style="font-size: 90%">
 
@@ -214,7 +217,7 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) opportunistico
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) casuale semplice
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precendenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precedenti
 
 </div>
 
@@ -305,7 +308,7 @@ updateButton_exercise_1();
 
 
 ---
-## Exercizio #1 -- Soluzione
+### Esercizio #1 -- Soluzione
 
 <div style="font-size: 90%">
 
@@ -318,7 +321,7 @@ updateButton_exercise_1();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) opportunistico &nbsp;&nbsp;&nbsp; :white_check_mark: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) casuale semplice
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precendenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precedenti
 
 </div>
 
@@ -358,8 +361,7 @@ Antetokounmpo: 2.11 -->
 <!-- Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
 
 - voglio andare a vedere dove gli aerei da guerra vengono colpiti per rinforzarli
-- - volontari alsop SES e soprattuto donne
-- sto testando un nuovo farmaco, le persone che hanno i side effect peggiori possono interromperlo, o quelli per cui non funziona possono morire -->
+e l’errore logico che si commette quando si prendano in considerazione solo gli elementi che hanno superato un determinato pro- cesso di selezione, trascurando i restanti; tipicamente ci`o avviene poich ́e i primi sono fisicamente disponibili/visibili e i secondi no. -->
 
 ---
 ## Bias nella selezione del campione
@@ -381,20 +383,17 @@ Antetokounmpo: 2.11 -->
 </div>
 </div>
 
-<!-- Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
-
-- voglio andare a vedere dove gli aerei da guerra vengono colpiti per rinforzarli
-- - volontari alsop SES e soprattuto donne
-- sto testando un nuovo farmaco, le persone che hanno i side effect peggiori possono interromperlo, o quelli per cui non funziona possono morire -->
+<!-- - occorre quando i volontari hanno caratteristiche diverse rispet- to alla Popolazione che si vuole studiare.  volontari alsop SES e soprattuto donne
+- occorre quando uno o piu` soggetti di uno studio di- ventano irreperibili durante lo studio stesso sto testando un nuovo farmaco, le persone che hanno i side effect peggiori possono interromperlo, o quelli per cui non funziona possono morire -->
 
 ---
-## Exercizio #2
+### Esercizio #2
 
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Ricercatori spediscono a dei pensionati un questionario cartaceo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; chiedendo loro del loro stato mentale durante il lockdown, chidendo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; loro di rispedire le risposte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; chiedendo informazioni su loro stato mentale durante il lockdown.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I pensionati devono poi rispedire le risposte.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lo studio soffre di qualche bias?
 
@@ -492,13 +491,13 @@ updateButton_exercise_2();
 
 
 ---
-## Exercizio #2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Ricercatori spediscono a dei pensionati un questionario cartaceo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; chiedendo loro del loro stato mentale durante il lockdown, chidendo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; loro di rispedire le risposte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; chiedendo informazioni su loro stato mentale durante il lockdown.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I pensionati devono poi rispedire le risposte.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lo studio soffre di qualche bias?
 
@@ -510,7 +509,7 @@ updateButton_exercise_2();
 </div>
 
 ---
-## Esercizio #3
+### Esercizio #3
 
 :question: &nbsp;&nbsp;&nbsp; Quanti alberi ci sono al mondo?
 
@@ -603,7 +602,7 @@ updateButton_think();
 <!-- Think -->
 
 ---
-## Esercizio #3
+### Esercizio #3
 
 :question: &nbsp;&nbsp;&nbsp; Quanti alberi ci sono al mondo?
 
@@ -697,7 +696,7 @@ updateButton_pair();
 
 
 ---
-## Esercizio #3
+### Esercizio #3
 
 :question: &nbsp;&nbsp;&nbsp; Quanti alberi ci sono al mondo?
 
@@ -791,7 +790,7 @@ updateButton_share();
 -->
 
 ---
-## Esercizio 3 -- Soluzione (3.04 trillions)
+### Esercizio 4 -- Soluzione (3.04 trillions)
 
 <span style="display:block; height:1px;"></span>
 
@@ -833,8 +832,8 @@ If the law of the country is that cars should drive on the right, then we can de
 
 <div style="font-size: 90%">
 
-- La popolazione e' l'insieme di tutti gli individui per cui vogliamo studiare un fenomeno ed è, teoricamente, infinita
-- Il campione e' un sotto insieme (rappresentativo?) della popolazione
+- La popolazione &egrave; l'insieme di tutti gli individui per cui vogliamo studiare un fenomeno ed è, teoricamente, infinita
+- Il campione &egrave; un sotto insieme (rappresentativo?) della popolazione
 - Anche con campioni rappresentativi (casuali) possono esserci errori e/o bias
 - Attraverso il metodo induttivo partiamo dalle osservazioni campionarie per trarre conclusioni sulla popolazione generale
 
