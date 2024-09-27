@@ -1,3 +1,12 @@
+\documentclass{report}
+\usepackage[]{hyperref}
+\usepackage[italian]{babel}
+\usepackage[acronym,nogroupskip,nonumberlist,nopostdot,toc]{glossaries}
+\usepackage{fancyhdr}
+\usepackage[style=iso]{datetime2}
+
+\makenoidxglossaries
+
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % INTRODUCTION
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -283,7 +292,7 @@
 \newglossaryentry{sample_median}
 {
 	 name={Mediana},
-	 description={\`e il valore che si trova nel mezzo della \gls{sample_distribution} (se il numero di osservazioni \`e dispari) o la \gls{mean} dei due valori nel mezzo della distribuzione (se il numero di osservazioni \`e pari). \`E pi\`u robusta della \gls{mean} alla presenza di \gls{outliers} e di conseguenza \`e indicata quando la \gls{distribution_shape} \`e asimmetrica. Si accompagna sempre all'\gls{iqr}.},
+	 description={\`e il valore che si trova nel mezzo della \gls{sample_distribution} (se il numero di osservazioni \`e dispari) o la \gls{mean} dei due valori nel mezzo della distribuzione (se il numero di osservazioni \`e pari). \`E pi\`u robusta della \gls{mean} sia alla presenza di \gls{outliers} (e di conseguenza \`e indicata quando la \gls{distribution_shape} \`e asimmetrica), sia se la numerosit\`a del campione \`e piccola. Si accompagna sempre all'\gls{iqr}.},
 	 sort={Mediana}
 }
 
@@ -318,7 +327,7 @@
 \newglossaryentry{iqr}
 {
 	 name={Inter-quartile range},
-	 description={o range interquartile, \`e la differenza tra il terzo e il primo \gls{quartiles}. \`E robusto rispetto alla presenza di \gls{outliers} e di conseguenza \`e indicato quando la \gls{distribution_shape} \`e asimmetrica. Si accompagna sempre alla \gls{sample_median}.},
+	 description={o range interquartile, \`e la differenza tra il terzo e il primo \gls{quartiles}. \`E robusto sia rispetto alla presenza di \gls{outliers} (e di conseguenza \`e indicato quando la \gls{distribution_shape} \`e asimmetrica), sia se la numerosit\`a del campione \`e piccola. . Si accompagna sempre alla \gls{sample_median}.},
 	 sort={inter-quartile range}
 }
 
@@ -785,3 +794,251 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 
 
+\begin{document}
+
+\fancyhf{}
+\fancyhead[RE,LO]{Autore: Alessia Visconti -- Versione: \today}
+\fancyfoot[C]{}
+\pagestyle{fancy}
+
+\printnoidxglossary[sort=letter, title={Glossario}]
+
+\newpage
+
+
+
+\section*{Elenco dei concetti introdotti a lezione}
+
+
+\subsection*{Introduzione alla statistica medica}
+
+\gls{statistical_science}
+
+\noindent \gls{data_literacy}
+
+\noindent \gls{induction}
+
+\noindent \gls{statistical_inference}
+
+\noindent \gls{statistical_model}
+
+\noindent \gls{causation}
+
+\noindent \gls{statisticulation}
+
+\noindent \gls{post_hoc_fallacy}
+
+\noindent \gls{framing}
+
+\noindent \gls{fasi_della_ricerca}
+
+\noindent \gls{PPDAC}
+
+
+
+\subsection*{Cenni di epidemiologia}
+
+\noindent \gls{rct}
+
+\noindent \gls{blinding}
+
+\noindent \gls{observational_study}
+
+\noindent \gls{cohort_study}
+
+\noindent \gls{retrospective_cohort_study}
+
+\noindent \gls{prospective_cohort_study}
+
+\noindent \gls{case_control}
+
+\noindent \gls{Cross-sectional_study}
+
+\noindent \gls{longitudinal_study}
+
+
+
+\subsection*{Popolazione e Campione}
+
+\noindent \gls{population}
+
+\noindent \gls{sample}
+
+\noindent \gls{campionamento_opportunistico}
+
+\noindent \gls{campionamento_casuale_semplice}
+
+\noindent \gls{parameters}
+
+\noindent \gls{statistic}
+
+\noindent \gls{population_distribution}
+
+\noindent \gls{sample_distribution}
+
+\noindent \gls{sampling_bias}
+
+\noindent \gls{Survivor_bias}
+
+\noindent \gls{Volunteer_bias}
+
+\noindent \gls{Lost_to_follow_up_bias}
+
+\noindent \gls{ascertainment bias}
+
+
+
+
+\subsection*{Dati \& variabili}
+
+\noindent \gls{variability}
+
+\noindent \gls{categorical_variable}
+
+\noindent \gls{binary_data}
+
+\noindent \gls{variabili_ordinali}
+
+\noindent \gls{continuous_variable}
+
+\noindent \gls{count_variables}
+
+\noindent \gls{outliers}
+
+\subsection*{Statistica descrittiva -- Dati categorici}
+
+\noindent \gls{modalita}
+
+\noindent \gls{frequency}
+
+\noindent \gls{relative_frequency}
+
+\noindent \gls{contingency_table}
+
+\noindent \gls{discretizzazione}
+
+\noindent \gls{bar_chart}
+
+\noindent \gls{lollipop_chart}
+
+\noindent \gls{pie_chart}
+
+\noindent \gls{donut_chart}
+
+\noindent \gls{waffle_chart}
+
+
+\subsection*{Statistica descrittiva -- Dati numerici}
+
+
+\noindent \gls{sample_mode}
+
+\noindent \gls{sample_median}
+
+\noindent \gls{quartiles}
+
+\noindent \gls{mean}
+
+\noindent \gls{range}
+
+\noindent \gls{iqr}
+
+\noindent \gls{variance}
+
+\noindent \gls{standard_deviation}
+
+\noindent \gls{correlation}
+
+\noindent \gls{pcc}
+
+\noindent \gls{istogramma}
+
+\noindent \gls{density_plot}
+
+\noindent \gls{boxplot}
+
+\noindent \gls{distribution_shape}
+
+
+
+
+\subsection*{La distribuzione Normale}
+
+\noindent \gls{normal_distribution}
+
+\noindent \gls{three_sigma_rule}
+
+\noindent \gls{standardisation}
+
+
+
+\subsection*{Statistica Inferenziale -- Stime \& Intevalli di Confidenza}
+
+\noindent \gls{sampling_distribution}
+
+\noindent \gls{bootstrapping}
+
+\noindent \gls{CLT}
+
+\noindent \gls{LLN}
+
+\noindent \gls{standard_error}
+
+\noindent \gls{confidence_interval}
+
+\noindent \gls{margin_of_error}
+
+
+\subsection*{Statistica Inferenziale -- Test di ipotesi}
+
+\noindent \gls{hypothesis}
+
+\noindent \gls{null_hypothesis}
+
+\noindent \gls{alternative_hypothesis}
+
+\noindent \gls{hypothesis_testing}
+
+\noindent \gls{P-value}
+
+\noindent \gls{one-sided_test}
+
+\noindent \gls{two-sided_test}
+
+\noindent \gls{alpha}
+
+\noindent \gls{Type_I_error}
+
+\noindent \gls{Type_II_error}
+
+\noindent \gls{false_positive}
+
+\noindent \gls{false_negative}
+
+\noindent \gls{sensitivity}
+
+\noindent \gls{specificity}
+
+\noindent \gls{power}
+
+\noindent \gls{multiple_testing}
+
+\noindent \gls{Bonferroni_correction}
+
+\noindent \gls{FDR}
+
+\noindent \gls{expected_frequencies}
+
+\noindent \gls{absolute_risk}
+
+\noindent \gls{relative_risk}
+
+\noindent \gls{odds}
+
+\noindent \gls{OR}
+
+
+
+
+
+\end{document}
