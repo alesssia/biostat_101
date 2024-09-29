@@ -93,13 +93,13 @@ E’ però necessario sceglierlo “bene” affinché le informazioni che otteni
 
 
 ---
-## Campione opportunistico 
+## Campione di convenienza 
 
 <span style="display:block; height:30px;"></span>
 
 <div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp;&nbsp; Un campione **opportunistico** &egrave; un campione estratto da una
+:dart: &nbsp;&nbsp;&nbsp; Un campione di convenienza &egrave; un campione estratto da una
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  parte della popolazione a cui abbiamo un facile accesso e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  che potrebbe non rappresentarla nella sua  interezza
 
@@ -129,7 +129,7 @@ Chiedere le intenzioni di voto alle prime 10 pagine di utenti con il numero di t
 
 <div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp;&nbsp; Nel campionamento **casuale semplice** tutti i soggetti della  
+:dart: &nbsp;&nbsp;&nbsp; Nel campionamento casuale semplice tutti i soggetti della  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popolazione hanno la stessa probabilit&agrave; di venire inclusi 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel campione
 
@@ -174,6 +174,8 @@ data una popolazione di N individui ed un campione di dimensione n  la probabili
 
 <!-- Disporre di un elenco completo di tutti i soggetti della popolazione e una loro numerazione
 
+n piccolo e' la nostra numerosita' campionaria
+
 Decidere quante unità si vogliono selezionare e calcolare la frazione di campionamento -->
 
 ---
@@ -206,20 +208,38 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 ---
 ### Esercizio #1
 
-<div style="font-size: 90%">
+<span style="display:block; height:30px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Un rappresentante di una ditta di formaggi sta facendo un sondaggio
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sul consumo di gorgonzola fermando un cliente ogni cinque di fronte
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  a un supermercato
+<div class="columns">
+<div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Che strategia di campionamento sta usando?
+<img src="./img/sampling/abstract_ex1.png" img height="300px" align="right" border="4px"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) opportunistico
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) casuale semplice
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precedenti
+<span style="display:block; height:400px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
 
 </div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la popolazione di studio?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
+
+</div>
+
+<span style="display:block; height:100px;"></span>
 
 <style>
   #countdown_exercise_1{
@@ -306,103 +326,245 @@ updateButton_exercise_1();
 -->
 </script>
 
+</div>
+</div>
 
 ---
 ### Esercizio #1 -- Soluzione
 
-<div style="font-size: 90%">
-
-:question: &nbsp;&nbsp;&nbsp; Un rappresentante di una ditta di formaggi sta facendo un sondaggio
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sul consumo di gorgonzola fermando un cliente ogni cinque di fronte
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  a un supermercato
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Che strategia di campionamento sta usando?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) opportunistico &nbsp;&nbsp;&nbsp; :white_check_mark: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) casuale semplice
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precedenti
-
-</div>
-
----
-## Bias nella selezione del campione
-
-<span style="display:block; height:50px;"></span>
-
-<img src="./img/sampling/basketball.jpg" img height="350px" align="right" border="0px"/>
-
-<!-- Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
-
-Magari sarebbe opportunustico
-
-Lillard 1.88
-Antetokounmpo: 2.11 -->
-
----
-## Bias nella selezione del campione
+<span style="display:block; height:30px;"></span>
 
 <div class="columns">
 <div>
 
-<span style="display:block; height:50px;"></span>
-- Survivor bias
+<img src="./img/sampling/abstract_ex1.png" img height="300px" align="right" border="4px"/>
+
+<span style="display:block; height:400px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
 
 </div>
 <div>
 
-<span style="display:block; height:5px;"></span>
+<div style="font-size: 70%">
 
-<img src="./img/sampling/Survivorship-bias.svg.png" img height="450px" align="right" border="0px"/>
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la popolazione di studio?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo &nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
+
+</div>
 
 </div>
 </div>
-
-<!-- Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
-
-- voglio andare a vedere dove gli aerei da guerra vengono colpiti per rinforzarli
-e l’errore logico che si commette quando si prendano in considerazione solo gli elementi che hanno superato un determinato pro- cesso di selezione, trascurando i restanti; tipicamente ci`o avviene poich ́e i primi sono fisicamente disponibili/visibili e i secondi no. -->
-
----
-## Bias nella selezione del campione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:50px;"></span>
-- Survivor bias
-- Volunteer bias
-* Lost to follow up bias
-* $\dots$
-
-</div>
-<div>
-
-<img src="./img/sampling/sampling_bias_comics.jpeg" img height="450px" align="right" border="0px"/>
-
-</div>
-</div>
-
-<!-- - occorre quando i volontari hanno caratteristiche diverse rispet- to alla Popolazione che si vuole studiare.  volontari alsop SES e soprattuto donne
-- occorre quando uno o piu` soggetti di uno studio di- ventano irreperibili durante lo studio stesso sto testando un nuovo farmaco, le persone che hanno i side effect peggiori possono interromperlo, o quelli per cui non funziona possono morire -->
 
 ---
 ### Esercizio #2
 
-<div style="font-size: 90%">
+<span style="display:block; height:30px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Ricercatori spediscono a dei pensionati un questionario cartaceo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; chiedendo informazioni su loro stato mentale durante il lockdown.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I pensionati devono poi rispedire le risposte.
+<div class="columns">
+<div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lo studio soffre di qualche bias?
+<img src="./img/sampling/abstract_ex1.png" img height="300px" align="right" border="4px"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) No
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Si', volunteer bias
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Si', survivor bias
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Sia b) che c)
+<span style="display:block; height:400px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
 
 </div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; il campione selezionato?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+<style>
+  #countdown_exercise_1bis{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_1bis.running {
+    background-color: green;
+  }
+  #countdown_exercise_1bis.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_1bis"></button>
+
+<script>
+<!--
+const countdown_exercise_1bis= document.getElementById("countdown_exercise_1bis");
+const seconds_exercise_1bis= 60; // seconds_exercise_1bis
+let timeLeft_exercise_1bis= seconds_exercise_1bis;
+let timerInterval_exercise_1bis= null;
+
+function formatTime_exercise_1bis(seconds_exercise_1bis) {
+  const minutes = Math.floor(seconds_exercise_1bis/ 60);
+  const remainingseconds_exercise_1bis= seconds_exercise_1bis% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_1bis).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_1bis() {
+  countdown_exercise_1bis.textContent = formatTime_exercise_1bis(timeLeft_exercise_1bis);
+}
+
+function startTimer_exercise_1bis() {
+  if (timerInterval_exercise_1bis=== null) {
+    countdown_exercise_1bis.classList.add('running');
+    countdown_exercise_1bis.classList.remove('finished');
+    timerInterval_exercise_1bis= setInterval(() => {
+      if (timeLeft_exercise_1bis> 0) {
+        timeLeft_exercise_1bis--;
+        updateButton_exercise_1bis();
+      } else {
+        clearInterval(timerInterval_exercise_1bis);
+        timerInterval_exercise_1bis= null;
+        countdown_exercise_1bis.classList.remove('running');
+        countdown_exercise_1bis.classList.add('finished');
+        countdown_exercise_1bis.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_1bis();
+  }
+}
+
+function pauseTimer_exercise_1bis() {
+  clearInterval(timerInterval_exercise_1bis);
+  timerInterval_exercise_1bis= null;
+  countdown_exercise_1bis.classList.remove('running');
+}
+
+function resetTimer_exercise_1bis() {
+  timeLeft_exercise_1bis= seconds_exercise_1bis;
+  updateButton_exercise_1bis();
+  countdown_exercise_1bis.classList.remove('finished');
+  countdown_exercise_1bis.classList.remove('running');
+  timerInterval_exercise_1bis= null;
+}
+
+countdown_exercise_1bis.addEventListener("click", () => {
+  if (countdown_exercise_1bis.classList.contains('finished')) {
+    resetTimer_exercise_1bis();
+  } else {
+    startTimer_exercise_1bis();
+  }
+});
+
+updateButton_exercise_1bis();
+-->
+</script>
+
+
+</div>
+</div>
+
+
+---
+### Esercizio #2 -- Soluzione
+
+<span style="display:block; height:30px;"></span>
+
+<div class="columns">
+<div>
+
+<img src="./img/sampling/abstract_ex1.png" img height="300px" align="right" border="4px"/>
+
+<span style="display:block; height:400px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; il campione selezionato?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo &nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+</div>
+</div>
+
+---
+### Esercizio #3
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<center>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la numerosit&agrave; del campione
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 177
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 139
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 130
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile desumerlo dalla tabella 
+
+</div>
+
+<span style="display:block; height:100px;"></span>
 
 <style>
   #countdown_exercise_2{
@@ -490,340 +652,251 @@ updateButton_exercise_2();
 </script>
 
 
----
-### Esercizio #2 -- Soluzione
-
-<div style="font-size: 90%">
-
-:question: &nbsp;&nbsp;&nbsp; Ricercatori spediscono a dei pensionati un questionario cartaceo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; chiedendo informazioni su loro stato mentale durante il lockdown.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I pensionati devono poi rispedire le risposte.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lo studio soffre di qualche bias?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) No
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Si', volunteer bias
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Si', survivor bias
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Sia b) che c) &nbsp;&nbsp;&nbsp; :white_check_mark: 
-
+</div>
 </div>
 
 ---
-### Esercizio #3
+### Esercizio #3 -- Soluzione 
 
-:question: &nbsp;&nbsp;&nbsp; Quanti alberi ci sono al mondo?
+<span style="display:block; height:10px;"></span>
 
-<span style="display:block; height:300px;"></span>
-
-<style>
-  #countdown_think {
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  #countdown_think.running {
-    background-color: green;
-  }
-  #countdown_think.finished {
-    background-color: red;
-  }
-</style>
-
-<div align="right"> Think &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button></div>
-
-<script>
-<!--
-const countdown_think = document.getElementById("countdown_think");
-const seconds_think = 120; // seconds_think
-let timeLeft_think = seconds_think;
-let timerInterval_think = null;
-
-function formatTime_think(seconds_think) {
-  const minutes = Math.floor(seconds_think / 60);
-  const remainingseconds_think = seconds_think % 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_think).padStart(2, '0')}`;
-}
-
-function updateButton_think() {
-  countdown_think.textContent = formatTime_think(timeLeft_think);
-}
-
-function startTimer_think() {
-  if (timerInterval_think === null) {
-    countdown_think.classList.add('running');
-    countdown_think.classList.remove('finished');
-    timerInterval_think = setInterval(() => {
-      if (timeLeft_think > 0) {
-        timeLeft_think--;
-        updateButton_think();
-      } else {
-        clearInterval(timerInterval_think);
-        timerInterval_think = null;
-        countdown_think.classList.remove('running');
-        countdown_think.classList.add('finished');
-        countdown_think.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_think();
-  }
-}
-
-function pauseTimer_think() {
-  clearInterval(timerInterval_think);
-  timerInterval_think = null;
-  countdown_think.classList.remove('running');
-}
-
-function resetTimer_think() {
-  timeLeft_think = seconds_think;
-  updateButton_think();
-  countdown_think.classList.remove('finished');
-  countdown_think.classList.remove('running');
-  timerInterval_think = null;
-}
-
-countdown_think.addEventListener("click", () => {
-  if (countdown_think.classList.contains('finished')) {
-    resetTimer_think();
-  } else {
-    startTimer_think();
-  }
-});
-
-updateButton_think();
--->
-</script>
-
-<!-- Think -->
-
----
-### Esercizio #3
-
-:question: &nbsp;&nbsp;&nbsp; Quanti alberi ci sono al mondo?
-
-<span style="display:block; height:300px;"></span> 
-
-<style>
-  #countdown_pair {
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  #countdown_pair.running {
-    background-color: green;
-  }
-  #countdown_pair.finished {
-    background-color: red;
-  }
-</style>
-
-<div align="right"> Pair &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button></div>
-
-<script>
-<!--
-const countdown_pair = document.getElementById("countdown_pair");
-const seconds_pair = 180; // seconds_pair
-let timeLeft_pair = seconds_pair;
-let timerInterval_pair = null;
-
-function formatTime_pair(seconds_pair) {
-  const minutes = Math.floor(seconds_pair / 60);
-  const remainingseconds_pair = seconds_pair % 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_pair).padStart(2, '0')}`;
-}
-
-function updateButton_pair() {
-  countdown_pair.textContent = formatTime_pair(timeLeft_pair);
-}
-
-function startTimer_pair() {
-  if (timerInterval_pair === null) {
-    countdown_pair.classList.add('running');
-    countdown_pair.classList.remove('finished');
-    timerInterval_pair = setInterval(() => {
-      if (timeLeft_pair > 0) {
-        timeLeft_pair--;
-        updateButton_pair();
-      } else {
-        clearInterval(timerInterval_pair);
-        timerInterval_pair = null;
-        countdown_pair.classList.remove('running');
-        countdown_pair.classList.add('finished');
-        countdown_pair.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_pair();
-  }
-}
-
-function pauseTimer_pair() {
-  clearInterval(timerInterval_pair);
-  timerInterval_pair = null;
-  countdown_pair.classList.remove('running');
-}
-
-function resetTimer_pair() {
-  timeLeft_pair = seconds_pair;
-  updateButton_pair();
-  countdown_pair.classList.remove('finished');
-  countdown_pair.classList.remove('running');
-  timerInterval_pair = null;
-}
-
-countdown_pair.addEventListener("click", () => {
-  if (countdown_pair.classList.contains('finished')) {
-    resetTimer_pair();
-  } else {
-    startTimer_pair();
-  }
-});
-
-updateButton_pair();
--->
-</script>
-
-<!-- Pair -->
-
-
----
-### Esercizio #3
-
-:question: &nbsp;&nbsp;&nbsp; Quanti alberi ci sono al mondo?
-
-<span style="display:block; height:300px;"></span> 
-
-<style>
-  #countdown_share {
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  #countdown_share.running {
-    background-color: green;
-  }
-  #countdown_share.finished {
-    background-color: red;
-  }
-</style>
-
-<div align="right"> Share &nbsp;&nbsp;&nbsp; <button id="countdown_share"></button></div>
-
-<script>
-<!--
-const countdown_share = document.getElementById("countdown_share");
-const seconds_share = 300; // seconds_share
-let timeLeft_share = seconds_share;
-let timerInterval_share = null;
-
-function formatTime_share(seconds_share) {
-  const minutes = Math.floor(seconds_share / 60);
-  const remainingseconds_share = seconds_share % 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_share).padStart(2, '0')}`;
-}
-
-function updateButton_share() {
-  countdown_share.textContent = formatTime_share(timeLeft_share);
-}
-
-function startTimer_share() {
-  if (timerInterval_share === null) {
-    countdown_share.classList.add('running');
-    countdown_share.classList.remove('finished');
-    timerInterval_share = setInterval(() => {
-      if (timeLeft_share > 0) {
-        timeLeft_share--;
-        updateButton_share();
-      } else {
-        clearInterval(timerInterval_share);
-        timerInterval_share = null;
-        countdown_share.classList.remove('running');
-        countdown_share.classList.add('finished');
-        countdown_share.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_share();
-  }
-}
-
-function pauseTimer_share() {
-  clearInterval(timerInterval_share);
-  timerInterval_share = null;
-  countdown_share.classList.remove('running');
-}
-
-function resetTimer_share() {
-  timeLeft_share = seconds_share;
-  updateButton_share();
-  countdown_share.classList.remove('finished');
-  countdown_share.classList.remove('running');
-  timerInterval_share = null;
-}
-
-countdown_share.addEventListener("click", () => {
-  if (countdown_share.classList.contains('finished')) {
-    resetTimer_share();
-  } else {
-    startTimer_share();
-  }
-});
-
-updateButton_share();
--->
-</script>
-
-<!-- But we cannot wander round the entire planet individually measuring each woody-stemmed plant and counting up those that meet this criterion. So the researchers who investigated this question took a more pragmatic approach: they first took a series of areas with a common type of landscape, known as a biome, and counted the average number of trees found per square kilometre. They then used satellite imaging to estimate the total area of the planet covered by each type of biome, carried out some complex statistical modelling
--->
-
----
-### Esercizio 4 -- Soluzione (3.04 trillions)
-
-<span style="display:block; height:1px;"></span>
+<div class="columns">
+<div>
 
 <center>
-<img src="./img/sampling/tree_counting.png" img height="450px" border="4px"/>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
 </center>
 
 <div style="font-size: 50%" align="right">
 
-Crowther, T., *et al.*, *Mapping tree density at a global scale*. Nature, 2015, doi:10.1038/nature14967
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
 
 </div>
 
-<!-- , and eventually came up with an estimated total of 3.04 trillion (that is 3,040,000,000,000) trees on the planet. This sounds a lot, except they reckoned there used to be twice this number
+</div>
+<div>
 
-we estimate that over 15 billion trees are cut down each year, and the global number of trees has fallen by approximately 46% since the start of human civilization.
-  -->
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la numerosit&agrave; del campione
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 177 &nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 139
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 130
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile desumerlo dalla tabella 
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+</div>
+</div>
+
 
 ---
-## Il metodo induttivo
+## Bias nella selezione del campione
 
-<span style="display:block; height:60px;"></span>
+<div class="columns">
+<div>
 
-- stabilire una legge universale partendo da singoli casi particolari
+<span style="display:block; height:50px;"></span>
+- Survivor bias
 
+</div>
+<div>
 
-<!-- Quello che abbiamo fatto e' stato in taking particular instances and trying to work out general conclusions.
+<span style="display:block; height:5px;"></span>
 
-we don’t know the customs in a community about kissing female friends on the cheek, and we have to try to work it out by observing whether people kiss once, twice, three times, or not at all.
+<img src="./img/sampling/Survivorship-bias.svg.png" img height="450px" align="right" border="0px"/>
 
-Questo e' il contrario del ragionamento deduttivo, using the rules of cold logic to work from general premises to particular conclusions. 
+</div>
+</div>
 
-If the law of the country is that cars should drive on the right, then we can deduce that on any particular occasion it is best to drive on the right. But induction works the other way,  -->
+<!-- Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
+
+- voglio andare a vedere dove gli aerei da guerra vengono colpiti per rinforzarli
+e l’errore logico che si commette quando si prendano in considerazione solo gli elementi che hanno superato un determinato pro- cesso di selezione, trascurando i restanti; tipicamente ci`o avviene poich ́e i primi sono fisicamente disponibili/visibili e i secondi no. -->
+
+---
+## Bias nella selezione del campione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:50px;"></span>
+- Survivor bias
+- Volunteer bias
+* Lost to follow up bias
+* $\dots$
+
+</div>
+<div>
+
+<img src="./img/sampling/sampling_bias_comics.jpeg" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+<!-- - occorre quando i volontari hanno caratteristiche diverse rispet- to alla Popolazione che si vuole studiare.  volontari alsop SES e soprattuto donne
+- occorre quando uno o piu` soggetti di uno studio di- ventano irreperibili durante lo studio stesso sto testando un nuovo farmaco, le persone che hanno i side effect peggiori possono interromperlo, o quelli per cui non funziona possono morire -->
+
+---
+### Esercizio #4
+
+<span style="display:block; height:50px;"></span>
+
+<div class="columns">
+<div>
+
+<img src="./img/sampling/abstract_methods_ex1.png" img height="210px" align="right" border="4px"/>
+
+<span style="display:block; height:380px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Lo studio soffre di qualche bias?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) No
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Survivor bias
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Volunterr bias
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Lost to follow up bias 
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+<style>
+  #countdown_exercise_4{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_4.running {
+    background-color: green;
+  }
+  #countdown_exercise_4.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_4"></button>
+
+<script>
+<!--
+const countdown_exercise_4= document.getElementById("countdown_exercise_4");
+const seconds_exercise_4= 120; // seconds_exercise_4
+let timeLeft_exercise_4= seconds_exercise_4;
+let timerInterval_exercise_4= null;
+
+function formatTime_exercise_4(seconds_exercise_4) {
+  const minutes = Math.floor(seconds_exercise_4/ 60);
+  const remainingseconds_exercise_4= seconds_exercise_4% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_4).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_4() {
+  countdown_exercise_4.textContent = formatTime_exercise_4(timeLeft_exercise_4);
+}
+
+function startTimer_exercise_4() {
+  if (timerInterval_exercise_4=== null) {
+    countdown_exercise_4.classList.add('running');
+    countdown_exercise_4.classList.remove('finished');
+    timerInterval_exercise_4= setInterval(() => {
+      if (timeLeft_exercise_4> 0) {
+        timeLeft_exercise_4--;
+        updateButton_exercise_4();
+      } else {
+        clearInterval(timerInterval_exercise_4);
+        timerInterval_exercise_4= null;
+        countdown_exercise_4.classList.remove('running');
+        countdown_exercise_4.classList.add('finished');
+        countdown_exercise_4.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_4();
+  }
+}
+
+function pauseTimer_exercise_4() {
+  clearInterval(timerInterval_exercise_4);
+  timerInterval_exercise_4= null;
+  countdown_exercise_4.classList.remove('running');
+}
+
+function resetTimer_exercise_4() {
+  timeLeft_exercise_4= seconds_exercise_4;
+  updateButton_exercise_4();
+  countdown_exercise_4.classList.remove('finished');
+  countdown_exercise_4.classList.remove('running');
+  timerInterval_exercise_4= null;
+}
+
+countdown_exercise_4.addEventListener("click", () => {
+  if (countdown_exercise_4.classList.contains('finished')) {
+    resetTimer_exercise_4();
+  } else {
+    startTimer_exercise_4();
+  }
+});
+
+updateButton_exercise_4();
+-->
+</script>
+
+</div>
+</div>
+
+---
+### Esercizio #4 -- Soluzione
+
+<span style="display:block; height:50px;"></span>
+
+<div class="columns">
+<div>
+
+<img src="./img/sampling/abstract_methods_ex1.png" img height="210px" align="right" border="4px"/>
+
+<span style="display:block; height:380px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Lo studio soffre di qualche bias?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) No
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Survivor bias
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Volunterr bias
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Lost to follow up bias &nbsp;&nbsp; :white_check_mark: 
+
+</div>
+
+</div>
+</div>
 
 ---
 ### Cosa abbiamo imparato in questa lezione?
@@ -835,6 +908,5 @@ If the law of the country is that cars should drive on the right, then we can de
 - La popolazione &egrave; l'insieme di tutti gli individui per cui vogliamo studiare un fenomeno ed è, teoricamente, infinita
 - Il campione &egrave; un sotto insieme (rappresentativo?) della popolazione
 - Anche con campioni rappresentativi (casuali) possono esserci errori e/o bias
-- Attraverso il metodo induttivo partiamo dalle osservazioni campionarie per trarre conclusioni sulla popolazione generale
 
 </div>

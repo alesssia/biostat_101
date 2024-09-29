@@ -37,7 +37,7 @@ style: |
 
 - **Cosa (portare a lezione)?**  
     - laptop (per il laboratorio)
-    - 1 foglio da consegnare
+    - fogli (per fare gli esercizi)
 
 </div>
 <div>
@@ -718,6 +718,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 </div>
 
+
 <!-- e' il processo circolare che definisce i passi necessari per risolvere un problema scientifico attraverso l’analisi statistica dei dati. Un esempio `e il PPDAC cycle.
 
  Problem-Plan-Data-Analysis-Conclusion cycle. 
@@ -734,6 +735,22 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
  Nella quarta fase, i dati vengono esplora- ti, visualizzati e analizzati, per esempio attraverso la creazione di tabelle e/o grafici, di statistiche descrittive. In questo contesto si inseriscono anche il Test di ipotesi e il calcolo e l’interpretazione di un Intervallo di confidenza di una Statistica. 
  Nell’ultima fase, i risultati vengono interpre- tati e comunicati e usati per formulare nuove domande di ricerca la cui risposta verr`a ricercata nel prossimo PPDAC cycle.
 -->
+
+---
+## Il metodo induttivo
+
+<span style="display:block; height:60px;"></span>
+
+Stabilire una legge universale partendo da singoli casi particolari
+
+<!-- Quello che abbiamo fatto e' stato in taking particular instances and trying to work out general conclusions.
+
+we don’t know the customs in a community about kissing female friends on the cheek, and we have to try to work it out by observing whether people kiss once, twice, three times, or not at all.
+
+Questo e' il contrario del ragionamento deduttivo, using the rules of cold logic to work from general premises to particular conclusions. 
+
+If the law of the country is that cars should drive on the right, then we can deduce that on any particular occasion it is best to drive on the right. But induction works the other way,  -->
+
 
 ---
 ## Cos'&egrave; la statistica?

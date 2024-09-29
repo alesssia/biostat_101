@@ -614,7 +614,6 @@ Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fa
 </div>
 
 ---
-
 ## Esercizio #3
 
 <div style="font-size: 80%">
