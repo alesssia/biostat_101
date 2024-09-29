@@ -72,9 +72,10 @@ dev.off()
 #Pool from which to sample height
 set.seed(42)
 
-n=22
+n=24
+max.score=7
 pool.h <- seq(150, 180, by=0.1)
-pool.s <- seq(0, 7, by=0.1)
+pool.s <- seq(0, max.score, by=0.1)
 names <- randomNames::randomNames(100, return.complete.data=TRUE)
 names <- names[names$gender == 0, ]
 names <- paste(names$first_name, names$last_name)
@@ -82,7 +83,7 @@ names <- data.frame(names=names, length=nchar(names))
 names <- names[order(names$length), ]
 
 df <- data.frame(h=sample(pool.h, n, replace=T), s=sample(pool.s, n, replace=T), n=names$names[1:n])
-df <- rbind(df, c(221, 23.4, "Giannis Antetokounmpo"), c(188, 25.1, "Damian Lillard"))
+df <- rbind(df, c(211, 23.4, "Giannis Antetokounmpo"), c(188, 25.1, "Damian Lillard"))
 df$h <- as.numeric(df$h)
 df$s <- as.numeric(df$s)
 
@@ -92,13 +93,13 @@ png("Basketball.png")
 print(p)
 dev.off() 
 
-p <- ggplot(df, aes(x=h, y=s, label=n)) + geom_point(size=3)  + geom_label_repel(aes(label = n), box.padding   = 0.35, point.padding = 0.5, segment.color = 'grey50') + labs(x="Altezza (cm)", y = "Punteggio medio", title="", subtitle="Dataset simulato") + graphic.settings  + geom_smooth(method="lm", se=FALSE, col="magenta", linetype="dotted", ldw=1.5) + xlim(150, 190) + ylim(0, 10)
+p <- ggplot(df[1:n, ], aes(x=h, y=s, label=n)) + geom_point(size=3)  + geom_label_repel(aes(label = n), box.padding   = 0.35, point.padding = 0.5, segment.color = 'grey50') + labs(x="Altezza (cm)", y = "Punteggio medio", title="", subtitle="Dataset simulato") + graphic.settings  + geom_smooth(method="lm", se=FALSE, col="magenta", linetype="dotted", ldw=1.5) + xlim(150, 190) + ylim(0, max.score+1)
 
 
 png("Basketball_noout.png")
 print(p)
 dev.off()
 
-cor(df$h, df$s)
-cor(df$h[1:22], df$s[1:22])
+print(cor(df$h, df$s))
+print(cor(df$h[1:n], df$s[1:n]))
   

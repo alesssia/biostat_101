@@ -122,7 +122,7 @@ md$ORR[md$ORR == 1] <- "Yes"
 md$ORR[md$ORR == 0] <- "No"
 md$ORR <- as.factor(md$ORR)
 
-p <- ggplot(md, aes(x=age, fill=ORR)) + geom_histogram(binwidth=5, color="black", alpha=0.6, position = 'identity') + scale_fill_manual(values=c("#66C2A5", "#FC8D62")) + graphic.settings + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 5") + theme(legend.position="bottom")
+p <- ggplot(md, aes(x=age, fill=ORR)) + geom_histogram(binwidth=5, color="black", alpha=0.6, position = 'identity') + scale_fill_manual("Response", values=c("#FC8D62", "#66C2A5")) + theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size)) + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 5") + theme(legend.position="bottom")
 
 png("Age_histogram_bin5_response.png")
 print(p)
@@ -143,9 +143,9 @@ print(p)
 dev.off()
   
   
-p <- ggplot(md, aes(x=age)) + geom_histogram(aes(y=..density.., fill=ORR), binwidth=5, color="black", alpha=0.6) + scale_fill_manual(values=c("#66C2A5", "#FC8D62")) + scale_color_manual(values=c("#66C2A5", "#FC8D62"))+ graphic.settings + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 5") + theme(legend.position="bottom") + geom_density(aes(colour=ORR), lwd=2)
+p <- ggplot(md, aes(x=age)) + geom_histogram(aes(y=..density.., fill=ORR), position = "identity", binwidth=5, color="black", alpha=0.6) + scale_fill_manual("Response", values=c("#FC8D62", "#66C2A5")) + scale_color_manual("Response", values=c("#FC8D62", "#66C2A5")) + theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size)) + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 5") + theme(legend.position="bottom") + geom_density(aes(colour=ORR), adjust = 0.6, bw=5, lwd=2)
 
-    
+   
 png("Age_histogram_bin5_response_density.png")
 print(p)
 dev.off()

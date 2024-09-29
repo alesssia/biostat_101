@@ -23,14 +23,9 @@ style: |
 
 <span style="display:block; height:50px;"></span>
 
-- Saper calcolare e interpretare diverse misure di centralita', dispersione e correlazione
+- Saper calcolare e interpretare diverse misure di centralit&agrave;, dispersione e correlazione
 - Saper visualizzare dati numerici
 - Saper interpretare tabelle e figure in articoli scientifici
-
-<!-- Per le variabili quantitative è necessario descrivere i dati raccolti anche numericamente… Poiché generalmente il problema è che i dati sono tanti, può risultare più semplice sintetizzarli e ridurli a pochi numeri, più facili da comprendere, utilizzare e comunicare.
-
-Le tabelle di frequenza dopo una procedura di discretizzazione non sono pero' il modo piu' consono per rappresentare i dati quantitativi. E' meglio usare
--->
 
 ---
 ## Le fasi della ricerca
@@ -47,32 +42,29 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 </div>
 
-<!-- The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. 
-
-Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.
- -->
-
 ---
+## Misure di centralit&agrave; e dispersione
 
-## Misure di centralita' e dispersione
-
-<span style="display:block; height:5px;"></span>
+<span style="display:block; height:50px;"></span>
 
 <center>
-<img src="./img/descriptive/descriptive.png" img height="450px" border="4px"/>
+<img src="./img/descriptive/descriptive.png" img height="350px" border="4px"/>
 </center>
 
-<!--  
+<!--   Per le variabili quantitative è necessario descrivere i dati raccolti anche numericamente… Poiché generalmente il problema è che i dati sono tanti, può risultare più semplice sintetizzarli e ridurli a pochi numeri, più facili da comprendere, utilizzare e comunicare.
+
+Le tabelle di frequenza dopo una procedura di discretizzazione non sono pero' il modo piu' consono per rappresentare i dati quantitativi. E' meglio usare
+
 Tendenza centrale (o posizione) -> Individuano il valore intorno al quale i dati sono raggruppati
 
 Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione delle osservazioni intorno al valore centrale -->
 
 ---
-## Misure di centralita': la moda
+## Misure di centralit&agrave;: la moda
 
 <span style="display:block; height:1px;"></span>
 
-:dart: &nbsp;&nbsp;&nbsp; L'elemeno piu' frequente
+:dart: &nbsp;&nbsp;&nbsp; L'elemento pi&ugrave; frequente
 
 <span style="display:block; height:10px;"></span>
 
@@ -80,11 +72,11 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(x)=1$
 
 ---
-## Esercizio #1
+### Esercizio #1
 
 <span style="display:block; height:1px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' la moda dei seguenti insiemi?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la moda dei seguenti insiemi?
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{1, 1, 1, 3, 4, 4, 4, 7, 8, 8, 9, 9\}$
@@ -96,7 +88,7 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(z)= \text{ } ?$
 
 <style>
-  #countdown_exercize_4{
+  #countdown_exercise_1{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -106,95 +98,90 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
     cursor: pointer;
     float: right;
   }
-  #countdown_exercize_4.running {
+  #countdown_exercise_1.running {
     background-color: green;
   }
-  #countdown_exercize_4.finished {
+  #countdown_exercise_1.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercize_4"></button>
+<button id="countdown_exercise_1"></button>
 
 <script>
 <!--
-const countdown_exercize_4= document.getElementById("countdown_exercize_4");
-const seconds_exercize_4= 120; // seconds_exercize_4
-let timeLeft_exercize_4= seconds_exercize_4;
-let timerInterval_exercize_4= null;
+const countdown_exercise_1= document.getElementById("countdown_exercise_1");
+const seconds_exercise_1= 120; // seconds_exercise_1
+let timeLeft_exercise_1= seconds_exercise_1;
+let timerInterval_exercise_1= null;
 
-function formatTime_exercize_4(seconds_exercize_4) {
-  const minutes = Math.floor(seconds_exercize_4/ 60);
-  const remainingseconds_exercize_4= seconds_exercize_4% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercize_4).padStart(2, '0')}`;
+function formatTime_exercise_1(seconds_exercise_1) {
+  const minutes = Math.floor(seconds_exercise_1/ 60);
+  const remainingseconds_exercise_1= seconds_exercise_1% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_1).padStart(2, '0')}`;
 }
 
-function updateButton_exercize_4() {
-  countdown_exercize_4.textContent = formatTime_exercize_4(timeLeft_exercize_4);
+function updateButton_exercise_1() {
+  countdown_exercise_1.textContent = formatTime_exercise_1(timeLeft_exercise_1);
 }
 
-function startTimer_exercize_4() {
-  if (timerInterval_exercize_4=== null) {
-    countdown_exercize_4.classList.add('running');
-    countdown_exercize_4.classList.remove('finished');
-    timerInterval_exercize_4= setInterval(() => {
-      if (timeLeft_exercize_4> 0) {
-        timeLeft_exercize_4--;
-        updateButton_exercize_4();
+function startTimer_exercise_1() {
+  if (timerInterval_exercise_1=== null) {
+    countdown_exercise_1.classList.add('running');
+    countdown_exercise_1.classList.remove('finished');
+    timerInterval_exercise_1= setInterval(() => {
+      if (timeLeft_exercise_1> 0) {
+        timeLeft_exercise_1--;
+        updateButton_exercise_1();
       } else {
-        clearInterval(timerInterval_exercize_4);
-        timerInterval_exercize_4= null;
-        countdown_exercize_4.classList.remove('running');
-        countdown_exercize_4.classList.add('finished');
-        countdown_exercize_4.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_1);
+        timerInterval_exercise_1= null;
+        countdown_exercise_1.classList.remove('running');
+        countdown_exercise_1.classList.add('finished');
+        countdown_exercise_1.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercize_4();
+    pauseTimer_exercise_1();
   }
 }
 
-function pauseTimer_exercize_4() {
-  clearInterval(timerInterval_exercize_4);
-  timerInterval_exercize_4= null;
-  countdown_exercize_4.classList.remove('running');
+function pauseTimer_exercise_1() {
+  clearInterval(timerInterval_exercise_1);
+  timerInterval_exercise_1= null;
+  countdown_exercise_1.classList.remove('running');
 }
 
-function resetTimer_exercize_4() {
-  timeLeft_exercize_4= seconds_exercize_4;
-  updateButton_exercize_4();
-  countdown_exercize_4.classList.remove('finished');
-  countdown_exercize_4.classList.remove('running');
-  timerInterval_exercize_4= null;
+function resetTimer_exercise_1() {
+  timeLeft_exercise_1= seconds_exercise_1;
+  updateButton_exercise_1();
+  countdown_exercise_1.classList.remove('finished');
+  countdown_exercise_1.classList.remove('running');
+  timerInterval_exercise_1= null;
 }
 
-countdown_exercize_4.addEventListener("click", () => {
-  if (countdown_exercize_4.classList.contains('finished')) {
-    resetTimer_exercize_4();
+countdown_exercise_1.addEventListener("click", () => {
+  if (countdown_exercise_1.classList.contains('finished')) {
+    resetTimer_exercise_1();
   } else {
-    startTimer_exercize_4();
+    startTimer_exercise_1();
   }
 });
 
-updateButton_exercize_4();
+updateButton_exercise_1();
 -->
 </script>
-
-
 
 <!-- se ciascun valore si presenta una volta sola, le nostre osservazioni non hanno moda
 
 Si usa soprattutto per i dati categorici -->
 
-
-
 ---
-## Esercizio #1 -- Soluzione
+### Esercizio #1 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' la moda dei seguenti insiemi?
-
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la moda dei seguenti insiemi?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{1, 1, 1, 3, 4, 4, 4, 7, 8, 8, 9, 9\}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(y)=1 \land   4$
@@ -204,9 +191,15 @@ Si usa soprattutto per i dati categorici -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $z= \{1, 3, 4, 7, 8, 9, 11, 17, 21, 42\}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(z)= \text{Non esiste}$
 
+<!-- se ciascun valore si presenta una volta sola, le nostre osservazioni non hanno moda
+Ci possono essere piu' mode (la distribuzione e' detta multi modale)
+
+Si usa soprattutto per i dati categorici -->
 
 ---
-## Misure di centralita': la mediana
+## Misure di centralit&agrave;: la mediana
+
+<span style="display:block; height:1px;"></span>
 
 :dart: &nbsp;&nbsp;&nbsp;Il valore "in mezzo"
 
@@ -222,44 +215,19 @@ Si usa soprattutto per i dati categorici -->
 
 </div>
 
-<!-- Divide l'insieme di dati in due parti uguali, con il numero osservazioni <= mediana uguale a quello >= -->
+<!-- Divide l'insieme di dati in due parti uguali, con il numero osservazioni <= mediana uguale a quello >= 
+
+Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in questo caso si prende la loro media aritmetica
+-->
 
 ---
-## Misure di centralita': la mediana
-
-:dart: &nbsp;&nbsp;&nbsp;Il valore "in mezzo"
+### Esercizio #2
 
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%">
-
-:pushpin: &nbsp;&nbsp;&nbsp;  $n=7,  x= \{1, 3, 3, 6, 7, 8, 9\}$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(x)=x_{(n+1)/2} = x_{(7+1)/2}=x_4=6$ 
-
-:pushpin: &nbsp;&nbsp;&nbsp;  $n=8,  x= \{1, 2, 3, 4, 5, 6, 8, 9\}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(x)={\frac {x_{(n/2)}+x_{((n/2)+1)}}{2}} = {\frac {x_{(8/2)}+x_{((8/2)+1)}}{2}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $={\frac {x_{4}+x_{5}}{2}} = {\frac {4+5}{2}} = 4.5$ 
-
-</div>
-
-<div style="font-size: 90%" align="right">
-
-:warning: I dati devono essere ordinati!
-
-</div>
-
-<!-- Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in questo caso si prende la loro media aritmetica -->
-
----
-## Esercizio #2
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 90%">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $n=7,  y= \{1, 3, 3, 6, 7, 8, 9\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)= \text{ ?}$ 
@@ -269,11 +237,10 @@ Si usa soprattutto per i dati categorici -->
 
 </div>
 
-<span style="display:block; height:100px;"></span>
-
+<span style="display:block; height:40px;"></span>
 
 <style>
-  #countdown_exercize_5{
+  #countdown_exercise_2{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -283,77 +250,77 @@ Si usa soprattutto per i dati categorici -->
     cursor: pointer;
     float: right;
   }
-  #countdown_exercize_5.running {
+  #countdown_exercise_2.running {
     background-color: green;
   }
-  #countdown_exercize_5.finished {
+  #countdown_exercise_2.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercize_5"></button>
+<button id="countdown_exercise_2"></button>
 
 <script>
 <!--
-const countdown_exercize_5= document.getElementById("countdown_exercize_5");
-const seconds_exercize_5= 120; // seconds_exercize_5
-let timeLeft_exercize_5= seconds_exercize_5;
-let timerInterval_exercize_5= null;
+const countdown_exercise_2= document.getElementById("countdown_exercise_2");
+const seconds_exercise_2= 120; // seconds_exercise_2
+let timeLeft_exercise_2= seconds_exercise_2;
+let timerInterval_exercise_2= null;
 
-function formatTime_exercize_5(seconds_exercize_5) {
-  const minutes = Math.floor(seconds_exercize_5/ 60);
-  const remainingseconds_exercize_5= seconds_exercize_5% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercize_5).padStart(2, '0')}`;
+function formatTime_exercise_2(seconds_exercise_2) {
+  const minutes = Math.floor(seconds_exercise_2/ 60);
+  const remainingseconds_exercise_2= seconds_exercise_2% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_2).padStart(2, '0')}`;
 }
 
-function updateButton_exercize_5() {
-  countdown_exercize_5.textContent = formatTime_exercize_5(timeLeft_exercize_5);
+function updateButton_exercise_2() {
+  countdown_exercise_2.textContent = formatTime_exercise_2(timeLeft_exercise_2);
 }
 
-function startTimer_exercize_5() {
-  if (timerInterval_exercize_5=== null) {
-    countdown_exercize_5.classList.add('running');
-    countdown_exercize_5.classList.remove('finished');
-    timerInterval_exercize_5= setInterval(() => {
-      if (timeLeft_exercize_5> 0) {
-        timeLeft_exercize_5--;
-        updateButton_exercize_5();
+function startTimer_exercise_2() {
+  if (timerInterval_exercise_2=== null) {
+    countdown_exercise_2.classList.add('running');
+    countdown_exercise_2.classList.remove('finished');
+    timerInterval_exercise_2= setInterval(() => {
+      if (timeLeft_exercise_2> 0) {
+        timeLeft_exercise_2--;
+        updateButton_exercise_2();
       } else {
-        clearInterval(timerInterval_exercize_5);
-        timerInterval_exercize_5= null;
-        countdown_exercize_5.classList.remove('running');
-        countdown_exercize_5.classList.add('finished');
-        countdown_exercize_5.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_2);
+        timerInterval_exercise_2= null;
+        countdown_exercise_2.classList.remove('running');
+        countdown_exercise_2.classList.add('finished');
+        countdown_exercise_2.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercize_5();
+    pauseTimer_exercise_2();
   }
 }
 
-function pauseTimer_exercize_5() {
-  clearInterval(timerInterval_exercize_5);
-  timerInterval_exercize_5= null;
-  countdown_exercize_5.classList.remove('running');
+function pauseTimer_exercise_2() {
+  clearInterval(timerInterval_exercise_2);
+  timerInterval_exercise_2= null;
+  countdown_exercise_2.classList.remove('running');
 }
 
-function resetTimer_exercize_5() {
-  timeLeft_exercize_5= seconds_exercize_5;
-  updateButton_exercize_5();
-  countdown_exercize_5.classList.remove('finished');
-  countdown_exercize_5.classList.remove('running');
-  timerInterval_exercize_5= null;
+function resetTimer_exercise_2() {
+  timeLeft_exercise_2= seconds_exercise_2;
+  updateButton_exercise_2();
+  countdown_exercise_2.classList.remove('finished');
+  countdown_exercise_2.classList.remove('running');
+  timerInterval_exercise_2= null;
 }
 
-countdown_exercize_5.addEventListener("click", () => {
-  if (countdown_exercize_5.classList.contains('finished')) {
-    resetTimer_exercize_5();
+countdown_exercise_2.addEventListener("click", () => {
+  if (countdown_exercise_2.classList.contains('finished')) {
+    resetTimer_exercise_2();
   } else {
-    startTimer_exercize_5();
+    startTimer_exercise_2();
   }
 });
 
-updateButton_exercize_5();
+updateButton_exercise_2();
 -->
 </script>
 
@@ -362,17 +329,16 @@ updateButton_exercize_5();
 <!-- La mediana non e' influenzata da valori anomali o estremi (outliers) -->
 
 ---
-## Esercizio #2 -- Soluzione
-
-:question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
-
+### Esercizio #2 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%">
 
+:question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $n=7,  y= \{1, 3, 3, 6, 7, 8, 9\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=y_{(n+1)/2} = y_{(7+1)/2}=y_4=6$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=y_4=6$ 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $n=7,  z= \{1, 3, 3, 6, 7, 8, 109\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(z)=\text{ ?}$ 
@@ -391,20 +357,19 @@ updateButton_exercize_5();
 <!-- La mediana non e' influenzata da valori anomali o estremi (outliers) -->
 
 ---
-## Esercizio #2 -- Soluzione
-
-:question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
-
+### Esercizio #2 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%">
 
+:question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $n=7,  y= \{1, 3, 3, 6, 7, 8, 9\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=y_{(n+1)/2} = y_{(7+1)/2}=y_4=6$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=y_4=6$ 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $n=7,  z= \{1, 3, 3, 6, 7, 8, 109\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(z)=z_{(n+1)/2} = z_{(7+1)/2}=z_4=6$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(z)=z_4=6$ 
 
 </div>
 
@@ -416,32 +381,6 @@ updateButton_exercize_5();
 
 </div>
 
-
-<!-- La mediana non e' influenzata da valori anomali o estremi (outliers) -->
-
-
----
-## Misure di centralita': la mediana
-
-:question: &nbsp;&nbsp;&nbsp; Cosa ci mostra questo esempio?
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $n=7,  y= \{1, 3, 3, 6, 7, 8, 9\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=y_{(n+1)/2} = y_{(7+1)/2}=y_4=6$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $n=7,  z= \{1, 3, 3, 6, 7, 8, 109\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(z)=z_{(n+1)/2} = z_{(7+1)/2}=z_4=6$ 
-
-</div>
-
-<div style="font-size: 90%" align="right">
-
-<span style="display:block; height:1px;"></span>
-
-</div>
 
 <!-- La mediana non e' influenzata da valori anomali o estremi (outliers) -->
 
@@ -464,188 +403,14 @@ updateButton_exercize_5();
 
 </div>
 
----
-## Esercizio #3
-
-:question: &nbsp;&nbsp;&nbsp; Quali sono il primo e terzo quartile di questi insiemi?
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{1, 3, 3, 6, 7, 8, 9\}$  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(y)= \text{ ?}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(y)= \text{ ?}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$z= \{1, 2, 3, 4, 5, 6, 8, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(z)= \text{ ?}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(z)= \text{ ?}$
-
-</div>
-
-<style>
-  #countdown_exercize_6{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercize_6.running {
-    background-color: green;
-  }
-  #countdown_exercize_6.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercize_6"></button>
-
-<script>
-<!--
-const countdown_exercize_6= document.getElementById("countdown_exercize_6");
-const seconds_exercize_6= 300; // seconds_exercize_6
-let timeLeft_exercize_6= seconds_exercize_6;
-let timerInterval_exercize_6= null;
-
-function formatTime_exercize_6(seconds_exercize_6) {
-  const minutes = Math.floor(seconds_exercize_6/ 60);
-  const remainingseconds_exercize_6= seconds_exercize_6% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercize_6).padStart(2, '0')}`;
-}
-
-function updateButton_exercize_6() {
-  countdown_exercize_6.textContent = formatTime_exercize_6(timeLeft_exercize_6);
-}
-
-function startTimer_exercize_6() {
-  if (timerInterval_exercize_6=== null) {
-    countdown_exercize_6.classList.add('running');
-    countdown_exercize_6.classList.remove('finished');
-    timerInterval_exercize_6= setInterval(() => {
-      if (timeLeft_exercize_6> 0) {
-        timeLeft_exercize_6--;
-        updateButton_exercize_6();
-      } else {
-        clearInterval(timerInterval_exercize_6);
-        timerInterval_exercize_6= null;
-        countdown_exercize_6.classList.remove('running');
-        countdown_exercize_6.classList.add('finished');
-        countdown_exercize_6.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercize_6();
-  }
-}
-
-function pauseTimer_exercize_6() {
-  clearInterval(timerInterval_exercize_6);
-  timerInterval_exercize_6= null;
-  countdown_exercize_6.classList.remove('running');
-}
-
-function resetTimer_exercize_6() {
-  timeLeft_exercize_6= seconds_exercize_6;
-  updateButton_exercize_6();
-  countdown_exercize_6.classList.remove('finished');
-  countdown_exercize_6.classList.remove('running');
-  timerInterval_exercize_6= null;
-}
-
-countdown_exercize_6.addEventListener("click", () => {
-  if (countdown_exercize_6.classList.contains('finished')) {
-    resetTimer_exercize_6();
-  } else {
-    startTimer_exercize_6();
-  }
-});
-
-updateButton_exercize_6();
--->
-</script>
+<!-- I quartili sono robusti rispetto ai valori anomal, anche se l'ultimo fosse 1000 e il primo -1000 non cambierebbero -->
 
 ---
-## Esercizio #3 -- Soluzione
-
-:question: &nbsp;&nbsp;&nbsp; Quali sono il primo e terzo quartile di questi insiemi?
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{1, 3, 3, [6], 7, 8, 9\}$  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(y) = \text{mediana}(y)[1:4] = \text{ ?}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(y) = \text{mediana}(y)[4:7] = \text{ ?}$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$z= \{1, 2, 3, 4, 5, 6, 8, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(z)= \text{ ?}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(z)= \text{ ?}$
-
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$z= \{1, 2, 3, [4, 5], 6, 8, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(z)= \text{mediana}(z)[1:4] = \text{ ?}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(z)= \text{mediana}(z)[5:8] = \text{ ?}$  -->
-
-</div>
-
----
-## Esercizio #3 -- Soluzione
-
-:question: &nbsp;&nbsp;&nbsp; Quali sono il primo e terzo quartile di questi insiemi?
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{1, 3, 3, [6], 7, 8, 9\}$  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(y) = \text{mediana}(y)[1:4] = \frac{3+3}{2} = 3$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(y) = \text{mediana}(y)[4:7] = \frac{7+8}{2} = 7.5$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$z= \{1, 2, 3, 4, 5, 6, 8, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(z)= \text{ ?}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(z)= \text{ ?}$
-
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$z= \{1, 2, 3, [4, 5], 6, 8, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(z)= \text{mediana}(z)[1:4] = \frac{2+3}{2} = 2.5$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(z)= \text{mediana}(z)[5:8] = \frac{6+8}{2} = 7$  -->
-
-</div>
-
----
-## Esercizio #3 -- Soluzione
-
-:question: &nbsp;&nbsp;&nbsp; Quali sono il primo e terzo quartile di questi insiemi?
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{1, 3, 3, [6], 7, 8, 9\}$  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(y) = \text{mediana}(y)[1:4] = \frac{3+3}{2} = 3$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(y) = \text{mediana}(y)[4:7] = \frac{7+8}{2} = 7.5$  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$z= \{1, 2, 3, [4, 5], 6, 8, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(z)= \text{mediana}(z)[1:4] = \text{ ?}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(z)= \text{mediana}(z)[5:8] = \text{ ?}$
-
-</div>
-
----
-## Esercizio #3 -- Soluzione
-
-:question: &nbsp;&nbsp;&nbsp; Quali sono il primo e terzo quartile di questi insiemi?
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{1, 3, 3, [6], 7, 8, 9\}$  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(y) = \text{mediana}(y)[1:4] = \frac{3+3}{2} = 3$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(y) = \text{mediana}(y)[4:7] = \frac{7+8}{2} = 7.5$ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$z= \{1, 2, 3, [4, 5], 6, 8, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q1}(z)= \text{mediana}(z)[1:4] = \frac{2+3}{2} = 2.5$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Q3}(z)= \text{mediana}(z)[5:8] = \frac{6+8}{2} = 7$
-
-</div>
-
----
-## Misure di centralita': la media
+## Misure di centralit&agrave;: la media
 
 <span style="display:block; height:1px;"></span>
+
+<div style="font-size: 95%">
 
 :dart: &nbsp;&nbsp;&nbsp; Media aritmetica
 
@@ -660,17 +425,21 @@ $$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}} = {\frac{1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right) = \frac{4 + 36 + 45 + 50 + 75}{5} = 42$
 
-<!-- Somma dei singoli valori diviso il numero di osservazioni  -->
+</div>
+
+<!-- Somma dei singoli valori diviso il numero di osservazioni 
+
+in generla la media e' la misura piu' usata per descrivere la tendenza centrale per la sua unicita' (c'e' solo una media) e semplicita'
+ -->
 
 ---
-## Esercizio #4
+### Esercizio #3
 
 <span style="display:block; height:1px;"></span>
 
+<div style="font-size: 95%">
+
 :question: &nbsp;&nbsp;&nbsp; Quali sono le medie di questi insiemi?
-
-
-<span style="display:block; height:10px;"></span>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = \text{ ?}$
@@ -678,9 +447,12 @@ $$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {z}} = \text{ ?}$
 
+<div>
+
+<span style="display:block; height:10px;"></span>
 
 <style>
-  #countdown_exercize_7{
+  #countdown_exercise_3{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -690,293 +462,310 @@ $$
     cursor: pointer;
     float: right;
   }
-  #countdown_exercize_7.running {
+  #countdown_exercise_3.running {
     background-color: green;
   }
-  #countdown_exercize_7.finished {
+  #countdown_exercise_3.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercize_7"></button>
+<button id="countdown_exercise_3"></button>
 
 <script>
 <!--
-const countdown_exercize_7= document.getElementById("countdown_exercize_7");
-const seconds_exercize_7= 300; // seconds_exercize_7
-let timeLeft_exercize_7= seconds_exercize_7;
-let timerInterval_exercize_7= null;
+const countdown_exercise_3= document.getElementById("countdown_exercise_3");
+const seconds_exercise_3= 300; // seconds_exercise_3
+let timeLeft_exercise_3= seconds_exercise_3;
+let timerInterval_exercise_3= null;
 
-function formatTime_exercize_7(seconds_exercize_7) {
-  const minutes = Math.floor(seconds_exercize_7/ 60);
-  const remainingseconds_exercize_7= seconds_exercize_7% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercize_7).padStart(2, '0')}`;
+function formatTime_exercise_3(seconds_exercise_3) {
+  const minutes = Math.floor(seconds_exercise_3/ 60);
+  const remainingseconds_exercise_3= seconds_exercise_3% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_3).padStart(2, '0')}`;
 }
 
-function updateButton_exercize_7() {
-  countdown_exercize_7.textContent = formatTime_exercize_7(timeLeft_exercize_7);
+function updateButton_exercise_3() {
+  countdown_exercise_3.textContent = formatTime_exercise_3(timeLeft_exercise_3);
 }
 
-function startTimer_exercize_7() {
-  if (timerInterval_exercize_7=== null) {
-    countdown_exercize_7.classList.add('running');
-    countdown_exercize_7.classList.remove('finished');
-    timerInterval_exercize_7= setInterval(() => {
-      if (timeLeft_exercize_7> 0) {
-        timeLeft_exercize_7--;
-        updateButton_exercize_7();
+function startTimer_exercise_3() {
+  if (timerInterval_exercise_3=== null) {
+    countdown_exercise_3.classList.add('running');
+    countdown_exercise_3.classList.remove('finished');
+    timerInterval_exercise_3= setInterval(() => {
+      if (timeLeft_exercise_3> 0) {
+        timeLeft_exercise_3--;
+        updateButton_exercise_3();
       } else {
-        clearInterval(timerInterval_exercize_7);
-        timerInterval_exercize_7= null;
-        countdown_exercize_7.classList.remove('running');
-        countdown_exercize_7.classList.add('finished');
-        countdown_exercize_7.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_3);
+        timerInterval_exercise_3= null;
+        countdown_exercise_3.classList.remove('running');
+        countdown_exercise_3.classList.add('finished');
+        countdown_exercise_3.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercize_7();
+    pauseTimer_exercise_3();
   }
 }
 
-function pauseTimer_exercize_7() {
-  clearInterval(timerInterval_exercize_7);
-  timerInterval_exercize_7= null;
-  countdown_exercize_7.classList.remove('running');
+function pauseTimer_exercise_3() {
+  clearInterval(timerInterval_exercise_3);
+  timerInterval_exercise_3= null;
+  countdown_exercise_3.classList.remove('running');
 }
 
-function resetTimer_exercize_7() {
-  timeLeft_exercize_7= seconds_exercize_7;
-  updateButton_exercize_7();
-  countdown_exercize_7.classList.remove('finished');
-  countdown_exercize_7.classList.remove('running');
-  timerInterval_exercize_7= null;
+function resetTimer_exercise_3() {
+  timeLeft_exercise_3= seconds_exercise_3;
+  updateButton_exercise_3();
+  countdown_exercise_3.classList.remove('finished');
+  countdown_exercise_3.classList.remove('running');
+  timerInterval_exercise_3= null;
 }
 
-countdown_exercize_7.addEventListener("click", () => {
-  if (countdown_exercize_7.classList.contains('finished')) {
-    resetTimer_exercize_7();
+countdown_exercise_3.addEventListener("click", () => {
+  if (countdown_exercise_3.classList.contains('finished')) {
+    resetTimer_exercise_3();
   } else {
-    startTimer_exercize_7();
+    startTimer_exercise_3();
   }
 });
 
-updateButton_exercize_7();
+updateButton_exercise_3();
 -->
 </script>
 
 
-<!-- Mentre la media e' la misura piu' usata per descrivere la tendenza centrale per la sua unicita' (c'e' solo una media) e semplicita', non e' particolarmente robusta rispetto agli outliers. Il valore atipico SOVRADIMENSIONA la media.
+<!-- La media non e' particolarmente robusta rispetto agli outliers. Il valore atipico SOVRADIMENSIONA la media.
 
 Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori alla media per evidenziare queste situazioni  -->
 
 ---
-## Esercizio #4 -- Soluzione
+### Esercizio #3 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
+
+<div style="font-size: 95%">
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le medie di questi insiemi?
 
-
-<span style="display:block; height:10px;"></span>
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{y_{i}}\right) = \frac{6 + 34 + 40 + 55 + 75}{5} = 42$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {z}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{z_{i}}\right) = \frac{4 + 36 + 45 + 50 + 175}{5} = 62$
 
-<!-- Mentre la media e' la misura piu' usata per descrivere la tendenza centrale per la sua unicita' (c'e' solo una media) e semplicita', non e' particolarmente robusta rispetto agli outliers. Il valore atipico SOVRADIMENSIONA la media.
+</div>
+
+<!-- La media non e' particolarmente robusta rispetto agli outliers. Il valore atipico SOVRADIMENSIONA la media.
 
 Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori alla media per evidenziare queste situazioni  -->
 
 ---
-## Misure di centralita': la media
+## La forma delle distribuzioni
 
-<span style="display:block; height:1px;"></span>
+<span style="display:block; height:70px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Cosa ci mostra questo esempio?
+<center>
+<img src="./img/descriptive/434px-Relationship_between_mean_and_median_under_different_skewness.png" img height="250px" border="0px"/>
+</center>
 
+<!-- La posizione di moda media e mediana va a definire anche quella che e' la forma della distribuzione, che descrive come una Distribuzione empirica e/o Di- stribuzione di popolazione si distribuisce. 
+
+Si dice che una distribuzione abbia una forma simmetrica quando Moda, Mediana e Media coincidono e dividono la distribuzione stessa in due parti identiche. 
+
+Qualora que- sta condizione non si verificasse, la forma della distribuzione viene detta asimmetrica. 
+Una distribuzione asimmetrica positiva `e caratterizzata da una curva in cui i valori sono raggruppati nella parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra). 
+Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva in cui i valori sono raggruppati nella parte destra, con una lunga coda a sinistra (anche detta: asimmetrica a sinistra). --->
+
+
+---
+## La forma delle distribuzioni
+
+<span style="display:block; height:70px;"></span>
+
+<center>
+<img src="./img/descriptive/Bimodal_geological.png" img height="350px" border="0px"/>
+</center>
+
+<!-- Si dice che una distribuzione sia bi- o multi-modale quando presenta due o piu` gobbe corrispondenti ai diversi valori che la moda puo` assumere nel campione.
+ -->
+
+---
+### Esercizio 4
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *The mean length of stay was 22.4 days (median: 14 days).*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; La distrubuzione empirica ha una forma...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) simmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) asimmetrica a destra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) asimmetrica a sinistra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
+
+</div>
 
 <span style="display:block; height:10px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{y_{i}}\right) = \frac{6 + 34 + 40 + 55 + 75}{5} = 42$
+<style>
+  #countdown_exercise_4{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	float: right;
+  }
+  #countdown_exercise_4.running {
+    background-color: green;
+  }
+  #countdown_exercise_4.finished {
+    background-color: red;
+  }
+</style>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {z}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{z_{i}}\right) = \frac{4 + 36 + 45 + 50 + 175}{5} = 62$
+<button id="countdown_exercise_4"></button>
 
-<!-- Mentre la media e' la misura piu' usata per descrivere la tendenza centrale per la sua unicita' (c'e' solo una media) e semplicita', non e' particolarmente robusta rispetto agli outliers. Il valore atipico SOVRADIMENSIONA la media.
+<script>
+<!--
+const countdown_exercise_4= document.getElementById("countdown_exercise_4");
+const seconds_exercise_4= 120; // seconds_exercise_4
+let timeLeft_exercise_4= seconds_exercise_4;
+let timerInterval_exercise_4= null;
 
-Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori alla media per evidenziare queste situazioni  -->
+function formatTime_exercise_4(seconds_exercise_4) {
+  const minutes = Math.floor(seconds_exercise_4/ 60);
+  const remainingseconds_exercise_4= seconds_exercise_4% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_4).padStart(2, '0')}`;
+}
 
---- 
-## I valori anomali
+function updateButton_exercise_4() {
+  countdown_exercise_4.textContent = formatTime_exercise_4(timeLeft_exercise_4);
+}
 
-<span style="display:block; height:1px;"></span>
+function startTimer_exercise_4() {
+  if (timerInterval_exercise_4=== null) {
+    countdown_exercise_4.classList.add('running');
+    countdown_exercise_4.classList.remove('finished');
+    timerInterval_exercise_4= setInterval(() => {
+      if (timeLeft_exercise_4> 0) {
+        timeLeft_exercise_4--;
+        updateButton_exercise_4();
+      } else {
+        clearInterval(timerInterval_exercise_4);
+        timerInterval_exercise_4= null;
+        countdown_exercise_4.classList.remove('running');
+        countdown_exercise_4.classList.add('finished');
+        countdown_exercise_4.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_4();
+  }
+}
 
-<center>
-<img src="./img/descriptive/outliers_mean.png" img height="450px" border="0px"/>
-</center>
+function pauseTimer_exercise_4() {
+  clearInterval(timerInterval_exercise_4);
+  timerInterval_exercise_4= null;
+  countdown_exercise_4.classList.remove('running');
+}
 
-<div style="font-size: 50%">
+function resetTimer_exercise_4() {
+  timeLeft_exercise_4= seconds_exercise_4;
+  updateButton_exercise_4();
+  countdown_exercise_4.classList.remove('finished');
+  countdown_exercise_4.classList.remove('running');
+  timerInterval_exercise_4= null;
+}
 
-Reilly, J. *et al.*. Procedure‐Specific Surgical Site Infection Rates and Postdischarge Surveillance in Scotland,  Infection Control and Hospital Epidemiology, 2006, doi:10.1086/509839  
+countdown_exercise_4.addEventListener("click", () => {
+  if (countdown_exercise_4.classList.contains('finished')) {
+    resetTimer_exercise_4();
+  } else {
+    startTimer_exercise_4();
+  }
+});
 
+updateButton_exercise_4();
+-->
+</script>
+
+
+</div>
+</div>
+
+
+
+---
+### Esercizio 4 -- Soluzione
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *The mean length of stay was 22.4 days (median: 14 days).*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; La distrubuzione empirica ha una forma...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) simmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) asimmetrica a destra &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) asimmetrica a sinistra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
+
+</div>
+
+</div>
 </div>
 
 ---
 ## Misure di dispersione
 
+<span style="display:block; height:10px;"></span>
+
 <center>
-<img src="./img/descriptive/drowning_statistician.png" img height="550px" border="0px"/>
+<img src="./img/descriptive/drowning_statistician.png" img height="450px" border="0px"/>
 </center>
 
 ---
 ## Misure di dispersione
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:50px;"></span>
 
 <center>
-<img src="./img/descriptive/sd.png" img height="450px" border="4px"/>
+<img src="./img/descriptive/sd.png" img height="350px" border="4px"/>
 </center>
+
 
 ---
 ## Misure di dispersione: range
 
-<span style="display:block; height:30px;"></span>
+<span style="display:block; height:1px;"></span>
 
 :dart: &nbsp;&nbsp;&nbsp; ${\text{range}(x)}= \text{max}(x)-\text{min}(x)$
 
-<span style="display:block; height:30px;"></span>
+<span style="display:block; height:10px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp;  $x= \{6, 7, 15, 36, 39, 40, 41, 42, 43, 47, 49\}$ 
+<center>
+<img src="./img/descriptive/outliers_range.svg" img height="250px" border="0px"/>
+</center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\text{range}(x)}= \text{max}(x)-\text{min}(x)=49-6=43$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{range}(x)= 9754-2830=6924$
 
 <!-- INTERVALLO di VARIAZIONE. Il range pero' si basa solo sui due valori estremi, senza indicare come si distribuiscono i dati entro l’intervallo 
 
-piu; semplice, meno informativo
+piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tiene conto solo di due valori, e non e' robusta quando ci sono valori anomali 
 
  Non fornisce però informazioni sulla distribuzione delle osservazioni: non è ad esempio possibile capire se i valori siano dispersi o raggruppati in un’estremità…
+
+14 osservazioni
 -->
-
----
-## Esercizio #5
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/descriptive/outliers_range.svg" img height="250px" border="0px"/>
-</center>
-
-<span style="display:block; height:10px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; $\text{range}(x)= \text{ ?}$
-
-<style>
-  #countdown_exercize_8{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercize_8.running {
-    background-color: green;
-  }
-  #countdown_exercize_8.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercize_8"></button>
-
-<script>
-<!--
-const countdown_exercize_8= document.getElementById("countdown_exercize_8");
-const seconds_exercize_8= 120; // seconds_exercize_8
-let timeLeft_exercize_8= seconds_exercize_8;
-let timerInterval_exercize_8= null;
-
-function formatTime_exercize_8(seconds_exercize_8) {
-  const minutes = Math.floor(seconds_exercize_8/ 60);
-  const remainingseconds_exercize_8= seconds_exercize_8% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercize_8).padStart(2, '0')}`;
-}
-
-function updateButton_exercize_8() {
-  countdown_exercize_8.textContent = formatTime_exercize_8(timeLeft_exercize_8);
-}
-
-function startTimer_exercize_8() {
-  if (timerInterval_exercize_8=== null) {
-    countdown_exercize_8.classList.add('running');
-    countdown_exercize_8.classList.remove('finished');
-    timerInterval_exercize_8= setInterval(() => {
-      if (timeLeft_exercize_8> 0) {
-        timeLeft_exercize_8--;
-        updateButton_exercize_8();
-      } else {
-        clearInterval(timerInterval_exercize_8);
-        timerInterval_exercize_8= null;
-        countdown_exercize_8.classList.remove('running');
-        countdown_exercize_8.classList.add('finished');
-        countdown_exercize_8.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercize_8();
-  }
-}
-
-function pauseTimer_exercize_8() {
-  clearInterval(timerInterval_exercize_8);
-  timerInterval_exercize_8= null;
-  countdown_exercize_8.classList.remove('running');
-}
-
-function resetTimer_exercize_8() {
-  timeLeft_exercize_8= seconds_exercize_8;
-  updateButton_exercize_8();
-  countdown_exercize_8.classList.remove('finished');
-  countdown_exercize_8.classList.remove('running');
-  timerInterval_exercize_8= null;
-}
-
-countdown_exercize_8.addEventListener("click", () => {
-  if (countdown_exercize_8.classList.contains('finished')) {
-    resetTimer_exercize_8();
-  } else {
-    startTimer_exercize_8();
-  }
-});
-
-updateButton_exercize_8();
--->
-</script>
-
-
-<!-- Il range ha tuttavia un'utilita' limitata: tiene conto solo di due valori, e non e' robusta quando ci sono valori anomali
-
-14 osservazioni -->
-
----
-## Esercizio #5 -- Soluzione
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/descriptive/outliers_range.svg" img height="250px" border="0px"/>
-</center>
-
-<span style="display:block; height:10px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; $\text{range}(x)= \text{max}(x)-\text{min}(x)=9,754-2,830=6,924$
-
-<!-- Il range ha tuttavia un'utilita' limitata: tiene conto solo di due valori, e non e' robusta quando ci sono valori anomali -->
 
 ---
 ## Misure di dispersione: range interquantile
@@ -991,173 +780,7 @@ updateButton_exercize_8();
 <img src="./img/descriptive/iqr.png" img height="300px" border="0px"/>
 </center>
 
----
-## Esercizio #6
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/descriptive/outliers_range.svg" img height="250px" border="0px"/>
-</center>
-
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\text{IQR}(x) \text{ }\text{ } = \text{ ?}$
-
-<style>
-  #countdown_exercize_9{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercize_9.running {
-    background-color: green;
-  }
-  #countdown_exercize_9.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercize_9"></button>
-
-<script>
-<!--
-const countdown_exercize_9= document.getElementById("countdown_exercize_9");
-const seconds_exercize_9= 300; // seconds_exercize_9
-let timeLeft_exercize_9= seconds_exercize_9;
-let timerInterval_exercize_9= null;
-
-function formatTime_exercize_9(seconds_exercize_9) {
-  const minutes = Math.floor(seconds_exercize_9/ 60);
-  const remainingseconds_exercize_9= seconds_exercize_9% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercize_9).padStart(2, '0')}`;
-}
-
-function updateButton_exercize_9() {
-  countdown_exercize_9.textContent = formatTime_exercize_9(timeLeft_exercize_9);
-}
-
-function startTimer_exercize_9() {
-  if (timerInterval_exercize_9=== null) {
-    countdown_exercize_9.classList.add('running');
-    countdown_exercize_9.classList.remove('finished');
-    timerInterval_exercize_9= setInterval(() => {
-      if (timeLeft_exercize_9> 0) {
-        timeLeft_exercize_9--;
-        updateButton_exercize_9();
-      } else {
-        clearInterval(timerInterval_exercize_9);
-        timerInterval_exercize_9= null;
-        countdown_exercize_9.classList.remove('running');
-        countdown_exercize_9.classList.add('finished');
-        countdown_exercize_9.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercize_9();
-  }
-}
-
-function pauseTimer_exercize_9() {
-  clearInterval(timerInterval_exercize_9);
-  timerInterval_exercize_9= null;
-  countdown_exercize_9.classList.remove('running');
-}
-
-function resetTimer_exercize_9() {
-  timeLeft_exercize_9= seconds_exercize_9;
-  updateButton_exercize_9();
-  countdown_exercize_9.classList.remove('finished');
-  countdown_exercize_9.classList.remove('running');
-  timerInterval_exercize_9= null;
-}
-
-countdown_exercize_9.addEventListener("click", () => {
-  if (countdown_exercize_9.classList.contains('finished')) {
-    resetTimer_exercize_9();
-  } else {
-    startTimer_exercize_9();
-  }
-});
-
-updateButton_exercize_9();
--->
-</script>
-
-
-<!-- Non sono considerati i valori estremi, ma sappiamo come si distribuisce la meta dei dati rispetto al valore centrale -->
-
----
-## Esercizio #6 -- Soluzione
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/descriptive/outliers_range.svg" img height="250px" border="0px"/>
-</center>
-
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\text{IQR}(x) \text{ }\text{ } = \text{Q3}(x)-\text{Q1}(x) \text{ }\text{ } = \text{ ?}$
-
----
-## Esercizio #6 -- Soluzione
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/descriptive/outliers_iqr_sorted.png" img height="250px" border="0px"/>
-</center>
-
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\text{IQR}(x) \text{ }\text{ } = \text{Q3}(x)-\text{Q1}(x) \text{ }\text{ } = \text{ ?}$
-
-<!-- Non sono considerati i valori estremi, ma sappiamo come si distribuisce la meta dei dati rispetto al valore centrale -->
-
----
-## Esercizio #6 -- Soluzione
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/descriptive/outliers_iqr_sorted_1.png" img height="250px" border="0px"/>
-</center>
-
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\text{IQR}(x) \text{ }\text{ } = \text{Q3}(x)-\text{Q1}(x) \text{ }\text{ } = \text{ ?}$
-
-<!-- Non sono considerati i valori estremi, ma sappiamo come si distribuisce la meta dei dati rispetto al valore centrale -->
-
----
-## Esercizio #6 -- Soluzione
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/descriptive/outliers_iqr_sorted_2.png" img height="250px" border="0px"/>
-</center>
-
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\text{IQR}(x) \text{ }\text{ } = \text{Q3}(x)-\text{Q1}(x) \text{ }\text{ } = \text{ ?}$
-
-<!-- Non sono considerati i valori estremi, ma sappiamo come si distribuisce la meta dei dati rispetto al valore centrale -->
-
----
-## Esercizio #6 -- Soluzione
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/descriptive/outliers_iqr_sorted_2.png" img height="250px" border="0px"/>
-</center>
-
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\text{IQR}(x) \text{ }\text{ } = \text{Q3}(x)-\text{Q1}(x) \text{ }\text{ }\text{ }\text{ } =5,253-3,423=1,830$
-
-<!-- Non sono considerati i valori estremi, ma sappiamo come si distribuisce la meta dei dati rispetto al valore centrale -->
+<!-- Robusto rispetto agli outliers -->
 
 ---
 ## Misure di dispersione: varianza
@@ -1175,6 +798,8 @@ updateButton_exercize_9();
 
 <span style="display:block; height:1px;"></span>
 
+<div style="font-size: 95%">
+
 :dart: &nbsp;&nbsp;&nbsp; $s^2 = \frac{1}{n-1}\sum _{i=1}^{n}(x_{i}-\bar {x} )^{2}$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dove &nbsp;&nbsp;&nbsp; ${\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)$ 
@@ -1186,6 +811,8 @@ updateButton_exercize_9();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s = \frac{1}{3-1}\times [(1-2)^2+ (2-2)^2+(3-2)^2] =$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \frac{1}{2}\times [1^2+ 0^2+1^2 ]=  \frac{1}{2}\times 2 = 1$
 
+</div>
+
 <!-- Andiamo a fare la distanza (differenza) tra ciascun valore e la media, la eleviamo al quatrato, la sommiamo e andiamo a dividerla per la dimensione del campione - 1 -->
 
 
@@ -1193,6 +820,8 @@ updateButton_exercize_9();
 ## Misure di dispersione: deviazione standard
 
 <span style="display:block; height:1px;"></span>
+
+<div style="font-size: 95%">
 
 :dart: &nbsp;&nbsp;&nbsp; $s = \sqrt{s^2} = \sqrt {{\frac {1}{n-1}}\sum _{i=1}^{n}(x_{i}-\bar {x} )^{2}}$
 
@@ -1205,22 +834,32 @@ updateButton_exercize_9();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s = \sqrt {\frac{1}{3-1}\times [(1-2)^2+ (2-2)^2+(3-2)^2] }=$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \sqrt {\frac{1}{2}\times [1^2+ 0^2+1^2 }]= \sqrt {\frac{1}{2}\times 2}= \sqrt {1} = 1$
 
-<!-- che nella varianza l'unità di misura è diversa da quella della variabile su cui è calcolata (abbiamo fatto il quadrato delle fifferenze, ricordate?), si utilizza la sua radice quadrata detta SCARTO QUADRATICO MEDIO o deviazione standard. -->
+</div>
 
+<!-- che nella varianza l'unità di misura è diversa da quella della variabile su cui è calcolata (abbiamo fatto il quadrato delle differenze, ricordate?), si utilizza la sua radice quadrata detta SCARTO QUADRATICO MEDIO o deviazione standard. -->
 
 ---
-## Esercizio #7
+### Esercizio #5
 
 <span style="display:block; height:1px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' la deviazione standard di questo insieme?
+<div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{60, 34, 26\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $SD(y) = \text{? }$ 
+:question: &nbsp;&nbsp;&nbsp; La deviazione standard &egrave; un indice di dispersione?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; La moda &egrave; una misura di tendenza centrale?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso
+
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+</div>
+
+<span style="display:block; height:20px;"></span>
 
 <style>
-  #countdown_exercize_10{
+  #countdown_exercise_5{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -1230,323 +869,180 @@ updateButton_exercize_9();
     cursor: pointer;
     float: right;
   }
-  #countdown_exercize_10.running {
+  #countdown_exercise_5.running {
     background-color: green;
   }
-  #countdown_exercize_10.finished {
+  #countdown_exercise_5.finished {
     background-color: red;
   }
 </style>
 
-<span style="display:block; height:100px;"></span>
-
-<button id="countdown_exercize_10"></button>
+<button id="countdown_exercise_5"></button>
 
 <script>
 <!--
-const countdown_exercize_10= document.getElementById("countdown_exercize_10");
-const seconds_exercize_10= 300; // seconds_exercize_10
-let timeLeft_exercize_10= seconds_exercize_10;
-let timerInterval_exercize_10= null;
+const countdown_exercise_5= document.getElementById("countdown_exercise_5");
+const seconds_exercise_5= 120; // seconds_exercise_5
+let timeLeft_exercise_5= seconds_exercise_5;
+let timerInterval_exercise_5= null;
 
-function formatTime_exercize_10(seconds_exercize_10) {
-  const minutes = Math.floor(seconds_exercize_10/ 60);
-  const remainingseconds_exercize_10= seconds_exercize_10% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercize_10).padStart(2, '0')}`;
+function formatTime_exercise_5(seconds_exercise_5) {
+  const minutes = Math.floor(seconds_exercise_5/ 60);
+  const remainingseconds_exercise_5= seconds_exercise_5% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
 }
 
-function updateButton_exercize_10() {
-  countdown_exercize_10.textContent = formatTime_exercize_10(timeLeft_exercize_10);
+function updateButton_exercise_5() {
+  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
 }
 
-function startTimer_exercize_10() {
-  if (timerInterval_exercize_10=== null) {
-    countdown_exercize_10.classList.add('running');
-    countdown_exercize_10.classList.remove('finished');
-    timerInterval_exercize_10= setInterval(() => {
-      if (timeLeft_exercize_10> 0) {
-        timeLeft_exercize_10--;
-        updateButton_exercize_10();
+function startTimer_exercise_5() {
+  if (timerInterval_exercise_5=== null) {
+    countdown_exercise_5.classList.add('running');
+    countdown_exercise_5.classList.remove('finished');
+    timerInterval_exercise_5= setInterval(() => {
+      if (timeLeft_exercise_5> 0) {
+        timeLeft_exercise_5--;
+        updateButton_exercise_5();
       } else {
-        clearInterval(timerInterval_exercize_10);
-        timerInterval_exercize_10= null;
-        countdown_exercize_10.classList.remove('running');
-        countdown_exercize_10.classList.add('finished');
-        countdown_exercize_10.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_5);
+        timerInterval_exercise_5= null;
+        countdown_exercise_5.classList.remove('running');
+        countdown_exercise_5.classList.add('finished');
+        countdown_exercise_5.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercize_10();
+    pauseTimer_exercise_5();
   }
 }
 
-function pauseTimer_exercize_10() {
-  clearInterval(timerInterval_exercize_10);
-  timerInterval_exercize_10= null;
-  countdown_exercize_10.classList.remove('running');
+function pauseTimer_exercise_5() {
+  clearInterval(timerInterval_exercise_5);
+  timerInterval_exercise_5= null;
+  countdown_exercise_5.classList.remove('running');
 }
 
-function resetTimer_exercize_10() {
-  timeLeft_exercize_10= seconds_exercize_10;
-  updateButton_exercize_10();
-  countdown_exercize_10.classList.remove('finished');
-  countdown_exercize_10.classList.remove('running');
-  timerInterval_exercize_10= null;
+function resetTimer_exercise_5() {
+  timeLeft_exercise_5= seconds_exercise_5;
+  updateButton_exercise_5();
+  countdown_exercise_5.classList.remove('finished');
+  countdown_exercise_5.classList.remove('running');
+  timerInterval_exercise_5= null;
 }
 
-countdown_exercize_10.addEventListener("click", () => {
-  if (countdown_exercize_10.classList.contains('finished')) {
-    resetTimer_exercize_10();
+countdown_exercise_5.addEventListener("click", () => {
+  if (countdown_exercise_5.classList.contains('finished')) {
+    resetTimer_exercise_5();
   } else {
-    startTimer_exercize_10();
+    startTimer_exercise_5();
   }
 });
 
-updateButton_exercize_10();
+updateButton_exercise_5();
 -->
 </script>
 
 
 ---
-## Esercizio #7 -- Soluzione
+### Esercizio #5 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; Qual e' la deviazione standard di questo insieme?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{60, 34, 26\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $SD(y) = \sqrt {{\frac {1}{n-1}}\sum _{i=1}^{n}(y_{i}-\bar {y} )^{2}}= \text{? }$ 
-
----
-## Esercizio #7 -- Soluzione
-
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; Qual e' la deviazione standard di questo insieme?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{60, 34, 26\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ${\bar {y}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{y_{i}}\right) = \frac{60 + 34 + 26}{3} = 40$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $SD(y) = \sqrt {{\frac {1}{n-1}}\sum _{i=1}^{n}(y_{i}-\bar {y} )^{2}}= \text{? }$ 
-
----
-## Esercizio #7 -- Soluzione
-
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; Qual e' la deviazione standard di questo insieme?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{60, 34, 26\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = 40$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $SD(y) = \sqrt {{\frac {1}{n-1}}\sum _{i=1}^{n}(y_{i}-\bar {y} )^{2}}=$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \sqrt {\frac{1}{3-1}\times [(60-40)^2+ (34-40)^2+(26-40)^2] }=$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \sqrt {\frac{1}{2}\times [20^2+ (-6)^2+ (-14)^2 }] =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \sqrt {\frac{1}{2}\times [400+ 36 + 196]} = \sqrt {\frac{632}{2}}= \sqrt {316} = 17.8$
-
----
-## Esercizio #8
-
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; La deviazione standard e' robusta rispetto ai valori anomali?
-
----
-## Esercizio #8
-
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; La deviazione standard e' robusta rispetto ai valori anomali?
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $z= \{60, 34, 125\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $SD(z) = \text{? }$ 
+:question: &nbsp;&nbsp;&nbsp; La deviazione standard &egrave; un indice di dispersione?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
-<div>
+:question: &nbsp;&nbsp;&nbsp; La moda &egrave; una misura di tendenza centrale?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero   &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
-<span style="display:block; height:100px;"></span>
-
-<style>
-  #countdown_exercize_11{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercize_11.running {
-    background-color: green;
-  }
-  #countdown_exercize_11.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercize_11"></button>
-
-<script>
-<!--
-const countdown_exercize_11= document.getElementById("countdown_exercize_11");
-const seconds_exercize_11= 300; // seconds_exercize_11
-let timeLeft_exercize_11= seconds_exercize_11;
-let timerInterval_exercize_11= null;
-
-function formatTime_exercize_11(seconds_exercize_11) {
-  const minutes = Math.floor(seconds_exercize_11/ 60);
-  const remainingseconds_exercize_11= seconds_exercize_11% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercize_11).padStart(2, '0')}`;
-}
-
-function updateButton_exercize_11() {
-  countdown_exercize_11.textContent = formatTime_exercize_11(timeLeft_exercize_11);
-}
-
-function startTimer_exercize_11() {
-  if (timerInterval_exercize_11=== null) {
-    countdown_exercize_11.classList.add('running');
-    countdown_exercize_11.classList.remove('finished');
-    timerInterval_exercize_11= setInterval(() => {
-      if (timeLeft_exercize_11> 0) {
-        timeLeft_exercize_11--;
-        updateButton_exercize_11();
-      } else {
-        clearInterval(timerInterval_exercize_11);
-        timerInterval_exercize_11= null;
-        countdown_exercize_11.classList.remove('running');
-        countdown_exercize_11.classList.add('finished');
-        countdown_exercize_11.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercize_11();
-  }
-}
-
-function pauseTimer_exercize_11() {
-  clearInterval(timerInterval_exercize_11);
-  timerInterval_exercize_11= null;
-  countdown_exercize_11.classList.remove('running');
-}
-
-function resetTimer_exercize_11() {
-  timeLeft_exercize_11= seconds_exercize_11;
-  updateButton_exercize_11();
-  countdown_exercize_11.classList.remove('finished');
-  countdown_exercize_11.classList.remove('running');
-  timerInterval_exercize_11= null;
-}
-
-countdown_exercize_11.addEventListener("click", () => {
-  if (countdown_exercize_11.classList.contains('finished')) {
-    resetTimer_exercize_11();
-  } else {
-    startTimer_exercize_11();
-  }
-});
-
-updateButton_exercize_11();
--->
-</script>
-
----
-## Esercizio #8 -- Soluzione
-
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; La deviazione standard e' robusta rispetto ai valori anomali?
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $z= \{60, 34, 125\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $SD(z) = \sqrt {{\frac {1}{n-1}}\sum _{i=1}^{n}(z_{i}-\bar {z} ^{2}})= \text{? }$ 
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
 </div>
 
 ---
-## Esercizio #8 -- Soluzione
+### Esercizio #5 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; La deviazione standard e' robusta rispetto ai valori anomali?
-
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $z= \{60, 34, 125\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ${\bar {z}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{z_{i}}\right) = \frac{60 + 34 + 125}{3} = 73$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $SD(z) = \sqrt {{\frac {1}{n-1}}\sum _{i=1}^{n}(z_{i}-\bar {z} )^{2}}= \text{? }$ 
+:question: &nbsp;&nbsp;&nbsp; La deviazione standard &egrave; un indice di dispersione?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; La moda &egrave; una misura di tendenza centrale?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
 </div>
 
 ---
-## Esercizio #8 -- Soluzione
+### Esercizio #5 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; La deviazione standard e' robusta rispetto ai valori anomali?
-
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $z= \{60, 34, 125\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {z}} = 73$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $SD(z) = \sqrt {{\frac {1}{n-1}}\sum _{i=1}^{n}(z_{i}-\bar {z} )^{2}}=$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \sqrt {\frac{1}{3-1}\times [(60-73)^2+ (34-73)^2+(125-73)^2] }=$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \sqrt {\frac{1}{2}\times [(-13)^2+ (-39)^2+ 52^2 }] =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \sqrt {\frac{1}{2}\times [169 + 1521 + 2704]} = \sqrt {\frac{4394}{2}}= \sqrt {2197} = 46.9$
+:question: &nbsp;&nbsp;&nbsp; La deviazione standard &egrave; un indice di dispersione?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; La moda &egrave; una misura di tendenza centrale?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
 
 </div>
 
----
-## Centralita', dispersione e tipi di dati
+--- 
+## I valori estremi
 
-<span style="display:block; height:50px;"></span>
+<span style="display:block; height:1px;"></span>
 
-<div style="font-size: 90%">
+<center>
+<img src="./img/descriptive/outliers_mean.png" img height="450px" border="0px"/>
+</center>
 
-|Tipo di dato | Misura di centralita' | Misura di dispersione |
-| ---- | ----- | ---- |
-| Nominali | Moda | - |
-| Ordinali | Moda, Mediana | Range, IQR |
-| Numerici | Moda, Mediana, Media | Range, IQR, deviazione standard |
+<div style="font-size: 50%">
+
+Reilly, J. *et al.*. *Procedure‐Specific Surgical Site Infection Rates and Postdischarge Surveillance in Scotland*,  Infection Control and Hospital Epidemiology, 2006, doi:10.1086/509839  
 
 </div>
 
 <!-- Scelta della misura di tendenza centrale
 - media se la distribuzione è simmetrica
-- mediana se la distribuzione NON è simmetrica
-(forse a causa di valori estremi)
-- moda per indicare il valore più comune nell’ambito
-della distribuzione 
+- mediana se la distribuzione NON è simmetrica (forse a causa di valori estremi)
+- moda per indicare il valore più comune nell’ambito della distribuzione  (ma come accennavo piu' usato nel caso di variabile categoriche)
 
-Lo vedremo piu' nel dettaglio piu' avanti
+Inoltre, Se la numerosità del campione è piccola, la mediana e il range interquartile sono misure più robuste
 -->
 
 ---
-## Esercizio #9 
-
-<div class="columns">
-<div>
-
-<center>
-<img src="./img/descriptive/Drug_compliace_exercize.png" img height="550px" border="4px"/>
-</center>
-
-</div>
-<div>
+### Esercizio 6
 
 <div style="font-size: 90%">
 
-:question: Quale farmaco sembra essere 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tollerato meglio dai pazienti?
+:question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
 
-<span style="display:block; height:280px;"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Coronary-artery calcium scores averaged 68.9&plusmn;244.2 (range 0 to 1526)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) con media e standard deviation
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
+
+</div>
 
 <style>
-  #countdown_exercise_12{
+  #countdown_exercise_6{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -1556,147 +1052,144 @@ Lo vedremo piu' nel dettaglio piu' avanti
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_12.running {
+  #countdown_exercise_6.running {
     background-color: green;
   }
-  #countdown_exercise_12.finished {
+  #countdown_exercise_6.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_12"></button>
+<button id="countdown_exercise_6"></button>
 
 <script>
 <!--
-const countdown_exercise_12= document.getElementById("countdown_exercise_12");
-const seconds_exercise_12= 300; // seconds_exercise_12
-let timeLeft_exercise_12= seconds_exercise_12;
-let timerInterval_exercise_12= null;
+const countdown_exercise_6= document.getElementById("countdown_exercise_6");
+const seconds_exercise_6= 120; // seconds_exercise_6
+let timeLeft_exercise_6= seconds_exercise_6;
+let timerInterval_exercise_6= null;
 
-function formatTime_exercise_12(seconds_exercise_12) {
-  const minutes = Math.floor(seconds_exercise_12/ 60);
-  const remainingseconds_exercise_12= seconds_exercise_12% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_12).padStart(2, '0')}`;
+function formatTime_exercise_6(seconds_exercise_6) {
+  const minutes = Math.floor(seconds_exercise_6/ 60);
+  const remainingseconds_exercise_6= seconds_exercise_6% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_12() {
-  countdown_exercise_12.textContent = formatTime_exercise_12(timeLeft_exercise_12);
+function updateButton_exercise_6() {
+  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
 }
 
-function startTimer_exercise_12() {
-  if (timerInterval_exercise_12=== null) {
-    countdown_exercise_12.classList.add('running');
-    countdown_exercise_12.classList.remove('finished');
-    timerInterval_exercise_12= setInterval(() => {
-      if (timeLeft_exercise_12> 0) {
-        timeLeft_exercise_12--;
-        updateButton_exercise_12();
+function startTimer_exercise_6() {
+  if (timerInterval_exercise_6=== null) {
+    countdown_exercise_6.classList.add('running');
+    countdown_exercise_6.classList.remove('finished');
+    timerInterval_exercise_6= setInterval(() => {
+      if (timeLeft_exercise_6> 0) {
+        timeLeft_exercise_6--;
+        updateButton_exercise_6();
       } else {
-        clearInterval(timerInterval_exercise_12);
-        timerInterval_exercise_12= null;
-        countdown_exercise_12.classList.remove('running');
-        countdown_exercise_12.classList.add('finished');
-        countdown_exercise_12.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_6);
+        timerInterval_exercise_6= null;
+        countdown_exercise_6.classList.remove('running');
+        countdown_exercise_6.classList.add('finished');
+        countdown_exercise_6.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_12();
+    pauseTimer_exercise_6();
   }
 }
 
-function pauseTimer_exercise_12() {
-  clearInterval(timerInterval_exercise_12);
-  timerInterval_exercise_12= null;
-  countdown_exercise_12.classList.remove('running');
+function pauseTimer_exercise_6() {
+  clearInterval(timerInterval_exercise_6);
+  timerInterval_exercise_6= null;
+  countdown_exercise_6.classList.remove('running');
 }
 
-function resetTimer_exercise_12() {
-  timeLeft_exercise_12= seconds_exercise_12;
-  updateButton_exercise_12();
-  countdown_exercise_12.classList.remove('finished');
-  countdown_exercise_12.classList.remove('running');
-  timerInterval_exercise_12= null;
+function resetTimer_exercise_6() {
+  timeLeft_exercise_6= seconds_exercise_6;
+  updateButton_exercise_6();
+  countdown_exercise_6.classList.remove('finished');
+  countdown_exercise_6.classList.remove('running');
+  timerInterval_exercise_6= null;
 }
 
-countdown_exercise_12.addEventListener("click", () => {
-  if (countdown_exercise_12.classList.contains('finished')) {
-    resetTimer_exercise_12();
+countdown_exercise_6.addEventListener("click", () => {
+  if (countdown_exercise_6.classList.contains('finished')) {
+    resetTimer_exercise_6();
   } else {
-    startTimer_exercise_12();
+    startTimer_exercise_6();
   }
 });
 
-updateButton_exercise_12();
+updateButton_exercise_6();
 -->
 </script>
 
 
-</div>
-</div>
 
-
-
-<!-- I dati qui a fianco si riferiscono ad un trial clinico randomizzato, doppio cieco, di confronto tra due farmaci anti-ipertensivi, somministrati a pazienti con ipertensione accertata.
-
-P3m -> media dei 3 misuramenti di pressione
-
-Discutere prima di dare la risposta -->
+<!-- Valutando i valori numerici (media e DS), come 
+con la media e la deviazione standard (come per tutte le altre variabili in tabella) 
+con la mediana e il range interquartile (perché la variabile non ha una distribuzione normale) -->
 
 ---
-## Esercizio #9 -- Soluzione
+### Esercizio 6 -- Soluzione
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Coronary-artery calcium scores averaged 68.9&plusmn;244.2 (range 0 to 1526)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls*
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) con media e standard deviation
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
+
+</div>
+
+---
+### Esercizio #7
+
+<span style="display:block; height:10px;"></span>
 
 <div class="columns">
 <div>
 
 <center>
-<img src="./img/descriptive/Drug_compliace_exercize.png" img height="550px" border="4px"/>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
 </center>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
 
 </div>
 <div>
 
-<div style="font-size: 90%">
+<div style="font-size: 70%">
 
-:question: Quale farmaco sembra essere 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tollerato meglio dai pazienti?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di bambine e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragazze nel gruppo di intervento?
 
-<span style="display:block; height:1px;"></span>
-
-<center>
-
-| Drug/Comp | Si' | No | Totale |
-| ----: | -----: | ----: | ----: |
-| A |  13 | 4  | 17 |
-| B | 2 |  12 | 14 |
-| Totale | 15 | 16  | 31 |
-
-</center>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 12%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 18%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) 17%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Non &egrave; possibile desumerlo dalla tabella 
 
 </div>
-</div>
 
----
-## Esercizio #10 
-
-<div class="columns">
-<div>
-
-<center>
-<img src="./img/descriptive/Drug_compliace_exercize.png" img height="550px" border="4px"/>
-</center>
-
-</div>
-<div>
-
-<div style="font-size: 90%">
-
-:question: Quale farmaco sembra essere 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; piu' efficace?
-
-<span style="display:block; height:280px;"></span>
+<span style="display:block; height:100px;"></span>
 
 <style>
-  #countdown_exercise_13{
+  #countdown_exercise_7{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -1706,111 +1199,283 @@ Discutere prima di dare la risposta -->
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_13.running {
+  #countdown_exercise_7.running {
     background-color: green;
   }
-  #countdown_exercise_13.finished {
+  #countdown_exercise_7.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_13"></button>
+<button id="countdown_exercise_7"></button>
 
 <script>
 <!--
-const countdown_exercise_13= document.getElementById("countdown_exercise_13");
-const seconds_exercise_13= 300; // seconds_exercise_13
-let timeLeft_exercise_13= seconds_exercise_13;
-let timerInterval_exercise_13= null;
+const countdown_exercise_7= document.getElementById("countdown_exercise_7");
+const seconds_exercise_7= 120; // seconds_exercise_7
+let timeLeft_exercise_7= seconds_exercise_7;
+let timerInterval_exercise_7= null;
 
-function formatTime_exercise_13(seconds_exercise_13) {
-  const minutes = Math.floor(seconds_exercise_13/ 60);
-  const remainingseconds_exercise_13= seconds_exercise_13% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_13).padStart(2, '0')}`;
+function formatTime_exercise_7(seconds_exercise_7) {
+  const minutes = Math.floor(seconds_exercise_7/ 60);
+  const remainingseconds_exercise_7= seconds_exercise_7% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_7).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_13() {
-  countdown_exercise_13.textContent = formatTime_exercise_13(timeLeft_exercise_13);
+function updateButton_exercise_7() {
+  countdown_exercise_7.textContent = formatTime_exercise_7(timeLeft_exercise_7);
 }
 
-function startTimer_exercise_13() {
-  if (timerInterval_exercise_13=== null) {
-    countdown_exercise_13.classList.add('running');
-    countdown_exercise_13.classList.remove('finished');
-    timerInterval_exercise_13= setInterval(() => {
-      if (timeLeft_exercise_13> 0) {
-        timeLeft_exercise_13--;
-        updateButton_exercise_13();
+function startTimer_exercise_7() {
+  if (timerInterval_exercise_7=== null) {
+    countdown_exercise_7.classList.add('running');
+    countdown_exercise_7.classList.remove('finished');
+    timerInterval_exercise_7= setInterval(() => {
+      if (timeLeft_exercise_7> 0) {
+        timeLeft_exercise_7--;
+        updateButton_exercise_7();
       } else {
-        clearInterval(timerInterval_exercise_13);
-        timerInterval_exercise_13= null;
-        countdown_exercise_13.classList.remove('running');
-        countdown_exercise_13.classList.add('finished');
-        countdown_exercise_13.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_7);
+        timerInterval_exercise_7= null;
+        countdown_exercise_7.classList.remove('running');
+        countdown_exercise_7.classList.add('finished');
+        countdown_exercise_7.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_13();
+    pauseTimer_exercise_7();
   }
 }
 
-function pauseTimer_exercise_13() {
-  clearInterval(timerInterval_exercise_13);
-  timerInterval_exercise_13= null;
-  countdown_exercise_13.classList.remove('running');
+function pauseTimer_exercise_7() {
+  clearInterval(timerInterval_exercise_7);
+  timerInterval_exercise_7= null;
+  countdown_exercise_7.classList.remove('running');
 }
 
-function resetTimer_exercise_13() {
-  timeLeft_exercise_13= seconds_exercise_13;
-  updateButton_exercise_13();
-  countdown_exercise_13.classList.remove('finished');
-  countdown_exercise_13.classList.remove('running');
-  timerInterval_exercise_13= null;
+function resetTimer_exercise_7() {
+  timeLeft_exercise_7= seconds_exercise_7;
+  updateButton_exercise_7();
+  countdown_exercise_7.classList.remove('finished');
+  countdown_exercise_7.classList.remove('running');
+  timerInterval_exercise_7= null;
 }
 
-countdown_exercise_13.addEventListener("click", () => {
-  if (countdown_exercise_13.classList.contains('finished')) {
-    resetTimer_exercise_13();
+countdown_exercise_7.addEventListener("click", () => {
+  if (countdown_exercise_7.classList.contains('finished')) {
+    resetTimer_exercise_7();
   } else {
-    startTimer_exercise_13();
+    startTimer_exercise_7();
   }
 });
 
-updateButton_exercise_13();
+updateButton_exercise_7();
 -->
 </script>
+
 
 
 </div>
 </div>
 
 ---
-## Esercizio #10 -- Soluzione
+### Esercizio #7 -- Soluzione
+
+<span style="display:block; height:10px;"></span>
 
 <div class="columns">
 <div>
 
 <center>
-<img src="./img/descriptive/Drug_compliace_exercize.png" img height="550px" border="4px"/>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
 </center>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
 
 </div>
 <div>
 
-<div style="font-size: 90%">
+<div style="font-size: 70%">
 
-:question: Quale farmaco sembra essere 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; piu' efficace?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di bambine e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragazze nel gruppo di intervento?
 
-<span style="display:block; height:1px;"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 12% &nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 18%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) 17%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Non &egrave; possibile desumerlo dalla tabella 
 
-**Farmaco A**:  media = 124.1, SD = 11.6
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mediana = 120, IQR = 15
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; moda = 120
+</div>
 
-**Farmaco B**:  media = 133.6, SD = 8.4
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mediana = 130, IQR = 10
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; moda = 130
+<span style="display:block; height:100px;"></span>
+
+
+</div>
+</div>
+
+---
+### Esercizio #8
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<center>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media dei pazienti nel gruppo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di controllo?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 10.4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 4.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 4.0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile desumerlo dalla tabella 
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+<style>
+  #countdown_exercise_8{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_8.running {
+    background-color: green;
+  }
+  #countdown_exercise_8.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_8"></button>
+
+<script>
+<!--
+const countdown_exercise_8= document.getElementById("countdown_exercise_8");
+const seconds_exercise_8= 120; // seconds_exercise_8
+let timeLeft_exercise_8= seconds_exercise_8;
+let timerInterval_exercise_8= null;
+
+function formatTime_exercise_8(seconds_exercise_8) {
+  const minutes = Math.floor(seconds_exercise_8/ 60);
+  const remainingseconds_exercise_8= seconds_exercise_8% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_8).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_8() {
+  countdown_exercise_8.textContent = formatTime_exercise_8(timeLeft_exercise_8);
+}
+
+function startTimer_exercise_8() {
+  if (timerInterval_exercise_8=== null) {
+    countdown_exercise_8.classList.add('running');
+    countdown_exercise_8.classList.remove('finished');
+    timerInterval_exercise_8= setInterval(() => {
+      if (timeLeft_exercise_8> 0) {
+        timeLeft_exercise_8--;
+        updateButton_exercise_8();
+      } else {
+        clearInterval(timerInterval_exercise_8);
+        timerInterval_exercise_8= null;
+        countdown_exercise_8.classList.remove('running');
+        countdown_exercise_8.classList.add('finished');
+        countdown_exercise_8.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_8();
+  }
+}
+
+function pauseTimer_exercise_8() {
+  clearInterval(timerInterval_exercise_8);
+  timerInterval_exercise_8= null;
+  countdown_exercise_8.classList.remove('running');
+}
+
+function resetTimer_exercise_8() {
+  timeLeft_exercise_8= seconds_exercise_8;
+  updateButton_exercise_8();
+  countdown_exercise_8.classList.remove('finished');
+  countdown_exercise_8.classList.remove('running');
+  timerInterval_exercise_8= null;
+}
+
+countdown_exercise_8.addEventListener("click", () => {
+  if (countdown_exercise_8.classList.contains('finished')) {
+    resetTimer_exercise_8();
+  } else {
+    startTimer_exercise_8();
+  }
+});
+
+updateButton_exercise_8();
+-->
+</script>
+
+</div>
+</div>
+
+---
+### Esercizio #8 -- Soluzione
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<center>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media dei pazienti nel gruppo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di controllo?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 10.4 &nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 4.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 4.0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile desumerlo dalla tabella 
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
 
 </div>
 </div>
@@ -1823,7 +1488,7 @@ updateButton_exercise_13();
  
 
 ---
-# Istogramma
+## Istogramma
 
 <div class="columns">
 <div>
@@ -1846,15 +1511,14 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 </div>
 </div>
 
-<!-- A histogram takes as input a numeric variable only. The variable is cut into several bins, and the number of observation per bin is represented by the height of the bar. It is possible to represent the distribution of several variable on the same axis using this technique.
-
-Common Mistakes
-
+<!-- Un istogramma prende in input una variabile numerica che viene discretizzata in classi (o bins)
+and the number of observation per bin is represented by the height of the bar.
+.
 Play with the bin size, it can give different insight.
-Avoid filling with color palettes. -->
+ -->
 
 ---
-# Istogramma
+## Istogramma
 
 <div class="columns">
 <div>
@@ -1877,6 +1541,12 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 
 </div>
 </div>
+
+<!-- 
+Play with the bin size, it can give different insight.
+
+Avoid filling with color palettes. anche se 
+ -->
 
 ---
 ## Istogramma
@@ -1902,6 +1572,11 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 </div>
 </div>
 
+<!--  il colore e' utile per rappresentare la distribution of several variable on the same axis , cosa possibile using this technique.
+
+Anche se a volte pou' essere confuso
+ -->
+
 ---
 ## Miami plot/Mirror histogram
 
@@ -1926,10 +1601,12 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 </div>
 </div>
 
-<!-- No legenda, uso i colori, ho fissato gli assi -->
+<!-- No legenda, uso i colori, ho fissato gli assi 
+Ovviamente si puo' usare solo se ci sono due variabili, ne avessimo 3 o piu' ricadremmo nel caso precedente
+-->
 
 ---
-# Density plot
+## Density plot
 
 <div class="columns">
 <div>
@@ -1952,7 +1629,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 </div>
 </div>
 
-<!-- A density plot shows the distribution of a numeric variable. It takes only numeric variables as input and is very close from an histogram. It can be use in the same exact condition.
+<!-- Density plot o kernel density plot o grafico basato sulla stima kernel di den- sit`a, `e una rappresentazione grafica della distribuzione di una Variabile continua alternativa all’Istogramma. Nel density plot, le barre dell’isto- gramma vengono convertite in gobbe da uno stimatore kernel di densit`a e poi smussate a creare una linea arrotondata continua.
 
 Common Mistakes
 
@@ -1961,14 +1638,6 @@ Avoid filling with color palettes.
 
 Questa e' leggermente bimodale-->
 
----
-## La forma delle distribuzioni
-
-<span style="display:block; height:70px;"></span>
-
-<center>
-<img src="./img/visualization/434px-Relationship_between_mean_and_median_under_different_skewness.png" img height="300px" border="0px"/>
-</center>
 
 ---
 ## Boxplot
@@ -1984,6 +1653,11 @@ Questa e' leggermente bimodale-->
 https://r-graph-gallery.com/boxplot
 
 </div>
+
+<!-- o box and whiskers plot, o diagramma a scatola e baffi o diagram- ma degli estremi e dei quartili, `e una rappresentazione grafica utilizzata per descrivere la distribuzione di una Variabile continua o una Variabi- le discreta utilizzando sia indici di dispersione (Inter-quartile range) sia di posizione (Mediana e Quartile). Viene rappresentato da un rettangolo (box) e da due segmenti (whiskers o baffi). Il rettangolo `e delimitato dal primo e dal terzo quartile e diviso al suo interno dalla mediana (o secondo quartile). La lunghezza dei segmenti rappresenta 1.5 volte l’interquarti- le range. I punti oltre il segmento rappresentano dei (possibili) Valori estremi. 
+
+Non usare colori
+-->
 
 ---
 ## Boxplot
@@ -2009,11 +1683,10 @@ Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immu
 </div>
 </div>
 
-<!-- A boxplot gives a nice summary of one or several numeric variables. The line that divides the box into 2 parts represents the median of the data. The end of the box shows the upper and lower quartiles. The extreme lines show the highest and lowest value excluding outliers.
-Common Mistakes
+<!-- 
+Boxplot hides the sample size of each group, show it with annotation or box width.
 
-    Boxplot hides the sample size of each group, show it with annotation or box width.
-    Boxplot hides the underlying distribution. Use jitter if low number of data points, or use violin with bigger data.
+Boxplot hides the underlying distribution. Use jitter if low number of data points, or use violin with bigger data.
  -->
 
 ---
@@ -2031,29 +1704,11 @@ https://nightingaledvs.com/ive-stopped-using-box-plots-should-you/
 
 </div>
 
----
-## Boxplot
+<!-- 
+Boxplot hides the sample size of each group, show it with annotation or box width.
 
-<div class="columns">
-<div>
-
-<span style="display:block; height:350px;"></span>
-
-<div style="font-size: 50%">
- 
-Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/visualization/Boxplot_age_ORR_dots.png" img height="500px" border="4px"/>
-</center>
-
-</div>
-</div>
+Boxplot hides the underlying distribution. Use jitter if low number of data points, or use violin with bigger data.
+ -->
 
 ---
 ## Boxplot
@@ -2079,11 +1734,12 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 </div>
 </div>
 
-<!-- Leggermente bimodale -->
+<!-- Boxplot hides the sample size of each group, show it with annotation or box width.
 
+Boxplot hides the underlying distribution. Use jitter if low number of data points, or use violin with bigger data. Leggermente bimodale -->
 
 ---
-# Esercizio #11
+### Esercizio #9
 
 <div style="font-size: 90%">
 
@@ -2095,7 +1751,7 @@ resulting in the National Sexual Attitudes and Lifestyle Survey (Natsal) which h
  -->
 
 ---
-# Esercizio #11
+### Esercizio #9
 
 <div style="font-size: 90%">
 
@@ -2227,9 +1883,8 @@ updateButton_think();
  It is a good exercise to use these summaries alone to try to reconstruct what the pattern of data might look like.
 -->
 
-
 ---
-# Esercizio #11
+### Esercizio #9
 
 <div style="font-size: 90%">
 
@@ -2358,7 +2013,7 @@ updateButton_pair();
 </div>
 
 ---
-# Esercizio #11
+### Esercizio #9
 
 <div style="font-size: 90%">
 
@@ -2500,7 +2155,7 @@ So why are men reporting so many more partners than women in this age group of 3
 -->
 
 ---
-## Esercizio #11 (bis)
+### Esercizio #9 (bis)
 
 <div style="font-size: 90%">
 
@@ -2521,9 +2176,8 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 
 <!-- ---
-<span style="display:block; height:150px;"></span>
-
-# The wisdom of crowds -->
+Bimps sulle decine, asimmetrica
+Multimodale, particolarmente accentuato sull'1 -->
 
 ---
 ### La relazione tra due variabili numeriche
@@ -2534,7 +2188,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 </div>
 
-<div style="font-size: 50%">
+<div style="font-size: 48%">
 
 <center>
 
@@ -2567,7 +2221,10 @@ D.J. Spiegelhalter *et al.*, *Commissioned Analysis of Surgical Performance Usi
 
 <!-- Public concern did not die down, and an official inquiry was ordered: this brought in a team of statisticians who were given the grim task of comparing the survival rates in Bristol with elsewhere in the UK between 1984 and 1995. 
 
-Sto mostrando sia morti che sopravvissuti per evirare positive/negative framing, che abbiamo visto nella lezione introduttiva -->
+Sto mostrando sia morti che sopravvissuti per evirare positive/negative framing, che abbiamo visto nella lezione introduttiva
+
+Non facile da capire cosa succede, una tabella con molte righe e colonne
+ -->
 
 ---
 ## Visualizziamo di dati
@@ -2587,11 +2244,19 @@ Sto mostrando sia morti che sopravvissuti per evirare positive/negative framing,
 </div>
 </div>
 
+<!-- Come si chiama questa rappresentazione grafica? 
+Istogramma 
+
+- label lunghe, meglio in orizzontale
+- ordinati per frequenza, cosi' a colpo d'occhio si capisce chi ha piu' o meno morti
+
+Da questo plot, sembrerebbe che Bristol non sia il posto piu' problematico
+-->
+
 ---
 ## Visualizziamo di dati
 
 <span style="display:block; height:1px;"></span>
-
 
 <div class="columns">
 <div>
@@ -2610,9 +2275,16 @@ Sto mostrando sia morti che sopravvissuti per evirare positive/negative framing,
 </div>
 </div>
 
-<!-- Qui si vede gia' la differenza con Bristol 
+<!-- 
+Andiamo ora a metterci il numero totale di interventi
 
-There is a considerable interest in the so-called ‘volume effect’ in surgery – the claim that busier hospitals get better survival rates, possibly since they achieve greater efficiency and have more experience. -->
+Qui si vede gia' la differenza con Bristol. 
+Notate che questa volta li ho ordinati secondo l'ordine utilizzato nel primo plot, per facilitare la comparazione.
+
+Da questa doppia visualizzazione sembrerebbe che ci sia anche una relazione tra le due variabili: piu' unterventi si fanno, piu' morti ci sono
+
+Ma c'e' una visualizzazione (e una statistica) migliore che mi per riassumere questi due aspetti
+ -->
 
 ---
 ### La relazione tra due variabili numeriche
@@ -2639,23 +2311,24 @@ Pearson's correlation coefficient
 
 <!-- 
 A scatterplot displays the relationship between 2 numeric variables. For each data point, the value of its first variable is represented on the X axis, the second on the Y axis
-
 Notare assi non a zero. Per lo scatter va bene.
 
+Correlazione `e una relazione tra due variabili in cui a ciascun valore di una corrisponda un valore dell’altra. 
+Pearson correlation coefficient o indice di correlazione di Pearson, `e un in- dice che misura l’esistenza di una relazione lineare (o Correlazione) tra due variabili. Ha un valore compreso tra +1 e −1 , dove +1 corrispon- de alla perfetta correlazione lineare positiva, 0 corrisponde a un’assenza di correlazione lineare e −1 corrisponde alla perfetta correlazione lineare negativa.
 
-launched an investigation after complaints from Joshua’s and other bereaved parents, and in 1998 two surgeons and the ex-chief executive were found guilty of serious medical misconduct. 
-
-A Pearson correlation runs between −1 and 1, and expresses how close to a straight line the dots or data-points fall. A correlation of 1 occurs if all the points lie on a straight line going upwards, while a correlation of −1 occurs if all the points lie on a straight line going downwards. A correlation near 0 can come from a random scatter of points, or any other pattern in which there is no systematic trend upwards or downwards
+There is a considerable interest in the so-called ‘volume effect’ in surgery – the claim that busier hospitals get better survival rates, possibly since they achieve greater efficiency and have more experience.
 
 Attenzione alla causalita':
-0- the high correlation showed that bigger hospitals were associated with lower mortality. But we could not conclude that bigger hospitals caused the lower mortality.
+Osservare una correlazione non implica un nesso di Causalit`a ma segnala la tendenza di una variabile a cambiare in funzione dell’altra (“correlazione non significa causazione”). 
+- the high correlation showed that bigger hospitals were associated with lower mortality. But we could not conclude that bigger hospitals caused the lower mortality.
 - piccoli ospedali hanno magari casi piu' semplici, che spiegano Leeds & Co 
+- oppure better hospitals simply attracted more patients.
 
-But, as we shall explore further in Chapter 4 on causation, this presupposes the direction in which the influence might lie. Even in Figure 2.5(a) we cannot conclude that the higher survival rates were in any sense caused by the increased number of cases – in fact it could even be the other way round: better hospitals simply attracted more patients.
+launched an investigation after complaints from Joshua’s and other bereaved parents, and in 1998 two surgeons and the ex-chief executive were found guilty of serious medical misconduct. 
 -->
 
 ---
-## Correlazione & valori anomali
+## Correlazione & valori estremi
 
 <span style="display:block; height:1px;"></span>
 
@@ -2665,8 +2338,12 @@ But, as we shall explore further in Chapter 4 on causation, this presupposes the
 
 Pearson's correlation coefficient
 
-- $\rho = 0.74$
+- $\rho = 0.72$
 
+
+<center>
+<img src="./img/descriptive/Basketball.jpg" img height="250px" border="4px"/>
+</center>
 
 </div>
 <div>
@@ -2678,8 +2355,11 @@ Pearson's correlation coefficient
 </div>
 </div>
 
+<!-- Lillard 1.88
+Adetokumbo 2.11 -->
+
 ---
-## Correlazione & valori anomali
+## Correlazione & valori estremi
 
 <span style="display:block; height:1px;"></span>
 
@@ -2688,7 +2368,7 @@ Pearson's correlation coefficient
 <div>
 Pearson's correlation coefficient
 
-- $\rho = 0.74$
+- $\rho = 0.72$
 - $\rho_\text{no outliers} = 0.07$
 
 </div>
@@ -2702,7 +2382,7 @@ Pearson's correlation coefficient
 </div>
 
 ---
-## Perche' visualizzare i dati?
+## Perch&eacute; visualizzare i dati?
 
 <span style="display:block; height:2px;"></span>
 
@@ -2724,11 +2404,11 @@ Pearson's correlation coefficient
 
 <div style="font-size: 90%">
 
-- Le variabili numeriche possono essere rappresentate con misure di centralita', dispersione e correlazione (statistiche)
-- Alcune statistiche sono "falsate" se le distribuzioni empiriche (la forma dei dati) sono asimmetriche e/o includono valori anomali
+- Le variabili numeriche possono essere rappresentate con misure di centralit&agrave;, dispersione e correlazione (statistiche)
+- Alcune statistiche sono "falsate" se le distribuzioni empiriche sono asimmetriche e/o includono valori estremi
 - Le statistiche possono nascondere dettagli importanti dei dati
 - Le variabili numeriche possono essere rappresentate graficamente in diversi modi, ma alcune rappresentazioni possono nascondere dettagli importanti delle distribuzioni sottostanti
-- Visualizzare i dati e' importante per interpretarli
+- Visualizzare i dati &egrave; importante per interpretarli
 
 </div>
 
