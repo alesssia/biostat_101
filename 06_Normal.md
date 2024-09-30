@@ -15,13 +15,10 @@ style: |
 ---
 
 ### Lezione 6
-
-# La distribuzione normale
-<!-- ## (Parte I: Stime e intervalli di confidenza) -->
+# La distribuzione Normale
 ## &nbsp;
 
 ---
-
 ## Obiettivi di apprendimento
 
 <span style="display:block; height:50px;"></span>
@@ -29,7 +26,7 @@ style: |
 <div style="font-size: 90%">
 
 - Conoscere le caratteristiche della distribuzione Normale
-- Conoscere le caratteristiche della distribuzione Normale Standartizzata
+- Conoscere le caratteristiche della distribuzione Normale Standardizzata
 
 </div>
 
@@ -48,13 +45,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 </div>
 
-<!-- The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. 
-
-Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.
- -->
-
 ---
-
 ## La distribuzione della popolazione
 
 <div class="columns">
@@ -62,7 +53,7 @@ Finally, the key to good statistical science is drawing appropriate Conclusions 
 
 <span style="display:block; height:10px;"></span>
 
-> Qual e' la distribuzione del peso alla nascita per i gemelli inglesi?
+> Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
 
 </div>
 <div>
@@ -72,11 +63,10 @@ Finally, the key to good statistical science is drawing appropriate Conclusions 
 
 <!-- We have already discussed the concept of a data distribution – the pattern the data makes, sometimes known as the empirical or sample distribution. Next we must tackle the concept of a population distribution – the pattern in the whole group of interest.
 
-Consider a British woman who has just given birth. We might think of her baby as having been drawn, as a sort of sample of only one person, from the entire population of babies recently born to non-Hispanic white women in the UK (her race is important, since birth weights are reported for different races). 
+Supponiamo di voler sapere qual e' il peso alla nascita dei gemelli, mono e di zigoti inglesi. 
  -->
 
 ---
-
 ## La distribuzione della popolazione
 
 <div class="columns">
@@ -84,15 +74,15 @@ Consider a British woman who has just given birth. We might think of her baby as
 
 <span style="display:block; height:10px;"></span>
 
-> Qual e' la distribuzione del peso alla nascita per i gemelli inglesi?
+> Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
 
 <span style="display:block; height:125px;"></span>
 
 <div style="font-size: 80%" align="right">
 
-$N=1000000$
-$\mu = 2404g; \text{ } \sigma = 580g$
-$mediana = 2408g$
+$N=1,000,000$
+$\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+$mediana = 2408\text{ g}$
 
 </div>
 
@@ -107,10 +97,9 @@ $mediana = 2408g$
 
 </div>
 
-<!-- The population distribution is the pattern made by the birth weights of all these babies, which we can obtain from the TwinsUK data on the weights for 1M twins born in the UK from 1917 to 1998 to non-Hispanic white women – although this is not the entire set of twin births, it is such a large sample that we can take it as the population. -->
+<!-- The population distribution is the pattern made by the birth weights of all these babies, which we can obtain from TwinsUK data on the weights for 1M twins born in the UK from 1917 to 1998 to non-Hispanic white women – although this is not the entire set of twin births, it is such a large sample that we can take it as the population. (sono dati simulati a partire da dati reali) -->
 
 ---
-
 ## La distribuzione della popolazione
 
 <div class="columns">
@@ -118,15 +107,15 @@ $mediana = 2408g$
 
 <span style="display:block; height:10px;"></span>
 
-> Qual e' la distribuzione del peso alla nascita per i gemelli inglesi?
+> Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
 
 <span style="display:block; height:125px;"></span>
 
 <div style="font-size: 80%" align="right">
 
-$N=1000000$
-$\mu = 2404g; \text{ } \sigma = 580g$
-$mediana = 2408g$
+$N=1,000,000$
+$\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+$mediana = 2408\text{ g}$
 
 </div>
 
@@ -149,8 +138,7 @@ Figure shows a normal curve with the same mean and standard deviation as the rec
 -->
 
 ---
-
-## La distribuzione normale
+## La distribuzione Normale
 
 <div class="columns">
 <div>
@@ -187,10 +175,11 @@ It is an impressive achievement to be able to summarize over a million births by
 
 | Statistica | Popolazione| Campione |
 | ----: | :-----: | :----: | 
+| Numerosit&agrave; | $N$ | $n$ |
 | Media | $\mu$ | $\bar{x}$ |
 | Deviazione Standard | $\sigma$ | $s$ |
 | Proporzione | $\pi$ | $p$ |
-| Numerosita' | $N$ | $n$ |
+
 
 </center>
 
@@ -198,8 +187,7 @@ It is an impressive achievement to be able to summarize over a million births by
 <!-- We see that the measures used to summarize data sets in Chapter 2 can be applied as descriptions of a population too – the difference is that terms such as mean and standard deviation are known as statistics when describing a set of data, and parameters when describing a population. -->
 
 ---
-
-## Esercizio #1
+### Esercizio #1
 
 <div class="columns">
 <div>
@@ -208,7 +196,7 @@ It is an impressive achievement to be able to summarize over a million births by
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' la curva con la media
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la curva con la media
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; maggiore?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
@@ -228,7 +216,6 @@ It is an impressive achievement to be able to summarize over a million births by
 </center>
 
 </div>
-
 </div>
 
 <span style="display:block; height:30px;"></span>
@@ -318,10 +305,8 @@ updateButton_exercise_1();
 -->
 </script>
 
-
 ---
-
-## Esercizio #1 -- Soluzione
+### Esercizio #1 -- Soluzione
 
 <div class="columns">
 <div>
@@ -330,7 +315,7 @@ updateButton_exercise_1();
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' la curva con la media
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la curva con la media
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; maggiore?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
@@ -352,8 +337,7 @@ updateButton_exercise_1();
 </div>
 
 ---
-
-## Esercizio #2
+### Esercizio #2
 
 <div class="columns">
 <div>
@@ -362,7 +346,7 @@ updateButton_exercise_1();
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' la curva con la  
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la curva con la  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; deviazione standard maggiore?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
@@ -471,10 +455,8 @@ updateButton_exercise_2();
 -->
 </script>
 
-
 ---
-
-## Esercizio #2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <div class="columns">
 <div>
@@ -483,14 +465,14 @@ updateButton_exercise_2();
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' la curva con la  
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la curva con la  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; deviazione standard maggiore?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Blu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Gialla &nbsp;&nbsp;&nbsp; :white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non lo posso sapere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna di queste &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
 
 </div>
 
@@ -504,12 +486,11 @@ updateButton_exercise_2();
 
 </div>
 
-<!-- A diverse combinazioni di mu/sigma corrispondono diverse (e infinte) ditribuzioni normali 
+<!-- A diverse combinazioni di mu/sigma corrispondono diverse (e infinte) distribuzioni normali 
 -->
 
 ---
-
-## La distribuzione normale
+## La distribuzione Normale
 
 <div class="columns">
 <div>
@@ -517,15 +498,15 @@ updateButton_exercise_2();
 <span style="display:block; height:40px;"></span>
 
 - Area sottesa alla curva $= 1$
-- proporzione $\equiv$ probabilita'
+- proporzione $\equiv$ probabilit&agrave;
 
 <span style="display:block; height:140px;"></span>
 
 <div style="font-size: 80%" align="right">
 
-$\text{"very low birth weight"} < 1500 \text{g}$
-$\text{Gemelli "very low birth weight"} = 6\%$
-$\mathcal{P}(\text{"very low birth weight"}) = 0.06$
+$\text{``very low birth weight"} < 1500 \text{ g}$
+$\text{Gemelli ``very low birth weight"} = 6\%$
+$\mathcal{P}(\text{``ßvery low birth weight"}) = 0.06$
 
 
 </div>
@@ -548,8 +529,7 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
  -->
 
 ---
-
-## La distribuzione normale
+## La distribuzione Normale
 
 <div class="columns">
 <div>
@@ -566,7 +546,7 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 - Regola empirica:
   - valori $< 2 \sigma$ sono *"comuni"*
   - valori $> 2 \sigma$ sono *"inusuali"*  
-  - valori $> 3 \sigma$ sono *"anomali"*  
+  - valori $> 3 \sigma$ sono *"estremi"*  
 
 </div>
 </div>
@@ -576,31 +556,41 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 <center>
 <img src="./img/normal/Standard_Normal_Distribution.png" img height="370px" border="4px"/>
 </center>
+
 </div>
 
 <!-- From the mathematical properties of the normal distribution, we know that roughly 95% of the population will be contained in the interval given by the mean ± two standard deviations, and 99.8% in the central ± three standard deviations. 
 
-68% at 1SD -> valori comuni vs valori inusali
+68% at 1SD -> valori comuni vs valori inusuali -->
 
+---
+## I valori estremi 
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/normal/Boxplot_vs_PDF.svg.png" img height="480px" border="0px"/>
+</center>
+
+<!-- Se i dati sono distribuiti normalmente c'e' una corrispondenza tra 1.5IQR dal 1o e 3o quartile e le standard deviation dalla media 
 1.5 IQR (fence of the boxplot) -> If the data are normally distributed, the fence will be 2.7 standard deviations from the mean, so cases outside of it will be quite rare (0.4%)
 -->
 
 ---
-
-## Esercizio #3
+### Esercizio #3
 
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; L'altezza della popolazione maschile italiana si distribuisce secondo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   una normale con media 170 cm e deviazione standard 9.5 cm
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se si', quali sono?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se s&igrave;, quali sono?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza >170cm
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza $>170 \text{ cm}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Le altezze inusuali
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza piu' comune
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) L'italiano piu' alto di sempre
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza pi&ugrave; comune
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) L'italiano pi&ugrave; alto di sempre
 
 </div>
 
@@ -691,104 +681,124 @@ updateButton_exercise_3();
 
 
 ---
-
-## Esercizio #3 -- Soluzione
+### Esercizio #3 -- Soluzione
 
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; L'altezza della popolazione maschile italiana si distribuisce secondo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   una normale con media 170 cm e deviazione standard 9.5 cm
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se si', quali sono?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se s&igrave;, quali sono?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana $\rightarrow$ coincide con la media $= 170 cm$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana $\rightarrow$ coincide con la media $= 170 \text{ cm}$
 
 </div>
 
 ---
-
-## Esercizio #3 -- Soluzione
+### Esercizio #3 -- Soluzione
 
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; L'altezza della popolazione maschile italiana si distribuisce secondo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   una normale con media 170 cm e deviazione standard 9.5 cm
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se si', quali sono?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se s&igrave;, quali sono?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana $\rightarrow$ 170cm
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza >170cm $\rightarrow$ sono quelli a destra
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; della mediana, la meta' dell'area sottesa dalla curva $= 50\%$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza $>170 \text{ cm}$ $\rightarrow$ sono quelli a 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; destra della mediana, la met&agrave; dell'area sottesa dalla curva $= 50\%$
 
 </div>
 
 ---
-
-## Esercizio #3 -- Soluzione
+### Esercizio #3 -- Soluzione
 
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; L'altezza della popolazione maschile italiana si distribuisce secondo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   una normale con media 170 cm e deviazione standard 9.5 cm
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se si', quali sono?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se s&igrave;, quali sono?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana $\rightarrow$ 170cm
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza >170cm $\rightarrow 50\%$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Le altezze inusuali $\rightarrow$ sono quelle >2SD dalla media
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 170 + 9.5 \times 2 = 189 \text{cm}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza $>170 \text{ cm}$ $\rightarrow 50\%$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Le altezze inusuali $\rightarrow$ sono quelle >2 deviazioni standard dalla media
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 170 - 9.5 \times 2 = 151 \text{ cm } \land \text{ } 170 + 9.5 \times 2 = 189 \text{ cm}$
 
 </div>
 
 ---
-
-## Esercizio #3 -- Soluzione
+### Esercizio #3 -- Soluzione
 
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; L'altezza della popolazione maschile italiana si distribuisce secondo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   una normale con media 170 cm e deviazione standard 9.5 cm
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se si', quali sono?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se s&igrave;, quali sono?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana $\rightarrow$ 170cm
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza >170cm $\rightarrow 50\%$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Le altezze inusuali $\rightarrow \text{ } >189 \text{cm}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza piu' comune $\rightarrow$ e' la moda, che coincide con la media
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e la mediana $= 170 cm$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza $>170 \text{ cm}$ $\rightarrow 50\%$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Le altezze inusuali $\rightarrow \text{ } <151 \text{ cm } \land >189 \text{ cm}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza pi&ugrave; comune $\rightarrow$ &egrave; la moda, che coincide con la media
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e la mediana $= 170 \text{ cm}$
 
 </div>
 
 ---
-
-## Esercizio #3 -- Soluzione
+### Esercizio #3 -- Soluzione
 
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; L'altezza della popolazione maschile italiana si distribuisce secondo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   una normale con media 170 cm e deviazione standard 9.5 cm
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se si', quali sono?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se s&igrave;, quali sono?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana $\rightarrow$ 170cm
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza >170cm $\rightarrow 50\%$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Le altezze inusuali $\rightarrow \text{ } 189 \text{cm}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza piu' comune $\rightarrow 170 \text{cm}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) L'italiano piu' alto di sempre $\rightarrow$ non si puo' calcolare
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza $>170 \text{ cm}$ $\rightarrow 50\%$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Le altezze inusuali $\rightarrow \text{ } <151 \text{ cm } \land >189 \text{ cm}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza pi&ugrave; comune $\rightarrow 170 \text{ cm}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) L'italiano pi&ugrave; alto di sempre $\rightarrow$ non si pu&ograve; calcolare
 
 </div>
 
 ---
+### Esercizio #4
 
-## Esercizio #4
+<span style="display:block; height:10px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Con quale probabilità si potrà trovare nella popolazione
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; soggetti con valori superiori alla mediana?
+<div class="columns">
+<div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 25%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 50%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 75%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono piu' informazioni per poter rispondere
+<center>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
+</center>
+
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Indicativamente, in quale range di et&agrave; &egrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compreso il $70\%$ dei pazienti nel gruppo  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di intervento?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $3-17$ anni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $6.3-14.5$ anni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $4.1-16.7$ anni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile desumerlo dalla tabella 
+
+</div>
+
+<span style="display:block; height:100px;"></span>
 
 <style>
   #countdown_exercise_4{
@@ -799,7 +809,7 @@ updateButton_exercise_3();
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    float:right;
+    float: right;
   }
   #countdown_exercise_4.running {
     background-color: green;
@@ -814,7 +824,7 @@ updateButton_exercise_3();
 <script>
 <!--
 const countdown_exercise_4= document.getElementById("countdown_exercise_4");
-const seconds_exercise_4= 60; // seconds_exercise_4
+const seconds_exercise_4= 120; // seconds_exercise_4
 let timeLeft_exercise_4= seconds_exercise_4;
 let timerInterval_exercise_4= null;
 
@@ -876,306 +886,59 @@ updateButton_exercise_4();
 </script>
 
 
----
-
-## Esercizio #4 -- Soluzione
-
-:question: &nbsp;&nbsp;&nbsp; Con quale probabilità si potrà trovare nella popolazione
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; soggetti con valori superiori alla mediana?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 25%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 50% &nbsp;&nbsp;&nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 75%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono piu' informazioni per poter rispondere
-
-<!--  
+</div>
+</div>
 
 ---
-## La forma della distribuzione
+### Esercizio #4 -- Soluzione
 
-<span style="display:block; height:70px;"></span>
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
 
 <center>
-<img src="./img/descriptive/434px-Relationship_between_mean_and_median_under_different_skewness.png" img height="250px" border="0px"/>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
 </center>
 
-<!-- Asimmetrica a destra/sinistra, dipende dalla presenza di valori anomali, vedremo meglio questo nella prossima lezione dedicata alla visualizzazione dei dati 
 
----
-## Moda *vs* &nbsp;mediana *vs* &nbsp;media
+<div style="font-size: 50%" align="right">
 
-<span style="display:block; height:100px;"></span>
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
 
-<center>
-<img src="./img/descriptive/mode_vs_median_vs_mean.png" img height="200px" border="0px"/>
-</center> -->
-
-<!-- La moda e' la parte piu' alta della curva, la mediana divide l'area in 2 parti uguali e la media e' il "balance point", quello in cui starebbe in equilibrio se fosse fatta di un materiale solido 
-
- Scelta della misura di tendenza centrale
-- media se la distribuzione è simmetrica
-- mediana se la distribuzione NON è simmetrica
-(forse a causa di valori estremi)
-- moda per indicare il valore più comune nell’ambito
-della distribuzione 
-
--->
-
----
-## Proporzione $\equiv$ probabilita'
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:20px;"></span>
-
-- 6% dei gemelli sono "very low birth weight"
-- La probabilita' essere "very low birth weight" e' 0.06
-
-<span style="display:block; height:20px;"></span>
-
-<div align="right">
-Ma come e' stato calcolato?
 </div>
 
 </div>
 <div>
 
-<span style="display:block; height:30px;"></span>
+<div style="font-size: 70%">
 
-<center>
-<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px"/>
-</center>
+:question: &nbsp;&nbsp;&nbsp; Indicativamente, in quale range di et&agrave; &egrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compreso il $70\%$ dei pazienti nel gruppo  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di intervento?
 
-</div>
-
-
----
-## La standardizzazione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $3-17$ anni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $6.3-14.5$ anni &nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $4.1-16.7$ anni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile desumerlo dalla tabella 
 
 </div>
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/normal/n2z_1.png" img height="400px" border="4px"/>
-</center>
-</div>
-
-<!-- Utilizzando una procedura chiamata standardizzazione
-
-Magenta: mu=4, sd=1.5 -->
-
----
-
-## La standardizzazione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
-
-- $z = \frac{x - \mu}{}$
-
-</div>
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/normal/n2z_2.png" img height="400px" border="4px"/>
-</center>
-</div>
-
----
-
-## La standardizzazione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
-
-- $z = \frac{x - \mu}{\sigma}$
-
-</div>
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/normal/n2z_3.png" img height="400px" border="4px"/>
-</center>
-</div>
-
----
-
-## La distribuzione normale standartizzata
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
-
-- $z = \frac{x - \mu}{\sigma}$
-
-</div>
-<div>
-
-<center>
-<img src="./img/normal/normal_table.jpg" img height="550px" border="4px"/>
-</center>
-</div>
-</div>
-
-<!-- 
-this is also known as her Z-score, which simply measures how many standard deviations a data-point is from the mean.
-
-E perche la SND ci piace? Perche' esistono delle tavole che ci dicono qual e' l'area sottesa  ad una certa porzione della curva, che corrispondono alla probabilita' di trovare (nel caso di queste tavole) un valore < di quello osservato (area colorata)
-
-Ci sono diverse versioni di queste tabelle, per esempio quella complementare che riporta l'area per la zona bianca (probabilita' di osservare valori piu' estremi) -->
-
----
-## Calcoliamo la probabilita'/proporzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{g}; \text{ } \sigma = 580\text{g}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-</div>
-<div>
-
-<span style="display:block; height:360px;"></span>
 
 </div>
 </div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500) = \text{ ?}$
-
----
-## Calcoliamo la probabilita'/proporzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{g}; \text{ } \sigma = 580\text{g}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{g} - 2404\text{g}}{580\text{g}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
-
-</div>
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/normal/normal_table_zoom.jpg" img height="280px" border="4px"/>
-</center> 
-
-</div>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500) = \text{ ?}$
-
----
-## Calcoliamo la probabilita'/proporzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{g}; \text{ } \sigma = 580\text{g}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{g} - 2404\text{g}}{580\text{g}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
-
-</div>
-<div>
-
-<span style="display:block; height:160px;"></span>
-
-<center>
-<img src="./img/normal/area_normal_symmetrical.png" img height="180px" border="4px"/>
-</center> 
-
-</div>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500) = \text{ ?}$
-
-<!-- Fare vedere che la curva e' simmetrica quindi possiamo usare 1.56 per conoscere l'area -->
-
----
-## Calcoliamo la probabilita'/proporzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{g}; \text{ } \sigma = 580\text{g}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{g} - 2404\text{g}}{580\text{g}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
-
-</div>
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/normal/normal_table_zoom_example.jpg" img height="280px" border="4px"/>
-</center> 
-
-</div>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500) = 1 - 0.9406 = 0.0594 \rightarrow 5.94\%$
 
 ---
 ### Esercizio #5
 
-<div style="font-size: 80%" >
+:question: &nbsp;&nbsp;&nbsp; Con quale probabilità si potrà trovare nella popolazione
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; soggetti con valori superiori al terzo quartile?
 
-:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai $2500$g e' inusuale. La madre deve preoccuparsi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 25%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 50%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 75%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
 
-</div>
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404\text{g}; \text{ } \sigma = 580\text{g}$
-
-</div>
-
-<span style="display:block; height:170px;"></span>
+<span style="display:block; height:40px;"></span>
 
 <style>
   #countdown_exercise_5{
@@ -1186,7 +949,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    float: right;
+    float:right;
   }
   #countdown_exercise_5.running {
     background-color: green;
@@ -1201,7 +964,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 <script>
 <!--
 const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 300; // seconds_exercise_5
+const seconds_exercise_5= 60; // seconds_exercise_5
 let timeLeft_exercise_5= seconds_exercise_5;
 let timerInterval_exercise_5= null;
 
@@ -1263,6 +1026,356 @@ updateButton_exercise_5();
 </script>
 
 
+---
+### Esercizio #5 -- Soluzione
+
+:question: &nbsp;&nbsp;&nbsp; Con quale probabilità si potrà trovare nella popolazione
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; soggetti con valori superiori al terzo quartile?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 25% &nbsp;&nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 50% 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 75%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
+
+
+---
+## Proporzione $\equiv$ probabilit&agrave;
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:20px;"></span>
+
+- 6% dei gemelli sono "very low birth weight"
+- La probabilit&agrave; essere "very low birth weight" &egrave; 0.06
+
+<span style="display:block; height:20px;"></span>
+
+<div align="right">
+Ma come &egrave; stato calcolato?
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<center>
+<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px"/>
+</center>
+
+</div>
+
+---
+## La standardizzazione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
+
+</div>
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<center>
+<img src="./img/normal/n2z_1.png" img height="400px" border="4px"/>
+</center>
+</div>
+
+<!-- Utilizzando una procedura chiamata standardizzazione
+
+Magenta: mu=4, sd=1.5 -->
+
+---
+## La standardizzazione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
+
+- $z = \frac{x - \mu}{}$
+
+</div>
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<center>
+<img src="./img/normal/n2z_2.png" img height="400px" border="4px"/>
+</center>
+</div>
+
+---
+## La standardizzazione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
+
+- $z = \frac{x - \mu}{\sigma}$
+
+</div>
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<center>
+<img src="./img/normal/n2z_3.png" img height="400px" border="4px"/>
+</center>
+</div>
+
+---
+## La distribuzione Normale standardizzata
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
+
+- $z = \frac{x - \mu}{\sigma}$
+
+</div>
+<div>
+
+<center>
+<img src="./img/normal/normal_table.jpg" img height="550px" border="4px"/>
+</center>
+</div>
+</div>
+
+<!-- 
+this is also known as her Z-score, which simply measures how many standard deviations a data-point is from the mean.
+
+E perche la SND ci piace? Perche' esistono delle tavole che ci dicono qual e' l'area sottesa  ad una certa porzione della curva, che corrispondono alla probabilita' di trovare (nel caso di queste tavole) un valore < di quello osservato (area colorata)
+
+Ci sono diverse versioni di queste tabelle, per esempio quella complementare che riporta l'area per la zona bianca (probabilita' di osservare valori piu' estremi) -->
+
+---
+## Calcoliamo la probabilit&agrave;/proporzione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</div>
+<div>
+
+<span style="display:block; height:360px;"></span>
+
+</div>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
+
+---
+## Calcoliamo la probabilit&agrave;/proporzione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
+
+</div>
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<center>
+<img src="./img/normal/normal_table_zoom.jpg" img height="280px" border="4px"/>
+</center> 
+
+</div>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
+
+---
+## Calcoliamo la probabilit&agrave;/proporzione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
+
+</div>
+<div>
+
+<span style="display:block; height:160px;"></span>
+
+<center>
+<img src="./img/normal/area_normal_symmetrical.png" img height="180px" border="4px"/>
+</center> 
+
+</div>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
+
+<!-- Fare vedere che la curva e' simmetrica quindi possiamo usare 1.56 per conoscere l'area -->
+
+---
+## Calcoliamo la probabilit&agrave;/proporzione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
+
+</div>
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<center>
+<img src="./img/normal/normal_table_zoom_example.jpg" img height="280px" border="4px"/>
+</center> 
+
+</div>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = 1 - 0.9406 = 0.0594 \rightarrow 5.94\%$
+
+---
+### Esercizio #6
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai $2500$g &egrave; inusuale. La madre deve preoccuparsi?
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+
+</div>
+
+<span style="display:block; height:170px;"></span>
+
+<style>
+  #countdown_exercise_6{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_6.running {
+    background-color: green;
+  }
+  #countdown_exercise_6.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_6"></button>
+
+<script>
+<!--
+const countdown_exercise_6= document.getElementById("countdown_exercise_6");
+const seconds_exercise_6= 300; // seconds_exercise_6
+let timeLeft_exercise_6= seconds_exercise_6;
+let timerInterval_exercise_6= null;
+
+function formatTime_exercise_6(seconds_exercise_6) {
+  const minutes = Math.floor(seconds_exercise_6/ 60);
+  const remainingseconds_exercise_6= seconds_exercise_6% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_6() {
+  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
+}
+
+function startTimer_exercise_6() {
+  if (timerInterval_exercise_6=== null) {
+    countdown_exercise_6.classList.add('running');
+    countdown_exercise_6.classList.remove('finished');
+    timerInterval_exercise_6= setInterval(() => {
+      if (timeLeft_exercise_6> 0) {
+        timeLeft_exercise_6--;
+        updateButton_exercise_6();
+      } else {
+        clearInterval(timerInterval_exercise_6);
+        timerInterval_exercise_6= null;
+        countdown_exercise_6.classList.remove('running');
+        countdown_exercise_6.classList.add('finished');
+        countdown_exercise_6.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_6();
+  }
+}
+
+function pauseTimer_exercise_6() {
+  clearInterval(timerInterval_exercise_6);
+  timerInterval_exercise_6= null;
+  countdown_exercise_6.classList.remove('running');
+}
+
+function resetTimer_exercise_6() {
+  timeLeft_exercise_6= seconds_exercise_6;
+  updateButton_exercise_6();
+  countdown_exercise_6.classList.remove('finished');
+  countdown_exercise_6.classList.remove('running');
+  timerInterval_exercise_6= null;
+}
+
+countdown_exercise_6.addEventListener("click", () => {
+  if (countdown_exercise_6.classList.contains('finished')) {
+    resetTimer_exercise_6();
+  } else {
+    startTimer_exercise_6();
+  }
+});
+
+updateButton_exercise_6();
+-->
+</script>
+
+
 </div>
 <div>
 
@@ -1278,12 +1391,12 @@ updateButton_exercise_5();
 <!-- For medical rather than statistical reasons, babies below 2,500 g are considered ‘low birth weight’, and those below 1,500 g ‘very low birth weight’.  -->
 
 ---
-### Esercizio #5 -- Soluzione
+### Esercizio #6 -- Soluzione
 
 <div style="font-size: 80%" >
 
 :question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai 2500g e' inusuale. La madre deve preoccuparsi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai 2500g &egrave; inusuale. La madre deve preoccuparsi?
 
 </div>
 
@@ -1294,7 +1407,7 @@ updateButton_exercise_5();
 
 <div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404g; \text{ } \sigma = 580g$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{2500 - 2404}{580} = 0.17$
 
@@ -1315,12 +1428,12 @@ updateButton_exercise_5();
 </div>
 
 ---
-### Esercizio #5 -- Soluzione
+### Esercizio #6 -- Soluzione
 
 <div style="font-size: 80%" >
 
 :question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai 2500g e' inusuale. La madre deve preoccuparsi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai 2500g &egrave; inusuale. La madre deve preoccuparsi?
 
 </div>
 
@@ -1331,7 +1444,7 @@ updateButton_exercise_5();
 
 <div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404g; \text{ } \sigma = 580g$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{2500 - 2404}{580} = 0.17$
 
@@ -1352,6 +1465,117 @@ updateButton_exercise_5();
 </div>
 
 ---
+### Esercizio #7
+
+:question: &nbsp;&nbsp;&nbsp; Abbiamo una distribuzione Normale $\mathcal{N} = (0, 1)$. Qual &egrave; il 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; valore della sua mediana?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
+
+<span style="display:block; height:30px;"></span>
+
+<style>
+  #countdown_exercise_7{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_7.running {
+    background-color: green;
+  }
+  #countdown_exercise_7.finished {
+    background-color: red;
+  }
+</style>
+
+
+<button id="countdown_exercise_7"></button>
+
+<script>
+<!--
+const countdown_exercise_7= document.getElementById("countdown_exercise_7");
+const seconds_exercise_7= 60; // seconds_exercise_7
+let timeLeft_exercise_7= seconds_exercise_7;
+let timerInterval_exercise_7= null;
+
+function formatTime_exercise_7(seconds_exercise_7) {
+  const minutes = Math.floor(seconds_exercise_7/ 60);
+  const remainingseconds_exercise_7= seconds_exercise_7% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_7).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_7() {
+  countdown_exercise_7.textContent = formatTime_exercise_7(timeLeft_exercise_7);
+}
+
+function startTimer_exercise_7() {
+  if (timerInterval_exercise_7=== null) {
+    countdown_exercise_7.classList.add('running');
+    countdown_exercise_7.classList.remove('finished');
+    timerInterval_exercise_7= setInterval(() => {
+      if (timeLeft_exercise_7> 0) {
+        timeLeft_exercise_7--;
+        updateButton_exercise_7();
+      } else {
+        clearInterval(timerInterval_exercise_7);
+        timerInterval_exercise_7= null;
+        countdown_exercise_7.classList.remove('running');
+        countdown_exercise_7.classList.add('finished');
+        countdown_exercise_7.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_7();
+  }
+}
+
+function pauseTimer_exercise_7() {
+  clearInterval(timerInterval_exercise_7);
+  timerInterval_exercise_7= null;
+  countdown_exercise_7.classList.remove('running');
+}
+
+function resetTimer_exercise_7() {
+  timeLeft_exercise_7= seconds_exercise_7;
+  updateButton_exercise_7();
+  countdown_exercise_7.classList.remove('finished');
+  countdown_exercise_7.classList.remove('running');
+  timerInterval_exercise_7= null;
+}
+
+countdown_exercise_7.addEventListener("click", () => {
+  if (countdown_exercise_7.classList.contains('finished')) {
+    resetTimer_exercise_7();
+  } else {
+    startTimer_exercise_7();
+  }
+});
+
+updateButton_exercise_7();
+-->
+</script>
+
+
+---
+### Esercizio #7 -- Soluzione 
+
+:question: &nbsp;&nbsp;&nbsp; Abbiamo una distribuzione Normale $\mathcal{N} = (0, 1)$. Qual &egrave; il 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; valore della sua mediana?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0 &nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
+
+---
 ### Cosa abbiamo imparato in questa lezione?
 
 <span style="display:block; height:0px;"></span>
@@ -1360,8 +1584,8 @@ updateButton_exercise_5();
 
 - La popolazione viene rappresentata con dei parametri equivalenti alle statistiche usate per i campioni
 - Diversi fenomeni naturali sono normalmente distribuiti
-- La normale e' definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilita'
-- La distribuzione (normale) di una popolazione ci fornisce la probabilita' di estrarre un individuo da quella popolazione ma anche la sua frequenza nella popolazione 
+- La normale &egrave; definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilit&agrave;
+- La distribuzione (normale) di una popolazione ci fornisce la probabilit&agrave; di estrarre un individuo da quella popolazione ma anche la sua frequenza nella popolazione 
 - Se i dati sono normalmente distribuiti, il 68% della popolazione si trova a 1 SD dalla media, il 95% a 2 SD e il 99.7% a 3 SD
 
 </div>
