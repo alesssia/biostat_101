@@ -26,7 +26,7 @@ style: |
 
 <div style="font-size: 90%">
 
-- Saper passare da una distribuzione empirica (o campionaria) alla distrubuzione della popolazione
+- Saper passare da una distribuzione empirica alla quella di popolazione
 - Saper comunicare l'incertezza di una statistica
 - Saper calcolare e interpretare un intervallo di confidenza
 
@@ -47,24 +47,19 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 </div>
 
-<!-- The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. 
-
-Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.
- -->
-
 ---
 ## <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:warning:  Attenzione  :warning:
 
 <span style="display:block; height:1px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se questa parte vi sembra difficile e' perche' e' difficile.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se questa parte vi sembra difficile &egrave; perch&eacute; &egrave; difficile.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Potreste doverci spendere un bel po' di tempo prima di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; riuscire a capirla del tutto: non vi preoccupate, e' normale 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; riuscire a capirla del tutto: non vi preoccupate, &egrave; normale 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e ci siamo passati tutti!
 
 ---
-## Dalla popolazione al campione
+## Dalla campione alla popolazione
 
 <span style="display:block; height:1px;"></span>
 
@@ -75,7 +70,7 @@ Finally, the key to good statistical science is drawing appropriate Conclusions 
 <!-- Ricapitoliamo: quando non possiamo studiare una popolazione ne usiamo un campione rappresentativo -->
 
 ---
-## Dalla popolazione al campione
+## Dalla campione alla popolazione
 
 <span style="display:block; height:1px;"></span>
 
@@ -132,11 +127,11 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 <!-- In the age band of 35–44 there were 1,100 female and 796 male respondents, so it was a large survey from which the sample summary statistics shown in Table 2–2 were calculated, such as the median number of reported partners being 8 for men and 5 for women. Since we know the survey was based on a proper random-sampling scheme, it is fairly reasonable to assume that the study population matches the target population, which is the adult British population. The crucial question is: how close are these statistics to what we would have found had we been able to ask everyone in the country? -->
 
 ---
-## Ricalcoliamo senza i "valori anomali"
+## Ricalcoliamo senza i "valori estremi"
 
 <div style="font-size: 90%">
 
-> Quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di eta', riferiscono di aver avuto nella loro vita?
+> Quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -171,9 +166,9 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 
 <!-- Per semplificare la visualizzazione, concentriamoci sugli uomini che hanno avuto < 50 partner (solo 36 riportano di averne avuto di piu'), quindi ricalcoliamo tutte le statistiche su questo campione 
 
-I valori anomali propriamente detti (che impareremo a calcolare poi) sarebbero quelli >87, ma facciamo finta vada bene cosi'
+I valori estremi propriamente detti sarebbero quelli >87, ma facciamo finta vada bene cosi'
 
-Notiamo i valori "stabili"
+Notiamo i valori "stabili" (non influenzati dagli outliers)
 -->
 
 ---
@@ -181,7 +176,7 @@ Notiamo i valori "stabili"
 
 <div style="font-size: 90%">
 
-> Quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di eta', riferiscono di aver avuto nella loro vita?
+> Quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -192,7 +187,6 @@ Notiamo i valori "stabili"
 </center>
 
 <!-- Magenta dotted line is the mean
-Density should use another scale 
 
 As an illustration of how the accuracy of statistics depends on sample size, we shall pretend for the moment that the men in the survey in fact represent the population in which we are interested. 
 -->
@@ -213,7 +207,7 @@ As an illustration of how the accuracy of statistics depends on sample size, we 
 </center>
 
 <!--
-For illustration, we then take successive samples of individuals from this ‘population’ of 760 men, pausing when we reach 10, 50, 100 and 200 men. 
+For illustration, we then take successive samples of individuals from this ‘population’ of 760 men, pausing when we reach 10, 50, 100, 200 and 380 men. 
 
 The data distributions of these samples are shown 
 
@@ -291,17 +285,23 @@ Density should use another scale -->
 <!-- the rather high number of partners  in the first sample of ten individuals gets steadily overwhelmed, as the statistics get closer and closer to those of the whole group of 796 men as the sample size increases. -->
 
 ---
-## Esercizio #1
+### Esercizio #1
 
 <span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Al crescere della dimensione del campione
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) migliorano le stime dei parametri
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) le statistiche diventano piu' sensibili alle singole osservazioni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'e' differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) le stime dei parametri diventano pi&ugrave; sensibili alle singole 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; osservazioni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per rispondere
 
-<span style="display:block; height:100px;"></span>
+</div>
+
+<span style="display:block; height:80px;"></span>
 
 <style>
   #countdown_exercise_1{
@@ -390,15 +390,22 @@ updateButton_exercise_1();
 
 
 ---
-## Esercizio #1 -- Soluzione
+### Esercizio #1 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Al crescere della dimensione del campione
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) migliorano le stime dei parametri &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) le statistiche diventano piu' sensibili alle singole osservazioni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'e' differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) le stime dei parametri diventano pi&ugrave; sensibili alle singole 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; osservazioni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per rispondere
+
+</div>
+
 
 ---
 ## Quanto siamo precisi?
@@ -407,7 +414,7 @@ updateButton_exercise_1();
 
 Con questo esempio, abbiamo introdotto due concetti:<br/>
 
-  1. Campioni piu' grandi stimano meglio i parametri di una popolazione
+  1. Campioni pi&ugrave; grandi stimano meglio i parametri di una popolazione
 
   2. Continuare ad estrarre campioni ci da un'idea della variazione attorno al valore "plausibile" del parametro che ci interessa
 
@@ -422,7 +429,7 @@ Quindi come procediamo?
 ---
 ## Stima dei parametri e del margine di errore
 
-Come stimo la variazione rispetto al valore reale nella popolazione se quello che sto cercando e' proprio il valore reale nella popolazione? 
+Come stimo la variazione rispetto al valore reale nella popolazione se quello che sto cercando &egrave; proprio il valore reale nella popolazione? 
 
 <span style="display:block; height:10px;"></span>
 
@@ -506,6 +513,14 @@ Ma prima osserviamo ancora che the bootstrap distributions get narrower as the s
 <img src="./img/confidence_intervals/bootstrapping_CI.png" img height="450px" border="4px"/>
 </center>
 
+<!-- For example, we can find the range of values that contains 95% of the means of the bootstrap resamples, and call this a 95% uncertainty interval
+for the original estimates, or alternatively they can be called margins of error. These are shown in Table 7.2 – the symmetry of the bootstrap distributions means the uncertainty intervals are roughly symmetric around the original estimate.
+
+Per farlo sfruttiamo le proprieta' della distribuzione normale (indipendentemente dalla distribuzione del campione) 
+
+Ma prima osserviamo ancora che the bootstrap distributions get narrower as the sample size increases, which is reflected in the steadily narrower 95% uncertainty intervals.
+ -->
+
 ---
 ## Intervallo di confidenza
 
@@ -533,7 +548,7 @@ Ma prima osserviamo ancora che the bootstrap distributions get narrower as the s
 
 <center>
 
-| $N_\text{campione}$ | Media | 95% ME |
+| $N_\text{campione}$ | Media | 95% CI |
 | ----: | -----: |  -----: | 
 | 10 | 11.4 | (5.0; 19.0)
 | 50 | 11.4 | (8.4; 14.6)
@@ -555,7 +570,7 @@ Bootstrapping provides an intuitive, computer-intensive way of assessing the unc
 -->
 
 ---
-## Esercizio #2
+### Esercizio #2
 
 <span style="display:block; height:1px;"></span>
 
@@ -563,9 +578,10 @@ Bootstrapping provides an intuitive, computer-intensive way of assessing the unc
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) migliora la stima del parametro
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) migliora la stima dell'incertezza del parametro
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'e' differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per rispondere
 
-<span style="display:block; height:100px;"></span>
+<span style="display:block; height:80px;"></span>
 
 <style>
   #countdown_exercise_2{
@@ -654,7 +670,7 @@ updateButton_exercise_2();
 
 
 ---
-## Esercizio #2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
@@ -662,7 +678,8 @@ updateButton_exercise_2();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) migliora la stima del parametro
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) migliora la stima dell'incertezza del parametro &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'e' differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per rispondere
 
 ---
 ## Fermiamoci un attimo
@@ -673,7 +690,7 @@ updateButton_exercise_2();
 
 Abbiamo introdotto due concetti difficili e importanti:
 
-  1. esiste una variabilita' nella stima dei parametri che dipende dal campione
+  1. esiste una variabilit&agrave; nella stima dei parametri che dipende dal campione
 
   2. la forma della distribuzione delle statistiche non dipende dalla forma della distribuzione originaria e tende alla normale per insiemi grandi
 
@@ -722,25 +739,26 @@ Rather remarkably, this has all been accomplished without any mathematics except
 </div>
 
 
-<!-- Distribuzione campionaria e' la distribuzione di tutti i possibile valori che possono essere assunti da qualche statistica (e.g., la media) calcolata da campioni della stessa dimenzione ed estratti casualmente dalla stessa popolazione 
+<!-- Distribuzione campionaria e' la distribuzione di tutti i possibile valori che possono essere assunti da qualche statistica (e.g., la media) calcolata da campioni della stessa dimensione ed estratti casualmente dalla stessa popolazione 
 
 Come si costruisce? 
-1. Estraggo tutti i possibili capioni di dimensione n
+1. Estraggo tutti i possibili campioni di dimensione n
 2. Calcolo la statistica di interesse
-3. Tego traccia di ciascun valore della statistica e della sua frequenza 
+3. Tengo traccia di ciascun valore della statistica e della sua frequenza 
 
 La forma della distribuzione delle medie campionarie è approssimativamente normale,  indipendentemente dalla distribuzione dei valori della popolazione d’origine dalla quale i campioni sono estratti, per n sufficientemente grande.
 
-CTL: If n independent observations each have mean μ and variance σ2, then under broad assumptions their sample mean is an estimator of μ, and has an approximately normal distribution with mean μ, variance σ2/n, and standard deviati  (also known as the standard error of the estimator).
+Teorema del limite centrale ci dice che la Distribuzione campionaria tende a presentare una Distribuzione Normale N = (μ, σ2 ), indipendentemente
+dalla forma della distribuzione empirica osservata nel Campione quando
+questo `e sufficientemente grande (≈ n > 30). La statistica misurata viene
+considerata uno stimatore del Parametro μ della distribuzione campiona-
+ria, mentre la sua Standard deviation è la radice quadrata del rapporto tra tra la varianza della popolazione e la dimensione del campione usato per calcolarla 
+anche conosciuta come Errore standard della stima della statistica.
 
-La varianza della distribuzione campionaria  è il rapporto tra tra la varianza della popolazione e la dimenzione del campione usato per calcolarla 
+L'errore standard diminuisce al crescere di N e al decrescere della varianza
 
-La radice quastrada della varianza della distribizione campionaria e' l'errore standard della media
-
-L'errore standard diminuisce al crescere di N e al decresere della varianza
-
-Quanto deve essere grande il campione perche' la distribuzione sia normale? 
-Nella maggior parte delle situazioni pratiche, n=30 e' soddisfacente, ma l'approssimazione migliora all'aumentare di n -->
+Quanto deve essere grande il campione perch&egrave; la distribuzione sia normale? 
+Nella maggior parte delle situazioni pratiche, n=30 e' soddisfacente, ma l'approssimazione migliora all'aumentare di n (lo vedremo tra qualche slide) -->
 
 ---
 ## Mettiamo i pezzi insieme
@@ -748,18 +766,19 @@ Nella maggior parte delle situazioni pratiche, n=30 e' soddisfacente, ma l'appro
 <div class="columns">
 <div>
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:50px;"></span>
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
-- la distribuzione campionaria e' una normale
-- in una normale, 95% delle osservazioni sono a $2 \times \text{SD}$ dalla media
-- il nostro intervallo di confidenza (95%) e' $2 \times \text{SE}$ dalla media della distribuzione campionaria
+- la distribuzione campionaria &egrave; una normale
+- in una normale, 95% delle osservazioni sono a circa $2 \times \text{SD}$ dalla media
+- il nostro intervallo di confidenza (95%) &egrave; $2 \times \text{SE}$ dalla media della distribuzione campionaria
 
 </div>
 
 </div>
 <div>
+
 <span style="display:block; height:70px;"></span>
 
 <center>
@@ -768,8 +787,8 @@ Nella maggior parte delle situazioni pratiche, n=30 e' soddisfacente, ma l'appro
 </div>
 </div>
 
-<!-- Approssimando una Normale, la distribizione campionaria ha le stesse (utili) caratteristiche della normale:
-- e' simmetrica
+<!-- Approssimando una Normale, la distribuzione campionaria ha le stesse (utili) caratteristiche della normale:
+- &egrave; simmetrica
 - ha area 1
 - 95% delle medie campionarie sono a 2 SE dalla vera media della popolazione 
 
@@ -789,7 +808,7 @@ Tutti concetti che ci torneranno utili tra poco
 
 <div style="font-size: 90%">
 
-:pushpin: &nbsp;&nbsp;&nbsp; Populazione: Donne italiane dai
+:pushpin: &nbsp;&nbsp;&nbsp; Popolazione: Donne italiane dai
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25 ai 74 anni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu=123 \text{ mmHg}$
 
@@ -812,29 +831,26 @@ Tutti concetti che ci torneranno utili tra poco
 a confidence interval is the range of population parameters for which our observed statistic is a plausible consequence.
 -->
 
-<!-- --- 
-## L'errore standard e il margine di errore
-
-<span style="display:block; height:30px;"></span>
-
-<center>
-<img src="./img/normal/small_large_SE.png" img height="400px" border="4px"/>
-</center>
-
-Piu; lo SE e' piccolo, piu' la media campionaria osservata sara' vicina alla vera media della popolazione -->
-
 ---
-## Esercizio #3
+### Esercizio #3
+
+<div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Da un sondaggio, risulta che lo stipendio mensile medio di un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; neolaureato e' 1.400&#8364;, con un 95% CI di 200&#8364;. Come interpreto 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  questo risultato?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; neolaureato &egrave; 1.400&#8364;, con un 95% CI = (1.200&#8364; ; 1.600&#8364;). 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come interpreto questo risultato?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) gli stipendi dei neolaureati sono compresi tra i 1.200 ai 1.600&#8364;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) il 95% dei neolaureati riceve tra 1.200 ai 1.600&#8364;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la media degli stipendi dei neolareati e' ragionevolmente 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la media degli stipendi dei neolaureati &egrave; ragionevolmente 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compresa tra 1.200 ai 1.600&#8364;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
+
+</div>
+
+<span style="display:block; height:40px;"></span>
+
+<!-- Questa differenza di 200 euro a dx e sx della media e' il margine di errore del 95% -->
 
 <style>
   #countdown_exercise_3{
@@ -923,20 +939,24 @@ updateButton_exercise_3();
 
 
 ---
-## Esercizio #3 -- Soluzione
+### Esercizio #3 -- Soluzione
+
+<div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Da un sondaggio, risulta che lo stipendio mensile medio di un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; neolaureato e' 1.400&#8364;, con un 95% CI di 200&#8364;. Come interpreto 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  questo risultato?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; neolaureato &egrave; 1.400&#8364;, con un 95% CI = (1.200&#8364; ; 1.600&#8364;). 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come interpreto questo risultato?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) gli stipendi dei neolaureati sono compresi tra i 1.200 ai 1.600&#8364;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) il 95% dei neolaureati riceve tra 1.200 ai 1.600&#8364;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la media degli stipendi dei neolareati e' ragionevolmente 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la media degli stipendi dei neolaureati &egrave; ragionevolmente 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compresa tra 1.200 ai 1.600&#8364; &nbsp; :white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
 
+</div>
+
 ---
-## Esercizio #4
+### Esercizio #4
 
 <div class="columns">
 <div>
@@ -945,11 +965,11 @@ updateButton_exercise_3();
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza e' largo
+:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza &egrave; largo
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) e' piu' probabile che includa $\mu$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) e' meno probabile che includa $\mu$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'e' differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non posso rispondere
 
 </div>
@@ -1053,7 +1073,7 @@ updateButton_exercise_4();
 
 
 ---
-## Esercizio #4 -- Soluzione
+### Esercizio #4 -- Soluzione
 
 <div class="columns">
 <div>
@@ -1062,11 +1082,11 @@ updateButton_exercise_4();
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza  e' largo
+:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza  &egrave; largo
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) e' piu' probabile che includa $\mu$ &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) e' meno probabile che includa $\mu$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'e' differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$ &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non posso rispondere
 
 </div>
@@ -1081,7 +1101,7 @@ updateButton_exercise_4();
 </div>
 
 ---
-## Esercizio #4 -- Soluzione
+### Esercizio #4 -- Soluzione
 
 <span style="display:block; height:30px;"></span>
 
@@ -1090,21 +1110,20 @@ updateButton_exercise_4();
 </center>
 
 ---
-## Esercizio #5
+### Esercizio #5
 
 <div class="columns">
 <div>
 
 <span style="display:block; height:30px;"></span>
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e' largo
+:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  &egrave; largo
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) siamo meno precisi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) siamo piu' precisi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'e' differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non posso rispondere
 
 </div>
@@ -1207,21 +1226,22 @@ updateButton_exercise_5();
 
 
 ---
-## Esercizio #5 -- Soluzione
+### Esercizio #5 -- Soluzione
 
 <div class="columns">
 <div>
 
 <span style="display:block; height:30px;"></span>
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e' largo
+:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  &egrave; largo
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) siamo meno precisi &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) siamo piu' precisi 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'e' differenza
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non posso rispondere
 
 </div>
@@ -1236,7 +1256,7 @@ updateButton_exercise_5();
 </div>
 
 ---
-## Esercizio #5 -- Soluzione
+### Esercizio #5 -- Soluzione
 
 <span style="display:block; height:30px;"></span>
 
@@ -1245,13 +1265,13 @@ updateButton_exercise_5();
 </center>
 
 ---
-## Esercizio #6
+### Esercizio #6
 
 <div style="font-size: 90%" >
 
-> In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di eta', riferiscono di aver avuto nella loro vita?
+> In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' il 95% CI?  
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; il 95% CI?  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
@@ -1350,11 +1370,11 @@ updateButton_exercise_6();
 
 
 ---
-## Esercizio #6 -- Soluzione
+### Esercizio #6 -- Soluzione
 
 <div style="font-size: 90%" >
 
-> In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di eta', riferiscono di aver avuto nella loro vita?
+> In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
 
 :question: &nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
@@ -1365,11 +1385,11 @@ updateButton_exercise_6();
 <div>
 
 ---
-## Esercizio #6 -- Soluzione
+### Esercizio #6 -- Soluzione
 
 <div style="font-size: 90%" >
 
-> In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di eta', riferiscono di aver avuto nella loro vita?
+> In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
 
 :question: &nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
@@ -1386,14 +1406,14 @@ updateButton_exercise_6();
 
 1,96 e' il coefficiente di attendibilita', ci dice entro quanti errori standard si trova il 95% di tutti i possibili valori della media campionaria
 
-Stima intervallare devinita come stimatore +/- il prodotto tra coeff di attendibilita' e SE. Questa quantita' si chiama anche PRECISIONE della STIMA o MARGINE DI ERRORE -->
+Stima intervallare definita come stimatore +/- il prodotto tra coeff di attendibilita' e SE. Questa quantita' si chiama anche PRECISIONE della STIMA o MARGINE DI ERRORE -->
 
 ---
-## Esercizio #6 -- Soluzione
+### Esercizio #6 -- Soluzione
 
 <div style="font-size: 90%" >
 
-> In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di eta', riferiscono di aver avuto nella loro vita?
+> In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
 
 :question: &nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
@@ -1410,7 +1430,7 @@ Stima intervallare devinita come stimatore +/- il prodotto tra coeff di attendib
 --->
 
 ---
-## Esercizio #7
+### Esercizio #7
 
 <div style="font-size: 90%" >
 
@@ -1513,7 +1533,7 @@ updateButton_exercise_7();
 
 
 ---
-## Esercizio #7 -- Soluzione
+### Esercizio #7 -- Soluzione
 
 <div style="font-size: 90%" >
 
@@ -1529,8 +1549,8 @@ updateButton_exercise_7();
 
 </div>
 
-<!-- Abbiao un confidence interval molto stretto perche' si sono verificate due condinzioni che, indipendentemente, migliorano la stima intervallare:
-- un'alta numerosita' campionaria e
+<!-- Abbiamo un confidence interval molto stretto perche' si sono verificate due condizioni che, indipendentemente, migliorano la stima intervallare:
+- un'alta numerosit&agrave; campionaria e
 - una bassa variabilita s tra le osservazioni 
 
 Peccato che sigma non la possiamo controllare :) 
@@ -1539,7 +1559,7 @@ Peccato che sigma non la possiamo controllare :)
 
 
 ---
-## Il coefficiente di attendibilita' $\alpha$ 
+## Il coefficiente di attendibilit&agrave; $\alpha$ 
 
 :dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - 1.96 \times \hat{SE} \text{ ; }  \bar{x} + 1.96 \times \hat{SE})$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $1.96$ &nbsp; ?
@@ -1570,7 +1590,7 @@ Peccato che sigma non la possiamo controllare :)
 Quando accettiamo un livello di confidenza del 95% accettiamo implicitamente un errore del 5%, distribuito equamente a dx e sx dell'intrevallo di confidenza (in verde), quindi 2.5% per parte -->
 
 ---
-## Il coefficiente di attendibilita' $\alpha$ 
+## Il coefficiente di attendibilit&agrave; $\alpha$ 
 
 :dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - 1.96 \times \hat{SE} \text{ ; }  \bar{x} + 1.96 \times \hat{SE})$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $1.96$ &nbsp; ?
@@ -1601,7 +1621,7 @@ $100\% - 2.5\% = 97.5\%$
 <!--  e qual e' l'aera di questa parte bianca? E' la totalita' dell'area (1, o 100%) meno l'area bianca (2.5%), quindi 97.5%-->
 
 ---
-## Il coefficiente di attendibilita' $\alpha$ 
+## Il coefficiente di attendibilit&agrave; $\alpha$ 
 
 :dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - 1.96 \times \hat{SE} \text{ ; }  \bar{x} + 1.96 \times \hat{SE})$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $1.96$ &nbsp; ?
@@ -1634,7 +1654,7 @@ $100\% - 2.5\% = 97.5\% \rightarrow \mathcal{z} = 1.96$
 coefficiente di attendibilita'-->
 
 ---
-## Il coefficiente di attendibilita' $\alpha$ 
+## Il coefficiente di attendibilit&agrave; $\alpha$ 
 
 <div class="columns">
 <div>
@@ -1672,7 +1692,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 ---
 ## Una regola empirica
 
-&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) e' al piu' $\pm \text{ } 100/\sqrt{n}$
+&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
 
 
 <!-- A simple rule of thumb is that, if you are estimating the percentage of people who prefer something, and you ask a random sample from a population, then your margin of error (in %) is at most plus or minus 100 divided by the square root of the sample size 
@@ -1681,9 +1701,9 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 -->
 
 ---
-## Esercizio #8
+### Esercizio #8
 
-&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) e' al piu' $\pm \text{ } 100/\sqrt{n}$
+&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
 
 <div class="columns">
 <div>
@@ -1692,8 +1712,8 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Calcolate il margine di errore
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; per i due "claim"
+:question: &nbsp;&nbsp;&nbsp; Calcolate il 95% CI per le due
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; affermazioni
 
 </div>
 
@@ -1797,9 +1817,9 @@ updateButton_exercise_9();
 </div>
 
 ---
-## Esercizio #8 -- Soluzione
+### Esercizio #8 -- Soluzione
 
-&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) e' al piu' $\pm \text{ } 100/\sqrt{n}$
+&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
 
 <div class="columns">
 <div>
@@ -1808,8 +1828,8 @@ updateButton_exercise_9();
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Calcolate il margine di errore
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; per i due "claim"
+:question: &nbsp;&nbsp;&nbsp; Calcolate il 95% CI per le due
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; affermazioni
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\text{ME} = 100/\sqrt{31} = 18\%$
 
@@ -1837,7 +1857,7 @@ updateButton_exercise_9();
 
 
 ---
-## E se il campione e' piccolo?
+## E se il campione &egrave; piccolo?
 
 <div class="columns">
 <div>
@@ -1865,15 +1885,15 @@ updateButton_exercise_9();
 
 <!-- Quando la dimensione campionaria e' grande la nostra fiducia nell'approssimare sigma con la varianza campionaria e' ben riposta  e possiamo usare la normale per il calcolo dei CI, ma cosa succede quando i campioni soo piccoli? Usiamo la distribuzione  di Student
 
-- e' una famiglia di distribuzioni, 1 per ogni valore campionario n-1
+- &egrave; una famiglia di distribuzioni, 1 per ogni valore campionario n-1
 
 Come la normale:
 - ha media 0
-- e' simmetrica
+- &egrave; simmetrica
 - ha varianza >1 che si avvicina a 1 al crescere di N
 
 
-Meno appuntita al centro e code piu' alte
+Meno appuntita al centro e code pi&ugrave; alte
  -->
 
 ---
@@ -1888,7 +1908,7 @@ Meno appuntita al centro e code piu' alte
 
 - Non posso approssimare a una normale
 - Uso la $\mathcal{t}$ di Student
-  - considera i gradi di liberta' $(\mathcal{df})$
+  - considera i gradi di libert&agrave; $(\mathcal{df})$
   - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
   - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
@@ -1926,7 +1946,7 @@ All’aumentare di n (e dei GdL) la stima di sigma attraverso s è sempre più a
 
 - Non posso approssimare a una normale
 - Uso la $\mathcal{t}$ di Student
-  - considera i gradi di liberta' $(\mathcal{df})$
+  - considera i gradi di libert&agrave; $(\mathcal{df})$
   - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
   - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
@@ -1945,7 +1965,7 @@ All’aumentare di n (e dei GdL) la stima di sigma attraverso s è sempre più a
 
 <!-- Il procedimento per la costruzione dei CI e' lo stesso, quello che cambia e' la tavola da dove andiamo ad estrare il coefficiente di attendibilita' (t) 
 
-Attenzione sempre al fattop che la distribuzione di t è diversa per ciascuno dei gl: usare le tavole corrette!!! -->
+Attenzione sempre al fatto che la distribuzione di t è diversa per ciascuno dei gl: usare le tavole corrette!!! -->
 
 ---
 ## $\mathcal{t}$ di Student per campioni piccoli
@@ -1959,7 +1979,7 @@ Attenzione sempre al fattop che la distribuzione di t è diversa per ciascuno de
 
 - Non posso approssimare a una normale
 - Uso la $\mathcal{t}$ di Student
-  - considera i gradi di liberta' $(\mathcal{df})$
+  - considera i gradi di libert&agrave; $(\mathcal{df})$
   - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
   - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
@@ -1979,194 +1999,6 @@ Attenzione sempre al fattop che la distribuzione di t è diversa per ciascuno de
 <!-- Piccoli == <30 circa  -->
 
 ---
-## Esercizio #9
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 80%" >
-
-:question: &nbsp;&nbsp;&nbsp; $n=12$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{BMI}} = 25.0 \text{ kg}/\text{m}^2$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s_{\text{BMI}}  = 2.7 \text{ kg}/\text{m}^2$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{90\% CI} = \text{ ?}$ 
-
-<span style="display:block; height:180px;"></span>
-
-<style>
-  #countdown_exercise_10{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_10.running {
-    background-color: green;
-  }
-  #countdown_exercise_10.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_10"></button>
-
-<script>
-<!--
-const countdown_exercise_10= document.getElementById("countdown_exercise_10");
-const seconds_exercise_10= 300; // seconds_exercise_10
-let timeLeft_exercise_10= seconds_exercise_10;
-let timerInterval_exercise_10= null;
-
-function formatTime_exercise_10(seconds_exercise_10) {
-  const minutes = Math.floor(seconds_exercise_10/ 60);
-  const remainingseconds_exercise_10= seconds_exercise_10% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_10).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_10() {
-  countdown_exercise_10.textContent = formatTime_exercise_10(timeLeft_exercise_10);
-}
-
-function startTimer_exercise_10() {
-  if (timerInterval_exercise_10=== null) {
-    countdown_exercise_10.classList.add('running');
-    countdown_exercise_10.classList.remove('finished');
-    timerInterval_exercise_10= setInterval(() => {
-      if (timeLeft_exercise_10> 0) {
-        timeLeft_exercise_10--;
-        updateButton_exercise_10();
-      } else {
-        clearInterval(timerInterval_exercise_10);
-        timerInterval_exercise_10= null;
-        countdown_exercise_10.classList.remove('running');
-        countdown_exercise_10.classList.add('finished');
-        countdown_exercise_10.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_10();
-  }
-}
-
-function pauseTimer_exercise_10() {
-  clearInterval(timerInterval_exercise_10);
-  timerInterval_exercise_10= null;
-  countdown_exercise_10.classList.remove('running');
-}
-
-function resetTimer_exercise_10() {
-  timeLeft_exercise_10= seconds_exercise_10;
-  updateButton_exercise_10();
-  countdown_exercise_10.classList.remove('finished');
-  countdown_exercise_10.classList.remove('running');
-  timerInterval_exercise_10= null;
-}
-
-countdown_exercise_10.addEventListener("click", () => {
-  if (countdown_exercise_10.classList.contains('finished')) {
-    resetTimer_exercise_10();
-  } else {
-    startTimer_exercise_10();
-  }
-});
-
-updateButton_exercise_10();
--->
-</script>
-
-
-</div>
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/tdist_table_zoom_top.png" img height="500px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!-- Fate bene attenzione al testo dell'esercizio -->
-
----
-## Esercizio #9 -- Soluzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 80%" >
-
-:question: &nbsp;&nbsp;&nbsp; $n=12$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{BMI}} = 25.0 \text{ kg}/\text{m}^2$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s_{\text{BMI}}  = 2.7 \text{ kg}/\text{m}^2$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \frac{2.7}{\sqrt{12}}=0.78$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{df} = n-1 = 12 - 1 = 11$
-
-</div>
-
-
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/tdist_table_zoom_top.png" img height="500px" border="4px"/>
-</center>
-
-</div>
-
-
-<!-- coefficiente di attendibilita' -->
-
----
-## Esercizio #9 -- Soluzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 80%" >
-
-:question: &nbsp;&nbsp;&nbsp; $n=12$ &nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{BMI}} = 25.0 \text{ kg}/\text{m}^2$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s_{\text{BMI}}  = 2.7 \text{ kg}/\text{m}^2$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \frac{2.7}{\sqrt{12}}=0.78$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{df} = n-1 = 12 - 1 = 11$
-
-</div>
-
-<div style="font-size: 66%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{90\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE}) =$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (25 - 1.79 \times 0.78; \text{ } 25 + 1.79 \times 0.78) =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (25 - 1.4; \text{ } 25 + 1.4) =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (23.6; \text{ } 26.4)$
-
-</div>
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/tdist_table_zoom_top.png" img height="500px" border="4px"/>
-</center>
-
-</div>
-
-
-<!-- Abbiamo un grado di confidenza del 95% che la media della popolazione p sia compresa tra 24.28 e 25.72 -->
-
----
 ## Cosa abbiamo imparato in questa lezione?
 
 <span style="display:block; height:0px;"></span>
@@ -2176,9 +2008,9 @@ updateButton_exercise_10();
 
 - Gli intervalli di confidenza (CI)/margini di errore sono un aspetto importante di come vengono comunicate le statistiche
 - La dimensione del campione influenza la larghezza dei CI
-- Attraverso il boostrapping si ricampiona il dataset originale con rimpiazzo, ottenendo distribuzioni che tendono alla normale
+- Attraverso il bootstrapping si ricampiona il dataset originale con rimpiazzo, ottenendo distribuzioni che tendono alla normale
 - Il teorema del limite centrale ci dice che le distribuzioni campionarie tendono alla normale per campioni grandi, con formule per calcolare i CI
 - Un CI del 95% risulta da una procedura che nel 95% dei casi contiene il valore della popolazione
-- Per campioni piccoli, la distrubuzione campionaria viene approssimata dall t di Student
+- Per campioni piccoli, la distribuzione campionaria viene approssimata dalla distribuzione t di Student
 
 </div>
