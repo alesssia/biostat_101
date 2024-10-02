@@ -49,9 +49,9 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 </div>
 
-<!-- The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book; but sometimes all that is required is a useful visualization, as in Figure 0.1. 
+<!-- The Analysis stage has traditionally been the main emphasis of statistics courses, and we shall cover a range of analytic techniques in this book.
 
-Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly, as in the graphical illustrations of the Shipman data. Any conclusions generally raise more questions, and so the cycle starts over again, as when we started looking at the time of day when Shipman’s patients died.
+Finally, the key to good statistical science is drawing appropriate Conclusions that fully acknowledge the limitations in the evidence, and communicating them clearly. Any conclusions generally raise more questions, and so the cycle starts over again
  -->
 
 ---
@@ -64,11 +64,11 @@ Finally, the key to good statistical science is drawing appropriate Conclusions 
 
 
 ---
-## Cos'e' un'ipotesi?
+## Cos'&egrave; un'ipotesi?
 
 <span style="display:block; height:30px;"></span>
 
-> Una possibile spiegazione per un fenomeno, che non rappresenta la verita' assoluta, ma una congettura provvisoria
+> Una possibile spiegazione per un fenomeno, che non rappresenta la verit&agrave; assoluta, ma una congettura provvisoria
 
 <!-- 
 Ogni studio inizia con un'ipotesi, quella che viene chiamata "domanda di ricerca"
@@ -82,27 +82,20 @@ A hypothesis can be defined as a proposed explanation for a phenomenon. It is no
 
 <div style="font-size: 80%">
 
-* Il peso alla nascita e' diverso nei gemelli monozigoti e dizigoti inglesi?
-* Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra il 1984 e il 1995 e' diverso rispetto ad altri ospedali britannici?
+* Il peso alla nascita &egrave; diverso nei gemelli monozigoti e dizigoti inglesi?
+* Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra il 1984 e il 1995 &egrave; diverso rispetto ad altri ospedali britannici?
 
 </div>
 
-<!-- Cognitive Behavior Therapy for Persistent Insomnia in General Practice 
-
-Ci interessa saperlo per pianificare il controllo delle malattie sessualmente trasmesse, per pianificare i posti in NICU, per trattare l'insonnia e per scoprire casi di malasanita'
-
-Un'ipotesi puo' essere definita come una congettura
--->
-
 ---
-## Il principio di falsificabilità e l'ipotesi nulla
+## Il principio di falsificabilit&agrave; e l'ipotesi nulla
 
 <span style="display:block; height:10px;"></span>
 
 <div style="font-size: 80%">
 
-* Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
-* Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+* Il peso alla nascita &egrave; <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
+* Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 </div>
 
@@ -114,12 +107,12 @@ So we can never claim that the null hypothesis has been actually proved: in the 
 
 infatti il fatto di aver trovato dell'evidenza in favore di un'ipotesi non vuold dire che non sara' mai possibile trovare ulteriore evidenza che la renda falsa
 
-Nulla e alternativa sono mutualmente escusive e insieme descrivono tutti possibili casi -->
+Nulla e alternativa sono mutualmente esclusive e insieme descrivono tutti possibili casi -->
 
 ---
 ### Esercizio 1
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 1
 
@@ -139,7 +132,7 @@ Meaning  These results underscore the importance of interventions targeting the 
 ---
 ### Esercizio 1
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 1
 
@@ -158,7 +151,7 @@ Meaning  These results underscore the importance of interventions targeting the 
 ---
 ### Esercizio 1
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 2
 
@@ -178,7 +171,7 @@ Meaning  These findings suggest that the use of combined VR exposure plus tDCS c
 ---
 ### Esercizio 1
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 2
 
@@ -197,7 +190,7 @@ Meaning  These findings suggest that the use of combined VR exposure plus tDCS c
 ---
 ### Esercizio 1
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 3
 
@@ -217,7 +210,7 @@ Meaning  The findings suggest that the experience of grateful affect is associat
 ---
 ### Esercizio 1
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' l'ipotesi nulla nei seguenti studi
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Studio 3
 
@@ -245,7 +238,7 @@ Meaning  The findings suggest that the experience of grateful affect is associat
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) ho provato che l'ipotesi nulla sia vera
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ho provato che l'ipotesi nulla sia falsa
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) le mie osservazioni sono compatibii con l'ipotesi nulla
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) le mie osservazioni sono compatibili con l'ipotesi nulla
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) le mie osservazioni non sono compatibili con l'ipotesi nulla
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuno dei precedenti
@@ -351,19 +344,27 @@ updateButton_exercise_2();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) ho provato che l'ipotesi nulla sia vera
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ho provato che l'ipotesi nulla sia falsa
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) le mie osservazioni sono compatibii con l'ipotesi nulla &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) le mie osservazioni sono compatibili con l'ipotesi nulla &nbsp; :white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) le mie osservazioni non sono compatibili con l'ipotesi nulla
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuno dei precedenti
 
 </div>
 
+<!-- Il metodo statistico formalizza questa idea (È più semplice trovare evidenze contro un’ipotesi piuttosto che evidenze a favore) attraverso l’ipotesi nulla, 
+
+HO ci dice che non ci sono differenze. I gemelli mono e di pesano uguale
+
+L’ipotesi nulla (𝐻_0 )  è l’ipotesi considerata vera finché non vengono presentate delle prove (evidenza empirica) per mostrare che non lo è
+
+Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
+
 ---
 ## $z$-test
 
 <div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita &egrave; <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
 
 </div>
 
@@ -385,20 +386,15 @@ updateButton_exercise_2();
 </div>
 <div>
 
-<!-- <center>
-<img src="./img/hypothesis_testing/Twin_BW_distribution_by_zyg.png" img height="400px" border="4px"/>
-</center> -->
 
 </div>
 </div>
 
 <!-- Il metodo statistico formalizza questa idea (È più semplice trovare evidenze contro un’ipotesi piuttosto che evidenze a favore) attraverso l’ipotesi nulla, 
 
-HO ci dice che non ci sono differenze. Dexamethasome ha la stessa efficacia della terapia standard e non aumenta il numero di giorni di respirazione autonoma.
+HO ci dice che non ci sono differenze. I gemelli mono e di pesano uguale
 
 L’ipotesi nulla (𝐻_0 )  è l’ipotesi considerata vera finché non vengono presentate delle prove (evidenza empirica) per mostrare che non lo è
-
-come per i dinosauri: non ganno piume sino a che non ne troviamo uno che ce l'ha
 
 Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
@@ -407,7 +403,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
 <div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita &egrave; <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
 
 </div>
 
@@ -425,16 +421,12 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow \text{Ipotesi nulla} \text{ } (\mathcal{H}_0)$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{d}} - \mu_{\text{m}} \neq 0$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow \text{Ipotesi aternativa} \text{ } (\mathcal{H}_{1/A})$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow \text{Ipotesi alternativa} \text{ } (\mathcal{H}_{1/A})$
 
 </div>
 
 </div>
 <div>
-
-<!-- <center>
-<img src="./img/hypothesis_testing/Twin_BW_distribution_by_zyg.png" img height="400px" border="4px"/>
-</center> -->
 
 </div>
 </div>
@@ -444,7 +436,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
 <div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita &egrave; <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
 
 </div>
 
@@ -464,16 +456,13 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{d}} - \mu_{\text{m}} \neq 0$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{m}} - \mu_{\text{d}} \neq 0$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow |\mu_{\text{d}} - \mu_{\text{m}}| \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Ipotesi aternativa} \text{ } (\mathcal{H}_{1/A})$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Ipotesi alternativa} \text{ } (\mathcal{H}_{1/A})$
 
 </div>
 
 </div>
 <div>
 
-<!-- <center>
-<img src="./img/hypothesis_testing/Twin_BW_distribution_by_zyg.png" img height="400px" border="4px"/>
-</center> -->
 
 </div>
 </div>
@@ -484,7 +473,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
 <div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita &egrave; <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
 
 </div>
 
@@ -514,7 +503,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
 <div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita &egrave; <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
 
 </div>
 
@@ -541,7 +530,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
 <div style="font-size: 78%" >
 
-:question: &nbsp;&nbsp;&nbsp; Una differenza di 112g e' "abbastanza vicina" a zero per concludere $\mu_{\text{d}} - \mu_{\text{m}} = 0$?
+:question: &nbsp;&nbsp;&nbsp; Una differenza di $112$ g &egrave; "abbastanza vicina" a zero per concludere $\mu_{\text{d}} - \mu_{\text{m}} = 0$?
 
 </div>
 
@@ -556,7 +545,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
 <div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita &egrave; <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
 
 </div>
 
@@ -583,14 +572,14 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
 <div style="font-size: 78%" >
 
-:question: &nbsp;&nbsp;&nbsp; Una differenza di $112$g e' "abbastanza vicina" a zero per concludere $\mu_{\text{d}} - \mu_{\text{m}} = 0$?
+:question: &nbsp;&nbsp;&nbsp; Una differenza di $112$ g &egrave; "abbastanza vicina" a zero per concludere $\mu_{\text{d}} - \mu_{\text{m}} = 0$?
 
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' la probabilita' di osservare una differenza di $112$g se $\mu_{\text{d}} - \mu_{\text{m}} = 0$?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave; di osservare una differenza di $112$ g se $\mu_{\text{d}} - \mu_{\text{m}} = 0$?
 
 </div>
 
-<!-- Se e' abbastanza probabile, tipo 1 caso su 10, vuol dire che e' abbastanza vicino, se invece e' 1 su 1000 allora e' alquanto improbabile, e di conseguenza vuol dire che e' "sufficientemente lontanp".
+<!-- Se &egrave; abbastanza probabile, tipo 1 caso su 10, vuol dire che e' abbastanza vicino, se invece e' 1 su 1000 allora e' alquanto improbabile, e di conseguenza vuol dire che e' "sufficientemente lontano".
 
 Se vi dico probabilita' di osservare, quale argomento passato vi viene in mente? -->
 
@@ -601,8 +590,8 @@ Se vi dico probabilita' di osservare, quale argomento passato vi viene in mente?
 
 <div style="font-size: 90%" >
 
-1. La Normale e' definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilita'
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp;&nbsp; Area sottesesa a $Z$ $\equiv$ probabilita' $\mathcal{P}$
+1. La Normale &egrave; definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp;&nbsp; Area sottesa a $Z$ $\equiv$ probabilit&agrave; $\mathcal{P}$
 2. Il teorema del limite centrale ci dice che le distribuzioni campionarie (incluso la differenza delle medie) tendono alla Normale
 
 </div>
@@ -614,8 +603,8 @@ Se vi dico probabilita' di osservare, quale argomento passato vi viene in mente?
 
 <div style="font-size: 90%" >
 
-1. La Normale e' definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilita'
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp;&nbsp; Area sottesesa a $Z$ $\equiv$ probabilita' $\mathcal{P}$
+1. La Normale &egrave; definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp;&nbsp; Area sottesa a $Z$ $\equiv$ probabilit&agrave; $\mathcal{P}$
 2. Il teorema del limite centrale ci dice che le distribuzioni campionarie (incluso la differenza delle medie) tendono alla Normale
 
 </div>
@@ -635,7 +624,7 @@ Per la differenza tra due medie
 
 <div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita &egrave; <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
 
 </div>
 
@@ -678,8 +667,8 @@ Per la differenza tra due medie
 
 <div style="font-size: 78%" >
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' la probabilita' di osservare una differenza di $112$g se $\mu_{\text{d}} - \mu_{\text{m}} = 0$?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Area sottesesa a $Z$ $\equiv$ probabilita' $\mathcal{P}$
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave; di osservare una differenza di $112$g se $\mu_{\text{d}} - \mu_{\text{m}} = 0$?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Area sottesa a $Z$ $\equiv$ probabilit&agrave; $\mathcal{P}$
 
 </div>
 
@@ -691,7 +680,7 @@ Per la differenza tra due medie
 
 <div style="font-size: 80%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
+:pushpin: &nbsp;&nbsp;&nbsp; Il peso alla nascita &egrave; <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
 
 </div>
 
@@ -734,7 +723,7 @@ Per la differenza tra due medie
 
 <div style="font-size: 78%" >
 
-:question: &nbsp;&nbsp;&nbsp; Qual e' la probabilita' di osservare una differenza di $112$g se $\mu_{\text{d}} - \mu_{\text{m}} = 0$?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave; di osservare una differenza di $112$g se $\mu_{\text{d}} - \mu_{\text{m}} = 0$?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{\bar{X}-\mu}{\hat{SE}} = \frac{\pm112-0}{13.5} = \pm8.3$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $\mathcal{P} = 2 \times(7.0  \times 10^{-17}) = 1.4 \times 10^{-16}$
 
 
@@ -742,7 +731,7 @@ Per la differenza tra due medie
 
 <!-- P = 1.4e-16 
 
-Unsando il P-value, che ci dice quanto sono improbabili i risultati ottenuti da questo campione dato che l'ipotesi nulla e' vera.
+Usando il P-value, che ci dice quanto sono improbabili i risultati ottenuti da questo campione dato che l'ipotesi nulla &egrave; vera.
 
 Un P-value molto piccolo ci dice quindi che sia molto improbabile che H0 sia vera dandoci una forte ragione per dubitare che le due medie siano uguali 
 
@@ -755,7 +744,7 @@ Un P-value molto piccolo ci dice quindi che sia molto improbabile che H0 sia ver
 <div style="font-size: 90%" >
 
 :dart: &nbsp;&nbsp;&nbsp; Il P-value misura la discrepanza tra i dati e $\mathcal{H}_0$ e corrisponde alla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; probabilita' di ottenere un risultato tanto estremo quanto quello 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; probabilit&agrave; di ottenere un risultato tanto estremo quanto quello 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ottenuto se l'ipotesi nulla fosse vera.
 
 </div>
@@ -768,7 +757,7 @@ Un P-value molto piccolo ci dice quindi che sia molto improbabile che H0 sia ver
 <div style="font-size: 90%" >
 
 :dart: &nbsp;&nbsp;&nbsp; Il P-value misura la discrepanza tra i dati e $\mathcal{H}_0$ e corrisponde alla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; probabilita' di ottenere un risultato tanto estremo quanto quello 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; probabilit&agrave; di ottenere un risultato tanto estremo quanto quello 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ottenuto se l'ipotesi nulla fosse vera.
 
 </div>
@@ -796,14 +785,14 @@ Un P-value molto piccolo ci dice quindi che sia molto improbabile che H0 sia ver
  -->
 
 ---
-### P-value e significativita' statistica
+## P-value e significativit&agrave; statistica
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%" >
 
 :dart: &nbsp;&nbsp;&nbsp; Il P-value misura la discrepanza tra i dati e $\mathcal{H}_0$ e corrisponde alla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; probabilita' di ottenere un risultato tanto estremo quanto quello 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; probabilit&agrave; di ottenere un risultato tanto estremo quanto quello 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ottenuto se l'ipotesi nulla fosse vera.
 
 </div>
@@ -812,8 +801,8 @@ Un P-value molto piccolo ci dice quindi che sia molto improbabile che H0 sia ver
 
 <div style="font-size: 90%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se il P-value e' minore di una soglia critica $\alpha$, possiamo dire che il nostro
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; risultato e' statisticamente significativo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se il P-value &egrave; minore di una soglia critica (o livello di significativit&agrave;) $\alpha$, 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; possiamo dire che il risultato &egrave; statisticamente significativo
 
 </div>
 
@@ -825,19 +814,22 @@ Un P-value molto piccolo ci dice quindi che sia molto improbabile che H0 sia ver
 
 
 <!-- 
+In modo molto informale. L’espressione statisticamente significativo vuol dire che sono state raccolte prove sufficienti per rifiutare l’ipotesi nulla 
+
 Ronald Fisher used P < 0.05 and P < 0.01 as convenient critical thresholds for indicating significance, and produced tables of the critical values of test statistics needed to achieve these levels of significance. The popularity of these tables led to 0.05 and 0.01 becoming established conventions, although it is now recommended that exact P-values should be reported. 
 
 The standard thresholds for declaring ‘significance’, P < 0.05 and P < 0.01, were fairly arbitrary choices by Ronald Fisher for his tables, back in the days when calculating exact P-values was not possible using the mechanical and electrical calculators available. 
 
 And it is important to emphasize that the exact P-value is conditional not only on the truth of the null hypothesis, but also on all other assumptions underlying the statistical model, such as lack of systematic bias, independent observations, and so on.
 
-This whole process has become known as Null Hypothesis Significance Testing (NHST) and, as we shall see below, it has become a source of major controversy. But first we should examine how Fisher’s ideas are used in practice.
-
-Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary because he is regarded as a pioneering figure in two distinct fields – genetics and statistics. Yet he had a notorious temper and could be extremely critical of anyone who he felt questioned his ideas, while his support for eugenics and his public criticism of the evidence for the link between smoking and lung cancer damaged his standing. His personal reputation has suffered as his financial connections with the tobacco industry have been revealed, but his scientific reputation is undiminished, as his ideas find repeated new applications in the analysis of large data sets. -->
+--->
 
 ---
 ## Test di ipotesi, un passo alla volta
 
+<!-- This whole process has become known as Null Hypothesis Significance Testing (NHST) and, as we shall see below, it has become a source of major controversy. But first we should examine how Fisher’s ideas are used in practice.
+
+Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary because he is regarded as a pioneering figure in two distinct fields – genetics and statistics. Yet he had a notorious temper and could be extremely critical of anyone who he felt questioned his ideas, while his support for eugenics and his public criticism of the evidence for the link between smoking and lung cancer damaged his standing. His personal reputation has suffered as his financial connections with the tobacco industry have been revealed, but his scientific reputation is undiminished, as his ideas find repeated new applications in the analysis of large data sets. --> -->
 
 ---
 ## Test di ipotesi, un passo alla volta
@@ -850,7 +842,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 
 <div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Il peso alla nascita e' <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Il peso alla nascita &egrave; <s>diverso</s> *uguale* nei gemelli monozigoti e dizigoti inglesi<s>?</s>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H_0} : \mu_d - \mu_m = 0$
 
 </div>
@@ -895,7 +887,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
 2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
 3. Genero la distribuzione campionaria del test scelto, assumendo $\mathcal{H_0}$ vera
-4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilita' (P-value) a questo evento
+4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilit&agrave; (P-value) a questo evento
 
 </div>
 
@@ -927,8 +919,8 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
 2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
 3. Genero la distribuzione campionaria del test scelto, assumendo $\mathcal{H_0}$ vera
-4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilita' (P-value) a questo evento
-5. Dichiaro il risultato come statisticamente significativo se il P-value e' inferiore a una soglia critica $\alpha$
+4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilit&agrave; (P-value) a questo evento
+5. Dichiaro il risultato come statisticamente significativo se il P-value &egrave; inferiore a una soglia critica $\alpha$
 
 </div>
 
@@ -938,6 +930,467 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 
 </div>
 <!-- P-value measures how likely it is that we would have observed such an extreme value were the null hypothesis really true. -->
+
+---
+### Esercizio #3
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:80px;"></span>
+
+<img src="./img/sampling/abstract_methods_ex1.png" img height="210px" align="right" border="4px"/>
+
+<span style="display:block; height:320px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’ipotesi nulla dello studio?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) L’intervento riduce l’interazione 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sociale
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Nel gruppo di controllo non c’&egrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aumento di interazione sociale
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Non c’&egrave; differenza in aumento di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interazione sociale tra il gruppo di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;intervento e quello di controllo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nei due gruppi c’&egrave; una differenza 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativa nell’aumento della
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; interazione sociale
+
+
+</div>
+
+<span style="display:block; height:20px;"></span>
+
+<style>
+  #countdown_exercise_3{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_3.running {
+    background-color: green;
+  }
+  #countdown_exercise_3.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_3"></button>
+
+<script>
+<!--
+const countdown_exercise_3= document.getElementById("countdown_exercise_3");
+const seconds_exercise_3= 120; // seconds_exercise_3
+let timeLeft_exercise_3= seconds_exercise_3;
+let timerInterval_exercise_3= null;
+
+function formatTime_exercise_3(seconds_exercise_3) {
+  const minutes = Math.floor(seconds_exercise_3/ 60);
+  const remainingseconds_exercise_3= seconds_exercise_3% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_3).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_3() {
+  countdown_exercise_3.textContent = formatTime_exercise_3(timeLeft_exercise_3);
+}
+
+function startTimer_exercise_3() {
+  if (timerInterval_exercise_3=== null) {
+    countdown_exercise_3.classList.add('running');
+    countdown_exercise_3.classList.remove('finished');
+    timerInterval_exercise_3= setInterval(() => {
+      if (timeLeft_exercise_3> 0) {
+        timeLeft_exercise_3--;
+        updateButton_exercise_3();
+      } else {
+        clearInterval(timerInterval_exercise_3);
+        timerInterval_exercise_3= null;
+        countdown_exercise_3.classList.remove('running');
+        countdown_exercise_3.classList.add('finished');
+        countdown_exercise_3.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_3();
+  }
+}
+
+function pauseTimer_exercise_3() {
+  clearInterval(timerInterval_exercise_3);
+  timerInterval_exercise_3= null;
+  countdown_exercise_3.classList.remove('running');
+}
+
+function resetTimer_exercise_3() {
+  timeLeft_exercise_3= seconds_exercise_3;
+  updateButton_exercise_3();
+  countdown_exercise_3.classList.remove('finished');
+  countdown_exercise_3.classList.remove('running');
+  timerInterval_exercise_3= null;
+}
+
+countdown_exercise_3.addEventListener("click", () => {
+  if (countdown_exercise_3.classList.contains('finished')) {
+    resetTimer_exercise_3();
+  } else {
+    startTimer_exercise_3();
+  }
+});
+
+updateButton_exercise_3();
+-->
+</script>
+
+</div>
+</div>
+
+---
+### Esercizio #3 -- Soluzione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:80px;"></span>
+
+<img src="./img/sampling/abstract_methods_ex1.png" img height="210px" align="right" border="4px"/>
+
+<span style="display:block; height:320px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’ipotesi nulla dello studio?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) L’intervento riduce l’interazione 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sociale
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Nel gruppo di controllo non c’&egrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aumento di interazione sociale
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Non c’&egrave; differenza in aumento di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interazione sociale tra il gruppo di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;intervento e quello di controllo  &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nei due gruppi c’&egrave; una differenza 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativa nell’aumento della
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; interazione sociale
+
+</div>
+
+</div>
+</div>
+
+---
+### Esercizio #4
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:80px;"></span>
+
+<img src="./img/sampling/abstract_methods_ex1.png" img height="210px" align="right" border="4px"/>
+
+<span style="display:block; height:320px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:100px;"></span>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Formulare operativamente l’ipotesi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nulla
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_i-\mu_c = 0$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_i-\mu_c \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\bar{x}_i-\bar{x}_c = 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $\bar{x}_i-\bar{x}_c \neq 0$
+
+</div>
+
+<span style="display:block; height:20px;"></span>
+
+<style>
+  #countdown_exercise_4{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_4.running {
+    background-color: green;
+  }
+  #countdown_exercise_4.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_4"></button>
+
+<script>
+<!--
+const countdown_exercise_4= document.getElementById("countdown_exercise_4");
+const seconds_exercise_4= 120; // seconds_exercise_4
+let timeLeft_exercise_4= seconds_exercise_4;
+let timerInterval_exercise_4= null;
+
+function formatTime_exercise_4(seconds_exercise_4) {
+  const minutes = Math.floor(seconds_exercise_4/ 60);
+  const remainingseconds_exercise_4= seconds_exercise_4% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_4).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_4() {
+  countdown_exercise_4.textContent = formatTime_exercise_4(timeLeft_exercise_4);
+}
+
+function startTimer_exercise_4() {
+  if (timerInterval_exercise_4=== null) {
+    countdown_exercise_4.classList.add('running');
+    countdown_exercise_4.classList.remove('finished');
+    timerInterval_exercise_4= setInterval(() => {
+      if (timeLeft_exercise_4> 0) {
+        timeLeft_exercise_4--;
+        updateButton_exercise_4();
+      } else {
+        clearInterval(timerInterval_exercise_4);
+        timerInterval_exercise_4= null;
+        countdown_exercise_4.classList.remove('running');
+        countdown_exercise_4.classList.add('finished');
+        countdown_exercise_4.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_4();
+  }
+}
+
+function pauseTimer_exercise_4() {
+  clearInterval(timerInterval_exercise_4);
+  timerInterval_exercise_4= null;
+  countdown_exercise_4.classList.remove('running');
+}
+
+function resetTimer_exercise_4() {
+  timeLeft_exercise_4= seconds_exercise_4;
+  updateButton_exercise_4();
+  countdown_exercise_4.classList.remove('finished');
+  countdown_exercise_4.classList.remove('running');
+  timerInterval_exercise_4= null;
+}
+
+countdown_exercise_4.addEventListener("click", () => {
+  if (countdown_exercise_4.classList.contains('finished')) {
+    resetTimer_exercise_4();
+  } else {
+    startTimer_exercise_4();
+  }
+});
+
+updateButton_exercise_4();
+-->
+</script>
+
+
+</div>
+</div>
+
+---
+### Esercizio #4 -- Soluzione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:80px;"></span>
+
+<img src="./img/sampling/abstract_methods_ex1.png" img height="210px" align="right" border="4px"/>
+
+<span style="display:block; height:320px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Formulare operativamente l’ipotesi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nulla
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_i-\mu_c = 0$ &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_i-\mu_c \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\bar{x}_i-\bar{x}_c = 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $\bar{x}_i-\bar{x}_c \neq 0$
+
+</div>
+
+</div>
+</div>
+
+---
+### Esercizio #5
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Il P-value associato alla variabile “Sex” è pari a 0.84. Con un livello di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativit&agrave; del 5%, ci sono differenze statisticamente significative nella 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; distribuzione maschi/femmine nei due gruppi?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) s&igrave;, perch&eacute; si tratta di uno studio clinico randomizzato
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) s&igrave;, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) no, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ci sono informazioni sufficienti per stabilirlo
+
+</div>
+
+<span style="display:block; height:70px;"></span>
+
+<style>
+  #countdown_exercise_5{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_5.running {
+    background-color: green;
+  }
+  #countdown_exercise_5.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_5"></button>
+
+<script>
+<!--
+const countdown_exercise_5= document.getElementById("countdown_exercise_5");
+const seconds_exercise_5= 120; // seconds_exercise_5
+let timeLeft_exercise_5= seconds_exercise_5;
+let timerInterval_exercise_5= null;
+
+function formatTime_exercise_5(seconds_exercise_5) {
+  const minutes = Math.floor(seconds_exercise_5/ 60);
+  const remainingseconds_exercise_5= seconds_exercise_5% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_5() {
+  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
+}
+
+function startTimer_exercise_5() {
+  if (timerInterval_exercise_5=== null) {
+    countdown_exercise_5.classList.add('running');
+    countdown_exercise_5.classList.remove('finished');
+    timerInterval_exercise_5= setInterval(() => {
+      if (timeLeft_exercise_5> 0) {
+        timeLeft_exercise_5--;
+        updateButton_exercise_5();
+      } else {
+        clearInterval(timerInterval_exercise_5);
+        timerInterval_exercise_5= null;
+        countdown_exercise_5.classList.remove('running');
+        countdown_exercise_5.classList.add('finished');
+        countdown_exercise_5.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_5();
+  }
+}
+
+function pauseTimer_exercise_5() {
+  clearInterval(timerInterval_exercise_5);
+  timerInterval_exercise_5= null;
+  countdown_exercise_5.classList.remove('running');
+}
+
+function resetTimer_exercise_5() {
+  timeLeft_exercise_5= seconds_exercise_5;
+  updateButton_exercise_5();
+  countdown_exercise_5.classList.remove('finished');
+  countdown_exercise_5.classList.remove('running');
+  timerInterval_exercise_5= null;
+}
+
+countdown_exercise_5.addEventListener("click", () => {
+  if (countdown_exercise_5.classList.contains('finished')) {
+    resetTimer_exercise_5();
+  } else {
+    startTimer_exercise_5();
+  }
+});
+
+updateButton_exercise_5();
+-->
+</script>
+
+
+---
+### Esercizio #5 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Il P-value associato alla variabile “Sex” è pari a 0.84. Con un livello di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativit&agrave; del 5%, ci sono differenze statisticamente significative nella 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; distribuzione maschi/femmine nei due gruppi?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) s&igrave;, perch&eacute; si tratta di uno studio clinico randomizzato
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) s&igrave;, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) no, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave; &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ci sono informazioni sufficienti per stabilirlo
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
 
 ---
 ## Uguale, diverso, maggiore, minore?
@@ -1002,6 +1455,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 <center>
 <img src="./img/hypothesis_testing/One-tailed_test.png" img height="370px" border="4px"/>
 </center>
+
 </div>
 </div>
 
@@ -1009,14 +1463,140 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 <!-- a one-sided hypothesis test is used when a null hypothesis specifies that, say, the effect of a medical treatment is negative. This would only be rejected by large positive values of a test statistic representing an estimated treatment effect. A two-sided test would be appropriate for a null hypothesis that a treatment effect, say, is exactly zero, and so both positive and negative estimates would lead to the null being rejected. -->
 
 ---
-## Esercizio #3
+### Esercizio #6
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Nei metodi &egrave; stato riportato che “All significance tests were 2-sided, and 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $P < 0.05$ was used to indicate significance”. Qual &egrave; il livello di significativit&agrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle analisi?
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.05
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.025
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) il P-value
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ci sono informazioni sufficienti per stabilirlo
+
+</div>
+
+<span style="display:block; height:70px;"></span>
+
+<style>
+  #countdown_exercise_6{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_6.running {
+    background-color: green;
+  }
+  #countdown_exercise_6.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_6"></button>
+
+<script>
+<!--
+const countdown_exercise_6= document.getElementById("countdown_exercise_6");
+const seconds_exercise_6= 120; // seconds_exercise_6
+let timeLeft_exercise_6= seconds_exercise_6;
+let timerInterval_exercise_6= null;
+
+function formatTime_exercise_6(seconds_exercise_6) {
+  const minutes = Math.floor(seconds_exercise_6/ 60);
+  const remainingseconds_exercise_6= seconds_exercise_6% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_6() {
+  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
+}
+
+function startTimer_exercise_6() {
+  if (timerInterval_exercise_6=== null) {
+    countdown_exercise_6.classList.add('running');
+    countdown_exercise_6.classList.remove('finished');
+    timerInterval_exercise_6= setInterval(() => {
+      if (timeLeft_exercise_6> 0) {
+        timeLeft_exercise_6--;
+        updateButton_exercise_6();
+      } else {
+        clearInterval(timerInterval_exercise_6);
+        timerInterval_exercise_6= null;
+        countdown_exercise_6.classList.remove('running');
+        countdown_exercise_6.classList.add('finished');
+        countdown_exercise_6.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_6();
+  }
+}
+
+function pauseTimer_exercise_6() {
+  clearInterval(timerInterval_exercise_6);
+  timerInterval_exercise_6= null;
+  countdown_exercise_6.classList.remove('running');
+}
+
+function resetTimer_exercise_6() {
+  timeLeft_exercise_6= seconds_exercise_6;
+  updateButton_exercise_6();
+  countdown_exercise_6.classList.remove('finished');
+  countdown_exercise_6.classList.remove('running');
+  timerInterval_exercise_6= null;
+}
+
+countdown_exercise_6.addEventListener("click", () => {
+  if (countdown_exercise_6.classList.contains('finished')) {
+    resetTimer_exercise_6();
+  } else {
+    startTimer_exercise_6();
+  }
+});
+
+updateButton_exercise_6();
+-->
+</script>
+
+
+---
+### Esercizio #6 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Nei metodi &egrave; stato riportato che “All significance tests were 2-sided, and 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $P < 0.05$ was used to indicate significance”. Qual &egrave; il livello di significativit&agrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle analisi?
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.05 &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.025
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) il P-value
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ci sono informazioni sufficienti per stabilirlo
+
+</div>
+
+---
+### Esercizio #7
 
 <!-- <span style="display:block; height:1px;"></span> -->
 
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andro' a rifiutare con $\alpha = 0.05$?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andr&ograve; a rifiutare con $\alpha = 0.05$?
 
 </div>
 
@@ -1036,9 +1616,6 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 </div>
 <div>
 
-<!-- <center>
-<img src="./img/hypothesis_testing/CLT.png" img height="270px" border="4px"/>
-</center> -->
 
 </div>
 </div>
@@ -1046,7 +1623,7 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
 <span style="display:block; height:100px;"></span>
 
 <style>
-  #countdown_exercise_3{
+  #countdown_exercise_7{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -1056,77 +1633,77 @@ Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary bec
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_3.running {
+  #countdown_exercise_7.running {
     background-color: green;
   }
-  #countdown_exercise_3.finished {
+  #countdown_exercise_7.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_3"></button>
+<button id="countdown_exercise_7"></button>
 
 <script>
 <!--
-const countdown_exercise_3= document.getElementById("countdown_exercise_3");
-const seconds_exercise_3= 300; // seconds_exercise_3
-let timeLeft_exercise_3= seconds_exercise_3;
-let timerInterval_exercise_3= null;
+const countdown_exercise_7= document.getElementById("countdown_exercise_7");
+const seconds_exercise_7= 300; // seconds_exercise_7
+let timeLeft_exercise_7= seconds_exercise_7;
+let timerInterval_exercise_7= null;
 
-function formatTime_exercise_3(seconds_exercise_3) {
-  const minutes = Math.floor(seconds_exercise_3/ 60);
-  const remainingseconds_exercise_3= seconds_exercise_3% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_3).padStart(2, '0')}`;
+function formatTime_exercise_7(seconds_exercise_7) {
+  const minutes = Math.floor(seconds_exercise_7/ 60);
+  const remainingseconds_exercise_7= seconds_exercise_7% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_7).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_3() {
-  countdown_exercise_3.textContent = formatTime_exercise_3(timeLeft_exercise_3);
+function updateButton_exercise_7() {
+  countdown_exercise_7.textContent = formatTime_exercise_7(timeLeft_exercise_7);
 }
 
-function startTimer_exercise_3() {
-  if (timerInterval_exercise_3=== null) {
-    countdown_exercise_3.classList.add('running');
-    countdown_exercise_3.classList.remove('finished');
-    timerInterval_exercise_3= setInterval(() => {
-      if (timeLeft_exercise_3> 0) {
-        timeLeft_exercise_3--;
-        updateButton_exercise_3();
+function startTimer_exercise_7() {
+  if (timerInterval_exercise_7=== null) {
+    countdown_exercise_7.classList.add('running');
+    countdown_exercise_7.classList.remove('finished');
+    timerInterval_exercise_7= setInterval(() => {
+      if (timeLeft_exercise_7> 0) {
+        timeLeft_exercise_7--;
+        updateButton_exercise_7();
       } else {
-        clearInterval(timerInterval_exercise_3);
-        timerInterval_exercise_3= null;
-        countdown_exercise_3.classList.remove('running');
-        countdown_exercise_3.classList.add('finished');
-        countdown_exercise_3.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_7);
+        timerInterval_exercise_7= null;
+        countdown_exercise_7.classList.remove('running');
+        countdown_exercise_7.classList.add('finished');
+        countdown_exercise_7.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_3();
+    pauseTimer_exercise_7();
   }
 }
 
-function pauseTimer_exercise_3() {
-  clearInterval(timerInterval_exercise_3);
-  timerInterval_exercise_3= null;
-  countdown_exercise_3.classList.remove('running');
+function pauseTimer_exercise_7() {
+  clearInterval(timerInterval_exercise_7);
+  timerInterval_exercise_7= null;
+  countdown_exercise_7.classList.remove('running');
 }
 
-function resetTimer_exercise_3() {
-  timeLeft_exercise_3= seconds_exercise_3;
-  updateButton_exercise_3();
-  countdown_exercise_3.classList.remove('finished');
-  countdown_exercise_3.classList.remove('running');
-  timerInterval_exercise_3= null;
+function resetTimer_exercise_7() {
+  timeLeft_exercise_7= seconds_exercise_7;
+  updateButton_exercise_7();
+  countdown_exercise_7.classList.remove('finished');
+  countdown_exercise_7.classList.remove('running');
+  timerInterval_exercise_7= null;
 }
 
-countdown_exercise_3.addEventListener("click", () => {
-  if (countdown_exercise_3.classList.contains('finished')) {
-    resetTimer_exercise_3();
+countdown_exercise_7.addEventListener("click", () => {
+  if (countdown_exercise_7.classList.contains('finished')) {
+    resetTimer_exercise_7();
   } else {
-    startTimer_exercise_3();
+    startTimer_exercise_7();
   }
 });
 
-updateButton_exercise_3();
+updateButton_exercise_7();
 -->
 </script>
 
@@ -1134,12 +1711,12 @@ updateButton_exercise_3();
 <!-- Qui dobbiamo andare a pescare nella memoria delle cose viste in passato -->
 
 ---
-## Esercizio #3 -- Soluzione
+### Esercizio #7 -- Soluzione
 
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andro' a rifiutare con $\alpha = 0.05$?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andr&ograve; a rifiutare con $\alpha = 0.05$?
 
 </div>
 
@@ -1180,12 +1757,12 @@ updateButton_exercise_3();
 </div>
 
 ---
-## Esercizio #3 -- Soluzione
+### Esercizio #7 -- Soluzione
 
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andro' a rifiutare con $\alpha = 0.05$?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andr&ograve; a rifiutare con $\alpha = 0.05$?
 
 </div>
 
@@ -1227,12 +1804,12 @@ updateButton_exercise_3();
 </div>
 
 ---
-## Esercizio #3 -- Soluzione
+### Esercizio #7 -- Soluzione
 
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andro' a rifiutare con $\alpha = 0.05$?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andr&ograve; a rifiutare con $\alpha = 0.05$?
 
 </div>
 
@@ -1276,12 +1853,12 @@ updateButton_exercise_3();
 </div>
 
 ---
-## Esercizio #3 -- Soluzione
+### Esercizio #7 -- Soluzione
 
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andro' a rifiutare con $\alpha = 0.05$?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quali delle seguenti ipotesi nulle andr&ograve; a rifiutare con $\alpha = 0.05$?
 
 </div>
 
@@ -1329,7 +1906,7 @@ updateButton_exercise_3();
 
 <div style="font-size: 90%" >
 
-:dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval e' l'insieme delle ipotesi nulle che non sono 
+:dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval &egrave; l'insieme delle ipotesi nulle che non sono 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
 
 </div>
@@ -1368,7 +1945,7 @@ updateButton_exercise_3();
 
 <div style="font-size: 90%" >
 
-:dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval e' l'insieme delle ipotesi nulle che non sono 
+:dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval &egrave; l'insieme delle ipotesi nulle che non sono 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
 
 </div>
@@ -1386,15 +1963,6 @@ updateButton_exercise_3();
 
 </div>
 
-<!-- <span style="display:block; height:150px;"></span>
-
-<div style="font-size: 80%" align="right">
-
-| Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
-| ----: | ----- | ---- | ----|
-| 95% | 5% | 2.5% | 1.96 |
-
-</div> -->
 
 </div>
 <div>
@@ -1417,10 +1985,10 @@ updateButton_exercise_3();
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a fronte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
@@ -1431,10 +1999,10 @@ updateButton_exercise_3();
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a fronte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
@@ -1456,22 +2024,19 @@ updateButton_exercise_3();
 
 </div>
 
-
-
 ---
 ## Pearson's $\chi^2$ test
 
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a fronte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
-
 
 <span style="display:block; height:1px;"></span>
 
@@ -1493,10 +2058,10 @@ updateButton_exercise_3();
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a fronte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
@@ -1516,10 +2081,10 @@ updateButton_exercise_3();
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a fronte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
@@ -1556,9 +2121,7 @@ updateButton_exercise_3();
 </div>
 
 
-<!-- Proviamo ora a calcolare se l'uso di zidovudine influisce sulla trasmissione del virus dell'HIV da madre a bambino usando un test diverso, il Pearson\s chi2, un testo usato comunemente per testare le differenze tra variabili categoriche
-
-Di nuovo andiamo a definire H0 come proporzione di bambini che contraggio il virus essere la stessa tra chi ha assunto il medicinale e chi no (ipotesi di indipendenza) e H1 proporzione di infetti diversi tra chi a preso il farmaco o meno (ipotesi di associazione)
+<!-- Andiamo a definire H0 come proporzione di bambini che muoiono in Bristol essere la stessa che nel resto dello UK (ipotesi di indipendenza) e H1 proporzione di morti diversa (ipotesi di associazione)
 
 non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 
@@ -1568,10 +2131,10 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britanninci, a fronte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a fronte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 3176 operazioni sono stati registrati 356 decessi (10.7%). 
 
 </div>
@@ -1606,7 +2169,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 
 
 
-<!-- Andiamo innanzitutto a costruirci una tabella di contigenza, dove andiamo ad indicare le dimensioni dei due campioni -->
+<!-- Andiamo innanzitutto a costruirci una tabella di contingenza, dove andiamo ad indicare le dimensioni dei due campioni -->
 
 ---
 ## Pearson's $\chi^2$ test
@@ -1614,7 +2177,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -1657,7 +2220,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -1721,7 +2284,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -1770,7 +2333,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 </div>
 </div>
 
-<!-- In corsivo perche' le somme non tornano -> per semplificare i calcoli ho arrotondato un po' troppo il rapporto  -->
+<!-- Attenzione che le somme ai margini devono essere le stesse del dataset originario  -->
 
 ---
 ## Pearson's $\chi^2$ test
@@ -1778,7 +2341,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -1828,7 +2391,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 </div>
 </div>
 
-<!-- L'idea alla ase del chi2 test e' che Tanto maggiore è la differenza tra frequenze osservate ed attese, tanto meno plausibile è l'ipotesi nulla, cioè tanto più improbabile è che la frequenza di infezione sia indipendente dall’utilizzo del farmaco -->
+<!-- L'idea alla ase del chi2 test e' che Tanto maggiore è la differenza tra frequenze osservate ed attese, tanto meno plausibile è l'ipotesi nulla, cioè tanto più improbabile è che la frequenza di decessi sia indipendente dall'ospedale dove e' avvenuto l'intervento -->
 
 ---
 ## Pearson's $\chi^2$ test
@@ -1836,7 +2399,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 </div>
 
@@ -1893,7 +2456,7 @@ $\chi^2 = \sum \frac{(Osservati- Attesi)^2}{Attesi} = \frac{(41-17.1)^2}{17.1} +
 
 </div>
 
-<!-- Andiamo quindi a calcolarci queste differenze rra la i valori attesi e quelli osservati secondo questa formula -->
+<!-- Andiamo quindi a calcolarci queste differenze fra la i valori attesi e quelli osservati secondo questa formula -->
 
 ---
 ## Pearson's $\chi^2$ test
@@ -1901,7 +2464,7 @@ $\chi^2 = \sum \frac{(Osservati- Attesi)^2}{Attesi} = \frac{(41-17.1)^2}{17.1} +
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 </div>
 
@@ -1965,7 +2528,7 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 1$
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 <span style="display:block; height:10px;"></span>
 
@@ -1973,7 +2536,7 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 1$
 <img src="./img/hypothesis_testing/chitable.png" img height="210px" border="4px"/>
 </center>
 
-4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilita' (P-value) a questo evento
+4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilit&agrave; (P-value) a questo evento
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 39.65$ &nbsp;&nbsp;&nbsp; $\text{df} = 1$
 
@@ -1991,7 +2554,7 @@ I GdL sono numero di righe -1 * numero di colonne -1 -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a Bristol tra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 e' <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; il 1984 e il 1995 &egrave; <s>diverso</s> *uguale* rispetto ad altri ospedali britannici<s>?</s>
 
 <span style="display:block; height:10px;"></span>
 
@@ -1999,7 +2562,7 @@ I GdL sono numero di righe -1 * numero di colonne -1 -->
 <img src="./img/hypothesis_testing/chitable.png" img height="210px" border="4px"/>
 </center>
 
-5. Dichiaro il risultato come statisticamente significativo se il P-value e' inferiore a una soglia critica $\alpha$
+5. Dichiaro il risultato come statisticamente significativo se il P-value &egrave; inferiore a una soglia critica $\alpha$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = 39.65$ &nbsp;&nbsp;&nbsp; $\text{df} = 1$ &nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp;&nbsp; $\text{P} < 0.001 = 3 \times 10^{-10} < \alpha = 0.05$
 
@@ -2007,7 +2570,7 @@ I GdL sono numero di righe -1 * numero di colonne -1 -->
 
 </div>
 
-<!-- Rifiuto l'ipotesi nulla, e pare che pregare AUMENTI le complicazioni -->
+<!-- Rifiuto l'ipotesi nulla, essere operati a Bristol AUMENTI i decessi -->
 
 ---
 ## Pearson's $\chi^2$ test
@@ -2072,12 +2635,14 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
 
 </div>
 
+<!-- df = nrighe-1 * ncolonne-1 -->
+
 ---
-### Esercizio 4
+### Esercizio 8
 
 <div style="font-size: 70%" >
 
-:question: &nbsp;&nbsp;&nbsp; Le donne hanno un diverso atteggiamento verso l'uso di anticonceziali rispetto 
+:question: &nbsp;&nbsp;&nbsp; Le donne hanno un diverso atteggiamento verso l'uso di anticoncezionali rispetto 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; agli uomini?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ad un questionario a cui hanno risposto 42 donne, 21 si sono dichiarate  
@@ -2094,7 +2659,7 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
 </div>
 
 <style>
-  #countdown_exercise_4{
+  #countdown_exercise_8{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -2104,87 +2669,87 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_4.running {
+  #countdown_exercise_8.running {
     background-color: green;
   }
-  #countdown_exercise_4.finished {
+  #countdown_exercise_8.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_4"></button>
+<button id="countdown_exercise_8"></button>
 
 <script>
 <!--
-const countdown_exercise_4= document.getElementById("countdown_exercise_4");
-const seconds_exercise_4= 300; // seconds_exercise_4
-let timeLeft_exercise_4= seconds_exercise_4;
-let timerInterval_exercise_4= null;
+const countdown_exercise_8= document.getElementById("countdown_exercise_8");
+const seconds_exercise_8= 300; // seconds_exercise_8
+let timeLeft_exercise_8= seconds_exercise_8;
+let timerInterval_exercise_8= null;
 
-function formatTime_exercise_4(seconds_exercise_4) {
-  const minutes = Math.floor(seconds_exercise_4/ 60);
-  const remainingseconds_exercise_4= seconds_exercise_4% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_4).padStart(2, '0')}`;
+function formatTime_exercise_8(seconds_exercise_8) {
+  const minutes = Math.floor(seconds_exercise_8/ 60);
+  const remainingseconds_exercise_8= seconds_exercise_8% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_8).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_4() {
-  countdown_exercise_4.textContent = formatTime_exercise_4(timeLeft_exercise_4);
+function updateButton_exercise_8() {
+  countdown_exercise_8.textContent = formatTime_exercise_8(timeLeft_exercise_8);
 }
 
-function startTimer_exercise_4() {
-  if (timerInterval_exercise_4=== null) {
-    countdown_exercise_4.classList.add('running');
-    countdown_exercise_4.classList.remove('finished');
-    timerInterval_exercise_4= setInterval(() => {
-      if (timeLeft_exercise_4> 0) {
-        timeLeft_exercise_4--;
-        updateButton_exercise_4();
+function startTimer_exercise_8() {
+  if (timerInterval_exercise_8=== null) {
+    countdown_exercise_8.classList.add('running');
+    countdown_exercise_8.classList.remove('finished');
+    timerInterval_exercise_8= setInterval(() => {
+      if (timeLeft_exercise_8> 0) {
+        timeLeft_exercise_8--;
+        updateButton_exercise_8();
       } else {
-        clearInterval(timerInterval_exercise_4);
-        timerInterval_exercise_4= null;
-        countdown_exercise_4.classList.remove('running');
-        countdown_exercise_4.classList.add('finished');
-        countdown_exercise_4.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_8);
+        timerInterval_exercise_8= null;
+        countdown_exercise_8.classList.remove('running');
+        countdown_exercise_8.classList.add('finished');
+        countdown_exercise_8.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_4();
+    pauseTimer_exercise_8();
   }
 }
 
-function pauseTimer_exercise_4() {
-  clearInterval(timerInterval_exercise_4);
-  timerInterval_exercise_4= null;
-  countdown_exercise_4.classList.remove('running');
+function pauseTimer_exercise_8() {
+  clearInterval(timerInterval_exercise_8);
+  timerInterval_exercise_8= null;
+  countdown_exercise_8.classList.remove('running');
 }
 
-function resetTimer_exercise_4() {
-  timeLeft_exercise_4= seconds_exercise_4;
-  updateButton_exercise_4();
-  countdown_exercise_4.classList.remove('finished');
-  countdown_exercise_4.classList.remove('running');
-  timerInterval_exercise_4= null;
+function resetTimer_exercise_8() {
+  timeLeft_exercise_8= seconds_exercise_8;
+  updateButton_exercise_8();
+  countdown_exercise_8.classList.remove('finished');
+  countdown_exercise_8.classList.remove('running');
+  timerInterval_exercise_8= null;
 }
 
-countdown_exercise_4.addEventListener("click", () => {
-  if (countdown_exercise_4.classList.contains('finished')) {
-    resetTimer_exercise_4();
+countdown_exercise_8.addEventListener("click", () => {
+  if (countdown_exercise_8.classList.contains('finished')) {
+    resetTimer_exercise_8();
   } else {
-    startTimer_exercise_4();
+    startTimer_exercise_8();
   }
 });
 
-updateButton_exercise_4();
+updateButton_exercise_8();
 -->
 </script>
 
 
 ---
-### Esercizio 4 -- Soluzione
+### Esercizio 8 -- Soluzione
 
 <div style="font-size: 70%" >
 
-:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticoncezionali  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ad un questionario a cui hanno risposto 42 donne, 21 si sono dichiarate  
@@ -2222,17 +2787,17 @@ updateButton_exercise_4();
 </div>
 
 
-<!-- H0 la proporzione di soggetti deceduti e' uguale tra coloro che usavano e non usavano le cinture di sicurezza (indipendenza) 
+<!-- H0 la proporzione di soggetti che sono favorevoli, contrari o indifferenti all'uso di concezionali e' la stessa nei due sessi (indipendenza) 
 
-H1: la proporzione di deceduti e' diversa (associazione)
+H1: la proporzione di soggetti bla bla e' diversa (associazione)
 -->
 
 ---
-### Esercizio 4 -- Soluzione
+### Esercizio 8 -- Soluzione
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticoncezionali  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
 
 </div>
@@ -2268,14 +2833,14 @@ H1: la proporzione di deceduti e' diversa (associazione)
 </div>
 
 
-<!-- H0 la proporzione di soggetti deceduti e' uguale tra coloro che usavano e non usavano le cinture di sicurezza (indipendenza) -->
+<!-- H0 la proporzione di soggetti che sono favorevoli, contrari o indifferenti all'uso di concezionali e' la stessa nei due sessi (indipendenza)  -->
 
 ---
-### Esercizio 4 -- Soluzione
+### Esercizio 8 -- Soluzione
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticoncezionali  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
  
 </div>
@@ -2339,11 +2904,11 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 
 
 ---
-### Esercizio 4 -- Soluzione
+### Esercizio 8 -- Soluzione
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticoncezionali  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
 
 </div>
@@ -2406,11 +2971,11 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 <!-- Andiamo quindi a calcolare le frequenze attese, sottp H0 e il valre del chi2-->
 
 ---
-### Esercizio 4 -- Soluzione
+### Esercizio 8 -- Soluzione
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticoncezionali  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
 
 </div>
@@ -2471,11 +3036,11 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 2$
 </div>
 
 ---
-### Esercizio 4 -- Soluzione
+### Esercizio 8 -- Soluzione
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticoncezionali  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
 
 
@@ -2498,11 +3063,11 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 2$
 P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di osservare il risultato che abbiamo ottenuto, o una differenza ancora maggiore, sarebbe solo dell’3% -->
 
 ---
-### Esercizio 4 -- Soluzione
+### Esercizio 8 -- Soluzione
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticonceziali  
+:question: &nbsp;&nbsp;&nbsp; Le donne **NON** hanno un diverso atteggiamento verso l'uso di anticoncezionali  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rispetto agli uomini<s>?</s>
 
 
@@ -2518,6 +3083,10 @@ P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di 
 </center>
 
 </div>
+
+<!-- Abbiamo ora il nostro valore xhi, il GdL, con alpga == 00.5 il rapporto critico sarebbe 3.84, che e' meno estremo di quello che osserviamo nei nostri dati, che infatti corrisponde a un pvalue di 0.03 
+
+P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di osservare il risultato che abbiamo ottenuto, o una differenza ancora maggiore, sarebbe solo dell’3% -->
 
 ---
 ## Rischio relativo, rischio assoluto, odds ratio
@@ -2650,16 +3219,16 @@ The ‘Number Needed to Treat’ is the number of people needing to eat a bacon 
 -->
 
 ---
-### Esercizio #5
+### Esercizio #9
 
 <div style="font-size: 78%" >
 
 :question: &nbsp;&nbsp;&nbsp; Uno studio di popolazione$^1$ ha osservato che nella popolazione Svedese, in circa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione piu' basso sono stati diagnosticati 5 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione piu' alto,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione pi&ugrave; basso sono stati diagnosticati 5 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione pi&ugrave; alto,
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ne sono stati diagnosticati 6. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantita':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantit&agrave;:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Frequenza nei due gruppi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Odds ratio (baseline: livello di istruzione basso)
@@ -2670,7 +3239,7 @@ The ‘Number Needed to Treat’ is the number of people needing to eat a bacon 
 <span style="display:block; height:5px;"></span>
 
 <style>
-  #countdown_exercise_5{
+  #countdown_exercise_9{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -2680,77 +3249,77 @@ The ‘Number Needed to Treat’ is the number of people needing to eat a bacon 
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_5.running {
+  #countdown_exercise_9.running {
     background-color: green;
   }
-  #countdown_exercise_5.finished {
+  #countdown_exercise_9.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_5"></button>
+<button id="countdown_exercise_9"></button>
 
 <script>
 <!--
-const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 300; // seconds_exercise_5
-let timeLeft_exercise_5= seconds_exercise_5;
-let timerInterval_exercise_5= null;
+const countdown_exercise_9= document.getElementById("countdown_exercise_9");
+const seconds_exercise_9= 300; // seconds_exercise_9
+let timeLeft_exercise_9= seconds_exercise_9;
+let timerInterval_exercise_9= null;
 
-function formatTime_exercise_5(seconds_exercise_5) {
-  const minutes = Math.floor(seconds_exercise_5/ 60);
-  const remainingseconds_exercise_5= seconds_exercise_5% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
+function formatTime_exercise_9(seconds_exercise_9) {
+  const minutes = Math.floor(seconds_exercise_9/ 60);
+  const remainingseconds_exercise_9= seconds_exercise_9% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_9).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_5() {
-  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
+function updateButton_exercise_9() {
+  countdown_exercise_9.textContent = formatTime_exercise_9(timeLeft_exercise_9);
 }
 
-function startTimer_exercise_5() {
-  if (timerInterval_exercise_5=== null) {
-    countdown_exercise_5.classList.add('running');
-    countdown_exercise_5.classList.remove('finished');
-    timerInterval_exercise_5= setInterval(() => {
-      if (timeLeft_exercise_5> 0) {
-        timeLeft_exercise_5--;
-        updateButton_exercise_5();
+function startTimer_exercise_9() {
+  if (timerInterval_exercise_9=== null) {
+    countdown_exercise_9.classList.add('running');
+    countdown_exercise_9.classList.remove('finished');
+    timerInterval_exercise_9= setInterval(() => {
+      if (timeLeft_exercise_9> 0) {
+        timeLeft_exercise_9--;
+        updateButton_exercise_9();
       } else {
-        clearInterval(timerInterval_exercise_5);
-        timerInterval_exercise_5= null;
-        countdown_exercise_5.classList.remove('running');
-        countdown_exercise_5.classList.add('finished');
-        countdown_exercise_5.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_9);
+        timerInterval_exercise_9= null;
+        countdown_exercise_9.classList.remove('running');
+        countdown_exercise_9.classList.add('finished');
+        countdown_exercise_9.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_5();
+    pauseTimer_exercise_9();
   }
 }
 
-function pauseTimer_exercise_5() {
-  clearInterval(timerInterval_exercise_5);
-  timerInterval_exercise_5= null;
-  countdown_exercise_5.classList.remove('running');
+function pauseTimer_exercise_9() {
+  clearInterval(timerInterval_exercise_9);
+  timerInterval_exercise_9= null;
+  countdown_exercise_9.classList.remove('running');
 }
 
-function resetTimer_exercise_5() {
-  timeLeft_exercise_5= seconds_exercise_5;
-  updateButton_exercise_5();
-  countdown_exercise_5.classList.remove('finished');
-  countdown_exercise_5.classList.remove('running');
-  timerInterval_exercise_5= null;
+function resetTimer_exercise_9() {
+  timeLeft_exercise_9= seconds_exercise_9;
+  updateButton_exercise_9();
+  countdown_exercise_9.classList.remove('finished');
+  countdown_exercise_9.classList.remove('running');
+  timerInterval_exercise_9= null;
 }
 
-countdown_exercise_5.addEventListener("click", () => {
-  if (countdown_exercise_5.classList.contains('finished')) {
-    resetTimer_exercise_5();
+countdown_exercise_9.addEventListener("click", () => {
+  if (countdown_exercise_9.classList.contains('finished')) {
+    resetTimer_exercise_9();
   } else {
-    startTimer_exercise_5();
+    startTimer_exercise_9();
   }
 });
 
-updateButton_exercise_5();
+updateButton_exercise_9();
 -->
 </script>
 
@@ -2766,16 +3335,16 @@ $^1$ Khanolkar et al., *Socioeconomic Position and the Risk of Brain Tumour: A S
 
 
 ---
-### Esercizio #5 -- Soluzione
+### Esercizio #9 -- Soluzione
 
 <div style="font-size: 78%" >
 
 :question: &nbsp;&nbsp;&nbsp; Uno studio di popolazione$^1$ ha osservato che nella popolazione Svedese, in circa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione piu' basso sono stati diagnosticati 5 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione piu' alto,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione pi&ugrave; basso sono stati diagnosticati 5 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione pi&ugrave; alto,
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ne sono stati diagnosticati 6. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantita':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantit&agrave;:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Frequenza nei due gruppi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $f_{basso} = 5 \text{ su } 3000 = 1 \text{ su } 600$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $f_{alto} = 6 \text{ su } 3000 = 1 \text{ su } 500$ 
@@ -2783,16 +3352,16 @@ $^1$ Khanolkar et al., *Socioeconomic Position and the Risk of Brain Tumour: A S
 </div>
 
 ---
-### Esercizio #5 -- Soluzione
+### Esercizio #9 -- Soluzione
 
 <div style="font-size: 78%" >
 
 :question: &nbsp;&nbsp;&nbsp; Uno studio di popolazione$^1$ ha osservato che nella popolazione Svedese, in circa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione piu' basso sono stati diagnosticati 5 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione piu' alto,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione pi&ugrave; basso sono stati diagnosticati 5 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione pi&ugrave; alto,
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ne sono stati diagnosticati 6. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantita':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantit&agrave;:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Frequenza nei due gruppi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $f_{basso} = 5 \text{ su } 3000 = 1 \text{ su } 600$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $f_{alto} = 6 \text{ su } 3000 = 1 \text{ su } 500$ 
@@ -2802,16 +3371,16 @@ $^1$ Khanolkar et al., *Socioeconomic Position and the Risk of Brain Tumour: A S
 </div>
 
 ---
-### Esercizio #5 -- Soluzione
+### Esercizio #9 -- Soluzione
 
 <div style="font-size: 78%" >
 
 :question: &nbsp;&nbsp;&nbsp; Uno studio di popolazione$^1$ ha osservato che nella popolazione Svedese, in circa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione piu' basso sono stati diagnosticati 5 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione piu' alto,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3000 uomini con il livello di educazione pi&ugrave; basso sono stati diagnosticati 5 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tumori al cervello, mentre in altrettanti uomini con il livello di educatione pi&ugrave; alto,
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ne sono stati diagnosticati 6. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantita':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calcolate le seguenti quantit&agrave;:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Frequenza nei due gruppi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $f_{basso} = 5 \text{ su } 3000 = 1 \text{ su } 600$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $f_{alto} = 6 \text{ su } 3000 = 1 \text{ su } 500$ 
@@ -2822,9 +3391,149 @@ $^1$ Khanolkar et al., *Socioeconomic Position and the Risk of Brain Tumour: A S
 
 </div>
 
+---
+### Esercizio #10
+
+<!-- <span style="display:block; height:2px;"></span> -->
+
+<div style="font-size: 80%">
+
+:question: &nbsp;&nbsp;&nbsp; Il tasso di mortalit&agrave; nella Marina Militare americana durante la guerra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ispano-americana (1898) era del nove per mille. Per i civili nella citt&agrave; di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; New York, nello stesso periodo, era il sedici per mille. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Queste cifre ci dicono che era più sicuro essere nella Marina che fuori. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) vero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) falso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non &egrave; possibile rispondere
+
+</div>
+
+
+<!-- <span style="display:block; height:20px;"></span> -->
+
+<style>
+  #countdown_exercise_10{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_10.running {
+    background-color: green;
+  }
+  #countdown_exercise_10.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_10"></button>
+
+<script>
+<!--
+const countdown_exercise_10= document.getElementById("countdown_exercise_10");
+const seconds_exercise_10= 120; // seconds_exercise_10
+let timeLeft_exercise_10= seconds_exercise_10;
+let timerInterval_exercise_10= null;
+
+function formatTime_exercise_10(seconds_exercise_10) {
+  const minutes = Math.floor(seconds_exercise_10/ 60);
+  const remainingseconds_exercise_10= seconds_exercise_10% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_10).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_10() {
+  countdown_exercise_10.textContent = formatTime_exercise_10(timeLeft_exercise_10);
+}
+
+function startTimer_exercise_10() {
+  if (timerInterval_exercise_10=== null) {
+    countdown_exercise_10.classList.add('running');
+    countdown_exercise_10.classList.remove('finished');
+    timerInterval_exercise_10= setInterval(() => {
+      if (timeLeft_exercise_10> 0) {
+        timeLeft_exercise_10--;
+        updateButton_exercise_10();
+      } else {
+        clearInterval(timerInterval_exercise_10);
+        timerInterval_exercise_10= null;
+        countdown_exercise_10.classList.remove('running');
+        countdown_exercise_10.classList.add('finished');
+        countdown_exercise_10.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_10();
+  }
+}
+
+function pauseTimer_exercise_10() {
+  clearInterval(timerInterval_exercise_10);
+  timerInterval_exercise_10= null;
+  countdown_exercise_10.classList.remove('running');
+}
+
+function resetTimer_exercise_10() {
+  timeLeft_exercise_10= seconds_exercise_10;
+  updateButton_exercise_10();
+  countdown_exercise_10.classList.remove('finished');
+  countdown_exercise_10.classList.remove('running');
+  timerInterval_exercise_10= null;
+}
+
+countdown_exercise_10.addEventListener("click", () => {
+  if (countdown_exercise_10.classList.contains('finished')) {
+    resetTimer_exercise_10();
+  } else {
+    startTimer_exercise_10();
+  }
+});
+
+updateButton_exercise_10();
+-->
+</script>
+
+
+<div style="font-size: 50%" align="right">
+
+<br/><br/><br/> Huff, D., *How to lie with statistics*. W. W. Norton & Company, 1954
+
+</div>
 
 ---
-## Quando facciamo piu' di un test alla volta?
+### Esercizio #10 -- Soluzione
+
+<span style="display:block; height:2px;"></span>
+
+<div style="font-size: 80%">
+
+:question: &nbsp;&nbsp;&nbsp; Il tasso di mortalit&agrave; nella Marina Militare americana durante la guerra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ispano-americana (1898) era del nove per mille. Per i civili nella città di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; New York nello stesso periodo era il sedici per mille. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Queste cifre ci dicono che era più sicuro essere nella Marina che fuori. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) vero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) falso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non &egrave; possibile rispondere &nbsp;&nbsp;&nbsp; :white_check_mark: 
+
+</div>
+
+<!--
+The groups are not comparable. The Navy is made up mainly of young men in known good health. A civilian population includes infants, the old, and the ill, all of whom have a higher death rate wherever they are. These figures do not at all prove that men meeting Navy standards will live longer in the Navy than out. They do not prove the contrary either.
+
+Questo esempio ci chiede anche di pensare chi ci racconta questa storia, in questo caso era la marina militare stessa, che cercava di reclutare nuovo leve e volontari tra i civili. Questo non vuol dire che dovete credere a tutte le cospiracy thory, ma che vi dovete fare delle domande :)
+-->
+
+---
+## Quando facciamo pi&ugrave; di un test alla volta?
 
 <span style="display:block; height:1px;"></span>
 
@@ -2838,7 +3547,7 @@ $^1$ Khanolkar et al., *Socioeconomic Position and the Risk of Brain Tumour: A S
 </div>
 
 ---
-## Quando facciamo piu' di un test alla volta?
+## Quando facciamo pi&ugrave; di un test alla volta?
 
 <span style="display:block; height:1px;"></span>
 
@@ -2872,13 +3581,13 @@ $^1$ Khanolkar et al., *Socioeconomic Position and the Risk of Brain Tumour: A S
 </div>
 
 ---
-## Quando facciamo piu' di un test alla volta?
+## Quando facciamo pi&ugrave; di un test alla volta?
 
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; $\text{P} = 0.05 \rightarrow 5\%$ rifiutiamo $\mathcal{H}_0$ anche se e' vera
+:pushpin: &nbsp;&nbsp;&nbsp; $\text{P} = 0.05 \rightarrow 5\%$ rifiutiamo $\mathcal{H}_0$ anche se &egrave; vera
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.95 = 0.05$
 
 </div>
@@ -2886,22 +3595,22 @@ $^1$ Khanolkar et al., *Socioeconomic Position and the Risk of Brain Tumour: A S
 <!-- Suppose a drug truly does not work; that the null hypothesis is true. If we do one clinical trial, we will declare the result as statistically significant if the P-value is less than 0.05 and, since the drug is ineffective, the chance of this happening is 0.05 or 5% – that is the definition of a P-value. This would be considered a false-positive result, since we incorrectly believe the drug is effective.  -->
 
 ---
-## Quando facciamo piu' di un test alla volta?
+## Quando facciamo pi&ugrave; di un test alla volta?
 
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; $\text{P} = 0.05 \rightarrow 5\%$ rifiutiamo $\mathcal{H}_0$ anche se e' vera
+:pushpin: &nbsp;&nbsp;&nbsp; $\text{P} = 0.05 \rightarrow 5\%$ rifiutiamo $\mathcal{H}_0$ anche se &egrave; vera
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.95 = 0.05$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 2 test, averne almeno uno con $\text{P} < 0.05$ e':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 2 test, averne almeno uno con $\text{P} < 0.05$ &egrave;:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.95 \times 0.95 = 1 - 0.95^2 = 0.0975 \rightarrow \text{ } \approx 10\%$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 3 test, averne almeno uno con $\text{P} < 0.05$ e':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 3 test, averne almeno uno con $\text{P} < 0.05$ &egrave;:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.95^3 = 0.145 \rightarrow \text{ } \approx 14\%$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 10 test, averne almeno uno con $\text{P} < 0.05$ e':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 10 test, averne almeno uno con $\text{P} < 0.05$ &egrave;:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.95^{10} = 0.40 \rightarrow \text{ } \approx 40\%$
 
 </div>
@@ -2909,20 +3618,20 @@ $^1$ Khanolkar et al., *Socioeconomic Position and the Risk of Brain Tumour: A S
 <!--  If we do two trials, and look at the most extreme, the chance of getting at least one significant – and hence false-positive – result is close to 0.10 or 10%.fn5 The chance of getting at least one false-positive result increases quickly as we do more trials; if we do ten trials of useless drugs the chance of getting at least one significant at P < 0.05 gets as high as 40%. This is known as the problem of multiple testing, and occurs whenever many significance tests are carried out and then the most significant result is reported. -->
 
 ---
-## Correzione per tesi multipli
+## Correzione per test multipli
 
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%" >
 
-:dart: &nbsp;&nbsp;&nbsp; Quando si fanno piu' test, si richiede un $\alpha$ inferiore
+:dart: &nbsp;&nbsp;&nbsp; Quando si fanno pi&ugrave; test, si richiede un $\alpha$ inferiore
 
 <span style="display:block; height:1px;"></span>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Bonferroni-correction**: $\alpha=\frac{0.05}{N_\text{test}}$
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 10 test, averne almeno uno con $\text{P} < \frac{0.05}{10} = 0.005$ e' 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Con 10 test, averne almeno uno con $\text{P} < \frac{0.05}{10} = 0.005$ &egrave; 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.995^{10} = 0.049 \rightarrow \text{ } \approx 5\%$
 
 <!-- One way around this problem is to demand a very low P-value at which significance is declared, and the simplest method, known as the Bonferroni correction, is to use a threshold of 0.05/n, where n is number of tests done. So, for example, the tests at each site of the salmon’s brain could be carried out demanding a P-value of 0.05/8,000 = 0.00000625, or 1 in 160,000. This technique has become standard practice when searching the human genome for sites with association with diseases: since there are roughly 1,000,000 sites for genes, a P-value smaller than 0.05/1,000,000 = 1 in 20 million is routinely demanded before claiming a discovery. 
@@ -2932,14 +3641,14 @@ Moltp stringente
 
 
 ---
-## Correzione per tesi multipli
+## Correzione per test multipli
 
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%" >
 
-:dart: &nbsp;&nbsp;&nbsp; Quando si fanno piu' test, si richiede un $\alpha$ inferiore
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quando si fanno piu' test, si fissa il numero di 'scoperte' che sono false
+:dart: &nbsp;&nbsp;&nbsp; Quando si fanno pi&ugrave; test, si richiede un $\alpha$ inferiore
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quando si fanno pi&ugrave; test, si fissa il numero di 'scopert&egrave; che sono false
 
 <span style="display:block; height:1px;"></span>
 
@@ -2961,7 +3670,7 @@ Un FDR del 5%, per esempio, ci dice che accettiamo che oni 100 volte che "chiami
 
 <center>
 
-| $\mathcal{H}_0 \text{ e'}$ | Non rifiutata | Rifiutata | 
+| $\mathcal{H}_0$ &egrave; | Non rifiutata | Rifiutata | 
 | :---- | -----: | ----: | 
 Vera  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>&nbsp; | |  
 Falsa |                |  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br>&nbsp;   | 
@@ -2979,7 +3688,7 @@ Falsa |                |  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <center>
 
-| $\mathcal{H}_0 \text{ e'}$ | Non rifiutata | Rifiutata | 
+| $\mathcal{H}_0$ &egrave; | Non rifiutata | Rifiutata | 
 | :---- | :----- | :---- | 
 Vera  |  | Falso <br/>Positivo |  
 Falsa | Falso <br/>negativo   |   | 
@@ -2995,7 +3704,7 @@ Falsa | Falso <br/>negativo   |   |
 
 <center>
 
-| Sospetto e' | Assolto | Condannato | 
+| Sospetto &egrave; | Assolto | Condannato | 
 | :---- | :----- | :---- | 
 Innocente |  | Condanno un <br/>innocente  |  
 Colpevole | Assolvo un <br/>colpevole |  | 
@@ -3006,7 +3715,7 @@ Colpevole | Assolvo un <br/>colpevole |  |
 
 Un falso positivo (o errore del primo tipo) occorre quando H0 e' corretta, ma il test conduce a un risultato significativo. E quanto e' probabile questo errore?
 
-Se usiamo un livello si significativita' del 5% abbiamo 5% di possibilita' di dichiarare nulla H0 quando non lo e'. 
+Se usiamo un livello si significativita' del 5% abbiamo 5% di possibilita' di dichiarare nulla H0 quando non lo &egrave;. 
 -->
 
 ---
@@ -3021,12 +3730,12 @@ Se usiamo un livello si significativita' del 5% abbiamo 5% di possibilita' di di
 <!-- Un altro modo di vedere questi errori e' in termine di Specificita' e sensitivita. Un test che e' specifico e' un test che ha pochi falsi positivi (se il test e' positivo, molto probabilmente ho il COVID). Un test che e' sensibile, invece ha pochi falsi negativi (se e' negativo molto probabilmente non ho preso il covid). Qiesto test e' invece molto specifico (pochi falsi positivi) ma anche poco sensibile (molti falsi negativim, in cui il test e' negativo ma io il COVID ce l'ho)   -->
 
 --- 
-### Esercizio #6
+### Esercizio #11
 
 <div style="font-size: 78%" >
 
 :question: &nbsp;&nbsp;&nbsp; In un villaggio, c'era un pastorello che faceva la guardia alle pecore. Annoiandosi,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   per diverse notti, si mise ad urlare "Al lupo! Al lupo!", cosi' tutti  accorrevano per 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   per diverse notti, si mise ad urlare "Al lupo! Al lupo!", cos&igrave; tutti  accorrevano per 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aiutarlo. Una notte, un lupo venne veramente. Il pastorello cominciò a gridare: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Al lupo, al  lupo!",ma nessuno venne perché tutti pensarono che fosse uno scherzo. 
 
@@ -3041,7 +3750,7 @@ Se usiamo un livello si significativita' del 5% abbiamo 5% di possibilita' di di
 </div>
 
 <style>
-  #countdown_exercise_6{
+  #countdown_exercise_11{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -3051,94 +3760,94 @@ Se usiamo un livello si significativita' del 5% abbiamo 5% di possibilita' di di
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_6.running {
+  #countdown_exercise_11.running {
     background-color: green;
   }
-  #countdown_exercise_6.finished {
+  #countdown_exercise_11.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_6"></button>
+<button id="countdown_exercise_11"></button>
 
 <script>
 <!--
-const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 120; // seconds_exercise_6
-let timeLeft_exercise_6= seconds_exercise_6;
-let timerInterval_exercise_6= null;
+const countdown_exercise_11= document.getElementById("countdown_exercise_11");
+const seconds_exercise_11= 120; // seconds_exercise_11
+let timeLeft_exercise_11= seconds_exercise_11;
+let timerInterval_exercise_11= null;
 
-function formatTime_exercise_6(seconds_exercise_6) {
-  const minutes = Math.floor(seconds_exercise_6/ 60);
-  const remainingseconds_exercise_6= seconds_exercise_6% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
+function formatTime_exercise_11(seconds_exercise_11) {
+  const minutes = Math.floor(seconds_exercise_11/ 60);
+  const remainingseconds_exercise_11= seconds_exercise_11% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_11).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_6() {
-  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
+function updateButton_exercise_11() {
+  countdown_exercise_11.textContent = formatTime_exercise_11(timeLeft_exercise_11);
 }
 
-function startTimer_exercise_6() {
-  if (timerInterval_exercise_6=== null) {
-    countdown_exercise_6.classList.add('running');
-    countdown_exercise_6.classList.remove('finished');
-    timerInterval_exercise_6= setInterval(() => {
-      if (timeLeft_exercise_6> 0) {
-        timeLeft_exercise_6--;
-        updateButton_exercise_6();
+function startTimer_exercise_11() {
+  if (timerInterval_exercise_11=== null) {
+    countdown_exercise_11.classList.add('running');
+    countdown_exercise_11.classList.remove('finished');
+    timerInterval_exercise_11= setInterval(() => {
+      if (timeLeft_exercise_11> 0) {
+        timeLeft_exercise_11--;
+        updateButton_exercise_11();
       } else {
-        clearInterval(timerInterval_exercise_6);
-        timerInterval_exercise_6= null;
-        countdown_exercise_6.classList.remove('running');
-        countdown_exercise_6.classList.add('finished');
-        countdown_exercise_6.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_11);
+        timerInterval_exercise_11= null;
+        countdown_exercise_11.classList.remove('running');
+        countdown_exercise_11.classList.add('finished');
+        countdown_exercise_11.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_6();
+    pauseTimer_exercise_11();
   }
 }
 
-function pauseTimer_exercise_6() {
-  clearInterval(timerInterval_exercise_6);
-  timerInterval_exercise_6= null;
-  countdown_exercise_6.classList.remove('running');
+function pauseTimer_exercise_11() {
+  clearInterval(timerInterval_exercise_11);
+  timerInterval_exercise_11= null;
+  countdown_exercise_11.classList.remove('running');
 }
 
-function resetTimer_exercise_6() {
-  timeLeft_exercise_6= seconds_exercise_6;
-  updateButton_exercise_6();
-  countdown_exercise_6.classList.remove('finished');
-  countdown_exercise_6.classList.remove('running');
-  timerInterval_exercise_6= null;
+function resetTimer_exercise_11() {
+  timeLeft_exercise_11= seconds_exercise_11;
+  updateButton_exercise_11();
+  countdown_exercise_11.classList.remove('finished');
+  countdown_exercise_11.classList.remove('running');
+  timerInterval_exercise_11= null;
 }
 
-countdown_exercise_6.addEventListener("click", () => {
-  if (countdown_exercise_6.classList.contains('finished')) {
-    resetTimer_exercise_6();
+countdown_exercise_11.addEventListener("click", () => {
+  if (countdown_exercise_11.classList.contains('finished')) {
+    resetTimer_exercise_11();
   } else {
-    startTimer_exercise_6();
+    startTimer_exercise_11();
   }
 });
 
-updateButton_exercise_6();
+updateButton_exercise_11();
 -->
 </script>
 
 
 --- 
-### Esercizio #6 -- Soluzione
+### Esercizio #11 -- Soluzione
 
 <div style="font-size: 78%" >
 
 :question: &nbsp;&nbsp;&nbsp; In un villaggio, c'era un pastorello che faceva la guardia alle pecore. Annoiandosi,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   per diverse notti, si mise ad urlare "Al lupo! Al lupo!", cosi' tutti  accorrevano per 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   per diverse notti, si mise ad urlare "Al lupo! Al lupo!", cos&igrave; tutti  accorrevano per 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aiutarlo. Una notte, un lupo venne veramente. Il pastorello cominciò a gridare: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Al lupo, al  lupo!",ma nessuno venne perché tutti pensarono che fosse uno scherzo. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Che tipo di errore stanno facendo gli abitanti del villaggio?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Errore del primo tipo, poi sel secondo tipo &nbsp;&nbsp;:white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Errore del primo tipo, poi del secondo tipo &nbsp;&nbsp;:white_check_mark: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Errore del secondo tipo, poi del primo tipo 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Errore nullo, poi errore alternativo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Errore alternativo, poi errore nullo
@@ -3153,7 +3862,7 @@ updateButton_exercise_6();
 
 <center>
 
-| $\mathcal{H}_0 \text{ e'}$ | Non rifiutata | Rifiutata | 
+| $\mathcal{H}_0$ &egrave; | Non rifiutata | Rifiutata | 
 | :---- | :-----: | :----: | 
 Vera  |  | $\alpha$ |  
 Falsa | $\beta$   |   | 
@@ -3165,10 +3874,7 @@ Falsa | $\beta$   |   |
 
 There is a close connection between the size α and Fisher’s P-value. If we take α as the threshold at which we consider results significant, then the results that lead us to reject the null will be exactly those for which P less than α. So α can be considered as the threshold significance level – an α of 0.05 means that we reject the null for all P-values less than 0.05.
 
-Second, we should pre-specify the probability of a Type II error, given the alternative hypothesis is true, generally known as β (beta). 
-
-
--->
+Second, we should pre-specify the probability of a Type II error, given the alternative hypothesis is true, generally known as β (beta).  -->
 
 ---
 ## La potenza di un test
@@ -3177,7 +3883,7 @@ Second, we should pre-specify the probability of a Type II error, given the alte
 
 <center>
 
-| $\mathcal{H}_0 \text{ e'}$ | Non rifiutata | Rifiutata | 
+| $\mathcal{H}_0$ &egrave; | Non rifiutata | Rifiutata | 
 | :---- | :-----: | :----: | 
 Vera  |  | $\alpha$ |  
 Falsa | $\beta$   | $1 - \beta$  | 
@@ -3211,7 +3917,7 @@ Before starting a randomized clinical trial, the protocol will specify a null hy
 
 Blu e' H0, Rossa e' H1. alfa e' nostro valore critico. La zona blu indica i falsi positivi, qunado rigettiamo l'ipotesi nulla anche se e' vera. la zona rossa indica i falsi negativi. Se il nostro scopo e' limitare i falsi negativi (e quindi la zona rossa), quello che possiamo fare e':
 - scegliere alfa piu' grande (sposta il valore critico a sx)
-- spostare la curva rossa a dx (ovvero aumentare la differenz tra le medie)
+- spostare la curva rossa a dx (ovvero aumentare la differenza tra le medie)
 - avere le curve meno sovvrapposte, quindi con una standard deviation piu bassa -> gruppi piu' omogenei (e eterogenei tra di loro)
 - avere campioni piu' grandi (piu' informazioni sulla popolazione, SE piu' piccolo, piu' precisione nelle conclusioni)
 
@@ -3223,25 +3929,25 @@ he idea of having a large enough sample to have sufficient power to detect a pla
 </div>
 
 --- 
-### Esercizio #7
+### Esercizio #12
 
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Voglio aumentare la potenza del mio studio. Quali fattori posso 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; modificare?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativita' $\alpha$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativit&agrave; $\alpha$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) la differenza  $\mu_i - \mu_c$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la deviazione standard ($\sigma^2$) dei due campioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) la dimensione $n$ dei due campioni
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
 
 </div>
 
 <span style="display:block; height:70px;"></span>
 
 <style>
-  #countdown_exercise_7{
+  #countdown_exercise_12{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -3251,94 +3957,94 @@ he idea of having a large enough sample to have sufficient power to detect a pla
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_7.running {
+  #countdown_exercise_12.running {
     background-color: green;
   }
-  #countdown_exercise_7.finished {
+  #countdown_exercise_12.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_7"></button>
+<button id="countdown_exercise_12"></button>
 
 <script>
 <!--
-const countdown_exercise_7= document.getElementById("countdown_exercise_7");
-const seconds_exercise_7= 120; // seconds_exercise_7
-let timeLeft_exercise_7= seconds_exercise_7;
-let timerInterval_exercise_7= null;
+const countdown_exercise_12= document.getElementById("countdown_exercise_12");
+const seconds_exercise_12= 120; // seconds_exercise_12
+let timeLeft_exercise_12= seconds_exercise_12;
+let timerInterval_exercise_12= null;
 
-function formatTime_exercise_7(seconds_exercise_7) {
-  const minutes = Math.floor(seconds_exercise_7/ 60);
-  const remainingseconds_exercise_7= seconds_exercise_7% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_7).padStart(2, '0')}`;
+function formatTime_exercise_12(seconds_exercise_12) {
+  const minutes = Math.floor(seconds_exercise_12/ 60);
+  const remainingseconds_exercise_12= seconds_exercise_12% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_12).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_7() {
-  countdown_exercise_7.textContent = formatTime_exercise_7(timeLeft_exercise_7);
+function updateButton_exercise_12() {
+  countdown_exercise_12.textContent = formatTime_exercise_12(timeLeft_exercise_12);
 }
 
-function startTimer_exercise_7() {
-  if (timerInterval_exercise_7=== null) {
-    countdown_exercise_7.classList.add('running');
-    countdown_exercise_7.classList.remove('finished');
-    timerInterval_exercise_7= setInterval(() => {
-      if (timeLeft_exercise_7> 0) {
-        timeLeft_exercise_7--;
-        updateButton_exercise_7();
+function startTimer_exercise_12() {
+  if (timerInterval_exercise_12=== null) {
+    countdown_exercise_12.classList.add('running');
+    countdown_exercise_12.classList.remove('finished');
+    timerInterval_exercise_12= setInterval(() => {
+      if (timeLeft_exercise_12> 0) {
+        timeLeft_exercise_12--;
+        updateButton_exercise_12();
       } else {
-        clearInterval(timerInterval_exercise_7);
-        timerInterval_exercise_7= null;
-        countdown_exercise_7.classList.remove('running');
-        countdown_exercise_7.classList.add('finished');
-        countdown_exercise_7.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_12);
+        timerInterval_exercise_12= null;
+        countdown_exercise_12.classList.remove('running');
+        countdown_exercise_12.classList.add('finished');
+        countdown_exercise_12.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_7();
+    pauseTimer_exercise_12();
   }
 }
 
-function pauseTimer_exercise_7() {
-  clearInterval(timerInterval_exercise_7);
-  timerInterval_exercise_7= null;
-  countdown_exercise_7.classList.remove('running');
+function pauseTimer_exercise_12() {
+  clearInterval(timerInterval_exercise_12);
+  timerInterval_exercise_12= null;
+  countdown_exercise_12.classList.remove('running');
 }
 
-function resetTimer_exercise_7() {
-  timeLeft_exercise_7= seconds_exercise_7;
-  updateButton_exercise_7();
-  countdown_exercise_7.classList.remove('finished');
-  countdown_exercise_7.classList.remove('running');
-  timerInterval_exercise_7= null;
+function resetTimer_exercise_12() {
+  timeLeft_exercise_12= seconds_exercise_12;
+  updateButton_exercise_12();
+  countdown_exercise_12.classList.remove('finished');
+  countdown_exercise_12.classList.remove('running');
+  timerInterval_exercise_12= null;
 }
 
-countdown_exercise_7.addEventListener("click", () => {
-  if (countdown_exercise_7.classList.contains('finished')) {
-    resetTimer_exercise_7();
+countdown_exercise_12.addEventListener("click", () => {
+  if (countdown_exercise_12.classList.contains('finished')) {
+    resetTimer_exercise_12();
   } else {
-    startTimer_exercise_7();
+    startTimer_exercise_12();
   }
 });
 
-updateButton_exercise_7();
+updateButton_exercise_12();
 -->
 </script>
 
 
 --- 
-### Esercizio #7 -- Soluzione
+### Esercizio #12 -- Soluzione
 
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Voglio aumentare la potenza del mio studio. Quali fattori posso 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; modificare?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativita' $\alpha$ &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativit&agrave; $\alpha$ &nbsp;&nbsp; :white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) la differenza  $\mu_i - \mu_c$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la deviazione standard ($\sigma^2$) dei due campioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) la dimensione $n$ dei due campioni &nbsp;&nbsp;:white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
 
 </div>
 
@@ -3353,7 +4059,7 @@ updateButton_exercise_7();
 
 <!-- Sino ad ora abbiamo lavorato su Campioni indipendenti: non vi è relazione tra osservazioni appartenenti a campioni diversi
 
-Esistiono pero' anche campioni appaiati, in cui dati di un campione sono associati con quelli dell’altro. Ad ogni osservazione nel primo gruppo corrisponde un’osservazione nel secondo
+Esistiono per&ograve; anche campioni appaiati, in cui dati di un campione sono associati con quelli dell’altro. Ad ogni osservazione nel primo gruppo corrisponde un’osservazione nel secondo
 
 Indipendenti> peso nei pazienti diabetici e nei sani
 Appaiati: peso nei pazienti diabetici alla diagnosi e dopo 10 anni -->
@@ -3405,10 +4111,10 @@ Fisher's campioni piccoli (1 cella < 5 osservazioni )
 
 <div style="font-size: 80%">
 
-- P-value misura l'incompatibilita' tra i dati e la nostra ipotesi (probabilita' di osservare valori cosi' estremi se $\mathcal{H}_0$ e' vera)
+- P-value misura l'incompatibilit&agrave; tra i dati e la nostra ipotesi (probabilit&agrave; di osservare valori cos&igrave; estremi se $\mathcal{H}_0$ &egrave; vera)
 - Tradizionalmente, $P < 0.05$ o $< 0.01$ sono considerati statisticamente significativi, ma queste soglie devono essere corrette per il numero di test 
-- C'e' una corrispondenza tra CI e P-value, e se il 95% CI non include lo zero, possiamo rifiutare $\mathcal{H}_0$ a un livello si significativita' $\alpha=0.05$
-- Errori del primo tipo dipendono dalla soglia di significativita' $\alpha$ 
+- C'&egrave; una corrispondenza tra CI e P-value, e se il 95% CI non include lo zero, possiamo rifiutare $\mathcal{H}_0$ a un livello si significativit&agrave; $\alpha=0.05$
+- Errori del primo tipo dipendono dalla soglia di significativit&agrave; $\alpha$ 
 - Esiste un legame tra errori del secondo tipo $\beta$ e potenza di uno studio
 - Per dati con distribuzioni non-normali possiamo usare test non parametrici
 
