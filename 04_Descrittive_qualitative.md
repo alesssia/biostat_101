@@ -1088,7 +1088,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <div>
 
 <center>
-<img src="./img/visualization/MStage_donut.png" img height="500px" border="4px"/>
+<img src="./img/visualization/MStage_Donut.png" img height="500px" border="4px"/>
 </center>
 
 </div>

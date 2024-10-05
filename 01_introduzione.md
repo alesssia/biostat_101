@@ -398,7 +398,7 @@ This increased attention to autism and its symptoms may also explain the rise in
 <span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/introduction/lefthandness_covered.png" img height="450px" border="4px"/>
+<img src="./img/introduction/Lefthandness_covered.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -419,7 +419,7 @@ This increased attention to autism and its symptoms may also explain the rise in
 <span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/introduction/lefthandness.png" img height="450px" border="4px"/>
+<img src="./img/introduction/Lefthandness.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -442,7 +442,7 @@ Quali sono le cause di questa curva? -->
 <span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/introduction/lefthandness.png" img height="450px" border="4px"/>
+<img src="./img/introduction/Lefthandness.png" img height="450px" border="4px"/>
 </center>
 
 </div>
