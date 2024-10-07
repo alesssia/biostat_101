@@ -545,14 +545,13 @@ updateButton_exercize_2();
 
 <div style="font-size: 80%" align="right">
 
-Abbiamo completato la nostra Tabella di Contingenza
+Abbiamo completato la nostra Tabella di Contingenza (con frequenze assolute)
 
 </div>
 
 <!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili.  -->
 
 ---
-
 ## Esercizio #2 -- Soluzione
 
 <div style="font-size: 80%">
@@ -577,6 +576,89 @@ Abbiamo completato la nostra Tabella di Contingenza
 </center>
 
 </div>
+
+<div style="font-size: 72%" align="right">
+ 
+Opzione 1: andiamo a dividere "per colonne", ovvero a calcolare la </br> percentuale di maschi e di femmine in ciascun braccio dell'esperimento
+
+</div>
+
+
+<!-- Le frequenze relative le potete fare in entrambe le direzioni, o di riga o di colonna, a seconda del messaggio che volete trasmettere.
+
+Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fatto io, dividendo per il totale di colonna) o la frequenza dei due trattamenti per ciascun sesso (se aveste diviso per il totale di riga). Qualcuno ha diviso per riga?
+
+ -->
+
+---
+## Esercizio #2 -- Soluzione
+
+<div style="font-size: 80%">
+
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
+</center>
+
+<center>
+
+| Sesso/N | CBT | Standard | Totale |
+| ----: | -----: | ----: | ----: |
+| Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
+| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%) |
+| Totale | 107 | 94  | 201 |
+
+</center>
+
+</div>
+
+
+<div style="font-size: 72%" align="right">
+ 
+Opzione 1: andiamo a dividere "per colonne", ovvero a calcolare la </br> percentuale di maschi e di femmine in ciascun braccio dell'esperimento
+
+</div>
+
+
+<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità -->
+
+---
+
+## Esercizio #2 -- Soluzione
+
+<div style="font-size: 80%">
+
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
+</center>
+
+<center>
+
+| Sesso/N | CBT | Standard | Totale |
+| ----: | -----: | ----: | ----: |
+| Maschi |  35 (35/64) |  29 (29/64) | 64  |
+| Femmine | 72 (72/137) |  65 (65/137) | 137 |
+| Totale | 107 (107/201) | 94 (94/201)  | 201 |
+
+</center>
+
+</div>
+
+<div style="font-size: 72%" align="right">
+ 
+Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </br>di maschi (o femmine) assegnate a ciascun braccio dell'esperimento 
+
+</div>
+
 
 <!-- Le frequenze relative le potete fare in entrambe le direzioni, o di riga o di colonna, a seconda del messaggio che volete trasmettere.
 
@@ -603,15 +685,24 @@ Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fa
 
 | Sesso/N | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
-| Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
-| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%1) |
-| Totale | 107 | 94  | 201 |
+| Maschi |  35 (54.7%) |  29 (45.3%) | 64  |
+| Femmine | 72 (52.6%) |  65 (47.4%) | 137 |
+| Totale | 107 (53.2%) | 94 (46.8%)  | 201 |
+
 
 </center>
 
-<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità -->
+</div>
+
+
+<div style="font-size: 72%" align="right">
+ 
+Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </br>di maschi (o femmine) assegnate a ciascun braccio dell'esperimento 
 
 </div>
+
+
+<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità -->
 
 ---
 ## Esercizio #3
@@ -629,7 +720,7 @@ Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fa
 | Sesso/N | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
-| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%1) |
+| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%) |
 | Totale | 107 | 94  | 201 |
 
 </center>
@@ -660,7 +751,7 @@ Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fa
 <script>
 <!--
 const countdown_exercize_3= document.getElementById("countdown_exercize_3");
-const seconds_exercize_3= 120; // seconds_exercize_3
+const seconds_exercize_3= 240; // seconds_exercize_3
 let timeLeft_exercize_3= seconds_exercize_3;
 let timerInterval_exercize_3= null;
 

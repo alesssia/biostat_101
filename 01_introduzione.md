@@ -759,8 +759,7 @@ If the law of the country is that cars should drive on the right, then we can de
 
 * La raccolta, organizzazione, sintesi, e analisi dei dati <br/> &nbsp;&nbsp;&nbsp; &rarr; statistica *Descrittiva* 
 
-* Processo mediante il quale vengono effettuate tratte conclusioni 
-su grandi gruppi sulla base di dati raccolti in gruppi pi&ugrave; ristretti  <br/> &nbsp;&nbsp;&nbsp; &rarr; statistica *Inferenziale* 
+* Processo mediante il quale vengono  tratte conclusioni su grandi gruppi sulla base di dati raccolti in gruppi pi&ugrave; ristretti  <br/> &nbsp;&nbsp;&nbsp; &rarr; statistica *Inferenziale* 
 
 <!-- - Individuare in maniera efficiente i tratti importanti delle informazioni che sono state raccolte
 
