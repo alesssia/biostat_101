@@ -2342,7 +2342,7 @@ Pearson's correlation coefficient
 
 
 <center>
-<img src="./img/descriptive/Basketball.jpg" img height="250px" border="4px"/>
+<img src="./img/descriptive/basketball.jpg" img height="250px" border="4px"/>
 </center>
 
 </div>
