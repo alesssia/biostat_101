@@ -1122,7 +1122,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 </div>
 <div>
 
-<span style="display:block; height:100px;"></span>
+<span style="display:block; height:40px;"></span>
 
 <div style="font-size: 70%">
 
@@ -3509,7 +3509,7 @@ updateButton_exercise_10();
 ---
 ### Esercizio #10 -- Soluzione
 
-<span style="display:block; height:2px;"></span>
+<!-- <span style="display:block; height:2px;"></span> -->
 
 <div style="font-size: 80%">
 
