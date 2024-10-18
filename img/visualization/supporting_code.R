@@ -39,25 +39,30 @@ print(g)
 dev.off()
 
 
+g <- ggplot(tmp, aes(x=value, y=stage)) + geom_segment( aes(x=1, xend=value, y=stage, yend=stage), color="black", linewidth=1) + geom_point( color="darkmagenta", size=6) + theme(legend.position="none") + graphic.settings + ylab("Metastatic stage") + xlab("Counts")
+
+
+png("MStage_lollipop_horizontal.png")
+print(g)
+dev.off()
+
+
 #Relative frequency
 tmp <- table(md$metastatic_stage)
 tmp <- as.data.frame(cbind(names(tmp), tmp))
 colnames(tmp) <- c("stage", "value")
 tmp$value <- as.numeric(tmp$value)
 
-tmp <- tmp %>% 
+tmp <- tmp %>%
   arrange(desc(stage)) %>%
   mutate(prop = value / sum(tmp$value) *100) %>%
   mutate(ypos = cumsum(prop)- 0.5*prop )
 
-g <- ggplot(tmp, aes(y=stage, x=prop)) + geom_bar(stat = "identity", width=0.8, fill="gray74", colour="black") + theme(legend.position="none") + graphic.settings + ylab("Metastatic stage") + xlab("Proportion (%)")
-
-png("MStage_barplot_horizontal_relative.png")
-print(g)
-dev.off()
-
-
-
+# g <- ggplot(tmp, aes(y=stage, x=prop)) + geom_bar(stat = "identity", width=0.8, fill="gray74", colour="black") + theme(legend.position="none") + graphic.settings + ylab("Metastatic stage") + xlab("Proportion (%)")
+#
+# png("MStage_barplot_horizontal_relative.png")
+# print(g)
+# dev.off()
 
 
 g <- ggplot(tmp, aes(x="", y=prop, fill=stage)) + geom_bar(stat="identity", width=0.9, color="white") + coord_polar("y", start=0) +  theme_void() + geom_text(aes(y = ypos, label = stage), color = "black", size=6) + scale_fill_brewer(palette="Set2") + theme(legend.position="none") 
@@ -65,7 +70,6 @@ g <- ggplot(tmp, aes(x="", y=prop, fill=stage)) + geom_bar(stat="identity", widt
 png("MStage_piechart.png")
 print(g)
 dev.off()
-
 
  
 tmp <- table(md$metastatic_stage)
@@ -101,6 +105,19 @@ png("MStage_waffle.png")
 print(g)
 dev.off()
 
+
+tmp <- table(md$ICI_therapy)
+tmp <- as.data.frame(cbind(names(tmp), tmp))
+colnames(tmp) <- c("ICI_therapy", "value")
+tmp$value <- as.numeric(tmp$value)
+
+tmp$ICI_therapy = factor(tmp$ICI_therapy, levels=unique(tmp$ICI_therapy[order(tmp$value)]))
+
+g <- ggplot(tmp, aes(y=ICI_therapy, x=value)) + geom_bar(stat = "identity", width=0.8, fill="gray74", colour="black") + theme(legend.position="none") + graphic.settings + ylab("ICI Therapy") + xlab("Counts")
+
+png("ICI_therapy_barplot_horizotal.png")
+print(g)
+dev.off()
 
 ## Quantitative variables
 
@@ -143,10 +160,20 @@ print(p)
 dev.off()
   
   
-p <- ggplot(md, aes(x=age)) + geom_histogram(aes(y=..density.., fill=ORR), position = "identity", binwidth=5, color="black", alpha=0.6) + scale_fill_manual("Response", values=c("#FC8D62", "#66C2A5")) + scale_color_manual("Response", values=c("#FC8D62", "#66C2A5")) + theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size)) + xlab("Age (years)") + ylab("Counts") + ggtitle("Bin size = 5") + theme(legend.position="bottom") + geom_density(aes(colour=ORR), adjust = 0.6, bw=5, lwd=2)
+p <- ggplot(md, aes(x=age)) + geom_histogram(aes(y=..density.., fill=ORR), position = "identity", binwidth=5, color="black", alpha=0.2) + scale_fill_manual("Response", values=c("#FC8D62", "#66C2A5")) + scale_color_manual("Response", values=c("#FC8D62", "#66C2A5")) + theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size)) + xlab("Age (years)") + ylab("Density") + ggtitle("Bin size = 5") + theme(legend.position="bottom") + geom_density(aes(colour=ORR), adjust = 0.6, bw=5, lwd=2)
 
    
 png("Age_histogram_bin5_response_density.png")
+print(p)
+dev.off()
+
+
+glycans <- read.csv("/Users/visconti/Documents/Research/2017/random/mfalchi/glycans/data/original_data/Data_release_IgA_TwinsUK_20171222.csv")
+glycans$Gender <- ifelse(glycans$Gender == "F", "Female", "Male")
+
+p <- ggplot(glycans, aes(x=Age)) + geom_histogram(aes(y=..density.., fill=Gender), position = "identity", binwidth=5, color="black", alpha=0.2) + scale_fill_manual("Sex", values=c("magenta", "darkgreen")) + scale_color_manual("Sex", values=c("magenta", "darkgreen")) + theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size)) + xlab("Age (years)") + ylab("Density") + ggtitle("Bin size = 5") + theme(legend.position="bottom") + geom_density(aes(colour=Gender), adjust = 0.6, bw=5, lwd=2)
+
+png("Age_histogram_bin5_glycan_age_sex.png")
 print(p)
 dev.off()
 
@@ -158,12 +185,12 @@ png("Boxplot_age_ORR_simple.png")
 print(p)
 dev.off()
 
-p <- ggplot(md, aes(x=ORR, y=age)) + geom_boxplot(fill="grey84", outlier.shape = NA, size=0.8) + graphic.settings + xlab("Response") + ylab("Age (years)")  +  geom_beeswarm(size=2, shape=16, colour="grey24", groupOnX=TRUE) 
-
-
-png("Boxplot_age_ORR_dots.png")
-print(p)
-dev.off()
+# p <- ggplot(md, aes(x=ORR, y=age)) + geom_boxplot(fill="grey84", outlier.shape = NA, size=0.8) + graphic.settings + xlab("Response") + ylab("Age (years)")  +  geom_beeswarm(size=2, shape=16, colour="grey24", groupOnX=TRUE)
+#
+#
+# png("Boxplot_age_ORR_dots.png")
+# print(p)
+# dev.off()
 
 
 
