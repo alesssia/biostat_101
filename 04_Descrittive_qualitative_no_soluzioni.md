@@ -23,7 +23,6 @@ style: |
 ## &nbsp;
 
 ---
-
 ## Obiettivi di apprendimento
 
 <span style="display:block; height:50px;"></span>
@@ -48,7 +47,6 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 </div>
 
 ---
-
 ### I tipi di dato
 
 <div class="columns">
@@ -87,7 +85,6 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 -->
 
 ---
-
 ## Perch&eacute; ci interessa?
 
 <div class="columns">
@@ -120,8 +117,8 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <!-- Perche' il modo in cui andiamo prima a presentare e poi ad analizzare una variabile dipende dal suop tipo.
 
 Numeriche media/SD, categoriche N/% -->
----
 
+---
 ## Variabili categoriche
 
 <div class="columns">
@@ -167,8 +164,8 @@ la loro somma è pari a 1
 Frequenze assolute e relative forniscono le stesse informazioni sulla distribuzione. 
 
 -->
----
 
+---
 ## Esercizio #1
 
 <div class="columns">
@@ -198,10 +195,9 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <img src="./img/descriptive/Table1_sex.png" img height="250px" border="4px"/>
 </center>
 
-</div>
-</div>
 
 <!-- Le frequenze relative: facilitano la percezione del peso delle modalità -->
+
 
 ---
 ## Tabelle di contingenza
@@ -226,7 +222,6 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 -->
 
 ---
-
 ## Esercizio #2
 
 <div style="font-size: 80%">
@@ -251,7 +246,6 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 </center>
 
 </div>
-
 
 <!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili. -->
 
@@ -426,8 +420,112 @@ Long labels? Think of an horizontal version.
 -->
 
 ---
-
 ## Horizontal bar chart
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 90%">
+
+- frequenza assoluta
+- frequenza relativa
+
+</div>
+
+<span style="display:block; height:200px;"></span>
+
+<div style="font-size: 50%">
+
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/visualization/MStage_barplot_horizontal.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- Diagramma a barre orizzontali 
+variazione ulteriore: Circular bar chart, lollipop -->
+
+---
+## Horizontal bar chart
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 90%">
+
+- frequenza assoluta
+- frequenza relativa
+
+</div>
+
+<span style="display:block; height:200px;"></span>
+
+<div style="font-size: 50%">
+
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/visualization/ICI_therapy_barplot_horizotal.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- Diagramma a barre orizzontali 
+variazione ulteriore: Circular bar chart, lollipop -->
+
+---
+## Circular bar chart
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 90%">
+
+- frequenza assoluta
+- frequenza relativa
+
+</div>
+
+<span style="display:block; height:200px;"></span>
+
+<div style="font-size: 50%">
+
+Visconti, A., *et al.*. *The genetics and epidemiology of N-and O-immunoglobulin A glycomics.*, 2024, doi:10.1186/s13073-024-01369-6
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/visualization/circular_bar_plot.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+---
+## Lollipop chart
 
 <div class="columns">
 <div>
@@ -453,17 +551,13 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <div>
 
 <center>
-<img src="./img/visualization/MStage_barplot_horizontal.png" img height="500px" border="4px"/>
+<img src="./img/visualization/MStage_lollipop_horizontal.png" img height="500px" border="4px"/>
 </center>
 
 </div>
 </div>
 
-<!-- Diagramma a barre orizzontali 
-variazione ulteriore: Circular bar chart, lollipop -->
-
 ---
-
 ## Cosa ci dice questo grafico?
 
 - Da 1 a 10, quanto eri felice ieri?
@@ -497,7 +591,6 @@ Wow, that’s a lot of orange. Any patterns in the data just seem to be dominate
 
  -->
 ---
-
 ## Cosa ci dice questo grafico?
 
 - Da 1 a 10, quanto eri felice ieri?

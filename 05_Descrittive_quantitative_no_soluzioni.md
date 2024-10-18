@@ -91,6 +91,7 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
 
 Si usa soprattutto per i dati categorici -->
 
+
 ---
 ## Misure di centralit&agrave;: la mediana
 
@@ -132,8 +133,10 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 
 </div>
 
+<span style="display:block; height:40px;"></span>
 
 <!-- La mediana non e' influenzata da valori anomali o estremi (outliers) -->
+
 
 ---
 ## Quartili
@@ -200,11 +203,7 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
 
 <div>
 
-
-
-<!-- La media non e' particolarmente robusta rispetto agli outliers. Il valore atipico SOVRADIMENSIONA la media.
-
-Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori alla media per evidenziare queste situazioni  -->
+<span style="display:block; height:10px;"></span>
 
 ---
 ## La forma delle distribuzioni
@@ -254,8 +253,7 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 
 </div>
 
-</div>
-</div>
+<span style="display:block; height:10px;"></span>
 
 ---
 ## Misure di dispersione
@@ -389,6 +387,8 @@ piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tien
 
 </div>
 
+<span style="display:block; height:20px;"></span>
+
 --- 
 ## I valori estremi
 
@@ -413,7 +413,7 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 -->
 
 ---
-### Esercizio 6
+### Esercizio #6
 
 <div style="font-size: 90%">
 
@@ -431,10 +431,6 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
 
 </div>
-
-<!-- Valutando i valori numerici (media e DS), come 
-con la media e la deviazione standard (come per tutte le altre variabili in tabella) 
-con la mediana e il range interquartile (perché la variabile non ha una distribuzione normale) -->
 
 ---
 ### Esercizio #7
@@ -469,6 +465,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Non &egrave; possibile desumerlo dalla tabella 
 
 </div>
+
+<span style="display:block; height:100px;"></span>
 
 </div>
 </div>
@@ -506,8 +504,10 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 </div>
 
+<span style="display:block; height:100px;"></span>
 </div>
 </div>
+
 
 ---
 <span style="display:block; height:150px;"></span>
@@ -664,8 +664,46 @@ Common Mistakes
 Play with the bandwith of your density function.
 Avoid filling with color palettes. 
 
-Questa e' leggermente bimodale-->
+Questa e' leggermente bimodale
 
+Bumpy perche' ci sono pochi dati
+
+ No Yes
+ 39  49
+
+-->
+
+
+---
+## Density plot
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:400px;"></span>
+
+<div style="font-size: 50%">
+ 
+Visconti, A., *et al.*. *The genetics and epidemiology of N-and O-immunoglobulin A glycomics.*, 2024, doi:10.1186/s13073-024-01369-6
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/visualization/Age_histogram_bin5_glycan_age_sex.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- Bumpy perche' ci sono pochi dati
+
+Female   Male
+  1885    545
+
+Iniziare ad introdurre la Normale -->
 
 ---
 ## Boxplot
@@ -771,7 +809,7 @@ Boxplot hides the underlying distribution. Use jitter if low number of data poin
 
 <div style="font-size: 90%">
 
-> Quanti partner sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -785,6 +823,7 @@ Boxplot hides the underlying distribution. Use jitter if low number of data poin
 :question: &nbsp;&nbsp;&nbsp; Cosa ci dicono 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queste statistiche? 
 
+<span style="display:block; height:120px;"></span>
 
 </div>
 
@@ -808,11 +847,6 @@ Boxplot hides the underlying distribution. Use jitter if low number of data poin
 
 </div>
 </div>
-	
-<!-- The third survey, known as Natsal-3, was carried out around 2010. Table 2.2 shows the summary statistics concerning the number of (opposite-sex) sexual partners reported by people aged 35–44 in Natsal-3. 
-
- It is a good exercise to use these summaries alone to try to reconstruct what the pattern of data might look like.
--->
 
 ---
 ### Esercizio #9 (bis)

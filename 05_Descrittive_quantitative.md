@@ -1022,7 +1022,7 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 -->
 
 ---
-### Esercizio 6
+### Esercizio #6
 
 <div style="font-size: 90%">
 
@@ -1133,7 +1133,7 @@ con la media e la deviazione standard (come per tutte le altre variabili in tabe
 con la mediana e il range interquartile (perché la variabile non ha una distribuzione normale) -->
 
 ---
-### Esercizio 6 -- Soluzione
+### Esercizio #6 -- Soluzione
 
 <div style="font-size: 90%">
 
@@ -1636,8 +1636,46 @@ Common Mistakes
 Play with the bandwith of your density function.
 Avoid filling with color palettes. 
 
-Questa e' leggermente bimodale-->
+Questa e' leggermente bimodale
 
+Bumpy perche' ci sono pochi dati
+
+ No Yes
+ 39  49
+
+-->
+
+
+---
+## Density plot
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:400px;"></span>
+
+<div style="font-size: 50%">
+ 
+Visconti, A., *et al.*. *The genetics and epidemiology of N-and O-immunoglobulin A glycomics.*, 2024, doi:10.1186/s13073-024-01369-6
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/visualization/Age_histogram_bin5_glycan_age_sex.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- Bumpy perche' ci sono pochi dati
+
+Female   Male
+  1885    545
+
+Iniziare ad introdurre la Normale -->
 
 ---
 ## Boxplot
@@ -1743,7 +1781,7 @@ Boxplot hides the underlying distribution. Use jitter if low number of data poin
 
 <div style="font-size: 90%">
 
-> Quanti partner sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 <!-- The purpose of this question is not simply to be nosey about people’s private lives. When AIDS first became a serious concern in the 1980s, public health officials realized that there was no reliable evidence about sexual behaviour in Britain, particularly in terms of the frequency with which people changed partners, how many had multiple simultaneous partners, and what sexual practices people engaged in. This knowledge was essential to predict the spread of sexually transmitted diseases through society and to plan health services
 
@@ -1755,7 +1793,7 @@ resulting in the National Sexual Attitudes and Lifestyle Survey (Natsal) which h
 
 <div style="font-size: 90%">
 
-> Quanti partner sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -1888,7 +1926,7 @@ updateButton_think();
 
 <div style="font-size: 90%">
 
-> Quanti partner sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -2017,7 +2055,7 @@ updateButton_pair();
 
 <div style="font-size: 90%">
 
-> Quanti partner sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 </div>
 
