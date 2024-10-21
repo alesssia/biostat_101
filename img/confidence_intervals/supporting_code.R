@@ -70,7 +70,7 @@ set.seed(42)
 myplots <- vector("list", length = 6)
 myplots[[1]] <- print(create.plot(Men.data, "Men 35-44", print.sample.mean=TRUE))
 for (i in 2:6)
-	myplots[[i]] <- create.plot(sample_n(10, PMen), "N = 10", print.sample.mean=TRUE, max.y=3)
+	myplots[[i]] <- create.plot(sample_n(10, PMen), "n = 10", print.sample.mean=TRUE, max.y=3)
 
 png("British_sex_partner_N10.png", width = 480*2, height = 480)
 print(do.call("grid.arrange", c(myplots, ncol=3)))
@@ -81,7 +81,7 @@ set.seed(42)
 myplots <- vector("list", length = 6)
 myplots[[1]] <- print(create.plot(Men.data, "Men 35-44", print.sample.mean=TRUE))
 for (i in 2:6)
-	myplots[[i]] <- create.plot(sample_n(50, PMen), "N = 50", print.sample.mean=TRUE, max.y=10)
+	myplots[[i]] <- create.plot(sample_n(50, PMen), "n = 50", print.sample.mean=TRUE, max.y=10)
 
 
 png("British_sex_partner_N50.png", width = 480*2, height = 480)
@@ -92,7 +92,7 @@ set.seed(42)
 myplots <- vector("list", length = 6)
 myplots[[1]] <- print(create.plot(Men.data, "Men 35-44", print.sample.mean=TRUE))
 for (i in 2:6)
-	myplots[[i]] <- create.plot(sample_n(100, PMen), "N = 100", print.sample.mean=TRUE, max.y=20)
+	myplots[[i]] <- create.plot(sample_n(100, PMen), "n = 100", print.sample.mean=TRUE, max.y=20)
 
 
 png("British_sex_partner_N100.png", width = 480*2, height = 480)
@@ -103,7 +103,7 @@ set.seed(42)
 myplots <- vector("list", length = 6)
 myplots[[1]] <- print(create.plot(Men.data, "Men 35-44", print.sample.mean=TRUE))
 for (i in 2:6)
-	myplots[[i]] <- create.plot(sample_n(200, PMen), "N = 200", print.sample.mean=TRUE, max.y=40)
+	myplots[[i]] <- create.plot(sample_n(200, PMen), "n = 200", print.sample.mean=TRUE, max.y=40)
 
 
 png("British_sex_partner_N200.png", width = 480*2, height = 480)
@@ -114,7 +114,7 @@ set.seed(42)
 myplots <- vector("list", length = 6)
 myplots[[1]] <- print(create.plot(Men.data, "Men 35-44", print.sample.mean=TRUE))
 for (i in 2:6)
-	myplots[[i]] <- create.plot(sample_n(380, PMen), "N = 380", print.sample.mean=TRUE, max.y=60)
+	myplots[[i]] <- create.plot(sample_n(380, PMen), "n = 380", print.sample.mean=TRUE, max.y=60)
 
 
 png("British_sex_partner_N380.png", width = 480*2, height = 480)
@@ -123,13 +123,7 @@ dev.off()
 
 
 set.seed(42)
-boost_10 <- sapply(1:1000, function(i) mean(sample_n(10, PMen)))
-boost_50 <- sapply(1:1000, function(i) mean(sample_n(50, PMen)))
-boost_100 <- sapply(1:1000, function(i) mean(sample_n(100, PMen)))
-boost_200 <- sapply(1:1000, function(i) mean(sample_n(200, PMen)))
-boost_380 <- sapply(1:1000, function(i) mean(sample_n(380, PMen)))
-boost_all <- sapply(1:1000, function(i) mean(sample_n(760, PMen)))
-
+myboost <- function(n, n_boost) sapply(1:n_boost, function(i) mean(sample_n(n, PMen)))
 
 plot.boostrap <- function(v, title, max.x=51, max.y=110, interval=NULL)
 {
@@ -147,13 +141,21 @@ plot.boostrap <- function(v, title, max.x=51, max.y=110, interval=NULL)
 }
 
 
+boost_10  <- myboost(10 , 1000)
+boost_50  <- myboost(50 , 1000)
+boost_100 <- myboost(100, 1000)
+boost_200 <- myboost(200, 1000)
+boost_380 <- myboost(380, 1000)
+boost_all <- myboost(760, 1000)
+
+
 png("bootstrapping.png", width = 480*2, height = 480)
-print(grid.arrange(plot.boostrap(boost_10, "N = 10", max.x=30, max.y=650),
-			 plot.boostrap(boost_50, "N = 50", max.x=30, max.y=650),
-			 plot.boostrap(boost_100, "N = 100", max.x=30, max.y=650),
-			 plot.boostrap(boost_200, "N = 200", max.x=30, max.y=650),
-			 plot.boostrap(boost_380, "N = 380", max.x=30, max.y=650),
-			 plot.boostrap(boost_all, "N = 760", max.x=30, max.y=650), ncol=3))
+print(grid.arrange(plot.boostrap(boost_10, "n = 10", max.x=30, max.y=650),
+			 plot.boostrap(boost_50, "n = 50", max.x=30, max.y=650),
+			 plot.boostrap(boost_100, "n = 100", max.x=30, max.y=650),
+			 plot.boostrap(boost_200, "n = 200", max.x=30, max.y=650),
+			 plot.boostrap(boost_380, "n = 380", max.x=30, max.y=650),
+			 plot.boostrap(boost_all, "n = 760", max.x=30, max.y=650), ncol=3))
 dev.off()
 
 
@@ -172,12 +174,12 @@ get.rough.CI(boost_all)
 
 
 png("bootstrapping_fence.png", width = 480*2, height = 480)
-print(grid.arrange(plot.boostrap(boost_10, "N = 10", max.x=30, max.y=650, interval=get.rough.CI(boost_10)[-1]),
-			 plot.boostrap(boost_50, "N = 50", max.x=30, max.y=650, interval=get.rough.CI(boost_50)[-1]),
-			 plot.boostrap(boost_100, "N = 100", max.x=30, max.y=650, interval=get.rough.CI(boost_100)[-1]),
-			 plot.boostrap(boost_200, "N = 200", max.x=30, max.y=650, interval=get.rough.CI(boost_200)[-1]),
-			 plot.boostrap(boost_380, "N = 380", max.x=30, max.y=650, interval=get.rough.CI(boost_380)[-1]),
-			 plot.boostrap(boost_all, "N = 760", max.x=30, max.y=650, interval=get.rough.CI(boost_all)[-1]), ncol=3))
+print(grid.arrange(plot.boostrap(boost_10, "n = 10", max.x=30, max.y=650, interval=get.rough.CI(boost_10)[-1]),
+			 plot.boostrap(boost_50, "n = 50", max.x=30, max.y=650, interval=get.rough.CI(boost_50)[-1]),
+			 plot.boostrap(boost_100, "n = 100", max.x=30, max.y=650, interval=get.rough.CI(boost_100)[-1]),
+			 plot.boostrap(boost_200, "n = 200", max.x=30, max.y=650, interval=get.rough.CI(boost_200)[-1]),
+			 plot.boostrap(boost_380, "n = 380", max.x=30, max.y=650, interval=get.rough.CI(boost_380)[-1]),
+			 plot.boostrap(boost_all, "n = 760", max.x=30, max.y=650, interval=get.rough.CI(boost_all)[-1]), ncol=3))
 dev.off()
 
 
@@ -194,12 +196,12 @@ plot.boostrap.CI <- function(v, title, max.x=51, max.y=110, interval=NULL)
 
 
 png("bootstrapping_CI.png", width = 480*2, height = 480)
-print(grid.arrange(plot.boostrap.CI(boost_10, "N = 10", max.x=30, max.y=650, interval=get.rough.CI(boost_10)[-1]),
-			 plot.boostrap.CI(boost_50, "N = 50", max.x=30, max.y=650, interval=get.rough.CI(boost_50)[-1]),
-			 plot.boostrap.CI(boost_100, "N = 100", max.x=30, max.y=650, interval=get.rough.CI(boost_100)[-1]),
-			 plot.boostrap.CI(boost_200, "N = 200", max.x=30, max.y=650, interval=get.rough.CI(boost_200)[-1]),
-			 plot.boostrap.CI(boost_380, "N = 380", max.x=30, max.y=650, interval=get.rough.CI(boost_380)[-1]),
-			 plot.boostrap.CI(boost_all, "N = 760", max.x=30, max.y=650, interval=get.rough.CI(boost_all)[-1]), ncol=3))
+print(grid.arrange(plot.boostrap.CI(boost_10, "n = 10", max.x=30, max.y=650, interval=get.rough.CI(boost_10)[-1]),
+			 plot.boostrap.CI(boost_50, "n = 50", max.x=30, max.y=650, interval=get.rough.CI(boost_50)[-1]),
+			 plot.boostrap.CI(boost_100, "n = 100", max.x=30, max.y=650, interval=get.rough.CI(boost_100)[-1]),
+			 plot.boostrap.CI(boost_200, "n = 200", max.x=30, max.y=650, interval=get.rough.CI(boost_200)[-1]),
+			 plot.boostrap.CI(boost_380, "n = 380", max.x=30, max.y=650, interval=get.rough.CI(boost_380)[-1]),
+			 plot.boostrap.CI(boost_all, "n = 760", max.x=30, max.y=650, interval=get.rough.CI(boost_all)[-1]), ncol=3))
 dev.off()
 
 

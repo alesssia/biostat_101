@@ -1418,7 +1418,7 @@ updateButton_exercise_6();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{2500 - 2404}{580} = 0.17$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 2500) = 0.5675 \rightarrow 57.75\%$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 2500) = 0.5675 \rightarrow 56.75\%$
 
 </div>
 

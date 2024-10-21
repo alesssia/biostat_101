@@ -90,7 +90,7 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 
 <div style="font-size: 90%">
 
-> Quanti partner sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -99,8 +99,8 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 
 <span style="display:block; height:30px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{donne} = 1100$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{uomini} = 796$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{donne} = 1100$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 796$
 
 
 </div>
@@ -131,7 +131,7 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 
 <div style="font-size: 90%">
 
-> Quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
+> Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -140,7 +140,7 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 
 <span style="display:block; height:30px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{uomini} = 760$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
 
 
 </div>
@@ -176,7 +176,7 @@ Notiamo i valori "stabili" (non influenzati dagli outliers)
 
 <div style="font-size: 90%">
 
-> Quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
+> Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -196,7 +196,7 @@ As an illustration of how the accuracy of statistics depends on sample size, we 
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{campione} = 10$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 10$
 
 </div>
 
@@ -221,7 +221,7 @@ Density should use another scale -->
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{campione} = 50$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 50$
 
 </div>
 
@@ -238,7 +238,7 @@ Density should use another scale -->
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{campione} = 100$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 100$
 
 </div>
 
@@ -255,7 +255,7 @@ Density should use another scale -->
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{campione} = 200$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 200$
 
 </div>
 
@@ -272,7 +272,7 @@ Density should use another scale -->
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{campione} = 380$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 380$
 
 </div>
 
@@ -297,7 +297,7 @@ Density should use another scale -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) le stime dei parametri diventano pi&ugrave; sensibili alle singole 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; osservazioni 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
 
 </div>
 
@@ -442,7 +442,7 @@ Ma prima osserviamo ancora che the bootstrap distributions get narrower as the s
 
 <center>
 
-| $N_\text{campione}$ | Media | 95% CI |
+| $n_\text{campione}$ | Media | 95% CI |
 | ----: | -----: |  -----: | 
 | 10 | 11.4 | (5.0; 19.0)
 | 50 | 11.4 | (8.4; 14.6)
@@ -468,12 +468,12 @@ Bootstrapping provides an intuitive, computer-intensive way of assessing the unc
 
 <span style="display:block; height:1px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Al crescere del numero di campioni estratti da una popolazione
+:question: &nbsp;&nbsp;&nbsp; Al crescere della dimensione del campione
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) migliora la stima del parametro
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) peggiora la stima dell'incertezza del parametro
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) migliora la stima dell'incertezza del parametro
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
 
 ---
 ## Fermiamoci un attimo
@@ -657,7 +657,7 @@ a confidence interval is the range of population parameters for which our observ
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non posso rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
 
 </div>
 
@@ -670,6 +670,7 @@ a confidence interval is the range of population parameters for which our observ
 
 </div>
 </div>
+
 
 ---
 ### Esercizio #5
@@ -686,7 +687,7 @@ a confidence interval is the range of population parameters for which our observ
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non posso rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
 
 </div>
 </div>
@@ -699,12 +700,13 @@ a confidence interval is the range of population parameters for which our observ
 </div>
 </div>
 
+
 ---
 ### Esercizio #6
 
 <div style="font-size: 90%" >
 
-> In media, quanti partner sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
+> In media, Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; il 95% CI?  
 
@@ -715,6 +717,7 @@ a confidence interval is the range of population parameters for which our observ
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?}$
 
 </div>
+
 
 ---
 ### Esercizio #7
@@ -733,11 +736,12 @@ a confidence interval is the range of population parameters for which our observ
 
 </div>
 
+
 ---
 ## Il coefficiente di attendibilit&agrave; $\alpha$ 
 
-:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - 1.96 \times \hat{SE} \text{ ; }  \bar{x} + 1.96 \times \hat{SE})$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $1.96$ &nbsp; ?
+:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; ?
 
 <div class="columns">
 <div>
@@ -767,8 +771,8 @@ Quando accettiamo un livello di confidenza del 95% accettiamo implicitamente un 
 ---
 ## Il coefficiente di attendibilit&agrave; $\alpha$ 
 
-:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - 1.96 \times \hat{SE} \text{ ; }  \bar{x} + 1.96 \times \hat{SE})$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $1.96$ &nbsp; ?
+:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; ?
 
 <div class="columns">
 <div>
@@ -798,8 +802,8 @@ $100\% - 2.5\% = 97.5\%$
 ---
 ## Il coefficiente di attendibilit&agrave; $\alpha$ 
 
-:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - 1.96 \times \hat{SE} \text{ ; }  \bar{x} + 1.96 \times \hat{SE})$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $1.96$ &nbsp; ?
+:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; $\rightarrow 1.96$
 
 <div class="columns">
 <div>
@@ -892,7 +896,6 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 
 </div>
 
-
 </div>
 <div>
 
@@ -903,6 +906,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 </center>
 
 </div>
+
 
 ---
 ## E se il campione &egrave; piccolo?
