@@ -1,0 +1,190 @@
+country,world_region,income_group_2017,happiness_score_2011,gov_health_spending_percent
+Afghanistan,asia,Low income,38.3,1.59
+Albania,europe,Middle income,58.7,8.42
+Algeria,africa,Middle income,53.2,8.12
+Andorra,europe,High income,NA,21.3
+Angola,africa,Middle income,55.9,7.18
+Antigua and Barbuda,americas,High income,NA,16.7
+Argentina,americas,Middle income,67.8,14.7
+Armenia,europe,Middle income,42.6,6.42
+Australia,asia,High income,74.1,16.8
+Austria,europe,High income,74.7,16.2
+Azerbaijan,europe,Middle income,46.8,4.22
+Bahamas,americas,High income,NA,14.2
+Bahrain,asia,High income,48.2,11.4
+Bangladesh,asia,Middle income,49.9,7.92
+Barbados,americas,High income,NA,9.28
+Belarus,europe,Middle income,52.3,9.95
+Belgium,europe,High income,71.1,15.1
+Belize,americas,Middle income,NA,11.3
+Benin,africa,Low income,38.7,9.6
+Bhutan,asia,Middle income,NA,10.5
+Bolivia,americas,Middle income,57.8,7.26
+Bosnia and Herzegovina,europe,Middle income,50,16.6
+Botswana,africa,Middle income,35.2,17
+Brazil,americas,Middle income,70.4,7.08
+Brunei,asia,High income,NA,8.47
+Bulgaria,europe,Middle income,38.8,9.83
+Burkina Faso,africa,Low income,47.9,13.5
+Burundi,africa,Low income,37.1,8.14
+Cambodia,asia,Middle income,41.6,10.5
+Cameroon,africa,Middle income,44.3,8.53
+Canada,americas,High income,74.3,18.1
+Cape Verde,africa,Middle income,NA,10.1
+Central African Republic,africa,Low income,36.8,8.45
+Chad,africa,Low income,43.9,3.27
+Chile,americas,High income,65.3,16.3
+China,asia,Middle income,50.4,12.1
+Colombia,americas,Middle income,64.6,20.1
+Comoros,africa,Low income,38.4,13.1
+Congo, Dem. Rep.,africa,Low income,45.2,9.11
+Congo, Rep.,africa,Middle income,45.1,5.29
+Costa Rica,americas,Middle income,72.3,29
+Cote d'Ivoire,africa,Middle income,NA,5.06
+Croatia,europe,Middle income,53.9,17.7
+Cuba,americas,Middle income,NA,13.9
+Cyprus,europe,High income,66.9,5.34
+Czech Republic,europe,High income,63.3,14.9
+Denmark,europe,High income,77.9,16.8
+Djibouti,africa,Middle income,43.7,14.2
+Dominica,americas,Middle income,NA,10.5
+Dominican Republic,americas,Middle income,54,14
+Ecuador,americas,Middle income,58,7.32
+Egypt,africa,Middle income,41.7,5.74
+El Salvador,americas,Middle income,47.4,13.3
+Equatorial Guinea,africa,Middle income,NA,6.96
+Eritrea,africa,Low income,NA,3.6
+Estonia,europe,High income,54.9,11.7
+Ethiopia,africa,Low income,NA,13.5
+Fiji,asia,Middle income,NA,9.4
+Finland,europe,High income,73.5,12.2
+France,europe,High income,69.6,16.3
+Gabon,africa,Middle income,42.5,6.63
+Gambia,africa,Low income,NA,11.3
+Georgia,europe,Middle income,42,6.87
+Germany,europe,High income,66.2,18.7
+Ghana,africa,Middle income,56.1,12.1
+Greece,europe,High income,53.7,12.1
+Grenada,americas,Middle income,NA,8.21
+Guatemala,americas,Middle income,57.4,15.8
+Guinea,africa,Low income,40.5,1.84
+Guinea-Bissau,africa,Low income,NA,4.14
+Guyana,americas,Middle income,NA,14.9
+Haiti,americas,Low income,48.5,4.51
+Honduras,americas,Middle income,49.6,NA
+Hong Kong, China,asia,High income,54.7,NA
+Hungary,europe,High income,49.2,10.3
+Iceland,europe,High income,NA,14.7
+India,asia,Middle income,46.4,3.56
+Indonesia,asia,Middle income,51.7,7.75
+Iran,asia,Middle income,47.7,10.5
+Iraq,asia,Middle income,47.3,8.98
+Ireland,europe,High income,70.1,9.52
+Israel,asia,High income,74.3,10.4
+Italy,europe,High income,60.6,14.7
+Jamaica,americas,Middle income,53.7,6.28
+Japan,asia,High income,62.6,18.4
+Jordan,asia,Middle income,55.4,18.6
+Kazakhstan,asia,Middle income,57.4,11.4
+Kenya,africa,Middle income,44,7.31
+Kiribati,asia,Middle income,NA,12.1
+Kuwait,asia,High income,63.8,6.86
+Kyrgyz Republic,asia,Middle income,49.2,10.7
+Lao,asia,Middle income,47,5.9
+Latvia,europe,High income,49.7,9.21
+Lebanon,asia,Middle income,51.9,9.53
+Lesotho,africa,Middle income,49,13.4
+Liberia,africa,Low income,NA,11.1
+Libya,africa,Middle income,NA,5.46
+Lithuania,europe,High income,54.3,12.6
+Luxembourg,europe,High income,71,15.4
+Madagascar,africa,Low income,43.8,14.7
+Malawi,africa,Low income,39.5,14.2
+Malaysia,asia,Middle income,57.9,9.21
+Maldives,asia,Middle income,NA,8.58
+Mali,africa,Low income,46.7,10.6
+Malta,europe,High income,61.5,13.2
+Marshall Islands,asia,Middle income,NA,17
+Mauritania,africa,Middle income,47.9,7.3
+Mauritius,africa,Middle income,54.8,9.82
+Mexico,americas,Middle income,69.1,NA
+Micronesia, Fed. Sts.,asia,Middle income,NA,20
+Moldova,europe,Middle income,57.9,13.1
+Monaco,europe,High income,NA,18.8
+Mongolia,asia,Middle income,50.3,8.04
+Montenegro,europe,Middle income,52.2,13.6
+Morocco,africa,Middle income,50.9,6.59
+Mozambique,africa,Low income,49.7,12.2
+Myanmar,asia,Middle income,NA,0.971
+Namibia,africa,Middle income,NA,12.1
+Nauru,asia,Middle income,NA,9.76
+Nepal,asia,Low income,38.1,8.96
+Netherlands,europe,High income,75.6,18.4
+New Zealand,asia,High income,71.9,20.1
+Nicaragua,americas,Middle income,53.9,NA
+Niger,africa,Low income,45.6,11.1
+Nigeria,africa,Middle income,NA,4.41
+Norway,europe,High income,NA,17.4
+Oman,asia,High income,68.5,6.19
+Pakistan,asia,Middle income,52.7,3.63
+Palau,asia,High income,NA,14.3
+Palestine,asia,Middle income,47.5,NA
+Panama,americas,Middle income,72.5,15.1
+Papua New Guinea,asia,Middle income,NA,8.15
+Paraguay,americas,Middle income,56.8,11.5
+Peru,americas,Middle income,58.9,14.3
+Philippines,asia,Middle income,49.9,7.55
+Poland,europe,High income,56.5,11.9
+Portugal,europe,High income,52.2,14.6
+Qatar,asia,High income,65.9,5.55
+Romania,europe,Middle income,50.2,10.8
+Russia,europe,Middle income,53.9,8.04
+Rwanda,africa,Low income,41,20.1
+Samoa,asia,Middle income,NA,23.4
+San Marino,europe,High income,NA,13.6
+Sao Tome and Principe,africa,Middle income,NA,13.2
+Saudi Arabia,asia,High income,67,7.02
+Senegal,africa,Low income,38.3,11.6
+Serbia,europe,Middle income,48.1,14.1
+Seychelles,africa,High income,NA,9.12
+Sierra Leone,africa,Low income,45,6.35
+Singapore,asia,High income,65.6,8.02
+Slovak Republic,europe,High income,59.5,14.5
+Slovenia,europe,High income,60.4,13.8
+Solomon Islands,asia,Middle income,NA,23.1
+Somalia,africa,Low income,NA,NA
+South Africa,africa,Middle income,49.3,11.9
+South Korea,asia,High income,69.5,12.4
+South Sudan,africa,Low income,NA,NA
+Spain,europe,High income,65.2,15.2
+Sri Lanka,asia,Middle income,41.8,5.77
+St. Kitts and Nevis,americas,High income,NA,8.2
+St. Lucia,americas,Middle income,NA,12.8
+St. Vincent and the Grenadines,americas,Middle income,NA,7.77
+Sudan,africa,Middle income,43.1,9.76
+Suriname,americas,Middle income,NA,11.9
+Sweden,europe,High income,73.8,14.8
+Switzerland,europe,High income,NA,19.9
+Syria,asia,Middle income,40.4,5.58
+Taiwan,asia,High income,63.1,NA
+Tajikistan,asia,Middle income,42.6,6.11
+Tanzania,africa,Low income,40.7,13.8
+Thailand,asia,Middle income,66.6,12.7
+Timor-Leste,asia,Middle income,NA,4.71
+Togo,africa,Low income,29.4,15.4
+Tonga,asia,Middle income,NA,12.9
+Trinidad and Tobago,americas,High income,65.2,9.28
+Tunisia,africa,Middle income,48.8,10.7
+Turkey,europe,Middle income,52.7,12.8
+Turkmenistan,asia,Middle income,57.9,9.86
+Tuvalu,asia,Middle income,NA,14.4
+Uganda,africa,Low income,48.3,12.1
+Ukraine,europe,Middle income,50.8,9.41
+Uruguay,americas,High income,65.5,20.4
+Uzbekistan,asia,Middle income,57.4,8.54
+Vanuatu,asia,Middle income,NA,18.2
+Venezuela,americas,Middle income,65.8,7.52
+Vietnam,asia,Middle income,57.7,7.79
+Yemen,asia,Middle income,37.5,4.33
+Zambia,africa,Middle income,50,15.6
+Zimbabwe,africa,Low income,48.5,NA
