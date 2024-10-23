@@ -13,13 +13,10 @@ style: |
   }
 
 ---
-
 ### Lezione 4
 
 # La statistica descrittiva
-
 ## (Parte I: Le variabili categoriche)
-
 ## &nbsp;
 
 ---
@@ -166,7 +163,7 @@ Frequenze assolute e relative forniscono le stesse informazioni sulla distribuzi
 -->
 
 ---
-## Esercizio #1
+### Esercizio #1
 
 <div class="columns">
 <div>
@@ -222,7 +219,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 -->
 
 ---
-## Esercizio #2
+### Esercizio #2
 
 <div style="font-size: 80%">
 
@@ -250,7 +247,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 <!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili. -->
 
 ---
-## Esercizio #3
+### Esercizio #3
 
 <div style="font-size: 80%">
 
@@ -276,6 +273,74 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna dei totali, Le donne sono il doppio degli uomini. No, non sono uguali
 -->
+
+---
+### Esercizio #4
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (20 dei quali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (40 dei quali interessati 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
+
+</div>
+
+<center>
+
+| Interessato/Sonnolento | S&igrave; | No | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; |  |  |  |
+| No |  |  |  |
+| Totale |  |  |  |
+
+</center>
+
+---
+### Esercizio #5
+
+<div style="font-size: 90%">
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di sonnolenti/svegli nei due gruppi di chi &egrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  interessato o meno nella materia?
+
+
+</div>
+
+<center>
+
+| Interessato/Sonnolento | S&igrave;&nbsp;&nbsp;&nbsp; | No&nbsp;&nbsp;&nbsp; | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
+| No | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
+| Totale | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
+
+</center>
+
+---
+### Esercizio #6
+
+<div style="font-size: 90%">
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di interessati o meno alla materia nei due gruppi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  di sonnolenti/svegli?
+
+</div>
+
+<center>
+
+| Interessato/Sonnolento | S&igrave;&nbsp;&nbsp;&nbsp; | No&nbsp;&nbsp;&nbsp; | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
+| No | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
+| Totale | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
+
+</center>
 
 ---
 ## Discretizzazione
@@ -569,7 +634,6 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <!-- To demonstrate, let’s take a look at the 16 to 19 and 20 to 24 age groups. It’s natural for people to compare lengths so looking at these two bars you might think that 16 to 19 year olds were almost twice as happy as 20 to 14 year olds, when actually they’re pretty similar – only a difference of 0.27. -->
 
 ---
-
 ## Cosa ci dice questo grafico?
 
 - Da 1 a 10, quanto eri felice ieri?
@@ -725,7 +789,6 @@ Common Mistakes
  -->
 
 ---
-
 ## Infographics
 
 <span style="display:block; height:10px;"></span>

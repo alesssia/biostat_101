@@ -433,6 +433,144 @@ Categoriche si dividono in 2 classi
 - Ordinali (categorie che non possono essere ordinate) -> dati che rappresentano categorie ordinate (giudizi scolastici ("Insufficiente", "Sufficiente", "Buono", "Ottimo:"), "Sottopeso", "Normopeso" ...) -->
 
 ---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%">
+
+<span style="display:block; height:40px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Il numero di decessi in un ospedale
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%">
+
+<span style="display:block; height:40px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; La taglia di una maglietta
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%">
+
+<span style="display:block; height:40px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; La nazionalit&agrave;
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%">
+
+<span style="display:block; height:40px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; La glicemia a digiuno
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%">
+
+<span style="display:block; height:40px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; L'idoneit&agrave; a un esame
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+
+---
 ### Esercizio #1
 
 <div class="columns">

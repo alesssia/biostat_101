@@ -700,7 +700,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <div class="columns">
 <div>
 
-<span style="display:block; height:50px;"></span>
+<span style="display:block; height:10px;"></span>
+
 - Survivor bias
 
 </div>
@@ -721,25 +722,201 @@ e l’errore logico che si commette quando si prendano in considerazione solo gl
 ---
 ## Bias nella selezione del campione
 
+<span style="display:block; height:10px;"></span>
+
+- Survivor bias
+
+<div style="font-size: 90%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *"Una volta gli edifici erano pi&ugrave; belli/resistenti"*
+
+</div>
+
+<!-- Just as new buildings are being built every day and older structures are constantly torn down, the story of most civil and urban architecture involves a process of constant renewal, renovation, and revolution. Only the most beautiful, useful, and structurally sound buildings survive from one generation to the next. This creates a selection effect where the ugliest and weakest buildings of history have been eradicated (disappearing from public view, leaving the visible impression that all earlier buildings were more beautiful and better built).
+-->
+
+---
+## Bias nella selezione del campione
+
+<span style="display:block; height:10px;"></span>
+
+- Survivor bias
+
+<div style="font-size: 90%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *"Una volta gli edifici erano pi&ugrave; belli/resistenti"*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *"Non capisco perch&eacute; oggigiorno bisogni fare X, io non l'ho mai  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fatto e sono ancora qui a raccontarlo"*
+
+<div>
+
+<!-- 
+
+X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when helmets became standard gear, the amount of people being treated for head wounds skyrocketed. But thats because they would have been killed without the helmet. 
+-->
+
+---
+## Bias nella selezione del campione
+
 <div class="columns">
 <div>
 
-<span style="display:block; height:50px;"></span>
+<span style="display:block; height:10px;"></span>
+
 - Survivor bias
 - Volunteer bias
-* Lost to follow up bias
-* $\dots$
+
 
 </div>
 <div>
 
-<img src="./img/sampling/sampling_bias_comics.jpeg" img height="450px" align="right" border="0px"/>
+<span style="display:block; height:10px;"></span>
+
+<img src="./img/sampling/sampling_bias_comics.jpeg" img height="450px" align="right" border="4px"/>
 
 </div>
 </div>
 
 <!-- - occorre quando i volontari hanno caratteristiche diverse rispet- to alla Popolazione che si vuole studiare.  volontari alsop SES e soprattuto donne
 - occorre quando uno o piu` soggetti di uno studio di- ventano irreperibili durante lo studio stesso sto testando un nuovo farmaco, le persone che hanno i side effect peggiori possono interromperlo, o quelli per cui non funziona possono morire -->
+
+---
+## Bias nella selezione del campione
+
+<span style="display:block; height:10px;"></span>
+
+- Survivor bias
+- Volunteer bias
+
+<div style="font-size: 90%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Un insegnante si chiede se una serie di esercitazioni migliora il 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rendimento agli esami. Invita quindi gli studenti interessati a iscriversi. 
+
+</div>
+
+<!-- Self-selection bias is likely because students who are more serious about school are more likely to sign up  -->
+
+---
+## Bias nella selezione del campione
+
+<span style="display:block; height:10px;"></span>
+
+- Survivor bias
+- Volunteer bias
+
+<div style="font-size: 90%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Un insegnante si chiede se una serie di esercitazioni migliora il 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rendimento agli esami. Invita quindi gli studenti interessati a iscriversi. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta farmaceutica ha un nuovo prodotto che aiuta la perdita di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso corporeo. Invita gli iscritti a un forum di fitness a partecipare 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; allo studio.
+
+<!-- These individuals may be more motivated and committed to sticking to the program, which could lead to better results than if the study included a randomly selected group of people, some of whom may not be as motivated to lose weight. This could lead to an overestimate of the effectiveness of the program. -->
+
+</div>
+
+
+---
+## Bias nella selezione del campione
+
+<span style="display:block; height:10px;"></span>
+
+- Survivor bias
+- Volunteer bias
+- Lost to follow up bias
+
+---
+## Bias nella selezione del campione
+
+<span style="display:block; height:10px;"></span>
+
+- Survivor bias
+- Volunteer bias
+- Lost to follow up bias
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico che 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queste 30 persone...
+</div>
+
+---
+## Bias nella selezione del campione
+
+<span style="display:block; height:10px;"></span>
+
+- Survivor bias
+- Volunteer bias
+- Lost to follow up bias
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico che 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queste 30 persone...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
+
+</div>
+
+---
+## Bias nella selezione del campione
+
+<span style="display:block; height:10px;"></span>
+
+- Survivor bias
+- Volunteer bias
+- Lost to follow up bias
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico che 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queste 30 persone...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - hanno smesso di prendere il farmaco?
+
+</div>
+
+---
+## Bias nella selezione del campione
+
+<span style="display:block; height:10px;"></span>
+
+- Survivor bias
+- Volunteer bias
+- Lost to follow up bias
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico che 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queste 30 persone...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - hanno smesso di prendere il farmaco?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -  sono ritornate alla loro citt&agrave; di orgine?
+
+</div>
+
+
+---
+## Bias nella selezione del campione
+
+<span style="display:block; height:10px;"></span>
+
+- Survivor bias
+- Volunteer bias
+- Lost to follow up bias
+- $\dots$
+
 
 ---
 ### Esercizio #4

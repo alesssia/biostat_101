@@ -166,7 +166,7 @@ Frequenze assolute e relative forniscono le stesse informazioni sulla distribuzi
 -->
 
 ---
-## Esercizio #1
+### Esercizio #1
 
 <div class="columns">
 <div>
@@ -289,7 +289,7 @@ updateButton_exercize_1();
 
 ---
 
-## Esercizio #1  -- Soluzione
+### Esercizio #1  -- Soluzione
 
 <div class="columns">
 <div>
@@ -346,7 +346,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 -->
 
 ---
-## Esercizio #2
+### Esercizio #2
 
 <div style="font-size: 80%">
 
@@ -459,7 +459,7 @@ updateButton_exercize_2();
 <!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili. -->
 
 ---
-# Esercizio #2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -485,7 +485,7 @@ updateButton_exercize_2();
 </div>
 
 ---
-## Esercizio #2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -511,7 +511,7 @@ updateButton_exercize_2();
 </div>
 
 ---
-## Esercizio #2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -545,7 +545,7 @@ Abbiamo completato la nostra Tabella di Contingenza (con frequenze assolute)
 <!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili.  -->
 
 ---
-## Esercizio #2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -584,7 +584,7 @@ Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fa
  -->
 
 ---
-## Esercizio #2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -620,7 +620,7 @@ Opzione 1: andiamo a dividere "per colonne", ovvero a calcolare la </br> percent
 <!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità -->
 
 ---
-## Esercizio #2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -659,7 +659,7 @@ Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fa
  -->
 
 ---
-## Esercizio #2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -696,7 +696,7 @@ Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </b
 <!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità -->
 
 ---
-## Esercizio #3
+### Esercizio #3
 
 <div style="font-size: 80%">
 
@@ -809,7 +809,7 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 -->
 
 ---
-## Esercizio #3 -- Soluzione
+### Esercizio #3 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -840,7 +840,7 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE DELLA SECONDA Nel due bracci dell'esperimento
 </div>
 
 ---
-## Esercizio #3 -- Soluzione
+### Esercizio #3 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -865,6 +865,500 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE DELLA SECONDA Nel due bracci dell'esperimento
 
 Nel due bracci dell'esperimento, quindi vado a confrontare le due colonne, la proporzione di donne e' sempre il 70% e di uomini e' sempre il 30%, quindi si', sono simili
 -->
+
+</div>
+
+---
+### Esercizio #4
+
+<div style="font-size: 85%">
+
+:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (20 dei quali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (40 dei quali interessati 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
+
+<center>
+
+| Interessato/Sonnolento | S&igrave; | No | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; |  |  |  |
+| No |  |  |  |
+| Totale |  |  |  |
+
+</center>
+
+</div>
+
+<style>
+  #countdown_exercise_4{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_4.running {
+    background-color: green;
+  }
+  #countdown_exercise_4.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_4"></button>
+
+<script>
+<!--
+const countdown_exercise_4= document.getElementById("countdown_exercise_4");
+const seconds_exercise_4= 300; // seconds_exercise_4
+let timeLeft_exercise_4= seconds_exercise_4;
+let timerInterval_exercise_4= null;
+
+function formatTime_exercise_4(seconds_exercise_4) {
+  const minutes = Math.floor(seconds_exercise_4/ 60);
+  const remainingseconds_exercise_4= seconds_exercise_4% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_4).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_4() {
+  countdown_exercise_4.textContent = formatTime_exercise_4(timeLeft_exercise_4);
+}
+
+function startTimer_exercise_4() {
+  if (timerInterval_exercise_4=== null) {
+    countdown_exercise_4.classList.add('running');
+    countdown_exercise_4.classList.remove('finished');
+    timerInterval_exercise_4= setInterval(() => {
+      if (timeLeft_exercise_4> 0) {
+        timeLeft_exercise_4--;
+        updateButton_exercise_4();
+      } else {
+        clearInterval(timerInterval_exercise_4);
+        timerInterval_exercise_4= null;
+        countdown_exercise_4.classList.remove('running');
+        countdown_exercise_4.classList.add('finished');
+        countdown_exercise_4.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_4();
+  }
+}
+
+function pauseTimer_exercise_4() {
+  clearInterval(timerInterval_exercise_4);
+  timerInterval_exercise_4= null;
+  countdown_exercise_4.classList.remove('running');
+}
+
+function resetTimer_exercise_4() {
+  timeLeft_exercise_4= seconds_exercise_4;
+  updateButton_exercise_4();
+  countdown_exercise_4.classList.remove('finished');
+  countdown_exercise_4.classList.remove('running');
+  timerInterval_exercise_4= null;
+}
+
+countdown_exercise_4.addEventListener("click", () => {
+  if (countdown_exercise_4.classList.contains('finished')) {
+    resetTimer_exercise_4();
+  } else {
+    startTimer_exercise_4();
+  }
+});
+
+updateButton_exercise_4();
+-->
+</script>
+
+
+---
+### Esercizio #4 -- Soluzione
+
+<div style="font-size: 85%">
+
+:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (20 dei quali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (40 dei quali interessati 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute 
+
+<center>
+
+| Interessato/Sonnolento | S&igrave; | No | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; | 20 | 40 |  |
+| No |  |  |  |
+| Totale | 40 | 60 | 100 |
+
+</center>
+
+</div>
+
+---
+### Esercizio #4 -- Soluzione
+
+<div style="font-size: 85%">
+
+:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (20 dei quali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (40 dei quali interessati 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
+
+<center>
+
+| Interessato/Sonnolento | S&igrave; | No | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; | 20 | 40 |  |
+| No | 20 | 20 |  |
+| Totale | 40 | 60 | 100 |
+
+</center>
+
+</div>
+
+---
+### Esercizio #4 -- Soluzione
+
+<div style="font-size: 85%">
+
+:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (20 dei quali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (40 dei quali interessati 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute 
+
+<center>
+
+| Interessato/Sonnolento | S&igrave; | No | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; | 20 | 40 | 60 |
+| No | 20 | 20 | 40 |
+| Totale | 40 | 60 | 100 |
+
+</center>
+
+</div>
+
+---
+### Esercizio #5
+
+<div style="font-size: 90%">
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di sonnolenti/svegli nei due gruppi di chi &egrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  interessato o meno nella materia?
+
+<br/>
+
+<center>
+
+| Interessato/Sonnolento | S&igrave; | No | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; | 20 | 40 | 60 |
+| No | 20 | 20 | 40 |
+| Totale | 40 | 60 | 100 |
+
+</center>
+
+</div>
+
+<style>
+  #countdown_exercise_5{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_5.running {
+    background-color: green;
+  }
+  #countdown_exercise_5.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_5"></button>
+
+<script>
+<!--
+const countdown_exercise_5= document.getElementById("countdown_exercise_5");
+const seconds_exercise_5= 120; // seconds_exercise_5
+let timeLeft_exercise_5= seconds_exercise_5;
+let timerInterval_exercise_5= null;
+
+function formatTime_exercise_5(seconds_exercise_5) {
+  const minutes = Math.floor(seconds_exercise_5/ 60);
+  const remainingseconds_exercise_5= seconds_exercise_5% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_5() {
+  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
+}
+
+function startTimer_exercise_5() {
+  if (timerInterval_exercise_5=== null) {
+    countdown_exercise_5.classList.add('running');
+    countdown_exercise_5.classList.remove('finished');
+    timerInterval_exercise_5= setInterval(() => {
+      if (timeLeft_exercise_5> 0) {
+        timeLeft_exercise_5--;
+        updateButton_exercise_5();
+      } else {
+        clearInterval(timerInterval_exercise_5);
+        timerInterval_exercise_5= null;
+        countdown_exercise_5.classList.remove('running');
+        countdown_exercise_5.classList.add('finished');
+        countdown_exercise_5.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_5();
+  }
+}
+
+function pauseTimer_exercise_5() {
+  clearInterval(timerInterval_exercise_5);
+  timerInterval_exercise_5= null;
+  countdown_exercise_5.classList.remove('running');
+}
+
+function resetTimer_exercise_5() {
+  timeLeft_exercise_5= seconds_exercise_5;
+  updateButton_exercise_5();
+  countdown_exercise_5.classList.remove('finished');
+  countdown_exercise_5.classList.remove('running');
+  timerInterval_exercise_5= null;
+}
+
+countdown_exercise_5.addEventListener("click", () => {
+  if (countdown_exercise_5.classList.contains('finished')) {
+    resetTimer_exercise_5();
+  } else {
+    startTimer_exercise_5();
+  }
+});
+
+updateButton_exercise_5();
+-->
+</script>
+
+
+---
+### Esercizio #5 -- Soluzione
+
+<div style="font-size: 90%">
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di sonnolenti/svegli nei due gruppi di chi &egrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  interessato o meno nella materia?
+
+<br/>
+
+<center>
+
+| Interessato/Sonnolento | S&igrave; | No | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; | 20 (20/60) | 40 (40/60) | 60 |
+| No | 20 (20/40) | 20 (20/40) | 40 |
+| Totale | 40 | 60 | 100 |
+
+</center>
+
+</div>
+
+---
+### Esercizio #5 -- Soluzione
+
+<div style="font-size: 90%">
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di sonnolenti/svegli nei due gruppi di chi &egrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  interessato o meno nella materia?
+
+<br/>
+
+<center>
+
+| Interessato/Sonnolento | S&igrave; | No | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; | 20 (33.3%) | 40 (66.7%) | 60 |
+| No | 20 (50%) | 20 (50%) | 40 |
+| Totale | 40 | 60 | 100 |
+
+</center>
+
+<div>
+
+---
+### Esercizio #6
+
+<div style="font-size: 90%">
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di interessati o meno alla materia nei due gruppi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  di sonnolenti/svegli?
+
+<br/>
+
+<center>
+
+| Interessato/Sonnolento | S&igrave; | No | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; | 20 | 40 | 60 |
+| No | 20 | 20 | 40 |
+| Totale | 40 | 60 | 100 |
+
+</center>
+
+</div>
+
+<style>
+  #countdown_exercise_6{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_6.running {
+    background-color: green;
+  }
+  #countdown_exercise_6.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_6"></button>
+
+<script>
+<!--
+const countdown_exercise_6= document.getElementById("countdown_exercise_6");
+const seconds_exercise_6= 120; // seconds_exercise_6
+let timeLeft_exercise_6= seconds_exercise_6;
+let timerInterval_exercise_6= null;
+
+function formatTime_exercise_6(seconds_exercise_6) {
+  const minutes = Math.floor(seconds_exercise_6/ 60);
+  const remainingseconds_exercise_6= seconds_exercise_6% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_6() {
+  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
+}
+
+function startTimer_exercise_6() {
+  if (timerInterval_exercise_6=== null) {
+    countdown_exercise_6.classList.add('running');
+    countdown_exercise_6.classList.remove('finished');
+    timerInterval_exercise_6= setInterval(() => {
+      if (timeLeft_exercise_6> 0) {
+        timeLeft_exercise_6--;
+        updateButton_exercise_6();
+      } else {
+        clearInterval(timerInterval_exercise_6);
+        timerInterval_exercise_6= null;
+        countdown_exercise_6.classList.remove('running');
+        countdown_exercise_6.classList.add('finished');
+        countdown_exercise_6.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_6();
+  }
+}
+
+function pauseTimer_exercise_6() {
+  clearInterval(timerInterval_exercise_6);
+  timerInterval_exercise_6= null;
+  countdown_exercise_6.classList.remove('running');
+}
+
+function resetTimer_exercise_6() {
+  timeLeft_exercise_6= seconds_exercise_6;
+  updateButton_exercise_6();
+  countdown_exercise_6.classList.remove('finished');
+  countdown_exercise_6.classList.remove('running');
+  timerInterval_exercise_6= null;
+}
+
+countdown_exercise_6.addEventListener("click", () => {
+  if (countdown_exercise_6.classList.contains('finished')) {
+    resetTimer_exercise_6();
+  } else {
+    startTimer_exercise_6();
+  }
+});
+
+updateButton_exercise_6();
+-->
+</script>
+
+
+---
+### Esercizio #6 -- Soluzione
+
+<div style="font-size: 90%">
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di interessati o meno alla materia nei due gruppi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  di sonnolenti/svegli?
+
+</br>
+
+<center>
+
+| Interessato/Sonnolento | S&igrave; | No | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; | 20 (20/40) | 40 (40/60) | 60 |
+| No | 20 (20/40) | 20 (20/60) | 40 |
+| Totale | 40 | 60 | 100 |
+
+</center>
+
+</div>
+
+---
+### Esercizio #6 -- Soluzione
+
+<div style="font-size: 90%">
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di interessati o meno alla materia nei due gruppi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  di sonnolenti/svegli?
+
+<br/>
+
+<center>
+
+| Interessato/Sonnolento | S&igrave; | No | Totale |
+| ----: | ----- | ---- | ----|
+| S&igrave; | 20 (50%) | 40 (66.7%) | 60 |
+| No | 20 (50%) | 20 (33.3%) | 40 |
+| Totale | 40 | 60 | 100 |
+
+</center>
 
 </div>
 

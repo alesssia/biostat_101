@@ -92,291 +92,6 @@ Alcuni dati non possono essere raccolti con dei semplici sondaggi. Per esempio s
 <img src="./img/data/study_questions.png" img height="300px" border="4px"/>
 </center>
 
-<style>
-  #countdown_think {
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  #countdown_think.running {
-    background-color: green;
-  }
-  #countdown_think.finished {
-    background-color: red;
-  }
-</style>
-
-<div align="right"> Think &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button></div>
-
-<script>
-<!--
-const countdown_think = document.getElementById("countdown_think");
-const seconds_think = 120; // seconds_think
-let timeLeft_think = seconds_think;
-let timerInterval_think = null;
-
-function formatTime_think(seconds_think) {
-  const minutes = Math.floor(seconds_think / 60);
-  const remainingseconds_think = seconds_think % 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_think).padStart(2, '0')}`;
-}
-
-function updateButton_think() {
-  countdown_think.textContent = formatTime_think(timeLeft_think);
-}
-
-function startTimer_think() {
-  if (timerInterval_think === null) {
-    countdown_think.classList.add('running');
-    countdown_think.classList.remove('finished');
-    timerInterval_think = setInterval(() => {
-      if (timeLeft_think > 0) {
-        timeLeft_think--;
-        updateButton_think();
-      } else {
-        clearInterval(timerInterval_think);
-        timerInterval_think = null;
-        countdown_think.classList.remove('running');
-        countdown_think.classList.add('finished');
-        countdown_think.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_think();
-  }
-}
-
-function pauseTimer_think() {
-  clearInterval(timerInterval_think);
-  timerInterval_think = null;
-  countdown_think.classList.remove('running');
-}
-
-function resetTimer_think() {
-  timeLeft_think = seconds_think;
-  updateButton_think();
-  countdown_think.classList.remove('finished');
-  countdown_think.classList.remove('running');
-  timerInterval_think = null;
-}
-
-countdown_think.addEventListener("click", () => {
-  if (countdown_think.classList.contains('finished')) {
-    resetTimer_think();
-  } else {
-    startTimer_think();
-  }
-});
-
-updateButton_think();
--->
-</script>
-
-<!-- Think 
-Vediamo come si passa dalla fase "Problem" alla fase "Planning" -->
-
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere? 
-
-<center>
-<img src="./img/data/study_questions.png" img height="300px" border="4px"/>
-</center>
-
-<style>
-  #countdown_pair {
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  #countdown_pair.running {
-    background-color: green;
-  }
-  #countdown_pair.finished {
-    background-color: red;
-  }
-</style>
-
-<div align="right"> Pair &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button></div>
-
-<script>
-<!--
-const countdown_pair = document.getElementById("countdown_pair");
-const seconds_pair = 180; // seconds_pair
-let timeLeft_pair = seconds_pair;
-let timerInterval_pair = null;
-
-function formatTime_pair(seconds_pair) {
-  const minutes = Math.floor(seconds_pair / 60);
-  const remainingseconds_pair = seconds_pair % 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_pair).padStart(2, '0')}`;
-}
-
-function updateButton_pair() {
-  countdown_pair.textContent = formatTime_pair(timeLeft_pair);
-}
-
-function startTimer_pair() {
-  if (timerInterval_pair === null) {
-    countdown_pair.classList.add('running');
-    countdown_pair.classList.remove('finished');
-    timerInterval_pair = setInterval(() => {
-      if (timeLeft_pair > 0) {
-        timeLeft_pair--;
-        updateButton_pair();
-      } else {
-        clearInterval(timerInterval_pair);
-        timerInterval_pair = null;
-        countdown_pair.classList.remove('running');
-        countdown_pair.classList.add('finished');
-        countdown_pair.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_pair();
-  }
-}
-
-function pauseTimer_pair() {
-  clearInterval(timerInterval_pair);
-  timerInterval_pair = null;
-  countdown_pair.classList.remove('running');
-}
-
-function resetTimer_pair() {
-  timeLeft_pair = seconds_pair;
-  updateButton_pair();
-  countdown_pair.classList.remove('finished');
-  countdown_pair.classList.remove('running');
-  timerInterval_pair = null;
-}
-
-countdown_pair.addEventListener("click", () => {
-  if (countdown_pair.classList.contains('finished')) {
-    resetTimer_pair();
-  } else {
-    startTimer_pair();
-  }
-});
-
-updateButton_pair();
--->
-</script>
-
-<!-- Pair -->
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere? 
-
-<center>
-<img src="./img/data/study_questions.png" img height="300px" border="4px"/>
-</center>
-
-<style>
-  #countdown_share {
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  #countdown_share.running {
-    background-color: green;
-  }
-  #countdown_share.finished {
-    background-color: red;
-  }
-</style>
-
-<div align="right"> Share &nbsp;&nbsp;&nbsp; <button id="countdown_share"></button></div>
-
-<script>
-<!--
-const countdown_share = document.getElementById("countdown_share");
-const seconds_share = 300; // seconds_share
-let timeLeft_share = seconds_share;
-let timerInterval_share = null;
-
-function formatTime_share(seconds_share) {
-  const minutes = Math.floor(seconds_share / 60);
-  const remainingseconds_share = seconds_share % 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_share).padStart(2, '0')}`;
-}
-
-function updateButton_share() {
-  countdown_share.textContent = formatTime_share(timeLeft_share);
-}
-
-function startTimer_share() {
-  if (timerInterval_share === null) {
-    countdown_share.classList.add('running');
-    countdown_share.classList.remove('finished');
-    timerInterval_share = setInterval(() => {
-      if (timeLeft_share > 0) {
-        timeLeft_share--;
-        updateButton_share();
-      } else {
-        clearInterval(timerInterval_share);
-        timerInterval_share = null;
-        countdown_share.classList.remove('running');
-        countdown_share.classList.add('finished');
-        countdown_share.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_share();
-  }
-}
-
-function pauseTimer_share() {
-  clearInterval(timerInterval_share);
-  timerInterval_share = null;
-  countdown_share.classList.remove('running');
-}
-
-function resetTimer_share() {
-  timeLeft_share = seconds_share;
-  updateButton_share();
-  countdown_share.classList.remove('finished');
-  countdown_share.classList.remove('running');
-  timerInterval_share = null;
-}
-
-countdown_share.addEventListener("click", () => {
-  if (countdown_share.classList.contains('finished')) {
-    resetTimer_share();
-  } else {
-    startTimer_share();
-  }
-});
-
-updateButton_share();
--->
-</script>
-
-<!-- Share 
-
-Tutti gli outcome elencati
-Sesso, eta'
-SES: income, education
-Nursing backgroun: professional title (junior/senior) e/o anni di servizio, numero di ore lavorate, shift
-COVID background: se gia' in wuhan, volonarie o trasferite a forza, previous esperience in malattie infettive, downgrade/upgrade dal trasferimento, confidence nelle proprie capacita'
-Dati privati (non esiste solo il lavoro): sposate, numero figli, caring duty
-
--->
-
 ---
 ## Raccogliamo dei dati?
 
@@ -431,6 +146,144 @@ Numeriche:
 Categoriche si dividono in 2 classi
 - Nominali (categorie che non possono essere ordinate) -> due categorie binarie (diabete si/no), piu' categorie (gruppo sanguigno)
 - Ordinali (categorie che non possono essere ordinate) -> dati che rappresentano categorie ordinate (giudizi scolastici ("Insufficiente", "Sufficiente", "Buono", "Ottimo:"), "Sottopeso", "Normopeso" ...) -->
+
+---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%">
+
+<span style="display:block; height:40px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Il numero di decessi in un ospedale
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%">
+
+<span style="display:block; height:40px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; La taglia di una maglietta
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%">
+
+<span style="display:block; height:40px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; La nazionalit&agrave;
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%">
+
+<span style="display:block; height:40px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; La glicemia a digiuno
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
+---
+## Di che tipo di dato si tratta?
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%">
+
+<span style="display:block; height:40px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; L'idoneit&agrave; a un esame
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/data/select_data_type.drawio.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div>
+
 
 ---
 ### Esercizio #1
