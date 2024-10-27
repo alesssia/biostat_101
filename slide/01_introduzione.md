@@ -32,19 +32,22 @@ style: |
     - alessia.visconti@unito.it
 
 - **Cosa (c'&egrave; nel programma)?**
-    - 16h di lezione (circa)
-    - 8h di laboratorio (circa)
+    <!-- - 16h di lezione (circa)
+    - 8h di laboratorio (circa) -->
+    - 15h di lezione
+    - incluso esercitazioni
 
-- **Cosa (portare a lezione)?**  
-    - laptop (per il laboratorio)
-    - fogli (per fare gli esercizi)
 
 </div>
 <div>
 
-- **Quando?**
+- **Cosa (portare a lezione)?**  
+    <!-- - laptop (per il laboratorio) -->
+    - fogli (per fare gli esercizi)
+    
+<!-- - **Quando?**
     - Ogni luned&igrave; mattina (4h)
-    - Pause volanti
+    - Pause volanti -->
 
 - **Com'&egrave; (l'esame)?**
     - quiz a risposta chiusa (1h)
