@@ -20,7 +20,6 @@ style: |
 ## &nbsp;
 
 ---
-
 ## Obiettivi di apprendimento
 
 <span style="display:block; height:50px;"></span>
@@ -110,7 +109,7 @@ infatti il fatto di aver trovato dell'evidenza in favore di un'ipotesi non vuold
 Nulla e alternativa sono mutualmente esclusive e insieme descrivono tutti possibili casi -->
 
 ---
-### Esercizio 1
+### Esercizio #1
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
@@ -129,8 +128,9 @@ Findings  In this cohort study using a national longitudinal health survey of 13
 
 Meaning  These results underscore the importance of interventions targeting the prevention of increased isolation among older adults to mitigate its adverse effects on mortality, as well as physical and cognitive function decline. -->
 
+
 ---
-### Esercizio 1
+### Esercizio #1
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
@@ -150,7 +150,7 @@ Meaning  These findings suggest that the use of combined VR exposure plus tDCS c
 -->
 
 ---
-### Esercizio 1
+### Esercizio #1
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
@@ -170,7 +170,7 @@ Meaning  The findings suggest that the experience of grateful affect is associat
 -->
 
 ---
-### Esercizio 2
+### Esercizio #2
 
 <span style="display:block; height:5px;"></span>
 
@@ -284,7 +284,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{d}} - \mu_{\text{m}} \neq 0$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{m}} - \mu_{\text{d}} \neq 0$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow |\mu_{\text{d}} - \mu_{\text{m}}| \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Ipotesi alternativa} \text{ } (\mathcal{H}_{1/A})$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Ipotesi alternativa} \text{ } (\mathcal{H}_{1/A})$
 
 </div>
 
@@ -446,6 +446,7 @@ Per la differenza tra due medie
 
 </div>
 
+
 ---
 ## $z$-test
 
@@ -463,6 +464,7 @@ Per la differenza tra due medie
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{d}}\text{ }=3481, \bar{x}_{\text{d}}\text{ }=2462\text{g}, s_{\text{d}}=577\text{g}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{\text{m}}=3823, \bar{x}_{\text{m}}=2350\text{g}, s_{\text{m}}=579\text{g}$ 
 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{d}} - \mu_{\text{m}} = 0$ &nbsp;&nbsp;&nbsp; $\leftarrow$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{d}} - \bar{x}_{\text{m}} = 2462\text{g} - 2350\text{g} = 112\text{g}$ 
 
@@ -470,9 +472,11 @@ Per la differenza tra due medie
 
 <div style="font-size: 75%" >
 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (\mu_{\text{d}} - \mu_{\text{m}}, \text{SE}
 )$, con $\mu_{\text{d}} - \mu_{\text{m}} = 0$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{d}} - \bar{x}_{\text{m}} = 2462 - 2350 = (\pm)112$ 
+
 
 </div>
 
@@ -794,7 +798,6 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 </div>
 
-
 </div>
 </div>
 
@@ -843,7 +846,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Il P-value associato alla variabile “Sex” è pari a 0.84. Con un livello di 
+:question: &nbsp;&nbsp;&nbsp; Il P-value associato alla variabile “Sex” è pari a 0.48. Con un livello di 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativit&agrave; del 5%, ci sono differenze statisticamente significative nella 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; distribuzione maschi/femmine nei due gruppi?
 
@@ -943,7 +946,6 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 </div>
 
-
 ---
 ### Esercizio #7
 
@@ -973,13 +975,23 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <div>
 
 
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/unannotated_CI.png" img height="350px" border="4px"/>
+</center>
+
 </div>
 </div>
+
+
+
+<!-- Qui dobbiamo andare a pescare nella memoria delle cose viste in passato -->
 
 ---
 ## Test di ipotesi & intervallo di confidenza
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
 :dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval &egrave; l'insieme delle ipotesi nulle che non sono 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
@@ -1018,7 +1030,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 ---
 ## Test di ipotesi & intervallo di confidenza
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
 :dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval &egrave; l'insieme delle ipotesi nulle che non sono 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
@@ -1028,9 +1040,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <div class="columns">
 <div>
 
-
-
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In un test a due code, $\text{P} <0.05$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se il 95% CI non include l'ipotesi
@@ -1053,6 +1063,45 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <!-- This intimate link between hypothesis testing and confidence intervals should stop people misinterpreting results that are not statistically significantly different from 0 – this does not mean that the null hypothesis is actually true, but simply that a confidence interval for the true value includes 0. Unfortunately, as we shall see later, this lesson is often ignored. -->
 
+
+---
+## Test di ipotesi & intervallo di confidenza
+
+<div style="font-size: 80%" >
+
+:dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval &egrave; l'insieme delle ipotesi nulle che non sono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
+
+</div>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In un test a due code, $\text{P} <0.05$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se il 95% CI non include l'ipotesi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nulla (solitamente zero)
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:40px;"></span>
+
+<img src="./img/sampling/abstract_methods_ex1.png" img height="210px" align="right" border="4px"/>
+
+<span style="display:block; height:240px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+</div>
 
 ---
 ## Pearson's $\chi^2$ test
@@ -1235,11 +1284,8 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 </div>
 <div>
 
-
-
 </div>
 </div>
-
 
 
 <!-- Andiamo innanzitutto a costruirci una tabella di contingenza, dove andiamo ad indicare le dimensioni dei due campioni -->
@@ -1711,7 +1757,41 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
 <!-- df = nrighe-1 * ncolonne-1 -->
 
 ---
-### Esercizio 8
+## Pearson's $\chi^2$ test
+
+<div style="font-size: 80%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Il livello di istruzione influenza la frequenza dell'esercizio fisico? 
+
+</div>
+
+<br/>
+
+<div style="font-size: 65%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
+| | Nessuno |  Sporadico | Regolare | Totale
+| :---- | -----: | ----: | ----: | ----- |
+Licenza elementare | $\frac{\Sigma \text{Riga}_1 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | $\frac{\Sigma \text{Riga}_1 \times \Sigma \text{Colonna}_2}{\text{Totale}}$ | $\frac{\Sigma \text{Riga}_1 \times \Sigma \text{Colonna}_3}{\text{Totale}}$ | $\Sigma \text{Riga}_1$
+Licenza media | $\frac{\Sigma \text{Riga}_2 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | ... | ... |  $\Sigma \text{Riga}_2$
+Diploma | $\frac{\Sigma \text{Riga}_3 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | ... | ... |  $\Sigma \text{Riga}_3$
+Laurea  | $\frac{\Sigma \text{Riga}_4 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | ... | ... |  $\Sigma \text{Riga}_4$
+Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{Colonna}_3$ | Totale
+
+</div>
+
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; $\text{df} = (n_\text{righe}-1) \times (n_\text{colonne}-1) = (4 - 1) \times (3 - 1) = 3 \times 2 = 6$
+
+</div>
+
+<!-- df = nrighe-1 * ncolonne-1 -->
+
+---
+### Esercizio #8
 
 <div style="font-size: 70%" >
 
@@ -1722,7 +1802,6 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; favorevoli, 6 contrarie e 15 incerte, all'uso di concezionali. Dei 58 uomini, 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i favorevoli, contrari e incerti sono stati invece 11, 24 e 23.
 
-
 <span style="display:block; height:1px;"></span>
 
 <center>
@@ -1730,6 +1809,19 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
 </center>
 
 </div>
+
+---
+## Pearson's $\chi^2$ test
+
+<span style="display:block; height:60px;"></span>
+
+:dart: &nbsp;&nbsp;&nbsp; $\chi^2 = \sum \frac{(Osservati- Attesi)^2}{Attesi}$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\downarrow$ 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = \sum \frac{(|Osservati- Attesi|-0.5)^2}{Attesi}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Yates' correction)
+
+<!-- I valori osservati in una tabella sono frequenze (valori interi) La distribuzione chi-quadrato è invece una distribuzione continua. E’ stata proposta una correzione  -->
 
 ---
 ## Rischio relativo, rischio assoluto, odds ratio
@@ -1879,6 +1971,17 @@ The ‘Number Needed to Treat’ is the number of people needing to eat a bacon 
 
 </div>
 
+<span style="display:block; height:5px;"></span>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+$^1$ Khanolkar et al., *Socioeconomic Position and the Risk of Brain Tumour: A Swedish National Population-Based  <br/> Cohort Study*, Journal of Epidemiology and Community Health, 2016, doi:10.1136/jech-2015-207002
+
+</div>
+
+
 ---
 ### Esercizio #10
 
@@ -1900,11 +2003,17 @@ The ‘Number Needed to Treat’ is the number of people needing to eat a bacon 
 </div>
 
 
+<!-- non ho abbastanza elementi per decidere presuppone che possa decidere con piu' info, ma in questo caso sono proprio i campioni a non essere comparabili
+
+Se uno si calcola gli Odds viene effettivamente b) -->
+
+
 <div style="font-size: 50%" align="right">
 
 <br/><br/><br/> Huff, D., *How to lie with statistics*. W. W. Norton & Company, 1954
 
 </div>
+
 
 ---
 ## Quando facciamo pi&ugrave; di un test alla volta?
@@ -2071,6 +2180,7 @@ Falsa | Falso <br/>negativo   |   |
 
 <!-- Two types of mistake are therefore possible: a Type I error is made when we reject a null hypothesis when it is true, and a Type II error is made when we do not reject a null hypothesis when in fact the alternative hypothesis holds. -->
 
+
 ---
 ## Errori dei test statistici 
 
@@ -2091,6 +2201,22 @@ Un falso positivo (o errore del primo tipo) occorre quando H0 e' corretta, ma il
 
 Se usiamo un livello si significativita' del 5% abbiamo 5% di possibilita' di dichiarare nulla H0 quando non lo &egrave;. 
 -->
+
+---
+## Errori dei test statistici 
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+
+| $\mathcal{H}_0$ &egrave; | Non rifiutata | Rifiutata | 
+| :---- | :----- | :---- | 
+Vera  |  | Errore di <br/>I tipo |  
+Falsa | Errore di <br/>II tipo   |   | 
+
+</center>
+
+<!-- Two types of mistake are therefore possible: a Type I error is made when we reject a null hypothesis when it is true, and a Type II error is made when we do not reject a null hypothesis when in fact the alternative hypothesis holds. -->
 
 ---
 ## Errori dei test statistici 
@@ -2202,8 +2328,8 @@ he idea of having a large enough sample to have sufficient power to detect a pla
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; Voglio aumentare la potenza del mio studio. Quali fattori posso 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; modificare?
+:question: &nbsp;&nbsp;&nbsp; Voglio aumentare la potenza del mio studio. Quali fattori sono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; effettivamente modificabili?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativit&agrave; $\alpha$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) la differenza  $\mu_i - \mu_c$
@@ -2212,6 +2338,7 @@ he idea of having a large enough sample to have sufficient power to detect a pla
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
 
 </div>
+
 
 ---
 ## Campioni indipendenti & dipendenti

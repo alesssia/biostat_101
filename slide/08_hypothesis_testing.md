@@ -20,7 +20,6 @@ style: |
 ## &nbsp;
 
 ---
-
 ## Obiettivi di apprendimento
 
 <span style="display:block; height:50px;"></span>
@@ -110,7 +109,7 @@ infatti il fatto di aver trovato dell'evidenza in favore di un'ipotesi non vuold
 Nulla e alternativa sono mutualmente esclusive e insieme descrivono tutti possibili casi -->
 
 ---
-### Esercizio 1
+### Esercizio #1
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
@@ -130,7 +129,7 @@ Findings  In this cohort study using a national longitudinal health survey of 13
 Meaning  These results underscore the importance of interventions targeting the prevention of increased isolation among older adults to mitigate its adverse effects on mortality, as well as physical and cognitive function decline. -->
 
 ---
-### Esercizio 1
+### Esercizio #1
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
@@ -149,7 +148,7 @@ Meaning  These results underscore the importance of interventions targeting the 
 </div>
 
 ---
-### Esercizio 1
+### Esercizio #1
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
@@ -169,7 +168,7 @@ Meaning  These findings suggest that the use of combined VR exposure plus tDCS c
 -->
 
 ---
-### Esercizio 1
+### Esercizio #1
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
@@ -188,7 +187,7 @@ Meaning  These findings suggest that the use of combined VR exposure plus tDCS c
 </div>
 
 ---
-### Esercizio 1
+### Esercizio #1
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
@@ -208,7 +207,7 @@ Meaning  The findings suggest that the experience of grateful affect is associat
 -->
 
 ---
-### Esercizio 1
+### Esercizio #1
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla nei seguenti studi
 
@@ -228,7 +227,7 @@ Meaning  The findings suggest that the experience of grateful affect is associat
 </div>
 
 ---
-### Esercizio 2
+### Esercizio #2
 
 <span style="display:block; height:5px;"></span>
 
@@ -334,7 +333,7 @@ updateButton_exercise_2();
 
 
 ---
-### Esercizio 2 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <span style="display:block; height:5px;"></span>
 
@@ -456,7 +455,7 @@ Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{d}} - \mu_{\text{m}} \neq 0$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{m}} - \mu_{\text{d}} \neq 0$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow |\mu_{\text{d}} - \mu_{\text{m}}| \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Ipotesi alternativa} \text{ } (\mathcal{H}_{1/A})$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{Ipotesi alternativa} \text{ } (\mathcal{H}_{1/A})$
 
 </div>
 
@@ -1272,7 +1271,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Il P-value associato alla variabile “Sex” è pari a 0.84. Con un livello di 
+:question: &nbsp;&nbsp;&nbsp; Il P-value associato alla variabile “Sex” è pari a 0.48. Con un livello di 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativit&agrave; del 5%, ci sono differenze statisticamente significative nella 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; distribuzione maschi/femmine nei due gruppi?
 
@@ -1378,7 +1377,7 @@ updateButton_exercise_5();
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Il P-value associato alla variabile “Sex” è pari a 0.84. Con un livello di 
+:question: &nbsp;&nbsp;&nbsp; Il P-value associato alla variabile “Sex” è pari a 0.48. Con un livello di 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativit&agrave; del 5%, ci sono differenze statisticamente significative nella 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; distribuzione maschi/femmine nei due gruppi?
 
@@ -1617,6 +1616,12 @@ updateButton_exercise_6();
 <div>
 
 
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/unannotated_CI.png" img height="350px" border="4px"/>
+</center>
+
 </div>
 </div>
 
@@ -1646,7 +1651,7 @@ updateButton_exercise_6();
 <script>
 <!--
 const countdown_exercise_7= document.getElementById("countdown_exercise_7");
-const seconds_exercise_7= 300; // seconds_exercise_7
+const seconds_exercise_7= 480; // seconds_exercise_7
 let timeLeft_exercise_7= seconds_exercise_7;
 let timerInterval_exercise_7= null;
 
@@ -1774,7 +1779,7 @@ updateButton_exercise_7();
 <div style="font-size: 90%" >
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_{\text{i}} - \mu_{\text{c}} \neq 0$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$\rightarrow \text{P} = 2 \times 0.29 = 0.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$\rightarrow \text{P} = 2 \times 0.029 = 0.056$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_{\text{i}} - \mu_{\text{c}} \geq 0$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\mu_{\text{i}} - \mu_{\text{c}} \leq 0$
 
@@ -1904,7 +1909,7 @@ updateButton_exercise_7();
 ---
 ## Test di ipotesi & intervallo di confidenza
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
 :dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval &egrave; l'insieme delle ipotesi nulle che non sono 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
@@ -1943,7 +1948,7 @@ updateButton_exercise_7();
 ---
 ## Test di ipotesi & intervallo di confidenza
 
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
 :dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval &egrave; l'insieme delle ipotesi nulle che non sono 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
@@ -1953,9 +1958,7 @@ updateButton_exercise_7();
 <div class="columns">
 <div>
 
-
-
-<div style="font-size: 90%" >
+<div style="font-size: 80%" >
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In un test a due code, $\text{P} <0.05$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se il 95% CI non include l'ipotesi
@@ -1978,6 +1981,45 @@ updateButton_exercise_7();
 
 <!-- This intimate link between hypothesis testing and confidence intervals should stop people misinterpreting results that are not statistically significantly different from 0 – this does not mean that the null hypothesis is actually true, but simply that a confidence interval for the true value includes 0. Unfortunately, as we shall see later, this lesson is often ignored. -->
 
+
+---
+## Test di ipotesi & intervallo di confidenza
+
+<div style="font-size: 80%" >
+
+:dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval &egrave; l'insieme delle ipotesi nulle che non sono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
+
+</div>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In un test a due code, $\text{P} <0.05$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se il 95% CI non include l'ipotesi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nulla (solitamente zero)
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:40px;"></span>
+
+<img src="./img/sampling/abstract_methods_ex1.png" img height="210px" align="right" border="4px"/>
+
+<span style="display:block; height:240px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+</div>
 
 ---
 ## Pearson's $\chi^2$ test
@@ -2638,7 +2680,41 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
 <!-- df = nrighe-1 * ncolonne-1 -->
 
 ---
-### Esercizio 8
+## Pearson's $\chi^2$ test
+
+<div style="font-size: 80%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Il livello di istruzione influenza la frequenza dell'esercizio fisico? 
+
+</div>
+
+<br/>
+
+<div style="font-size: 65%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valori attesi
+
+| | Nessuno |  Sporadico | Regolare | Totale
+| :---- | -----: | ----: | ----: | ----- |
+Licenza elementare | $\frac{\Sigma \text{Riga}_1 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | $\frac{\Sigma \text{Riga}_1 \times \Sigma \text{Colonna}_2}{\text{Totale}}$ | $\frac{\Sigma \text{Riga}_1 \times \Sigma \text{Colonna}_3}{\text{Totale}}$ | $\Sigma \text{Riga}_1$
+Licenza media | $\frac{\Sigma \text{Riga}_2 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | ... | ... |  $\Sigma \text{Riga}_2$
+Diploma | $\frac{\Sigma \text{Riga}_3 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | ... | ... |  $\Sigma \text{Riga}_3$
+Laurea  | $\frac{\Sigma \text{Riga}_4 \times \Sigma \text{Colonna}_1}{\text{Totale}}$ | ... | ... |  $\Sigma \text{Riga}_4$
+Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{Colonna}_3$ | Totale
+
+</div>
+
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; $\text{df} = (n_\text{righe}-1) \times (n_\text{colonne}-1) = (4 - 1) \times (3 - 1) = 3 \times 2 = 6$
+
+</div>
+
+<!-- df = nrighe-1 * ncolonne-1 -->
+
+---
+### Esercizio #8
 
 <div style="font-size: 70%" >
 
@@ -2682,7 +2758,7 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
 <script>
 <!--
 const countdown_exercise_8= document.getElementById("countdown_exercise_8");
-const seconds_exercise_8= 300; // seconds_exercise_8
+const seconds_exercise_8= 600; // seconds_exercise_8
 let timeLeft_exercise_8= seconds_exercise_8;
 let timerInterval_exercise_8= null;
 
@@ -2745,7 +2821,7 @@ updateButton_exercise_8();
 
 
 ---
-### Esercizio 8 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 70%" >
 
@@ -2793,7 +2869,7 @@ H1: la proporzione di soggetti bla bla e' diversa (associazione)
 -->
 
 ---
-### Esercizio 8 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -2836,7 +2912,7 @@ H1: la proporzione di soggetti bla bla e' diversa (associazione)
 <!-- H0 la proporzione di soggetti che sono favorevoli, contrari o indifferenti all'uso di concezionali e' la stessa nei due sessi (indipendenza)  -->
 
 ---
-### Esercizio 8 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -2904,7 +2980,7 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 
 
 ---
-### Esercizio 8 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -2971,7 +3047,7 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 <!-- Andiamo quindi a calcolare le frequenze attese, sottp H0 e il valre del chi2-->
 
 ---
-### Esercizio 8 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -3036,7 +3112,7 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 2$
 </div>
 
 ---
-### Esercizio 8 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -3063,7 +3139,7 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 2$
 P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di osservare il risultato che abbiamo ottenuto, o una differenza ancora maggiore, sarebbe solo dell’3% -->
 
 ---
-### Esercizio 8 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -3087,6 +3163,19 @@ P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di 
 <!-- Abbiamo ora il nostro valore xhi, il GdL, con alpga == 00.5 il rapporto critico sarebbe 3.84, che e' meno estremo di quello che osserviamo nei nostri dati, che infatti corrisponde a un pvalue di 0.03 
 
 P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di osservare il risultato che abbiamo ottenuto, o una differenza ancora maggiore, sarebbe solo dell’3% -->
+
+---
+## Pearson's $\chi^2$ test
+
+<span style="display:block; height:60px;"></span>
+
+:dart: &nbsp;&nbsp;&nbsp; $\chi^2 = \sum \frac{(Osservati- Attesi)^2}{Attesi}$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\downarrow$ 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\chi^2 = \sum \frac{(|Osservati- Attesi|-0.5)^2}{Attesi}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Yates' correction)
+
+<!-- I valori osservati in una tabella sono frequenze (valori interi) La distribuzione chi-quadrato è invece una distribuzione continua. E’ stata proposta una correzione  -->
 
 ---
 ## Rischio relativo, rischio assoluto, odds ratio
@@ -3262,7 +3351,7 @@ The ‘Number Needed to Treat’ is the number of people needing to eat a bacon 
 <script>
 <!--
 const countdown_exercise_9= document.getElementById("countdown_exercise_9");
-const seconds_exercise_9= 300; // seconds_exercise_9
+const seconds_exercise_9= 480; // seconds_exercise_9
 let timeLeft_exercise_9= seconds_exercise_9;
 let timerInterval_exercise_9= null;
 
@@ -3412,7 +3501,9 @@ $^1$ Khanolkar et al., *Socioeconomic Position and the Risk of Brain Tumour: A S
 </div>
 
 
-<!-- <span style="display:block; height:20px;"></span> -->
+<!-- non ho abbastanza elementi per decidere presuppone che possa decidere con piu' info, ma in questo caso sono proprio i campioni a non essere comparabili
+
+Se uno si calcola gli Odds viene effettivamente b) -->
 
 <style>
   #countdown_exercise_10{
@@ -3697,6 +3788,7 @@ Falsa | Falso <br/>negativo   |   |
 
 <!-- Two types of mistake are therefore possible: a Type I error is made when we reject a null hypothesis when it is true, and a Type II error is made when we do not reject a null hypothesis when in fact the alternative hypothesis holds. -->
 
+
 ---
 ## Errori dei test statistici 
 
@@ -3717,6 +3809,22 @@ Un falso positivo (o errore del primo tipo) occorre quando H0 e' corretta, ma il
 
 Se usiamo un livello si significativita' del 5% abbiamo 5% di possibilita' di dichiarare nulla H0 quando non lo &egrave;. 
 -->
+
+---
+## Errori dei test statistici 
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+
+| $\mathcal{H}_0$ &egrave; | Non rifiutata | Rifiutata | 
+| :---- | :----- | :---- | 
+Vera  |  | Errore di <br/>I tipo |  
+Falsa | Errore di <br/>II tipo   |   | 
+
+</center>
+
+<!-- Two types of mistake are therefore possible: a Type I error is made when we reject a null hypothesis when it is true, and a Type II error is made when we do not reject a null hypothesis when in fact the alternative hypothesis holds. -->
 
 ---
 ## Errori dei test statistici 
@@ -3933,8 +4041,8 @@ he idea of having a large enough sample to have sufficient power to detect a pla
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; Voglio aumentare la potenza del mio studio. Quali fattori posso 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; modificare?
+:question: &nbsp;&nbsp;&nbsp; Voglio aumentare la potenza del mio studio. Quali fattori sono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; effettivamente modificabili?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativit&agrave; $\alpha$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) la differenza  $\mu_i - \mu_c$
@@ -4037,8 +4145,8 @@ updateButton_exercise_12();
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; Voglio aumentare la potenza del mio studio. Quali fattori posso 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; modificare?
+:question: &nbsp;&nbsp;&nbsp; Voglio aumentare la potenza del mio studio. Quali fattori sono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; effettivamente modificabili?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativit&agrave; $\alpha$ &nbsp;&nbsp; :white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) la differenza  $\mu_i - \mu_c$
