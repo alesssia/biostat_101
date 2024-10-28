@@ -25,13 +25,13 @@ jobs:
         run: mkdir -p build
 
       - name: Copy images directory (if exists)
-        run: if [[ -d img ]]; then cp -R img build/img; fi		
+        run: if [[ -d slide/img ]]; then cp -R img build/img; fi		
 
       - name: Copy html version
-        run: cp -R *.html build/
+        run: cp -R slide/*.html build/
 
       - name: Copy pdf version
-        run: cp -R pdf/*.pdf build/
+        run: cp -R slide/pdf/*.pdf build/
 
       - name: Deploy preview
         if: ${{ github.event_name == 'pull_request' }}
