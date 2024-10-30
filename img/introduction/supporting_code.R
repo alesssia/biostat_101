@@ -47,7 +47,7 @@ big_number_donut_plot <- function(value, font_family, highlight_color) {
 }
 
 
-setwd("/Users/visconti/Documents/Teaching/biostat_101/img/introduction")
+setwd("/Users/visconti/Documents/Teaching/biostat_101/slide/img/introduction")
 
 
 ggsave(
