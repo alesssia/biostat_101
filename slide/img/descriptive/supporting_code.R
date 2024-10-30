@@ -13,7 +13,7 @@ font.size <- 22
 graphic.settings <- theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) +  theme(legend.title = element_blank()) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size))
 
 ### Sexual partner in Britain  
-setwd("/Users/visconti/Documents/Teaching/biostat_101/img/descriptive/")
+setwd("/Users/visconti/Documents/Teaching/biostat_101/slide/img/descriptive/")
 partner.counts <-read.csv("02-4-sexual-partners-counts-x.csv", header=TRUE) # reads data into data frame
 
 attach(partner.counts)

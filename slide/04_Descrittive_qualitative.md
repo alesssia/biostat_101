@@ -13,7 +13,6 @@ style: |
   }
 
 ---
-
 ### Lezione 4
 
 # La statistica descrittiva
@@ -1470,7 +1469,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 
 </div>
 
-<span style="display:block; height:200px;"></span>
+<span style="display:block; height:160px;"></span>
 
 <div style="font-size: 50%">
  
@@ -1519,7 +1518,7 @@ Long labels? Think of an horizontal version.
 
 </div>
 
-<span style="display:block; height:200px;"></span>
+<span style="display:block; height:160px;"></span>
 
 <div style="font-size: 50%">
 
@@ -1555,7 +1554,7 @@ variazione ulteriore: Circular bar chart, lollipop -->
 
 </div>
 
-<span style="display:block; height:200px;"></span>
+<span style="display:block; height:160px;"></span>
 
 <div style="font-size: 50%">
 
@@ -1591,7 +1590,7 @@ variazione ulteriore: Circular bar chart, lollipop -->
 
 </div>
 
-<span style="display:block; height:200px;"></span>
+<span style="display:block; height:180px;"></span>
 
 <div style="font-size: 50%">
 
@@ -1624,7 +1623,7 @@ Visconti, A., *et al.*. *The genetics and epidemiology of N-and O-immunoglobulin
 
 </div>
 
-<span style="display:block; height:200px;"></span>
+<span style="display:block; height:160px;"></span>
 
 <div style="font-size: 50%">
  
@@ -1810,7 +1809,6 @@ Common Mistakes
  -->
 
 ---
-
 ## Infographics
 
 <span style="display:block; height:10px;"></span>
@@ -1831,6 +1829,53 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 In Figure 1.4 the ‘cancer’ icons are randomly scattered among the 100. While such scatter has been shown to increase the impression of unpredictability, it should only be used when there is a single additional highlighted icon. There should be no need to count icons in order to make a quick visual comparison.
 
+ -->
+
+---
+## Mosaic plot
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 90%">
+
+- frequenza relativa
+
+
+</div>
+
+<span style="display:block; height:200px;"></span>
+
+<div style="font-size: 50%">
+ 
+*Visconti A., *et al.*, Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/visualization/mosaic_plot.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- Mosaic plots provide an ideal method both for visualizing contingency tables.
+
+Sono la proporzione sul totale.  
+
+round(prop.table(freq_a)*100, 0)
+
+      Females Males
+  M0        1     1
+  M1a       7     9
+  M1b       7    12
+  M1c      10    26
+  M1d      10    16
  -->
 
 ---

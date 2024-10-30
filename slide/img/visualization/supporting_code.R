@@ -13,7 +13,7 @@ font.size <- 22
 graphic.settings <- theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) +  theme(legend.title = element_blank()) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size))
 
 
-setwd("/Users/visconti/Documents/Teaching/biostat_101/img/visualization")
+setwd("/Users/visconti/Documents/Teaching/biostat_101/slide/img/visualization")
 md <- read.csv("/Users/visconti/Documents/Research/2021/random/PRIMM/doc/sdata/PRIMM_glycomics_anonymised_raw_data.csv")
 
 
@@ -104,6 +104,18 @@ g <- waffle(tmp[, c("stage", "proportion")], rows = 10, colors = c("#66C2A5", "#
 png("MStage_waffle.png")
 print(g)
 dev.off()
+
+stop()
+
+tmp <- table(md$metastatic_stage, md$sex)
+colnames(tmp) <- c("Females", "Males")
+
+
+png("mosaic_plot.png")
+print(mosaicplot(tmp, color = c("darkmagenta", "darkgreen"), xlab ="Metastatic stage", ylab = "Sex", main="")
+)
+dev.off()
+
 
 
 tmp <- table(md$ICI_therapy)

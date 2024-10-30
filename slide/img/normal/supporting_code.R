@@ -8,7 +8,7 @@ font.size <- 22
 graphic.settings <- theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) +  theme(legend.title = element_blank()) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size))
 
 
-setwd("/Users/visconti/Documents/Teaching/biostat_101/img/normal_and_CLT")
+setwd("/Users/visconti/Documents/Teaching/biostat_101/slide/img/normal_and_CLT")
 
 load("/Users/visconti/Documents/Research/2015/random/avisconti/birthWeight/data/BirthData.RData")
 admin <- read.csv("/Users/visconti/Documents/Research/2015/random/avisconti/birthWeight/data/birth/admin.csv")
