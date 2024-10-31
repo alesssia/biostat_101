@@ -1,0 +1,767 @@
+\chapter{Soluzioni agli esercizi}
+
+\section{Capitolo 3}
+
+\begin{solution}{ex2.1}
+
+\noindent I seguenti nomi di variabile sono validi in R:
+
+\begin{lstlisting}[style=Rstyle]
+min_height
+max.height
+MaxLength
+celsius2kelvin
+\end{lstlisting}
+
+\noindent anche questo nome \`e valido, la sua particolarit\`a \`e che Crea una variabile nascosta:
+
+\begin{lstlisting}[style=Rstyle]
+.mass
+\end{lstlisting}
+
+\noindent mentre i seguenti nomi di variabile non sono validi:
+
+\begin{lstlisting}[style=Rstyle]
+_age
+min-length
+2widths
+\end{lstlisting}
+
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex2.2}
+
+\begin{lstlisting}[style=Rstyle]
+# Assegna a mass il valore 50.5
+x <- 50.5    
+
+# Assegna a age il valore 122
+y <- 122     
+
+# Moltiplica il valore contenuto in x per 2 e lo ri-assegna 
+x <- x * 2   
+
+# Sottrae 20 al valore contenuto in y e lo ri-assegna 
+y <- y - 20  
+	
+x
+[1] 101
+y
+[1] 102
+\end{lstlisting}
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex2.3}
+
+\noindent Due dei comandi che possono essere usati sono:
+
+\begin{lstlisting}[style=Rstyle]
+x > y	
+[1] FALSE
+
+x >= y
+[1] FALSE
+\end{lstlisting}
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex2.4}
+
+\begin{lstlisting}[style=Rstyle]
+# Crea la variabile mass e le assegna il valore 2.2
+mass <- 2.2   
+
+# Crea la variabile age e le assegna il valore 15
+age <- 15     
+
+# Per verificare che esistano posso visualizzare 
+# tutte le variabili nell'ambiente di lavoro
+ls()
+[1] "age" "mass"
+
+# Per verificare che siano state inizializzate correttamente 
+# posso stamparle a video 
+mass 
+[1] 2.2
+age 
+[1] 15
+
+#Rimuove le due variabili
+rm(mass, age)  
+
+# Per verificare che siano state rimosse posso visualizzare 
+# tutte le variabili nell'ambiente di lavoro
+ls()
+character(0)
+\end{lstlisting}
+
+\end{solution}
+
+
+\vspace{0.5cm}
+
+\begin{solution}{ex2.5}
+
+\begin{lstlisting}[style=Rstyle]
+# Carico un pacchetto R specificato nella sessione di lavoro
+library(ggplot2) 
+\end{lstlisting}
+
+
+\begin{lstlisting}[style=Rstyle]
+# Installo il pacchetto specificato (attenzione alle virgolette)
+install.packages("ggrepel")  
+\end{lstlisting}	
+
+\end{solution}	
+
+
+\newpage
+
+\section{Capitolo 4}
+
+\begin{solution}{ex3.1}
+
+\begin{lstlisting}[style=Rstyle]
+df$country
+ [1] "Benin"      "Greece"     "Tanzania"  
+ [4] "Estonia"    "Russia"     "Syria"     
+ [7] "Zambia"     "Vietnam"    "Liberia"   
+[10] "Mozambique"
+\end{lstlisting}
+
+\noindent Ritorna la prima colonna di un data frame, usandone il nome, come un vettore di caratteri (tipo: \lsin{character}) ed \`e equivalente a:
+
+\begin{lstlisting}[style=Rstyle]
+df[, 1]
+ [1] "Benin"      "Greece"     "Tanzania"  
+ [4] "Estonia"    "Russia"     "Syria"     
+ [7] "Zambia"     "Vietnam"    "Liberia"   
+[10] "Mozambique"
+\end{lstlisting}
+%
+che usa l'indice di posizione della colonna. Analogamente,
+
+\begin{lstlisting}[style=Rstyle]
+df[1, ]
+  country world_region income_group_2017
+1   Benin       africa        Low income
+  happiness_score_2011 gov_health_spending_percent
+1                 38.7                         9.6
+\end{lstlisting}
+%
+ritorna non la prima colonna, ma la prima riga. Invece
+
+\begin{lstlisting}[style=Rstyle]
+df[1, 1]
+[1] "Benin"
+\end{lstlisting}
+%
+ritorna il contenuto della cella in posizione \lsin{<1,1>}.
+
+\begin{lstlisting}[style=Rstyle]
+df["country"]
+      country
+1       Benin
+2      Greece
+3    Tanzania
+4     Estonia
+5      Russia
+6       Syria
+7      Zambia
+8     Vietnam
+9     Liberia
+\end{lstlisting}
+%
+invece crea un nuovo data frame, andando a tagliare una "fetta" di quello originale.
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex3.2}
+
+\begin{lstlisting}[style=Rstyle]
+str(cats)
+'data.frame' : 4 obs. of  4 variables:
+ $ coat      : chr  "calico" "black" "tabby" "white"
+ $ weight    : chr  "2.1" "5" "3.2" "3.3"
+ $ playful   : chr  "1" "0" "1" "1"
+ $ age       : chr  "2" "3" "5" "9"
+\end{lstlisting}
+%
+Tutte le colonne sono state trasformate in \lsin{character}. Questo \`e successo perch\'e un vettore pu\`o includere un solo tipo di dati, e il meno restrittivo \`e  \lsin{character}.
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex3.3}
+
+\noindent Punto 1: Creare un data frame chiamato \lsin{classe} che contenga le seguenti informazioni su noi stessi: \lsin{<Nome, Cognome, Giorno di Nascita>}
+
+\begin{lstlisting}[style=Rstyle]
+classe <- data.frame(Nome = "Alessia",
+                     Cognome = "Visconti",
+                     GiornoNascita  = 4)
+\end{lstlisting}
+%
+Soluzione alternativa:
+
+\begin{lstlisting}[style=Rstyle]
+classe <- data.frame(Nome = c("Alessia"),
+                     Cognome = c("Visconti"),
+                     GiornoNascita  = c(4))
+\end{lstlisting}
+
+\vspace{0.2cm}
+\noindent Punto 2: Aggiungere delle righe che contengano le stesse informazioni per due dei vicini:
+
+\begin{lstlisting}[style=Rstyle]
+vicino1 <- list("Tizio", "Caio", "12")
+vicino2 <- list("Pinco", "Pallino", "20")
+classe <- rbind(classe, vicino1)
+classe <- rbind(classe, vicino2)
+\end{lstlisting}
+%
+Soluzione alternativa:
+
+\begin{lstlisting}[style=Rstyle]
+vicino1 <- list("Tizio", "Caio", "12")
+vicino2 <- list("Pinco", "Pallino", "20")
+classe <- rbind(classe, vicino1, vicino2)
+\end{lstlisting}
+%
+Soluzione alternativa:
+
+\begin{lstlisting}[style=Rstyle]
+classe <- rbind(classe, list("Tizio", "Caio", "12"),
+                        list("Pinco", "Pallino", "20"))
+\end{lstlisting}
+%
+Soluzione alternativa:
+
+\begin{lstlisting}[style=Rstyle]
+vicini <- data.frame(Nome = c("Tizio", "Pinco"),
+                     Cognome = c("Caio", "Pallino"),
+                     GiornoNascita  = c(12, 20))
+classe <- rbind(classe, vicini))
+\end{lstlisting}
+%
+Altre soluzioni sono possibili.
+
+\vspace{0.2cm}
+\noindent Punto 3:  Aggiungere una colonna con la mostra risposta (\lsin{TRUE/FALSE}) alla domanda \emph{Mi servirebbe una pausa?}
+
+\begin{lstlisting}[style=Rstyle]
+risposta <- c("FALSE", "TRUE", "FALSE")
+classe <- cbind(classe, risposta)
+\end{lstlisting}
+%
+Soluzione alternativa:
+\begin{lstlisting}[style=Rstyle]
+classe <- cbind(classe, risposta=c("FALSE", "TRUE", "FALSE"))
+\end{lstlisting}
+%
+Altre soluzioni sono possibili.
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex3.4}
+
+\noindent Comando 1:
+\begin{lstlisting}[style=Rstyle]
+x[2:4]
+  b   c   d
+6.2 7.1 4.8
+\end{lstlisting}
+%
+\noindent Comando 2:
+\begin{lstlisting}[style=Rstyle]
+x[-c(1,5)]
+  b   c   d
+6.2 7.1 4.8
+\end{lstlisting}
+%
+\noindent Comando 3:
+\begin{lstlisting}[style=Rstyle]
+x[c(2,3,4)]
+  b   c   d
+6.2 7.1 4.8
+\end{lstlisting}
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex3.5}
+
+\begin{lstlisting}[style=Rstyle]
+x[4 < x & x < 7]
+
+  a   b   d
+5.4 6.2 4.8 
+\end{lstlisting}
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex3.6}
+
+\noindent Punto 1: estrarre tutti i valori per paesi europei
+
+\begin{lstlisting}[style=Rstyle]
+df[df$world_region == "europe", ]
+
+  country world_region income_group_2017
+2  Greece       europe       High income
+4 Estonia       europe       High income
+5  Russia       europe     Middle income
+  happiness_score_2011 gov_health_spending_percent
+2                 53.7                       12.10
+4                 54.9                       11.70
+5                 53.9                        8.04
+\end{lstlisting}
+%
+\noindent Punto 2: estrarre tutti i valori per i paesi non nel gruppo "Middle income"
+
+\begin{lstlisting}[style=Rstyle]
+df[df$income_group_2017 != "Middle income", ]
+      country world_region income_group_2017
+1       Benin       africa        Low income
+2      Greece       europe       High income
+3    Tanzania       africa        Low income
+4     Estonia       europe       High income
+9     Liberia       africa        Low income
+10 Mozambique       africa        Low income
+   happiness_score_2011 gov_health_spending_percent
+1                  38.7                         9.6
+2                  53.7                        12.1
+3                  40.7                        13.8
+4                  54.9                        11.7
+9                    NA                        11.1
+10                 49.7                        12.2
+\end{lstlisting}
+%
+Soluzione alternativa:
+
+\begin{lstlisting}[style=Rstyle]
+df[df$income_group_2017 %in% c("High income", "Low income"), ]
+\end{lstlisting}
+%
+\noindent Punto 3: estrarre tutti i valori nella prima, seconda e ultima colonna
+
+\begin{lstlisting}[style=Rstyle]
+df[, c(1:2, 5)]
+      country world_region gov_health_spending_percent
+1       Benin       africa                        9.60
+2      Greece       europe                       12.10
+3    Tanzania       africa                       13.80
+4     Estonia       europe                       11.70
+5      Russia       europe                        8.04
+6       Syria         asia                        5.58
+7      Zambia       africa                       15.60
+8     Vietnam         asia                        7.79
+9     Liberia       africa                       11.10
+10 Mozambique       africa                       12.20
+\end{lstlisting}
+%
+Soluzione alternativa:
+
+\begin{lstlisting}[style=Rstyle]
+df[, c(1, 2, 5)]
+\end{lstlisting}
+%
+\noindent Punto 4: estrarre tutti i valori tranne quelli dell'ultima colonna
+
+\begin{lstlisting}[style=Rstyle]
+df[, -5]
+      country world_region income_group_2017
+1       Benin       africa        Low income
+2      Greece       europe       High income
+3    Tanzania       africa        Low income
+4     Estonia       europe       High income
+5      Russia       europe     Middle income
+6       Syria         asia     Middle income
+7      Zambia       africa     Middle income
+8     Vietnam         asia     Middle income
+9     Liberia       africa        Low income
+10 Mozambique       africa        Low income
+   happiness_score_2011
+1                  38.7
+2                  53.7
+3                  40.7
+4                  54.9
+5                  53.9
+6                  40.4
+7                  50.0
+8                  57.7
+9                    NA
+10                 49.7
+\end{lstlisting}
+%
+Soluzione alternativa:
+
+\begin{lstlisting}[style=Rstyle]
+df[, 1:4]
+\end{lstlisting}
+%
+\noindent Punto 5: estrarre la prima, quarta, e quinta colonna per tutti i paesi africani
+
+\begin{lstlisting}[style=Rstyle]
+df[df$world_region == "africa", c(1,4,5)]	
+      country happiness_score_2011
+1       Benin                 38.7
+3    Tanzania                 40.7
+7      Zambia                 50.0
+9     Liberia                   NA
+10 Mozambique                 49.7
+   gov_health_spending_percent
+1                          9.6
+3                         13.8
+7                         15.6
+9                         11.1
+10                        12.2	
+\end{lstlisting}
+
+\end{solution}
+
+\section{Capitolo 5}
+
+
+\begin{solution}{ex4.1}
+
+\begin{lstlisting}[style=Rstylescript]
+# Calcolo la frequenza assoluta
+freq_a_income <- table(gapminder$income_group_2017)
+
+# Calcolo la frequenza relativa, 
+freq_r_income <- prop.table(freq_a_income)
+
+# Calcolo le percentuali moltiplicando per 100
+freq_r_income <- freq_r_income*100
+
+# Arrotondo a una cifra decimale
+freq_r_income <- round(freq_r_income, 1)
+\end{lstlisting}
+
+\noindent La moda \`e: "Middle income"
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex4.2}
+	
+\begin{lstlisting}[style=Rstylescript]
+# Calcolo le percentuali moltiplicando per 100
+tab_cont_rel_col_percent <- tab_cont_rel_col*100
+
+# Arrotondo a una cifra decimale
+tab_cont_rel_col_percent <- round(tab_cont_rel_col_percent, 1)
+\end{lstlisting}
+
+\noindent Le regioni al mondo pi\`u frequenti per low, middle e high income sono Africa, Asia e Europa, rispettivamente.
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex4.3}
+	
+\begin{lstlisting}[style=Rstylescript]
+#Calcolo il range come valore massimo meno valore minimo
+range_happiness <- max_happiness - min_happiness
+
+#Calcolo IQR come terzo quartile (in posizione 4 del vettore) - primo quartile (in posizione 2)
+iqr_happiness <- quartile_happiness[4] - quartile_happiness[2]
+\end{lstlisting}
+
+\noindent Potrebbe avere una distribuzione asimmetrica a destra, ma non possiamo sapere se sia bi- o multi-modale.
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex4.4}
+	
+\begin{lstlisting}[style=Rstylescript]
+mean_spending <- mean(gapminder$gov_health_spending_percent)
+sd_spending <- sd(gapminder$gov_health_spending_percent)
+
+median_spending <- median(gapminder$gov_health_spending_percent, na.rm=TRUE)
+quartile_spending <- quantile(gapminder$gov_health_spending_percent, na.rm=TRUE)
+
+min_spending <- min(gapminder$gov_health_spending_percent, na.rm=TRUE)
+max_spending <- max(gapminder$gov_health_spending_percent, na.rm=TRUE)
+
+range_spending <- max_spending - min_spending
+iqr_spending <- quartile_spending[4] - quartile_spending[2]
+
+histogram_spending <- ggplot(gapminder, aes(x=gov_health_spending_percent)) + geom_histogram(binwidth=5, width=0.8, fill="white", color="red") + xlab("Score") + ylab("Counts") + ggtitle("Govt health spending in 2010 (% of total spending)", subtitle="Gapminder data") + theme_bw()
+\end{lstlisting}
+
+\noindent Per una spiegazione della soluzione di rimanda al testo delle Sezioni~\ref{sec:centdisp} e~\ref{sec:histo}
+
+\end{solution}
+
+
+\vspace{0.5cm}
+
+
+\begin{solution}{ex4.5}
+
+\begin{lstlisting}[style=Rstylescript]
+boxplot_world_region <- ggplot(gapminder, aes(x=happiness_score_2011, y=world_region)) + geom_boxplot(fill="grey") + xlab("Score") + ylab("") + ggtitle("World happiness by world_region", subtitle="Gapminder data") + theme_bw()
+\end{lstlisting}
+
+\noindent Le persone sono meno felici in Africa.
+
+\noindent Per una spiegazione della soluzione di rimanda al testo della Sezione~\ref{sec:boxplot}.
+
+\vspace{0.2cm} 
+
+\noindent Per risolvere l'ultimo punto, bisognava ricordarsi come estrarre parte di un data frame usando dei vettori (e quindi delle operazioni) logici, come introdotto in Sezione~\ref{sec:subsetting}.
+
+\begin{lstlisting}[style=Rstylescript]
+happiness_africa <- gapminder$happiness_score_2011[gapminder$world_region == "africa"]
+mean(happiness_africa, na.rm=TRUE)
+
+happiness_asia <- gapminder$happiness_score_2011[gapminder$world_region == "asia"]
+mean(happiness_asia, na.rm=TRUE)
+
+happiness_europe <- gapminder$happiness_score_2011[gapminder$world_region == "europe"]
+mean(happiness_europe, na.rm=TRUE)
+
+happiness_americas <- gapminder$happiness_score_2011[gapminder$world_region == "americas"]
+mean(happiness_americas, na.rm=TRUE)
+\end{lstlisting}
+
+
+\end{solution}	
+
+\newpage
+
+\section{Capitolo 6}
+
+\begin{solution}{ex5.1}
+
+\noindent Le funzioni che abbiamo visto assumono come default una normale standardizzata.
+
+\noindent Per rispondere alle domande, bisogna ricordare le propriet\`a della normale, in generale, e della normale standardizzata, in particolare.
+
+\noindent La mediana (che corrisponde alla media, che nella normale standardizzata \`e zero) divide la curva in due parti identiche. Dato che l'area sottesa \`e sempre \lsin{1}, allora l'area a sinistra della mediana (\lsin{lower.tail = TRUE}) e alla sua destra (\lsin{lower.tail = FALSE}) sono entrambe \lsin{0.5}:
+
+\begin{lstlisting}[style=Rstyle]
+pnorm(0, mean = 0, sd = 1, lower.tail = TRUE)
+[1] 0.5
+
+pnorm(0, mean = 0, sd = 1, lower.tail = FALSE)
+[1] 0.5
+\end{lstlisting}
+%
+di conseguenza, il valore per cui si ottiene un'area uguale a \lsin{0.5} per una normale standardizzata \`e zero:
+
+\begin{lstlisting}[style=Rstyle]
+qnorm(0.5, lower.tail = TRUE)
+[1] 0
+\end{lstlisting}
+
+
+\noindent Uno $z$-score di \lsin{1.96} \`e un valore particolare, che sappiamo corrisponde a un $\alpha$ di \lsin{0.05}, che viene diviso equamente tra la coda destra (1.96, \lsin{lower.tail = TRUE}) e la coda sinistra (-1.96, \lsin{lower.tail = TRUE}), ognuna delle quali vale quindi \lsin{0.025} (circa). Facendo la differenza, si ottiene l'area per .96, \lsin{lower.tail = FALSE}: \lsin{1-0.025=0.975} (circa):
+
+\begin{lstlisting}[style=Rstyle]
+pnorm(1.96, mean=0, sd = 1, lower.tail = TRUE)
+[1] 0.9750021
+pnorm(1.96, mean=0, sd = 1, lower.tail = FALSE)
+[1] 0.0249979
+ 
+pnorm(-1.96, mean=0, sd = 1, lower.tail = TRUE)
+[1] 0.0249979
+\end{lstlisting}
+%
+di conseguenza, il valore per cui si ottiene un'area uguale a \lsin{0.024} (coda sinistra) per una normale standardizzata \`e \lsin{-1.96} (circa):
+
+\begin{lstlisting}[style=Rstyle]
+qnorm(0.025, lower.tail = TRUE)
+[1] -1.959964
+\end{lstlisting}
+
+
+
+\end{solution}
+
+\vspace{0.5cm}	
+
+\begin{solution}{ex5.2}
+
+\noindent Possiamo usare direttamente la funzione \lsin{pnorm} con i parametri dell'esercizio, ricordandoci che vogliamo quelli che pesano meno di $1500 \text{ g}$, quindi la coda sinistra:
+
+\begin{lstlisting}[style=Rstyle]
+pnorm(1500, mean = 2404 , sd = 580, lower.tail = TRUE)
+[1] 0.05954309
+\end{lstlisting}
+
+\noindent Possiamo anche andare a standardizzare il valore che ci interessa (ottenendo cos\`i lo $z$-score), che usiamo poi in \lsin{pnorm} assumendo che si tratti di una normale standardizzata (quindi con valori di default per media e deviazione standard):
+
+\begin{lstlisting}[style=Rstyle]
+zscore <- (1500-2404)/580
+pnorm(zscore, lower.tail = TRUE)
+[1] 0.05954309
+\end{lstlisting}
+
+\noindent Proporzione e probabilit\`a coincidono e sono uguali al $6\%$.
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex5.3}
+
+\noindent Sulla falsariga dell'esempio visto in Sezione~\ref{sec:CI}:
+
+\begin{lstlisting}[style=Rstylescript]
+# Stime conosciute
+n <- 760
+x <- 11.4
+sd <- 11.2
+
+# Calcolo lo standard error
+se <- sd/sqrt(n)
+
+# Calcolo il valore critico per il 90% CI e il corrispondente margine d'errore
+z90 <- (1-0.90)/2
+v90 <- qnorm(z90, lower.tail = FALSE)
+me90 <- v90 * se
+
+# Calcolo il margine superiore e inferiore:
+lCI90 <- x - me90
+uCI90 <- x + me90
+
+# Calcolo il valore critico per il 99% CI e il corrispondente margine d'errore
+z99 <- (1-0.99)/2
+v99 <- qnorm(z99, lower.tail = FALSE)
+me99 <- v99 * se
+
+# Calcolo il	margine superiore e inferiore:
+lCI99 <- x - me99
+uCI99 <- x + me99
+\end{lstlisting}
+
+
+\begin{lstlisting}[style=Rstyle]
+# Li visualizzo
+lCI90
+[1] 10.73175
+uCI90
+[1] 12.06825
+ 
+lCI99
+[1] 10.35353
+uCI99
+[1] 12.44647
+\end{lstlisting}
+
+\noindent L'intervallo di confidenza pi\`u largo \`e quello al 99\%, che ha pi\`u probabilit\`a di includere la vera media $\mu$ della popolazione, ma \`e anche meno preciso.
+
+\end{solution}
+
+\vspace{0.5cm}
+
+\begin{solution}{ex5.4}
+	
+\noindent Definiamo per prima l'ipotesi nulla
+
+\noindent $\mathcal{H}_0$: Non ci sono differenze in happiness score tra Europa e le Americhe
+
+\begin{lstlisting}[style=Rstylescript]
+# Seleziono le aree che mi interessano	
+gapminder_eu_am <- gapminder[gapminder$world_region %in% c("europe", "americas"), ]
+
+# Calcolo il $t$-test per un test a due code
+r <- t.test(happiness_score_2011 ~ world_region, data=gapminder_eu_am, alternative = "two.sided")
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+# Visualizzo il P-value
+r$p.value	
+[1] 0.2485322
+\end{lstlisting}
+%
+Quindi non possiamo rifiutare l'ipotesi nulla con una soglia critica $\alpha = 0.05$. Non abbiamo evidenze sufficienti che ci sia differenza tra Europa e le Americhe in termini di happiness score.
+	
+\end{solution}	
+
+
+\vspace{0.5cm}
+
+\begin{solution}{ex5.5}
+
+\begin{lstlisting}[style=Rstylescript]
+# Discretizzo
+gapminder$spending_group <- ifelse(gapminder$gov_health_spending_percent < median_spending, "low", "high")
+
+# Calcolo frequenza assoluta
+spending_group <- table(gapminder$spending_group)
+\end{lstlisting}
+
+
+\begin{lstlisting}[style=Rstyle]
+spending_group
+
+high  low 
+  91   89 
+\end{lstlisting}
+
+\end{solution}
+
+
+\vspace{0.5cm}
+
+\begin{solution}{ex5.6}
+	
+\noindent Definiamo per prima l'ipotesi nulla
+
+\noindent $\mathcal{H}_0$: Non ci sono differenze tra world regions e avere una felicit\`a alta o bassa
+
+\begin{lstlisting}[style=Rstylescript]
+# Creo la tabella di contingenza	
+tab_happiness_region <- table(gapminder$happiness_group, gapminder$world_region)
+\end{lstlisting}
+
+
+\begin{lstlisting}[style=Rstyle]
+tab_happiness_region
+       
+        africa americas asia europe
+  low       34        3   20     12
+  right      4       19   20     27
+\end{lstlisting}
+
+\noindent Ci sono due celle con frequenza assoluta $< 5$, devo quindi usare il Fisher's test:
+
+
+\begin{lstlisting}[style=Rstylescript]
+rf2 <- fisher.test(tab_happiness_region)
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+# Visualizzo il P-value
+rf2$p.value
+[1] 9.054219e-10
+\end{lstlisting}
+%
+Rifiutiamo l'ipotesi nulla con una soglia critica $\alpha = 0.05$ e concludiamo che ci siano differenze tra worls region e avere una felicit\`a alta o bassa.
+	
+\end{solution}	

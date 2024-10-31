@@ -1,0 +1,140 @@
+\chapter{Prepariamoci a partire...}
+\label{cap:installareR}
+
+% Circa 30m
+
+\section*{Obiettivi di apprendimento}
+
+
+\begin{multicols}{2}
+\begin{tcolorbox}[width=1\linewidth, halign=left, colframe=blue!60, colback=white, boxsep=1mm, arc=3mm]
+
+Domande
+
+\begin{myitemize}
+	\item Cos'\`e R?
+	\item Cos'\`e RStudio?
+	\item Come vengono installati?
+	\item Che dati useremo in questo corso?
+\end{myitemize}
+
+\end{tcolorbox} 
+\columnbreak
+\begin{tcolorbox}[width=1\linewidth, halign=left, colframe=blue!60, colback=white, boxsep=1mm, arc=3mm]
+
+Obiettivi
+
+\begin{myitemize}
+	\item Installare R e RStudio
+\end{myitemize}
+
+\end{tcolorbox} 
+\columnbreak
+\end{multicols}
+
+
+
+
+
+\section{Il linguaggio di programmazione R}
+\label{sec:Rintro}
+
+R è un linguaggio di programmazione che è particolarmente utile e versatile per l'esplorazione, visualizzazione e analisi statistica dei dati. 
+
+\noindent La sua versatilit\`a, il fatto che sia OpenSource e gratuito, la disponibilit\`a di una documentazione solida e di una vibrante comunit\`a e la possibilit\`a di estenderne le funzionalit\`a attraverso numerosi pacchetti lo hanno reso uno dei linguaggi pi\`u usati in numerosi campi, tra cui la ricerca biomedica, sopratutto la bioinformatica, l'epidemiologia, il data mining, l'econometria e la finanza, solo per citarne alcuni. 
+
+ 
+
+\section{L'IDE RStudio}
+\label{sec:RStudiointro}
+
+R viene installato con un'interfaccia a linea di comando, ma \`e compatibile con diverse integrated development environment (IDE). Una IDE è un'applicazione  a software che aiuta i programmatori, ma anche gli analisti, a sviluppare codice e a interagire con i dati in modo semplice ed efficiente.
+
+\noindent Per interagire con R utilizzeremo RStudio, che \`e una delle interfacce pi\'u usate.
+
+
+
+\section{Perch\'e usare R?}
+
+In questa parte del corso andremo a vedere gli aspetti basilari di R per l'esplorazione dei dati e la loro analisi statistica. 
+
+\noindent Molto (se non tutto) quello che vedremo pu\`o anche essere eseguito usando un foglio di calcolo, come Microsoft Excel o Google sheets. Tuttavia, questi due programmi non permettono di raggiungere la stessa flessibilit\`a di R e soprattutto non permettono di condividere i passi che si effettuano durante l'analisi, un aspetto cruciale per supportare la riproducibilit\`a della ricerca scientifica.
+
+\noindent Esistono anche altri programmi per la statistica, come ad esempio Stata (\url{www.stata.com/}) e SAS (\url{www.sas.com}). Tuttavia, questi sono programmi a pagamento e che non offrono la stessa versatilit\`a di R e lo stesso ecosistema (\emph{i.e.}, disponibilit\`a di librerie, documentazione e supporto). 
+
+\noindent Esiste anche un'alternativa a R e RStudio che si chiama Jamovi (\url{www.jamovi.org/}). Jamovi \`e basato su R e mentre offre molte delle funzioni che vedremo in questo corso, ed \`e spesso considerato una versione di R di facile apprendimento per i novizi, \`e anche molto limitato. Nella mia arroganza, ritengo che sia piu\`u proficuo affrontare uno strumento meno semplice, ma di pi\`u facile capitalizzazione nel mondo reale.
+
+
+
+% \begin{mybox}{Riproducibilit\`a}
+%
+% FIXME
+%
+% \end{mybox}
+
+
+
+
+\section{Installazione di R e di RStudio}
+
+Per svolgere questa attività di laboratorio, dovrete aver installato R e RStudio (sono due applicazioni diverse e vanno installate entrambe), seguendo le istruzioni (in inglese) ai seguenti indirizzi web:
+
+\begin{myitemize}
+	\item \texttt{Utenti Windows}: \url{https://www.youtube.com/watch?v=q0PjTAylwoU&t=240s&ab_channel=SarahStevens}
+	\item \texttt{Utenti MacOS}: \url{https://www.youtube.com/watch?v=5-ly3kyxwEg&t=56s&ab_channel=SarahStevens}
+	\item \texttt{Utenti Linux}: usate il package manager della vostra distribuzione. Per esempio, per Debian/Ubuntu usate \lsin{sudo apt-get install r-base}  e per Fedora usate \lsin{sudo dnf install R}. Potete trovare istruzioni più dettagliate al seguente link: \url{https://cran.r-project.org/bin/linux}.
+\end{myitemize}
+	
+\noindent \textbf{ATTENZIONE}: la prima parte del video (utenti Windows/MacOS) fa riferimento a un sito web per un corso del programma "Software Carpentry ". Ignorate queste istruzioni e scaricate gli eseguibili dai seguenti link:
+
+\begin{myitemize}
+	\item \texttt{Utenti Windows}: file .exe \url{https://cran.r-project.org/bin/windows/base/release.htm}
+    \item \texttt{Utenti MacOS}: file .pkg \url{https://cran.r-project.org/bin/macosx/R-latest.pkg}
+\end{myitemize}	
+
+\noindent RStudio pu\`o essere scaricato dalla seguente pagina: \url{https://posit.co/download/rstudio-desktop/}, scaricando l'eseguibile al punto 2 (``2: Install RStudio") nella parte destra della pagina, avendo cura di verificare che il sistema operativo suggerito corrisponda a quello installato sul proprio computer. Le istruzioni nei video sono leggermente datate (quindi le pagine sono leggermente diverse), ma ancora valide!
+
+
+\vspace{0.3cm}
+
+\noindent \textbf{ATTENZIONE}: gli Utenti MacOS (e solo loro) devono installare anche XQuartz, scaricandolo da qui: \url{www.xquartz.org}.
+
+\vspace{0.3cm}
+
+\noindent \textbf{ATTENZIONE}: installate R in INGLESE. Vi semplificherà di molto la vita quando dovrete cercare supporto online per le vostre analisi dati, ma soprattutto per capire i messaggi di errore!
+
+\vspace{0.3cm}
+
+\noindent \textbf{ATTENZIONE}: controllate anche che l'installazione sia andata a buon fine, come suggerito nei video.
+
+
+\section{Gapminder data}
+
+I dati che useremo in questa parte del corso sono stati messi a disposizione da Gapminder (~\url{www.gapminder.org}), una fondazione no-profit con sede in Svezia che si pone come obiettivo quello di \emph{"Fighting devastating ignorance with fact-based worldviews everyone can understand"} e sono stati scaricati dal loro sito il 2024-09-30.
+
+\vspace{0.2cm}
+
+\noindent Nel dettaglio, i dati che useremo contengono le seguenti informazioni per 189 paesi:
+
+\begin{myitemize}
+	\item \textbf{world\_region}: corrispondono ai cinque continenti, ma con i paesi tradizionalmente appartenenti all'Oceania raggruppati con i paesi asiatici;
+	\item \textbf{income\_group\_2017}: i tre gruppi di income (low, middle e high) identificati dalla World Bank nel 2017;
+	\item \textbf{happiness\_score\_2011}: il Cantril life ladder per il 2011. Corrisponde alla media delle risposte ricevute alla seguente domanda: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?” Gapminder ha convertito questo indicatore su una scala da 0 a 100, in modo che fosse piu\`u semplice comunicarlo sotto forma di percentuale;
+	\item \textbf{gov\_health\_spending\_percent}: proporzione (in percentuale) che ciascun governo ha speso, nel 2010, per la sanit\`a (rispetto alle spese totali).
+\end{myitemize}	
+
+
+\vspace{0.5cm}
+
+\begin{tcolorbox}[width=1\linewidth, halign=left, colframe=blue!60, colback=white, boxsep=1mm, arc=3mm]
+
+\textbf{Punti principali}
+
+\begin{myitemize}
+	\item R \`e un linguaggio di programmazione che facilita le analisi statistiche
+	\item R ha una vista disponibilit\`a di librerie, documentazione e supporto
+    \item R ci permette di eseguire analisi riproducibili
+    \item RStudio offre un'interfaccia grafica per R
+\end{myitemize}
+
+\end{tcolorbox}

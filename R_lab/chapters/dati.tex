@@ -1,0 +1,835 @@
+\chapter{Dati \& strutture dati}
+\label{cap:dati}
+
+\section*{Obiettivi di apprendimento}
+
+
+\begin{multicols}{2}
+\begin{tcolorbox}[width=1\linewidth, halign=left, colframe=blue!60, colback=white, boxsep=1mm, arc=3mm]
+
+Domande
+
+\begin{myitemize}
+	\item Come posso leggere i dati in R?
+	\item Quali sono i tipi di dati disponibili in R?
+	\item Cos'\`e un data frame e come lo posso manipolare?
+\end{myitemize}
+
+\end{tcolorbox} 
+\columnbreak
+\begin{tcolorbox}[width=1\linewidth, halign=left, colframe=blue!60, colback=white, boxsep=1mm, arc=3mm]
+
+Obiettivi
+
+\begin{myitemize}
+	\item Riconoscere i tipi di dato disponibili in R
+	\item Riconoscere i tipi di strutture dato disponibili in R
+	\item Saper creare e modificare un data frame
+	\item Saper estrarre parti di un vettore e/o di un data frame usando indici, nomi o operatori di comparazione
+\end{myitemize}
+
+\end{tcolorbox} 
+\columnbreak
+\end{multicols}
+
+
+\section{Caricare i dati in R}
+\label{sec:data_loading}
+
+Uno dei pi\`u importanti vantaggi di R \`e la sua abilit\`a nel gestire dati tabulari (come quelli contenuti in un foglio di lavoro Excel). 
+
+\noindent Iniziamo quindi a lavorare con dei dati tabulari che rappresentano una versione pi\`u piccola del dataset che useremo nel resto delle dispense, che sono a disposizione online. 
+
+\noindent Il primo passo \`e andarli a scaricare in una cartella locale utilizzando la funzione \lsin{download.file()}:
+
+\begin{lstlisting}[style=Rstyle]
+# L'indirizzo dal quale scaricare i dati
+url <- "https://t.ly/02JL_"
+
+# Il nome del file e dove salvarlo nel proprio computer
+filename <- "gapminder_small.csv"
+filepath <- "~/Desktop/Rlab/data/"
+
+# Se la cartella non esiste la dobbiamo creare
+dir.create(filepath, recursive = TRUE)
+
+# Scarica il file
+download.file(url, paste(filepath, filename, sep=""), mode = "w")
+(*@\textbf{\textcolor{red}{trying URL 'https://t.ly/is5J6' }}@*)
+(*@\textbf{\textcolor{red}{Content type 'text/plain; charset=utf-8' length 450 bytes }}@*)
+(*@\textbf{\textcolor{red}{================================================== }}@*)
+(*@\textbf{\textcolor{red}{downloaded 450 bytes }}@*)
+
+
+# Entriamo nella nostra cartella e verifichiamo che il file esista
+setwd(filepath)
+
+# Controlliamo di essere dove pensiamo di essere
+getwd()
+[1] "/Users/visconti/Desktop/Rlab/data"
+
+# Visualizza il contenuto di una cartella
+dir()
+[1] "gapminder_small.csv"
+\end{lstlisting}
+
+
+
+\noindent Dopo che il file \`e disponibile, possiamo finalmente caricarlo nell'ambiente R e visualizzarlo:
+
+\begin{lstlisting}[style=Rstyle]
+df <- read.csv("gapminder_small.csv")
+
+df
+      country world_region income_group_2017
+1       Benin       africa        Low income
+2      Greece       europe       High income
+3    Tanzania       africa        Low income
+4     Estonia       europe       High income
+5      Russia       europe     Middle income
+6       Syria         asia     Middle income
+7      Zambia       africa     Middle income
+8     Vietnam         asia     Middle income
+9     Liberia       africa        Low income
+10 Mozambique       africa        Low income
+   happiness_score_2011 gov_health_spending_percent
+1                  38.7                        9.60
+2                  53.7                       12.10
+3                  40.7                       13.80
+4                  54.9                       11.70
+5                  53.9                        8.04
+6                  40.4                        5.58
+7                  50.0                       15.60
+8                  57.7                        7.79
+9                    NA                       11.10
+10                 49.7                       12.20
+\end{lstlisting}
+%
+Notiamo la presenza di un valore indicato con \lsin{NA} (Not Available): indica un dato mancante, che non era disponibile nei nostri dati. A volta la presenza di \lsin{NA} crea dei problemi, vedremo come risolverne alcuni. Non confondetelo con \lsin{NULL}, che rappresenta un valore che non esiste, non un valore che esiste e non \`e conosciuto\footnote{R ha altri tipi di variabile che indicano dei "concetti" piuttosto che dei valori. Per esempio, \lsin{NaN} (Not a Number) indica un valore non possibile, come quello che si otterrebbe dividendo per zero, \lsin{Inf/-Inf} che indicano numeri troppo grandi/piccoli per essere rappresentati in R.}.
+
+\vspace{0.2cm}
+
+\noindent  Una volta che il file \`e stato caricato possiamo iniziare ad usarlo, per esempio estraendone una colonna utilizzando l'operatore \lsin{$}. 
+
+\begin{lstlisting}[style=Rstyle]
+df$country
+ [1] "Benin"      "Greece"     "Tanzania"   "Estonia"    "Russia"    
+ [6] "Syria"      "Zambia"     "Vietnam"    "Liberia"    "Mozambique"
+	
+df$happiness_score_2011
+[1] 38.7 53.7 40.7 54.9 53.9 40.4 50.0 57.7   NA 49.7
+\end{lstlisting}
+%
+Se chiedessimo il valore di un attributo che non esiste, per esempio \lsin{total_spending} otterremmo un \lsin{NULL}, che appunto indica qualcosa che non esiste:
+
+\begin{lstlisting}[style=Rstyle]
+df$total_spending
+NULL
+\end{lstlisting}
+
+\noindent Le colonne che abbiamo estratto possono anche essere usate per delle operazioni:
+
+\begin{lstlisting}[style=Rstyle]	
+# Concatenare stringhe	
+paste(df$country, "is in", df$world_region)
+[1] "Benin is in africa"      "Greece is in europe"    
+[3] "Tanzania is in africa"   "Estonia is in europe"   
+[5] "Russia is in europe"     "Syria is in asia"       
+[7] "Zambia is in africa"     "Vietnam is in asia"     
+[9] "Liberia is in africa"    "Mozambique is in africa"
+
+# Fare operazioni aritmentiche
+df$happiness_score_2011/100
+ [1] 0.387 0.537 0.407 0.549 0.539 0.404 0.500 0.577
+ [9]    NA 0.497
+
+# Concatenare stringhe e numeri
+paste("The happiness score of", df$country, "is", df$happiness_score_2011)
+ [1] "The happiness score of Benin is 38.7"     
+ [2] "The happiness score of Greece is 53.7"    
+ [3] "The happiness score of Tanzania is 40.7"  
+ [4] "The happiness score of Estonia is 54.9"   
+ [5] "The happiness score of Russia is 53.9"    
+ [6] "The happiness score of Syria is 40.4"     
+ [7] "The happiness score of Zambia is 50"      
+ [8] "The happiness score of Vietnam is 57.7"   
+ [9] "The happiness score of Liberia is NA"     
+[10] "The happiness score of Mozambique is 49.7"
+\end{lstlisting}
+
+
+\section{I tipi di dato in R}
+
+Abbiamo appena visto come fare delle operazioni, ma cosa succede se facciamo:
+
+\begin{lstlisting}[style=Rstyle]	
+# Dividiamo happiness score per il paese	
+df$happiness_score_2011/df$country
+(*@\textbf{\textcolor{red}{Error in df$happiness_score_2011/df$country :  }}@*)
+(*@\textbf{\textcolor{red}{  non-numeric argument to binary operator }}@*)
+\end{lstlisting}
+%
+R ci sta dicendo, in modo un po' oscuro, che dividere un valore numerico (l'happiness score) per una stringa (il paese) non ha senso. 
+
+\noindent In R per scoprire il tipo di una variabile si pu\`o usare \lsin{class()} o \lsin{typeof()}. La differenza tra i due \`e che il primo \`e pi\`u flessibile \`e pu\`o essere esteso includendo anche le strutture dati (che vedremo tra breve), mentre il secondo ritorna solo uno dei principali tipo di dato usati da R: \lsin{numeric} (o \lsin{double}), \lsin{integer, complex, logical} e \lsin{character}. 
+
+\begin{lstlisting}[style=Rstyle]	
+class(df$happiness_score_2011)
+[1] "numeric"
+
+typeof(df$happiness_score_2011)
+[1] "double"
+
+class(df$country)
+[1] "character"
+
+typeof(df$country)
+[1] "character"
+
+class(TRUE)
+[1] "logical"
+
+typeof(TRUE)
+[1] "logical"
+
+class(df)
+[1] "data.frame"
+\end{lstlisting}
+%
+Un \lsin{data.frame} non \`e un tipo di dato, ma un tipo di struttura dati\footnote{Se faceste \lsin{typeof(df)}, otterreste \lsin{list}, che \`e un altro tipo di struttura dati.}.
+
+\section{I data frame}
+
+I data frame sono una delle strutture dati pi\`u versatili\footnote{Insieme alle liste, che non vedremo nel dettaglio in questo corso.}e sono formati da righe e colonne.
+
+\noindent Andiamo a crearne uno molto semplice:
+
+\begin{lstlisting}[style=Rstyle]
+cats <- data.frame(coat = c("calico", "black", "tabby"),
+                   weight = c(2.1, 5.0, 3.2),
+                   playful = c(1, 0, 1))
+				   
+cats					
+    coat weight  playful
+1 calico    2.1        1
+2  black    5.0        0
+3  tabby    3.2        1
+\end{lstlisting}
+
+\vspace{0.2cm}
+
+\noindent Differenti colonne di un data frame possono essere di tipo diverso, come nell'esempio che abbiamo esplorato sino ad ora, ma una colonna pu\`o essere composta solo da un tipo di dati, che viene deciso al momento del caricamento (o della definizione del data frame), usando il tipo di dati meno restrittivo. Per esempio se avessimo un data.frame cos\`i composto:
+
+\begin{lstlisting}[style=Rstyle]	
+cats2 <- data.frame(coat = c("calico", "black", "tabby"),
+                    weight = c(2.1, 5.0, "3.2kg"),
+                    playful = c(1, 0, 1))	
+	
+cats2
+    coat   weight  playful
+1 calico      2.1        1
+2  black      5.0        0
+3  tabby    3.2kg        1
+
+class(cats2$weight)
+[1] "character"
+\end{lstlisting}
+%
+perch\'e \lsin{2.1, 5.0} possono essere interpretati come \lsin{"character"}, ma \lsin{3.2kg} non pu\'o essere interpretato come \lsin{numeric}.
+
+\noindent La struttura di un data frame pu\`o essere visualizzata con la funzione \lsin{str()}:
+
+\begin{lstlisting}[style=Rstyle]	
+str(cats)
+'data.frame'  :	3 obs. of  3 variables:
+ $ coat       : chr  "calico" "black" "tabby"
+ $ weight     : num  2.1 5 3.2
+ $ playful    : num  1 0 1
+\end{lstlisting}
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex3.1}
+
+\noindent \`E possibile accedere a un data frame in diversi modi. Prova i seguenti e spiega cosa ottieni:
+
+\begin{lstlisting}[style=Rstyle]	
+    df$country
+    df["country"]
+    df[1, 1]
+    df[, 1]
+    df[1, ]
+\end{lstlisting}
+
+\end{exercise}
+
+
+\subsection{Aggiungere righe e colonne}
+
+Una cosa che non abbiamo ancora detto \`e che righe e colonne di un data frame sono vettori (un altro tipo di strutture dati) e che i vettori vengono costruiti concatenando, con la funzione \lsin{c()}, dei valori. Per esempio, se vogliamo aggiungere informazioni sull'et\`a dei nostri gatti:
+
+\begin{lstlisting}[style=Rstyle]	
+# Creo un vettore di eta' concatenandone i valori
+age <- c(2, 3, 5)
+[1] 2 3 5
+class(age)
+[1] "numeric"
+
+# Concateno il vettore al mio data frame come colonna
+cbind(cats, age)
+    coat weight  playful age
+1 calico    2.1        1   2
+2  black    5.0        0   3
+3  tabby    3.2        1   5
+\end{lstlisting}
+%
+Attenzione: il numero di righe del data frame e il numero di elementi del vettore devono essere uguali:
+
+\begin{lstlisting}[style=Rstyle]	
+wrong.age <- c(2, 3)
+cbind(cats, wrong.age)
+(*@\textbf{\textcolor{red}{Error in data.frame(..., check.names = FALSE) :  }}@*)
+(*@\textbf{\textcolor{red}{  arguments imply differing number of rows: 3, 2  }}@*)
+  
+wrong.age <- c(2, 3, 5, 7)
+cbind(cats, wrong.age)
+(*@\textbf{\textcolor{red}{Error in data.frame(..., check.names = FALSE) :   }}@*)
+(*@\textbf{\textcolor{red}{  arguments imply differing number of rows: 3, 4  }}@*)
+\end{lstlisting}
+
+\noindent Andiamo ora a sovrascrivere il data frame aggiungendo la colonna l'et\`a:
+
+\begin{lstlisting}[style=Rstyle]
+age <- c(2, 3, 5)
+cats <- cbind(cats, age)
+
+cats
+    coat weight  playful age
+1 calico    2.1        1   2
+2  black    5.0        0   3
+3  tabby    3.2        1   5
+\end{lstlisting}
+%
+Andiamo ora a creare una nuova riga:
+
+\begin{lstlisting}[style=Rstyle]
+new.cat <- c("white", 3.3, 1, 9)
+
+# Concateno il vettore al mio data frame come riga
+cats2 <- rbind(cats, new.cat)
+
+cats2
+     coat weight  playful age
+1  calico    2.1        1   2
+2   black      5        0   3
+3   tabby    3.2        1   5
+4   white    3.3     TRUE   9
+\end{lstlisting}
+
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex3.2}
+
+\noindent Cosa succede se visualizzo la struttura (e quindi i tipi di data) del data frame \lsin{cats2} con la funzione \lsin{str()}? Perch\'e?
+
+\begin{lstlisting}[style=Rstyle]	
+str(cats2)
+\end{lstlisting}
+
+\end{exercise}
+
+\noindent Come posso quindi procedere? Utilizzando un'altra struttura dati: le liste. Le liste permettono di creare elenchi di variabili anche di tipo diverso:
+
+\begin{lstlisting}[style=Rstyle]
+new.cat <- list("white", 3.3, TRUE, 9)
+cats <- rbind(cats, new.cat)
+
+cats
+    coat weight playful age
+1 calico    2.1       1   2
+2  black    5.0       0   3
+3  tabby    3.2       1   5
+4  white    3.3       1   9
+
+str(cats)
+'data.frame': 4 obs. of  4 variables:
+ $ coat     : chr  "calico" "black" "tabby" "white"
+ $ weight   : num  2.1 5 3.2 3.3
+ $ playful  : num  1 0 1 1
+ $ age      : num  2 3 5 9
+\end{lstlisting}
+%
+Notiamo che le funzioni \lsin{cbind} e \lsin{rbind} possono essere usate anche per unire due data frame:
+
+\begin{lstlisting}[style=Rstyle]
+# Concateno due data frame per colonna		
+cbind(cats, cats)
+    coat weight playful age   coat weight playful age
+1 calico    2.1       1   2 calico    2.1       1   2
+2  black    5.0       0   3  black    5.0       0   3
+3  tabby    3.2       1   5  tabby    3.2       1   5
+4  white    3.3       1   9  white    3.3       1   9
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+# Concateno due data frame per riga	
+    coat weight playful age
+1 calico    2.1       1   2
+2  black    5.0       0   3
+3  tabby    3.2       1   5
+4  white    3.3       1   9
+5 calico    2.1       1   2
+6  black    5.0       0   3
+7  tabby    3.2       1   5
+8  white    3.3       1   9
+\end{lstlisting}
+
+
+\subsection{Rimuovere righe e colonne}
+\label{sec:removefromdf}
+
+Se volessimo rimuovere l'ultima riga:
+
+\begin{lstlisting}[style=Rstyle]
+cats[-4, ]
+
+cats
+    coat weight playful age
+1 calico    2.1       1   2
+2  black    5.0       0   3
+3  tabby    3.2       1   5
+\end{lstlisting}
+%
+Notiamo che non abbiamo scritto nulla dopo la virgola, indicando che vogliamo rimuoverne tutte le colonne. Se volessimo rimuovere la prima e l'ultima riga devo creare un vettore con tutti gli indici che voglio eliminare usando la funzione \lsin{c()}:
+
+\begin{lstlisting}[style=Rstyle]
+cats[-c(1, 4), ]
+
+cats
+   coat weight playful age
+2 black    5.0       0   3
+3 tabby    3.2       1   5
+\end{lstlisting}
+
+\noindent Possiamo usare la stessa strategia per rimuovere le colonne, per esempio l'ultima:
+
+\begin{lstlisting}[style=Rstyle]
+cats[,-4]
+
+cats
+    coat weight playful
+1 calico    2.1       1
+2  black    5.0       0
+3  tabby    3.2       1
+4  white    3.3       1
+\end{lstlisting}
+
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex3.3}
+
+\noindent Ricordando che \`e possibile creare un data frame in R con la seguente sintassi:
+
+
+\begin{lstlisting}[style=Rstyle]
+mydf <- data.frame(id = c("a", "b", "c"),
+                   x = 1:3,
+                   y = c(TRUE, TRUE, FALSE))
+\end{lstlisting}
+
+\begin{myenumerate}
+	\item Create un data frame chiamato \lsin{classe} che contenga le seguenti informazioni su voi stessi: \lsin{<Nome, Cognome, Giorno di Nascita>}
+	\item Aggiungete delle righe che contengano le stesse informazioni per due dei vostri vicini
+	\item Aggiungete una colonna con la vostra risposta (\lsin{TRUE/FALSE}) alla domanda \emph{Mi servirebbe una pausa?}
+\end{myenumerate}
+
+	\exnote{Suggerimenti}%
+	\begin{myitemize}
+		\item I comandi che vi servono sono \lsin{rbind()} e \lsin{cbind()}
+	\end{myitemize}
+
+\end{exercise}
+
+
+\subsection{Estrarre sottoinsiemi di righe e colonne}
+\label{sec:subsetting}
+
+Conoscere e avere padronanza dei diversi operatori che R mette a disposizione per estrarre sottoinsiemi di un data frame \`e molto importante per effettuare analisi dati. Andiamo quindi ad esplorarli utilizzando il nostro data frame iniziale, \lsin{df} e pi\'u nello specifico con un vettore che andiamo a estrarre dalla prima colonna:
+
+\begin{lstlisting}[style=Rstyle]
+# Creo una variabile usando la prima colonna del data frame
+happiness <- df$happiness_score_2011
+
+# Assegna un nome alla nuova variabile (un vettore)
+names(happiness) <- df$country  
+
+happiness
+     Benin     Greece   Tanzania    Estonia 
+      38.7       53.7       40.7       54.9 
+    Russia      Syria     Zambia    Vietnam 
+      53.9       40.4       50.0       57.7 
+   Liberia Mozambique 
+        NA       49.7 
+\end{lstlisting}
+
+
+\noindent Per estrarre un elemento da un vettore, possiamo fornirne l'indice:
+\begin{lstlisting}[style=Rstyle]
+happiness[1]
+Benin 
+ 38.7 
+ 
+happiness[8]
+Vietnam 
+   57.7 
+\end{lstlisting}
+%
+L'operatore \lsin{[i]} indica: estrai l'\emph{i}-esimo elemento. Se volessi estrarre una serie di elementi consecutivo, posso usare l'operatore \lsin{:} per effettuare quello che si chiama \emph{vettorizzazione}:
+
+\begin{lstlisting}[style=Rstyle]
+1:4
+[1] 1 2 3 4
+
+happiness[1:4]
+ Benin   Greece Tanzania  Estonia 
+  38.7     53.7     40.7     54.9 
+\end{lstlisting}
+%
+Usando la funzione \lsin{c()} posso anche estrarre una serie di elementi non consecutivi, come abbiamo visto in Sezione~\ref{sec:removefromdf}, quando siamo andati a rimuovere pi\`u righe dal nostro data frame:
+
+\begin{lstlisting}[style=Rstyle]
+happiness[c(1,3,6,9)]
+ Benin Tanzania    Syria  Liberia 
+  38.7     40.7     40.4       NA 
+\end{lstlisting}
+%
+Facciamo per\`o attenzione che l'elemento che ci interessa esista, altrimenti R ritornar\`a un \lsin{NA}, senza metterci al corrente di un risultato anomalo\footnote{Dovrebbe segnalarci il problema almeno con un warning, oppure ritornare, coerentemente, un \lsin{NULL} indicando che il valore richiesto non esiste.}:
+
+\begin{lstlisting}[style=Rstyle]
+happiness[c(1,3,6,9,12)]
+ Benin Tanzania    Syria  Liberia     <NA> 
+  38.7     40.7     40.4       NA       NA 
+\end{lstlisting}
+
+\vspace{0.2cm}
+
+\noindent Usando un numero negativo, R restituisce tutti gli elementi, tranne quelli indicati (come abbiamo gi\`a visto in Sezione~\ref{sec:removefromdf}):
+
+\begin{lstlisting}[style=Rstyle]
+happiness[-(1:4)]
+    Russia      Syria     Zambia    Vietnam 
+      53.9       40.4       50.0       57.7 
+   Liberia Mozambique 
+        NA       49.7 
+   
+# Attenzione alle parentesi
+happiness[-1:4]
+(*@\textbf{\textcolor{red}{   Error in happiness[-1:4] : only 0's may be mixed with negative subscripts }}@*)
+\end{lstlisting}
+%
+per capire cosa \`e successo \`e necessario ricordare che \lsin{:} \`e una funzione, mentre \lsin{-} \`e un'operazione e come tale ha la precedenza. Quindi coda fa R?
+
+\begin{lstlisting}[style=Rstyle]
+-1:4
+[1] -1  0  1  2  3  4
+\end{lstlisting}
+%
+che non pu\`o funzionare perch\'e le posizioni di un vettore (e di tutte le altre strutture dati) vengono numerate a partire da \lsin{1}. 
+
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex3.4}
+	
+\noindent Dato il seguente codice:
+
+\begin{lstlisting}[style=Rstyle]
+x <- c(5.4, 6.2, 7.1, 4.8, 7.5)
+names(x) <- c('a', 'b', 'c', 'd', 'e')
+
+x
+  a   b   c   d   e
+5.4 6.2 7.1 4.8 7.5 
+\end{lstlisting}
+
+Proporre almeno due comandi che producano il seguente output:
+
+\begin{lstlisting}[style=Rstyle]
+  b   c   d
+6.2 7.1 4.8 
+\end{lstlisting}
+	
+\end{exercise}
+
+\noindent Possiamo anche estrarre gli elementi di un vettore usando il loro nome:
+
+\begin{lstlisting}[style=Rstyle]
+happiness["Greece"]
+Greece 
+  53.7
+  
+happiness[c("Greece", "Mozambique")]
+Greece Mozambique 
+  53.7       49.7 
+  
+# Attenzione ai nomi che non esistono  
+Greece Mozambique       <NA>
+  53.7       49.7         NA
+\end{lstlisting}
+%
+oppure utilizzando l'operatore \lsin{%in%}, che ci dice se dei valori sono contenuti all'interno di un insieme:
+
+\begin{lstlisting}[style=Rstyle]
+# Questo insieme di paesi e' compreso nel mio vettore?	
+c("Greece", "Mozambique", "Italy") %in% names(happiness)
+[1]  TRUE  TRUE FALSE
+
+# Estraggo i paesi che ho selezionato
+happiness[names(happiness) %in% c("Greece", "Mozambique")]
+Greece Mozambique 
+  53.7       49.7 
+\end{lstlisting}
+% 
+Usare l'operatore \lsin{%in%} \`e anche robusto alla richiesta di dati che non esistono:
+  
+\begin{lstlisting}[style=Rstyle]
+happiness[names(happiness) %in% c("Greece", "Mozambique", "Italy")]
+Greece Mozambique 
+  53.7       49.7  
+\end{lstlisting}
+%
+Rimuovere elementi usando il loro nome, per\`o, \`e pi\`u complicato, perch\'e R non sa come fare il "negativo" di una stringa: 
+
+\begin{lstlisting}[style=Rstyle]
+happiness[-"Greece"]
+(*@\textbf{\textcolor{red}{   Error in -"Greece" : invalid argument to unary operator }}@*)
+\end{lstlisting}
+%
+Si pu\`o per\`o utilizzare l'operatore diverso (\lsin{!=}):
+
+\begin{lstlisting}[style=Rstyle]
+happiness[names(happiness) != "Greece"]
+     Benin   Tanzania    Estonia     Russia 
+      38.7       40.7       54.9       53.9 
+     Syria     Zambia    Vietnam    Liberia 
+      40.4       50.0       57.7         NA 
+Mozambique 
+      49.7 
+\end{lstlisting}
+%
+Rimuovere una serie di elementi \`e ancora pi\`u complicato e ci serve di nuovo l'operatore \lsin{%in%}, questa volta combiato con l'operatore \lsin{!} (\lsin{not}).
+
+\begin{lstlisting}[style=Rstyle]
+happiness[!names(happiness) %in% c("Greece", "Mozambique")]
+   Benin Tanzania  Estonia   Russia    Syria   Zambia 
+    38.7     40.7     54.9     53.9     40.4     50.0 
+ Vietnam  Liberia 
+    57.7       NA 
+\end{lstlisting}
+
+\vspace{0.2cm}
+
+\noindent Un altro modo per estrarre/rimuovere elementi \`e attraverso dei vettori logici (\lsin{TRUE, FALSE}), che \`e esattamente quello che abbiamo fatto quando abbiamo usato l'operatore \lsin{%in%}:
+
+\begin{lstlisting}[style=Rstyle]
+happiness[c(TRUE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, TRUE, FALSE)]
+ Benin Estonia   Syria Liberia
+  38.7    54.9    40.4      NA
+\end{lstlisting}
+%
+che sono utili se vogliamo estrarre elementi che corrispondano a uno specifico criterio, per esempio avere un happiness score maggiore di 50:
+
+\begin{lstlisting}[style=Rstyle]
+happiness > 50
+     Benin     Greece   Tanzania    Estonia 
+     FALSE       TRUE      FALSE       TRUE 
+    Russia      Syria     Zambia    Vietnam 
+      TRUE      FALSE      FALSE       TRUE 
+   Liberia Mozambique 
+        NA      FALSE 
+
+happiness[happiness > 50]
+ Greece Estonia  Russia Vietnam    <NA>
+   53.7    54.9    53.9    57.7      NA
+
+# Attenzione agli NA
+happiness[happiness > 50 & !is.na(happiness)]
+Greece Estonia  Russia Vietnam
+  53.7    54.9    53.9    57.7
+\end{lstlisting}
+%
+\lsin{&} indica l'\lsin{AND} logico. Per l'\lsin{OR} si usa \lsin{|}. La funzione \lsin{is.na()} ci dice se un valore sia \lsin{NA} o meno, il \lsin{!} va a negare il risultato di \lsin{is.na()} :
+
+\begin{lstlisting}[style=Rstyle]
+is.na(happiness)
+     Benin     Greece   Tanzania    Estonia 
+     FALSE      FALSE      FALSE      FALSE 
+    Russia      Syria     Zambia    Vietnam 
+     FALSE      FALSE      FALSE      FALSE 
+   Liberia Mozambique 
+      TRUE      FALSE 
+
+!is.na(happiness)
+     Benin     Greece   Tanzania    Estonia 
+      TRUE       TRUE       TRUE       TRUE 
+    Russia      Syria     Zambia    Vietnam 
+      TRUE       TRUE       TRUE       TRUE 
+   Liberia Mozambique 
+     FALSE       TRUE 
+
+happiness > 50
+     Benin     Greece   Tanzania    Estonia 
+     FALSE       TRUE      FALSE       TRUE 
+    Russia      Syria     Zambia    Vietnam 
+      TRUE      FALSE      FALSE       TRUE 
+   Liberia Mozambique 
+        NA      FALSE
+
+happiness > 50 & !is.na(happiness)
+     Benin     Greece   Tanzania    Estonia 
+     FALSE       TRUE      FALSE       TRUE 
+    Russia      Syria     Zambia    Vietnam 
+      TRUE      FALSE      FALSE       TRUE 
+   Liberia Mozambique 
+     FALSE      FALSE 
+\end{lstlisting}
+
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex3.5}
+	
+\noindent Dato il seguente codice:
+	
+\begin{lstlisting}[style=Rstyle]
+x <- c(5.4, 6.2, 7.1, 4.8, 7.5)
+names(x) <- c('a', 'b', 'c', 'd', 'e')
+
+x
+  a   b   c   d   e
+5.4 6.2 7.1 4.8 7.5 
+\end{lstlisting}
+%
+scrivere un comando che ritorni i valori di \lsin{x} compresi tra 4 e 7.
+
+	\exnote{Suggerimenti}%
+	\begin{myitemize}
+		\item Dovete usare pi\'u operazioni logiche unite tra loro attraverso gli operatori che abbiamo appena visto.
+	\end{myitemize}
+
+\end{exercise}
+
+\noindent Adesso possiamo mettere tutto questo assieme andando a lavorare sui data frame (in modo pi\`u sistematico di quanto fatto nell'Esercizio~\ref{ex3.1}). Un data frame \`e un oggetto a due dimensioni a cui posso essere accedere utilizzando l'operatore \lsin{[]} con due indici: uno per le righe e uno per le colonne:
+
+\begin{lstlisting}[style=Rstyle]
+df[1:3, ]
+   country world_region income_group_2017
+1    Benin       africa        Low income
+2   Greece       europe       High income
+3 Tanzania       africa        Low income
+  happiness_score_2011 gov_health_spending_percent
+1                 38.7                         9.6
+2                 53.7                        12.1
+3                 40.7                        13.8
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+df[, 1:3]
+      country world_region income_group_2017
+1       Benin       africa        Low income
+2      Greece       europe       High income
+3    Tanzania       africa        Low income
+4     Estonia       europe       High income
+5      Russia       europe     Middle income
+6       Syria         asia     Middle income
+7      Zambia       africa     Middle income
+8     Vietnam         asia     Middle income
+9     Liberia       africa        Low income
+10 Mozambique       africa        Low income
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+df[1:3, 1:3]
+   country world_region income_group_2017
+1    Benin       africa        Low income
+2   Greece       europe       High income
+3 Tanzania       africa        Low income
+\end{lstlisting}
+%
+e con tutti i meccanismi che abbiamo visto per i vettori:
+
+\begin{lstlisting}[style=Rstyle]
+df[df$country == "Greece", ]
+  country world_region income_group_2017
+2  Greece       europe       High income
+  happiness_score_2011 gov_health_spending_percent
+2                 53.7                        12.1
+
+df[df$country %in% c("Greece", "Mozambique"), ]
+      country world_region income_group_2017
+2      Greece       europe       High income
+10 Mozambique       africa        Low income
+   happiness_score_2011 gov_health_spending_percent
+2                  53.7                        12.1
+10                 49.7                        12.2
+
+df[df$happiness_score_2011 > 50 & !is.na(df$happiness_score_2011), ]
+  country world_region income_group_2017
+2  Greece       europe       High income
+4 Estonia       europe       High income
+5  Russia       europe     Middle income
+8 Vietnam         asia     Middle income
+  happiness_score_2011 gov_health_spending_percent
+2                 53.7                       12.10
+4                 54.9                       11.70
+5                 53.9                        8.04
+8                 57.7                        7.79
+
+
+df[df$happiness_score_2011 > 50 & !is.na(df$happiness_score_2011), 1:3]
+  country world_region income_group_2017
+2  Greece       europe       High income
+4 Estonia       europe       High income
+5  Russia       europe     Middle income
+8 Vietnam         asia     Middle income
+\end{lstlisting}
+
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex3.6}
+
+\noindent Scrivi i comandi da utilizzare per:
+
+\begin{myenumerate}
+	\item estrarre tutti i valori per paesi europei
+	\item estrarre tutti i valori per i paesi non nel gruppo "Middle income"
+	\item estrarre tutti i valori nella prima, seconda e ultima colonna
+	\item estrarre tutti i valori tranne quelli dell'ultima colonna
+	\item estrarre la prima, quarta, e quinta colonna per tutti i paesi africani
+\end{myenumerate}
+
+\end{exercise}
+
+
+\vspace{0.5cm}
+
+\begin{tcolorbox}[width=1\linewidth, halign=left, colframe=blue!60, colback=white, boxsep=1mm, arc=3mm]
+
+\textbf{Punti principali}
+
+\begin{myitemize}
+    \item Usare \lsin{read.csv} per leggere dati tabulari 
+    \item I tipi di dati in R sono \lsin{numeric} (o \lsin{double}), \lsin{integer, complex, logical} e \lsin{character}
+	\item Usare \lsin{str(), class()} e \lsin{typeof()} per capire il tipo di dato di una variabile 
+	\item Usare \lsin{c()} per creare o aggiungere elementi a un vettore
+	\item Usare \lsin{data.frame()} per creare un data frame
+	\item Usare \lsin{list()} per creare una lista
+    \item Usare \lsin{cbind()} per aggiungere colonne a un data frame 
+    \item Usare \lsin{rbind()} per aggiungere righe a un data frame 
+    \item Accedere a un sottoinsieme dei dati in un vettore o data frame utilizzando \lsin{[]}, anche in combinazione con \lsin{start:end} e \lsin{c(...)}
+\end{myitemize}
+
+\end{tcolorbox}

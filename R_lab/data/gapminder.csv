@@ -37,8 +37,8 @@ Chile,americas,High income,65.3,16.3
 China,asia,Middle income,50.4,12.1
 Colombia,americas,Middle income,64.6,20.1
 Comoros,africa,Low income,38.4,13.1
-Congo, Dem. Rep.,africa,Low income,45.2,9.11
-Congo, Rep.,africa,Middle income,45.1,5.29
+Congo Dem. Rep.,africa,Low income,45.2,9.11
+Congo Rep.,africa,Middle income,45.1,5.29
 Costa Rica,americas,Middle income,72.3,29
 Cote d'Ivoire,africa,Middle income,NA,5.06
 Croatia,europe,Middle income,53.9,17.7
@@ -72,7 +72,7 @@ Guinea-Bissau,africa,Low income,NA,4.14
 Guyana,americas,Middle income,NA,14.9
 Haiti,americas,Low income,48.5,4.51
 Honduras,americas,Middle income,49.6,NA
-Hong Kong, China,asia,High income,54.7,NA
+Hong Kong China,asia,High income,54.7,NA
 Hungary,europe,High income,49.2,10.3
 Iceland,europe,High income,NA,14.7
 India,asia,Middle income,46.4,3.56
@@ -108,7 +108,7 @@ Marshall Islands,asia,Middle income,NA,17
 Mauritania,africa,Middle income,47.9,7.3
 Mauritius,africa,Middle income,54.8,9.82
 Mexico,americas,Middle income,69.1,NA
-Micronesia, Fed. Sts.,asia,Middle income,NA,20
+Micronesia Fed. Sts.,asia,Middle income,NA,20
 Moldova,europe,Middle income,57.9,13.1
 Monaco,europe,High income,NA,18.8
 Mongolia,asia,Middle income,50.3,8.04

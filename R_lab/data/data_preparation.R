@@ -14,7 +14,11 @@ df <- merge(hap_score, health_ex, by="country", all=T)
 df <- merge(geo, df, by.x="name", by.y="country", all=F)
 colnames(df) <- c("country", "world_region", "income_group_2017", "happiness_score_2011", "gov_health_spending_percent")
 
-write.table(df, file="gapminer.csv", sep=",", quote=F, col.names=TRUE, row.names=FALSE)
+#there are countries with commas
+df$country <- sapply(df$country, gsub, pattern=",", replacement="")
+
+write.table(df, file="gapminder.csv", sep=",", quote=FALSE, col.names=TRUE, row.names=FALSE)
+
 
 set.seed(123)
 tmp <- na.omit(df)
@@ -24,7 +28,10 @@ set.seed(123)
 tmp2 <- df[df$income_group_2017 == "Low income", ]
 tmp2 <- tmp2[sample(1:nrow(tmp2), 2), ]
 
-write.table(rbind(tmp, tmp2), file="gapminer_small.csv", sep=",", quote=F, col.names=TRUE, row.names=FALSE)
+write.table(rbind(tmp, tmp2), file="gapminder_small.csv", sep=",", quote=F, col.names=TRUE, row.names=FALSE)
+
+
+
 
 # How happy is the world
 # histogram happiness

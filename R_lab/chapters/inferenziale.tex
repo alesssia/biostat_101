@@ -1,0 +1,566 @@
+\chapter{La statistica inferenziale}
+\label{cap:inferenziale}
+
+\section*{Obiettivi di apprendimento}
+
+
+\begin{multicols}{2}
+\begin{tcolorbox}[width=1\linewidth, halign=left, colframe=blue!60, colback=white, boxsep=1mm, arc=3mm]
+
+Domande
+
+\begin{myitemize}
+	\item Quali funzioni R offre per rappresentare una distribuzione Normale?
+	\item Come posso calcolare un intervallo di confidenza?
+	\item Come posso eseguire un test di ipotesi per la differenza di medie o di proporzioni?
+\end{myitemize}
+
+\end{tcolorbox} 
+\columnbreak
+\begin{tcolorbox}[width=1\linewidth, halign=left, colframe=blue!60, colback=white, boxsep=1mm, arc=3mm]
+
+Obiettivi
+
+\begin{myitemize}
+	\item Saper calcolare la probabilit\`a di un'osservazione sapendo che si distribuisce secondo una Normale
+	\item Saper calcolare un intervallo di confidenza
+	\item Saper eseguire test di ipotesi per la differenza di medie e proporzioni
+\end{myitemize}
+
+\end{tcolorbox} 
+\columnbreak
+\end{multicols}
+
+
+\section{La distribuzione Normale}
+
+R offre una famiglia di funzioni per simulare e gestire una distribuzione Normale, di cui vedremo solo due:
+
+\begin{myitemize}
+	\item \lsin{pnorm(q, mean = 0, sd = 1, lower.tail = TRUE)}:  calcola l’area relativa (ricordiamo che l’area totale \`e sempre uguale a 1) sotto la curva dal valore dato di \lsin{q} fino a meno infinito (se \lsin{lower.tail = TRUE}) o pi\`u infinito (se \lsin{lower.tail = FALSE})
+	\item \lsin{qnorm(p, mean = 0, sd = 1, lower.tail = TRUE)}: \`e l'inversa (opposta) di \lsin{pnorm} e ci ritorna il valore per cui l'area relativa  calcolata da meno infinito (se \lsin{lower.tail = TRUE}) o da pi\`u infinito (se \lsin{lower.tail = FALSE}) vale \lsin{p}.
+\end{myitemize}
+%
+e che quindi possono essere usate come classiche tavole delle distribuzioni\footnote{Come quelle che abbiamo visto a lezione.}. 
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex5.1}
+
+\noindent Che tipo di distribuzione Normale \`e quella assunta come default dalle funzioni che abbiamo appena elencato? \\
+
+\noindent Che valori restituiscono i seguenti comandi?
+
+\begin{lstlisting}[style=Rstyle]
+pnorm(0, mean = 0, sd = 1, lower.tail = TRUE)
+pnorm(0, mean = 0, sd = 1, lower.tail = FALSE)
+
+pnorm(1.96, mean=0, sd = 1, lower.tail = TRUE)
+pnorm(1.96, mean=0, sd = 1, lower.tail = FALSE)
+
+pnorm(-1.96, mean=0, sd = 1, lower.tail = TRUE)
+
+qnorm(0.5, lower.tail = TRUE)
+qnorm(0.025, lower.tail = FALSE)
+\end{lstlisting}
+
+\end{exercise}
+
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex5.2}
+
+\noindent Il peso alla nascita dei gemelli inglesi si distribuisce secondo una distribuisce Normale con media $2404 \text{ g}$ e deviazione standard $580 \text{ g}$. 
+
+\begin{myitemize}
+	\item Qual \`e la probabilit\`a che un gemello pesi meno di $1500 \text{ g}$?
+	\item Qual \`e la proporzione di gemelli che pesano meno di $1500 \text{ g}$?
+\end{myitemize}
+
+\end{exercise}
+
+\section{Intervalli di confidenza}
+\label{sec:CI}
+
+Per calcolare l'intervallo di confidenza (CI), dobbiamo ricordare che la sua formula \`e:
+
+$$
+\text{CI} = stima \pm \text{valore critico} \times \text{standard error}.
+$$
+
+\noindent dove la quantit\`a $\text{valore critico} \times \text{standard error}$ \`e il margine di errore.
+
+
+\noindent Andiamo quindi a calcolare il 95\% CI per una media, sapendo che $\text{SE} = \frac{\sigma}{\sqrt{n}}$.
+%
+Supponiamo che in un campione di 760 uomini inglesi riporti di avere avuto in media $\bar{x} = 11.4$ partner eterosessuali, con una deviazione standard di $11.2$. Il primo passo \`e calcolare lo standard error:
+
+
+\begin{lstlisting}[style=Rstylescript]
+n <- 760
+x <- 11.4
+sd <- 11.2
+
+se <- sd/sqrt(n)
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+se
+[1] 0.4062667
+\end{lstlisting}
+%
+che useremo poi per calcolarci il margine di errore. Prima di calcolare il margine di errore, ci serve per\`o sapere qual \`e il valore critico, ovvero lo $z$-score che corrisponde a un'area del $100-95=5\%$, ovvero a un'area di $0.05/2$ per ciascuna coda:
+
+\begin{lstlisting}[style=Rstylescript]
+v <- qnorm(0.025, lower.tail = FALSE)
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+v
+[1] 1.959964
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstylescript]
+me <- v * se
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+me
+[1] 0.7962681
+\end{lstlisting}
+%
+ora possiamo quindi calcolare il margine superiore e inferiore del nostro CI:
+
+\begin{lstlisting}[style=Rstylescript]
+lCI <- x - me
+uCI <- x + me
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+lCI
+[1] 10.60373
+uCI
+[1] 12.19627
+\end{lstlisting}
+%
+andiamo ad arrotondarli:
+
+\begin{lstlisting}[style=Rstylescript]
+lCI <- round(lCI, 1)
+uCI <- round(uCI, 1)
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+lCI
+[1] 10.6
+uCI
+[1] 12.2
+\end{lstlisting}
+%
+Il 95\% CI \`e quindi compreso tra \lsin{10.6} e \lsin{12.2}.
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex5.3}
+
+\noindent Calcolare il 90\% e il 99\% CI per l'esempio precedente.\\
+
+\noindent Quale CI \`e pi\`u largo? Cosa vuol dire?
+
+\end{exercise}
+
+
+\section{La distribuzione $t$ di Student}
+
+R offre due funzioni \lsin{pt()} e \lsin{qt()} per le distribuzioni $t$ di Student che sono analoghe \lsin{pnorm()} e \lsin{qnorm()}, dove l'unico parametro da specificare sono i gradi di libert\`a (o \emph{degree of freedom}, \lsin{df}):
+
+\noindent Supponiamo di avere un piccolo campione di 15 uomini inglesi che riporti di avere avuto in media $\bar{x} = 11.4$ partner eterosessuali, con una deviazione standard di $11.2$. Il primo passo \`e calcolare lo standard error, che si calcola come in precedenza:
+
+
+\begin{lstlisting}[style=Rstylescript]
+n <- 15
+x <- 11.4
+sd <- 11.2
+
+se <- sd/sqrt(n)
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+se
+[1] 2.891828
+\end{lstlisting}
+%
+quello che cambia \`e il valore critico, ovvero il $t$-score che corrisponde a un'area del $100-95=5\%$, ovvero a un'area di $0.05/2$ per ciascuna coda, in una distribuzione $t$ con $n-1$ gradi di libert\`a:
+
+\begin{lstlisting}[style=Rstylescript]
+v <- qt(0.025, df=n-1, lower.tail = FALSE)
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+v
+[1] 2.144787
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstylescript]
+me <- v * se
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+me
+[1] 6.202353
+\end{lstlisting}
+%
+ora possiamo quindi calcolare il margine superiore e inferiore del nostro CI:
+
+\begin{lstlisting}[style=Rstylescript]
+lCI <- round(x - me, 1)
+uCI <- round(x + me, 1)
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+lCI
+[1] 5.2
+uCI
+[1] 17.6
+\end{lstlisting}
+%
+Per verificare che per campioni grandi il $t$-score converga allo $z$-score andiamo a calcolarlo per \lsin{n=760}, la numerosit\`a campionaria dell'esempio precedente e andiamo a confrontarlo con il corrispondente $z$-score:
+
+
+\begin{lstlisting}[style=Rstyle]
+z <- qnorm(0.025, lower.tail = FALSE)
+t <- qt(0.025, df=760-1, lower.tail = FALSE)
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+z
+[1] 1.959964
+t
+[1] 1.963094
+
+abs(z-t)
+[1] 0.003130427
+\end{lstlisting}
+
+
+\section{$t$-test}
+
+Per testare la differenza tra le medie di due distribuzioni\footnote{Stiamo quindi parlando di due variabili continue} si pu\`o usare la funzione \lsin{t.test)}. Essa rappresenta una buona approssimazione dello $z$-test per campioni grandi (come abbiamo appena visto) ed \`e robusta nel caso di campioni piccoli.
+
+\noindent Andiamo quindi a formulare la nostra domanda di ricerca: 
+
+\vspace{0.2cm}
+
+\centerline{\emph{Ci sono differenze in happiness score tra low e high income groups?}} 
+
+\vspace{0.2cm}
+
+\noindent a cui corrisponde la seguente ipotesi nulla: 
+
+\vspace{0.2cm}
+
+\noindent $\mathcal{H}_0$: Non ci sono differenze in happiness score tra low e high income groups.
+
+\vspace{0.2cm}
+
+\noindent Andiamo quindi a estrarre solo i valori relativi a questi due income groups:
+
+\begin{lstlisting}[style=Rstylescript]
+gapminder_low_high <- gapminder[gapminder$income_group_2017 != "Middle income", ]
+\end{lstlisting}
+%
+e andiamo a calcolare il $t$-test per un test a due code\footnote{\lsin{t.test()} ci permette di calcolare il test a una coda usando \lsin{less} o \lsin{greater} per l'opzione \lsin{alternative}}. La funzione \lsin{t.test()} pu\`o prendere come input sia due vettori, che rappresentano le distribuzioni empiriche delle variabili da testare, sia una formula (vedi box). 
+
+
+\begin{mybox}{Formule}
+
+In R, una formula \`e definita come $y ~ x + z$, dove $y$ \`e una variabile dipendente che dipende, appunto, da una o pi\`u variabili indipendenti, $x$ e $z$ nel nostro esempio. \`E un oggetto ricorrente, specialmente quando dobbiamo definire dei modelli. 
+
+\end{mybox}
+
+
+\noindent Usiamo la versione che richiede una formula:
+
+\begin{lstlisting}[style=Rstylescript]
+r <- t.test(happiness_score_2011 ~ income_group_2017, data=gapminder_low_high, alternative = "two.sided")
+\end{lstlisting}
+%
+Se ne visualizziamo l'output possiamo avere molte informazioni:
+
+\begin{lstlisting}[style=Rstyle]
+r 
+
+	Welch Two Sample t-test
+
+data:  happiness_score_2011 by income_group_2017
+t = -13.777, df = 60.869, p-value < 2.2e-16
+alternative hypothesis: true difference in means between group Low income and group High income is not equal to 0
+95 percent confidence interval:
+ -25.75036 -19.22270
+sample estimates:
+ mean in group Low income mean in group High income 
+                 42.16957                  64.65610 
+				 
+class(r)	
+[1] "htest"
+
+attributes(r)
+$names
+ [1] "statistic"   "parameter"   "p.value"     "conf.int"   
+ [5] "estimate"    "null.value"  "stderr"      "alternative"
+ [9] "method"      "data.name"  
+
+$class
+[1] "htest"
+
+r$p.value
+[1] 2.276535e-20
+
+r$stderr
+[1] 1.632151		 
+\end{lstlisting}
+%
+Quindi possiamo rifiutare l'ipotesi nulla con una soglia critica $\alpha = 0.05$, e concludere che esista una differenza in happiness score tra low e high income groups.
+
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex5.4}
+
+\noindent Rispondere alla seguente domanda di ricerca: 
+
+\centerline{Ci sono differenze in happiness score tra Europa e le Americhe?}
+
+\end{exercise}
+
+\section{Mann-Whitney test}
+
+\noindent Supponiamo ora di aver formulato la seguente domanda di ricerca: 
+
+\vspace{0.2cm}
+
+\centerline{\emph{Ci sono differenze in spesa sanitaria tra Asia e Africa?}}
+
+\vspace{0.2cm}
+
+\noindent a cui corrisponde la seguente ipotesi nulla:
+
+\vspace{0.2cm}
+
+\noindent $\mathcal{H}_0$: Non ci sono differenze in spesa sanitaria tra Asia e Africa
+
+\vspace{0.2cm}
+
+\noindent Supponiamo anche di non volere/potere fare nessuna assunzione sulle Normalit\`a delle distribuzioni di queste variabili. Quello che possiamo usare \`e il Mann-Whitney test che può essere utilizzato in tutti quei casi in cui non \`e possibile e/o consigliabile effettuare un confronto tra medie\footnote{\`E un test non parametrico.}. Attenzione che questo test si esegue, in R, con la funzione \lsin{wilcox.test()}, che abbiamo visto essere il test che si usa per il confronto in campioni appaiati\footnote{\`E un altro test non parametrico.}. R usa la stessa funzione per il Mann-Whitney e il Wilcoxon test e li distingue grazie a un parametro, \lsin{paired}, che \`e a \lsin{FALSE} per il primo test e a \lsin{TRUE} per il secondo quando si passa in input due vettori. Quando si passa in input una formula, R assume che si voglia effettuare il Mann-Whitney test\footnote{Come la funzione \lsin{t.test()}, anche \lsin{wilcox.test()} accetta due tipi di output.}.
+
+\noindent Andiamo di nuovo a estrarre solo i valori relativi a questi due continenti:
+
+\begin{lstlisting}[style=Rstylescript]
+gapminder_africa_asia <- gapminder[gapminder$world_region %in% c("asia", "africa"), ]
+\end{lstlisting}
+%
+e andiamo a calcolare il test a due code\footnote{\lsin{wilcox.test()} ci permette di calcolare il test a una coda usando \lsin{less} o \lsin{greater} per l'opzione \lsin{alternative}}, Andiamo anche a richiedere il calcolo dell'intervallo di confidenza\footnote{Il comportamento di default \`e di non calcolarlo} e lo andiamo a fissare al 95\%:
+
+\begin{lstlisting}[style=Rstylescript]
+rw <- wilcox.test(gov_health_spending_percent ~ world_region, data=gapminder_africa_asia, alternative = "two.sided", conf.int=TRUE, conf.level=0.95)
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+rw 
+
+	Wilcoxon rank sum test with continuity
+	correction
+
+data:  gov_health_spending_percent by world_region
+W = 1376, p-value = 0.8682
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -1.640034  1.830045
+sample estimates:
+difference in location 
+             0.1599579 
+\end{lstlisting}
+%
+Quindi non possiamo rifiutare l'ipotesi nulla con una soglia critica $\alpha = 0.05$, e concludere che esista una differenza in spesa sanitaria tra Asia e Africa.
+
+
+
+\section{$\chi^2$ test}
+
+Andiamo ora ad applicare il processo di \textbf{discretizzazione} alla nostra variabile continua happiness score per ottenere due gruppi di (circa) uguale dimensione, uno dei quali rappresenter\`a il gruppo con uno score di felicit\`a alta e uno quello di felicit\`a bassa. 
+
+\noindent Quale statistica divide esattamente a met\`a i miei dati?
+
+\begin{lstlisting}[style=Rstylescript]
+gapminder$happiness_group <- ifelse(gapminder$happiness_score_2011 < median_happiness, "low", "high")
+
+#Calcoliamnone la frequenza assoluta
+happiness_group <- table(gapminder$happiness_group)
+\end{lstlisting}
+
+
+\begin{lstlisting}[style=Rstyle]
+happiness_group
+
+high  low 
+  70   69
+\end{lstlisting}
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex5.5}
+
+\noindent Discretizzare lo spending governativo in due gruppi di (circa) uguale dimensione, uno dei quali rappresenter\`a il gruppo di paesi che spendono molto in sanit\`a e uno quello che spendono poco 
+
+\end{exercise}
+
+\noindent Supponiamo ora di aver formulato la seguente domanda di ricerca: 
+
+\vspace{0.2cm}
+
+\centerline{\emph{Ci sono differenze tra paesi che hanno una spesa sanitaria}}
+\centerline{\emph{alta o bassa a e avere una felicit\`a alta o bassa?}}
+
+\vspace{0.2cm}
+
+\noindent a cui corrisponde la seguente ipotesi nulla:
+
+\vspace{0.2cm}
+
+\noindent $\mathcal{H}_0$: Non ci sono differenze tra paesi che hanno una spesa sanitaria alta o bassa e avere una felicit\`a alta o bassa
+
+\vspace{0.2cm}
+
+\noindent Quello che vogliamo fare \`e andare a testare se ci sono differenze nelle proporzioni di queste due variabili categoriche\footnote{Sono diventate categoriche grazie al processo di discretizzazione che abbiamo appena applicato.}. Andiamo quindi ad applicare il $\chi^2$ test, iniziando con il crearci la tabella di contingenza delle due variabili:
+
+\begin{lstlisting}[style=Rstylescript]
+tab_spending_happiness <- table(gapminder$happiness_group, gapminder$spending_group)
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+tab_spending_happiness 
+       
+        low  high
+  low    43    23
+  high   25    41
+
+prop.table(tab_spending_happiness )
+       
+              low      high
+  low   0.3257576 0.1742424
+  high  0.1893939 0.3106061
+\end{lstlisting}
+%
+e andiamo a calcolare il $\chi^2$:
+
+\begin{lstlisting}[style=Rstylescript]
+rp <- chisq.test(tab_spending_happiness)
+\end{lstlisting}
+%
+di nuovo, se ne visualizziamo l'output possiamo avere molte informazioni:
+
+\begin{lstlisting}[style=Rstyle]
+rp
+
+Pearson's Chi-squared test with Yates' continuity correction
+
+data:  tab_spending_happiness
+X-squared = 8.7656, df = 1, p-value = 0.00307	 
+\end{lstlisting}
+%
+Quindi possiamo rifiutare l'ipotesi nulla con una soglia critica $\alpha = 0.05$, e concludere che ci sono differenze tra paesi che hanno una spesa sanitaria alta o bassa e avere una felicit\`a alta o bassa.
+
+
+\section{Fisher's exact test}
+
+
+\noindent Supponiamo ora di aver formulato la seguente domanda di ricerca: 
+
+\vspace{0.2cm}
+
+\centerline{\emph{Ci sono differenze tra income groups e avere una felicit\`a alta o bassa?}}
+
+\vspace{0.2cm}
+
+\noindent a cui corrisponde la seguente ipotesi nulla:
+
+\vspace{0.2cm}
+
+\noindent $\mathcal{H}_0$: Non ci sono differenze tra income groups e avere una felicit\`a alta o bassa
+
+\vspace{0.2cm}
+
+\noindent Andiamo quindi a crearci la tabella di contingenza delle due variabili in oggetto:
+
+\begin{lstlisting}[style=Rstylescript]
+tab_income_happiness <- table(gapminder$income_group_2017, gapminder$happiness_group)
+\end{lstlisting}
+
+\begin{lstlisting}[style=Rstyle]
+tab_income_happiness 
+       
+                low  high
+  Low income     23     0
+  Middle income  42    33
+  High income     4    37
+\end{lstlisting}
+%
+Notiamo che ci sono due caselle con frequenze assolute $< 5$, il $\chi^2$ ci \`e quindi precluso e dobbiamo usare invece il Fisher's test:
+
+\begin{lstlisting}[style=Rstylescript]
+rf <- fisher.test(tab_income_happiness)
+\end{lstlisting}
+%
+
+\begin{lstlisting}[style=Rstyle]
+rf
+
+	Fisher's Exact Test for Count Data
+
+data:  tab_income_happiness
+p-value = 6.014e-14
+alternative hypothesis: two.sided				 
+\end{lstlisting}
+%
+Quindi possiamo rifiutare l'ipotesi nulla con una soglia critica $\alpha = 0.05$ e concludere che ci sono differenze tra income groups e avere una felicit\`a alta o bassa.
+
+
+\vspace{0.5cm} 
+
+\begin{exercise}\label{ex5.6}
+
+\noindent Rispondere alla seguente domanda di ricerca: 
+
+\centerline{\emph{Ci sono differenze tra world regions e avere una felicit\`a alta o bassa?}}
+
+	\exnote{Suggerimenti}%
+	\begin{myitemize}
+		\item Visualizzate la tabella di contingenza per decidere quale sia il test da usare.
+	\end{myitemize}
+
+\end{exercise}
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\begin{tcolorbox}[width=1\linewidth, halign=left, colframe=blue!60, colback=white, boxsep=1mm, arc=3mm]
+
+\textbf{Punti principali}
+
+\begin{myitemize}
+    \item Usare \lsin{pnorm()} per calcolare l'area relativa sottesa a una curva Normale e \lsin{qnorm()} per fare l'operazione inversa
+    \item Usare \lsin{pt()} per calcolare l'area relativa sottesa a una curva $t$ di Student e \lsin{qt()} per fare l'operazione inversa
+	\item Usare \lsin{t.test} per eseguire un test di ipotesi per la differenza di medie (test parametrico)
+	\item Usare \lsin{wilcox.test()} per eseguire un test di ipotesi casi in cui non \`e possibile/consigliabile effettuare un confronto tra medie (test non-parametrico)
+    \item Usare \lsin{chisq.test} e \lsin{fisher.test} per eseguire un test di ipotesi per la differenza di proporzioni 
+\end{myitemize}
+
+\end{tcolorbox}
+
