@@ -16,7 +16,9 @@ style: |
 ### Lezione 4
 
 # La statistica descrittiva
+
 ## (Parte I: Le variabili categoriche)
+
 ## &nbsp;
 
 ---
@@ -113,7 +115,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 
 <!-- Perche' il modo in cui andiamo prima a presentare e poi ad analizzare una variabile dipende dal suop tipo.
 
-Numeriche media/SD, categoriche N/% -->
+Numeriche media/SD, categoriche N/% --> 
 
 ---
 ## Variabili categoriche
@@ -193,8 +195,11 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 </center>
 
 
-<!-- Le frequenze relative: facilitano la percezione del peso delle modalità -->
 
+</div>
+</div>
+
+<!-- Le frequenze relative: facilitano la percezione del peso delle modalità -->
 
 ---
 ## Tabelle di contingenza
@@ -234,7 +239,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | ----- | ---- | ----|
 | Maschi |  |  |  |
 | Femmine |  |  |  |
@@ -244,7 +249,12 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 </div>
 
-<!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili. -->
+
+<!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili. 
+
+La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoterapia "focalizzata sul problema" e "orientata all'azione". Essa si concentra sul cambiamento delle distorsioni cognitive (come pensieri, convinzioni e atteggiamenti) e sui comportamenti ad esse associati, per migliorare la regolazione emotiva[1][2] e sviluppare adeguate strategie di coping. 
+-->
+
 
 ---
 ### Esercizio #3
@@ -259,7 +269,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
 | Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%) |
@@ -269,6 +279,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 <div>
 
+
 <!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
 
 LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna dei totali, Le donne sono il doppio degli uomini. No, non sono uguali
@@ -277,25 +288,26 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 ---
 ### Esercizio #4
 
-<div style="font-size: 90%">
+<div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (20 dei quali  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (40 dei quali interessati 
+:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (30 dei quali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (20 dei quali interessati 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
-</div>
-
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; |  |  |  |
-| No |  |  |  |
+| Interessato |  |  |  |
+| Sveglio |  |  |  |
 | Totale |  |  |  |
 
 </center>
+
+</div>
+
 
 ---
 ### Esercizio #5
@@ -307,18 +319,20 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di sonnolenti/svegli nei due gruppi di chi &egrave; 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  interessato o meno nella materia?
 
-
-</div>
+<br/>
 
 <center>
 
-| Interessato/Sonnolento | S&igrave;&nbsp;&nbsp;&nbsp; | No&nbsp;&nbsp;&nbsp; | Totale |
+| Interessato/Sonnolento | S&igrave; | No | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
-| No | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
-| Totale | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
+| S&igrave; |  |  |  |
+| No |  |  |  |
+| Totale |  |  |  |
 
 </center>
+
+</div>
+
 
 ---
 ### Esercizio #6
@@ -330,17 +344,20 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di interessati o meno alla materia nei due gruppi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  di sonnolenti/svegli?
 
-</div>
+<br/>
 
 <center>
 
-| Interessato/Sonnolento | S&igrave;&nbsp;&nbsp;&nbsp; | No&nbsp;&nbsp;&nbsp; | Totale |
+| Interessato/Sonnolento | S&igrave; | No | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
-| No | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
-| Totale | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
+| S&igrave; |  |  |  |
+| No |  |  |  |
+| Totale |  |  |  |
 
 </center>
+
+</div>
+
 
 ---
 ## Discretizzazione
@@ -589,6 +606,52 @@ Visconti, A., *et al.*. *The genetics and epidemiology of N-and O-immunoglobulin
 </div>
 </div>
 
+
+
+---
+## Cosa ci dice questo grafico?
+
+- Da 1 a 10, quanto eri felice ieri?
+
+<center>
+<img src="./img/visualization/wellbeing_cropped.png" img height="400px" border="4px"/>
+</center>
+
+<!-- To demonstrate, let’s take a look at the 16 to 19 and 20 to 24 age groups. It’s natural for people to compare lengths so looking at these two bars you might think that 16 to 19 year olds were almost twice as happy as 20 to 14 year olds, when actually they’re pretty similar – only a difference of 0.27. -->
+
+---
+
+## Cosa ci dice questo grafico?
+
+- Da 1 a 10, quanto eri felice ieri?
+
+<center>
+<img src="./img/visualization/wellbeing_from_zero.png" img height="400px" border="4px"/>
+</center>
+
+<!-- 
+16 to 19 year olds were almost twice as happy as 20 to 14 year olds, when actually they’re pretty similar – only a difference of 0.27.
+
+Ciascuna Modalit`a viene rappresentata da una barra, la cui dimensione `e proporzionale alla sua frequenza, assoluta o relativa. 
+
+Perch ́e le dimensioni delle barre siano esattamente proporzionali, `e necessario che l’asse delle ordinate inizi dallo zero e non da un punto arbitrario (a questo riguardo vedi anche: Statisticulation).
+
+Non e' necessariamente fatto per ingannare, ma i grafici pensavano di migliorare la visualizzazione
+
+Wow, that’s a lot of orange. Any patterns in the data just seem to be dominated the fact that there are lots of bars. So what can we do to focus more on the pattern in the data? 
+
+ -->
+---
+## Cosa ci dice questo grafico?
+
+- Da 1 a 10, quanto eri felice ieri?
+
+<center>
+<img src="./img/visualization/wellbeing_dots.png" img height="400px" border="4px"/>
+</center>
+
+<!-- ne way of managing this would be to move away from using bars entirely, for example, using the position of a dot to mark each data point. The length aspect no longer exists and the reader is forced to look at the position of the data point relative to the x-axis in order to make a comparison between categories. -->
+
 ---
 ## Lollipop chart
 
@@ -621,49 +684,6 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 
 </div>
 </div>
-
----
-## Cosa ci dice questo grafico?
-
-- Da 1 a 10, quanto eri felice ieri?
-
-<center>
-<img src="./img/visualization/wellbeing_cropped.png" img height="400px" border="4px"/>
-</center>
-
-<!-- To demonstrate, let’s take a look at the 16 to 19 and 20 to 24 age groups. It’s natural for people to compare lengths so looking at these two bars you might think that 16 to 19 year olds were almost twice as happy as 20 to 14 year olds, when actually they’re pretty similar – only a difference of 0.27. -->
-
----
-## Cosa ci dice questo grafico?
-
-- Da 1 a 10, quanto eri felice ieri?
-
-<center>
-<img src="./img/visualization/wellbeing_from_zero.png" img height="400px" border="4px"/>
-</center>
-
-<!-- 
-16 to 19 year olds were almost twice as happy as 20 to 14 year olds, when actually they’re pretty similar – only a difference of 0.27.
-
-Ciascuna Modalit`a viene rappresentata da una barra, la cui dimensione `e proporzionale alla sua frequenza, assoluta o relativa. 
-
-Perch ́e le dimensioni delle barre siano esattamente proporzionali, `e necessario che l’asse delle ordinate inizi dallo zero e non da un punto arbitrario (a questo riguardo vedi anche: Statisticulation).
-
-Non e' necessariamente fatto per ingannare, ma i grafici pensavano di migliorare la visualizzazione
-
-Wow, that’s a lot of orange. Any patterns in the data just seem to be dominated the fact that there are lots of bars. So what can we do to focus more on the pattern in the data? 
-
- -->
----
-## Cosa ci dice questo grafico?
-
-- Da 1 a 10, quanto eri felice ieri?
-
-<center>
-<img src="./img/visualization/wellbeing_dots.png" img height="400px" border="4px"/>
-</center>
-
-<!-- ne way of managing this would be to move away from using bars entirely, for example, using the position of a dot to mark each data point. The length aspect no longer exists and the reader is forced to look at the position of the data point relative to the x-axis in order to make a comparison between categories. -->
 
 ---
 ## Pie chart
@@ -823,6 +843,7 @@ In Figure 1.4 the ‘cancer’ icons are randomly scattered among the 100. While
 
 - frequenza relativa
 
+
 </div>
 
 <span style="display:block; height:200px;"></span>
@@ -843,6 +864,19 @@ In Figure 1.4 the ‘cancer’ icons are randomly scattered among the 100. While
 </div>
 </div>
 
+<!-- Mosaic plots provide an ideal method both for visualizing contingency tables.
+
+Sono la proporzione sul totale.  
+
+round(prop.table(freq_a)*100, 0)
+
+      Females Males
+  M0        1     1
+  M1a       7     9
+  M1b       7    12
+  M1c      10    26
+  M1d      10    16
+ -->
 
 ---
 ### Cosa abbiamo imparato in questa lezione?

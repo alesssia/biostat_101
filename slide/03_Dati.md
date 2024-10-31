@@ -378,6 +378,28 @@ Dati privati (non esiste solo il lavoro): sposate, numero figli, caring duty
 -->
 
 ---
+## Quali dati sono stati raccolti ?
+
+<br/>
+
+<center>
+<img src="./img/data/study_questions.png" img height="300px" border="4px"/>
+</center>
+
+<div style="font-size: 80%">
+
+[Table 1](https://www.thelancet.com/action/showFullTableHTML?isHtml=true&tableId=tbl0001&pii=S2589-5370%2820%2930168-1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+[Table 2](https://www.thelancet.com/action/showFullTableHTML?isHtml=true&tableId=tbl0002&pii=S2589-5370%2820%2930168-1)
+
+</div>
+
+<div style="font-size: 50%" align="right">
+
+Hu, Deying, *et al.* *"Frontline nurses’ burnout, anxiety, depression, and fear statuses and their associated factors  <br/> during the COVID-19 outbreak in Wuhan, China: A large-scale cross-sectional study."* EClinicalMedicine, 2020, <br/> doi:10.1016/j.eclinm.2020.100424
+
+</div>
+
+---
 ## Raccogliamo dei dati?
 
 - Quali dati raccogliere?
@@ -741,7 +763,7 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile categorica ordinale?
+:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile qualitativa ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
@@ -846,7 +868,7 @@ updateButton_exercise_2();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile categorica ordinale?
+:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile qualitativa ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso
  
@@ -866,7 +888,7 @@ updateButton_exercise_2();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile categorica ordinale?
+:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile qualitativa ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 </div>
@@ -885,7 +907,7 @@ updateButton_exercise_2();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile categorica ordinale?
+:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile qualitativa ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; 
  
@@ -1224,28 +1246,6 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 
 </div>
-</div>
-
----
-## Ma quali dati sono stati raccolti ?
-
-<br/>
-
-<center>
-<img src="./img/data/study_questions.png" img height="300px" border="4px"/>
-</center>
-
-<div style="font-size: 90%">
-
-[Table 1](https://www.thelancet.com/action/showFullTableHTML?isHtml=true&tableId=tbl0001&pii=S2589-5370%2820%2930168-1)
-[Table 2](https://www.thelancet.com/action/showFullTableHTML?isHtml=true&tableId=tbl0002&pii=S2589-5370%2820%2930168-1)
-
-</div>
-
-<div style="font-size: 50%" align="right">
-
-Hu, Deying, *et al.* *"Frontline nurses’ burnout, anxiety, depression, and fear statuses and their associated factors  <br/> during the COVID-19 outbreak in Wuhan, China: A large-scale cross-sectional study."* EClinicalMedicine, 2020, <br/> doi:10.1016/j.eclinm.2020.100424
-
 </div>
 
 ---

@@ -360,7 +360,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | ----- | ---- | ----|
 | Maschi |  |  |  |
 | Femmine |  |  |  |
@@ -455,7 +455,10 @@ updateButton_exercize_2();
 -->
 </script>
 
-<!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili. -->
+<!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili. 
+
+La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoterapia "focalizzata sul problema" e "orientata all'azione". Essa si concentra sul cambiamento delle distorsioni cognitive (come pensieri, convinzioni e atteggiamenti) e sui comportamenti ad esse associati, per migliorare la regolazione emotiva[1][2] e sviluppare adeguate strategie di coping. 
+-->
 
 ---
 ### Esercizio #2 -- Soluzione
@@ -473,7 +476,7 @@ updateButton_exercize_2();
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  |  |  |
 | Femmine | 72 |  65 |  |
@@ -499,7 +502,7 @@ updateButton_exercize_2();
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 |  29 |  |
 | Femmine | 72 |  65 |  |
@@ -525,7 +528,7 @@ updateButton_exercize_2();
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 |  29 | 64 |
 | Femmine | 72 |  65 | 137 |
@@ -559,7 +562,7 @@ Abbiamo completato la nostra Tabella di Contingenza (con frequenze assolute)
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 (35/107) |  29 (29/94) | 64  (64/201)|
 | Femmine | 72 (72/107) |  65 (65/94) | 137 (64/201) |
@@ -576,7 +579,9 @@ Opzione 1: andiamo a dividere "per colonne", ovvero a calcolare la </br> percent
 </div>
 
 
-<!-- Le frequenze relative le potete fare in entrambe le direzioni, o di riga o di colonna, a seconda del messaggio che volete trasmettere.
+<!-- Indentifico i gruppi e poi lavoro al loro interno
+
+Le frequenze relative le potete fare in entrambe le direzioni, o di riga o di colonna, a seconda del messaggio che volete trasmettere.
 
 Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fatto io, dividendo per il totale di colonna) o la frequenza dei due trattamenti per ciascun sesso (se aveste diviso per il totale di riga). Qualcuno ha diviso per riga?
 
@@ -598,7 +603,7 @@ Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fa
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
 | Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%) |
@@ -634,7 +639,7 @@ Opzione 1: andiamo a dividere "per colonne", ovvero a calcolare la </br> percent
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 (35/64) |  29 (29/64) | 64  |
 | Femmine | 72 (72/137) |  65 (65/137) | 137 |
@@ -645,8 +650,8 @@ Opzione 1: andiamo a dividere "per colonne", ovvero a calcolare la </br> percent
 </div>
 
 <div style="font-size: 72%" align="right">
- 
-Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </br>di maschi (o femmine) assegnate a ciascun braccio dell'esperimento 
+
+Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </br> di persone soggette alla terapia o meno per ciascun sesso
 
 </div>
 
@@ -673,7 +678,7 @@ Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fa
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 (54.7%) |  29 (45.3%) | 64  |
 | Femmine | 72 (52.6%) |  65 (47.4%) | 137 |
@@ -687,7 +692,7 @@ Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fa
 
 <div style="font-size: 72%" align="right">
  
-Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </br>di maschi (o femmine) assegnate a ciascun braccio dell'esperimento 
+Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </br> di persone soggette alla terapia o meno per ciascun sesso
 
 </div>
 
@@ -707,7 +712,7 @@ Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </b
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
 | Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%) |
@@ -741,7 +746,7 @@ Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </b
 <script>
 <!--
 const countdown_exercize_3= document.getElementById("countdown_exercize_3");
-const seconds_exercize_3= 240; // seconds_exercize_3
+const seconds_exercize_3= 120; // seconds_exercize_3
 let timeLeft_exercize_3= seconds_exercize_3;
 let timerInterval_exercize_3= null;
 
@@ -820,7 +825,7 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
 | Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%1) |
@@ -851,7 +856,7 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE DELLA SECONDA Nel due bracci dell'esperimento
 
 <center>
 
-| Sesso/N | CBT | Standard | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
 | Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%1) |
@@ -872,18 +877,18 @@ Nel due bracci dell'esperimento, quindi vado a confrontare le due colonne, la pr
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (20 dei quali  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (40 dei quali interessati 
+:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (30 dei quali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (20 dei quali interessati 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; |  |  |  |
-| No |  |  |  |
+| Interessato |  |  |  |
+| Non interessato |  |  |  |
 | Totale |  |  |  |
 
 </center>
@@ -981,18 +986,18 @@ updateButton_exercise_4();
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (20 dei quali  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (40 dei quali interessati 
+:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (30 dei quali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (20 dei quali interessati 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute 
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; | 20 | 40 |  |
-| No |  |  |  |
+| Interessato | 30 | 20 |  |
+| Non interessato |  |  |  |
 | Totale | 40 | 60 | 100 |
 
 </center>
@@ -1004,18 +1009,18 @@ updateButton_exercise_4();
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (20 dei quali  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (40 dei quali interessati 
+:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (30 dei quali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (20 dei quali interessati 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; | 20 | 40 |  |
-| No | 20 | 20 |  |
+| Interessato | 30 | 20 |  |
+| Non interessato | 10 | 40 |  |
 | Totale | 40 | 60 | 100 |
 
 </center>
@@ -1027,18 +1032,18 @@ updateButton_exercise_4();
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (20 dei quali  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (40 dei quali interessati 
+:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (30 dei quali  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (20 dei quali interessati 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute 
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; | 20 | 40 | 60 |
-| No | 20 | 20 | 40 |
+| Interessato | 30 | 20 | 50 |
+| Non interessato | 10 | 40 | 50 |
 | Totale | 40 | 60 | 100 |
 
 </center>
@@ -1059,10 +1064,10 @@ updateButton_exercise_4();
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; | 20 | 40 | 60 |
-| No | 20 | 20 | 40 |
+| Interessato | 30 | 20 | 50 |
+| Non interessato | 10 | 40 | 50 |
 | Totale | 40 | 60 | 100 |
 
 </center>
@@ -1169,10 +1174,10 @@ updateButton_exercise_5();
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; | 20 (20/60) | 40 (40/60) | 60 |
-| No | 20 (20/40) | 20 (20/40) | 40 |
+| Interessato| 30 (30/50) | 20 (20/50) | 50 |
+| Non interessato | 10 (10/50) | 40 (40/50) | 50 |
 | Totale | 40 | 60 | 100 |
 
 </center>
@@ -1193,10 +1198,10 @@ updateButton_exercise_5();
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; | 20 (33.3%) | 40 (66.7%) | 60 |
-| No | 20 (50%) | 20 (50%) | 40 |
+| Interessato | 30 (60%) | 20 (40%) | 50 |
+| Non interessato | 10 (20%) | 40 (80%) | 50 |
 | Totale | 40 | 60 | 100 |
 
 </center>
@@ -1217,10 +1222,10 @@ updateButton_exercise_5();
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; | 20 | 40 | 60 |
-| No | 20 | 20 | 40 |
+| Interessato | 30 | 20 | 50 |
+| Non interessato | 10 | 40 | 50 |
 | Totale | 40 | 60 | 100 |
 
 </center>
@@ -1327,10 +1332,10 @@ updateButton_exercise_6();
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; | 20 (20/40) | 40 (40/60) | 60 |
-| No | 20 (20/40) | 20 (20/60) | 40 |
+| Interessato | 30 (30/40) | 20 (20/60) | 50 |
+| Non interessato | 10 (10/40) | 40 (40/60) | 50 |
 | Totale | 40 | 60 | 100 |
 
 </center>
@@ -1351,10 +1356,10 @@ updateButton_exercise_6();
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; | 20 (50%) | 40 (66.7%) | 60 |
-| No | 20 (50%) | 20 (33.3%) | 40 |
+| Interessato | 30 (75%) | 20 (33.3%) | 50 |
+| Non interessato | 10 (25%) | 40 (66.7%) | 50 |
 | Totale | 40 | 60 | 100 |
 
 </center>
@@ -1608,38 +1613,7 @@ Visconti, A., *et al.*. *The genetics and epidemiology of N-and O-immunoglobulin
 </div>
 </div>
 
----
-## Lollipop chart
 
-<div class="columns">
-<div>
-
-<span style="display:block; height:40px;"></span>
-
-<div style="font-size: 90%">
-
-- frequenza assoluta
-- frequenza relativa
-
-</div>
-
-<span style="display:block; height:160px;"></span>
-
-<div style="font-size: 50%">
- 
-Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/visualization/MStage_lollipop_horizontal.png" img height="500px" border="4px"/>
-</center>
-
-</div>
-</div>
 
 ---
 ## Cosa ci dice questo grafico?
@@ -1684,6 +1658,39 @@ Wow, that’s a lot of orange. Any patterns in the data just seem to be dominate
 </center>
 
 <!-- ne way of managing this would be to move away from using bars entirely, for example, using the position of a dot to mark each data point. The length aspect no longer exists and the reader is forced to look at the position of the data point relative to the x-axis in order to make a comparison between categories. -->
+
+---
+## Lollipop chart
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 90%">
+
+- frequenza assoluta
+- frequenza relativa
+
+</div>
+
+<span style="display:block; height:160px;"></span>
+
+<div style="font-size: 50%">
+ 
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/visualization/MStage_lollipop_horizontal.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
 
 ---
 ## Pie chart
