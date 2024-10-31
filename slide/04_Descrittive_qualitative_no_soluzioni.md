@@ -323,10 +323,10 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; |  |  |  |
-| No |  |  |  |
+| Interessato |  |  |  |
+| Sveglio |  |  |  |
 | Totale |  |  |  |
 
 </center>
@@ -348,10 +348,10 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 
 <center>
 
-| Interessato/Sonnolento | S&igrave; | No | Totale |
+|  | Sonnolento | Sveglio | Totale |
 | ----: | ----- | ---- | ----|
-| S&igrave; |  |  |  |
-| No |  |  |  |
+| Interessato |  |  |  |
+| Sveglio |  |  |  |
 | Totale |  |  |  |
 
 </center>
