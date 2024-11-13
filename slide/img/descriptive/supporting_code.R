@@ -12,8 +12,32 @@ library(ggrepel)
 font.size <- 22
 graphic.settings <- theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) +  theme(legend.title = element_blank()) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size))
 
-### Sexual partner in Britain  
 setwd("/Users/visconti/Documents/Teaching/biostat_101/slide/img/descriptive/")
+
+
+
+#altezza
+set.seed(42)
+df <- read.csv(file = "/Users/visconti/Documents/Resources/twinsUK/BMI_130720.csv")
+df <- na.omit(df)
+df <- df[sample(1:nrow(df), 1000), ]
+
+df <- df[df$Height < 200, ]
+
+avg <- mean(df$Height)
+sdev <- sd(df$Height)
+
+p <- ggplot(df, aes(x=Height, y=10)) + geom_point(position = "jitter") + ylim(c(9.4,10.6))
+p <- p + geom_segment(aes(x = avg, y = 10.5, xend = avg, yend = 9.5), size=2, colour="darkgreen") + geom_segment(aes(x = avg-3, y = 9.5, xend = 140, yend = 9.5), arrow = arrow(length = unit(0.5, "cm")), size=2, colour="darkmagenta") + geom_segment(aes(x = avg+3, y = 9.5, xend = 190, yend = 9.5), arrow = arrow(length = unit(0.5, "cm")), size=2, colour="darkmagenta") 
+p <- p + graphic.settings + theme(legend.position="none", legend.title = element_blank()) + theme(axis.text.y=element_blank())+ylab("") + scale_y_discrete(breaks=NULL)
+
+png("descriptive.png", width=500, height=250)
+print(p)
+dev.off()
+
+
+
+### Sexual partner in Britain  
 partner.counts <-read.csv("02-4-sexual-partners-counts-x.csv", header=TRUE) # reads data into data frame
 
 attach(partner.counts)

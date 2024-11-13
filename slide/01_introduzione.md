@@ -746,7 +746,17 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 Stabilire una legge universale partendo da singoli casi particolari
 
-<!-- Quello che abbiamo fatto e' stato in taking particular instances and trying to work out general conclusions.
+<!-- 
+
+Deduttivo: tutti gli uomini sono mortali, Pinco Pallo e' un uomo, Pinco Pallo e' mortale.
+Induttivo: vedo che diversi uomini muoiono, tutti gli uomini sono mortali,
+
+Dedittivo: per imparare una lingua prima imparo la grammatica, poi il vocabolario, poi la sintassi e poi parlo
+Induttivo: ascolto gli altri parlare e mi arrangio
+Insieme: in realta' nella vita usiamo insieme sia induttivo che deduttivom per esempio impariamo delle regole a scuola e dei modi di dire nel paese
+
+
+Quello che abbiamo fatto e' stato in taking particular instances and trying to work out general conclusions.
 
 we don’t know the customs in a community about kissing female friends on the cheek, and we have to try to work it out by observing whether people kiss once, twice, three times, or not at all.
 
