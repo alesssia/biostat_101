@@ -117,7 +117,7 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 | Media |  14.3 | 8.5 | 
 | SD | 24.2 | 19.7  | 
 | Mediana |  8 | 5  | 
-| IQR | 4-18 (14) | 3-10 (7) |
+| IQR | 4-18  | 3-10  |
 
 </center>
 
@@ -157,7 +157,7 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 | Media |  11.4 | 
 | SD | 11.2 |  
 | Mediana |  7 |
-| IQR | 4-16 (12) |
+| IQR | 4-16  |
 
 </center>
 

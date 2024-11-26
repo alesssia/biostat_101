@@ -112,8 +112,7 @@ colnames(tmp) <- c("Females", "Males")
 
 
 png("mosaic_plot.png")
-print(mosaicplot(tmp, color = c("darkmagenta", "darkgreen"), xlab ="Metastatic stage", ylab = "Sex", main="")
-)
+print(mosaicplot(tmp, color = c("darkmagenta", "darkgreen"), xlab ="Metastatic stage", ylab = "Sex", main=""))
 dev.off()
 
 

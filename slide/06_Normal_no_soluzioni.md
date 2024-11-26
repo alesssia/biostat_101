@@ -46,6 +46,27 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 </div>
 
 ---
+## Parametri *vs*&nbsp; statistiche
+
+<span style="display:block; height:20px;"></span>
+
+
+<center>
+
+| Statistica | Popolazione| Campione |
+| ----: | :-----: | :----: | 
+| Numerosit&agrave; | $N$ | $n$ |
+| Media | $\mu$ | $\bar{x}$ |
+| Deviazione Standard | $\sigma$ | $s$ |
+| Proporzione | $\pi$ | $p$ |
+
+
+</center>
+
+
+<!-- We see that the measures used to summarize data sets in Chapter 2 can be applied as descriptions of a population too – the difference is that terms such as mean and standard deviation are known as statistics when describing a set of data, and parameters when describing a population. -->
+
+---
 ## La distribuzione della popolazione
 
 <div class="columns">
@@ -166,25 +187,43 @@ It is an impressive achievement to be able to summarize over a million births by
  -->
 
 ---
-## Parametri *vs*&nbsp; statistiche
+## La distribuzione Normale
 
-<span style="display:block; height:20px;"></span>
+<div class="columns">
+<div>
 
+<span style="display:block; height:40px;"></span>
+
+- Area sottesa alla curva $= 1$
+- proporzione $\equiv$ probabilit&agrave;
+
+<span style="display:block; height:140px;"></span>
+
+<div style="font-size: 80%" align="right">
+
+$\text{``very low birth weight"} < 1500 \text{ g}$
+$\text{Gemelli ``very low birth weight"} = 6\%$
+$\mathcal{P}(\text{``ßvery low birth weight"}) = 0.06$
+
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:30px;"></span>
 
 <center>
-
-| Statistica | Popolazione| Campione |
-| ----: | :-----: | :----: | 
-| Numerosit&agrave; | $N$ | $n$ |
-| Media | $\mu$ | $\bar{x}$ |
-| Deviazione Standard | $\sigma$ | $s$ |
-| Proporzione | $\pi$ | $p$ |
-
-
+<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px"/>
 </center>
 
+</div>
 
-<!-- We see that the measures used to summarize data sets in Chapter 2 can be applied as descriptions of a population too – the difference is that terms such as mean and standard deviation are known as statistics when describing a set of data, and parameters when describing a population. -->
+<!-- il fatto che l'area e' 1 dipende dal fatto che la normale sia una distribuzione di probabilita'
+
+For medical rather than statistical reasons, babies below 1,500 g ‘very low birth weight’. Figure 3.2(d) shows that we would expect 6% of babies in this group to be very low birth weight – in fact the actual number is ~74K (0.7%), in close agreement with the prediction from the normal curve. 
+
+ -->
 
 ---
 ### Esercizio #1
@@ -250,44 +289,7 @@ It is an impressive achievement to be able to summarize over a million births by
 </div>
 </div>
 
----
-## La distribuzione Normale
 
-<div class="columns">
-<div>
-
-<span style="display:block; height:40px;"></span>
-
-- Area sottesa alla curva $= 1$
-- proporzione $\equiv$ probabilit&agrave;
-
-<span style="display:block; height:140px;"></span>
-
-<div style="font-size: 80%" align="right">
-
-$\text{``very low birth weight"} < 1500 \text{ g}$
-$\text{Gemelli ``very low birth weight"} = 6\%$
-$\mathcal{P}(\text{``ßvery low birth weight"}) = 0.06$
-
-
-</div>
-
-</div>
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-<center>
-<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px"/>
-</center>
-
-</div>
-
-<!-- il fatto che l'area e' 1 dipende dal fatto che la normale sia una distribuzione di probabilita'
-
-For medical rather than statistical reasons, babies below 1,500 g ‘very low birth weight’. Figure 3.2(d) shows that we would expect 6% of babies in this group to be very low birth weight – in fact the actual number is ~74K (0.7%), in close agreement with the prediction from the normal curve. 
-
- -->
 
 ---
 ## La distribuzione Normale
@@ -349,7 +351,7 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza $>170 \text{ cm}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Le altezze inusuali
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) I "range" di altezze considerabili come "inusuali" o "estremi"
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza pi&ugrave; comune
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) L'italiano pi&ugrave; alto di sempre
 
@@ -380,7 +382,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <div style="font-size: 70%">
 
 :question: &nbsp;&nbsp;&nbsp; Indicativamente, in quale range di et&agrave; &egrave; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compreso il $70\%$ dei pazienti nel gruppo  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compreso il $68\%$ dei pazienti nel gruppo  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di intervento?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $3-17$ anni
