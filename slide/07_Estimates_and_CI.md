@@ -1858,7 +1858,6 @@ updateButton_exercise_9();
 
 <!-- Comprereste questa crema? Fortunatamente costa poco <10 euro per 15ml (Q10 POWER CONTORNO OCCHI RASSODANTE ) -->
 
-
 ---
 ## E se il campione &egrave; piccolo?
 
@@ -1913,80 +1912,12 @@ Meno appuntita al centro e code pi&ugrave; alte
 - Uso la $\mathcal{t}$ di Student
   - considera i gradi di libert&agrave; $(\mathcal{df})$
   - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
-  - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
+  <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$ -->
 
-</div>
+  <br/>
 
-</div>
-<div>
-
-<span style="display:block; height:5px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/tdist.png" img height="450px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!-- una famiglia di distribuzioni, 1 per ogni valore campionario n-1
-
- infatti la t-dist tiene conto dei valori campionari n-1, detti anche Gradi di liberta', che misurano la quantità di informazione disponibile nei dati che può essere usata per stimare sigma (affidabilità della stima s)
-
-All’aumentare di n (e dei GdL) la stima di sigma attraverso s è sempre più affidabile: con n grande la distribuzione t si avvicina alla distribuzione normale
- -->
-
----
-## $\mathcal{t}$ di Student per campioni piccoli
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 85%" >
-
-- Non posso approssimare a una normale
-- Uso la $\mathcal{t}$ di Student
-  - considera i gradi di libert&agrave; $(\mathcal{df})$
-  - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
-  - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/tdist_table.png" img height="550px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!-- Il procedimento per la costruzione dei CI e' lo stesso, quello che cambia e' la tavola da dove andiamo ad estrare il coefficiente di attendibilita' (t) 
-
-Attenzione sempre al fatto che la distribuzione di t è diversa per ciascuno dei gl: usare le tavole corrette!!! -->
-
----
-## $\mathcal{t}$ di Student per campioni piccoli
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 85%" >
-
-- Non posso approssimare a una normale
-- Uso la $\mathcal{t}$ di Student
-  - considera i gradi di libert&agrave; $(\mathcal{df})$
-  - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
-  - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ 
 </div>
 
 </div>
@@ -2014,6 +1945,6 @@ Attenzione sempre al fatto che la distribuzione di t è diversa per ciascuno dei
 - Attraverso il bootstrapping si ricampiona il dataset originale con rimpiazzo, ottenendo distribuzioni che tendono alla normale
 - Il teorema del limite centrale ci dice che le distribuzioni campionarie tendono alla normale per campioni grandi, con formule per calcolare i CI
 - Un CI del 95% risulta da una procedura che nel 95% dei casi contiene il valore della popolazione
-- Per campioni piccoli, la distribuzione campionaria viene approssimata dalla distribuzione t di Student
+- Per campioni piccoli, la distribuzione campionaria viene approssimata dalla distribuzione $\mathcal{t}$ di Student
 
 </div>

@@ -27,6 +27,7 @@ style: |
 
 - Conoscere le caratteristiche della distribuzione Normale
 - Conoscere le caratteristiche della distribuzione Normale Standardizzata
+- Conoscere le caratteristiche della distribuzione $\mathcal{t}$ di Student
 
 </div>
 
@@ -679,16 +680,159 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
 
 ---
+## $\mathcal{t}$ di Student
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 85%" >
+
+- Non posso approssimare a una normale
+- Uso la $\mathcal{t}$ di Student
+  
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:5px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/tdist.png" img height="450px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- Quando la dimensione campionaria e' grande la nostra fiducia nell'approssimare sigma con la varianza campionaria e' ben riposta  e possiamo usare la normale per il calcolo dei CI, ma cosa succede quando i campioni soo piccoli? Usiamo la distribuzione  di Student
+
+- &egrave; una famiglia di distribuzioni, 1 per ogni valore campionario n-1
+
+Come la normale:
+- ha media 0
+- &egrave; simmetrica
+- ha varianza >1 che si avvicina a 1 al crescere di N
+
+
+Meno appuntita al centro e code pi&ugrave; alte
+ -->
+
+---
+## $\mathcal{t}$ di Student 
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 85%" >
+
+- Non posso approssimare a una normale
+- Uso la $\mathcal{t}$ di Student
+  - considera i gradi di libert&agrave; $(\mathcal{df})$
+  - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
+  <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$ -->
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:5px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/tdist.png" img height="450px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- una famiglia di distribuzioni, 1 per ogni valore campionario n-1
+
+ infatti la t-dist tiene conto dei valori campionari n-1, detti anche Gradi di liberta', che misurano la quantità di informazione disponibile nei dati che può essere usata per stimare sigma (affidabilità della stima s)
+
+All’aumentare di n (e dei GdL) la stima di sigma attraverso s è sempre più affidabile: con n grande la distribuzione t si avvicina alla distribuzione normale
+ -->
+
+---
+## $\mathcal{t}$ di Student 
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 85%" >
+
+- Non posso approssimare a una normale
+- Uso la $\mathcal{t}$ di Student
+  - considera i gradi di libert&agrave; $(\mathcal{df})$
+  - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
+  <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ -->
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/confidence_intervals/tdist_table.png" img height="550px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- Il procedimento per la costruzione dei CI e' lo stesso, quello che cambia e' la tavola da dove andiamo ad estrare il coefficiente di attendibilita' (t) 
+
+Attenzione sempre al fatto che la distribuzione di t è diversa per ciascuno dei gl: usare le tavole corrette!!! -->
+
+---
+## $\mathcal{t}$ di Student
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 85%" >
+
+- Non posso approssimare a una normale
+- Uso la $\mathcal{t}$ di Student
+  - considera i gradi di libert&agrave; $(\mathcal{df})$
+  - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
+  <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ -->
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/confidence_intervals/tdist_table_zoom.png" img height="550px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- Piccoli == <30 circa  -->
+
+---
 ### Cosa abbiamo imparato in questa lezione?
 
 <span style="display:block; height:0px;"></span>
 
 <div style="font-size: 90%">
 
-- La popolazione viene rappresentata con dei parametri equivalenti alle statistiche usate per i campioni
+- La popolazione viene rappresentata con dei parametri (equivalenti alle statistiche usate per i campioni)
 - Diversi fenomeni naturali sono normalmente distribuiti
 - La normale &egrave; definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilit&agrave;
-- La distribuzione (normale) di una popolazione ci fornisce la probabilit&agrave; di estrarre un individuo da quella popolazione ma anche la sua frequenza nella popolazione 
+- La distribuzione (normale) di una popolazione ci fornisce la probabilit&agrave; di estrarre un individuo da quella popolazione ma anche la sua frequenza 
 - Se i dati sono normalmente distribuiti, il 68% della popolazione si trova a 1 SD dalla media, il 95% a 2 SD e il 99.7% a 3 SD
+- Per campioni piccoli ($n < 30$), usiamo la distribuzione $\mathcal{t}$ di Student per ottenere una probabilit&agrave; 
 
 </div>

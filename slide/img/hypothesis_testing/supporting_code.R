@@ -119,7 +119,33 @@ p <-   ggplot(data = data.frame(x = c(-15, 15)), aes(x)) +
 	# geom_segment(aes(x = -10, y = 0, xend = 10, yend = 0), colour="magenta", lwd=2) +
 	theme_void()
 
-png("One-tailed_test.png")
+png("One-tailed_test_right.png")
+print(p)
+dev.off()
+
+
+p <-   ggplot(data = data.frame(x = c(-15, 15)), aes(x)) +
+    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="grey54", alpha=0.2, xlim = c(-10, 15)) +
+	stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="magenta", alpha=1, xlim = c(-15, -10)) + 
+	# stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="magenta", alpha=1, xlim = c(10, 15)) +
+    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), colour="black") + ylab("") +
+	geom_segment(aes(x = -10, y = -0.0025, xend = -10, yend = dnorm(-10, mean=0, sd=4)), colour="black") +
+	# geom_segment(aes(x = 10, y = -0.0025, xend = 10, yend = dnorm(10, mean=0, sd=4)), colour="black") +
+    scale_y_continuous(breaks = NULL) +
+	# annotate("text", x = -12, y = dnorm(-12, mean=0, sd=4)+0.005, label = "paste(mu[1] - mu[2], \"\")", parse = TRUE, size=7) +
+	# annotate("text", x = 12, y = dnorm(12, mean=0, sd=4)+0.005, label = "paste(mu[2] - mu[1], \"\")", parse = TRUE, size=7) +
+	geom_segment(aes(x = 12, y = dnorm(6, mean=0, sd=4)+0.01, xend = 7, yend = dnorm(12, mean=0, sd=4)+0.01), arrow = arrow(length = unit(0.2, "cm"))) +
+	geom_segment(aes(x = -12, y = dnorm(-12, mean=0, sd=4)+0.01, xend = -11, yend = 0.0025), arrow = arrow(length = unit(0.2, "cm"))) +
+	# annotate("text", x = 0, y = dnorm(12, mean=0, sd=4)+0.01, label = "paste(1- alpha, \"\")", parse = TRUE, size=7) +
+	# geom_segment(aes(x = 0, y = 0, xend = 0, yend = dnorm(0, mean=0, sd=4)), colour="grey60", linewidth=1, linetype="dotted") +
+	# geom_segment(aes(x = 0, y = -0.0025, xend = 0, yend = 0), colour="black") +
+	# annotate('text', x = 0, y = -0.005, label = "bar(x)", parse=T, size=5) +
+	annotate('text', x = -10, y = -0.005, label = "-z", parse=T, size=5) +
+	# annotate('text', x = 10, y = -0.005, label = "z", parse=T, size=5) +
+	# geom_segment(aes(x = -10, y = 0, xend = 10, yend = 0), colour="magenta", lwd=2) +
+	theme_void()
+
+png("One-tailed_test_left.png")
 print(p)
 dev.off()
 
