@@ -5,6 +5,12 @@
 \usepackage{fancyhdr}
 \usepackage[style=iso]{datetime2}
 
+
+\usepackage{pzccal} % \mathpzc (alternate mathcal): also lowercase.
+\DeclareFontFamily{OT1}{pzc}{}
+\DeclareFontShape{OT1}{pzc}{m}{it}{<-> s * [1.10] pzcmi7t}{}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
 \makenoidxglossaries
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -92,6 +98,27 @@
 	 name={Campione},
 	 description={\`e un sottoinsieme di una \gls{population} di elementi a cui siamo interessati in un determinato momento. Per tecniche di campionamento vedi: \gls{campionamento_opportunistico} e \gls{campionamento_casuale_semplice}. Vedi anche: \gls{sampling_bias}.},
 	 sort={campione}
+}
+
+\newglossaryentry{sample_size}
+{
+	 name={Dimensione campionaria},
+	 description={o numerosit\`a, \`e il numero di osservazioni che compongono un \gls{sample}.},
+	 sort={dimensione campionaria}
+}
+
+\newglossaryentry{independent_sample}
+{
+	 name={Campioni indipendenti},
+	 description={sono due o pi\`u \gls{sample} caratterizzati dal fatto che non vi sia alcuna relazione tra osservazioni appartenenti a campioni diversi. Vedi anche: \gls{paired_sample}.},
+	 sort={campioni indipendenti}
+}
+
+\newglossaryentry{paired_sample}
+{
+	 name={Campioni dipendenti},
+	 description={o appaiati, sono due o pi\`u \gls{sample} caratterizzati dal fatto che ciascuna osservazione di un campione abbia un corrispettivo (appaiato) begli altri. Nel caso si tratti dello stesso campione in due condizioni diverse (per esempio, prima o dopo un trattamento) o dopo un intervallo temporale (per esempio, gli stessi individui doo un certo numero di anni), si parla di auto-appaiamento. Le osservazioni possono anche essere in individui diversi, ma accoppiati per condizioni salienti (per esempio, et\`a, sesso, indice di massa corporea, stato socioeconomico, $\dots$, vedi \gls{case_control}). Vedi anche: \gls{independent_sample}.},
+	 sort={campioni dipendenti}
 }
 
 \newglossaryentry{population_distribution}
@@ -275,6 +302,14 @@
 	 sort={Waffle chart}
 }
 
+
+\newglossaryentry{mosaic_plot}
+{
+	 name={Mosaic plot},
+	 description={\`e la rappresentazione grafica della distribuzione congiunta di due \gls{categorical_variable} o di due variabili numeriche soggette ad un processo di \gls{discretizzazione}. E' formata da dei rettangoli la cui area \`e porporzionale al numero di osservazioni che presentano la combinazione di \gls{modalita} che il rettangolo rappresenta. Questa forma di visualizzazione \`e stata criticata, perch\'e \`e difficile, per un osservatore, tradurre aree in quantit\`a. Vedi anche: \gls{contingency_table}.},
+	 sort={mosaic plot}
+}
+
 % \newglossaryentry{population_mode}
 % {
 % 	 name={Moda (popolazione)},
@@ -348,8 +383,7 @@
 \newglossaryentry{correlation}
 {
 	 name={Correlazione},
-	 description={
-	 \`e una relazione tra due variabili  in cui a ciascun valore di una corrisponda un valore dell'altra. Osservare una correlazione non implica un nesso di \gls{causation} ma segnala la tendenza di una variabile a cambiare in funzione dell'altra (``correlazione non significa causazione"). Vedi anche: \gls{pcc}.},
+	 description={\`e una relazione tra due variabili  in cui a ciascun valore di una corrisponda un valore dell'altra. Osservare una correlazione non implica un nesso di \gls{causation} ma segnala la tendenza di una variabile a cambiare in funzione dell'altra (``correlazione non significa causazione"). Vedi anche: \gls{pcc}.},
 	 sort={correlazione}
 }
 
@@ -389,6 +423,13 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 	 sort={Pearson correlation coefficient}
 }
 
+\newglossaryentry{scatterplot}
+{
+	 name={Scatter plot},
+	 description={o grafico a dispersione, o grafico a nuvola di punti, \`e una rappresentazione grafica utilizzata per descrivere la presenza (o meno) una relazione lineare (o \gls{correlation}) tra due \gls{continuous_variable}. Le due variabili vengono rappresentate nei due assi cartesiani.},
+	 sort={scatter plot}
+}
+
 \newglossaryentry{outliers}
 {
 	 name={Valori estremi},
@@ -405,8 +446,15 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 \newglossaryentry{normal_distribution}
 {
 	 name={Distribuzione Normale},
-	 description={o distribuzione di Gauss, \`e una distribuzione di probabilit\`a che dipende da due parametri, la media $\mu$ e la varianza $\sigma ^{2}$, ed \`e indicata tradizionalmente con $\mathcal{N} (\mu, \sigma^2)$. La distribuzione Normale ha una \gls{distribution_shape} che \`e simmetrica (con \gls{sample_mode}, \gls{sample_median} e \gls{mean} che coincidono) e ha una forma a campana che segue la \gls{three_sigma_rule}. La normale standardizzata \`e definita da $\mu = 0 \text{ e } \sigma^2 = 1$. Vedi anche: \gls{standardisation}.},
+	 description={o distribuzione di Gauss, \`e una distribuzione di probabilit\`a che dipende da due parametri, la media $\mu$ e la varianza $\sigma ^{2}$, ed \`e indicata tradizionalmente con $\mathcal{N} (\mu, \sigma^2)$. La distribuzione Normale ha una \gls{distribution_shape} che \`e simmetrica (con \gls{sample_mode}, \gls{sample_median} e \gls{mean} che coincidono) e ha una forma a campana che segue la \gls{three_sigma_rule}. La \gls{normal_standard_distribution} \`e definita da $\mu = 0 \text{ e } \sigma^2 = 1$. Vedi anche: \gls{standardisation}.},
 	 sort={distribuzione Normale}
+}
+
+\newglossaryentry{normal_standard_distribution}
+{
+	 name={Distribuzione Normale Standartizzata},
+	 description={\`e La normale standardizzata \`e una \gls{normal_distribution} definita da $\mu = 0 \text{ e } \sigma^2 = 1$. Vedi anche: \gls{standardisation}.},
+	 sort={distribuzione Normale Standartizzata}
 }
 
 \newglossaryentry{statistic}
@@ -438,6 +486,20 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 }
 
 
+\newglossaryentry{t_distribution}
+{
+	 name={Distribuzione $\mathpzc{t}$ di Student},
+	 description={\`e una distribuzione di probabilit\`a che generaliza la \gls{normal_distribution}, e come questa ha una \gls{distribution_shape} che \`e simmetrica (con \gls{sample_mode}, \gls{sample_median} e \gls{mean} che coincidono) e ha una forma a campana. Ha media zero e varianza $> 1$, ma che tende a $1$ (e quindi alla \gls{normal_standard_distribution}) all'aumentare dei \gls{degree_of_freedom} (e quindi della \gls{sample_size}.},
+	 sort={distribuzione t di Student}
+}
+
+\newglossaryentry{degree_of_freedom}
+{
+	 name={Gradi di libert\`a},
+	 description={rappresenta il numero di osservazioni che sono libere di variare (e quindi indipendenti) quando si calcola una \gls{statistic}.},
+	 sort={radi di liberta}
+}
+
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bootstrapping & CI
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -452,14 +514,14 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 \newglossaryentry{CLT}
 {
 	 name={Teorema del limite centrale},
-	 description={ci dice che la \gls{sampling_distribution} tende a presentare una \gls{normal_distribution} $\mathcal{N}=(\mu, \frac{\sigma^2}{n})$, indipendentemente dalla forma della distribuzione empirica osservata nel \gls{sample} quando questo \`e sufficientemente grande ($\approx n > 30$). La statistica misurata viene considerata uno stimatore del \gls{parameters} $\mu$ della distribuzione campionaria, mentre la sua \gls{standard_deviation} $\frac{\sigma}{\sqrt{n}}$ \`e anche conosciuta come \gls{standard_error} della stima della statistica.},
+	 description={ci dice che la \gls{sampling_distribution} di numerose \gls{statistic} (per esempio, \gls{mean}, \gls{relative_frequency}, o proporzioni, e le loro differenze) tende a presentare una \gls{normal_distribution} $\mathcal{N}=(\mu, \frac{\sigma^2}{n})$, indipendentemente dalla forma della distribuzione empirica osservata nel \gls{sample} quando questo \`e sufficientemente grande ($\approx n > 30$). La statistica misurata viene considerata uno stimatore del \gls{parameters} $\mu$ della distribuzione campionaria, mentre la sua \gls{standard_deviation} $\frac{\sigma}{\sqrt{n}}$ \`e anche conosciuta come \gls{standard_error} della stima della statistica.},
 	 sort={teorema del limite centrale}
 }
 
 \newglossaryentry{confidence_interval}
 {
 	 name={Intervallo di confidenza},
-	 description={\`e un intervallo all'interno del quale un \gls{parameters} sconosciuto pu\`o trovarsi. Un intervallo di confidenza del 95\% per un parametro indica che c'\`e un 95\% di probabilit\`a che l'intervallo contenga il parametro, cio\`e che dati 100 campioni estratti dalla \gls{population}, 95 stimano un intervallo di confidenza al cui interno \`e compresa il parametro di popolazione. Viene calcolato a partire dall'\gls{standard_error} (o SE), e un intervallo di confidenza del 95\% corrisponde a circa $\pm \text{ } 2 \times \text{SE}$ dal \gls{parameters} stimato. Vedi anche \gls{margin_of_error}. },
+	 description={\`e un intervallo all'interno del quale un \gls{parameters} sconosciuto pu\`o trovarsi. Un intervallo di confidenza del 95\% per un parametro indica che c'\`e un 95\% di probabilit\`a che l'intervallo contenga il parametro, cio\`e che dati 100 campioni estratti dalla \gls{population}, 95 stimano un intervallo di confidenza al cui interno \`e compresa il parametro di popolazione. Viene calcolato a partire dall'\gls{standard_error} (o SE) e dal \gls{margin_of_error}. Un intervallo di confidenza del 95\% corrisponde a circa $\pm \text{ } 2 \times \text{SE}$ dal \gls{parameters} stimato.},
 	 sort={Intervallo di confidenza}
 }
 
@@ -473,7 +535,7 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 \newglossaryentry{margin_of_error}
 {
 	 name={Margine di errore},
-	 description={corrisponde solitamente a circa $\pm 2$ volte l'\gls{standard_error}. Vedi anche: \gls{confidence_interval}.},
+	 description={corrisponde a $\pm \mathpzc{z}$ volte l'\gls{standard_error}. Nel caso di un margine di errore al 95\%, $\mathpzc{z}$ corrisponde a circa $2$. Vedi anche: \gls{confidence_interval}.},
 	 sort={margine di errore}
 }
 
@@ -530,6 +592,69 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 	 name={Ipotesi nulla},
 	 description={\`e un'affermazione che sostiene l'assenza di qualsiasi differenza e/o associazione tra fenomeni. \`E complementare all'\gls{alternative_hypothesis} e solitamente viene assunta vera finché non si trova una evidenza che la confuti. Viene indicata con $\mathcal{H}_0$.},
 	 sort={ipotesi nulla}
+}
+
+\newglossaryentry{parametric_test}
+{
+	 name={Test statistico parametrico},
+	 description={viene usato quando si possono (o vogliono) fare delle assunzioni sulla \gls{sampling_distribution}. Per esempio, \gls{z_test} e \gls{t_test} assumono che la distribuzione campionaria sia, rispettivamente, una \gls{normal_distribution} o una \gls{t_distribution}. Il \gls{chisq_test}, invece, assume una Distribuzione del $\chi^2$. Vedi anche: \gls{nonparametric_test}.},
+	 sort={test parametrico}
+}
+
+\newglossaryentry{z_test}
+{
+	 name={$\mathpzc{z}$-test},
+	 description={\`e un \gls{parametric_test} che viene usato quando l'\gls{null_hypothesis} pu\`o essere approssimata da una \gls{normal_distribution} (vedi \gls{CLT}), e permette di comparare la differenza tra due statistiche (per esempio, \gls{mean} o \gls{relative_frequency}, o proporzioni). Nel caso di \gls{categorical_variable}, si pu\`o usare solo se queste assumono esattamente due \gls{modalita} (vedi altrimenti: \gls{chisq_test}). Lo $\mathpzc{z}$-test presuppone che si conosca la \gls{variance} nella \gls{population}, che spesso nella realt\`a \`e sconosciuta. In tal caso, viene usata la varianza del \gls{sample}, ricadendo nel \gls{t_test}.},
+	 sort={z test}
+}
+
+\newglossaryentry{t_test}
+{
+	 name={$\mathpzc{t}$-test},
+	 description={\`e un \gls{parametric_test} che viene usato quando l'\gls{null_hypothesis} pu\`o essere approssimata da una \gls{t_distribution}, e permette di comparare la differenza tra due statistiche (per esempio, \gls{mean} o \gls{relative_frequency}, o proporzioni). Nel caso di \gls{categorical_variable}, si pu\`o usare solo se queste assumono esattamente due \gls{modalita} (vedi altrimenti: \gls{chisq_test}). Nella pratica, viene usata quando non si conosce la \gls{variance} nella \gls{population}, impedendo cos\'i l'applicazione dello \gls{z_test}.},
+	 sort={t test}
+}
+
+\newglossaryentry{chisq_test}
+{
+	 name={$\chi^2$-test},
+	 description={\`e un \gls{parametric_test} che viene usato quando l'\gls{null_hypothesis} pu\`o essere approssimata da una Distribuzione del $\chi^2$, e permette di verificare se due \gls{categorical_variable} (che possono assumere due o pi\`u \gls{modalita}) influenzano la \gls{statistic} in modo indipendente (cio\`e, non \`e presente nessuna relazione tra le due variabili). Pu\`o essere usata quando la \gls{sample_size} \`e grande (vedi altrimenti: \gls{Fisher_test}).},
+	 sort={chi squared}
+}
+
+\newglossaryentry{nonparametric_test}
+{
+	 name={Test statistico non parametrico},
+	 description={viene usato quando non si possono (o vogliono) fare delle assunzioni sulla \gls{sampling_distribution}. Esempi sono il \gls{Mann_Whitney_test}, \gls{Wilcoxon_test}, \gls{Fisher_test} e il \gls{McNemar_test}. Vedi anche: \gls{parametric_test}.},
+	 sort={test non parametrico}
+}
+
+\newglossaryentry{Mann_Whitney_test}
+{
+	 name={Mann-Whitney's test},
+	 description={\`e un \gls{nonparametric_test} che viene usato per comparare la differenza di due \gls{sample_median} per due \gls{independent_sample}. Vedi anche: \gls{Wilcoxon_test}.},
+	 sort={Mann-Whitneys test}
+}
+
+\newglossaryentry{Wilcoxon_test}
+{
+	 name={Wilcoxon's test},
+	 description={\`e un \gls{nonparametric_test} che viene usato per comparare la differenza di due \gls{sample_median} per due \gls{paired_sample}. Vedi anche: \gls{Mann_Whitney_test}.},
+	 sort={Wilcoxons test}
+}
+
+\newglossaryentry{Fisher_test}
+{
+	 name={Fisher's test},
+	 description={\`e un \gls{nonparametric_test} che viene usato per verificare se due \gls{categorical_variable} (che possono assumere due o pi\`u \gls{modalita}) influenzano la \gls{statistic} in modo indipendente (cio\`e, non \`e presente nessuna relazione tra le due variabili). Viene usato quando una piccola \gls{sample_size} preclude l'uso del \gls{chisq_test}.},
+	 sort={Fishers test}
+}
+
+\newglossaryentry{McNemar_test}
+{
+	 name={McNemar's test},
+	 description={\`e un \gls{nonparametric_test} che viene usato per verificare, in \gls{paired_sample}, se le se le frequenze marginali di due \gls{categorical_variable} (che possono assumere esattamente due\gls{modalita}), per esempio prima o dopo di un trattamento, siano uguali.},
+	 sort={McNemar's test}
 }
 
 \newglossaryentry{P-value}
@@ -647,7 +772,7 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 \newglossaryentry{power}
 {
 	 name={Potenza di un test},
-	 description={\`e la probabilit\`a di rifiutare in modo corretto l'\gls{null_hypothesis}, quando questa \`e falsa. \`E complementare all'\gls{Type_II_error} e viene solitamente indicata con $1 - \beta$.},
+	 description={\`e la probabilit\`a di rifiutare in modo corretto l'\gls{null_hypothesis}, quando questa \`e falsa. \`E complementare all'\gls{Type_II_error} e viene solitamente indicata con $1 - \beta$. Viene influenzata \emph{i)} dal \gls{alpha} $\alpha$, \emph{ii)} dalla magnitudine dell'effetto (la differenza tra le \gls{mean} $\mu_1 - \mu_0$ o proporzioni, \gls{relative_frequency}, $\pi_1 - \pi_0$,), dall'errore standard delle \gls{sampling_distribution} e dalla \gls{sample_size}.},
 	 sort={potenza di un test}
 }
 
@@ -858,11 +983,18 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 
 
+
 \subsection*{Popolazione e Campione}
 
 \noindent \gls{population}
 
 \noindent \gls{sample}
+
+\noindent \gls{sample_size}
+
+\noindent \gls{independent_sample}
+
+\noindent \gls{paired_sample}
 
 \noindent \gls{campionamento_opportunistico}
 
@@ -905,6 +1037,10 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 \noindent \gls{outliers}
 
+
+
+
+
 \subsection*{Statistica descrittiva -- Dati categorici}
 
 \noindent \gls{modalita}
@@ -927,9 +1063,12 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 \noindent \gls{waffle_chart}
 
+\noindent \gls{mosaic_plot}
+
+
+
 
 \subsection*{Statistica descrittiva -- Dati numerici}
-
 
 \noindent \gls{sample_mode}
 
@@ -951,13 +1090,17 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 \noindent \gls{pcc}
 
+\noindent \gls{distribution_shape}
+
 \noindent \gls{istogramma}
 
 \noindent \gls{density_plot}
 
 \noindent \gls{boxplot}
 
-\noindent \gls{distribution_shape}
+\noindent \gls{scatterplot}
+
+
 
 
 
@@ -968,7 +1111,13 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 \noindent \gls{three_sigma_rule}
 
+\noindent \gls{normal_standard_distribution}
+
 \noindent \gls{standardisation}
+
+\noindent \gls{t_distribution}
+
+\noindent \gls{degree_of_freedom}
 
 
 
@@ -984,9 +1133,11 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 \noindent \gls{standard_error}
 
+\noindent \gls{margin_of_error}
+
 \noindent \gls{confidence_interval}
 
-\noindent \gls{margin_of_error}
+
 
 
 \subsection*{Statistica Inferenziale -- Test di ipotesi}
@@ -998,6 +1149,24 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 \noindent \gls{alternative_hypothesis}
 
 \noindent \gls{hypothesis_testing}
+
+\noindent \gls{parametric_test}
+
+\noindent \gls{z_test}
+
+\noindent \gls{t_test}
+
+\noindent \gls{chisq_test}
+
+\noindent \gls{nonparametric_test}
+
+\noindent \gls{Mann_Whitney_test}
+
+\noindent \gls{Wilcoxon_test}
+
+\noindent \gls{Fisher_test}
+
+\noindent \gls{McNemar_test}
 
 \noindent \gls{P-value}
 
