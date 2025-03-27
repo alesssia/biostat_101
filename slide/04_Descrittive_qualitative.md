@@ -1,9 +1,10 @@
 ---
-marp: true
 theme: gaia
 _class: lead
 paginate: false
-
+marp: true
+backgroundColor: #FAFAFA
+color: black
 
 style: |
   .columns {
@@ -13,12 +14,16 @@ style: |
   }
 
 ---
-### Lezione 4
 
+<style>
+section {
+ font-family:  'Atkinson Hyperlegible', 'Helvetica', 'Arial', sans-serif;
+}
+</style>
+
+<!-- ### Lezione 4 -->
 # La statistica descrittiva
-
 ## (Parte I: Le variabili categoriche)
-
 ## &nbsp;
 
 ---
@@ -52,7 +57,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 <div>
 
 :question: &nbsp;&nbsp;&nbsp; Di che tipo sono i dati
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in questa tabella?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in questa tabella?
 
 <span style="display:block; height:270px;"></span>
 
@@ -170,10 +175,10 @@ Frequenze assolute e relative forniscono le stesse informazioni sulla distribuzi
 <div class="columns">
 <div>
 
-<div style="font-size: 97%">
+<div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Quale sesso &egrave; predominante?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </div>
 
@@ -293,10 +298,10 @@ updateButton_exercize_1();
 <div class="columns">
 <div>
 
-<div style="font-size: 97%">
+<div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Quale sesso &egrave; predominante?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </div>
 
@@ -350,7 +355,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -466,7 +471,7 @@ La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoter
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -492,7 +497,7 @@ La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoter
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -518,7 +523,7 @@ La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoter
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -552,7 +557,7 @@ Abbiamo completato la nostra Tabella di Contingenza (con frequenze assolute)
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -593,7 +598,7 @@ Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fa
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -629,7 +634,7 @@ Opzione 1: andiamo a dividere "per colonne", ovvero a calcolare la </br> percent
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -668,7 +673,7 @@ Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fa
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -705,10 +710,10 @@ Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </b
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 :question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 <center>
 
@@ -818,10 +823,10 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 :question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;   &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;   &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 <center>
 
@@ -849,10 +854,10 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE DELLA SECONDA Nel due bracci dell'esperimento
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 :question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile? 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 <center>
 
@@ -875,25 +880,39 @@ Nel due bracci dell'esperimento, quindi vado a confrontare le due colonne, la pr
 ---
 ### Esercizio #4
 
-<div style="font-size: 85%">
+<div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (30 dei quali  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (20 dei quali interessati 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
+:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato |  |  |  |
-| Non interessato |  |  |  |
-| Totale |  |  |  |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina |   |    |    |
+| Chirurgia |   |    |  |
+| Altro |  |   |  |
+| Totale |  |   |  |
 
 </center>
 
 </div>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 50%" align="left">
+
+ Albano, L. *et al.*, *Alcohol consumption in a sample of Italian healthcare workers: A cross-sectional study*, Archives of Environmental & Occupational Health, 2020
+
+</div>
+
+
+</div>
+<div>
 
 <style>
   #countdown_exercise_4{
@@ -980,25 +999,32 @@ updateButton_exercise_4();
 -->
 </script>
 
+</div>
+</div>
+
+
+
+
 
 ---
 ### Esercizio #4 -- Soluzione
 
-<div style="font-size: 85%">
+<div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (30 dei quali  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (20 dei quali interessati 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
+:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato | 30 | 20 |  |
-| Non interessato |  |  |  |
-| Totale | 40 | 60 | 100 |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122  |    |  279  |
+| Chirurgia | 107  |    | 230 |
+| Altro | 51 |   | 130 |
+| Totale |  |   |  |
 
 </center>
 
@@ -1007,21 +1033,22 @@ updateButton_exercise_4();
 ---
 ### Esercizio #4 -- Soluzione
 
-<div style="font-size: 85%">
+<div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (30 dei quali  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (20 dei quali interessati 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
+:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato | 30 | 20 |  |
-| Non interessato | 10 | 40 |  |
-| Totale | 40 | 60 | 100 |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122  |  157  |  279  |
+| Chirurgia | 107  | 123   | 230 |
+| Altro | 51 | 79  | 130 |
+| Totale |  |   |  |
 
 </center>
 
@@ -1030,21 +1057,22 @@ updateButton_exercise_4();
 ---
 ### Esercizio #4 -- Soluzione
 
-<div style="font-size: 85%">
+<div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (30 dei quali  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (20 dei quali interessati 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
+:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato | 30 | 20 | 50 |
-| Non interessato | 10 | 40 | 50 |
-| Totale | 40 | 60 | 100 |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122  |  157  |  279  |
+| Chirurgia | 107  | 123   | 230 |
+| Altro | 51 |  79 | 130 |
+| Totale | 280 | 359  | 639 |
 
 </center>
 
@@ -1055,20 +1083,18 @@ updateButton_exercise_4();
 
 <div style="font-size: 90%">
 
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di sonnolenti/svegli nei due gruppi di chi &egrave; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  interessato o meno nella materia?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di astemi nei diversi reparti?
 
 <br/>
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato | 30 | 20 | 50 |
-| Non interessato | 10 | 40 | 50 |
-| Totale | 40 | 60 | 100 |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122  |  157  |  279  |
+| Chirurgia | 107  | 123   | 230 |
+| Altro | 51 |  79 | 130 |
+| Totale | 280 | 359  | 639 |
 
 </center>
 
@@ -1098,7 +1124,7 @@ updateButton_exercise_4();
 <script>
 <!--
 const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 120; // seconds_exercise_5
+const seconds_exercise_5= 300; // seconds_exercise_5
 let timeLeft_exercise_5= seconds_exercise_5;
 let timerInterval_exercise_5= null;
 
@@ -1165,20 +1191,18 @@ updateButton_exercise_5();
 
 <div style="font-size: 90%">
 
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di sonnolenti/svegli nei due gruppi di chi &egrave; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  interessato o meno nella materia?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di astemi nei diversi reparti?
 
 <br/>
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato| 30 (30/50) | 20 (20/50) | 50 |
-| Non interessato | 10 (10/50) | 40 (40/50) | 50 |
-| Totale | 40 | 60 | 100 |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122 (122/279)  |  157 (157/279)  |  279  |
+| Chirurgia | 107 (107/230)  | 123 (123/230)   | 230 |
+| Altro | 51 (51/130) |  79 (79/130) | 130 |
+| Totale | 280 | 359  | 639 |
 
 </center>
 
@@ -1189,20 +1213,18 @@ updateButton_exercise_5();
 
 <div style="font-size: 90%">
 
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di sonnolenti/svegli nei due gruppi di chi &egrave; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  interessato o meno nella materia?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di astemi nei diversi reparti?
 
 <br/>
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato | 30 (60%) | 20 (40%) | 50 |
-| Non interessato | 10 (20%) | 40 (80%) | 50 |
-| Totale | 40 | 60 | 100 |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122 (43.7%)  |  157 (56.3%)  |  279  |
+| Chirurgia | 107 (46.5%)  | 123 (53.5%)   | 230 |
+| Altro | 51 (39.2%) |  79 (60.7%) | 130 |
+| Totale | 280 | 359  | 639 |
 
 </center>
 
@@ -1213,20 +1235,21 @@ updateButton_exercise_5();
 
 <div style="font-size: 90%">
 
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di interessati o meno alla materia nei due gruppi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  di sonnolenti/svegli?
+:question: &nbsp;&nbsp;&nbsp; Con quale percentuale si distribuiscono gli astemi (o meno) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nei diversi reparti?
 
 <br/>
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato | 30 | 20 | 50 |
-| Non interessato | 10 | 40 | 50 |
-| Totale | 40 | 60 | 100 |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122  |  157  |  279  |
+| Chirurgia | 107  | 123   | 230 |
+| Altro | 51 |  79 | 130 |
+| Totale | 280 | 359  | 639 |
+
+</center>
 
 </center>
 
@@ -1256,7 +1279,7 @@ updateButton_exercise_5();
 <script>
 <!--
 const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 120; // seconds_exercise_6
+const seconds_exercise_6= 300; // seconds_exercise_6
 let timeLeft_exercise_6= seconds_exercise_6;
 let timerInterval_exercise_6= null;
 
@@ -1323,20 +1346,19 @@ updateButton_exercise_6();
 
 <div style="font-size: 90%">
 
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di interessati o meno alla materia nei due gruppi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  di sonnolenti/svegli?
+:question: &nbsp;&nbsp;&nbsp; Con quale percentuale si distribuiscono gli astemi (o meno) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nei diversi reparti?
 
 </br>
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato | 30 (30/40) | 20 (20/60) | 50 |
-| Non interessato | 10 (10/40) | 40 (40/60) | 50 |
-| Totale | 40 | 60 | 100 |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122 (122/280) |  157 (157/359)  |  279  |
+| Chirurgia | 107 (107/280) | 123 (123/359)  | 230 |
+| Altro | 51 (51/280) |  79  (79/ 359) | 130 |
+| Totale | 280 | 359  | 639 |
 
 </center>
 
@@ -1347,20 +1369,20 @@ updateButton_exercise_6();
 
 <div style="font-size: 90%">
 
-<span style="display:block; height:1px;"></span>
+:question: &nbsp;&nbsp;&nbsp; Con quale percentuale si distribuiscono gli astemi (o meno) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nei diversi reparti?
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di interessati o meno alla materia nei due gruppi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  di sonnolenti/svegli?
-
-<br/>
+</br>
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato | 30 (75%) | 20 (33.3%) | 50 |
-| Non interessato | 10 (25%) | 40 (66.7%) | 50 |
-| Totale | 40 | 60 | 100 |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122 (43.6%) |  157 (43.7%)  |  279  |
+| Chirurgia | 107 (38.2%) | 123 (34.3%)  | 230 |
+| Altro | 51 (18.2%) |  79  (22.0%) | 130 |
+| Totale | 280 | 359  | 639 |
+
 
 </center>
 
@@ -1581,41 +1603,6 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 variazione ulteriore: Circular bar chart, lollipop -->
 
 ---
-## Circular bar chart
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:40px;"></span>
-
-<div style="font-size: 90%">
-
-- frequenza assoluta
-- frequenza relativa
-
-</div>
-
-<span style="display:block; height:180px;"></span>
-
-<div style="font-size: 50%">
-
-Visconti, A., *et al.*. *The genetics and epidemiology of N-and O-immunoglobulin A glycomics.*, 2024, doi:10.1186/s13073-024-01369-6
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/visualization/circular_bar_plot.png" img height="500px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-
-
----
 ## Cosa ci dice questo grafico?
 
 - Da 1 a 10, quanto eri felice ieri?
@@ -1658,6 +1645,17 @@ Wow, that’s a lot of orange. Any patterns in the data just seem to be dominate
 </center>
 
 <!-- ne way of managing this would be to move away from using bars entirely, for example, using the position of a dot to mark each data point. The length aspect no longer exists and the reader is forced to look at the position of the data point relative to the x-axis in order to make a comparison between categories. -->
+
+
+---
+### L'asse y deve partire dallo zero, ma non cos&igrave;...
+
+<span style="display:block; height:40px;"></span>
+
+<center>
+<img src="./img/visualization/gemini_sleep.jpeg" img height="400px" border="4px"/>
+</center>
+
 
 ---
 ## Lollipop chart
