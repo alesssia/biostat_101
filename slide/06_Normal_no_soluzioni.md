@@ -1,9 +1,10 @@
 ---
-marp: true
 theme: gaia
 _class: lead
 paginate: false
-
+marp: true
+backgroundColor: #FAFAFA
+color: black
 
 style: |
   .columns {
@@ -11,10 +12,15 @@ style: |
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
-
 ---
 
-### Lezione 6
+<style>
+section {
+ font-family:  'Atkinson Hyperlegible', 'Helvetica', 'Arial', sans-serif;
+}
+</style>
+
+<!-- ### Lezione 6 -->
 # La distribuzione Normale
 ## &nbsp;
 
@@ -46,23 +52,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 </div>
 
----
-## Parametri *vs*&nbsp; statistiche
 
-<span style="display:block; height:20px;"></span>
-
-
-<center>
-
-| Statistica | Popolazione| Campione |
-| ----: | :-----: | :----: | 
-| Numerosit&agrave; | $N$ | $n$ |
-| Media | $\mu$ | $\bar{x}$ |
-| Deviazione Standard | $\sigma$ | $s$ |
-| Proporzione | $\pi$ | $p$ |
-
-
-</center>
 
 
 <!-- We see that the measures used to summarize data sets in Chapter 2 can be applied as descriptions of a population too – the difference is that terms such as mean and standard deviation are known as statistics when describing a set of data, and parameters when describing a population. -->
@@ -75,7 +65,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 <span style="display:block; height:10px;"></span>
 
-> Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
+Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
 
 </div>
 <div>
@@ -96,9 +86,9 @@ Supponiamo di voler sapere qual e' il peso alla nascita dei gemelli, mono e di z
 
 <span style="display:block; height:10px;"></span>
 
-> Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
+Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
 
-<span style="display:block; height:125px;"></span>
+<span style="display:block; height:180px;"></span>
 
 <div style="font-size: 80%" align="right">
 
@@ -129,9 +119,9 @@ $mediana = 2408\text{ g}$
 
 <span style="display:block; height:10px;"></span>
 
-> Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
+Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
 
-<span style="display:block; height:125px;"></span>
+<span style="display:block; height:180px;"></span>
 
 <div style="font-size: 80%" align="right">
 
@@ -234,16 +224,16 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 
 <span style="display:block; height:10px;"></span>
 
-<div style="font-size: 90%">
+<div style="font-size: 85%">
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; la curva con la media
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; maggiore?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pi&ugrave; grande?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Blu
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Gialla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non lo posso sapere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Blu
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Gialla
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non lo posso sapere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
 
 </div>
 
@@ -258,6 +248,9 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 </div>
 </div>
 
+<span style="display:block; height:30px;"></span>
+
+
 ---
 ### Esercizio #2
 
@@ -266,16 +259,16 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 
 <span style="display:block; height:10px;"></span>
 
-<div style="font-size: 90%">
+<div style="font-size: 85%">
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; la curva con la  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; deviazione standard maggiore?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; deviazione standard pi&ugrave; grande?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Blu
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Gialla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non lo posso sapere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Blu
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Gialla
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non lo posso sapere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
 
 </div>
 
@@ -284,12 +277,13 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 <span style="display:block; height:80px;"></span>
 
 <center>
-<img src="./img/normal/1200px-Normal_Distribution_PDF.svg_sd_covered.png" img height="300px" border="4px"/>
+<img src="./img/normal/1200px-Normal_Distribution_PDF.svg_covered.png" img height="300px" border="4px"/>
 </center>
 
 </div>
 </div>
 
+<span style="display:block; height:30px;"></span>
 
 
 ---
@@ -346,15 +340,15 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; L'altezza della popolazione maschile italiana si distribuisce secondo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   una normale con media 170 cm e deviazione standard 9.5 cm
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   una normale con media 170 cm e deviazione standard 9.5 cm
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se s&igrave;, quali sono?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E' possibile calcolate i seguenti valori? Se s&igrave;, quali sono?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza $>170 \text{ cm}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) I "range" di altezze considerabili come "inusuali" o "estremi"
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza pi&ugrave; comune
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) L'italiano pi&ugrave; alto di sempre
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza $>170 \text{ cm}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) I "range" di altezze considerabili come "inusuali" o "estremi"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza pi&ugrave; comune
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) L'italiano pi&ugrave; alto di sempre
 
 </div>
 
@@ -383,26 +377,34 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <div style="font-size: 70%">
 
 :question: &nbsp;&nbsp;&nbsp; Indicativamente, in quale range di et&agrave; &egrave; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compreso il $68\%$ dei pazienti nel gruppo  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di intervento?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compreso il $68\%$ dei pazienti nel   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di intervento?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $3-17$ anni
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $6.3-14.5$ anni
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $4.1-16.7$ anni
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile desumerlo dalla tabella 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $3-17$ anni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $6.3-14.5$ anni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $4.1-16.7$ anni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile dirlo 
 
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+
+</div>
 </div>
 
 ---
 ### Esercizio #5
 
 :question: &nbsp;&nbsp;&nbsp; Con quale probabilità si potrà trovare nella popolazione
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; soggetti con valori superiori al terzo quartile?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; soggetti con valori superiori al terzo quartile?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 25%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 50%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 75%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 25%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 50%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 75%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
+
+<span style="display:block; height:40px;"></span>
 
 ---
 ## Proporzione $\equiv$ probabilit&agrave;
@@ -538,7 +540,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 
 :pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </div>
 <div>
@@ -548,7 +550,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
 
 ---
 ## Calcoliamo la probabilit&agrave;/proporzione
@@ -560,8 +562,8 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 
 :pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
 
 </div>
 <div>
@@ -575,7 +577,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
 
 ---
 ## Calcoliamo la probabilit&agrave;/proporzione
@@ -587,8 +589,8 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 
 :pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
 
 </div>
 <div>
@@ -602,7 +604,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
 
 <!-- Fare vedere che la curva e' simmetrica quindi possiamo usare 1.56 per conoscere l'area -->
 
@@ -616,8 +618,8 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 
 :pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
 
 </div>
 <div>
@@ -631,7 +633,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = 1 - 0.9406 = 0.0594 \rightarrow 5.94\%$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = 1 - 0.9406 = 0.0594 \rightarrow 5.94\%$
 
 ---
 ### Esercizio #6
@@ -639,7 +641,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 <div style="font-size: 80%" >
 
 :question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai $2500$g &egrave; inusuale. La madre deve preoccuparsi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai $2500$g &egrave; inusuale. La madre deve preoccuparsi?
 
 </div>
 
@@ -650,9 +652,12 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 
 <div style="font-size: 80%" >
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
 
 </div>
+
+<span style="display:block; height:170px;"></span>
+
 
 </div>
 <div>
@@ -672,12 +677,14 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 ### Esercizio #7
 
 :question: &nbsp;&nbsp;&nbsp; Abbiamo una distribuzione Normale $\mathcal{N} = (0, 1)$. Qual &egrave; il 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; valore della sua mediana?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; valore della sua mediana?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 2
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
+
+<span style="display:block; height:30px;"></span>
 
 ---
 ## $\mathcal{t}$ di Student
@@ -700,7 +707,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 <span style="display:block; height:5px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/tdist.png" img height="450px" border="4px"/>
+<img src="./img/normal/tdist.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -734,7 +741,7 @@ Meno appuntita al centro e code pi&ugrave; alte
   - considera i gradi di libert&agrave; $(\mathcal{df})$
   - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
   <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$ -->
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$ -->
 
 </div>
 
@@ -744,7 +751,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 <span style="display:block; height:5px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/tdist.png" img height="450px" border="4px"/>
+<img src="./img/normal/tdist.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -772,15 +779,15 @@ All’aumentare di n (e dei GdL) la stima di sigma attraverso s è sempre più a
   - considera i gradi di libert&agrave; $(\mathcal{df})$
   - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
   <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ -->
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ -->
 </div>
 
 </div>
 <div>
 
 <center>
-<img src="./img/confidence_intervals/tdist_table.png" img height="550px" border="4px"/>
+<img src="./img/normal/tdist_table.png" img height="550px" border="4px"/>
 </center>
 
 </div>
@@ -805,15 +812,15 @@ Attenzione sempre al fatto che la distribuzione di t è diversa per ciascuno dei
   - considera i gradi di libert&agrave; $(\mathcal{df})$
   - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
   <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ -->
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ -->
 </div>
 
 </div>
 <div>
 
 <center>
-<img src="./img/confidence_intervals/tdist_table_zoom.png" img height="550px" border="4px"/>
+<img src="./img/normal/tdist_table_zoom.png" img height="550px" border="4px"/>
 </center>
 
 </div>
@@ -828,7 +835,6 @@ Attenzione sempre al fatto che la distribuzione di t è diversa per ciascuno dei
 
 <div style="font-size: 90%">
 
-- La popolazione viene rappresentata con dei parametri (equivalenti alle statistiche usate per i campioni)
 - Diversi fenomeni naturali sono normalmente distribuiti
 - La normale &egrave; definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilit&agrave;
 - La distribuzione (normale) di una popolazione ci fornisce la probabilit&agrave; di estrarre un individuo da quella popolazione ma anche la sua frequenza 

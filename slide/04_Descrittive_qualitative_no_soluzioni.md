@@ -1,9 +1,10 @@
 ---
-marp: true
 theme: gaia
 _class: lead
 paginate: false
-
+marp: true
+backgroundColor: #FAFAFA
+color: black
 
 style: |
   .columns {
@@ -13,12 +14,16 @@ style: |
   }
 
 ---
-### Lezione 4
 
+<style>
+section {
+ font-family:  'Atkinson Hyperlegible', 'Helvetica', 'Arial', sans-serif;
+}
+</style>
+
+<!-- ### Lezione 4 -->
 # La statistica descrittiva
-
 ## (Parte I: Le variabili categoriche)
-
 ## &nbsp;
 
 ---
@@ -52,7 +57,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 <div>
 
 :question: &nbsp;&nbsp;&nbsp; Di che tipo sono i dati
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in questa tabella?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in questa tabella?
 
 <span style="display:block; height:270px;"></span>
 
@@ -170,10 +175,10 @@ Frequenze assolute e relative forniscono le stesse informazioni sulla distribuzi
 <div class="columns">
 <div>
 
-<div style="font-size: 97%">
+<div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Quale sesso &egrave; predominante?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </div>
 
@@ -200,6 +205,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 </div>
 
 <!-- Le frequenze relative: facilitano la percezione del peso delle modalità -->
+
 
 ---
 ## Tabelle di contingenza
@@ -229,7 +235,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -249,12 +255,10 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 </div>
 
-
 <!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili. 
 
 La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoterapia "focalizzata sul problema" e "orientata all'azione". Essa si concentra sul cambiamento delle distorsioni cognitive (come pensieri, convinzioni e atteggiamenti) e sui comportamenti ad esse associati, per migliorare la regolazione emotiva[1][2] e sviluppare adeguate strategie di coping. 
 -->
-
 
 ---
 ### Esercizio #3
@@ -262,10 +266,10 @@ La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoter
 <div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 :question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 <center>
 
@@ -280,6 +284,7 @@ La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoter
 <div>
 
 
+
 <!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
 
 LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna dei totali, Le donne sono il doppio degli uomini. No, non sono uguali
@@ -288,24 +293,42 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 ---
 ### Esercizio #4
 
-<div style="font-size: 85%">
+<div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Di 100 studenti di statistica medica, 40 sono sonnolenti (30 dei quali  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono interessati alla materia), e 60 sono svegli (20 dei quali interessati 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alla materia) 
+:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato |  |  |  |
-| Sveglio |  |  |  |
-| Totale |  |  |  |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina |   |    |    |
+| Chirurgia |   |    |  |
+| Altro |  |   |  |
+| Totale |  |   |  |
 
 </center>
 
+</div>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 50%" align="left">
+
+ Albano, L. *et al.*, *Alcohol consumption in a sample of Italian healthcare workers: A cross-sectional study*, Archives of Environmental & Occupational Health, 2020
+
+</div>
+
+
+</div>
+<div>
+
+
+</div>
 </div>
 
 
@@ -314,20 +337,18 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 
 <div style="font-size: 90%">
 
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di sonnolenti/svegli nei due gruppi di chi &egrave; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  interessato o meno nella materia?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di astemi nei diversi reparti?
 
 <br/>
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato |  |  |  |
-| Sveglio |  |  |  |
-| Totale |  |  |  |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina |   |    |    |
+| Chirurgia |   |    |  |
+| Altro |  |   |  |
+| Totale |  |   |  |
 
 </center>
 
@@ -339,25 +360,25 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 
 <div style="font-size: 90%">
 
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di interessati o meno alla materia nei due gruppi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  di sonnolenti/svegli?
+:question: &nbsp;&nbsp;&nbsp; Con quale percentuale si distribuiscono gli astemi (o meno) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nei diversi reparti?
 
 <br/>
 
 <center>
 
-|  | Sonnolento | Sveglio | Totale |
-| ----: | ----- | ---- | ----|
-| Interessato |  |  |  |
-| Sveglio |  |  |  |
-| Totale |  |  |  |
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina |   |    |    |
+| Chirurgia |   |    |  |
+| Altro |  |   |  |
+| Totale |  |   |  |
+
+</center>
 
 </center>
 
 </div>
-
 
 ---
 ## Discretizzazione
@@ -574,41 +595,6 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 variazione ulteriore: Circular bar chart, lollipop -->
 
 ---
-## Circular bar chart
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:40px;"></span>
-
-<div style="font-size: 90%">
-
-- frequenza assoluta
-- frequenza relativa
-
-</div>
-
-<span style="display:block; height:180px;"></span>
-
-<div style="font-size: 50%">
-
-Visconti, A., *et al.*. *The genetics and epidemiology of N-and O-immunoglobulin A glycomics.*, 2024, doi:10.1186/s13073-024-01369-6
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/visualization/circular_bar_plot.png" img height="500px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-
-
----
 ## Cosa ci dice questo grafico?
 
 - Da 1 a 10, quanto eri felice ieri?
@@ -651,6 +637,17 @@ Wow, that’s a lot of orange. Any patterns in the data just seem to be dominate
 </center>
 
 <!-- ne way of managing this would be to move away from using bars entirely, for example, using the position of a dot to mark each data point. The length aspect no longer exists and the reader is forced to look at the position of the data point relative to the x-axis in order to make a comparison between categories. -->
+
+
+---
+### L'asse y deve partire dallo zero, ma non cos&igrave;...
+
+<span style="display:block; height:40px;"></span>
+
+<center>
+<img src="./img/visualization/gemini_sleep.jpeg" img height="400px" border="4px"/>
+</center>
+
 
 ---
 ## Lollipop chart

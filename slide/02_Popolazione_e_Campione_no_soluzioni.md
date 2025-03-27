@@ -3,6 +3,8 @@ theme: gaia
 _class: lead
 paginate: false
 marp: true
+backgroundColor: #FAFAFA
+color: black
 
 style: |
   .columns {
@@ -12,8 +14,13 @@ style: |
   }
 ---
 
+<style>
+section {
+ font-family:  'Atkinson Hyperlegible', 'Helvetica', 'Arial', sans-serif;
+}
+</style>
 
-### Lezione 2
+<!-- ### Lezione 2 -->
 # Popolazione e Campione
 ## &nbsp;
 
@@ -91,6 +98,128 @@ E’ però necessario sceglierlo “bene” affinché le informazioni che otteni
 -->
 
 ---
+### Esercizio #1
+
+<span style="display:block; height:30px;"></span>
+
+<div class="columns">
+<div>
+
+<img src="./img/sampling/abstract_ex1.png" img height="300px" align="right" border="4px"/>
+
+<span style="display:block; height:400px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 68%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la popolazione di studio?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+
+
+</div>
+</div>
+
+
+---
+### Esercizio #2
+
+<span style="display:block; height:30px;"></span>
+
+<div class="columns">
+<div>
+
+<img src="./img/sampling/abstract_ex1.png" img height="300px" align="right" border="4px"/>
+
+<span style="display:block; height:400px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 68%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; il campione selezionato?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+
+</div>
+</div>
+
+
+---
+### Esercizio #3
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<center>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la numerosit&agrave; del campione
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 277
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 139
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 130
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non &egrave; possibile dirlo  
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+
+</div>
+</div>
+
+---
 ## Campione di convenienza 
 
 <span style="display:block; height:30px;"></span>
@@ -98,14 +227,14 @@ E’ però necessario sceglierlo “bene” affinché le informazioni che otteni
 <div style="font-size: 90%">
 
 :dart: &nbsp;&nbsp;&nbsp; Un campione di convenienza &egrave; un campione estratto da una
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  parte della popolazione a cui abbiamo un facile accesso e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  che potrebbe non rappresentarla nella sua  interezza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  parte della popolazione a cui abbiamo un facile accesso e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  che potrebbe non rappresentarla nella sua  interezza
 
 
 <span style="display:block; height:1px;"></span>
 
 :pushpin: &nbsp;&nbsp;&nbsp; Tutti i pazienti che si presentano in uno specifico ambulatorio, 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in uno specifico ospedale, in un dato periodo di tempo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in uno specifico ospedale, in un dato periodo di tempo
 
 
 </div>
@@ -128,13 +257,13 @@ Chiedere le intenzioni di voto alle prime 10 pagine di utenti con il numero di t
 <div style="font-size: 90%">
 
 :dart: &nbsp;&nbsp;&nbsp; Nel campionamento casuale semplice tutti i soggetti della  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popolazione hanno la stessa probabilit&agrave; di venire inclusi 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel campione
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popolazione hanno la stessa probabilit&agrave; di venire inclusi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel campione
 
 <span style="display:block; height:10px;"></span>
 
 :pushpin: &nbsp;&nbsp;&nbsp; Un sottoinsieme estratto in modo casuale dall'elenco dei 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti con la malattia
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti con la malattia
 
 <!-- Nel campionamento probabilistico ogni unità della popolazione in studio ha una probabilità NOTA di essere estratta (non distorto o viziato) 
 
@@ -156,7 +285,7 @@ data una popolazione di N individui ed un campione di dimensione n  la probabili
 <span style="display:block; height:10px;"></span>
 
 :pushpin: &nbsp;&nbsp;&nbsp;  $N=90$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n=10$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n=10$ 
 
 <span style="display:block; height:30px;"></span>
 
@@ -185,12 +314,12 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 <span style="display:block; height:10px;"></span>
 
 :pushpin: &nbsp;&nbsp;&nbsp;  $N=90$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n=10$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n=10$ 
 
 <span style="display:block; height:30px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $49, 65, 25, 74, 18$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $90, 47, 24, 71, 37$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $49, 65, 25, 74, 18$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $90, 47, 24, 71, 37$
 </div>
 <div>
 
@@ -203,115 +332,53 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 
 <!--  Estrarre le unità tramite sorteggio casuale o tavole dei numeri casuali (costruite in modo da non avere vizi sistematici. Sono delle serie di numeri tra 0 e 9 disposti a caso e caratterizzati dall’avere una distribuzione uniforme) -->
 
----
-### Esercizio #1
-
-<span style="display:block; height:30px;"></span>
-
-<div class="columns">
-<div>
-
-<img src="./img/sampling/abstract_ex1.png" img height="300px" align="right" border="4px"/>
-
-<span style="display:block; height:400px;"></span>
-
-<div style="font-size: 50%" align="right">
-
-Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
-
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 70%">
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la popolazione di studio?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
-
-</div>
-
-</div>
-</div>
 
 ---
-### Esercizio #2
+### Esercizio #4
 
-<span style="display:block; height:30px;"></span>
+<span style="display:block; height:1px;"></span>
 
-<div class="columns">
-<div>
+<div style="font-size: 90%">
 
-<img src="./img/sampling/abstract_ex1.png" img height="300px" align="right" border="4px"/>
+:question: &nbsp;&nbsp;&nbsp; In quale tipi di studio può capitare di selezionare un campione 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di convenienza?
 
-<span style="display:block; height:400px;"></span>
-
-<div style="font-size: 50%" align="right">
-
-Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
-
-</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Censimenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Studi di popolazione
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Studi clinici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nessuno: durante uno studio, il campione è sempre 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; casualmente selezionato dalla popolazione 
 
 </div>
-<div>
-
-<div style="font-size: 70%">
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; il campione selezionato?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
-
-</div>
-
-</div>
-</div>
-
----
-### Esercizio #3
 
 <span style="display:block; height:10px;"></span>
 
-<div class="columns">
-<div>
-
-<center>
-<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
-</center>
-
-<div style="font-size: 50%" align="right">
-
-Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
-
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 70%">
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la numerosit&agrave; del campione
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 277
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 139
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 130
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile desumerlo dalla tabella 
-
-</div>
 
 </div>
 </div>
+
+
+
+---
+### Esercizio #5
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Quale tra i seguenti esempi si può definire campione di convenienza  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; per un'indagine sierologica sul COVID-19 ?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Un campione scelto in maniera casuale dalla popolazione
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Il campione selezionato per l’indagine sierologica COVID-19
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; avviata dal Ministero della Salute (campione composto da 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 150.000 persone residenti in 2000 Comuni)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Un campione selezionato tra  gli studenti di UniTO
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nessuno dei precedenti 
+
+</div>
+
+<span style="display:block; height:10px;"></span>
 
 ---
 ## Bias nella selezione del campione
@@ -341,13 +408,13 @@ e l’errore logico che si commette quando si prendano in considerazione solo gl
 ---
 ## Bias nella selezione del campione
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 - Survivor bias
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *"Una volta gli edifici erano pi&ugrave; belli/resistenti"*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *"Una volta gli edifici erano pi&ugrave; belli/resistenti"*
 
 </div>
 
@@ -357,16 +424,16 @@ e l’errore logico che si commette quando si prendano in considerazione solo gl
 ---
 ## Bias nella selezione del campione
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 - Survivor bias
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *"Una volta gli edifici erano pi&ugrave; belli/resistenti"*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *"Una volta gli edifici erano pi&ugrave; belli/resistenti"*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *"Non capisco perch&eacute; oggigiorno bisogni fare X, io non l'ho mai  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fatto e sono ancora qui a raccontarlo"*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *"Non capisco perch&eacute; oggigiorno bisogni fare X, io non l'ho mai  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fatto e sono ancora qui a raccontarlo"*
 
 <div>
 
@@ -403,46 +470,26 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 ---
 ## Bias nella selezione del campione
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 - Survivor bias
 - Volunteer bias
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Un insegnante si chiede se una serie di esercitazioni migliora il 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rendimento agli esami. Invita quindi gli studenti interessati a iscriversi. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Un insegnante si chiede se una serie di esercitazioni migliora il 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rendimento agli esami. Invita quindi gli studenti interessati a 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iscriversi. 
 
 </div>
 
 <!-- Self-selection bias is likely because students who are more serious about school are more likely to sign up  -->
 
----
-## Bias nella selezione del campione
-
-<span style="display:block; height:10px;"></span>
-
-- Survivor bias
-- Volunteer bias
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Un insegnante si chiede se una serie di esercitazioni migliora il 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rendimento agli esami. Invita quindi gli studenti interessati a iscriversi. 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta farmaceutica ha un nuovo prodotto che aiuta la perdita di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso corporeo. Invita gli iscritti a un forum di fitness a partecipare 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; allo studio.
-
-<!-- These individuals may be more motivated and committed to sticking to the program, which could lead to better results than if the study included a randomly selected group of people, some of whom may not be as motivated to lose weight. This could lead to an overestimate of the effectiveness of the program. -->
-
-</div>
-
 
 ---
 ## Bias nella selezione del campione
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 - Survivor bias
 - Volunteer bias
@@ -451,7 +498,7 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 ---
 ## Bias nella selezione del campione
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 - Survivor bias
 - Volunteer bias
@@ -459,16 +506,16 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 
 <div style="font-size: 80%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico che 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queste 30 persone...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che queste 30 persone...
 </div>
 
 ---
 ## Bias nella selezione del campione
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 - Survivor bias
 - Volunteer bias
@@ -476,18 +523,18 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 
 <div style="font-size: 80%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico che 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queste 30 persone...
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che queste 30 persone...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
 
 </div>
 
 ---
 ## Bias nella selezione del campione
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 - Survivor bias
 - Volunteer bias
@@ -495,19 +542,19 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 
 <div style="font-size: 80%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico che 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queste 30 persone...
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - hanno smesso di prendere il farmaco?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che queste 30 persone...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - hanno smesso di prendere il farmaco?
 
 </div>
 
 ---
 ## Bias nella selezione del campione
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 - Survivor bias
 - Volunteer bias
@@ -515,13 +562,13 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 
 <div style="font-size: 80%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico che 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queste 30 persone...
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - hanno smesso di prendere il farmaco?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -  sono ritornate alla loro citt&agrave; di orgine?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che queste 30 persone...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - hanno smesso di prendere il farmaco?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -  sono ritornate alla loro citt&agrave; di orgine?
 
 </div>
 
@@ -529,47 +576,12 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 ---
 ## Bias nella selezione del campione
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 - Survivor bias
 - Volunteer bias
 - Lost to follow up bias
 - $\dots$
-
----
-### Esercizio #4
-
-<span style="display:block; height:50px;"></span>
-
-<div class="columns">
-<div>
-
-<img src="./img/sampling/abstract_methods_ex1.png" img height="210px" align="right" border="4px"/>
-
-<span style="display:block; height:380px;"></span>
-
-<div style="font-size: 50%" align="right">
-
-Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
-
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 70%">
-
-:question: &nbsp;&nbsp;&nbsp; Lo studio soffre di qualche bias?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) No
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Survivor bias
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Volunteer bias
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Lost to follow up bias 
-
-</div>
-
-</div>
-</div>
 
 ---
 ### Cosa abbiamo imparato in questa lezione?

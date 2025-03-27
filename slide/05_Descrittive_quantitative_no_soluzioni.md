@@ -1,8 +1,10 @@
 ---
-marp: true
 theme: gaia
 _class: lead
 paginate: false
+marp: true
+backgroundColor: #FAFAFA
+color: black
 
 style: |
   .columns {
@@ -10,10 +12,16 @@ style: |
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
-
 ---
 
-### Lezione 5
+<style>
+section {
+ font-family:  'Atkinson Hyperlegible', 'Helvetica', 'Arial', sans-serif;
+}
+</style>
+
+
+<!-- ### Lezione 5 -->
 # La statistica descrittiva
 ## (Parte II: Le variabili numeriche)
 ## &nbsp;
@@ -23,7 +31,7 @@ style: |
 
 <span style="display:block; height:50px;"></span>
 
-- Saper calcolare e interpretare diverse misure di centralit&agrave;, dispersione e correlazione
+- Saper calcolare e interpretare misure di centralit&agrave;, dispersione e correlazione
 - Saper visualizzare dati numerici
 - Saper interpretare tabelle e figure in articoli scientifici
 
@@ -69,7 +77,7 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
 <span style="display:block; height:10px;"></span>
 
 :pushpin: &nbsp;&nbsp;&nbsp; $x= \{1, 1, 1, 3, 4, 4, 7, 8, 8, 9, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(x)=1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(x)=1$
 
 ---
 ### Esercizio #1
@@ -79,18 +87,13 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; la moda dei seguenti insiemi?
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{1, 1, 1, 3, 4, 4, 4, 7, 8, 8, 9, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(y)= \text{ } ?$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{1, 1, 1, 3, 4, 4, 4, 7, 8, 8, 9, 9\}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(y)= \text{ } ?$
 
 <span style="display:block; height:1px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $z= \{1, 3, 4, 7, 8, 9, 11, 17, 21, 42\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(z)= \text{ } ?$
-
-<!-- se ciascun valore si presenta una volta sola, le nostre osservazioni non hanno moda
-
-Si usa soprattutto per i dati categorici -->
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $z= \{1, 3, 4, 7, 8, 9, 11, 17, 21, 42\}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(z)= \text{ } ?$
 
 ---
 ## Misure di centralit&agrave;: la mediana
@@ -125,18 +128,27 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)= \text{ ?}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)= \text{ ?}$ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(z)=\text{ ?}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(z)=\text{ ?}$ 
 
 </div>
 
 <span style="display:block; height:40px;"></span>
 
-<!-- La mediana non e' influenzata da valori anomali o estremi (outliers) -->
 
+
+---
+## Mediana e valori anomali
+
+
+<span style="display:block; height:50px;"></span>
+
+<center>
+<img src="./img/descriptive/median_outlier.png" img height="350px" border="4px"/>
+</center>
 
 ---
 ## Quartili
@@ -177,7 +189,7 @@ $$
 
 :pushpin: &nbsp;&nbsp;&nbsp;  $x= \{4, 36, 45, 50, 75\}$ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}} = {\frac{1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right) = \frac{4 + 36 + 45 + 50 + 75}{5} = 42$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}} = {\frac{1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right) = \frac{4 + 36 + 45 + 50 + 75}{5} = 42$
 
 </div>
 
@@ -195,15 +207,24 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le medie di questi insiemi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = \text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = \text{ ?}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {z}} = \text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {z}} = \text{ ?}$
 
 <div>
 
 <span style="display:block; height:10px;"></span>
+
+---
+## Media e valori anomali
+
+<span style="display:block; height:50px;"></span>
+
+<center>
+<img src="./img/descriptive/mean_outlier.png" img height="350px" border="4px"/>
+</center>
 
 ---
 ## La forma delle distribuzioni
@@ -242,14 +263,14 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 
 :question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *The mean length of stay was 22.4 days (median: 14 days).*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *The mean length of stay was 22.4 days (median: 14 days).*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; La distribuzione empirica ha una forma...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; La distribuzione empirica ha una forma...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) simmetrica
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) asimmetrica a destra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) asimmetrica a sinistra
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) simmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) asimmetrica a destra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) asimmetrica a sinistra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
 
 </div>
 
@@ -287,7 +308,7 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 <img src="./img/descriptive/outliers_range.svg" img height="250px" border="0px"/>
 </center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{range}(x)= 9754-2830=6924$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{range}(x)= 9754-2830=6924$
 
 <!-- INTERVALLO di VARIAZIONE. Il range pero' si basa solo sui due valori estremi, senza indicare come si distribuiscono i dati entro l’intervallo 
 
@@ -333,14 +354,14 @@ piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tien
 
 :dart: &nbsp;&nbsp;&nbsp; $s^2 = \frac{1}{n-1}\sum _{i=1}^{n}(x_{i}-\bar {x} )^{2}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dove &nbsp;&nbsp;&nbsp; ${\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dove &nbsp;&nbsp;&nbsp; ${\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)$ 
 
 <span style="display:block; height:1px;"></span>
 
 :pushpin: &nbsp;&nbsp;&nbsp;  $x= \{1, 2, 3\}$ &nbsp;&nbsp;&nbsp; $\bar{x}=\frac{1+2+3}{3}=2$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s = \frac{1}{3-1}\times [(1-2)^2+ (2-2)^2+(3-2)^2] =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \frac{1}{2}\times [1^2+ 0^2+1^2 ]=  \frac{1}{2}\times 2 = 1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s = \frac{1}{3-1}\times [(1-2)^2+ (2-2)^2+(3-2)^2] =$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \frac{1}{2}\times [1^2+ 0^2+1^2 ]=  \frac{1}{2}\times 2 = 1$
 
 </div>
 
@@ -356,18 +377,21 @@ piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tien
 
 :dart: &nbsp;&nbsp;&nbsp; $s = \sqrt{s^2} = \sqrt {{\frac {1}{n-1}}\sum _{i=1}^{n}(x_{i}-\bar {x} )^{2}}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dove &nbsp;&nbsp;&nbsp; ${\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dove &nbsp;&nbsp;&nbsp; ${\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)$ 
 
 <span style="display:block; height:1px;"></span>
 
 :pushpin: &nbsp;&nbsp;&nbsp;  $x= \{1, 2, 3\}$ &nbsp;&nbsp;&nbsp; $\bar{x}=\frac{1+2+3}{3}=2$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s = \sqrt {\frac{1}{3-1}\times [(1-2)^2+ (2-2)^2+(3-2)^2] }=$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \sqrt {\frac{1}{2}\times [1^2+ 0^2+1^2 }]= \sqrt {\frac{1}{2}\times 2}= \sqrt {1} = 1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s = \sqrt {\frac{1}{3-1}\times [(1-2)^2+ (2-2)^2+(3-2)^2] }=$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \sqrt {\frac{1}{2}\times [1^2+ 0^2+1^2 }]= \sqrt {\frac{1}{2}\times 2}= \sqrt {1} = 1$
 
 </div>
 
-<!-- che nella varianza l'unità di misura è diversa da quella della variabile su cui è calcolata (abbiamo fatto il quadrato delle differenze, ricordate?), si utilizza la sua radice quadrata detta SCARTO QUADRATICO MEDIO o deviazione standard. -->
+<!-- che nella varianza l'unità di misura è diversa da quella della variabile su cui è calcolata (abbiamo fatto il quadrato delle differenze, ricordate?), si utilizza la sua radice quadrata detta SCARTO QUADRATICO MEDIO o deviazione standard.
+
+Esempio lunghezza della degenza, giorni e giorni^2
+ -->
 
 ---
 ### Esercizio #5
@@ -377,13 +401,13 @@ piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tien
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; La deviazione standard &egrave; un indice di dispersione?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
 :question: &nbsp;&nbsp;&nbsp; La moda &egrave; una misura di tendenza centrale?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso
 
 :question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
 </div>
 
@@ -419,16 +443,15 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 
 :question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Coronary-artery calcium scores averaged 68.9&plusmn;244.2 (range 0 to 1526)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Coronary-artery calcium scores averaged 68.9&plusmn;244.2 (range 0 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to 1526) in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) con media e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) con mediana e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d)  non ho abbastanza elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) con media e deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) con mediana e deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d)  non ho abbastanza elementi per decidere
 
 </div>
 
@@ -456,23 +479,64 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <div style="font-size: 70%">
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di bambine e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragazze nel gruppo di intervento?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragazze nel gruppo di intervento?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 12%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 18%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) 17%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Non &egrave; possibile capirlo dalla tabella 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 12%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 18%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) 17%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Non &egrave; possibile capirlo dalla tabella 
 
 </div>
 
 <span style="display:block; height:100px;"></span>
+
 
 </div>
 </div>
 
 ---
 ### Esercizio #8
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<center>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
+</center>
+
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; In questo studio, l'et&agrave; &egrave; stata raccolta 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; come una variabile...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) categorica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ordinale
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) numerica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non &egrave; possibile dirlo  
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+
+</div>
+</div>
+
+---
+### Esercizio #9
 
 <span style="display:block; height:10px;"></span>
 
@@ -494,17 +558,18 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media dei pazienti nel gruppo 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di controllo?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media dei pazienti nel  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di controllo?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 10.4
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 4.1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 4.0
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile capirlo dalla tabella 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 10.4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 4.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 4.0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile capirlo dalla tabella 
 
 </div>
 
 <span style="display:block; height:100px;"></span>
+
 </div>
 </div>
 
@@ -634,78 +699,6 @@ Ovviamente si puo' usare solo se ci sono due variabili, ne avessimo 3 o piu' ric
 -->
 
 ---
-## Density plot
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:350px;"></span>
-
-<div style="font-size: 50%">
- 
-Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/visualization/Age_histogram_bin5_response_density.png" img height="500px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!-- Density plot o kernel density plot o grafico basato sulla stima kernel di den- sit`a, `e una rappresentazione grafica della distribuzione di una Variabile continua alternativa all’Istogramma. Nel density plot, le barre dell’isto- gramma vengono convertite in gobbe da uno stimatore kernel di densit`a e poi smussate a creare una linea arrotondata continua.
-
-Common Mistakes
-
-Play with the bandwith of your density function.
-Avoid filling with color palettes. 
-
-Questa e' leggermente bimodale
-
-Bumpy perche' ci sono pochi dati
-
- No Yes
- 39  49
-
--->
-
-
----
-## Density plot
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:400px;"></span>
-
-<div style="font-size: 50%">
- 
-Visconti, A., *et al.*. *The genetics and epidemiology of N-and O-immunoglobulin A glycomics.*, 2024, doi:10.1186/s13073-024-01369-6
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/visualization/Age_histogram_bin5_glycan_age_sex.png" img height="500px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!-- Bumpy perche' ci sono pochi dati
-
-Female   Male
-  1885    545
-
-Iniziare ad introdurre la Normale -->
-
----
 ## Boxplot
 
 <span style="display:block; height:1px;"></span>
@@ -805,7 +798,19 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 Boxplot hides the underlying distribution. Use jitter if low number of data points, or use violin with bigger data. Leggermente bimodale -->
 
 ---
-### Esercizio #9
+### Esercizio #10
+
+<div style="font-size: 90%">
+
+> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+
+<!-- The purpose of this question is not simply to be nosey about people’s private lives. When AIDS first became a serious concern in the 1980s, public health officials realized that there was no reliable evidence about sexual behaviour in Britain, particularly in terms of the frequency with which people changed partners, how many had multiple simultaneous partners, and what sexual practices people engaged in. This knowledge was essential to predict the spread of sexually transmitted diseases through society and to plan health services
+
+resulting in the National Sexual Attitudes and Lifestyle Survey (Natsal) which has been carried out in the UK every ten years since 1990.
+ -->
+
+---
+### Esercizio #10
 
 <div style="font-size: 90%">
 
@@ -821,9 +826,10 @@ Boxplot hides the underlying distribution. Use jitter if low number of data poin
 <br/>
 
 :question: &nbsp;&nbsp;&nbsp; Cosa ci dicono 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queste statistiche? 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queste statistiche? 
 
 <span style="display:block; height:120px;"></span>
+
 
 </div>
 
@@ -841,20 +847,26 @@ Boxplot hides the underlying distribution. Use jitter if low number of data poin
 | Media |  14.3 | 8.5 | 
 | SD | 24.2 | 19.7  | 
 | Mediana |  8 | 5  | 
-| IQR | 4-18  | 3-10  |
+| IQR | 4-18 | 3-10  |
 
 </center>
 
 </div>
 </div>
+	
+<!-- The third survey, known as Natsal-3, was carried out around 2010. Table 2.2 shows the summary statistics concerning the number of (opposite-sex) sexual partners reported by people aged 35–44 in Natsal-3. 
+
+ It is a good exercise to use these summaries alone to try to reconstruct what the pattern of data might look like.
+-->
+
 
 ---
-### Esercizio #9 (bis)
+### Esercizio #10 (bis)
 
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Il grafico della distribuzione conferma quello che abbiamo detto? 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aggiunge informazione? 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aggiunge informazione? 
 
 <span style="display:block; height:1px;"></span>
 
@@ -1092,9 +1104,27 @@ Pearson's correlation coefficient
 
 
 ---
+## Parametri *vs*&nbsp; statistiche
+
+<span style="display:block; height:20px;"></span>
+
+
+<center>
+
+|  | Parametro | Statistica |
+| ----: | :-----: | :----: | 
+| Numerosit&agrave; | $N$ | $n$ |
+| Media | $\mu$ | $\bar{x}$ |
+| Deviazione Standard | $\sigma$ | $s$ |
+| Proporzione | $\pi$ | $p$ |
+
+
+</center>
+
+---
 ### Cosa abbiamo imparato in questa lezione?
 
-<span style="display:block; height:0px;"></span>
+<!-- <span style="display:block; height:0px;"></span> -->
 
 <div style="font-size: 90%">
 
@@ -1103,6 +1133,6 @@ Pearson's correlation coefficient
 - Le statistiche possono nascondere dettagli importanti dei dati
 - Le variabili numeriche possono essere rappresentate graficamente in diversi modi, ma alcune rappresentazioni possono nascondere dettagli importanti delle distribuzioni sottostanti
 - Visualizzare i dati &egrave; importante per interpretarli
-
+- Il campione viene rappresentato con le statistiche, la popolazione con i parametri
 </div>
 
