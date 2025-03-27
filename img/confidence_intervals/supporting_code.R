@@ -232,18 +232,17 @@ p <-   ggplot(data = data.frame(x = c(-15, 15)), aes(x)) +
 	geom_segment(aes(x = -10, y = -0.0025, xend = -10, yend = dnorm(-10, mean=0, sd=4)), colour="black") +
 	geom_segment(aes(x = 10, y = -0.0025, xend = 10, yend = dnorm(10, mean=0, sd=4)), colour="black") +
     scale_y_continuous(breaks = NULL) +
-	annotate("text", x = -12, y = dnorm(-12, mean=0, sd=4)+0.005, label = "paste(alpha/2, \"\")", parse = TRUE, size=7) +
-	annotate("text", x = 12, y = dnorm(12, mean=0, sd=4)+0.005, label = "paste(alpha/2, \"\")", parse = TRUE, size=7) + 
-	geom_segment(aes(x = -12, y = dnorm(-12, mean=0, sd=4)+0.0025, xend = -11, yend = 0), arrow = arrow(length = unit(0.2, "cm"))) +
-	geom_segment(aes(x = 12, y = dnorm(12, mean=0, sd=4)+0.0025, xend = 11, yend = 0), arrow = arrow(length = unit(0.2, "cm"))) +
-	annotate("text", x = 0, y = dnorm(12, mean=0, sd=4)+0.01, label = "paste(1- alpha, \"\")", parse = TRUE, size=7) +
 	geom_segment(aes(x = 0, y = 0, xend = 0, yend = dnorm(0, mean=0, sd=4)), colour="grey60", linewidth=1, linetype="dotted") +
 	geom_segment(aes(x = 0, y = -0.0025, xend = 0, yend = 0), colour="black") +
-	annotate('text', x = 0, y = -0.005, label = "bar(x)", parse=T, size=5) +
-	annotate('text', x = -10, y = -0.005, label = "bar(x) - z[alpha/2] %*% SE", parse=T, size=5) +
-	annotate('text', x = 10, y = -0.005, label = "bar(x) + z[alpha/2] %*% SE", parse=T, size=5) +
-	geom_segment(aes(x = -10, y = 0, xend = 10, yend = 0), colour="magenta", lwd=2) + theme_void()
+	annotate('text', x = 0, y = -0.0045, label = "bar(x)", parse=T, size=5) +
+	geom_segment(aes(x = 0, y = -0.007, xend = -10, yend = -0.007), colour="magenta", arrow = arrow(length = unit(0.3, "cm"), ends = "both", type = "open"), lwd=1.2) +
+	geom_segment(aes(x = 0, y = -0.007, xend = 10, yend = -0.007), arrow = arrow(length = unit(0.3, "cm"), ends = "both", type = "open"), colour="magenta", lwd=1.2) +
+	annotate("text", x = -5, y = -0.01, label = "Margine di Errore", parse = FALSE, size=6) +
+	annotate("text", x = 5, y = -0.01, label = "Margine di Errore", parse = FALSE, size=6) +
+	geom_segment(aes(x = -10, y = -0.014, xend = 10, yend = -0.014), colour="darkgreen", arrow = arrow(length = unit(0.3, "cm"), ends = "both", type = "open"), lwd=1.2) +
+	annotate("text", x = 0, y = -0.0165, label = "Intervallo di Confidenza", parse = FALSE, size=6) + theme_void()
 
-png("alpha_level.png")
+png("ME_and_CI.png")
 print(p)
 dev.off()
+
