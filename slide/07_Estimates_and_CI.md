@@ -1,9 +1,10 @@
 ---
-marp: true
 theme: gaia
 _class: lead
 paginate: false
-
+marp: true
+backgroundColor: #FAFAFA
+color: black
 
 style: |
   .columns {
@@ -11,10 +12,15 @@ style: |
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
-
 ---
 
-### Lezione 7
+<style>
+section {
+ font-family:  'Atkinson Hyperlegible', 'Helvetica', 'Arial', sans-serif;
+}
+</style>
+
+<!-- ### Lezione 7 -->
 # La statistica inferenziale
 ## (Parte I: Stime e intervalli di confidenza)
 ## &nbsp;
@@ -52,11 +58,11 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 <span style="display:block; height:1px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se questa parte vi sembra difficile &egrave; perch&eacute; &egrave; difficile.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se questa parte vi sembra difficile &egrave; perch&eacute; &egrave; difficile.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Potreste doverci spendere un bel po' di tempo prima di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; riuscire a capirla del tutto: non vi preoccupate, &egrave; normale 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e ci siamo passati tutti!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Potreste doverci spendere un bel po' di tempo prima di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; riuscire a capirla del tutto: non vi preoccupate, &egrave; normale 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e ci siamo passati tutti!
 
 ---
 ## Dalla campione alla popolazione
@@ -90,7 +96,7 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 
 <div style="font-size: 90%">
 
-> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -99,8 +105,8 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 
 <span style="display:block; height:30px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{donne} = 1100$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 796$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{donne} = 1100$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 796$
 
 
 </div>
@@ -131,7 +137,7 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 
 <div style="font-size: 90%">
 
-> Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
+Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -140,7 +146,7 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 
 <span style="display:block; height:30px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
 
 
 </div>
@@ -176,7 +182,7 @@ Notiamo i valori "stabili" (non influenzati dagli outliers)
 
 <div style="font-size: 90%">
 
-> Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
+Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -196,7 +202,7 @@ As an illustration of how the accuracy of statistics depends on sample size, we 
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 10$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 10$
 
 </div>
 
@@ -221,7 +227,7 @@ Density should use another scale -->
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 50$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 50$
 
 </div>
 
@@ -238,7 +244,7 @@ Density should use another scale -->
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 100$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 100$
 
 </div>
 
@@ -255,7 +261,7 @@ Density should use another scale -->
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 200$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 200$
 
 </div>
 
@@ -272,7 +278,7 @@ Density should use another scale -->
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 380$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 380$
 
 </div>
 
@@ -293,11 +299,11 @@ Density should use another scale -->
 
 :question: &nbsp;&nbsp;&nbsp; Al crescere della dimensione del campione
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) migliorano le stime dei parametri
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) le stime dei parametri diventano pi&ugrave; sensibili alle singole 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; osservazioni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) migliorano le stime dei parametri
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) le stime dei parametri diventano pi&ugrave; sensibili alle singole 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; osservazioni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
 
 </div>
 
@@ -398,11 +404,11 @@ updateButton_exercise_1();
 
 :question: &nbsp;&nbsp;&nbsp; Al crescere della dimensione del campione
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) migliorano le stime dei parametri &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) le stime dei parametri diventano pi&ugrave; sensibili alle singole 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; osservazioni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) migliorano le stime dei parametri &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) le stime dei parametri diventano pi&ugrave; sensibili alle singole 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; osservazioni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
 
 </div>
 
@@ -456,9 +462,9 @@ However, there is an alternative approach, based on the plausible assumption tha
 ---
 ## Stima dei parametri e del margine di errore
 
-<div style="font-size: 80%">
+<div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{Bootstrapping} = 1000$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{Bootstrapping} = 1000$
 
 </div>
 
@@ -476,11 +482,11 @@ Additionally, is that the bootstrap distributions get narrower as the sample siz
  -->
 
 ---
-### Il margine di errore (o intervallo di confidenza)
+## L'intervallo di confidenza
 
-<div style="font-size: 80%">
+<div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Intervallo che contiene il 95% delle medie ottenute via Bootstrapping
+:dart: &nbsp;&nbsp;&nbsp; Intervallo che contiene il 95% delle medie ottenute via Bootstrapping
 
 </div>
 
@@ -499,11 +505,11 @@ Ma prima osserviamo ancora che the bootstrap distributions get narrower as the s
  -->
 
  ---
-### Il margine di errore (o intervallo di confidenza)
+## L'intervallo di confidenza
 
-<div style="font-size: 80%">
+<div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Intervallo che contiene il 95% delle medie ottenute via Bootstrapping
+:dart: &nbsp;&nbsp;&nbsp; Intervallo che contiene il 95% delle medie ottenute via Bootstrapping
 
 </div>
 
@@ -522,11 +528,11 @@ Ma prima osserviamo ancora che the bootstrap distributions get narrower as the s
  -->
 
 ---
-## Intervallo di confidenza
+## L'intervallo di confidenza
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Intervallo che contiene il 95% delle medie ottenute via Bootstrapping
+:dart: &nbsp;&nbsp; Intervallo che contiene il 95% delle medie ottenute via Bootstrapping
 
 </div>
 
@@ -537,8 +543,8 @@ Ma prima osserviamo ancora che the bootstrap distributions get narrower as the s
 
 <span style="display:block; height:10px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{Bootstrapping} = 1000$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x} = 11.4$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{Bootstrapping} = 1000$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x} = 11.4$
 
 
 </div>
@@ -576,10 +582,10 @@ Bootstrapping provides an intuitive, computer-intensive way of assessing the unc
 
 :question: &nbsp;&nbsp;&nbsp; Al crescere della dimensione del campione
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) peggiora la stima dell'incertezza del parametro
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) migliora la stima dell'incertezza del parametro
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) peggiora la stima dell'incertezza del parametro
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) migliora la stima dell'incertezza del parametro
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
 
 <span style="display:block; height:80px;"></span>
 
@@ -676,10 +682,10 @@ updateButton_exercise_2();
 
 :question: &nbsp;&nbsp;&nbsp; Al crescere della dimensione del campione
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) peggiora la stima dell'incertezza del parametro
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) migliora la stima dell'incertezza del parametro &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) peggiora la stima dell'incertezza del parametro
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) migliora la stima dell'incertezza del parametro &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
 
 ---
 ## Fermiamoci un attimo
@@ -729,9 +735,9 @@ Rather remarkably, this has all been accomplished without any mathematics except
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp; standard error (SE)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp; standard error (SE)
 
 </div>
 
@@ -766,20 +772,20 @@ Nella maggior parte delle situazioni pratiche, n=30 e' soddisfacente, ma l'appro
 <div class="columns">
 <div>
 
-<span style="display:block; height:50px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <div style="font-size: 80%">
 
-- la distribuzione campionaria &egrave; una normale
-- in una normale, 95% delle osservazioni sono a circa $2 \times \text{SD}$ dalla media
-- il nostro intervallo di confidenza (95%) &egrave; $2 \times \text{SE}$ dalla media della distribuzione campionaria
+- La distribuzione campionaria tende alla distribuzione Normale
+- In una Normale, 95% delle osservazioni sono a circa $2 \times \text{SD}$ dalla media
+- Il nostro intervallo di confidenza (95%) &egrave; a circa $2 \times \text{SE}$ dalla media della distribuzione campionaria
 
 </div>
 
 </div>
 <div>
 
-<span style="display:block; height:70px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <center>
 <img src="./img/normal/Standard_Normal_Distribution.png" img height="400px" border="4px"/>
@@ -796,21 +802,231 @@ Tutti concetti che ci torneranno utili tra poco
 -->
 
 ---
-## Ma come si interpreta?
+## Quindi come si calcola?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se facessimo 100 campionamenti, 95 stimerebbero un intervallo 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di confidenza che contiene il vero  valore del parametro
+<div style="font-size: 88%">
+
+:dart: &nbsp;&nbsp; Il 95% CI &egrave; a circa $2 \times \text{SE}$ dalla media della distribuzione campionaria
+
+</div>
 
 <div class="columns">
 <div>
 
-<span style="display:block; height:30px;"></span>
+<span style="display:block; height:50px;"></span>
+
+<div style="font-size: 88%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo SE
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Calcoliamo $2 \times \text{SE}$, *i.e.*, 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $95\%$ Margine di Errore (ME)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Calcoliamo il $95\% \text{ CI}$ come 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $(\bar{x} - \text{ ME} \text{ } ; \text{ } \bar{x} + \text{ ME} )$
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/ME_and_CI.png" img height="400px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+
+---
+### Esercizio #3
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; In media, Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il 95% CI?  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s=11.2$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?}$
+
+</div>
+
+<span style="display:block; height:10px;"></span>
+
+<style>
+  #countdown_exercise_6{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_6.running {
+    background-color: green;
+  }
+  #countdown_exercise_6.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_6"></button>
+
+<script>
+<!--
+const countdown_exercise_6= document.getElementById("countdown_exercise_6");
+const seconds_exercise_6= 300; // seconds_exercise_6
+let timeLeft_exercise_6= seconds_exercise_6;
+let timerInterval_exercise_6= null;
+
+function formatTime_exercise_6(seconds_exercise_6) {
+  const minutes = Math.floor(seconds_exercise_6/ 60);
+  const remainingseconds_exercise_6= seconds_exercise_6% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_6() {
+  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
+}
+
+function startTimer_exercise_6() {
+  if (timerInterval_exercise_6=== null) {
+    countdown_exercise_6.classList.add('running');
+    countdown_exercise_6.classList.remove('finished');
+    timerInterval_exercise_6= setInterval(() => {
+      if (timeLeft_exercise_6> 0) {
+        timeLeft_exercise_6--;
+        updateButton_exercise_6();
+      } else {
+        clearInterval(timerInterval_exercise_6);
+        timerInterval_exercise_6= null;
+        countdown_exercise_6.classList.remove('running');
+        countdown_exercise_6.classList.add('finished');
+        countdown_exercise_6.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_6();
+  }
+}
+
+function pauseTimer_exercise_6() {
+  clearInterval(timerInterval_exercise_6);
+  timerInterval_exercise_6= null;
+  countdown_exercise_6.classList.remove('running');
+}
+
+function resetTimer_exercise_6() {
+  timeLeft_exercise_6= seconds_exercise_6;
+  updateButton_exercise_6();
+  countdown_exercise_6.classList.remove('finished');
+  countdown_exercise_6.classList.remove('running');
+  timerInterval_exercise_6= null;
+}
+
+countdown_exercise_6.addEventListener("click", () => {
+  if (countdown_exercise_6.classList.contains('finished')) {
+    resetTimer_exercise_6();
+  } else {
+    startTimer_exercise_6();
+  }
+});
+
+updateButton_exercise_6();
+-->
+</script>
+
+
+---
+### Esercizio #3 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; In media, Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s=11.2$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?} \rightarrow$ &nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \frac{11.2}{\sqrt760}=0.41$
+
+<div>
+
+---
+### Esercizio #3 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; In media, Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s=11.2$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?} \rightarrow$ &nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \frac{11.2}{\sqrt760}=0.41$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $95\% \text{CI} =  (\bar{x} - 2 \times \hat{\text{SE}} ; \bar{x} + 2 \times \hat{\text{SE}} ) =$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $=(11.4 - 2 \times 0.41; 11.4 + 2 \times 0.41) =$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $=(11.4 - 0.82; 11.4 + 0.82) =$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (10.68; 12.22)$
+
+</div>
+
+<!-- Per il CTL e per la legge dei grandi numeri, la media del campione e' la media della popolazione. Se io prendo 2SE a sx della media e 2SE a destra (quindi x +/- 2 SE) ho il 95% di probabilta' di includere il vero valore mu, la media della popolazione
+
+1,96 e' il coefficiente di attendibilita', ci dice entro quanti errori standard si trova il 95% di tutti i possibili valori della media campionaria
+
+Stima intervallare definita come stimatore +/- il prodotto tra coeff di attendibilita' e SE. Questa quantita' si chiama anche PRECISIONE della STIMA o MARGINE DI ERRORE -->
+
+---
+### Esercizio #3 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; In media, Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s=11.2$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?} \rightarrow$ &nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \frac{11.2}{\sqrt760}=0.41$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $95\% \text{CI} = (10.68; 12.22)$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  via Bootstrapping $\rightarrow 95\% \text{CI} = (10.6 ; 12.1)$
+
+</div>
+
+
+---
+## Ma come si interpreta?
 
 <div style="font-size: 90%">
 
+:dart: &nbsp;&nbsp;&nbsp; Se facessimo 100 campionamenti, 95 stimerebbero un  intervallo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  di confidenza che contiene il vero  valore del parametro
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<div style="font-size: 85%">
+
 :pushpin: &nbsp;&nbsp;&nbsp; Popolazione: Donne italiane dai
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25 ai 74 anni
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu=123 \text{ mmHg}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25 ai 74 anni
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu=123 \text{ mmHg}$
 
 </div>
 
@@ -832,19 +1048,19 @@ a confidence interval is the range of population parameters for which our observ
 -->
 
 ---
-### Esercizio #3
+### Esercizio #4
 
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Da un sondaggio, risulta che lo stipendio mensile medio di un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; neolaureato &egrave; 1.400&#8364;, con un 95% CI = (1.200&#8364; ; 1.600&#8364;). 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come interpreto questo risultato?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; neolaureato &egrave; 1.400&#8364;, con un 95% CI = (1.200&#8364; ; 1.600&#8364;). 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come interpreto questo risultato?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) gli stipendi dei neolaureati sono compresi tra i 1.200 ai 1.600&#8364;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) il 95% dei neolaureati riceve tra 1.200 ai 1.600&#8364;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la media degli stipendi dei neolaureati &egrave; ragionevolmente 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compresa tra 1.200 ai 1.600&#8364;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) gli stipendi dei neolaureati sono compresi tra i 1.200 ai 1.600&#8364;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) il 95% dei neolaureati riceve tra 1.200 ai 1.600&#8364;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la media degli stipendi dei neolaureati nella popolazione ha una 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; probabilità del 95% di essere compresa tra 1.200 ai 1.600&#8364;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
 
 </div>
 
@@ -939,38 +1155,197 @@ updateButton_exercise_3();
 
 
 ---
-### Esercizio #3 -- Soluzione
+### Esercizio #4 -- Soluzione
 
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Da un sondaggio, risulta che lo stipendio mensile medio di un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; neolaureato &egrave; 1.400&#8364;, con un 95% CI = (1.200&#8364; ; 1.600&#8364;). 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come interpreto questo risultato?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; neolaureato &egrave; 1.400&#8364;, con un 95% CI = (1.200&#8364; ; 1.600&#8364;). 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come interpreto questo risultato?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) gli stipendi dei neolaureati sono compresi tra i 1.200 ai 1.600&#8364;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) il 95% dei neolaureati riceve tra 1.200 ai 1.600&#8364;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la media degli stipendi dei neolaureati &egrave; ragionevolmente 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compresa tra 1.200 ai 1.600&#8364; &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) gli stipendi dei neolaureati sono compresi tra i 1.200 ai 1.600&#8364;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) il 95% dei neolaureati riceve tra 1.200 ai 1.600&#8364;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la media degli stipendi dei neolaureati nella popolazione  ha una 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; probabilità del 95% di essere compresa tra 1.200 ai 1.600&#8364; &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
 
 </div>
 
+
 ---
-### Esercizio #4
+## Il coefficiente di attendibilit&agrave; $\alpha$ 
+
+:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; ?
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 78%" >
+
+| Livello di confidenza | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| ----: | ----- | ---- | ----|
+| 95% | 5% | 2.5% |  |
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/confidence_intervals/alpha_level.png" img height="400px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- L’intervallo di confidenza (IC) al 95% è il più usato e intuitivamente abbiamo gia' capito da dove deirva il fattore 1.96 (circa 2SE contengono il 95% dei campioni), ma vediamolo in modo piu' formale 
+
+Quando accettiamo un livello di confidenza del 95% accettiamo implicitamente un errore del 5%, distribuito equamente a dx e sx dell'intrevallo di confidenza (in verde), quindi 2.5% per parte -->
+
+---
+## Il coefficiente di attendibilit&agrave; $\alpha$ 
+
+:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; ?
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 78%" >
+
+| Livello di confidenza | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| ----: | ----- | ---- | ----|
+| 95% | 5% | 2.5% |  |
+
+</div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%" >
+
+$100\% - 2.5\% = 97.5\%$ 
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/confidence_intervals/alpha_level.png" img height="400px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!--  e qual e' l'aera di questa parte bianca? E' la totalita' dell'area (1, o 100%) meno l'area bianca (2.5%), quindi 97.5%-->
+
+---
+## Il coefficiente di attendibilit&agrave; $\alpha$ 
+
+:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; $\rightarrow 1.96$
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 78%" >
+
+| Livello di confidenza | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| ----: | ----- | ---- | ----|
+| 95% | 5% | 2.5% |  |
+
+</div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%" >
+
+$100\% - 2.5\% = 97.5\% \rightarrow \mathcal{z} = 1.96$  
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/confidence_intervals/normal_table_zoom2.png" img height="400px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!--  E' qual e' il valore di z per cui la curva sottende un'area del 97.5%? 1.96 (le tavole si possono anche leggere al contrario, non solo da z all'area, ma anche dall'area a z) 
+
+coefficiente di attendibilita'-->
+
+---
+## Il coefficiente di attendibilit&agrave; $\alpha$ 
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 78%" >
+
+| Livello di confidenza | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| ----: | -----: | ---- | ----:|
+| 95% | 5% | 2.5% | 1.96 |
+| 90% | 10% | 5.0% | 1.65 |
+| 99% | 1% | 0.5% | 2.58 |
+
+</div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%" >
+
+$100\% - 2.5\% = 97.5\% \rightarrow \mathcal{z} = 1.96$ 
+$100\% - 5.0\% = 95.0\% \rightarrow \mathcal{z} = 1.65$ 
+$100\% - 0.5\% = 99.5\% \rightarrow \mathcal{z} = 2.58$ 
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:40px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/alpha_level.png" img height="400px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- 95% e' il valore piu' usato, ma altri comuni sono 90 e 99%, a cui corrispondono fattori di attendibilita' di 1.65 e 2.58
+
+Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
+
+
+---
+### Esercizio #5
 
 <div class="columns">
 <div>
 
 <span style="display:block; height:30px;"></span>
 
-<div style="font-size: 80%" >
+<div style="font-size: 79%" >
 
-:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza &egrave; largo
+:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
 
 </div>
 
@@ -1072,7 +1447,7 @@ updateButton_exercise_4();
 </script>
 
 ---
-### Esercizio #4 -- Soluzione
+### Esercizio #5 -- Soluzione
 
 <span style="display:block; height:30px;"></span>
 
@@ -1081,21 +1456,22 @@ updateButton_exercise_4();
 </center>
 
 ---
-### Esercizio #4 -- Soluzione
+### Esercizio #5 -- Soluzione
 
 <div class="columns">
 <div>
 
 <span style="display:block; height:30px;"></span>
 
-<div style="font-size: 80%" >
+<div style="font-size: 79%" >
 
-:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza  &egrave; largo
+:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$ &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$ :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
 
 </div>
 </div>
@@ -1111,7 +1487,7 @@ updateButton_exercise_4();
 
 
 ---
-### Esercizio #5
+### Esercizio #6
 
 <div class="columns">
 <div>
@@ -1120,12 +1496,13 @@ updateButton_exercise_4();
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  &egrave; largo
+:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
 
 </div>
 </div>
@@ -1226,7 +1603,7 @@ updateButton_exercise_5();
 </script>
 
 ---
-### Esercizio #5 -- Soluzione
+### Esercizio #6 -- Soluzione
 
 <span style="display:block; height:30px;"></span>
 
@@ -1235,7 +1612,7 @@ updateButton_exercise_5();
 </center>
 
 ---
-### Esercizio #5 -- Soluzione
+### Esercizio #6 -- Soluzione
 
 <div class="columns">
 <div>
@@ -1244,14 +1621,13 @@ updateButton_exercise_5();
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  &egrave; largo
+:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
 
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
 
 </div>
 </div>
@@ -1266,168 +1642,6 @@ updateButton_exercise_5();
 
 
 
----
-### Esercizio #6
-
-<div style="font-size: 90%" >
-
-> In media, Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; il 95% CI?  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s=11.2$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?}$
-
-</div>
-
-<span style="display:block; height:10px;"></span>
-
-<style>
-  #countdown_exercise_6{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_6.running {
-    background-color: green;
-  }
-  #countdown_exercise_6.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_6"></button>
-
-<script>
-<!--
-const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 300; // seconds_exercise_6
-let timeLeft_exercise_6= seconds_exercise_6;
-let timerInterval_exercise_6= null;
-
-function formatTime_exercise_6(seconds_exercise_6) {
-  const minutes = Math.floor(seconds_exercise_6/ 60);
-  const remainingseconds_exercise_6= seconds_exercise_6% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_6() {
-  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
-}
-
-function startTimer_exercise_6() {
-  if (timerInterval_exercise_6=== null) {
-    countdown_exercise_6.classList.add('running');
-    countdown_exercise_6.classList.remove('finished');
-    timerInterval_exercise_6= setInterval(() => {
-      if (timeLeft_exercise_6> 0) {
-        timeLeft_exercise_6--;
-        updateButton_exercise_6();
-      } else {
-        clearInterval(timerInterval_exercise_6);
-        timerInterval_exercise_6= null;
-        countdown_exercise_6.classList.remove('running');
-        countdown_exercise_6.classList.add('finished');
-        countdown_exercise_6.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_6();
-  }
-}
-
-function pauseTimer_exercise_6() {
-  clearInterval(timerInterval_exercise_6);
-  timerInterval_exercise_6= null;
-  countdown_exercise_6.classList.remove('running');
-}
-
-function resetTimer_exercise_6() {
-  timeLeft_exercise_6= seconds_exercise_6;
-  updateButton_exercise_6();
-  countdown_exercise_6.classList.remove('finished');
-  countdown_exercise_6.classList.remove('running');
-  timerInterval_exercise_6= null;
-}
-
-countdown_exercise_6.addEventListener("click", () => {
-  if (countdown_exercise_6.classList.contains('finished')) {
-    resetTimer_exercise_6();
-  } else {
-    startTimer_exercise_6();
-  }
-});
-
-updateButton_exercise_6();
--->
-</script>
-
-
----
-### Esercizio #6 -- Soluzione
-
-<div style="font-size: 90%" >
-
-> In media, Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
-
-:question: &nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s=11.2$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?} \rightarrow$ &nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \frac{11.2}{\sqrt760}=0.41$
-
-<div>
-
----
-### Esercizio #6 -- Soluzione
-
-<div style="font-size: 90%" >
-
-> In media, Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
-
-:question: &nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s=11.2$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?} \rightarrow$ &nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \frac{11.2}{\sqrt760}=0.41$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $95\% \text{CI} =  (\bar{x} - 2 \times \hat{\text{SE}} ; \bar{x} + 2 \times \hat{\text{SE}} ) =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $=(11.4 - 2 \times 0.41; 11.4 + 2 \times 0.41) =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $=(11.4 - 0.82; 11.4 + 0.82) =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (10.68; 12.22)$
-
-</div>
-
-<!-- Per il CTL e per la legge dei grandi numeri, la media del campione e' la media della popolazione. Se io prendo 2SE a sx della media e 2SE a destra (quindi x +/- 2 SE) ho il 95% di probabilta' di includere il vero valore mu, la media della popolazione
-
-1,96 e' il coefficiente di attendibilita', ci dice entro quanti errori standard si trova il 95% di tutti i possibili valori della media campionaria
-
-Stima intervallare definita come stimatore +/- il prodotto tra coeff di attendibilita' e SE. Questa quantita' si chiama anche PRECISIONE della STIMA o MARGINE DI ERRORE -->
-
----
-### Esercizio #6 -- Soluzione
-
-<div style="font-size: 90%" >
-
-> In media, Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
-
-:question: &nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s=11.2$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?} \rightarrow$ &nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \frac{11.2}{\sqrt760}=0.41$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $95\% \text{CI} = (10.68; 12.22)$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  via Bootstrapping $\rightarrow 95\% \text{CI} = (10.6 ; 12.1)$
-
-</div>
 
 <!--  It is far easier to obtain exact intervals that are based on probability theory and provided in standard software, and Table 9.1 shows they give very similar results. The ‘exact’ intervals based on probability theory require more assumptions than the bootstrap approach, and strictly speaking would only be precisely correct if the underlying population distribution were normal. But the Central Limit Theorem means that with such a large sample size it is reasonable to assume our estimates have got normal distributions and so the exact intervals are acceptable.
 --->
@@ -1438,14 +1652,14 @@ Stima intervallare definita come stimatore +/- il prodotto tra coeff di attendib
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Dato che $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}} \rightarrow$ &nbsp; standard error (SE), 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  come posso restringere l'intervallo di confidenza?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  come posso restringere l'intervallo di confidenza?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) aumentando $n$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) diminuendo $n$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) aumentando $\sigma$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) diminuendo $\sigma$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) non ho abbastanza elementi per rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) aumentando $n$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) diminuendo $n$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) aumentando $\sigma$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) diminuendo $\sigma$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) non ho abbastanza elementi per rispondere
 
 </div>
 
@@ -1541,14 +1755,14 @@ updateButton_exercise_7();
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Dato che $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}} \rightarrow$ &nbsp; standard error (SE), 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  come posso restringere l'intervallo di confidenza?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  come posso restringere l'intervallo di confidenza?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) aumentando $n$ &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) diminuendo $n$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) aumentando $\sigma$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) diminuendo $\sigma$ &nbsp; :ballot_box_with_check:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) non ho abbastanza elementi per rispondere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) aumentando $n$ &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) diminuendo $n$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) aumentando $\sigma$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) diminuendo $\sigma$ &nbsp; :ballot_box_with_check:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) non ho abbastanza elementi per rispondere
 
 </div>
 
@@ -1562,140 +1776,9 @@ Peccato che sigma non la possiamo controllare :)
 
 
 ---
-## Il coefficiente di attendibilit&agrave; $\alpha$ 
-
-:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; ?
-
-<div class="columns">
-<div>
-<span style="display:block; height:10px;"></span>
-<div style="font-size: 90%" >
-
-| Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
-| ----: | ----- | ---- | ----|
-| 95% | 5% | 2.5% |  |
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/alpha_level.png" img height="400px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!-- L’intervallo di confidenza (IC) al 95% è il più usato e intuitivamente abbiamo gia' capito da dove deirva il fattore 1.96 (circa 2SE contengono il 95% dei campioni), ma vediamolo in modo piu' formale 
-
-Quando accettiamo un livello di confidenza del 95% accettiamo implicitamente un errore del 5%, distribuito equamente a dx e sx dell'intrevallo di confidenza (in verde), quindi 2.5% per parte -->
-
----
-## Il coefficiente di attendibilit&agrave; $\alpha$ 
-
-:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; ?
-
-<div class="columns">
-<div>
-<span style="display:block; height:10px;"></span>
-
-<div style="font-size: 90%" >
-
-| Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
-| ----: | ----- | ---- | ----|
-| 95% | 5% | 2.5% |  |
-
-$100\% - 2.5\% = 97.5\%$ 
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/alpha_level.png" img height="400px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!--  e qual e' l'aera di questa parte bianca? E' la totalita' dell'area (1, o 100%) meno l'area bianca (2.5%), quindi 97.5%-->
-
----
-## Il coefficiente di attendibilit&agrave; $\alpha$ 
-
-:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; $\rightarrow 1.96$
-
-<div class="columns">
-<div>
-<span style="display:block; height:10px;"></span>
-<div style="font-size: 90%" >
-
-| Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
-| ----: | ----- | ---- | ----|
-| 95% | 5% | 2.5% | 1.96 |
-
-$100\% - 2.5\% = 97.5\% \rightarrow \mathcal{z} = 1.96$  
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/normal_table_zoom2.png" img height="400px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!--  E' qual e' il valore di z per cui la curva sottende un'area del 97.5%? 1.96 (le tavole si possono anche leggere al contrario, non solo da z all'area, ma anche dall'area a z) 
-
-coefficiente di attendibilita'-->
-
----
-## Il coefficiente di attendibilit&agrave; $\alpha$ 
-
-<div class="columns">
-<div>
-<span style="display:block; height:10px;"></span>
-
-<div style="font-size: 90%" >
-
-| Confidence Level | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
-| ----: | -----: | ---- | ----:|
-| 95% | 5% | 2.5% | 1.96 |
-| 90% | 10% | 5.0% | 1.65 |
-| 99% | 1% | 0.5% | 2.58 |
-
-<span style="display:block; height:10px;"></span>
-
-$100\% - 2.5\% = 97.5\% \rightarrow \mathcal{z} = 1.96$ 
-$100\% - 5.0\% = 95.0\% \rightarrow \mathcal{z} = 1.65$ 
-$100\% - 0.5\% = 99.5\% \rightarrow \mathcal{z} = 2.58$ 
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/alpha_level.png" img height="400px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!-- 95% e' il valore piu' usato, ma altri comuni sono 90 e 99%, a cui corrispondono fattori di attendibilita' di 1.65 e 2.58
-
-Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
-
----
 ## Una regola empirica
 
-&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
+:dart: &nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
 
 
 <!-- A simple rule of thumb is that, if you are estimating the percentage of people who prefer something, and you ask a random sample from a population, then your margin of error (in %) is at most plus or minus 100 divided by the square root of the sample size 
@@ -1706,17 +1789,17 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 ---
 ### Esercizio #8
 
-&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
+:dart: &nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
 
 <div class="columns">
 <div>
 
 <span style="display:block; height:1px;"></span>
 
-<div style="font-size: 85%">
+<div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Calcolate il 95% CI per le due
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; affermazioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; affermazioni
 
 </div>
 
@@ -1822,26 +1905,26 @@ updateButton_exercise_9();
 ---
 ### Esercizio #8 -- Soluzione
 
-&nbsp;&nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
+:dart: &nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
 
 <div class="columns">
 <div>
 
 <span style="display:block; height:1px;"></span>
 
-<div style="font-size: 85%">
+<div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Calcolate il 95% CI per le due
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; affermazioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; affermazioni
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\text{ME} = 100/\sqrt{31} = 18\%$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\text{ME} = 100/\sqrt{31} = 18\%$
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\text{95\% CI}_\text{rughe} = (17-18; 17+18)$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (-1\%, 35\%)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\text{95\% CI}_\text{rughe} = (17-18; 17+18)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (-1\%, 35\%)$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\text{95\% CI}_\text{occhi} = (33-18; 33+18)$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (15\%, 51\%)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\text{95\% CI}_\text{occhi} = (33-18; 33+18)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (15\%, 51\%)$
 
 </div>
 
@@ -1913,11 +1996,11 @@ Meno appuntita al centro e code pi&ugrave; alte
   - considera i gradi di libert&agrave; $(\mathcal{df})$
   - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
   <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$ -->
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$ -->
 
   <br/>
 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ 
 </div>
 
 </div>
@@ -1938,7 +2021,6 @@ Meno appuntita al centro e code pi&ugrave; alte
 <span style="display:block; height:0px;"></span>
 
 <div style="font-size: 85%">
-
 
 - Gli intervalli di confidenza (CI)/margini di errore sono un aspetto importante di come vengono comunicate le statistiche
 - La dimensione del campione influenza la larghezza dei CI
