@@ -859,7 +859,7 @@ Tutti concetti che ci torneranno utili tra poco
 <span style="display:block; height:10px;"></span>
 
 <style>
-  #countdown_exercise_6{
+  #countdown_exercise_3{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -869,77 +869,77 @@ Tutti concetti che ci torneranno utili tra poco
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_6.running {
+  #countdown_exercise_3.running {
     background-color: green;
   }
-  #countdown_exercise_6.finished {
+  #countdown_exercise_3.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_6"></button>
+<button id="countdown_exercise_3"></button>
 
 <script>
 <!--
-const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 300; // seconds_exercise_6
-let timeLeft_exercise_6= seconds_exercise_6;
-let timerInterval_exercise_6= null;
+const countdown_exercise_3= document.getElementById("countdown_exercise_3");
+const seconds_exercise_3= 300; // seconds_exercise_3
+let timeLeft_exercise_3= seconds_exercise_3;
+let timerInterval_exercise_3= null;
 
-function formatTime_exercise_6(seconds_exercise_6) {
-  const minutes = Math.floor(seconds_exercise_6/ 60);
-  const remainingseconds_exercise_6= seconds_exercise_6% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
+function formatTime_exercise_3(seconds_exercise_3) {
+  const minutes = Math.floor(seconds_exercise_3/ 60);
+  const remainingseconds_exercise_3= seconds_exercise_3% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_3).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_6() {
-  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
+function updateButton_exercise_3() {
+  countdown_exercise_3.textContent = formatTime_exercise_3(timeLeft_exercise_3);
 }
 
-function startTimer_exercise_6() {
-  if (timerInterval_exercise_6=== null) {
-    countdown_exercise_6.classList.add('running');
-    countdown_exercise_6.classList.remove('finished');
-    timerInterval_exercise_6= setInterval(() => {
-      if (timeLeft_exercise_6> 0) {
-        timeLeft_exercise_6--;
-        updateButton_exercise_6();
+function startTimer_exercise_3() {
+  if (timerInterval_exercise_3=== null) {
+    countdown_exercise_3.classList.add('running');
+    countdown_exercise_3.classList.remove('finished');
+    timerInterval_exercise_3= setInterval(() => {
+      if (timeLeft_exercise_3> 0) {
+        timeLeft_exercise_3--;
+        updateButton_exercise_3();
       } else {
-        clearInterval(timerInterval_exercise_6);
-        timerInterval_exercise_6= null;
-        countdown_exercise_6.classList.remove('running');
-        countdown_exercise_6.classList.add('finished');
-        countdown_exercise_6.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_3);
+        timerInterval_exercise_3= null;
+        countdown_exercise_3.classList.remove('running');
+        countdown_exercise_3.classList.add('finished');
+        countdown_exercise_3.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_6();
+    pauseTimer_exercise_3();
   }
 }
 
-function pauseTimer_exercise_6() {
-  clearInterval(timerInterval_exercise_6);
-  timerInterval_exercise_6= null;
-  countdown_exercise_6.classList.remove('running');
+function pauseTimer_exercise_3() {
+  clearInterval(timerInterval_exercise_3);
+  timerInterval_exercise_3= null;
+  countdown_exercise_3.classList.remove('running');
 }
 
-function resetTimer_exercise_6() {
-  timeLeft_exercise_6= seconds_exercise_6;
-  updateButton_exercise_6();
-  countdown_exercise_6.classList.remove('finished');
-  countdown_exercise_6.classList.remove('running');
-  timerInterval_exercise_6= null;
+function resetTimer_exercise_3() {
+  timeLeft_exercise_3= seconds_exercise_3;
+  updateButton_exercise_3();
+  countdown_exercise_3.classList.remove('finished');
+  countdown_exercise_3.classList.remove('running');
+  timerInterval_exercise_3= null;
 }
 
-countdown_exercise_6.addEventListener("click", () => {
-  if (countdown_exercise_6.classList.contains('finished')) {
-    resetTimer_exercise_6();
+countdown_exercise_3.addEventListener("click", () => {
+  if (countdown_exercise_3.classList.contains('finished')) {
+    resetTimer_exercise_3();
   } else {
-    startTimer_exercise_6();
+    startTimer_exercise_3();
   }
 });
 
-updateButton_exercise_6();
+updateButton_exercise_3();
 -->
 </script>
 
@@ -1069,7 +1069,7 @@ a confidence interval is the range of population parameters for which our observ
 <!-- Questa differenza di 200 euro a dx e sx della media e' il margine di errore del 95% -->
 
 <style>
-  #countdown_exercise_3{
+  #countdown_exercise_4{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -1079,77 +1079,77 @@ a confidence interval is the range of population parameters for which our observ
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_3.running {
+  #countdown_exercise_4.running {
     background-color: green;
   }
-  #countdown_exercise_3.finished {
+  #countdown_exercise_4.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_3"></button>
+<button id="countdown_exercise_4"></button>
 
 <script>
 <!--
-const countdown_exercise_3= document.getElementById("countdown_exercise_3");
-const seconds_exercise_3= 120; // seconds_exercise_3
-let timeLeft_exercise_3= seconds_exercise_3;
-let timerInterval_exercise_3= null;
+const countdown_exercise_4= document.getElementById("countdown_exercise_4");
+const seconds_exercise_4= 120; // seconds_exercise_4
+let timeLeft_exercise_4= seconds_exercise_4;
+let timerInterval_exercise_4= null;
 
-function formatTime_exercise_3(seconds_exercise_3) {
-  const minutes = Math.floor(seconds_exercise_3/ 60);
-  const remainingseconds_exercise_3= seconds_exercise_3% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_3).padStart(2, '0')}`;
+function formatTime_exercise_4(seconds_exercise_4) {
+  const minutes = Math.floor(seconds_exercise_4/ 60);
+  const remainingseconds_exercise_4= seconds_exercise_4% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_4).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_3() {
-  countdown_exercise_3.textContent = formatTime_exercise_3(timeLeft_exercise_3);
+function updateButton_exercise_4() {
+  countdown_exercise_4.textContent = formatTime_exercise_4(timeLeft_exercise_4);
 }
 
-function startTimer_exercise_3() {
-  if (timerInterval_exercise_3=== null) {
-    countdown_exercise_3.classList.add('running');
-    countdown_exercise_3.classList.remove('finished');
-    timerInterval_exercise_3= setInterval(() => {
-      if (timeLeft_exercise_3> 0) {
-        timeLeft_exercise_3--;
-        updateButton_exercise_3();
+function startTimer_exercise_4() {
+  if (timerInterval_exercise_4=== null) {
+    countdown_exercise_4.classList.add('running');
+    countdown_exercise_4.classList.remove('finished');
+    timerInterval_exercise_4= setInterval(() => {
+      if (timeLeft_exercise_4> 0) {
+        timeLeft_exercise_4--;
+        updateButton_exercise_4();
       } else {
-        clearInterval(timerInterval_exercise_3);
-        timerInterval_exercise_3= null;
-        countdown_exercise_3.classList.remove('running');
-        countdown_exercise_3.classList.add('finished');
-        countdown_exercise_3.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_4);
+        timerInterval_exercise_4= null;
+        countdown_exercise_4.classList.remove('running');
+        countdown_exercise_4.classList.add('finished');
+        countdown_exercise_4.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_3();
+    pauseTimer_exercise_4();
   }
 }
 
-function pauseTimer_exercise_3() {
-  clearInterval(timerInterval_exercise_3);
-  timerInterval_exercise_3= null;
-  countdown_exercise_3.classList.remove('running');
+function pauseTimer_exercise_4() {
+  clearInterval(timerInterval_exercise_4);
+  timerInterval_exercise_4= null;
+  countdown_exercise_4.classList.remove('running');
 }
 
-function resetTimer_exercise_3() {
-  timeLeft_exercise_3= seconds_exercise_3;
-  updateButton_exercise_3();
-  countdown_exercise_3.classList.remove('finished');
-  countdown_exercise_3.classList.remove('running');
-  timerInterval_exercise_3= null;
+function resetTimer_exercise_4() {
+  timeLeft_exercise_4= seconds_exercise_4;
+  updateButton_exercise_4();
+  countdown_exercise_4.classList.remove('finished');
+  countdown_exercise_4.classList.remove('running');
+  timerInterval_exercise_4= null;
 }
 
-countdown_exercise_3.addEventListener("click", () => {
-  if (countdown_exercise_3.classList.contains('finished')) {
-    resetTimer_exercise_3();
+countdown_exercise_4.addEventListener("click", () => {
+  if (countdown_exercise_4.classList.contains('finished')) {
+    resetTimer_exercise_4();
   } else {
-    startTimer_exercise_3();
+    startTimer_exercise_4();
   }
 });
 
-updateButton_exercise_3();
+updateButton_exercise_4();
 -->
 </script>
 
@@ -1362,7 +1362,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 <span style="display:block; height:20px;"></span>
 
 <style>
-  #countdown_exercise_4{
+  #countdown_exercise_5{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -1372,77 +1372,77 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_4.running {
+  #countdown_exercise_5.running {
     background-color: green;
   }
-  #countdown_exercise_4.finished {
+  #countdown_exercise_5.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_4"></button>
+<button id="countdown_exercise_5"></button>
 
 <script>
 <!--
-const countdown_exercise_4= document.getElementById("countdown_exercise_4");
-const seconds_exercise_4= 60; // seconds_exercise_4
-let timeLeft_exercise_4= seconds_exercise_4;
-let timerInterval_exercise_4= null;
+const countdown_exercise_5= document.getElementById("countdown_exercise_5");
+const seconds_exercise_5= 120; // seconds_exercise_5
+let timeLeft_exercise_5= seconds_exercise_5;
+let timerInterval_exercise_5= null;
 
-function formatTime_exercise_4(seconds_exercise_4) {
-  const minutes = Math.floor(seconds_exercise_4/ 60);
-  const remainingseconds_exercise_4= seconds_exercise_4% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_4).padStart(2, '0')}`;
+function formatTime_exercise_5(seconds_exercise_5) {
+  const minutes = Math.floor(seconds_exercise_5/ 60);
+  const remainingseconds_exercise_5= seconds_exercise_5% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_4() {
-  countdown_exercise_4.textContent = formatTime_exercise_4(timeLeft_exercise_4);
+function updateButton_exercise_5() {
+  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
 }
 
-function startTimer_exercise_4() {
-  if (timerInterval_exercise_4=== null) {
-    countdown_exercise_4.classList.add('running');
-    countdown_exercise_4.classList.remove('finished');
-    timerInterval_exercise_4= setInterval(() => {
-      if (timeLeft_exercise_4> 0) {
-        timeLeft_exercise_4--;
-        updateButton_exercise_4();
+function startTimer_exercise_5() {
+  if (timerInterval_exercise_5=== null) {
+    countdown_exercise_5.classList.add('running');
+    countdown_exercise_5.classList.remove('finished');
+    timerInterval_exercise_5= setInterval(() => {
+      if (timeLeft_exercise_5> 0) {
+        timeLeft_exercise_5--;
+        updateButton_exercise_5();
       } else {
-        clearInterval(timerInterval_exercise_4);
-        timerInterval_exercise_4= null;
-        countdown_exercise_4.classList.remove('running');
-        countdown_exercise_4.classList.add('finished');
-        countdown_exercise_4.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_5);
+        timerInterval_exercise_5= null;
+        countdown_exercise_5.classList.remove('running');
+        countdown_exercise_5.classList.add('finished');
+        countdown_exercise_5.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_4();
+    pauseTimer_exercise_5();
   }
 }
 
-function pauseTimer_exercise_4() {
-  clearInterval(timerInterval_exercise_4);
-  timerInterval_exercise_4= null;
-  countdown_exercise_4.classList.remove('running');
+function pauseTimer_exercise_5() {
+  clearInterval(timerInterval_exercise_5);
+  timerInterval_exercise_5= null;
+  countdown_exercise_5.classList.remove('running');
 }
 
-function resetTimer_exercise_4() {
-  timeLeft_exercise_4= seconds_exercise_4;
-  updateButton_exercise_4();
-  countdown_exercise_4.classList.remove('finished');
-  countdown_exercise_4.classList.remove('running');
-  timerInterval_exercise_4= null;
+function resetTimer_exercise_5() {
+  timeLeft_exercise_5= seconds_exercise_5;
+  updateButton_exercise_5();
+  countdown_exercise_5.classList.remove('finished');
+  countdown_exercise_5.classList.remove('running');
+  timerInterval_exercise_5= null;
 }
 
-countdown_exercise_4.addEventListener("click", () => {
-  if (countdown_exercise_4.classList.contains('finished')) {
-    resetTimer_exercise_4();
+countdown_exercise_5.addEventListener("click", () => {
+  if (countdown_exercise_5.classList.contains('finished')) {
+    resetTimer_exercise_5();
   } else {
-    startTimer_exercise_4();
+    startTimer_exercise_5();
   }
 });
 
-updateButton_exercise_4();
+updateButton_exercise_5();
 -->
 </script>
 
@@ -1518,7 +1518,7 @@ updateButton_exercise_4();
 <span style="display:block; height:20px;"></span>
 
 <style>
-  #countdown_exercise_5{
+  #countdown_exercise_6{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -1528,77 +1528,77 @@ updateButton_exercise_4();
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_5.running {
+  #countdown_exercise_6.running {
     background-color: green;
   }
-  #countdown_exercise_5.finished {
+  #countdown_exercise_6.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_5"></button>
+<button id="countdown_exercise_6"></button>
 
 <script>
 <!--
-const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 60; // seconds_exercise_5
-let timeLeft_exercise_5= seconds_exercise_5;
-let timerInterval_exercise_5= null;
+const countdown_exercise_6= document.getElementById("countdown_exercise_6");
+const seconds_exercise_6= 120; // seconds_exercise_6
+let timeLeft_exercise_6= seconds_exercise_6;
+let timerInterval_exercise_6= null;
 
-function formatTime_exercise_5(seconds_exercise_5) {
-  const minutes = Math.floor(seconds_exercise_5/ 60);
-  const remainingseconds_exercise_5= seconds_exercise_5% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
+function formatTime_exercise_6(seconds_exercise_6) {
+  const minutes = Math.floor(seconds_exercise_6/ 60);
+  const remainingseconds_exercise_6= seconds_exercise_6% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_5() {
-  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
+function updateButton_exercise_6() {
+  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
 }
 
-function startTimer_exercise_5() {
-  if (timerInterval_exercise_5=== null) {
-    countdown_exercise_5.classList.add('running');
-    countdown_exercise_5.classList.remove('finished');
-    timerInterval_exercise_5= setInterval(() => {
-      if (timeLeft_exercise_5> 0) {
-        timeLeft_exercise_5--;
-        updateButton_exercise_5();
+function startTimer_exercise_6() {
+  if (timerInterval_exercise_6=== null) {
+    countdown_exercise_6.classList.add('running');
+    countdown_exercise_6.classList.remove('finished');
+    timerInterval_exercise_6= setInterval(() => {
+      if (timeLeft_exercise_6> 0) {
+        timeLeft_exercise_6--;
+        updateButton_exercise_6();
       } else {
-        clearInterval(timerInterval_exercise_5);
-        timerInterval_exercise_5= null;
-        countdown_exercise_5.classList.remove('running');
-        countdown_exercise_5.classList.add('finished');
-        countdown_exercise_5.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_6);
+        timerInterval_exercise_6= null;
+        countdown_exercise_6.classList.remove('running');
+        countdown_exercise_6.classList.add('finished');
+        countdown_exercise_6.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_5();
+    pauseTimer_exercise_6();
   }
 }
 
-function pauseTimer_exercise_5() {
-  clearInterval(timerInterval_exercise_5);
-  timerInterval_exercise_5= null;
-  countdown_exercise_5.classList.remove('running');
+function pauseTimer_exercise_6() {
+  clearInterval(timerInterval_exercise_6);
+  timerInterval_exercise_6= null;
+  countdown_exercise_6.classList.remove('running');
 }
 
-function resetTimer_exercise_5() {
-  timeLeft_exercise_5= seconds_exercise_5;
-  updateButton_exercise_5();
-  countdown_exercise_5.classList.remove('finished');
-  countdown_exercise_5.classList.remove('running');
-  timerInterval_exercise_5= null;
+function resetTimer_exercise_6() {
+  timeLeft_exercise_6= seconds_exercise_6;
+  updateButton_exercise_6();
+  countdown_exercise_6.classList.remove('finished');
+  countdown_exercise_6.classList.remove('running');
+  timerInterval_exercise_6= null;
 }
 
-countdown_exercise_5.addEventListener("click", () => {
-  if (countdown_exercise_5.classList.contains('finished')) {
-    resetTimer_exercise_5();
+countdown_exercise_6.addEventListener("click", () => {
+  if (countdown_exercise_6.classList.contains('finished')) {
+    resetTimer_exercise_6();
   } else {
-    startTimer_exercise_5();
+    startTimer_exercise_6();
   }
 });
 
-updateButton_exercise_5();
+updateButton_exercise_6();
 -->
 </script>
 
@@ -1687,7 +1687,7 @@ updateButton_exercise_5();
 <script>
 <!--
 const countdown_exercise_7= document.getElementById("countdown_exercise_7");
-const seconds_exercise_7= 60; // seconds_exercise_7
+const seconds_exercise_7= 120; // seconds_exercise_7
 let timeLeft_exercise_7= seconds_exercise_7;
 let timerInterval_exercise_7= null;
 
@@ -1806,7 +1806,7 @@ Peccato che sigma non la possiamo controllare :)
 <span style="display:block; height:150px;"></span>
 
 <style>
-  #countdown_exercise_9{
+  #countdown_exercise_8{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -1816,77 +1816,77 @@ Peccato che sigma non la possiamo controllare :)
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_9.running {
+  #countdown_exercise_8.running {
     background-color: green;
   }
-  #countdown_exercise_9.finished {
+  #countdown_exercise_8.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_9"></button>
+<button id="countdown_exercise_8"></button>
 
 <script>
 <!--
-const countdown_exercise_9= document.getElementById("countdown_exercise_9");
-const seconds_exercise_9= 300; // seconds_exercise_9
-let timeLeft_exercise_9= seconds_exercise_9;
-let timerInterval_exercise_9= null;
+const countdown_exercise_8= document.getElementById("countdown_exercise_8");
+const seconds_exercise_8= 300; // seconds_exercise_8
+let timeLeft_exercise_8= seconds_exercise_8;
+let timerInterval_exercise_8= null;
 
-function formatTime_exercise_9(seconds_exercise_9) {
-  const minutes = Math.floor(seconds_exercise_9/ 60);
-  const remainingseconds_exercise_9= seconds_exercise_9% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_9).padStart(2, '0')}`;
+function formatTime_exercise_8(seconds_exercise_8) {
+  const minutes = Math.floor(seconds_exercise_8/ 60);
+  const remainingseconds_exercise_8= seconds_exercise_8% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_8).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_9() {
-  countdown_exercise_9.textContent = formatTime_exercise_9(timeLeft_exercise_9);
+function updateButton_exercise_8() {
+  countdown_exercise_8.textContent = formatTime_exercise_8(timeLeft_exercise_8);
 }
 
-function startTimer_exercise_9() {
-  if (timerInterval_exercise_9=== null) {
-    countdown_exercise_9.classList.add('running');
-    countdown_exercise_9.classList.remove('finished');
-    timerInterval_exercise_9= setInterval(() => {
-      if (timeLeft_exercise_9> 0) {
-        timeLeft_exercise_9--;
-        updateButton_exercise_9();
+function startTimer_exercise_8() {
+  if (timerInterval_exercise_8=== null) {
+    countdown_exercise_8.classList.add('running');
+    countdown_exercise_8.classList.remove('finished');
+    timerInterval_exercise_8= setInterval(() => {
+      if (timeLeft_exercise_8> 0) {
+        timeLeft_exercise_8--;
+        updateButton_exercise_8();
       } else {
-        clearInterval(timerInterval_exercise_9);
-        timerInterval_exercise_9= null;
-        countdown_exercise_9.classList.remove('running');
-        countdown_exercise_9.classList.add('finished');
-        countdown_exercise_9.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_8);
+        timerInterval_exercise_8= null;
+        countdown_exercise_8.classList.remove('running');
+        countdown_exercise_8.classList.add('finished');
+        countdown_exercise_8.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_9();
+    pauseTimer_exercise_8();
   }
 }
 
-function pauseTimer_exercise_9() {
-  clearInterval(timerInterval_exercise_9);
-  timerInterval_exercise_9= null;
-  countdown_exercise_9.classList.remove('running');
+function pauseTimer_exercise_8() {
+  clearInterval(timerInterval_exercise_8);
+  timerInterval_exercise_8= null;
+  countdown_exercise_8.classList.remove('running');
 }
 
-function resetTimer_exercise_9() {
-  timeLeft_exercise_9= seconds_exercise_9;
-  updateButton_exercise_9();
-  countdown_exercise_9.classList.remove('finished');
-  countdown_exercise_9.classList.remove('running');
-  timerInterval_exercise_9= null;
+function resetTimer_exercise_8() {
+  timeLeft_exercise_8= seconds_exercise_8;
+  updateButton_exercise_8();
+  countdown_exercise_8.classList.remove('finished');
+  countdown_exercise_8.classList.remove('running');
+  timerInterval_exercise_8= null;
 }
 
-countdown_exercise_9.addEventListener("click", () => {
-  if (countdown_exercise_9.classList.contains('finished')) {
-    resetTimer_exercise_9();
+countdown_exercise_8.addEventListener("click", () => {
+  if (countdown_exercise_8.classList.contains('finished')) {
+    resetTimer_exercise_8();
   } else {
-    startTimer_exercise_9();
+    startTimer_exercise_8();
   }
 });
 
-updateButton_exercise_9();
+updateButton_exercise_8();
 -->
 </script>
 

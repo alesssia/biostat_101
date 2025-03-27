@@ -271,7 +271,7 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 <script>
 <!--
 const countdown_exercise_2= document.getElementById("countdown_exercise_2");
-const seconds_exercise_2= 60; // seconds_exercise_2
+const seconds_exercise_2= 120; // seconds_exercise_2
 let timeLeft_exercise_2= seconds_exercise_2;
 let timerInterval_exercise_2= null;
 
@@ -1906,7 +1906,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 Boxplot hides the underlying distribution. Use jitter if low number of data points, or use violin with bigger data. Leggermente bimodale -->
 
 ---
-### Esercizio #9
+### Esercizio #10
 
 <div style="font-size: 90%">
 
@@ -1918,7 +1918,7 @@ resulting in the National Sexual Attitudes and Lifestyle Survey (Natsal) which h
  -->
 
 ---
-### Esercizio #9
+### Esercizio #10
 
 <div style="font-size: 90%">
 
@@ -2051,7 +2051,7 @@ updateButton_think();
 -->
 
 ---
-### Esercizio #9
+### Esercizio #10
 
 <div style="font-size: 90%">
 
@@ -2180,7 +2180,7 @@ updateButton_pair();
 </div>
 
 ---
-### Esercizio #9
+### Esercizio #10
 
 <div style="font-size: 90%">
 
@@ -2322,7 +2322,7 @@ So why are men reporting so many more partners than women in this age group of 3
 -->
 
 ---
-### Esercizio #9 (bis)
+### Esercizio #10 (bis)
 
 <div style="font-size: 90%">
 

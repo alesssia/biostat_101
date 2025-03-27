@@ -200,7 +200,7 @@ Il metodo scientifico si basa sulla falsificazione delle ipotesi (K. Popper), in
 <script>
 <!--
 const countdown_exercise_1= document.getElementById("countdown_exercise_1");
-const seconds_exercise_1= 60; // seconds_exercise_1
+const seconds_exercise_1= 120; // seconds_exercise_1
 let timeLeft_exercise_1= seconds_exercise_1;
 let timerInterval_exercise_1= null;
 
@@ -334,7 +334,7 @@ Tomazini, B.M., *et al.*, "Effect of dexamethasone on days alive and ventilator-
 <script>
 <!--
 const countdown_exercise_2= document.getElementById("countdown_exercise_2");
-const seconds_exercise_2= 60; // seconds_exercise_2
+const seconds_exercise_2= 120; // seconds_exercise_2
 let timeLeft_exercise_2= seconds_exercise_2;
 let timerInterval_exercise_2= null;
 
@@ -1119,7 +1119,7 @@ Stiamo usando il $t$-test$^{(*)}$ della differenza di due medie campionarie e no
 
 </div>
 
-<span style="display:block; height:70px;"></span>
+<span style="display:block; height:40px;"></span>
 
 <style>
   #countdown_exercise_4{
@@ -1202,10 +1202,9 @@ countdown_exercise_4.addEventListener("click", () => {
   }
 });
 
-updateButton_4();
+updateButton_exercise_4();
 -->
 </script>
-
 
 ---
 ### Esercizio #4 -- Soluzione
