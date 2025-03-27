@@ -8,7 +8,7 @@ font.size <- 22
 graphic.settings <- theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) +  theme(legend.title = element_blank()) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size))
 
 
-setwd("/Users/visconti/Documents/Teaching/biostat_101/slide/img/normal_and_CLT")
+setwd("/Users/visconti/Documents/Teaching/biostat_101/slide/img/normal")
 
 load("/Users/visconti/Documents/Research/2015/random/avisconti/birthWeight/data/BirthData.RData")
 admin <- read.csv("/Users/visconti/Documents/Research/2015/random/avisconti/birthWeight/data/birth/admin.csv")
@@ -73,6 +73,8 @@ png("Twin_BW_normale_area_exercise.png")
 print(p2)
 dev.off()
 
+
+
 # getlimit <- function(p, sd, ann)
 # {
 # 	l <- mean(df$Bweight) - sd * sd(df$Bweight)
@@ -89,4 +91,64 @@ dev.off()
 # png("Twin_BW_normale_1s.png")
 # print(p)
 # dev.off()
+
+
+
+clean()
+set.seed(42)
+
+library(ggplot2)
+library(gridExtra)
+
+font.size <- 22
+graphic.settings <- theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) +  theme(legend.title = element_blank()) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size))
+
+
+
+sd <- 1
+mean <- 4
+start <- 0
+end <- 8
+
+p <-   ggplot(data = data.frame(x = c(start, end)), aes(x)) +
+    
+	#Areas + normal
+	stat_function(fun = dnorm, n = 101, args = list(mean = mean, sd = sd), geom = "area", fill="white", alpha=1, xlim = c(start, mean-0.67*sd)) +
+	stat_function(fun = dnorm, n = 101, args = list(mean = mean, sd = sd), geom = "area", fill="white", alpha=1, xlim = c(mean-0.67*sd, mean+0.67*sd)) + 
+	stat_function(fun = dnorm, n = 101, args = list(mean = mean, sd = sd), geom = "area", fill="firebrick", alpha=0.2, xlim = c(mean+0.67*sd, end)) + 
+	stat_function(fun = dnorm, n = 101, args = list(mean = mean, sd = sd), colour="black") + ylab("") +
+	geom_segment(aes(x = start, y = 0, xend = end, yend = 0), colour="black") +
+	
+	#area borders
+	geom_segment(aes(x = mean, y = 0, xend = mean, yend = dnorm(mean, mean=mean, sd = sd)), colour="black", linetype="dashed") +
+	geom_segment(aes(x = mean-0.67*sd, y = 0, xend = mean-0.67*sd, yend = dnorm(mean-0.67*sd, mean=mean, sd = sd)), colour="black", linetype="dashed") +
+	geom_segment(aes(x = mean+0.67*sd, y = 0, xend = mean+0.67*sd, yend = dnorm(mean+0.67*sd, mean=mean, sd = sd)), colour="black", linetype="dashed") +
+	
+	#X axis
+	annotate("text", x = mean-0.67*sd, y = -0.01, label = "Q1", parse = FALSE, size=4) +
+	annotate("text", x = mean,    y = -0.01, label = "Q2", parse = FALSE, size=4) +
+	annotate("text", x = mean+0.67*sd, y = -0.01, label = "Q3", parse = FALSE, size=4) +
+	
+	#Arrows
+	geom_segment(aes(x = start, y = -0.03, xend = mean-0.67*sd, yend = -0.03), arrow = arrow(length = unit(0.2, "cm"), ends="both"), colour="black") +
+	annotate("text", x = (mean-0.67*sd)/2, y=-0.05, label = "25%", parse = FALSE, size=5) +
+	
+	geom_segment(aes(x = mean-0.67*sd, y = -0.03, xend = mean, yend = -0.03), arrow = arrow(length = unit(0.2, "cm"), ends="both"), colour="black") +
+	annotate("text", x = mean-(0.67*sd/2), y=-0.05, label = "25%", parse = FALSE, size=5) + 
+	
+	geom_segment(aes(x = mean, y = -0.03, xend = mean+0.67*sd, yend = -0.03), arrow = arrow(length = unit(0.2, "cm"), ends="both"), colour="black") +
+	annotate("text", x = mean+(0.67*sd/2), y=-0.05, label = "25%", parse = FALSE, size=5) +
+	
+	geom_segment(aes(x = mean+0.67*sd, y = -0.03, xend = end, yend = -0.03), arrow = arrow(length = unit(0.2, "cm"), ends="both"), colour="black") +
+	annotate("text", x = mean+(mean+0.67*sd)/2, y=-0.05, label = "25%", parse = FALSE, size=5)
+	
+	
+p <- p + xlim(start, end) + scale_y_continuous(breaks = NULL) + theme_void()
+
+
+png("Ex_Q3.png", width=500, height=250)
+print(p)
+dev.off()
+
+
 
