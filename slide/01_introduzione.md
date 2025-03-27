@@ -1,9 +1,10 @@
 ---
-marp: true
 theme: gaia
 _class: lead
 paginate: false
-
+marp: true
+backgroundColor: #FAFAFA
+color: black
 
 style: |
   .columns {
@@ -14,7 +15,14 @@ style: |
 
 ---
 
-### Lezione 1 
+<style>
+section {
+ font-family:  'Atkinson Hyperlegible', 'Helvetica', 'Arial', sans-serif;
+}
+</style>
+
+
+<!-- ### Lezione 1  -->
 # Introduzione
 ## &nbsp;
 
@@ -357,110 +365,6 @@ updateButton_share();
 
 Cosa vuol dire "fino al"? Se eliminasse il 10% dei batteri e raggiungesse il 20% della bocca, questo annuncio sarebbe ancora vero, o lo dobbiamo segnalare per pubblicita' ingannevole? Unico modo per renderlo falso e' che elimini tutti batteri e raggiunga piu' di tutta la bocca (due condizioni abbastanza improbabili, nel primo caso, o impossibili, nel secondo) -->
 
----
-## Cosa ci dice questo grafico?
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/introduction/autism.png" img height="420px" border="4px"/>
-</center>
-
-<div style="font-size: 50%" align="right">
-
-Jensen, C.M., *et al*, *Time Trends Over 16 Years in Incidence-Rates of Autism Spectrum Disorders Across the Lifespan Based on Nationwide Danish Register Data*. J Autism Dev Disord (2014). doi:10.1007/s10803-014-2053-6
-
-</div>
-
-<!-- DESCRIVERE BENE IL GRAFICO
-
- Better diagnostic practices may explain these large hikes in incidence. 
-“There’s much more awareness of autism. There’s much more screening going on. And the newer generation of clinicians are being trained in this so they are more likely to see it.”
-
-This increased attention to autism and its symptoms may also explain the rise in diagnoses of teenagers and adults.
-“If the incidence [in adults] is increasing, it just has to do with recognition of cases that have been missed up to that age,” Fombonne says. “It cannot be that you develop autism at age 50.”
- -->
-
----
-## Evitiamo quindi di dire...
-
-<span style="display:block; height:90px;"></span>
-
-<center>
-<img src="./img/introduction/autism_epidemic.png" img height="220px" border="4px"/>
-</center>
-
-<!-- Andando ad interpretare il grafico correttamente, evitiamo di dire corbellerie, come che c'e' un epidemia di autismo (magari causata dai vaccini) -->
-
----
-## Come prosegue questo grafico?
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:10px;"></span>
-
-<center>
-<img src="./img/introduction/Lefthandness_covered.png" img height="450px" border="4px"/>
-</center>
-
-</div>
-<div>
-
-
-</div>
-</div>
-
-<!--  DESCRIVERE BENE IL GRAFICO Come prosegue questa curva? -->
-
----
-## Cosa ci dice questo grafico?
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:10px;"></span>
-
-<center>
-<img src="./img/introduction/Lefthandness.png" img height="450px" border="4px"/>
-</center>
-
-</div>
-<div>
-
-
-</div>
-</div>
-
-<!-- Cosa sta succedendo? Che messaggio avrei potuto passare se avessi interrotto la serie temporale al 1940, invece di proseguire sino ai giorni nostri?
-
-Quali sono le cause di questa curva? -->
-
----
-## Educazione civica, 1935 (ca.)
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:10px;"></span>
-
-<center>
-<img src="./img/introduction/Lefthandness.png" img height="450px" border="4px"/>
-</center>
-
-</div>
-<div>
-
-<span style="display:block; height:10px;"></span>
-
-<center>
-<img src="./img/introduction/lefthandess_2.jpeg" img height="450px" border="4px"/>
-</center>
-
-</div>
-</div>
-
- <!-- Ricordiamoci che per interpretare i numeri dobbiamo anche usare le nostre conoscenze sul problema in questione. om qiesyp caso sulle norme sociali che forzavano i mancini a "correggersi" --> -->
 
 ---
 ## Cicogne e bambini
@@ -488,7 +392,7 @@ Artefatto dovuto alla doppia scala, vado a trasformare le due distribuzioni empi
 ---
 ## Cosa ne concludete?
 
-<span style="display:block; height:1px;"></span>
+<span style="display:block; height:0px;"></span>
 
 - Le donne inglesi, che consumano grandi quantit&agrave; di latte, sviluppano alcuni tipi di tumore con 18 volte pi&ugrave; frequenza delle donne giapponesi, che raramente lo bevono
 * Solitamente i tumori si manifestano in tarda et&agrave;
@@ -553,7 +457,7 @@ The numbers have no way of speaking for themselves. We speak for them. We imbue 
 
 <span style="display:block; height:60px;"></span>
 
-> Perch&eacute; i soldati al fronte muoiono?
+- Perch&eacute; i soldati al fronte muoiono?
 
 <!-- Ma i numeri non ci ingannano solo, ci permettono anche di rispondere a delle domande e prendere delle decisioni -->
 
@@ -634,7 +538,7 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 
 <span style="display:block; height:60px;"></span>
 
-> Perch&eacute; i soldati, al fronte, muoiono?
+- Perch&eacute; i soldati al fronte muoiono?
 
 </div>
 <div>
@@ -690,7 +594,7 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 <!-- Questo vuol dire anche andarli a presentare con altri numeri (statistiche) o con rappresentazioni grafiche, come vedremo la prossima lezione -->
 
 ---
-## Finalmente possiamo trarre delle conclusioni
+### Finalmente possiamo trarre delle conclusioni
 
 <span style="display:block; height:1px;"></span>
 
