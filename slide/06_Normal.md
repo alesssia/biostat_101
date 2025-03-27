@@ -1604,7 +1604,7 @@ updateButton_exercise_7();
 <span style="display:block; height:5px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/tdist.png" img height="450px" border="4px"/>
+<img src="./img/normal/tdist.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -1648,7 +1648,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 <span style="display:block; height:5px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/tdist.png" img height="450px" border="4px"/>
+<img src="./img/normal/tdist.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -1684,7 +1684,7 @@ All’aumentare di n (e dei GdL) la stima di sigma attraverso s è sempre più a
 <div>
 
 <center>
-<img src="./img/confidence_intervals/tdist_table.png" img height="550px" border="4px"/>
+<img src="./img/normal/tdist_table.png" img height="550px" border="4px"/>
 </center>
 
 </div>
@@ -1717,7 +1717,7 @@ Attenzione sempre al fatto che la distribuzione di t è diversa per ciascuno dei
 <div>
 
 <center>
-<img src="./img/confidence_intervals/tdist_table_zoom.png" img height="550px" border="4px"/>
+<img src="./img/normal/tdist_table_zoom.png" img height="550px" border="4px"/>
 </center>
 
 </div>

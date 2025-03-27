@@ -1822,7 +1822,7 @@ updateButton_exercise_6();
 <span style="display:block; height:20px;"></span>
 
 <center>
-<img src="./img/sampling/abstract_methods_ex1.png" img height="250px"  border="4px"/>
+<img src="./img/hypothesis_testing/abstract_methods_ex1.png" img height="250px"  border="4px"/>
 </center>
 
 
@@ -3213,16 +3213,6 @@ Falsa | Errore di <br/>II tipo   |   |
 
 <!-- Two types of mistake are therefore possible: a Type I error is made when we reject a null hypothesis when it is true, and a Type II error is made when we do not reject a null hypothesis when in fact the alternative hypothesis holds. -->
 
-<!-- ---
-## Errori dei test statistici 
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/COVID-test.png" img height="450px" border="0px"/>
-</center> -->
-
-<!-- Un altro modo di vedere questi errori e' in termine di Specificita' e sensitivita. Un test che e' specifico e' un test che ha pochi falsi positivi (se il test e' positivo, molto probabilmente ho il COVID). Un test che e' sensibile, invece ha pochi falsi negativi (se e' negativo molto probabilmente non ho preso il covid). Qiesto test e' invece molto specifico (pochi falsi positivi) ma anche poco sensibile (molti falsi negativim, in cui il test e' negativo ma io il COVID ce l'ho)   -->
 
 --- 
 ### Esercizio #8

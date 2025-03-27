@@ -1962,7 +1962,7 @@ updateButton_exercise_9();
 <span style="display:block; height:5px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/tdist.png" img height="450px" border="4px"/>
+<img src="./img/normal/tdist.png" img height="450px" border="4px"/>
 </center>
 
 </div>
@@ -2007,7 +2007,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 <div>
 
 <center>
-<img src="./img/confidence_intervals/tdist_table_zoom.png" img height="550px" border="4px"/>
+<img src="./img/normal/tdist_table_zoom.png" img height="550px" border="4px"/>
 </center>
 
 </div>
