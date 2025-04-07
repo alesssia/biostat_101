@@ -391,27 +391,32 @@ piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tien
 <!-- che nella varianza l'unità di misura è diversa da quella della variabile su cui è calcolata (abbiamo fatto il quadrato delle differenze, ricordate?), si utilizza la sua radice quadrata detta SCARTO QUADRATICO MEDIO o deviazione standard.
 
 Esempio lunghezza della degenza, giorni e giorni^2
+
+Ci dice la distanza tipica di tutte le misurazioni dalla media
  -->
 
 ---
 ### Esercizio #5
 
-<span style="display:block; height:1px;"></span>
+<div style="font-size: 73%">
 
-<div style="font-size: 90%">
-
-:question: &nbsp;&nbsp;&nbsp; La deviazione standard &egrave; un indice di dispersione?
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; La moda &egrave; una misura di tendenza centrale?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso
-
-:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi?
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
-</div>
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
-<span style="display:block; height:20px;"></span>
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+
+</div>
 
 --- 
 ## I valori estremi
@@ -802,7 +807,7 @@ Boxplot hides the underlying distribution. Use jitter if low number of data poin
 
 <div style="font-size: 90%">
 
-> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 <!-- The purpose of this question is not simply to be nosey about people’s private lives. When AIDS first became a serious concern in the 1980s, public health officials realized that there was no reliable evidence about sexual behaviour in Britain, particularly in terms of the frequency with which people changed partners, how many had multiple simultaneous partners, and what sexual practices people engaged in. This knowledge was essential to predict the spread of sexually transmitted diseases through society and to plan health services
 
@@ -814,7 +819,7 @@ resulting in the National Sexual Attitudes and Lifestyle Survey (Natsal) which h
 
 <div style="font-size: 90%">
 
-> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -890,7 +895,7 @@ Multimodale, particolarmente accentuato sull'1 -->
 
 <div style="font-size: 78%">
 
-> Cosa è successo ai bambini sottoposti a interventi cardiochirugici in alcuni ospedali britannici tra il 1984 e il 1995?
+Cosa &egrave; successo ai bambini sottoposti a interventi cardiochirugici in alcuni ospedali britannici tra il 1984 e il 1995?
 
 </div>
 
@@ -1120,6 +1125,22 @@ Pearson's correlation coefficient
 
 
 </center>
+
+---
+### Esercizio #11
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; La media nella popolazione viene indicata con...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) M 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) m
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $\bar{x}$ 
+
+</div>
 
 ---
 ### Cosa abbiamo imparato in questa lezione?

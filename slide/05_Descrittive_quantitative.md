@@ -874,22 +874,25 @@ Esempio lunghezza della degenza, giorni e giorni^2
 ---
 ### Esercizio #5
 
-<span style="display:block; height:1px;"></span>
+<div style="font-size: 73%">
 
-<div style="font-size: 90%">
-
-:question: &nbsp;&nbsp;&nbsp; La deviazione standard &egrave; un indice di dispersione?
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; La moda &egrave; una misura di tendenza centrale?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso
-
-:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi?
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
-</div>
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
-<span style="display:block; height:20px;"></span>
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+
+</div>
 
 <style>
   #countdown_exercise_5{
@@ -915,7 +918,7 @@ Esempio lunghezza della degenza, giorni e giorni^2
 <script>
 <!--
 const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 120; // seconds_exercise_5
+const seconds_exercise_5= 240; // seconds_exercise_5
 let timeLeft_exercise_5= seconds_exercise_5;
 let timerInterval_exercise_5= null;
 
@@ -980,53 +983,109 @@ updateButton_exercise_5();
 ---
 ### Esercizio #5 -- Soluzione
 
-<span style="display:block; height:1px;"></span>
+<div style="font-size: 73%">
 
-<div style="font-size: 90%">
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
 
-:question: &nbsp;&nbsp;&nbsp; La deviazione standard &egrave; un indice di dispersione?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
-:question: &nbsp;&nbsp;&nbsp; La moda &egrave; una misura di tendenza centrale?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero   &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
-:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi?
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
 </div>
 
 ---
 ### Esercizio #5 -- Soluzione
 
-<span style="display:block; height:1px;"></span>
+<div style="font-size: 73%">
 
-<div style="font-size: 90%">
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
 
-:question: &nbsp;&nbsp;&nbsp; La deviazione standard &egrave; un indice di dispersione?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
 
-:question: &nbsp;&nbsp;&nbsp; La moda &egrave; una misura di tendenza centrale?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
-:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi?
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
 </div>
 
 ---
 ### Esercizio #5 -- Soluzione
 
-<span style="display:block; height:1px;"></span>
+<div style="font-size: 73%">
 
-<div style="font-size: 90%">
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
 
-:question: &nbsp;&nbsp;&nbsp; La deviazione standard &egrave; un indice di dispersione?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso  &nbsp; :white_check_mark:
 
-:question: &nbsp;&nbsp;&nbsp; La moda &egrave; una misura di tendenza centrale?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero   :white_check_mark: &nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
-:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi?
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+</div>
+
+---
+### Esercizio #5 -- Soluzione
+
+<div style="font-size: 73%">
+
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;&nbsp;&nbsp;&nbsp; b) Falso  &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero   &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+</div>
+
+---
+### Esercizio #5 -- Soluzione
+
+<div style="font-size: 73%">
+
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;&nbsp;&nbsp;&nbsp; b) Falso  &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero   &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
 
 </div>
@@ -1910,7 +1969,7 @@ Boxplot hides the underlying distribution. Use jitter if low number of data poin
 
 <div style="font-size: 90%">
 
-> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 <!-- The purpose of this question is not simply to be nosey about people’s private lives. When AIDS first became a serious concern in the 1980s, public health officials realized that there was no reliable evidence about sexual behaviour in Britain, particularly in terms of the frequency with which people changed partners, how many had multiple simultaneous partners, and what sexual practices people engaged in. This knowledge was essential to predict the spread of sexually transmitted diseases through society and to plan health services
 
@@ -1922,7 +1981,7 @@ resulting in the National Sexual Attitudes and Lifestyle Survey (Natsal) which h
 
 <div style="font-size: 90%">
 
-> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -2055,7 +2114,7 @@ updateButton_think();
 
 <div style="font-size: 90%">
 
-> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -2184,7 +2243,7 @@ updateButton_pair();
 
 <div style="font-size: 90%">
 
-> Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
+Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
 
 </div>
 
@@ -2351,7 +2410,7 @@ Multimodale, particolarmente accentuato sull'1 -->
 
 <div style="font-size: 78%">
 
-> Cosa è successo ai bambini sottoposti a interventi cardiochirugici in alcuni ospedali britannici tra il 1984 e il 1995?
+Cosa &egrave; successo ai bambini sottoposti a interventi cardiochirugici in alcuni ospedali britannici tra il 1984 e il 1995?
 
 </div>
 
@@ -2569,7 +2628,6 @@ Pearson's correlation coefficient
 
 <span style="display:block; height:20px;"></span>
 
-
 <center>
 
 |  | Parametro | Statistica |
@@ -2579,8 +2637,129 @@ Pearson's correlation coefficient
 | Deviazione Standard | $\sigma$ | $s$ |
 | Proporzione | $\pi$ | $p$ |
 
-
 </center>
+
+---
+### Esercizio #11
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; La media nella popolazione viene indicata con...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) M 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) m
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $\bar{x}$ 
+
+</div>
+
+
+<span style="display:block; height:100px;"></span>
+
+<style>
+  #countdown_exercise_11{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_11.running {
+    background-color: green;
+  }
+  #countdown_exercise_11.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_11"></button>
+
+<script>
+<!--
+const countdown_exercise_11= document.getElementById("countdown_exercise_11");
+const seconds_exercise_11= 60; // seconds_exercise_11
+let timeLeft_exercise_11= seconds_exercise_11;
+let timerInterval_exercise_11= null;
+
+function formatTime_exercise_11(seconds_exercise_11) {
+  const minutes = Math.floor(seconds_exercise_11/ 60);
+  const remainingseconds_exercise_11= seconds_exercise_11% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_11).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_11() {
+  countdown_exercise_11.textContent = formatTime_exercise_11(timeLeft_exercise_11);
+}
+
+function startTimer_exercise_11() {
+  if (timerInterval_exercise_11=== null) {
+    countdown_exercise_11.classList.add('running');
+    countdown_exercise_11.classList.remove('finished');
+    timerInterval_exercise_11= setInterval(() => {
+      if (timeLeft_exercise_11> 0) {
+        timeLeft_exercise_11--;
+        updateButton_exercise_11();
+      } else {
+        clearInterval(timerInterval_exercise_11);
+        timerInterval_exercise_11= null;
+        countdown_exercise_11.classList.remove('running');
+        countdown_exercise_11.classList.add('finished');
+        countdown_exercise_11.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_11();
+  }
+}
+
+function pauseTimer_exercise_11() {
+  clearInterval(timerInterval_exercise_11);
+  timerInterval_exercise_11= null;
+  countdown_exercise_11.classList.remove('running');
+}
+
+function resetTimer_exercise_11() {
+  timeLeft_exercise_11= seconds_exercise_11;
+  updateButton_exercise_11();
+  countdown_exercise_11.classList.remove('finished');
+  countdown_exercise_11.classList.remove('running');
+  timerInterval_exercise_11= null;
+}
+
+countdown_exercise_11.addEventListener("click", () => {
+  if (countdown_exercise_11.classList.contains('finished')) {
+    resetTimer_exercise_11();
+  } else {
+    startTimer_exercise_11();
+  }
+});
+
+updateButton_exercise_11();
+-->
+</script>
+
+
+---
+### Esercizio #11 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; La media nella popolazione viene indicata con...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) M 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) m
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\mu$ &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $\bar{x}$ 
+
+</div>
+
 
 ---
 ### Cosa abbiamo imparato in questa lezione?
