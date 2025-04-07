@@ -91,6 +91,54 @@ Procedimento induttivo che ha lo scopo di stimare i parametri (caratteristiche) 
 
 Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere detto circa la popolazione da cui il campione è stato estratto? -->
 
+
+---
+### Esercizio #1
+
+<span style="display:block; height:20px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un valore ottenuto in una popolazione viene chiamato...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) parametro
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) statistica 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) media e/o deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precedenti
+
+</div>
+
+---
+### Esercizio #2
+
+<span style="display:block; height:20px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un valore ottenuto in un campione viene chiamato...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) parametro
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) statistica 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) media e/o deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuno dei precedenti
+
+</div>
+
+---
+### Esercizio #3
+
+<span style="display:block; height:20px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un parametro &egrave;...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) sempre esattamente uguale alla statistica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) stimato dal valore della statistica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ha nessuna relazione con la statistica
+
+</div>
+
 ---
 ## Quanto siamo precisi?
 
@@ -291,7 +339,7 @@ Density should use another scale -->
 <!-- the rather high number of partners  in the first sample of ten individuals gets steadily overwhelmed, as the statistics get closer and closer to those of the whole group of 796 men as the sample size increases. -->
 
 ---
-### Esercizio #1
+### Esercizio #4
 
 <span style="display:block; height:1px;"></span>
 
@@ -472,7 +520,7 @@ Bootstrapping provides an intuitive, computer-intensive way of assessing the unc
 -->
 
 ---
-### Esercizio #2
+### Esercizio #5
 
 <span style="display:block; height:1px;"></span>
 
@@ -637,7 +685,7 @@ Tutti concetti che ci torneranno utili tra poco
 
 
 ---
-### Esercizio #3
+### Esercizio #6
 
 <div style="font-size: 90%" >
 
@@ -698,7 +746,7 @@ a confidence interval is the range of population parameters for which our observ
 -->
 
 ---
-### Esercizio #4
+### Esercizio #7
 
 <div style="font-size: 90%" >
 
@@ -876,7 +924,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 
 
 ---
-### Esercizio #5
+### Esercizio #8
 
 <div class="columns">
 <div>
@@ -908,7 +956,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 <span style="display:block; height:20px;"></span>
 
 ---
-### Esercizio #6
+### Esercizio #9
 
 <div class="columns">
 <div>
@@ -939,7 +987,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 <span style="display:block; height:20px;"></span>
 
 ---
-### Esercizio #7
+### Esercizio #10
 
 <div style="font-size: 90%" >
 
@@ -968,7 +1016,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 -->
 
 ---
-### Esercizio #8
+### Esercizio #11
 
 :dart: &nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
 
@@ -1073,6 +1121,39 @@ Meno appuntita al centro e code pi&ugrave; alte
 </div>
 
 <!-- Piccoli == <30 circa  -->
+
+---
+### Esercizio #12
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore usa la statistica inferenziale se sta usando i 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; propri risultati per...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) descrivere i dati che ha raccolto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) stimare un parametro di una popolazione
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) nessuna delle precedenti
+
+</div>
+
+---
+### Esercizio #13
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore usa la statistica descrittiva se sta usando i 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; propri risultati per...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) descrivere i dati che ha raccolto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) stimare un parametro di una popolazione
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) nessuna delle precedenti
+
+</div>
+
 
 ---
 ## Cosa abbiamo imparato in questa lezione?
