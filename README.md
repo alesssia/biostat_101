@@ -4,7 +4,72 @@ Material for a ~15h *Stats 101/data literacy* introductory course for nursing an
 
 All material (slides, teacher notes, etc) is in Italian, the language I'm delivering the course in, and it's likely plenty of typos. Hopefully they will be fixed -- and the material improved, at each iteration. 
 
-## Topics covered
+## Topics covered 
+
+Introduction
+
+- Why study medical statistics
+- Post-hoc fallacy
+- Scientific research and PPDAC
+- The inductive approach
+
+
+Populations and Samples
+
+- Definitions of populations and samples
+- Sampling approaches
+- Sampling bias
+
+
+Data
+
+- Definitions
+- Data collection
+- Data types
+
+
+Descriptive statistics
+
+- Frequency and contingency tables for categorical values
+- Discretisation
+- Central tendency and variability measures for numerical data
+- Correlation
+- Notes on data visualizatiom
+- Outliers
+- Empirical distributions and their shape
+- Parameters vs statistics
+
+
+The Normal distribution
+
+- Normal distribution characteristics
+- 3-sigma rule
+- Standard Normal distribution
+- Student's t distribution
+
+
+Point and interval estimates
+
+- Point estimates and their accuracy 
+- Bootstrapping
+- Central limit theorem
+- How to calculate and interpret confidence intervals
+
+
+Hypothesis testing
+
+- Research question, falsifiable principle, and the null hypothesis 
+- t-test for differences in means and proportions
+- Pearson's χ2 test φor differences in proportions
+- P-value and statistical significance
+- Statistical significance and clinical significance
+- One and two tailed tests
+- Relationship between statistical significance and confidence intervals
+- Multiple tests correction
+- Errors of statistical tests
+- Power of a statistical test
+- Dependent and independent samples
+- Non-parametrical tests
 
 
 ## Schedule
@@ -16,6 +81,10 @@ The course will be delivered with different schedules (4x4h slots, 5x3h slots, o
 While I consulted multiple sources for creating this material, these are the most prominent:
 
 - Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+- Carlson K.A., and Winquist J.R., *An Introduction to Statistics. An Active Learning Approach*, SAGE, 2021
+
+Suggested (and also consulted) textbooks also include: 
+
 - Wayne D.W., and Cross C.L.. *Biostatistics: a foundation for analysis in the health sciences*. Wiley, 2018
 - Pagano M., and  Gauvreau K., *Principles of biostatistics*, Chapman and Hall/CRC, 2022
 - Bergstrom C.T., and West J.D., *Calling Bullshit: The Art of Skepticism in a Data-Driven World*, Random House, 2020 
