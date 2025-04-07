@@ -695,3 +695,205 @@ If the law of the country is that cars should drive on the right, then we can de
 (un&#601; Student&#601;)
 
 </div>
+
+
+---
+
+<span style="display:block; height:200px;"></span>
+
+
+## Due parole sul corso
+
+
+---
+## Esercizi che faremo in classe
+
+<span style="display:block; height:30px;"></span>
+
+<div class="columns">
+<div>
+
+<center>
+<img src="./img/sampling/abstract_ex1.png" img height="250px" border="4px"/>
+</center>
+
+<span style="display:block; height:400px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 68%">
+
+:question: &nbsp;&nbsp;&nbsp; Domande a risposta chiusa basate o  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; meno su un testo di un articolo (in 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inglese)
+
+oppure
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Domande che richiedono semplici  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; calcoli 
+
+
+</div>
+
+</div>
+</div>
+
+---
+## Calcoli ?!?
+
+<span style="display:block; height:1px;"></span>
+
+
+<img src="./img/introduction/panic.gif" img height="400px" align="left" border="4px"/>
+
+
+---
+## Calcoli ?!?
+
+<span style="display:block; height:1px;"></span>
+
+
+<img src="./img/introduction/panic.gif" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\frac{2 \times (8 - 3 + 5 )}{4}$
+
+</div>
+
+---
+## Calcoli ?!?
+
+<span style="display:block; height:1px;"></span>
+
+
+<img src="./img/introduction/panic.gif" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\frac{2 \times (8 - 3 + 5 )}{4} = \frac{2 \times 10}{4} = \frac{20}{4} = 5$
+
+</div>
+
+---
+## Calcoli ?!?
+
+<span style="display:block; height:1px;"></span>
+
+
+<img src="./img/introduction/panic.gif" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - potenze (di 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\frac{2 \times (8 - 3 + 5 )^2}{4}$
+
+</div>
+
+---
+## Calcoli ?!?
+
+<span style="display:block; height:1px;"></span>
+
+
+<img src="./img/introduction/panic.gif" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - potenze (di 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\frac{2 \times (8 - 3 + 5 )^2}{4} = \frac{2 \times 10^2}{4} =  \frac{2 \times 100}{4} = \frac{200}{4} = 50$
+
+</div>
+
+---
+## Calcoli ?!?
+
+<span style="display:block; height:1px;"></span>
+
+
+<img src="./img/introduction/panic.gif" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - potenze (di 2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - radici (quadrate)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\sqrt{\frac{2 \times (8 - 3 + 5 )^2}{4}}$
+
+</div>
+
+---
+## Calcoli ?!?
+
+<span style="display:block; height:1px;"></span>
+
+
+<img src="./img/introduction/panic.gif" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - potenze (di 2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - radici (quadrate)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\sqrt{\frac{2 \times (8 - 3 + 5 )^2}{4}} = \sqrt{\frac{2 \times 10^2}{4}} =  \sqrt{\frac{2 \times 100}{4}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \sqrt{\frac{200}{4}} = \sqrt{50} \approx \sqrt{49} = 7$
+
+</div>
+
+
+---
+## E se sbaglio?
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 90%">
+
+- Fare errori non &egrave; solo normale ma anche utile
+- Fare errori (e poi correggerli) &egrave; come impariamo cose nuove
+- Prendete ogni errore come un'opportunit&agrave; per imparare
+- Meglio sbagliare (e imparare) in classe che in altri momenti (esame, vita lavorativa, ...)
+
+</div>
+
+---
+<span style="display:block; height:200px;"></span>
+
+
+## Siamo pronti?
