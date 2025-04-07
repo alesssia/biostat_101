@@ -130,16 +130,16 @@ Numeriche media/SD, categoriche N/% -->
 
 <span style="display:block; height:40px;"></span>
 
-#### Tabella di frequenza
+<div style="font-size: 80%">
 
-<div style="font-size: 90%">
+**Tabella di frequenza**
 
 - frequenza assoluta (numero)
-- frequenza relativa (percentuale)
+- frequenza relativa o proporzione (percentuale)
 
 </div>
 
-<span style="display:block; height:80px;"></span>
+<span style="display:block; height:100px;"></span>
 
 <div style="font-size: 50%">
  
