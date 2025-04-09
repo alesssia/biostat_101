@@ -27,13 +27,14 @@ section {
 ---
 ## Obiettivi di apprendimento
 
-<span style="display:block; height:50px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <div style="font-size: 90%">
 
-- Conoscere le caratteristiche della distribuzione Normale
-- Conoscere le caratteristiche della distribuzione Normale Standardizzata
-- Conoscere le caratteristiche della distribuzione $\mathcal{t}$ di Student
+- Conoscere le caratteristiche della distribuzione Normale e Normale Standardizzata
+- Calcolare e intepretare lo $z$-score
+- Calcolare la proporzione di individui in una popolazione con una determinata caratteristica
+- Calcolare la probabilit&agrave; di avere degli individui in una popolazione con una determinata caratteristica
 
 </div>
 
@@ -92,9 +93,9 @@ Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
 
 <div style="font-size: 80%" align="right">
 
-$N=1,000,000$
-$\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+$N=1 \text{M}$
 $mediana = 2408\text{ g}$
+$\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
 
 </div>
 
@@ -125,9 +126,9 @@ Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
 
 <div style="font-size: 80%" align="right">
 
-$N=1,000,000$
-$\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+$N=1 \text{M}$
 $mediana = 2408\text{ g}$
+$\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
 
 </div>
 
@@ -155,10 +156,10 @@ Figure shows a normal curve with the same mean and standard deviation as the rec
 <div class="columns">
 <div>
 
-<span style="display:block; height:80px;"></span>
+<span style="display:block; height:40px;"></span>
 
 - $\mathcal{N} = (\mu, \sigma^2)$
-- $\text{moda} \equiv \text{media} \equiv \text{medana}$
+- $\text{moda} \equiv \text{media} \equiv \text{mediana}$
 - Simmetrica
 
 </div>
@@ -188,7 +189,7 @@ It is an impressive achievement to be able to summarize over a million births by
 - Area sottesa alla curva $= 1$
 - proporzione $\equiv$ probabilit&agrave;
 
-<span style="display:block; height:140px;"></span>
+<span style="display:block; height:120px;"></span>
 
 <div style="font-size: 80%" align="right">
 
@@ -529,12 +530,14 @@ updateButton_exercise_2();
 
 <span style="display:block; height:0px;"></span>
 
-<div style="font-size: 90%">
+<div style="font-size: 85%">
 
 - Regola del 3 $\sigma$:
   - 68% dei valori osservati sono a 1 $\sigma$ dalla media
   - 95% sono a 2 $\sigma$
   - 99.7% sono a 3 $\sigma$
+  
+<span style="display:block; height:0px;"></span>
 
 - Regola empirica:
   - valori $< 2 \sigma$ sono *"comuni"*
@@ -719,7 +722,7 @@ updateButton_exercise_3();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza $>170 \text{ cm}$ $\rightarrow 50\%$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) I "range" di altezze considerabili come "inusuali" o "estremi" $\rightarrow$   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono quelli $>2$ deviazioni standard dalla media
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 170 - 9.5 \times 2 = 151 \text{ cm } \land \text{ } 170 + 9.5 \times 2 = 189 \text{ cm}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 170 - 9.5 \times 2 = 151 \text{ cm e } 170 + 9.5 \times 2 = 189 \text{ cm}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza pi&ugrave; comune 
 
 </div>
@@ -737,7 +740,7 @@ updateButton_exercise_3();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana $\rightarrow$ 170cm
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza $>170 \text{ cm}$ $\rightarrow 50\%$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) I "range" di altezze considerabili come "inusuali" o "estremi"
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow \text{ } <151 \text{ cm } \land >189 \text{ cm}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow \text{ } <151 \text{ cm e }  >189 \text{ cm}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza pi&ugrave; comune $\rightarrow$ &egrave; la moda, che coincide con la media
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e la mediana $= 170 \text{ cm}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) L'italiano pi&ugrave; alto di sempre
@@ -757,7 +760,7 @@ updateButton_exercise_3();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La mediana $\rightarrow$ 170cm
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La proporzione di italiani con altezza $>170 \text{ cm}$ $\rightarrow 50\%$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) I "range" di altezze considerabili come "inusuali" o "estremi"
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow \text{ } <151 \text{ cm } \land >189 \text{ cm}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow \text{ } <151 \text{ cm e }  >189 \text{ cm}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'altezza pi&ugrave; comune $\rightarrow 170 \text{ cm}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) L'italiano pi&ugrave; alto di sempre $\rightarrow$ non si pu&ograve; calcolare
 
@@ -930,6 +933,10 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 ---
 ### Esercizio #5
 
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
 :question: &nbsp;&nbsp;&nbsp; Con quale probabilità si potrà trovare nella popolazione
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; soggetti con valori superiori al terzo quartile?
 
@@ -937,6 +944,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 50%
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 75%
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
+
+</div>
 
 <span style="display:block; height:40px;"></span>
 
@@ -1029,6 +1038,19 @@ updateButton_exercise_5();
 ---
 ### Esercizio #5 -- Soluzione
 
+<span style="display:block; height:50px;"></span>
+
+<center>
+<img src="./img/normal/Ex_Q3.png" img height="350px" border="4px"/>
+</center>
+
+---
+### Esercizio #5 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
 :question: &nbsp;&nbsp;&nbsp; Con quale probabilità si potrà trovare nella popolazione
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; soggetti con valori superiori al terzo quartile?
 
@@ -1037,22 +1059,17 @@ updateButton_exercise_5();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 75%
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
 
----
-### Esercizio #5 -- Soluzione
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/normal/Ex_Q3.png" img height="350px" border="4px"/>
-</center>
+</div>
 
 ---
 ## Proporzione $\equiv$ probabilit&agrave;
 
-<div class="columns">
-<div>
 
-<span style="display:block; height:20px;"></span>
+<div style="font-size: 90%">
+
+<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px" align="right"/>
+
+<span style="display:block; height:70px;"></span>
 
 - 6% dei gemelli sono "very low birth weight"
 - La probabilit&agrave; essere "very low birth weight" &egrave; 0.06
@@ -1060,243 +1077,148 @@ updateButton_exercise_5();
 <span style="display:block; height:20px;"></span>
 
 <div align="right">
-Ma come &egrave; stato calcolato?
+Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 </div>
 
 </div>
-<div>
 
-<span style="display:block; height:30px;"></span>
 
-<center>
-<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px"/>
-</center>
+
+---
+## Facciamo un passo indietro...
+
+<div style="font-size: 90%">
+
+<img src="./img/normal/Twin_BW_normale_zscore.png" img height="450px" border="4px" align="right"/>
+
+<span style="display:block; height:70px;"></span>
+
+- La media ci dice qual &egrave; il centro di una distribuzione
+- La deviazione standard ci dice qual &egrave; la distanza "tipica" dalla media
+
+</div>
+
+
+---
+## Per un neonato con "very low birth weight"
+
+<span style="display:block; height:0px;"></span>
+
+<div style="font-size: 90%">
+
+Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
+
+- La media ci dice qual &egrave; il centro di una distribuzione
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $x = 1454\text{ g} < \mu = 2404\text{ g}$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $x - \mu = 1454\text{ g}-2404\text{ g}=-950\text{ g}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ il neonato pesa meno della media
+
+---
+## Per un neonato con "very low birth weight"
+
+<span style="display:block; height:0px;"></span>
+
+<div style="font-size: 90%">
+
+Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
+
+- La media ci dice qual &egrave; il centro di una distribuzione
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $x = 1454\text{ g} < \mu = 2404\text{ g}$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $x - \mu = 1454\text{ g}-2404\text{ g}=-950\text{ g}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ il neonato pesa meno della media
+
+- La deviazione standard ci dice qual &egrave; la distanza "tipica" dalla media
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $|x - \mu| = 950\text{ g} > \sigma = 580\text{ g}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ il peso &egrave; a una distanza maggiore di quella "tipica" 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 
 </div>
 
 ---
-## La standardizzazione
+## Per un neonato con "very low birth weight"
 
-<div class="columns">
-<div>
+<span style="display:block; height:0px;"></span>
 
-<span style="display:block; height:30px;"></span>
+<div style="font-size: 90%">
 
-- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
+Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
 
-</div>
-<div>
+- La media ci dice qual &egrave; il centro di una distribuzione
 
-<span style="display:block; height:60px;"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $x = 1454\text{ g} < \mu = 2404\text{ g}$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $x - \mu = 1454\text{ g}-2404\text{ g}=-950\text{ g}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ il neonato pesa meno della media
 
-<center>
-<img src="./img/normal/n2z_1.png" img height="400px" border="4px"/>
-</center>
-</div>
+- La deviazione standard ci dice qual &egrave; la distanza "tipica" dalla media
 
-<!-- Utilizzando una procedura chiamata standardizzazione
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $|x - \mu| = 950\text{ g} > \sigma = 580\text{ g}$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $\frac{x - \mu}{\sigma} = \frac{-950\text{ g}}{580\text{ g}} = -1.87$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ il peso &egrave; a una distanza maggiore di quella "tipica" 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ &egrave; un peso (quasi) "inusuale"
 
-Magenta: mu=4, sd=1.5 -->
-
----
-## La standardizzazione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
-
-- $z = \frac{x - \mu}{}$
-
-</div>
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/normal/n2z_2.png" img height="400px" border="4px"/>
-</center>
 </div>
 
 ---
-## La standardizzazione
+## Per un neonato con "very low birth weight"
 
-<div class="columns">
-<div>
+<span style="display:block; height:0px;"></span>
 
-<span style="display:block; height:30px;"></span>
+<div style="font-size: 90%">
 
-- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
+Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
 
-- $z = \frac{x - \mu}{\sigma}$
+<span style="display:block; height:0px;"></span>
 
-</div>
-<div>
+<img src="./img/normal/Twin_BW_normale_zscore_annotated.png" img height="430px" border="4px" align="right"/>
 
-<span style="display:block; height:60px;"></span>
+<span style="display:block; height:1px;"></span>
 
-<center>
-<img src="./img/normal/n2z_3.png" img height="400px" border="4px"/>
-</center>
+
+- La media ci dice qual &egrave; il centro di una distribuzione
+&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ il neonato pesa meno della media
+
+- La deviazione standard ci dice qual &egrave; la distanza "tipica" dalla media
+&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ il peso &egrave; a una distanza "atipica" 
+&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ &egrave; un peso (quasi) "inusuale"
+
 </div>
 
 ---
-## La distribuzione Normale standardizzata
+## Lo $z$-score
 
-<div class="columns">
-<div>
+<div style="font-size: 120%">
 
-<span style="display:block; height:30px;"></span>
-
-- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
-
-- $z = \frac{x - \mu}{\sigma}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \frac{x - \mu}{\sigma}$
 
 </div>
-<div>
 
-<center>
-<img src="./img/normal/normal_table.jpg" img height="550px" border="4px"/>
-</center>
-</div>
-</div>
+<span style="display:block; height:20px;"></span>
 
-<!-- 
-this is also known as her Z-score, which simply measures how many standard deviations a data-point is from the mean.
+<div style="font-size: 90%">
 
-E perche la SND ci piace? Perche' esistono delle tavole che ci dicono qual e' l'area sottesa  ad una certa porzione della curva, che corrispondono alla probabilita' di trovare (nel caso di queste tavole) un valore < di quello osservato (area colorata)
-
-Ci sono diverse versioni di queste tabelle, per esempio quella complementare che riporta l'area per la zona bianca (probabilita' di osservare valori piu' estremi) -->
-
----
-## Calcoliamo la probabilit&agrave;/proporzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- ci dice se un'osservazione &egrave; maggiore o minore della media della popolazione
+- ci dice se la deviazione di un'osservazione dalla media &egrave; grande o piccola rispetto alla deviazione tipica nella popolazione
 
 </div>
-<div>
-
-<span style="display:block; height:360px;"></span>
-
-</div>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
-
----
-## Calcoliamo la probabilit&agrave;/proporzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
-
-</div>
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/normal/normal_table_zoom.jpg" img height="280px" border="4px"/>
-</center> 
-
-</div>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
-
----
-## Calcoliamo la probabilit&agrave;/proporzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
-
-</div>
-<div>
-
-<span style="display:block; height:160px;"></span>
-
-<center>
-<img src="./img/normal/area_normal_symmetrical.png" img height="180px" border="4px"/>
-</center> 
-
-</div>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = \text{ ?}$
-
-<!-- Fare vedere che la curva e' simmetrica quindi possiamo usare 1.56 per conoscere l'area -->
-
----
-## Calcoliamo la probabilit&agrave;/proporzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{1500\text{ g} - 2404\text{ g}}{580\text{ g}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= -1.56$
-
-</div>
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/normal/normal_table_zoom_example.jpg" img height="280px" border="4px"/>
-</center> 
-
-</div>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 1500 \text{ g}) = 1 - 0.9406 = 0.0594 \rightarrow 5.94\%$
 
 ---
 ### Esercizio #6
 
-<div style="font-size: 80%" >
+<div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai $2500$g &egrave; inusuale. La madre deve preoccuparsi?
+:question: &nbsp;&nbsp;&nbsp; Quale delle seguenti $z$-score rappresenta l'osservazione pi&ugrave; atipica?
 
-</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $-3.20$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $-0.41$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $+1.10$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $+2.40$
 
-<div class="columns">
-<div>
+:question: &nbsp;&nbsp;&nbsp; L'osservazione &egrave; superiore alla media?
 
-<span style="display:block; height:30px;"></span>
-
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) S&igrave; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) No
 
 </div>
 
-<span style="display:block; height:170px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <style>
   #countdown_exercise_6{
@@ -1322,7 +1244,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 <script>
 <!--
 const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 300; // seconds_exercise_6
+const seconds_exercise_6= 60; // seconds_exercise_6
 let timeLeft_exercise_6= seconds_exercise_6;
 let timerInterval_exercise_6= null;
 
@@ -1383,107 +1305,65 @@ updateButton_exercise_6();
 -->
 </script>
 
-
-</div>
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/normal/normal_table_zoom.jpg" img height="280px" border="4px"/>
-</center> 
-
-</div>
-</div>
-
-<!-- For medical rather than statistical reasons, babies below 2,500 g are considered ‘low birth weight’, and those below 1,500 g ‘very low birth weight’.  -->
-
 ---
 ### Esercizio #6 -- Soluzione
 
-<div style="font-size: 80%" >
+<div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai 2500g &egrave; inusuale. La madre deve preoccuparsi?
+:question: &nbsp;&nbsp;&nbsp; Quale delle seguenti $z$-score rappresenta l'osservazione pi&ugrave; atipica?
 
-</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $-3.20$ &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $-0.41$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $+1.10$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $+2.40$
 
-<div class="columns">
-<div>
+:question: &nbsp;&nbsp;&nbsp; L'osservazione &egrave; superiore alla media?
 
-<span style="display:block; height:30px;"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) S&igrave; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) No
 
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{2500 - 2404}{580} = 0.17$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 2500) = 0.5675 \rightarrow 56.75\%$
-
-</div>
-
-</div>
-<div>
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/normal/normal_table_zoom.jpg" img height="280px" border="4px"/>
-</center> 
-
-</div>
 </div>
 
 ---
 ### Esercizio #6 -- Soluzione
 
-<div style="font-size: 80%" >
+<div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai 2500g &egrave; inusuale. La madre deve preoccuparsi?
+:question: &nbsp;&nbsp;&nbsp; Quale delle seguenti $z$-score rappresenta l'osservazione pi&ugrave; atipica?
 
-</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $-3.20$ &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $-0.41$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $+1.10$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $+2.40$
 
-<div class="columns">
-<div>
+:question: &nbsp;&nbsp;&nbsp; L'osservazione &egrave; superiore alla media?
 
-<span style="display:block; height:30px;"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) S&igrave; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) No &nbsp;&nbsp; :white_check_mark:
 
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{z} = \frac{x - \mu}{\sigma} =  \frac{2500 - 2404}{580} = 0.17$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P}(x < 2500) = 0.5675 \rightarrow 56.75\%$
-
-</div>
-
-</div>
-<div>
-
-<span style="display:block; height:20px;"></span>
-
-<center>
-<img src="./img/normal/Twin_BW_normale_area_exercise.png" img height="350px" border="4px"/>
-</center> 
-
-</div>
 </div>
 
 ---
-### Esercizio #7
+### Esercizio #7 
 
-:question: &nbsp;&nbsp;&nbsp; Abbiamo una distribuzione Normale $\mathcal{N} = (0, 1)$. Qual &egrave; il 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; valore della sua mediana?
+<div style="font-size: 65%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 2
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
+:question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e il neurologo che l'ha
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presa in cura la sottopone a 3 test. 
 
-<span style="display:block; height:30px;"></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1.$ Maria deve ascoltare delle parole e ripeterle (memory test). Maria ne rircorda
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  6, la popolazione generale 7, con una deviazione standard di 1.3 parole
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $2.$ Maria deve identificare degli oggetti da dei disegni (object naming test). Maria ne 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; riconosce 7, la popolazione generale 10, con una  deviazione standard di 0.59 oggetti
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.$ Maria ha un elenco di colori scritti con inchiostri diversi e deve dire di quale
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  colore &egrave; ciascun inchiostro il pi&ugrave; velocemente possibile (Stroop test). Maria impiega
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  15.7 secondi, la popolazione generale 16.2, con una deviazione  standard di 1.30 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; secondi
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime viste, il neurologo deve concentrarsi sulla memoria, sull'abilita di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nominare le cose o sull'attenzione di Maria?
+
+</div>
 
 <style>
   #countdown_exercise_7{
@@ -1510,7 +1390,7 @@ updateButton_exercise_6();
 <script>
 <!--
 const countdown_exercise_7= document.getElementById("countdown_exercise_7");
-const seconds_exercise_7= 60; // seconds_exercise_7
+const seconds_exercise_7= 300; // seconds_exercise_7
 let timeLeft_exercise_7= seconds_exercise_7;
 let timerInterval_exercise_7= null;
 
@@ -1571,171 +1451,502 @@ updateButton_exercise_7();
 -->
 </script>
 
+---
+### Esercizio #7 -- Soluzione
+
+<div style="font-size: 65%">
+
+:question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e il neurologo che l'ha
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  presa in cura la sottopone a 3 test. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1.$ Memory test. &nbsp;&nbsp; $x = 6$; &nbsp;&nbsp;  $\mu=7$, &nbsp;&nbsp; $\sigma=1.3$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{6-7}{1.3} = -0.77$
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $2.$ Object naming test. &nbsp;&nbsp; $x = 7$; &nbsp;&nbsp;  $\mu=10$, &nbsp;&nbsp; $\sigma=0.59$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{7-10}{0.59} = -5.09$
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.$Stroop test. &nbsp;&nbsp; $x = 15.7$; &nbsp;&nbsp;  $\mu=16.2$, &nbsp;&nbsp; $\sigma=1.3$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{15.7-16.2}{1.3} = -0.65$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime viste, il neurologo deve concentrarsi sulla memoria, sull'abilita di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nominare le cose o sull'attenzione di Maria?
+
+
+
+</div>
 
 ---
-### Esercizio #7 -- Soluzione 
+### Esercizio #7 -- Soluzione
 
-:question: &nbsp;&nbsp;&nbsp; Abbiamo una distribuzione Normale $\mathcal{N} = (0, 1)$. Qual &egrave; il 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; valore della sua mediana?
+<div style="font-size: 65%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0 &nbsp;&nbsp; :white_check_mark: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 2
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Servono pi&ugrave; informazioni per poter rispondere
+:question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e il neurologo che l'ha
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  presa in cura la sottopone a 3 test. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1.$ Memory test. &nbsp;&nbsp; $x = 6$; &nbsp;&nbsp;  $\mu=7$, &nbsp;&nbsp; $\sigma=1.3$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{6-7}{1.3} = -0.77$
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $2.$ Object naming test. &nbsp;&nbsp; $x = 7$; &nbsp;&nbsp;  $\mu=10$, &nbsp;&nbsp; $\sigma=0.59$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{7-10}{0.59} = -5.09$
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.$Stroop test. &nbsp;&nbsp; $x = 15.7$; &nbsp;&nbsp;  $\mu=16.2$, &nbsp;&nbsp; $\sigma=1.3$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{15.7-16.2}{1.3} = -0.65$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime viste, il neurologo deve concentrarsi sulla memoria, sull'abilita di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nominare le cose o sull'attenzione di Maria?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ sull'abilita di nominare le cose
+
+</div>
 
 ---
-## $\mathcal{t}$ di Student
+## La standardizzazione
+
+<span style="display:block; height:0px;"></span>
+
+<div style="font-size: 90%">
+
+- $z = \frac{x - \mu}{\sigma}$
+- $\mathcal{N} = (\mu, \sigma^2) \rightarrow Z = (0, 1)$
+
+</duv>
+
+<img src="./img/normal/n2z.png" img height="350px" align="right" border="4px"/>
+
+
+
+---
+## La distribuzione Normale standardizzata
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:80px;"></span>
+
+<div style="font-size: 90%">
+
+- $Z = (0, 1)$
+- Area sottesa alla curva $= 1$
+- proporzione $\equiv$ probabilit&agrave;
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:20px;"></span>
+
+<center>
+<img src="./img/normal/normal_table_zoom.jpg" img height="420px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- 
+this is also known as her Z-score, which simply measures how many standard deviations a data-point is from the mean.
+
+E perche la SND ci piace? Perche' esistono delle tavole che ci dicono qual e' l'area sottesa  ad una certa porzione della curva, che corrispondono alla probabilita' di trovare (nel caso di queste tavole) un valore < di quello osservato (area colorata)
+
+Ci sono diverse versioni di queste tabelle, per esempio quella complementare che riporta l'area per la zona bianca (probabilita' di osservare valori piu' estremi) -->
+
+---
+## Proporzione $\equiv$ probabilit&agrave;
+
+
+<div style="font-size: 90%">
+
+<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px" align="right"/>
+
+<span style="display:block; height:70px;"></span>
+
+- 6% dei gemelli sono "very low birth weight"
+- La probabilit&agrave; essere "very low birth weight" &egrave; 0.06
+
+<span style="display:block; height:20px;"></span>
+
+<div align="right">
+Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</div>
+
+</div>
+
+---
+## Calcoliamo la probabilit&agrave;/proporzione
+
+<span style="display:block; height:0px;"></span>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+
+<span style="display:block; height:1px;"></span>
+
+
+
+
+</div>
+
+---
+## Calcoliamo la probabilit&agrave;/proporzione
+
+<span style="display:block; height:0px;"></span>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2404}{580} = \frac{-904}{580} = -1.56$
+
+</div>
+
+---
+## Calcoliamo la probabilit&agrave;/proporzione
+
+<span style="display:block; height:0px;"></span>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+
+<img src="./img/normal/Twin_BW_normale_area_z.png" img height="340px" align=right border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2404}{580} = \frac{-904}{580} = -1.56$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Identifichiamo l'area
+
+</div>
+
+---
+## Calcoliamo la probabilit&agrave;/proporzione
+
+<span style="display:block; height:0px;"></span>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+
+<img src="./img/normal/normal_table_zoom.jpg" img height="350px" align=right border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2404}{580} = \frac{-904}{580} = -1.56$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Identifichiamo l'area
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Cerchiamo lo $z$-score sulle tavole e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragioniamo sull'area identificata
+
+</div>
+
+---
+## Calcoliamo la probabilit&agrave;/proporzione
+
+<span style="display:block; height:0px;"></span>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+
+<img src="./img/introduction/panic.gif" img height="350px" align=right border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2404}{580} = \frac{-904}{580} = -1.56$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Identifichiamo l'area
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Cerchiamo lo $z$-score sulle tavole e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragioniamo sull'area identificata
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ non ci sono $z$-score negativi
+
+</div>
+
+---
+## Ragioniamo sulle aree...
+
+---
+## Ragioniamo sulle aree...
 
 <div class="columns">
 <div>
 
 <span style="display:block; height:1px;"></span>
 
-<div style="font-size: 85%" >
-
-- Non posso approssimare a una normale
-- Uso la $\mathcal{t}$ di Student
-  
-</div>
+<center>
+<img src="./img/normal/Twin_BW_normale_area_z.png" img height="450px" border="4px"/>
+</center>
 
 </div>
 <div>
 
-<span style="display:block; height:5px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <center>
-<img src="./img/normal/tdist.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_normale_area_z_simmetrica.png" img height="450px" border="4px"/>
 </center>
 
 </div>
 </div>
 
-<!-- Quando la dimensione campionaria e' grande la nostra fiducia nell'approssimare sigma con la varianza campionaria e' ben riposta  e possiamo usare la normale per il calcolo dei CI, ma cosa succede quando i campioni soo piccoli? Usiamo la distribuzione  di Student
-
-- &egrave; una famiglia di distribuzioni, 1 per ogni valore campionario n-1
-
-Come la normale:
-- ha media 0
-- &egrave; simmetrica
-- ha varianza >1 che si avvicina a 1 al crescere di N
-
-
-Meno appuntita al centro e code pi&ugrave; alte
- -->
-
 ---
-## $\mathcal{t}$ di Student 
+## Ragioniamo sulle aree...
 
 <div class="columns">
 <div>
 
 <span style="display:block; height:1px;"></span>
 
-<div style="font-size: 85%" >
 
-- Non posso approssimare a una normale
-- Uso la $\mathcal{t}$ di Student
-  - considera i gradi di libert&agrave; $(\mathcal{df})$
-  - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
-  <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$ -->
 
 </div>
-
-</div>
-<div>
-
-<span style="display:block; height:5px;"></span>
-
-<center>
-<img src="./img/normal/tdist.png" img height="450px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!-- una famiglia di distribuzioni, 1 per ogni valore campionario n-1
-
- infatti la t-dist tiene conto dei valori campionari n-1, detti anche Gradi di liberta', che misurano la quantità di informazione disponibile nei dati che può essere usata per stimare sigma (affidabilità della stima s)
-
-All’aumentare di n (e dei GdL) la stima di sigma attraverso s è sempre più affidabile: con n grande la distribuzione t si avvicina alla distribuzione normale
- -->
-
----
-## $\mathcal{t}$ di Student 
-
-<div class="columns">
 <div>
 
 <span style="display:block; height:1px;"></span>
 
-<div style="font-size: 85%" >
-
-- Non posso approssimare a una normale
-- Uso la $\mathcal{t}$ di Student
-  - considera i gradi di libert&agrave; $(\mathcal{df})$
-  - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
-  <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ -->
-</div>
-
-</div>
-<div>
-
 <center>
-<img src="./img/normal/tdist_table.png" img height="550px" border="4px"/>
+<img src="./img/normal/Twin_BW_normale_area_z_1-alpha.png" img height="450px" border="4px"/>
 </center>
 
+
 </div>
 </div>
 
-<!-- Il procedimento per la costruzione dei CI e' lo stesso, quello che cambia e' la tavola da dove andiamo ad estrare il coefficiente di attendibilita' (t) 
-
-Attenzione sempre al fatto che la distribuzione di t è diversa per ciascuno dei gl: usare le tavole corrette!!! -->
 
 ---
-## $\mathcal{t}$ di Student
+## Calcoliamo la probabilit&agrave;/proporzione
 
-<div class="columns">
+<span style="display:block; height:0px;"></span>
+
+<div style="font-size: 80%">
+
+&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+
+<img src="./img/normal/normal_table_zoom_example.jpg" img height="350px" align=right border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2404}{580} = \frac{-904}{580} = -1.56$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Identifichiamo l'area
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Cerchiamo lo $z$-score sulle tavole e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragioniamo sull'area identificata
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.9406 = 0.0594 \rightarrow 5.94\%$
+
+<!-- Fare vedere che la curva e' simmetrica quindi possiamo usare 1.56 per conoscere l'area -->
+
+
+---
+### Esercizio #8
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai $2500$g &egrave; inusuale. La madre deve preoccuparsi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="./img/normal/normal_table_zoom.jpg" img height="380px" border="4px" align="right"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+
+</div>
+
+<span style="display:block; height:200px;"></span>
+
+
+<style>
+  #countdown_exercise_8{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float:left;
+  }
+  #countdown_exercise_8.running {
+    background-color: green;
+  }
+  #countdown_exercise_8.finished {
+    background-color: red;
+  }
+</style>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button id="countdown_exercise_8"></button> 
+
+<script>
+<!--
+const countdown_exercise_8= document.getElementById("countdown_exercise_8");
+const seconds_exercise_8= 300; // seconds_exercise_8
+let timeLeft_exercise_8= seconds_exercise_8;
+let timerInterval_exercise_8= null;
+
+function formatTime_exercise_8(seconds_exercise_8) {
+  const minutes = Math.floor(seconds_exercise_8/ 60);
+  const remainingseconds_exercise_8= seconds_exercise_8% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_8).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_8() {
+  countdown_exercise_8.textContent = formatTime_exercise_8(timeLeft_exercise_8);
+}
+
+function startTimer_exercise_8() {
+  if (timerInterval_exercise_8=== null) {
+    countdown_exercise_8.classList.add('running');
+    countdown_exercise_8.classList.remove('finished');
+    timerInterval_exercise_8= setInterval(() => {
+      if (timeLeft_exercise_8> 0) {
+        timeLeft_exercise_8--;
+        updateButton_exercise_8();
+      } else {
+        clearInterval(timerInterval_exercise_8);
+        timerInterval_exercise_8= null;
+        countdown_exercise_8.classList.remove('running');
+        countdown_exercise_8.classList.add('finished');
+        countdown_exercise_8.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_8();
+  }
+}
+
+function pauseTimer_exercise_8() {
+  clearInterval(timerInterval_exercise_8);
+  timerInterval_exercise_8= null;
+  countdown_exercise_8.classList.remove('running');
+}
+
+function resetTimer_exercise_8() {
+  timeLeft_exercise_8= seconds_exercise_8;
+  updateButton_exercise_8();
+  countdown_exercise_8.classList.remove('finished');
+  countdown_exercise_8.classList.remove('running');
+  timerInterval_exercise_8= null;
+}
+
+countdown_exercise_8.addEventListener("click", () => {
+  if (countdown_exercise_8.classList.contains('finished')) {
+    resetTimer_exercise_8();
+  } else {
+    startTimer_exercise_8();
+  }
+});
+
+updateButton_exercise_8();
+-->
+</script>
+
+
+</div>
 <div>
 
-<span style="display:block; height:1px;"></span>
+<span style="display:block; height:10px;"></span>
 
-<div style="font-size: 85%" >
 
-- Non posso approssimare a una normale
-- Uso la $\mathcal{t}$ di Student
-  - considera i gradi di libert&agrave; $(\mathcal{df})$
-  - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
-  <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ -->
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/normal/tdist_table_zoom.png" img height="550px" border="4px"/>
-</center>
 
 </div>
 </div>
 
-<!-- Piccoli == <30 circa  -->
+<!-- For medical rather than statistical reasons, babies below 2,500 g are considered ‘low birth weight’, and those below 1,500 g ‘very low birth weight’.  -->
+
+---
+### Esercizio #8 -- Soluzione
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai $2500$g &egrave; inusuale. La madre deve preoccuparsi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="./img/normal/normal_table_zoom.jpg" img height="380px" border="4px" align="right"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{2500-2404}{580} = \frac{96}{580} = 0.17$
+ 
+</div>
+
+---
+### Esercizio #8 -- Soluzione
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai $2500$g &egrave; inusuale. La madre deve preoccuparsi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="./img/normal/Twin_BW_normale_area_z_ex.png" img height="380px" border="4px" align="right"/>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{2500-2404}{580} = \frac{96}{580} = 0.17$
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Identifichiamo l'area
+
+</div>
+
+---
+### Esercizio #8 -- Soluzione
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Non sapendo che il bambino ha un gemello, il pediatra dice alla madre che un
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai $2500$g &egrave; inusuale. La madre deve preoccuparsi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="./img/normal/normal_table_zoom_example_ex.jpg" img height="380px" border="4px" align="right"/>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{2500-2404}{580} = \frac{96}{580} = 0.17$
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Identifichiamo l'area
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Cerchiamo lo $z$-score sulle tavole e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragioniamo sull'area identificata
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} =  0.5675 \rightarrow 56.75\%$
+
+</div>
 
 ---
 ### Cosa abbiamo imparato in questa lezione?
 
 <span style="display:block; height:0px;"></span>
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
 - Diversi fenomeni naturali sono normalmente distribuiti
-- La normale &egrave; definita dalla sua media e deviazione standard e corrisponde a una distribuzione di probabilit&agrave;
-- La distribuzione (normale) di una popolazione ci fornisce la probabilit&agrave; di estrarre un individuo da quella popolazione ma anche la sua frequenza 
-- Se i dati sono normalmente distribuiti, il 68% della popolazione si trova a 1 SD dalla media, il 95% a 2 SD e il 99.7% a 3 SD
-- Per campioni piccoli ($n < 30$), usiamo la distribuzione $\mathcal{t}$ di Student per ottenere una probabilit&agrave; 
+- La distrribuzione Normale &egrave; definita dalla media e dalla deviazione standard e corrisponde a una distribuzione di probabilit&agrave;
+- La distribuzione (Normale) di una popolazione ci fornisce la probabilit&agrave; di estrarre un individuo da quella popolazione, ma anche la sua frequenza 
+- Se i dati sono normalmente distribuiti, il 68% della popolazione si trova a 1 $\sigma$ dalla media, il 95% a 2 $\sigma$ e il 99.7% a 3 $\sigma$
+- Lo $z$-score ci permette di "posizionare" un'osservazione rispetto alla popolazione e di confrontare pi&ugrave; distribuzioni (anche molto diverse)
 
 </div>
