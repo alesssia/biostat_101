@@ -766,10 +766,10 @@ updateButton_exercise_4();
 ---
 ## Misure di dispersione
 
-<span style="display:block; height:50px;"></span>
+<span style="display:block; height:20px;"></span>
 
 <center>
-<img src="./img/descriptive/sd.png" img height="350px" border="4px"/>
+<img src="./img/descriptive/sd.png" img height="400px" border="4px"/>
 </center>
 
 
@@ -2406,6 +2406,144 @@ Bimps sulle decine, asimmetrica
 Multimodale, particolarmente accentuato sull'1 -->
 
 ---
+### Esercizio #11
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/gym.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intevistando  41 genitori
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in un parco giochi.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Gli intervistati spendono tra le 0 e le 9 ore 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in paletra, con una media di 3.4 $\pm$  3.4 ore 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (mediana: 5 ore; moda: 0 ore).
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Circa la met&agrave; degli intervistati ha riportato di non
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; essere andata in palestra. I rimanenti spendono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra tra le 5 e le 9 ore, con una media  di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6 $\pm$ 1.1 ore  (mediana: 7 ore)
+
+</div>
+
+
+<style>
+  #countdown_exercise_11{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_11.running {
+    background-color: green;
+  }
+  #countdown_exercise_11.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_11"></button>
+
+<script>
+<!--
+const countdown_exercise_11= document.getElementById("countdown_exercise_11");
+const seconds_exercise_11= 120; // seconds_exercise_11
+let timeLeft_exercise_11= seconds_exercise_11;
+let timerInterval_exercise_11= null;
+
+function formatTime_exercise_11(seconds_exercise_11) {
+  const minutes = Math.floor(seconds_exercise_11/ 60);
+  const remainingseconds_exercise_11= seconds_exercise_11% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_11).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_11() {
+  countdown_exercise_11.textContent = formatTime_exercise_11(timeLeft_exercise_11);
+}
+
+function startTimer_exercise_11() {
+  if (timerInterval_exercise_11=== null) {
+    countdown_exercise_11.classList.add('running');
+    countdown_exercise_11.classList.remove('finished');
+    timerInterval_exercise_11= setInterval(() => {
+      if (timeLeft_exercise_11> 0) {
+        timeLeft_exercise_11--;
+        updateButton_exercise_11();
+      } else {
+        clearInterval(timerInterval_exercise_11);
+        timerInterval_exercise_11= null;
+        countdown_exercise_11.classList.remove('running');
+        countdown_exercise_11.classList.add('finished');
+        countdown_exercise_11.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_11();
+  }
+}
+
+function pauseTimer_exercise_11() {
+  clearInterval(timerInterval_exercise_11);
+  timerInterval_exercise_11= null;
+  countdown_exercise_11.classList.remove('running');
+}
+
+function resetTimer_exercise_11() {
+  timeLeft_exercise_11= seconds_exercise_11;
+  updateButton_exercise_11();
+  countdown_exercise_11.classList.remove('finished');
+  countdown_exercise_11.classList.remove('running');
+  timerInterval_exercise_11= null;
+}
+
+countdown_exercise_11.addEventListener("click", () => {
+  if (countdown_exercise_11.classList.contains('finished')) {
+    resetTimer_exercise_11();
+  } else {
+    startTimer_exercise_11();
+  }
+});
+
+updateButton_exercise_11();
+-->
+</script>
+
+---
+### Esercizio #11 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/gym.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intevistando  41 genitori
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in un parco giochi.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Gli intervistati spendono tra le 0 e le 9 ore 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in paletra, con una media di 3.4 $\pm$  3.4 ore 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (mediana: 5 ore; moda: 0 ore).
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Circa la met&agrave; degli intervistati ha riportato di non
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; essere andata in palestra. I rimanenti spendono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra tra le 5 e le 9 ore, con una media  di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6 $\pm$ 1.1 ore  (mediana: 7 ore) &nbsp;&nbsp; :white_check_mark:
+
+</div>
+
+---
 ### La relazione tra due variabili numeriche
 
 <div style="font-size: 78%">
@@ -2640,7 +2778,7 @@ Pearson's correlation coefficient
 </center>
 
 ---
-### Esercizio #11
+### Esercizio #12
 
 <span style="display:block; height:1px;"></span>
 
@@ -2655,11 +2793,10 @@ Pearson's correlation coefficient
 
 </div>
 
-
 <span style="display:block; height:100px;"></span>
 
 <style>
-  #countdown_exercise_11{
+  #countdown_exercise_12{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -2669,83 +2806,85 @@ Pearson's correlation coefficient
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_11.running {
+  #countdown_exercise_12.running {
     background-color: green;
   }
-  #countdown_exercise_11.finished {
+  #countdown_exercise_12.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_11"></button>
+<button id="countdown_exercise_12"></button>
 
 <script>
 <!--
-const countdown_exercise_11= document.getElementById("countdown_exercise_11");
-const seconds_exercise_11= 60; // seconds_exercise_11
-let timeLeft_exercise_11= seconds_exercise_11;
-let timerInterval_exercise_11= null;
+const countdown_exercise_12= document.getElementById("countdown_exercise_12");
+const seconds_exercise_12= 60; // seconds_exercise_12
+let timeLeft_exercise_12= seconds_exercise_12;
+let timerInterval_exercise_12= null;
 
-function formatTime_exercise_11(seconds_exercise_11) {
-  const minutes = Math.floor(seconds_exercise_11/ 60);
-  const remainingseconds_exercise_11= seconds_exercise_11% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_11).padStart(2, '0')}`;
+function formatTime_exercise_12(seconds_exercise_12) {
+  const minutes = Math.floor(seconds_exercise_12/ 60);
+  const remainingseconds_exercise_12= seconds_exercise_12% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_12).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_11() {
-  countdown_exercise_11.textContent = formatTime_exercise_11(timeLeft_exercise_11);
+function updateButton_exercise_12() {
+  countdown_exercise_12.textContent = formatTime_exercise_12(timeLeft_exercise_8);
 }
 
-function startTimer_exercise_11() {
-  if (timerInterval_exercise_11=== null) {
-    countdown_exercise_11.classList.add('running');
-    countdown_exercise_11.classList.remove('finished');
-    timerInterval_exercise_11= setInterval(() => {
-      if (timeLeft_exercise_11> 0) {
-        timeLeft_exercise_11--;
-        updateButton_exercise_11();
+function startTimer_exercise_12() {
+  if (timerInterval_exercise_12=== null) {
+    countdown_exercise_12.classList.add('running');
+    countdown_exercise_12.classList.remove('finished');
+    timerInterval_exercise_12= setInterval(() => {
+      if (timeLeft_exercise_12> 0) {
+        timeLeft_exercise_12--;
+        updateButton_exercise_12();
       } else {
-        clearInterval(timerInterval_exercise_11);
-        timerInterval_exercise_11= null;
-        countdown_exercise_11.classList.remove('running');
-        countdown_exercise_11.classList.add('finished');
-        countdown_exercise_11.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_12);
+        timerInterval_exercise_12= null;
+        countdown_exercise_12.classList.remove('running');
+        countdown_exercise_12.classList.add('finished');
+        countdown_exercise_12.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_11();
+    pauseTimer_exercise_12();
   }
 }
 
-function pauseTimer_exercise_11() {
-  clearInterval(timerInterval_exercise_11);
-  timerInterval_exercise_11= null;
-  countdown_exercise_11.classList.remove('running');
+function pauseTimer_exercise_12() {
+  clearInterval(timerInterval_exercise_12);
+  timerInterval_exercise_12= null;
+  countdown_exercise_12.classList.remove('running');
 }
 
-function resetTimer_exercise_11() {
-  timeLeft_exercise_11= seconds_exercise_11;
-  updateButton_exercise_11();
-  countdown_exercise_11.classList.remove('finished');
-  countdown_exercise_11.classList.remove('running');
-  timerInterval_exercise_11= null;
+function resetTimer_exercise_12() {
+  timeLeft_exercise_12= seconds_exercise_12;
+  updateButton_exercise_12();
+  countdown_exercise_12.classList.remove('finished');
+  countdown_exercise_12.classList.remove('running');
+  timerInterval_exercise_12= null;
 }
 
-countdown_exercise_11.addEventListener("click", () => {
-  if (countdown_exercise_11.classList.contains('finished')) {
-    resetTimer_exercise_11();
+countdown_exercise_12.addEventListener("click", () => {
+  if (countdown_exercise_12.classList.contains('finished')) {
+    resetTimer_exercise_12();
   } else {
-    startTimer_exercise_11();
+    startTimer_exercise_12();
   }
 });
 
-updateButton_exercise_11();
+updateButton_exercise_12();
 -->
 </script>
 
 
+
+
 ---
-### Esercizio #11 -- Soluzione
+### Esercizio #12 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
@@ -2760,19 +2899,190 @@ updateButton_exercise_11();
 
 </div>
 
+---
+## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cranica di un bambolotto che simula un  bambino di un anno
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="./img/descriptive/head_circiference_doll.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<!-- Given that all nurses were measuring the head of the same doll, all of the head circumference measurements should be the same. In other words, there should be no variability in the measurements. However, the above graph clearly illustrates that there was variability in the measurements. Why was there variability in the measurements of the doll’s head circumference? (Select all that apply.)
+
+Some nurses held the tape measure tighter around the infants head while others held it looser.
+Each nurse put the tape measure in a slightly different place on the doll’s head
+Some nurses may have misread the tape measure.
+The doll’s head changed size between measurements. -->
+
+---
+## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cranica di un bambolotto che simula un  bambino di un anno
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<img src="./img/descriptive/head_circiference_doll.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<div style="font-size: 85%" align="right">
+
+<br/> Errori di misurazione
+
+</div>
+
+---
+## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; Nello stesso studio, un pediatria misura la circonferenza cranica di 35
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bambini di un anno
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<img src="./img/descriptive/head_circiference_children.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<div style="font-size: 85%" align="right">
+
+
+
+</div>
+
+<!--   the above question, all of the variability in scores was created by measurement error because everyone was measuring the same thing and, therefore, should have obtained the same score. Unfortunately, measurement error is always present. No matter what you are measuring, you will never be able to measure it perfectly every time. You can, however, reduce the amount of measurement error. In the context of measuring an infant’s head circumference, how could the developmental psychologist and/or nurses reduce the variability in scores created by measurement error (i.e., what could they do to increase the accuracy/reliability of each measurement?). Select all that apply.
+
+Give the nurses a lot of practice measuring different dolls’ heads.
+Train the nurses to use a consistent degree of tension in the tape measure.
+-->
+
+---
+## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; Nello stesso studio, un pediatria misura la circonferenza cranica di 35
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bambini di un anno
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<img src="./img/descriptive/head_circiference_children.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<div style="font-size: 85%" align="right">
+
+<br/>
+Differenze individuali
+
+</div>
+
+<!-- Anche qui rimangono errori di misurazione -->
+
+---
+## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; Nello stesso studio, lo stesso pediatra misura altri 35 bambini di un 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che vivono in famiglie di stato socioeconomico molto basso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<img src="./img/descriptive/head_circiference_children_groups.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<div style="font-size: 85%" align="right">
+
+<br/>
+
+
+</div>
+
+<!-- Anche qui rimangono errori di misurazione e variabilita' individuale -->
+
+---
+## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; Nello stesso studio, lo stesso pediatra misura altri 35 bambini di un 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che vivono in famiglie di stato socioeconomico molto basso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<img src="./img/descriptive/head_circiference_children_groups.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<div style="font-size: 85%" align="right">
+
+<br/>
+Diversa condizione sperimentale?
+
+</div>
+
+---
+## Perch&eacute; dobbiamo conoscere la differenza?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; Vedremo come determinare se la variabilit&agrave; &egrave; generata dalle condizioni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sperimentali o se &egrave; generata da differenze individuali e/o da errori di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; misurazione
+
+
+<span style="display:block; height:60px;"></span>
+
+<center>
+<img src="./img/descriptive/head_circiference_doll.png" img height="190px"  border="4px"/> 
+<img src="./img/descriptive/head_circiference_children.png" img height="190px"  border="4px"/>
+<img src="./img/descriptive/head_circiference_children_groups.png" img height="190px" border="4px"/>
+</center>
+
+
 
 ---
 ### Cosa abbiamo imparato in questa lezione?
 
-<!-- <span style="display:block; height:0px;"></span> -->
+<!-- -->
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
 - Le variabili numeriche possono essere rappresentate con misure di centralit&agrave;, dispersione e correlazione (statistiche)
-- Alcune statistiche sono "falsate" se le distribuzioni empiriche sono asimmetriche e/o includono valori estremi
-- Le statistiche possono nascondere dettagli importanti dei dati
-- Le variabili numeriche possono essere rappresentate graficamente in diversi modi, ma alcune rappresentazioni possono nascondere dettagli importanti delle distribuzioni sottostanti
+- Alcune statistiche sono "falsate" se le distribuzioni empiriche sono asimmetriche e/o includono valori estremi e  possono nascondere dettagli importanti dei dati
+- Le variabili numeriche possono essere rappresentate graficamente in diversi modi, ma alcune  possono nascondere dettagli importanti delle distribuzioni empiriche
 - Visualizzare i dati &egrave; importante per interpretarli
 - Il campione viene rappresentato con le statistiche, la popolazione con i parametri
+- La variabilit&agrave; che osserviamo pu&ograve; essere causata da errori di misurazione, differenze individuali e/o di condizione sperimentale
+
 </div>
 

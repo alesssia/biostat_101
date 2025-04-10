@@ -61,6 +61,27 @@ Finally, the key to good statistical science is drawing appropriate Conclusions 
  -->
 
 ---
+## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 88%">
+
+:dart: &nbsp;&nbsp; Vedremo come determinare se la variabilit&agrave; &egrave; generata dalle condizioni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sperimentali o se &egrave; generata da differenze individuali e/o da errori di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; misurazione
+
+</div>
+
+<span style="display:block; height:40px;"></span> 
+
+<center>
+<img src="./img/descriptive/head_circiference_doll.png" img height="180px"  border="4px"/> 
+<img src="./img/descriptive/head_circiference_children.png" img height="180px"  border="4px"/>
+<img src="./img/descriptive/head_circiference_children_groups.png" img height="180px" border="4px"/>
+</center>
+
+---
 ## <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:warning:  Attenzione  :warning:
 
 <span style="display:block; height:1px;"></span>
