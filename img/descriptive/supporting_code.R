@@ -36,6 +36,33 @@ print(p)
 dev.off()
 
 
+mean <- 0
+start <- -10
+end <- 10
+
+
+p <-  ggplot(data = data.frame(x = c(start, end)), aes(x)) +
+   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="grey74", alpha=0.4, xlim = c(start, end)) +
+   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), colour="black") + 
+   
+   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 2), geom = "area", fill="darkgreen", alpha=0.4, xlim = c(start, end)) +
+   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 2), colour="black") +
+   
+   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 3), geom = "area", fill="magenta", alpha=0.4, xlim = c(start, end)) +
+   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 3), colour="black") +
+   
+   geom_segment(aes(x = start, y = 0, xend = end, yend = 0), colour="black") +
+	
+   geom_segment(aes(x = 0, y = 0, xend = 0, yend = dnorm(0, mean=0, sd = 1)), colour="black", linetype="dashed") +
+
+   scale_y_continuous(breaks = NULL) + theme_void()
+
+
+png("sd.png", width=500, height=250)
+print(p)
+dev.off()
+
+
 # Examples of outliers in calculating median and mean
 pp <- data.frame(x=c(6, 34, 40, 55, 175, 0, 0), y=c(rep(0, 5), 1, -1))
 
@@ -145,3 +172,45 @@ dev.off()
 print(cor(df$h, df$s))
 print(cor(df$h[1:n], df$s[1:n]))
   
+  
+#Exercize  
+gym <- c(rep(0, 20), rep(5, 4), rep(6, 6), rep(7,7), rep(8, 3), 9)  
+gym <- data.frame(p=1:length(gym), hours=gym)
+
+p <- ggplot(gym, aes(x=hours)) + geom_histogram(bins=10, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + graphic.settings + xlab("Ore di palestra alla settimana") + ylab("Numero") + ggtitle("")
+
+
+png("gym.png")
+print(p)
+dev.off()
+
+# Variability
+
+head_circ <- c(43, rep(44,3), rep(45, 4), rep(46, 5), rep(47,3), rep(48,2))
+head_circ <- data.frame(p=1:length(head_circ), hc=head_circ)
+
+p <- ggplot(head_circ, aes(x=hc)) + geom_histogram(bins=10, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + graphic.settings + xlab("Circonferenza cranica (cm)") + ylab("Numero") + scale_x_continuous(breaks=min(head_circ$hc):max(head_circ$hc))
+
+
+png("head_circiference_doll.png", width=480, height=250)
+print(p)
+dev.off()
+
+
+head_circ <- c(41, rep(42, 2), rep(43,3), rep(44,3), rep(45, 5), rep(46, 6), rep(47,4), rep(48,4), rep(49,3), rep(50,2), 51, 52)
+head_circ <- data.frame(p=1:length(head_circ), hc=head_circ)
+
+p <- ggplot(head_circ, aes(x=hc)) + geom_histogram(bins=10, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + graphic.settings + xlab("Circonferenza cranica (cm)") + ylab("Numero") + scale_x_continuous(breaks=min(head_circ$hc):max(head_circ$hc))
+
+png("head_circiference_children.png", width=480, height=250)
+print(p)
+dev.off()
+
+head_circ_2 <- c(33, rep(34, 2), rep(35, 3), rep(36, 5), rep(37, 7), rep(38, 6), rep(39, 4), rep(40, 3), rep(41, 2), 42, 43)+6
+head_circ <- rbind(data.frame(head_circ, study="A"), data.frame(p=1:length(head_circ_2), hc=head_circ_2, study="B"))
+
+p <- ggplot(head_circ, aes(x=hc, fill=study)) + geom_histogram(binwidth=1, color="black", alpha=0.4, position = 'identity') + scale_fill_manual("Study", values=c("darkgreen", "magenta")) + graphic.settings + xlab("Circonferenza cranica (cm)") + ylab("Numero") + scale_x_continuous(breaks=min(head_circ$hc):max(head_circ$hc)) + theme(legend.position="none")
+
+png("head_circiference_children_groups.png", width=480, height=250)
+print(p)
+dev.off()
