@@ -2310,7 +2310,7 @@ updateButton_exercise_11();
 
 <div style="font-size: 85%" >
 
-- Non posso approssimare a una normale
+- Non posso approssimare a una Normale
 - Uso la $\mathcal{t}$ di Student
   
 </div>
@@ -2320,15 +2320,120 @@ updateButton_exercise_11();
 
 <span style="display:block; height:5px;"></span>
 
-<center>
-<img src="./img/normal/tdist.png" img height="450px" border="4px"/>
-</center>
 
 </div>
 </div>
 
 <!-- Quando la dimensione campionaria e' grande la nostra fiducia nell'approssimare sigma con la varianza campionaria e' ben riposta  e possiamo usare la normale per il calcolo dei CI, ma cosa succede quando i campioni soo piccoli? Usiamo la distribuzione  di Student
+ -->
 
+---
+## $\mathcal{t}$ di Student 
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 85%" >
+
+- Non posso approssimare a una Normale
+- Uso la $\mathcal{t}$ di Student
+  - considera i gradi di libert&agrave; (df)
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:5px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/tdist_df1.png" img height="450px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- 
+- &egrave; una famiglia di distribuzioni, 1 per ogni valore campionario n-1
+
+Come la normale:
+- ha media 0
+- &egrave; simmetrica
+- ha varianza >1 che si avvicina a 1 al crescere di N
+
+
+Meno appuntita al centro e code pi&ugrave; alte
+ -->
+
+
+ ---
+## $\mathcal{t}$ di Student 
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 85%" >
+
+- Non posso approssimare a una Normale
+- Uso la $\mathcal{t}$ di Student
+  - considera i gradi di libert&agrave; (df)
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:5px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/tdist_df5.png" img height="450px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- 
+- &egrave; una famiglia di distribuzioni, 1 per ogni valore campionario n-1
+
+Come la normale:
+- ha media 0
+- &egrave; simmetrica
+- ha varianza >1 che si avvicina a 1 al crescere di N
+
+
+Meno appuntita al centro e code pi&ugrave; alte
+ -->
+
+ ---
+## $\mathcal{t}$ di Student 
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 85%" >
+
+- Non posso approssimare a una Normale
+- Uso la $\mathcal{t}$ di Student
+  - considera i gradi di libert&agrave; (df)
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:5px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/tdist_df30.png" img height="450px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+<!-- 
 - &egrave; una famiglia di distribuzioni, 1 per ogni valore campionario n-1
 
 Come la normale:
@@ -2341,7 +2446,7 @@ Meno appuntita al centro e code pi&ugrave; alte
  -->
 
 ---
-## $\mathcal{t}$ di Student per campioni piccoli
+## $\mathcal{t}$ di Student per CI in campioni piccoli
 
 <div class="columns">
 <div>
@@ -2366,7 +2471,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 <div>
 
 <center>
-<img src="./img/normal/tdist_table_zoom.png" img height="550px" border="4px"/>
+<img src="./img/confidence_intervals/tdist_table_zoom.png" img height="550px" border="4px"/>
 </center>
 
 </div>

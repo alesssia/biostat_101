@@ -246,3 +246,24 @@ png("ME_and_CI.png")
 print(p)
 dev.off()
 
+
+# Various student's t
+for (df in c(1, 5, 30))
+{
+	p <-   ggplot(data = data.frame(x = c(-6, 6)), aes(x)) +
+	    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), colour="black", linetype="dashed", lwd=1.2) +
+		stat_function(fun = dt, n = 101, args = list(df = df), colour="magenta", lwd=1.2) +
+	
+		geom_segment(aes(x = 0, y = -0.0025, xend = 0, yend = 0), colour="black") +
+		annotate("text", x = 4, y = 0.05, label = paste0("df = ", df), parse = FALSE, size=9) +
+		theme_void()
+
+
+	png(paste0("tdist_df", df, ".png"), width=480, height=400)
+	print(p)
+	dev.off()
+	
+}
+
+
+
