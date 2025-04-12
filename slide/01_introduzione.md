@@ -27,64 +27,6 @@ section {
 ## &nbsp;
 
 ---
-## Informazioni generali
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 80%">
-
-<div class="columns">
-<div>
-
-- **Docente**
-    - alessia.visconti@unito.it
-
-- **Cosa (c'&egrave; nel programma)?**
-    <!-- - 16h di lezione (circa)
-    - 8h di laboratorio (circa) -->
-    - 15h di lezione
-    - incluso esercitazioni
-
-
-</div>
-<div>
-
-- **Cosa (portare a lezione)?**  
-    <!-- - laptop (per il laboratorio) -->
-    - fogli (per fare gli esercizi)
-    
-<!-- - **Quando?**
-    - Ogni luned&igrave; mattina (4h)
-    - Pause volanti -->
-
-- **Com'&egrave; (l'esame)?**
-    - quiz a risposta chiusa (1h)
-    - con formulario e calcolatrice
-
-</div>
-</div>
-
-<!-- 
-Come si interagisce con me: 
-- Alzando la mano durante la lezione
-- All'inizio/fine della lezione e nelle pause
-- Prendendo appuntamento via email
-- (Sperimentale) via note anonime
-
-E' il primo anno che insegno questo corso, quindi e' tutto un po' sperimentale, incluso questa richiesta di portare un foglio da consegnare e la divisione in lezione frontale e laboratorio
-
-Pesante in lunedi', interrompero' con esercizi e discussioni, quindi chiedo la partecipazione di tutti.
-Gli esercizi fatti a lezione sono formative assesment, che vuole dire che servono sia a voi che a me a capire se avete capito. Non vincete niente se rispondete giusto, non vi si decurta nulla se rispondete sbagliato, ma se rispondete tutti sbagliato io capisco che qualcosa e' stato spiegato male (e voi capite su cosa dovete concentrarvi quando studiate)
-
-vi chiederei di essere puntuali, nel limiti del 43 e del parcheggio in zona, e vi chiederei se preferite pause fisse, Perch&eacute;, personalmente io sarei per pause volanti quando raggiungiamo la fine di un argomento o vi vedo particolarmente provati
-
-Slide in anticipo senza esercizi
-
-L'esame ha domande a crocette, per le quali sicuramente dovete ragionare, ma per cui dovete fare anche dei calcoli
-Potete quindi portarvi la calcolatrice (non il cellulare) e un formulario formato A5, scritto anche da entrambi i lati
--->
-
----
 ## Perch&eacute; siamo qui?
 
 <span style="display:block; height:400px;"></span>
@@ -112,7 +54,7 @@ Potete quindi portarvi la calcolatrice (non il cellulare) e un formulario format
 <script>
 <!--
 const countdown_think= document.getElementById("countdown_think");
-const seconds_think= 120; // seconds_think
+const seconds_think= 60; // seconds_think
 let timeLeft_think= seconds_think;
 let timerInterval_think= null;
 
@@ -201,7 +143,7 @@ updateButton_think();
 <script>
 <!--
 const countdown_pair= document.getElementById("countdown_pair");
-const seconds_pair= 180; // seconds_pair
+const seconds_pair= 120; // seconds_pair
 let timeLeft_pair= seconds_pair;
 let timerInterval_pair= null;
 
@@ -696,13 +638,12 @@ If the law of the country is that cars should drive on the right, then we can de
 
 </div>
 
-
 ---
 
 <span style="display:block; height:200px;"></span>
 
 
-## Due parole sul corso
+## Due parole sul corso...
 
 
 ---
@@ -767,7 +708,7 @@ oppure
 <div style="font-size: 80%">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (solitamente con una calcolatrice)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
 
@@ -786,7 +727,7 @@ oppure
 <div style="font-size: 80%">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (solitamente con una calcolatrice)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
 
@@ -805,7 +746,7 @@ oppure
 <div style="font-size: 80%">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (solitamente con una calcolatrice)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - potenze (di 2)
@@ -825,7 +766,7 @@ oppure
 <div style="font-size: 80%">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (solitamente con una calcolatrice)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - potenze (di 2)
@@ -845,7 +786,7 @@ oppure
 <div style="font-size: 80%">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (solitamente con una calcolatrice)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - potenze (di 2)
@@ -866,7 +807,7 @@ oppure
 <div style="font-size: 80%">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per seguire questo corso dovete saper fare le seguenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (anche con una calcolatrice):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operazioni (solitamente con una calcolatrice)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - somme, sottrazioni, moltiplicazioni, divisioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - potenze (di 2)
@@ -883,17 +824,25 @@ oppure
 
 <span style="display:block; height:30px;"></span>
 
-<div style="font-size: 90%">
 
 - Fare errori non &egrave; solo normale ma anche utile
-- Fare errori (e poi correggerli) &egrave; come impariamo cose nuove
 - Prendete ogni errore come un'opportunit&agrave; per imparare
-- Meglio sbagliare (e imparare) in classe che in altri momenti (esame, vita lavorativa, ...)
+- Meglio sbagliare (e imparare) in classe che in altri momenti 
 
-</div>
+
+<!-- - Fare errori (e poi correggerli) &egrave; come impariamo cose nuove -->
 
 ---
-<span style="display:block; height:200px;"></span>
+### Cosa abbiamo imparato in questa lezione?
 
+<span style="display:block; height:0px;"></span>
 
-## Siamo pronti?
+<div style="font-size: 90%">
+
+- Imparare le basi della statistica medica ci permette di interpretare i nostri dati, comunicare i nostri risultati efficacemente, capire il linguaggio della ricerca ed essere dei professionisti che lavorano seguendo le prove di efficacia
+- La statistica medica &egrave; divisa in due rami strettamente interconessi
+- La ricerca scientifica segue  un processo circolare
+- Il processo induttivo ci permette di passare dal particolare al generale
+- Non dobbiamo aver paura a metterci in gioco
+
+</div>
