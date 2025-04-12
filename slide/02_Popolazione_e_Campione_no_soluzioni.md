@@ -30,13 +30,9 @@ section {
 
 <span style="display:block; height:50px;"></span>
 
-<div style="font-size: 90%">
-
 - Conoscere le differenze tra popolazione e campione
 - Conoscere le due maggiori strategie di campionamento
 - Individuare errori di campionamento e bias
-
-</div>
 
 ---
 ## Le fasi della ricerca
@@ -592,6 +588,7 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 
 - La popolazione &egrave; l'insieme di tutti gli individui per cui vogliamo studiare un fenomeno ed è, teoricamente, infinita
 - Il campione &egrave; un sotto insieme (rappresentativo?) della popolazione
-- Anche con campioni rappresentativi (casuali) possono esserci errori e/o bias
+- Pi&ugrave; un campione &egrave; rappresentativo della popolazione, pi&ugrave; le nostre conclusioni sono robuste
+- Anche campioni rappresentativi (casuali) possono soffrire di bias
 
 </div>
