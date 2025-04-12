@@ -30,9 +30,8 @@ section {
 
 <span style="display:block; height:50px;"></span>
 
-- Saper definire cos'&egrave; un dato
+- Saper definire cos'&egrave; una variabile
 - Conoscere le differenze tra i diversi tipi di dati
-- Saper pianificare una raccolta dati 
 
 ---
 ## Le fasi della ricerca
@@ -67,58 +66,16 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dato $\longleftrightarrow$ informazione $\longleftrightarrow$ variabile**
 
-<!-- Un dato corrisponde a un'informazione su un membro di una popolazione (sesso, altezza, numero dei battiti cardiaci, titolo di studio, età,…) , viene codificata in variabili. 
+<!-- Dato informazione su una variabile di interesse
+
+
+Un dato corrisponde a un'informazione su un membro di una popolazione (sesso, altezza, numero dei battiti cardiaci, titolo di studio, età,…) , viene codificata in variabili. 
 La variabilita' di tali variabili (differenze che vediamo tra le osservazioni) ci dice come le caratteristiche di una paopolazione (eta', sesso, altezza... ) differiscano da individuo a individuo 
 
 Questa variabilita' dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
 -->
 
----
-## Raccogliamo dei dati?
 
-- Quali dati raccogliere? 
-
-<center>
-<img src="./img/data/study_questions.png" img height="300px" border="4px"/>
-</center>
-
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere?
-- In che formato?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
-
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere?
-- In che formato?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp; Esempio: et&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
-
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere?
-- In che formato?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp; Esempio: et&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti anni hai?
-
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere?
-- In che formato?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti anni hai?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A quale di queste fasce d'et&agrave; appartieni?
 
 ---
 ## I tipi di dati
@@ -284,12 +241,12 @@ Categoriche si dividono in 2 classi
 :question: &nbsp;&nbsp;&nbsp; Di che tipo sono i dati 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in questa tabella?
 
-<span style="display:block; height:200px;"></span>
+<span style="display:block; height:250px;"></span>
 
 
 
 <div style="font-size: 50%">
-  
+	
 Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
@@ -310,8 +267,6 @@ Dopo che lo hanno fatto, farli votare e discutere
 Lactate dehydrogenase, dichotomized according to the upper limit of normal for each centre.
 -->
  
-
-
 ---
 ### Esercizio #2
 
@@ -375,6 +330,12 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 </div>
 </div>
 
+
+
+
+</div>
+</div>
+
 ---
 ### Esercizio #4 
 
@@ -395,6 +356,74 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 </div>
 
+
+---
+## Una sola variabile, tanti tipi
+
+<span style="display:block; height:10px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
+
+---
+## Una sola variabile, tanti tipi
+
+<span style="display:block; height:10px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
+
+---
+## Una sola variabile, tanti tipi
+
+<span style="display:block; height:10px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti anni hai?
+
+---
+## Una sola variabile, tanti tipi
+
+<span style="display:block; height:10px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti anni hai?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A quale di queste fasce d'et&agrave; appartieni?
+
+---
+### Esercizio #5
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  discreta. Pu&ograve; trasformarla in una variabile categorica?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave; sempre 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No mai
+
+</div>
+
+---
+### Esercizio #6
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  categorica. Pu&ograve; riottenere l'esatta informazione numerica?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave; sempre 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No mai
+
+</div>
+
+
 ---
 ### Cosa abbiamo imparato in questa lezione?
 
@@ -402,8 +431,9 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 <div style="font-size: 90%">
 
-- Che l'informazione viene codificata in variabili, la cui variabilit&agrave; (differenze che vediamo tra le osservazioni) dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
-- Come pianificare la raccolta dati a partire da una domanda di ricerca
-- Le differenze tra i diversi tipi di dati
+- Una caratteristica di interesse viene codificata in variabili
+- Le differenze che esistono tra le osservazioni (variabilit&agrave;) dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
+- Le variabili sono di diversi tipi, a seconda della caratteristica che codificano
+- Variabili numeriche possono essere trasformate in variabili categoriche
 
 </div>

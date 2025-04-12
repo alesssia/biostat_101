@@ -30,9 +30,8 @@ section {
 
 <span style="display:block; height:50px;"></span>
 
-- Saper definire cos'&egrave; un dato
+- Saper definire cos'&egrave; una variabile
 - Conoscere le differenze tra i diversi tipi di dati
-- Saper pianificare una raccolta dati 
 
 ---
 ## Le fasi della ricerca
@@ -67,365 +66,16 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 
 **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dato $\longleftrightarrow$ informazione $\longleftrightarrow$ variabile**
 
-<!-- Un dato corrisponde a un'informazione su un membro di una popolazione (sesso, altezza, numero dei battiti cardiaci, titolo di studio, età,…) , viene codificata in variabili. 
+<!-- Dato informazione su una variabile di interesse
+
+
+Un dato corrisponde a un'informazione su un membro di una popolazione (sesso, altezza, numero dei battiti cardiaci, titolo di studio, età,…) , viene codificata in variabili. 
 La variabilita' di tali variabili (differenze che vediamo tra le osservazioni) ci dice come le caratteristiche di una paopolazione (eta', sesso, altezza... ) differiscano da individuo a individuo 
 
 Questa variabilita' dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
 -->
 
----
-## Raccogliamo dei dati?
 
-- Quali dati raccogliere? 
-
-<center>
-<img src="./img/data/study_questions.png" img height="300px" border="4px"/>
-</center>
-
-<style>
-  #countdown_think {
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  #countdown_think.running {
-    background-color: green;
-  }
-  #countdown_think.finished {
-    background-color: red;
-  }
-</style>
-
-<div align="right"> Think &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button></div>
-
-<script>
-<!--
-const countdown_think = document.getElementById("countdown_think");
-const seconds_think = 120; // seconds_think
-let timeLeft_think = seconds_think;
-let timerInterval_think = null;
-
-function formatTime_think(seconds_think) {
-  const minutes = Math.floor(seconds_think / 60);
-  const remainingseconds_think = seconds_think % 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_think).padStart(2, '0')}`;
-}
-
-function updateButton_think() {
-  countdown_think.textContent = formatTime_think(timeLeft_think);
-}
-
-function startTimer_think() {
-  if (timerInterval_think === null) {
-    countdown_think.classList.add('running');
-    countdown_think.classList.remove('finished');
-    timerInterval_think = setInterval(() => {
-      if (timeLeft_think > 0) {
-        timeLeft_think--;
-        updateButton_think();
-      } else {
-        clearInterval(timerInterval_think);
-        timerInterval_think = null;
-        countdown_think.classList.remove('running');
-        countdown_think.classList.add('finished');
-        countdown_think.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_think();
-  }
-}
-
-function pauseTimer_think() {
-  clearInterval(timerInterval_think);
-  timerInterval_think = null;
-  countdown_think.classList.remove('running');
-}
-
-function resetTimer_think() {
-  timeLeft_think = seconds_think;
-  updateButton_think();
-  countdown_think.classList.remove('finished');
-  countdown_think.classList.remove('running');
-  timerInterval_think = null;
-}
-
-countdown_think.addEventListener("click", () => {
-  if (countdown_think.classList.contains('finished')) {
-    resetTimer_think();
-  } else {
-    startTimer_think();
-  }
-});
-
-updateButton_think();
--->
-</script>
-
-<!-- Think 
-Vediamo come si passa dalla fase "Problem" alla fase "Planning" -->
-
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere? 
-
-<center>
-<img src="./img/data/study_questions.png" img height="300px" border="4px"/>
-</center>
-
-<style>
-  #countdown_pair {
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  #countdown_pair.running {
-    background-color: green;
-  }
-  #countdown_pair.finished {
-    background-color: red;
-  }
-</style>
-
-<div align="right"> Pair &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button></div>
-
-<script>
-<!--
-const countdown_pair = document.getElementById("countdown_pair");
-const seconds_pair = 180; // seconds_pair
-let timeLeft_pair = seconds_pair;
-let timerInterval_pair = null;
-
-function formatTime_pair(seconds_pair) {
-  const minutes = Math.floor(seconds_pair / 60);
-  const remainingseconds_pair = seconds_pair % 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_pair).padStart(2, '0')}`;
-}
-
-function updateButton_pair() {
-  countdown_pair.textContent = formatTime_pair(timeLeft_pair);
-}
-
-function startTimer_pair() {
-  if (timerInterval_pair === null) {
-    countdown_pair.classList.add('running');
-    countdown_pair.classList.remove('finished');
-    timerInterval_pair = setInterval(() => {
-      if (timeLeft_pair > 0) {
-        timeLeft_pair--;
-        updateButton_pair();
-      } else {
-        clearInterval(timerInterval_pair);
-        timerInterval_pair = null;
-        countdown_pair.classList.remove('running');
-        countdown_pair.classList.add('finished');
-        countdown_pair.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_pair();
-  }
-}
-
-function pauseTimer_pair() {
-  clearInterval(timerInterval_pair);
-  timerInterval_pair = null;
-  countdown_pair.classList.remove('running');
-}
-
-function resetTimer_pair() {
-  timeLeft_pair = seconds_pair;
-  updateButton_pair();
-  countdown_pair.classList.remove('finished');
-  countdown_pair.classList.remove('running');
-  timerInterval_pair = null;
-}
-
-countdown_pair.addEventListener("click", () => {
-  if (countdown_pair.classList.contains('finished')) {
-    resetTimer_pair();
-  } else {
-    startTimer_pair();
-  }
-});
-
-updateButton_pair();
--->
-</script>
-
-<!-- Pair -->
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere? 
-
-<center>
-<img src="./img/data/study_questions.png" img height="300px" border="4px"/>
-</center>
-
-<style>
-  #countdown_share {
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  #countdown_share.running {
-    background-color: green;
-  }
-  #countdown_share.finished {
-    background-color: red;
-  }
-</style>
-
-<div align="right"> Share &nbsp;&nbsp;&nbsp; <button id="countdown_share"></button></div>
-
-<script>
-<!--
-const countdown_share = document.getElementById("countdown_share");
-const seconds_share = 300; // seconds_share
-let timeLeft_share = seconds_share;
-let timerInterval_share = null;
-
-function formatTime_share(seconds_share) {
-  const minutes = Math.floor(seconds_share / 60);
-  const remainingseconds_share = seconds_share % 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_share).padStart(2, '0')}`;
-}
-
-function updateButton_share() {
-  countdown_share.textContent = formatTime_share(timeLeft_share);
-}
-
-function startTimer_share() {
-  if (timerInterval_share === null) {
-    countdown_share.classList.add('running');
-    countdown_share.classList.remove('finished');
-    timerInterval_share = setInterval(() => {
-      if (timeLeft_share > 0) {
-        timeLeft_share--;
-        updateButton_share();
-      } else {
-        clearInterval(timerInterval_share);
-        timerInterval_share = null;
-        countdown_share.classList.remove('running');
-        countdown_share.classList.add('finished');
-        countdown_share.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_share();
-  }
-}
-
-function pauseTimer_share() {
-  clearInterval(timerInterval_share);
-  timerInterval_share = null;
-  countdown_share.classList.remove('running');
-}
-
-function resetTimer_share() {
-  timeLeft_share = seconds_share;
-  updateButton_share();
-  countdown_share.classList.remove('finished');
-  countdown_share.classList.remove('running');
-  timerInterval_share = null;
-}
-
-countdown_share.addEventListener("click", () => {
-  if (countdown_share.classList.contains('finished')) {
-    resetTimer_share();
-  } else {
-    startTimer_share();
-  }
-});
-
-updateButton_share();
--->
-</script>
-
-<!-- Share 
-
-Tutti gli outcome elencati
-Sesso, eta'
-SES: income, education
-Nursing backgroun: professional title (junior/senior) e/o anni di servizio, numero di ore lavorate, shift
-COVID background: se gia' in wuhan, volonarie o trasferite a forza, previous esperience in malattie infettive, downgrade/upgrade dal trasferimento, confidence nelle proprie capacita'
-Dati privati (non esiste solo il lavoro): sposate, numero figli, caring duty
-
--->
-
----
-## Quali dati sono stati raccolti ?
-
-<br/>
-
-<center>
-<img src="./img/data/study_questions.png" img height="300px" border="4px"/>
-</center>
-
-<div style="font-size: 80%">
-
-[Table 1](https://www.thelancet.com/action/showFullTableHTML?isHtml=true&tableId=tbl0001&pii=S2589-5370%2820%2930168-1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-[Table 2](https://www.thelancet.com/action/showFullTableHTML?isHtml=true&tableId=tbl0002&pii=S2589-5370%2820%2930168-1)
-
-</div>
-
-<div style="font-size: 50%" align="right">
-
-Hu, Deying, *et al.* *"Frontline nurses’ burnout, anxiety, depression, and fear statuses and their associated factors  <br/> during the COVID-19 outbreak in Wuhan, China: A large-scale cross-sectional study."* EClinicalMedicine, 2020, <br/> doi:10.1016/j.eclinm.2020.100424
-
-</div>
-
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere?
-- In che formato?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
-
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere?
-- In che formato?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp; Esempio: et&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
-
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere?
-- In che formato?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp; Esempio: et&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti anni hai?
-
----
-## Raccogliamo dei dati?
-
-- Quali dati raccogliere?
-- In che formato?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti anni hai?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A quale di queste fasce d'et&agrave; appartieni?
 
 ---
 ## I tipi di dati
@@ -1254,14 +904,113 @@ updateButton_exercise_4();
 </div>
 
 ---
+## Una sola variabile, tanti tipi
+
+<span style="display:block; height:10px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
+
+---
+## Una sola variabile, tanti tipi
+
+<span style="display:block; height:10px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
+
+---
+## Una sola variabile, tanti tipi
+
+<span style="display:block; height:10px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti anni hai?
+
+---
+## Una sola variabile, tanti tipi
+
+<span style="display:block; height:10px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp;  Esempio: et&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data di nascita + data visita
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Quanti anni hai?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A quale di queste fasce d'et&agrave; appartieni?
+
+---
+### Esercizio #5
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  discreta. Pu&ograve; trasformarla in una variabile categorica?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave; sempre 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No mai
+
+</div>
+
+---
+### Esercizio #5 -- Soluzione
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  discreta. Pu&ograve; trasformarla in una variabile categorica?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave; sempre &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No mai
+
+</div>
+
+---
+### Esercizio #6
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  categorica. Pu&ograve; riottenere l'esatta informazione numerica?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave; sempre 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No mai
+
+</div>
+
+---
+### Esercizio #6 -- Soluzione
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  categorica. Pu&ograve; riottenere l'esatta informazione numerica?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave; sempre 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No mai &nbsp;&nbsp; :white_check_mark:
+
+</div>
+
+---
 ### Cosa abbiamo imparato in questa lezione?
 
 <span style="display:block; height:10px;"></span>
 
 <div style="font-size: 90%">
 
-- Che l'informazione viene codificata in variabili, la cui variabilit&agrave; (differenze che vediamo tra le osservazioni) dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
-- Come pianificare la raccolta dati a partire da una domanda di ricerca
-- Le differenze tra i diversi tipi di dati
+- Una caratteristica di interesse viene codificata in variabili
+- Le differenze che esistono tra le osservazioni (variabilit&agrave;) dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
+- Le variabili sono di diversi tipi, a seconda della caratteristica che codificano
+- Variabili numeriche possono essere trasformate in variabili categoriche
 
 </div>
