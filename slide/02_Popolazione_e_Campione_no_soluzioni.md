@@ -32,7 +32,7 @@ section {
 
 - Conoscere le differenze tra popolazione e campione
 - Conoscere le due maggiori strategie di campionamento
-- Individuare errori di campionamento e bias
+- Individuare distorsioni stistematiche (o *bias*) nei campioni
 
 ---
 ## Le fasi della ricerca
@@ -204,7 +204,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 277
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 139
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 130
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 138
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non &egrave; possibile dirlo  
 
 </div>
@@ -363,7 +363,7 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Quale tra i seguenti esempi si può definire campione di convenienza  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; per un'indagine sierologica sul COVID-19 ?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; per un'indagine sierologica sul COVID-19 nella popolazione italiana?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Un campione scelto in maniera casuale dalla popolazione
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Il campione selezionato per l’indagine sierologica COVID-19
@@ -396,7 +396,10 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 </div>
 </div>
 
-<!-- Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
+<!-- 
+bias == DISTORSIONE SISTEMATICA
+
+Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
 
 - voglio andare a vedere dove gli aerei da guerra vengono colpiti per rinforzarli
 e l’errore logico che si commette quando si prendano in considerazione solo gli elementi che hanno superato un determinato pro- cesso di selezione, trascurando i restanti; tipicamente ci`o avviene poich ́e i primi sono fisicamente disponibili/visibili e i secondi no. -->
