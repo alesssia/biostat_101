@@ -645,20 +645,19 @@ If the law of the country is that cars should drive on the right, then we can de
 
 ## Due parole sul corso...
 
-
 ---
 ## Esercizi che faremo in classe
 
-<span style="display:block; height:30px;"></span>
-
 <div class="columns">
 <div>
+
+<span style="display:block; height:80px;"></span>
 
 <center>
 <img src="./img/sampling/abstract_ex1.png" img height="250px" border="4px"/>
 </center>
 
-<span style="display:block; height:400px;"></span>
+<span style="display:block; height:50px;"></span>
 
 <div style="font-size: 50%" align="right">
 
@@ -669,18 +668,88 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 </div>
 <div>
 
-<div style="font-size: 68%">
+<span style="display:block; height:1px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Domande a risposta chiusa basate o  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; meno su un testo di un articolo (in 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inglese)
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Domande a risposta chiusa  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; basate o meno su un testo di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; un articolo  scientifico (in 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inglese)
+
+
+</div>
+
+</div>
+</div>
+
+---
+## Inglese ?!?
+
+<span style="display:block; height:1px;"></span>
+
+
+<img src="./img/introduction/panic.gif" img height="400px" align="left" border="4px"/>
+
+
+
+---
+## Inglese ?!?
+
+<span style="display:block; height:1px;"></span>
+
+
+<img src="./img/introduction/panic.gif" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 90%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - L'inglese &egrave; lingua franca della ricerca scientifica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Molta terminologia &egrave; difficilmente traducibile in
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; modo efficace in italiano
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Si tratta solitamente di termini tecnici che 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; andremo ad spiegare in classe
+
+</div>
+
+---
+## Esercizi che faremo in classe
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:80px;"></span>
+
+<center>
+<img src="./img/sampling/abstract_ex1.png" img height="250px" border="4px"/>
+</center>
+
+<span style="display:block; height:50px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Domande a risposta chiusa  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; basate o meno su un testo di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; un articolo  scientifico (in 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inglese)
+
 
 oppure
 
 <span style="display:block; height:1px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Domande che richiedono semplici  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; calcoli 
+:question: &nbsp;&nbsp;&nbsp; Domande che richiedono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (semplici) calcoli 
 
 
 </div>
