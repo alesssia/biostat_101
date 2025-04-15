@@ -22,7 +22,7 @@ section {
 </style>
 
 <!-- ### Lezione 3 -->
-# I dati
+# Le variabili
 ## &nbsp;
 
 ---
@@ -31,7 +31,7 @@ section {
 <span style="display:block; height:50px;"></span>
 
 - Saper definire cos'&egrave; una variabile
-- Conoscere le differenze tra i diversi tipi di dati
+- Conoscere le differenze tra i diversi tipi di variabile
 
 ---
 ## Le fasi della ricerca
@@ -64,7 +64,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 <div style="font-size: 140%">
 
 
-**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dato $\longleftrightarrow$ informazione $\longleftrightarrow$ variabile**
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabile $\longleftrightarrow$ informazione**
 
 <!-- Dato informazione su una variabile di interesse
 
@@ -78,7 +78,7 @@ Questa variabilita' dipende sia da fattori conosciuti o conoscibili sia da effet
 
 
 ---
-## I tipi di dati
+## I tipi di variabile
 
 <span style="display:block; height:1px;"></span>
 
@@ -95,7 +95,7 @@ Categoriche si dividono in 2 classi
 - Ordinali (categorie che non possono essere ordinate) -> dati che rappresentano categorie ordinate (giudizi scolastici ("Insufficiente", "Sufficiente", "Buono", "Ottimo:"), "Sottopeso", "Normopeso" ...) -->
 
 ---
-## Di che tipo di dato si tratta?
+## Di che tipo di variabile si tratta?
 
 <div class="columns">
 <div>
@@ -112,7 +112,7 @@ Categoriche si dividono in 2 classi
 </div>
 
 ---
-## Di che tipo di dato si tratta?
+## Di che tipo di variabile si tratta?
 
 <div class="columns">
 <div>
@@ -136,7 +136,7 @@ Categoriche si dividono in 2 classi
 </div>
 
 ---
-## Di che tipo di dato si tratta?
+## Di che tipo di variabile si tratta?
 
 <div class="columns">
 <div>
@@ -160,7 +160,7 @@ Categoriche si dividono in 2 classi
 </div>
 
 ---
-## Di che tipo di dato si tratta?
+## Di che tipo di variabile si tratta?
 
 <div class="columns">
 <div>
@@ -184,7 +184,7 @@ Categoriche si dividono in 2 classi
 </div>
 
 ---
-## Di che tipo di dato si tratta?
+## Di che tipo di variabile si tratta?
 
 <div class="columns">
 <div>
@@ -208,7 +208,7 @@ Categoriche si dividono in 2 classi
 </div>
 
 ---
-## Di che tipo di dato si tratta?
+## Di che tipo di variabile si tratta?
 
 <div class="columns">
 <div>
@@ -238,11 +238,10 @@ Categoriche si dividono in 2 classi
 <div class="columns">
 <div>
 
-:question: &nbsp;&nbsp;&nbsp; Di che tipo sono i dati 
+:question: &nbsp;&nbsp;&nbsp; Di che tipo sono le variabili
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in questa tabella?
 
-<span style="display:block; height:250px;"></span>
-
+<span style="display:block; height:260px;"></span>
 
 
 <div style="font-size: 50%">
@@ -267,12 +266,13 @@ Dopo che lo hanno fatto, farli votare e discutere
 Lactate dehydrogenase, dichotomized according to the upper limit of normal for each centre.
 -->
  
+
 ---
 ### Esercizio #2
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Il sesso &egrave; una variabile categorica dicotomica?
+:question: &nbsp;&nbsp;&nbsp; Avere una diagnosi di autismo &egrave; una variabile categorica dicotomica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso
 
@@ -331,14 +331,8 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 </div>
 
 
-
-
-</div>
-</div>
-
 ---
 ### Esercizio #4 
-
 
 <div style="font-size: 78%">
 
@@ -350,9 +344,10 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Che tipo di variabili raccoglie?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Trattamento
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Sesso
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Livelli di colesterolo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Trattamento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: .....................
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Sesso &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: .....................
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Livelli di colesterolo : .....................
+
 
 </div>
 
@@ -399,13 +394,16 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  discreta. Pu&ograve; trasformarla in una variabile categorica?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  discreta. Pu&ograve; trasformarla in una variabile categorica ordinale?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave; sempre 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No mai
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, mai
 
 </div>
+
+<span style="display:block; height:60px;"></span>
+
 
 ---
 ### Esercizio #6
@@ -415,13 +413,15 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  categorica. Pu&ograve; riottenere l'esatta informazione numerica?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  categorica ordinale. Pu&ograve; riottenere l'esatta informazione numerica?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave; sempre 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No mai
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, mai
 
 </div>
+
+<span style="display:block; height:60px;"></span>
 
 
 ---
@@ -434,6 +434,6 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 - Una caratteristica di interesse viene codificata in variabili
 - Le differenze che esistono tra le osservazioni (variabilit&agrave;) dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
 - Le variabili sono di diversi tipi, a seconda della caratteristica che codificano
-- Variabili numeriche possono essere trasformate in variabili categoriche
+- Variabili numeriche possono essere trasformate in variabili categoriche (vedremo come)
 
 </div>
