@@ -1041,7 +1041,7 @@ updateButton_exercise_5();
 <span style="display:block; height:50px;"></span>
 
 <center>
-<img src="./img/normal/Ex_Q3.png" img height="350px" border="4px"/>
+<img src="./img/normal/Ex_Q3.png" img height="350px" border="0px"/>
 </center>
 
 ---
@@ -1515,7 +1515,7 @@ updateButton_exercise_7();
 
 </duv>
 
-<img src="./img/normal/n2z.png" img height="350px" align="right" border="4px"/>
+<img src="./img/normal/n2z.png" img height="400px" align="right" border="0px"/>
 
 
 
@@ -1933,6 +1933,25 @@ updateButton_exercise_8();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragioniamo sull'area identificata
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} =  0.5675 \rightarrow 56.75\%$
+
+</div>
+
+---
+## Percentili
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/percentile.png" img height="350px" border="0px"/>
+</center>
+
+<!-- Mentre la mediana divide i dati in due meta' esatte, molto usati sono anche i quartili, che dividono i dati in 4 parti uguali -->
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%" align="right">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 56.75\%$ ci dice che il nostro bambino &egrave; nel 56.75$^o$ percentile
 
 </div>
 

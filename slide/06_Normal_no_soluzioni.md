@@ -597,7 +597,7 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
 
 </duv>
 
-<img src="./img/normal/n2z.png" img height="350px" align="right" border="4px"/>
+<img src="./img/normal/n2z.png" img height="400px" align="right" border="0px"/>
 
 
 
@@ -867,6 +867,24 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 <!-- For medical rather than statistical reasons, babies below 2,500 g are considered ‘low birth weight’, and those below 1,500 g ‘very low birth weight’.  -->
 
+---
+## Percentili
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/percentile.png" img height="350px" border="0px"/>
+</center>
+
+<!-- Mentre la mediana divide i dati in due meta' esatte, molto usati sono anche i quartili, che dividono i dati in 4 parti uguali -->
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%" align="right">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 56.75\%$ ci dice che il nostro bambino &egrave; nel 56.75$^o$ percentile
+
+</div>
 
 ---
 ### Cosa abbiamo imparato in questa lezione?
