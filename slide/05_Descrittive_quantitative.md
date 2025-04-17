@@ -119,7 +119,7 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
 <script>
 <!--
 const countdown_exercise_1= document.getElementById("countdown_exercise_1");
-const seconds_exercise_1= 120; // seconds_exercise_1
+const seconds_exercise_1= 60; // seconds_exercise_1
 let timeLeft_exercise_1= seconds_exercise_1;
 let timerInterval_exercise_1= null;
 
@@ -214,7 +214,7 @@ Si usa soprattutto per i dati categorici -->
 <span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/descriptive/median.png" img height="300px" border="0px"/>
+<img src="./img/descriptive/median.png" img height="250px" border="0px"/>
 </center>
 
 <div style="font-size: 90%" align="right">
@@ -271,7 +271,7 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 <script>
 <!--
 const countdown_exercise_2= document.getElementById("countdown_exercise_2");
-const seconds_exercise_2= 120; // seconds_exercise_2
+const seconds_exercise_2= 60; // seconds_exercise_2
 let timeLeft_exercise_2= seconds_exercise_2;
 let timerInterval_exercise_2= null;
 
@@ -398,25 +398,22 @@ updateButton_exercise_2();
 ---
 ## Mediana e valori anomali
 
-
-<span style="display:block; height:50px;"></span>
-
 <center>
-<img src="./img/descriptive/median_outlier.png" img height="350px" border="4px"/>
+<img src="./img/descriptive/median_outlier.png" img height="500px" border="0px"/>
 </center>
 
 ---
 ## Quartili
 
-<span style="display:block; height:20px;"></span>
+<span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/descriptive/quartiles.png" img height="300px" border="0px"/>
+<img src="./img/descriptive/quartiles.png" img height="250px" border="0px"/>
 </center>
 
 <!-- Mentre la mediana divide i dati in due meta' esatte, molto usati sono anche i quartili, che dividono i dati in 4 parti uguali -->
 
-<span style="display:block; height:20px;"></span>
+<span style="display:block; height:40px;"></span>
 
 <div style="font-size: 90%" align="right">
 
@@ -427,50 +424,43 @@ updateButton_exercise_2();
 <!-- I quartili sono robusti rispetto ai valori anomal, anche se l'ultimo fosse 1000 e il primo -1000 non cambierebbero -->
 
 ---
-## Misure di centralit&agrave;: la media
+## Percentili
 
-<span style="display:block; height:1px;"></span>
+<span style="display:block; height:20px;"></span>
 
-<div style="font-size: 95%">
+<center>
+<img src="./img/descriptive/percentile.png" img height="350px" border="0px"/>
+</center>
 
-:dart: &nbsp;&nbsp;&nbsp; Media aritmetica
-
-$$
-{\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)=
-{\frac {x_{1}+x_{2}+\dots +x_{n}}{n}}
-$$
+<!-- Mentre la mediana divide i dati in due meta' esatte, molto usati sono anche i quartili, che dividono i dati in 4 parti uguali -->
 
 <span style="display:block; height:10px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp;  $x= \{4, 36, 45, 50, 75\}$ 
+<div style="font-size: 90%" align="right">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}} = {\frac{1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right) = \frac{4 + 36 + 45 + 50 + 75}{5} = 42$
+:warning: I dati devono essere ordinati!
 
 </div>
 
-<!-- Somma dei singoli valori diviso il numero di osservazioni 
-
-in generla la media e' la misura piu' usata per descrivere la tendenza centrale per la sua unicita' (c'e' solo una media) e semplicita'
- -->
+<!-- I quartili sono robusti rispetto ai valori anomal, anche se l'ultimo fosse 1000 e il primo -1000 non cambierebbero -->
 
 ---
 ### Esercizio #3
 
-<span style="display:block; height:1px;"></span>
+<div style="font-size: 90%">
 
-<div style="font-size: 95%">
+:question: &nbsp;&nbsp;&nbsp; Maria ha ricevuto un punteggo di 70 a un esame, posizionandosi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel 45$^o$ percentile.
 
-:question: &nbsp;&nbsp;&nbsp; Quali sono le medie di questi insiemi?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L'esame &egrave; andato...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = \text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) bene: Maria ha ricevuto un voto superiore a pi&ugrave; met&agrave; delle  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; persone che hanno dato quell'esame
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) non benissimo: Maria ha ricevuto un voto inferiore a pi&ugrave; met&agrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle persone che hanno dato quell'esame
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {z}} = \text{ ?}$
-
-<div>
-
-<span style="display:block; height:10px;"></span>
+</div>
 
 <style>
   #countdown_exercise_3{
@@ -496,7 +486,7 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
 <script>
 <!--
 const countdown_exercise_3= document.getElementById("countdown_exercise_3");
-const seconds_exercise_3= 300; // seconds_exercise_3
+const seconds_exercise_3= 120; // seconds_exercise_3
 let timeLeft_exercise_3= seconds_exercise_3;
 let timerInterval_exercise_3= null;
 
@@ -557,13 +547,53 @@ updateButton_exercise_3();
 -->
 </script>
 
-
-<!-- La media non e' particolarmente robusta rispetto agli outliers. Il valore atipico SOVRADIMENSIONA la media.
-
-Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori alla media per evidenziare queste situazioni  -->
-
 ---
 ### Esercizio #3 -- Soluzione
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Maria ha ricevuto un punteggo di 70 a un esame, posizionandosi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel 45$^o$ percentile.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L'esame &egrave; andato...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) bene: Maria ha ricevuto un voto superiore a pi&ugrave; met&agrave; delle  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; persone che hanno dato quell'esame
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) non benissimo: Maria ha ricevuto un voto inferiore a pi&ugrave; met&agrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle persone che hanno dato quell'esame &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
+
+</div>
+
+---
+## Misure di centralit&agrave;: la media
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 95%">
+
+:dart: &nbsp;&nbsp;&nbsp; Media aritmetica
+
+$$
+{\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)=
+{\frac {x_{1}+x_{2}+\dots +x_{n}}{n}}
+$$
+
+<span style="display:block; height:10px;"></span>
+
+:pushpin: &nbsp;&nbsp;&nbsp;  $x= \{4, 36, 45, 50, 75\}$ 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}} = {\frac{1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right) = \frac{4 + 36 + 45 + 50 + 75}{5} = 42$
+
+</div>
+
+<!-- Somma dei singoli valori diviso il numero di osservazioni 
+
+in generla la media e' la misura piu' usata per descrivere la tendenza centrale per la sua unicita' (c'e' solo una media) e semplicita'
+ -->
+
+---
+### Esercizio #4
 
 <span style="display:block; height:1px;"></span>
 
@@ -572,73 +602,12 @@ Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori
 :question: &nbsp;&nbsp;&nbsp; Quali sono le medie di questi insiemi?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{y_{i}}\right) = \frac{6 + 34 + 40 + 55 + 75}{5} = 42$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = \text{ ?}$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {z}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{z_{i}}\right) = \frac{4 + 36 + 45 + 50 + 175}{5} = 62$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {z}} = \text{ ?}$
 
-</div>
-
-<!-- La media non e' particolarmente robusta rispetto agli outliers. Il valore atipico SOVRADIMENSIONA la media.
-
-Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori alla media per evidenziare queste situazioni  -->
-
----
-## Media e valori anomali
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/descriptive/mean_outlier.png" img height="350px" border="4px"/>
-</center>
-
----
-## La forma delle distribuzioni
-
-<span style="display:block; height:70px;"></span>
-
-<center>
-<img src="./img/descriptive/434px-Relationship_between_mean_and_median_under_different_skewness.png" img height="250px" border="0px"/>
-</center>
-
-<!-- La posizione di moda media e mediana va a definire anche quella che e' la forma della distribuzione, che descrive come una Distribuzione empirica e/o Di- stribuzione di popolazione si distribuisce. 
-
-Si dice che una distribuzione abbia una forma simmetrica quando Moda, Mediana e Media coincidono e dividono la distribuzione stessa in due parti identiche. 
-
-Qualora que- sta condizione non si verificasse, la forma della distribuzione viene detta asimmetrica. 
-Una distribuzione asimmetrica positiva `e caratterizzata da una curva in cui i valori sono raggruppati nella parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra). 
-Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva in cui i valori sono raggruppati nella parte destra, con una lunga coda a sinistra (anche detta: asimmetrica a sinistra). --->
-
-
----
-## La forma delle distribuzioni
-
-<span style="display:block; height:70px;"></span>
-
-<center>
-<img src="./img/descriptive/Bimodal_geological.png" img height="350px" border="0px"/>
-</center>
-
-<!-- Si dice che una distribuzione sia bi- o multi-modale quando presenta due o piu` gobbe corrispondenti ai diversi valori che la moda puo` assumere nel campione.
- -->
-
----
-### Esercizio 4
-
-<div style="font-size: 90%">
-
-:question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *The mean length of stay was 22.4 days (median: 14 days).*
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; La distribuzione empirica ha una forma...
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) simmetrica
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) asimmetrica a destra 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) asimmetrica a sinistra
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
-
-</div>
+<div>
 
 <span style="display:block; height:10px;"></span>
 
@@ -651,7 +620,7 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
     border: none;
     border-radius: 5px;
     cursor: pointer;
-	float: right;
+    float: right;
   }
   #countdown_exercise_4.running {
     background-color: green;
@@ -666,7 +635,7 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 <script>
 <!--
 const countdown_exercise_4= document.getElementById("countdown_exercise_4");
-const seconds_exercise_4= 120; // seconds_exercise_4
+const seconds_exercise_4= 300; // seconds_exercise_4
 let timeLeft_exercise_4= seconds_exercise_4;
 let timerInterval_exercise_4= null;
 
@@ -728,13 +697,175 @@ updateButton_exercise_4();
 </script>
 
 
-</div>
+<!-- La media non e' particolarmente robusta rispetto agli outliers. Il valore atipico SOVRADIMENSIONA la media.
+
+Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori alla media per evidenziare queste situazioni  -->
+
+---
+### Esercizio #4 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 95%">
+
+:question: &nbsp;&nbsp;&nbsp; Quali sono le medie di questi insiemi?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{y_{i}}\right) = \frac{6 + 34 + 40 + 55 + 75}{5} = 42$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {z}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{z_{i}}\right) = \frac{4 + 36 + 45 + 50 + 175}{5} = 62$
+
 </div>
 
+<!-- La media non e' particolarmente robusta rispetto agli outliers. Il valore atipico SOVRADIMENSIONA la media.
+
+Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori alla media per evidenziare queste situazioni  -->
+
+---
+## Media e valori anomali
+
+<center>
+<img src="./img/descriptive/mean_outlier.png" img height="500px" border="0px"/>
+</center>
+
+---
+## La forma delle distribuzioni
+
+<span style="display:block; height:70px;"></span>
+
+<center>
+<img src="./img/descriptive/434px-Relationship_between_mean_and_median_under_different_skewness.png" img height="250px" border="0px"/>
+</center>
+
+<!-- La posizione di moda media e mediana va a definire anche quella che e' la forma della distribuzione, che descrive come una Distribuzione empirica e/o Di- stribuzione di popolazione si distribuisce. 
+
+Si dice che una distribuzione abbia una forma simmetrica quando Moda, Mediana e Media coincidono e dividono la distribuzione stessa in due parti identiche. 
+
+Qualora que- sta condizione non si verificasse, la forma della distribuzione viene detta asimmetrica. 
+Una distribuzione asimmetrica positiva `e caratterizzata da una curva in cui i valori sono raggruppati nella parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra). 
+Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva in cui i valori sono raggruppati nella parte destra, con una lunga coda a sinistra (anche detta: asimmetrica a sinistra). --->
 
 
 ---
-### Esercizio 4 -- Soluzione
+## La forma delle distribuzioni
+
+<span style="display:block; height:70px;"></span>
+
+<center>
+<img src="./img/descriptive/Bimodal_geological.png" img height="350px" border="0px"/>
+</center>
+
+<!-- Si dice che una distribuzione sia bi- o multi-modale quando presenta due o piu` gobbe corrispondenti ai diversi valori che la moda puo` assumere nel campione.
+ -->
+
+---
+### Esercizio 5
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *The mean length of stay was 22.4 days (median: 14 days).*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; La distribuzione empirica ha una forma...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) simmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) asimmetrica a destra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) asimmetrica a sinistra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
+
+</div>
+
+<span style="display:block; height:10px;"></span>
+
+<style>
+  #countdown_exercise_5{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	float: right;
+  }
+  #countdown_exercise_5.running {
+    background-color: green;
+  }
+  #countdown_exercise_5.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_5"></button>
+
+<script>
+<!--
+const countdown_exercise_5= document.getElementById("countdown_exercise_5");
+const seconds_exercise_5= 120; // seconds_exercise_5
+let timeLeft_exercise_5= seconds_exercise_5;
+let timerInterval_exercise_5= null;
+
+function formatTime_exercise_5(seconds_exercise_5) {
+  const minutes = Math.floor(seconds_exercise_5/ 60);
+  const remainingseconds_exercise_5= seconds_exercise_5% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_5() {
+  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
+}
+
+function startTimer_exercise_5() {
+  if (timerInterval_exercise_5=== null) {
+    countdown_exercise_5.classList.add('running');
+    countdown_exercise_5.classList.remove('finished');
+    timerInterval_exercise_5= setInterval(() => {
+      if (timeLeft_exercise_5> 0) {
+        timeLeft_exercise_5--;
+        updateButton_exercise_5();
+      } else {
+        clearInterval(timerInterval_exercise_5);
+        timerInterval_exercise_5= null;
+        countdown_exercise_5.classList.remove('running');
+        countdown_exercise_5.classList.add('finished');
+        countdown_exercise_5.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_5();
+  }
+}
+
+function pauseTimer_exercise_5() {
+  clearInterval(timerInterval_exercise_5);
+  timerInterval_exercise_5= null;
+  countdown_exercise_5.classList.remove('running');
+}
+
+function resetTimer_exercise_5() {
+  timeLeft_exercise_5= seconds_exercise_5;
+  updateButton_exercise_5();
+  countdown_exercise_5.classList.remove('finished');
+  countdown_exercise_5.classList.remove('running');
+  timerInterval_exercise_5= null;
+}
+
+countdown_exercise_5.addEventListener("click", () => {
+  if (countdown_exercise_5.classList.contains('finished')) {
+    resetTimer_exercise_5();
+  } else {
+    startTimer_exercise_5();
+  }
+});
+
+updateButton_exercise_5();
+-->
+</script>
+
+---
+### Esercizio 5 -- Soluzione
 
 <div style="font-size: 90%">
 
@@ -751,9 +882,6 @@ updateButton_exercise_4();
 
 </div>
 
-</div>
-</div>
-
 ---
 ## Misure di dispersione
 
@@ -766,10 +894,10 @@ updateButton_exercise_4();
 ---
 ## Misure di dispersione
 
-<span style="display:block; height:20px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/descriptive/sd.png" img height="400px" border="4px"/>
+<img src="./img/descriptive/sd.png" img height="450px" border="0px"/>
 </center>
 
 
@@ -778,15 +906,17 @@ updateButton_exercise_4();
 
 <span style="display:block; height:1px;"></span>
 
-:dart: &nbsp;&nbsp;&nbsp; ${\text{range}(x)}= \text{max}(x)-\text{min}(x)$
+:dart: &nbsp;&nbsp;&nbsp; ${\text{range}}= \text{max}-\text{min}$
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/descriptive/outliers_range.svg" img height="250px" border="0px"/>
+<img src="./img/descriptive/range.png" img height="70px" border="0px"/>
 </center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{range}(x)= 9754-2830=6924$
+<span style="display:block; height:40px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{range}(x)= 30-5=25$
 
 <!-- INTERVALLO di VARIAZIONE. Il range pero' si basa solo sui due valori estremi, senza indicare come si distribuiscono i dati entro l’intervallo 
 
@@ -802,12 +932,12 @@ piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tien
 
 <span style="display:block; height:1px;"></span>
 
-:dart: &nbsp;&nbsp;&nbsp; ${\text{IQR}(x)}= \text{Q3}(x)-\text{Q1}(x)$
+:dart: &nbsp;&nbsp;&nbsp; ${\text{IQR}}= \text{Q3}-\text{Q1}$
 
 <span style="display:block; height:20px;"></span>
 
 <center>
-<img src="./img/descriptive/iqr.png" img height="300px" border="0px"/>
+<img src="./img/descriptive/iqr.png" img height="230px" border="0px"/>
 </center>
 
 <!-- Robusto rispetto agli outliers -->
@@ -872,264 +1002,25 @@ Esempio lunghezza della degenza, giorni e giorni^2
  -->
 
 ---
-### Esercizio #5
-
-<div style="font-size: 73%">
-
-:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
-
-:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-
-</div>
-
-<style>
-  #countdown_exercise_5{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_5.running {
-    background-color: green;
-  }
-  #countdown_exercise_5.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_5"></button>
-
-<script>
-<!--
-const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 240; // seconds_exercise_5
-let timeLeft_exercise_5= seconds_exercise_5;
-let timerInterval_exercise_5= null;
-
-function formatTime_exercise_5(seconds_exercise_5) {
-  const minutes = Math.floor(seconds_exercise_5/ 60);
-  const remainingseconds_exercise_5= seconds_exercise_5% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_5() {
-  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
-}
-
-function startTimer_exercise_5() {
-  if (timerInterval_exercise_5=== null) {
-    countdown_exercise_5.classList.add('running');
-    countdown_exercise_5.classList.remove('finished');
-    timerInterval_exercise_5= setInterval(() => {
-      if (timeLeft_exercise_5> 0) {
-        timeLeft_exercise_5--;
-        updateButton_exercise_5();
-      } else {
-        clearInterval(timerInterval_exercise_5);
-        timerInterval_exercise_5= null;
-        countdown_exercise_5.classList.remove('running');
-        countdown_exercise_5.classList.add('finished');
-        countdown_exercise_5.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_5();
-  }
-}
-
-function pauseTimer_exercise_5() {
-  clearInterval(timerInterval_exercise_5);
-  timerInterval_exercise_5= null;
-  countdown_exercise_5.classList.remove('running');
-}
-
-function resetTimer_exercise_5() {
-  timeLeft_exercise_5= seconds_exercise_5;
-  updateButton_exercise_5();
-  countdown_exercise_5.classList.remove('finished');
-  countdown_exercise_5.classList.remove('running');
-  timerInterval_exercise_5= null;
-}
-
-countdown_exercise_5.addEventListener("click", () => {
-  if (countdown_exercise_5.classList.contains('finished')) {
-    resetTimer_exercise_5();
-  } else {
-    startTimer_exercise_5();
-  }
-});
-
-updateButton_exercise_5();
--->
-</script>
-
-
----
-### Esercizio #5 -- Soluzione
-
-<div style="font-size: 73%">
-
-:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
-
-:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
-
-:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-</div>
-
----
-### Esercizio #5 -- Soluzione
-
-<div style="font-size: 73%">
-
-:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
-
-:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
-
-:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
-
-:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-</div>
-
----
-### Esercizio #5 -- Soluzione
-
-<div style="font-size: 73%">
-
-:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
-
-:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso  &nbsp; :white_check_mark:
-
-:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero   :white_check_mark: &nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
-
-:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-</div>
-
----
-### Esercizio #5 -- Soluzione
-
-<div style="font-size: 73%">
-
-:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
-
-:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;&nbsp;&nbsp;&nbsp; b) Falso  &nbsp; :white_check_mark:
-
-:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero   &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
-
-:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-</div>
-
----
-### Esercizio #5 -- Soluzione
-
-<div style="font-size: 73%">
-
-:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
-
-:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;&nbsp;&nbsp;&nbsp; b) Falso  &nbsp; :white_check_mark:
-
-:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero   &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
-
-:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
-
-:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
-
-</div>
-
---- 
-## I valori estremi
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/descriptive/outliers_mean.png" img height="450px" border="0px"/>
-</center>
-
-<div style="font-size: 50%">
-
-Reilly, J. *et al.*. *Procedure‐Specific Surgical Site Infection Rates and Postdischarge Surveillance in Scotland*,  Infection Control and Hospital Epidemiology, 2006, doi:10.1086/509839  
-
-</div>
-
-<!-- Scelta della misura di tendenza centrale
-- media se la distribuzione è simmetrica
-- mediana se la distribuzione NON è simmetrica (forse a causa di valori estremi)
-- moda per indicare il valore più comune nell’ambito della distribuzione  (ma come accennavo piu' usato nel caso di variabile categoriche)
-
-Inoltre, Se la numerosità del campione è piccola, la mediana e il range interquartile sono misure più robuste
--->
-
----
 ### Esercizio #6
 
-<div style="font-size: 90%">
+<div style="font-size: 73%">
 
-:question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Coronary-artery calcium scores averaged 68.9&plusmn;244.2 (range 0 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to 1526) in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) con media e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) con mediana e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d)  non ho abbastanza elementi per decidere
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
 
 </div>
 
@@ -1157,7 +1048,7 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 <script>
 <!--
 const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 120; // seconds_exercise_6
+const seconds_exercise_6= 240; // seconds_exercise_6
 let timeLeft_exercise_6= seconds_exercise_6;
 let timerInterval_exercise_6= null;
 
@@ -1219,13 +1110,141 @@ updateButton_exercise_6();
 </script>
 
 
+---
+### Esercizio #6 -- Soluzione
 
-<!-- Valutando i valori numerici (media e DS), come 
-con la media e la deviazione standard (come per tutte le altre variabili in tabella) 
-con la mediana e il range interquartile (perché la variabile non ha una distribuzione normale) -->
+<div style="font-size: 73%">
+
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+</div>
 
 ---
 ### Esercizio #6 -- Soluzione
+
+<div style="font-size: 73%">
+
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+</div>
+
+---
+### Esercizio #6 -- Soluzione
+
+<div style="font-size: 73%">
+
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso  &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero   :white_check_mark: &nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+</div>
+
+---
+### Esercizio #6 -- Soluzione
+
+<div style="font-size: 73%">
+
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;&nbsp;&nbsp;&nbsp; b) Falso  &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero   :white_check_mark: &nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+</div>
+
+---
+### Esercizio #6 -- Soluzione
+
+<div style="font-size: 73%">
+
+:question: &nbsp;&nbsp;&nbsp; Il range &egrave; sensibile alla posizione centrale della distribuzione empirica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana si calcola sommando i valori e dividendoli per il loro numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;&nbsp;&nbsp;&nbsp; b) Falso  &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; La mediana &egrave; il valore che ha met&agrave; dei dati inferiori e met&agrave; superiori a esso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero   :white_check_mark: &nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; 
+
+:question: &nbsp;&nbsp;&nbsp; La mediana, rispetto alla media, &egrave; pi&ugrave; sensibile ai valori estremi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+:question: &nbsp;&nbsp;&nbsp; Due distribuzioni con la stessa media hanno la stessa deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:
+
+</div>
+
+--- 
+## I valori estremi
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/outliers_mean.png" img height="450px" border="0px"/>
+</center>
+
+<div style="font-size: 50%">
+
+Reilly, J. *et al.*. *Procedure‐Specific Surgical Site Infection Rates and Postdischarge Surveillance in Scotland*,  Infection Control and Hospital Epidemiology, 2006, doi:10.1086/509839  
+
+</div>
+
+<!-- Scelta della misura di tendenza centrale
+- media se la distribuzione è simmetrica
+- mediana se la distribuzione NON è simmetrica (forse a causa di valori estremi)
+- moda per indicare il valore più comune nell’ambito della distribuzione  (ma come accennavo piu' usato nel caso di variabile categoriche)
+
+Inoltre, Se la numerosità del campione è piccola, la mediana e il range interquartile sono misure più robuste
+-->
+
+---
+### Esercizio #7
 
 <div style="font-size: 90%">
 
@@ -1238,47 +1257,11 @@ con la mediana e il range interquartile (perché la variabile non ha una distrib
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) con media e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range  &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) con mediana e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d)  non ho abbastanza elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per decidere
 
 </div>
-
----
-### Esercizio #7
-
-<span style="display:block; height:10px;"></span>
-
-<div class="columns">
-<div>
-
-<center>
-<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
-</center>
-
-<div style="font-size: 50%" align="right">
-
-Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
-
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 70%">
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di bambine e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragazze nel gruppo di intervento?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 12%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 18%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) 17%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Non &egrave; possibile capirlo dalla tabella 
-
-</div>
-
-<span style="display:block; height:100px;"></span>
 
 <style>
   #countdown_exercise_7{
@@ -1367,11 +1350,32 @@ updateButton_exercise_7();
 
 
 
-</div>
-</div>
+<!-- Valutando i valori numerici (media e DS), come 
+con la media e la deviazione standard (come per tutte le altre variabili in tabella) 
+con la mediana e il range interquartile (perché la variabile non ha una distribuzione normale) -->
 
 ---
 ### Esercizio #7 -- Soluzione
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Coronary-artery calcium scores averaged 68.9&plusmn;244.2 (range 0 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to 1526) in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) con media e deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range  &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) con mediana e deviazione standard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d)  non ho abbastanza elementi per decidere
+
+</div>
+
+---
+### Esercizio #8
 
 <span style="display:block; height:10px;"></span>
 
@@ -1397,51 +1401,10 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragazze nel gruppo di intervento?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 12% &nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 12%
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 18%
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) 17%
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Non &egrave; possibile capirlo dalla tabella 
-
-
-</div>
-
-<span style="display:block; height:100px;"></span>
-
-
-</div>
-</div>
-
----
-### Esercizio #8
-
-<span style="display:block; height:10px;"></span>
-
-<div class="columns">
-<div>
-
-<center>
-<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
-</center>
-
-
-<div style="font-size: 50%" align="right">
-
-Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
-
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 70%">
-
-:question: &nbsp;&nbsp;&nbsp; In questo studio, l'et&agrave; &egrave; stata raccolta 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; come una variabile...
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) categorica
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ordinale
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) numerica
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non &egrave; possibile dirlo  
 
 </div>
 
@@ -1471,7 +1434,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_8= document.getElementById("countdown_exercise_8");
-const seconds_exercise_8= 120; // seconds_exercise_8
+const seconds_exercise_8= 60; // seconds_exercise_8
 let timeLeft_exercise_8= seconds_exercise_8;
 let timerInterval_exercise_8= null;
 
@@ -1549,6 +1512,47 @@ updateButton_exercise_8();
 <img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
 </center>
 
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di bambine e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragazze nel gruppo di intervento?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 12% &nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 18%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) 17%
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Non &egrave; possibile capirlo dalla tabella 
+
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+
+</div>
+</div>
+
+---
+### Esercizio #9
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<center>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
+</center>
+
 
 <div style="font-size: 50%" align="right">
 
@@ -1566,48 +1570,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) categorica
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ordinale
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) numerica &nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) numerica
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non &egrave; possibile dirlo  
-
-</div>
-
-<span style="display:block; height:100px;"></span>
-
-
-</div>
-</div>
-
-
----
-### Esercizio #9
-
-<span style="display:block; height:10px;"></span>
-
-<div class="columns">
-<div>
-
-<center>
-<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
-</center>
-
-<div style="font-size: 50%" align="right">
-
-Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
-
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 70%">
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media dei pazienti nel  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di controllo?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 10.4
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 4.1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 4.0
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile capirlo dalla tabella 
 
 </div>
 
@@ -1698,11 +1662,177 @@ updateButton_exercise_9();
 -->
 </script>
 
+
+
 </div>
 </div>
 
 ---
 ### Esercizio #9 -- Soluzione
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<center>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
+</center>
+
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; In questo studio, l'et&agrave; &egrave; stata raccolta 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; come una variabile...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) categorica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ordinale
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) numerica &nbsp;&nbsp; :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non &egrave; possibile dirlo  
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+
+</div>
+</div>
+
+
+---
+### Esercizio #10
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<center>
+<img src="./img/sampling/table1_exercise.png" img height="410px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 70%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media dei pazienti nel  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di controllo?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 10.4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 4.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 4.0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; possibile capirlo dalla tabella 
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+<style>
+  #countdown_exercise_10{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_10.running {
+    background-color: green;
+  }
+  #countdown_exercise_10.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_10"></button>
+
+<script>
+<!--
+const countdown_exercise_10= document.getElementById("countdown_exercise_10");
+const seconds_exercise_10= 60; // seconds_exercise_10
+let timeLeft_exercise_10= seconds_exercise_10;
+let timerInterval_exercise_10= null;
+
+function formatTime_exercise_10(seconds_exercise_10) {
+  const minutes = Math.floor(seconds_exercise_10/ 60);
+  const remainingseconds_exercise_10= seconds_exercise_10% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_10).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_10() {
+  countdown_exercise_10.textContent = formatTime_exercise_10(timeLeft_exercise_10);
+}
+
+function startTimer_exercise_10() {
+  if (timerInterval_exercise_10=== null) {
+    countdown_exercise_10.classList.add('running');
+    countdown_exercise_10.classList.remove('finished');
+    timerInterval_exercise_10= setInterval(() => {
+      if (timeLeft_exercise_10> 0) {
+        timeLeft_exercise_10--;
+        updateButton_exercise_10();
+      } else {
+        clearInterval(timerInterval_exercise_10);
+        timerInterval_exercise_10= null;
+        countdown_exercise_10.classList.remove('running');
+        countdown_exercise_10.classList.add('finished');
+        countdown_exercise_10.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_10();
+  }
+}
+
+function pauseTimer_exercise_10() {
+  clearInterval(timerInterval_exercise_10);
+  timerInterval_exercise_10= null;
+  countdown_exercise_10.classList.remove('running');
+}
+
+function resetTimer_exercise_10() {
+  timeLeft_exercise_10= seconds_exercise_10;
+  updateButton_exercise_10();
+  countdown_exercise_10.classList.remove('finished');
+  countdown_exercise_10.classList.remove('running');
+  timerInterval_exercise_10= null;
+}
+
+countdown_exercise_10.addEventListener("click", () => {
+  if (countdown_exercise_10.classList.contains('finished')) {
+    resetTimer_exercise_10();
+  } else {
+    startTimer_exercise_10();
+  }
+});
+
+updateButton_exercise_10();
+-->
+</script>
+
+</div>
+</div>
+
+---
+### Esercizio #10 -- Soluzione
 
 <span style="display:block; height:10px;"></span>
 
@@ -1965,7 +2095,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 Boxplot hides the underlying distribution. Use jitter if low number of data points, or use violin with bigger data. Leggermente bimodale -->
 
 ---
-### Esercizio #10
+### Esercizio #11
 
 <div style="font-size: 90%">
 
@@ -1977,7 +2107,7 @@ resulting in the National Sexual Attitudes and Lifestyle Survey (Natsal) which h
  -->
 
 ---
-### Esercizio #10
+### Esercizio #11
 
 <div style="font-size: 90%">
 
@@ -2110,7 +2240,7 @@ updateButton_think();
 -->
 
 ---
-### Esercizio #10
+### Esercizio #11
 
 <div style="font-size: 90%">
 
@@ -2239,7 +2369,7 @@ updateButton_pair();
 </div>
 
 ---
-### Esercizio #10
+### Esercizio #11
 
 <div style="font-size: 90%">
 
@@ -2381,7 +2511,7 @@ So why are men reporting so many more partners than women in this age group of 3
 -->
 
 ---
-### Esercizio #10 (bis)
+### Esercizio #11 (bis)
 
 <div style="font-size: 90%">
 
@@ -2406,7 +2536,7 @@ Bimps sulle decine, asimmetrica
 Multimodale, particolarmente accentuato sull'1 -->
 
 ---
-### Esercizio #11
+### Esercizio #12
 
 <span style="display:block; height:1px;"></span>
 
@@ -2420,7 +2550,7 @@ Multimodale, particolarmente accentuato sull'1 -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Gli intervistati spendono tra le 0 e le 9 ore 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in paletra, con una media di 3.4 $\pm$  3.4 ore 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra, con una media di 3.4 $\pm$  3.4 ore 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (mediana: 5 ore; moda: 0 ore).
 
 
@@ -2433,7 +2563,7 @@ Multimodale, particolarmente accentuato sull'1 -->
 
 
 <style>
-  #countdown_exercise_11{
+  #countdown_exercise_12{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -2443,82 +2573,82 @@ Multimodale, particolarmente accentuato sull'1 -->
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_11.running {
+  #countdown_exercise_12.running {
     background-color: green;
   }
-  #countdown_exercise_11.finished {
+  #countdown_exercise_12.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_11"></button>
+<button id="countdown_exercise_12"></button>
 
 <script>
 <!--
-const countdown_exercise_11= document.getElementById("countdown_exercise_11");
-const seconds_exercise_11= 120; // seconds_exercise_11
-let timeLeft_exercise_11= seconds_exercise_11;
-let timerInterval_exercise_11= null;
+const countdown_exercise_12= document.getElementById("countdown_exercise_12");
+const seconds_exercise_12= 120; // seconds_exercise_12
+let timeLeft_exercise_12= seconds_exercise_12;
+let timerInterval_exercise_12= null;
 
-function formatTime_exercise_11(seconds_exercise_11) {
-  const minutes = Math.floor(seconds_exercise_11/ 60);
-  const remainingseconds_exercise_11= seconds_exercise_11% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_11).padStart(2, '0')}`;
+function formatTime_exercise_12(seconds_exercise_12) {
+  const minutes = Math.floor(seconds_exercise_12/ 60);
+  const remainingseconds_exercise_12= seconds_exercise_12% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_12).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_11() {
-  countdown_exercise_11.textContent = formatTime_exercise_11(timeLeft_exercise_11);
+function updateButton_exercise_12() {
+  countdown_exercise_12.textContent = formatTime_exercise_12(timeLeft_exercise_12);
 }
 
-function startTimer_exercise_11() {
-  if (timerInterval_exercise_11=== null) {
-    countdown_exercise_11.classList.add('running');
-    countdown_exercise_11.classList.remove('finished');
-    timerInterval_exercise_11= setInterval(() => {
-      if (timeLeft_exercise_11> 0) {
-        timeLeft_exercise_11--;
-        updateButton_exercise_11();
+function startTimer_exercise_12() {
+  if (timerInterval_exercise_12=== null) {
+    countdown_exercise_12.classList.add('running');
+    countdown_exercise_12.classList.remove('finished');
+    timerInterval_exercise_12= setInterval(() => {
+      if (timeLeft_exercise_12> 0) {
+        timeLeft_exercise_12--;
+        updateButton_exercise_12();
       } else {
-        clearInterval(timerInterval_exercise_11);
-        timerInterval_exercise_11= null;
-        countdown_exercise_11.classList.remove('running');
-        countdown_exercise_11.classList.add('finished');
-        countdown_exercise_11.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_12);
+        timerInterval_exercise_12= null;
+        countdown_exercise_12.classList.remove('running');
+        countdown_exercise_12.classList.add('finished');
+        countdown_exercise_12.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_11();
+    pauseTimer_exercise_12();
   }
 }
 
-function pauseTimer_exercise_11() {
-  clearInterval(timerInterval_exercise_11);
-  timerInterval_exercise_11= null;
-  countdown_exercise_11.classList.remove('running');
+function pauseTimer_exercise_12() {
+  clearInterval(timerInterval_exercise_12);
+  timerInterval_exercise_12= null;
+  countdown_exercise_12.classList.remove('running');
 }
 
-function resetTimer_exercise_11() {
-  timeLeft_exercise_11= seconds_exercise_11;
-  updateButton_exercise_11();
-  countdown_exercise_11.classList.remove('finished');
-  countdown_exercise_11.classList.remove('running');
-  timerInterval_exercise_11= null;
+function resetTimer_exercise_12() {
+  timeLeft_exercise_12= seconds_exercise_12;
+  updateButton_exercise_12();
+  countdown_exercise_12.classList.remove('finished');
+  countdown_exercise_12.classList.remove('running');
+  timerInterval_exercise_12= null;
 }
 
-countdown_exercise_11.addEventListener("click", () => {
-  if (countdown_exercise_11.classList.contains('finished')) {
-    resetTimer_exercise_11();
+countdown_exercise_12.addEventListener("click", () => {
+  if (countdown_exercise_12.classList.contains('finished')) {
+    resetTimer_exercise_12();
   } else {
-    startTimer_exercise_11();
+    startTimer_exercise_12();
   }
 });
 
-updateButton_exercise_11();
+updateButton_exercise_12();
 -->
 </script>
 
 ---
-### Esercizio #11 -- Soluzione
+### Esercizio #12 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
@@ -2532,7 +2662,7 @@ updateButton_exercise_11();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Gli intervistati spendono tra le 0 e le 9 ore 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in paletra, con una media di 3.4 $\pm$  3.4 ore 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra, con una media di 3.4 $\pm$  3.4 ore 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (mediana: 5 ore; moda: 0 ore).
 
 
@@ -2556,7 +2686,7 @@ Cosa &egrave; successo ai bambini sottoposti a interventi cardiochirugici in alc
 
 <center>
 
-Hospital | Operations | Survivors | Deaths | 30-day Survival (%) | Dying (%) |
+Ospedale | Interventi | Sopravvissuti (N) | Morti (N) | Sopravvissuti (%) | Morti (%) |
 ----:    | ----: | ----: | ----: | ----: | ----: |
 Bristol |        143 |       102 |     41 |              71.3 |            28.7 |
 Leicester |        187 |       162 |     25 |              86.6 |            13.4 |
@@ -2778,7 +2908,7 @@ Pearson's correlation coefficient
 </center>
 
 ---
-### Esercizio #12
+### Esercizio #13
 
 <span style="display:block; height:1px;"></span>
 
@@ -2796,7 +2926,7 @@ Pearson's correlation coefficient
 <span style="display:block; height:100px;"></span>
 
 <style>
-  #countdown_exercise_12{
+  #countdown_exercise_13{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -2806,85 +2936,82 @@ Pearson's correlation coefficient
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_12.running {
+  #countdown_exercise_13.running {
     background-color: green;
   }
-  #countdown_exercise_12.finished {
+  #countdown_exercise_13.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_12"></button>
+<button id="countdown_exercise_13"></button>
 
 <script>
 <!--
-const countdown_exercise_12= document.getElementById("countdown_exercise_12");
-const seconds_exercise_12= 60; // seconds_exercise_12
-let timeLeft_exercise_12= seconds_exercise_12;
-let timerInterval_exercise_12= null;
+const countdown_exercise_13= document.getElementById("countdown_exercise_13");
+const seconds_exercise_13= 60; // seconds_exercise_13
+let timeLeft_exercise_13= seconds_exercise_13;
+let timerInterval_exercise_13= null;
 
-function formatTime_exercise_12(seconds_exercise_12) {
-  const minutes = Math.floor(seconds_exercise_12/ 60);
-  const remainingseconds_exercise_12= seconds_exercise_12% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_12).padStart(2, '0')}`;
+function formatTime_exercise_13(seconds_exercise_13) {
+  const minutes = Math.floor(seconds_exercise_13/ 60);
+  const remainingseconds_exercise_13= seconds_exercise_13% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_13).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_12() {
-  countdown_exercise_12.textContent = formatTime_exercise_12(timeLeft_exercise_8);
+function updateButton_exercise_13() {
+  countdown_exercise_13.textContent = formatTime_exercise_13(timeLeft_exercise_13);
 }
 
-function startTimer_exercise_12() {
-  if (timerInterval_exercise_12=== null) {
-    countdown_exercise_12.classList.add('running');
-    countdown_exercise_12.classList.remove('finished');
-    timerInterval_exercise_12= setInterval(() => {
-      if (timeLeft_exercise_12> 0) {
-        timeLeft_exercise_12--;
-        updateButton_exercise_12();
+function startTimer_exercise_13() {
+  if (timerInterval_exercise_13=== null) {
+    countdown_exercise_13.classList.add('running');
+    countdown_exercise_13.classList.remove('finished');
+    timerInterval_exercise_13= setInterval(() => {
+      if (timeLeft_exercise_13> 0) {
+        timeLeft_exercise_13--;
+        updateButton_exercise_13();
       } else {
-        clearInterval(timerInterval_exercise_12);
-        timerInterval_exercise_12= null;
-        countdown_exercise_12.classList.remove('running');
-        countdown_exercise_12.classList.add('finished');
-        countdown_exercise_12.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_13);
+        timerInterval_exercise_13= null;
+        countdown_exercise_13.classList.remove('running');
+        countdown_exercise_13.classList.add('finished');
+        countdown_exercise_13.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_12();
+    pauseTimer_exercise_13();
   }
 }
 
-function pauseTimer_exercise_12() {
-  clearInterval(timerInterval_exercise_12);
-  timerInterval_exercise_12= null;
-  countdown_exercise_12.classList.remove('running');
+function pauseTimer_exercise_13() {
+  clearInterval(timerInterval_exercise_13);
+  timerInterval_exercise_13= null;
+  countdown_exercise_13.classList.remove('running');
 }
 
-function resetTimer_exercise_12() {
-  timeLeft_exercise_12= seconds_exercise_12;
-  updateButton_exercise_12();
-  countdown_exercise_12.classList.remove('finished');
-  countdown_exercise_12.classList.remove('running');
-  timerInterval_exercise_12= null;
+function resetTimer_exercise_13() {
+  timeLeft_exercise_13= seconds_exercise_13;
+  updateButton_exercise_13();
+  countdown_exercise_13.classList.remove('finished');
+  countdown_exercise_13.classList.remove('running');
+  timerInterval_exercise_13= null;
 }
 
-countdown_exercise_12.addEventListener("click", () => {
-  if (countdown_exercise_12.classList.contains('finished')) {
-    resetTimer_exercise_12();
+countdown_exercise_13.addEventListener("click", () => {
+  if (countdown_exercise_13.classList.contains('finished')) {
+    resetTimer_exercise_13();
   } else {
-    startTimer_exercise_12();
+    startTimer_exercise_13();
   }
 });
 
-updateButton_exercise_12();
+updateButton_exercise_13();
 -->
 </script>
 
-
-
-
 ---
-### Esercizio #12 -- Soluzione
+### Esercizio #13 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 

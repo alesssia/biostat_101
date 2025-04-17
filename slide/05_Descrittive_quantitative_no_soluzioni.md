@@ -95,6 +95,12 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $z= \{1, 3, 4, 7, 8, 9, 11, 17, 21, 42\}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(z)= \text{ } ?$
 
+
+
+<!-- se ciascun valore si presenta una volta sola, le nostre osservazioni non hanno moda
+
+Si usa soprattutto per i dati categorici -->
+
 ---
 ## Misure di centralit&agrave;: la mediana
 
@@ -105,7 +111,7 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
 <span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/descriptive/median.png" img height="300px" border="0px"/>
+<img src="./img/descriptive/median.png" img height="250px" border="0px"/>
 </center>
 
 <div style="font-size: 90%" align="right">
@@ -139,29 +145,25 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 <span style="display:block; height:40px;"></span>
 
 
-
 ---
 ## Mediana e valori anomali
 
-
-<span style="display:block; height:50px;"></span>
-
 <center>
-<img src="./img/descriptive/median_outlier.png" img height="350px" border="4px"/>
+<img src="./img/descriptive/median_outlier.png" img height="500px" border="0px"/>
 </center>
 
 ---
 ## Quartili
 
-<span style="display:block; height:20px;"></span>
+<span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/descriptive/quartiles.png" img height="300px" border="0px"/>
+<img src="./img/descriptive/quartiles.png" img height="250px" border="0px"/>
 </center>
 
 <!-- Mentre la mediana divide i dati in due meta' esatte, molto usati sono anche i quartili, che dividono i dati in 4 parti uguali -->
 
-<span style="display:block; height:20px;"></span>
+<span style="display:block; height:40px;"></span>
 
 <div style="font-size: 90%" align="right">
 
@@ -170,6 +172,45 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 </div>
 
 <!-- I quartili sono robusti rispetto ai valori anomal, anche se l'ultimo fosse 1000 e il primo -1000 non cambierebbero -->
+
+---
+## Percentili
+
+<span style="display:block; height:20px;"></span>
+
+<center>
+<img src="./img/descriptive/percentile.png" img height="350px" border="0px"/>
+</center>
+
+<!-- Mentre la mediana divide i dati in due meta' esatte, molto usati sono anche i quartili, che dividono i dati in 4 parti uguali -->
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%" align="right">
+
+:warning: I dati devono essere ordinati!
+
+</div>
+
+<!-- I quartili sono robusti rispetto ai valori anomal, anche se l'ultimo fosse 1000 e il primo -1000 non cambierebbero -->
+
+---
+### Esercizio #3
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Maria ha ricevuto un punteggo di 70 a un esame, posizionandosi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel 45$^o$ percentile.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L'esame &egrave; andato...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) bene: Maria ha ricevuto un voto superiore a pi&ugrave; met&agrave; delle  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; persone che hanno dato quell'esame
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) non benissimo: Maria ha ricevuto un voto inferiore a pi&ugrave; met&agrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle persone che hanno dato quell'esame
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
+
+</div>
 
 ---
 ## Misure di centralit&agrave;: la media
@@ -199,7 +240,7 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
  -->
 
 ---
-### Esercizio #3
+### Esercizio #4
 
 <span style="display:block; height:1px;"></span>
 
@@ -220,10 +261,8 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
 ---
 ## Media e valori anomali
 
-<span style="display:block; height:50px;"></span>
-
 <center>
-<img src="./img/descriptive/mean_outlier.png" img height="350px" border="4px"/>
+<img src="./img/descriptive/mean_outlier.png" img height="500px" border="0px"/>
 </center>
 
 ---
@@ -257,7 +296,7 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
  -->
 
 ---
-### Esercizio 4
+### Esercizio 5
 
 <div style="font-size: 90%">
 
@@ -274,7 +313,6 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 
 </div>
 
-<span style="display:block; height:10px;"></span>
 
 ---
 ## Misure di dispersione
@@ -288,10 +326,10 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 ---
 ## Misure di dispersione
 
-<span style="display:block; height:50px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/descriptive/sd.png" img height="350px" border="4px"/>
+<img src="./img/descriptive/sd.png" img height="450px" border="0px"/>
 </center>
 
 
@@ -300,15 +338,17 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 
 <span style="display:block; height:1px;"></span>
 
-:dart: &nbsp;&nbsp;&nbsp; ${\text{range}(x)}= \text{max}(x)-\text{min}(x)$
+:dart: &nbsp;&nbsp;&nbsp; ${\text{range}}= \text{max}-\text{min}$
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/descriptive/outliers_range.svg" img height="250px" border="0px"/>
+<img src="./img/descriptive/range.png" img height="70px" border="0px"/>
 </center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{range}(x)= 9754-2830=6924$
+<span style="display:block; height:40px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{range}(x)= 30-5=25$
 
 <!-- INTERVALLO di VARIAZIONE. Il range pero' si basa solo sui due valori estremi, senza indicare come si distribuiscono i dati entro l’intervallo 
 
@@ -324,12 +364,12 @@ piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tien
 
 <span style="display:block; height:1px;"></span>
 
-:dart: &nbsp;&nbsp;&nbsp; ${\text{IQR}(x)}= \text{Q3}(x)-\text{Q1}(x)$
+:dart: &nbsp;&nbsp;&nbsp; ${\text{IQR}}= \text{Q3}-\text{Q1}$
 
 <span style="display:block; height:20px;"></span>
 
 <center>
-<img src="./img/descriptive/iqr.png" img height="300px" border="0px"/>
+<img src="./img/descriptive/iqr.png" img height="230px" border="0px"/>
 </center>
 
 <!-- Robusto rispetto agli outliers -->
@@ -391,12 +431,10 @@ piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tien
 <!-- che nella varianza l'unità di misura è diversa da quella della variabile su cui è calcolata (abbiamo fatto il quadrato delle differenze, ricordate?), si utilizza la sua radice quadrata detta SCARTO QUADRATICO MEDIO o deviazione standard.
 
 Esempio lunghezza della degenza, giorni e giorni^2
-
-Ci dice la distanza tipica di tutte le misurazioni dalla media
  -->
 
 ---
-### Esercizio #5
+### Esercizio #6
 
 <div style="font-size: 73%">
 
@@ -442,7 +480,7 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 -->
 
 ---
-### Esercizio #6
+### Esercizio #7
 
 <div style="font-size: 90%">
 
@@ -451,17 +489,18 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Coronary-artery calcium scores averaged 68.9&plusmn;244.2 (range 0 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to 1526) in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) con media e deviazione standard
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) con mediana e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d)  non ho abbastanza elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per decidere
 
 </div>
 
 ---
-### Esercizio #7
+### Esercizio #8
 
 <span style="display:block; height:10px;"></span>
 
@@ -497,11 +536,13 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <span style="display:block; height:100px;"></span>
 
 
+
 </div>
 </div>
 
+
 ---
-### Esercizio #8
+### Esercizio #9
 
 <span style="display:block; height:10px;"></span>
 
@@ -537,11 +578,12 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <span style="display:block; height:100px;"></span>
 
 
+
 </div>
 </div>
 
 ---
-### Esercizio #9
+### Esercizio #10
 
 <span style="display:block; height:10px;"></span>
 
@@ -803,7 +845,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 Boxplot hides the underlying distribution. Use jitter if low number of data points, or use violin with bigger data. Leggermente bimodale -->
 
 ---
-### Esercizio #10
+### Esercizio #11
 
 <div style="font-size: 90%">
 
@@ -815,7 +857,7 @@ resulting in the National Sexual Attitudes and Lifestyle Survey (Natsal) which h
  -->
 
 ---
-### Esercizio #10
+### Esercizio #11
 
 <div style="font-size: 90%">
 
@@ -864,9 +906,8 @@ Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver a
  It is a good exercise to use these summaries alone to try to reconstruct what the pattern of data might look like.
 -->
 
-
 ---
-### Esercizio #10 (bis)
+### Esercizio #11 (bis)
 
 <div style="font-size: 90%">
 
@@ -891,7 +932,7 @@ Bimps sulle decine, asimmetrica
 Multimodale, particolarmente accentuato sull'1 -->
 
 ---
-### Esercizio #11
+### Esercizio #12
 
 <span style="display:block; height:1px;"></span>
 
@@ -905,7 +946,7 @@ Multimodale, particolarmente accentuato sull'1 -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Gli intervistati spendono tra le 0 e le 9 ore 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in paletra, con una media di 3.4 $\pm$  3.4 ore 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra, con una media di 3.4 $\pm$  3.4 ore 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (mediana: 5 ore; moda: 0 ore).
 
 
@@ -915,7 +956,6 @@ Multimodale, particolarmente accentuato sull'1 -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6 $\pm$ 1.1 ore  (mediana: 7 ore)
 
 </div>
-
 
 ---
 ### La relazione tra due variabili numeriche
@@ -930,7 +970,7 @@ Cosa &egrave; successo ai bambini sottoposti a interventi cardiochirugici in alc
 
 <center>
 
-Hospital | Operations | Survivors | Deaths | 30-day Survival (%) | Dying (%) |
+Ospedale | Interventi | Sopravvissuti (N) | Morti (N) | Sopravvissuti (%) | Morti (%) |
 ----:    | ----: | ----: | ----: | ----: | ----: |
 Bristol |        143 |       102 |     41 |              71.3 |            28.7 |
 Leicester |        187 |       162 |     25 |              86.6 |            13.4 |
@@ -1140,7 +1180,6 @@ Pearson's correlation coefficient
 
 <span style="display:block; height:20px;"></span>
 
-
 <center>
 
 |  | Parametro | Statistica |
@@ -1150,11 +1189,10 @@ Pearson's correlation coefficient
 | Deviazione Standard | $\sigma$ | $s$ |
 | Proporzione | $\pi$ | $p$ |
 
-
 </center>
 
 ---
-### Esercizio #12
+### Esercizio #13
 
 <span style="display:block; height:1px;"></span>
 
@@ -1168,6 +1206,8 @@ Pearson's correlation coefficient
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $\bar{x}$ 
 
 </div>
+
+<span style="display:block; height:100px;"></span>
 
 ---
 ## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
@@ -1191,29 +1231,6 @@ Some nurses held the tape measure tighter around the infants head while others h
 Each nurse put the tape measure in a slightly different place on the doll’s head
 Some nurses may have misread the tape measure.
 The doll’s head changed size between measurements. -->
-
----
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
-
-<div style="font-size: 85%">
-
-:dart: &nbsp;&nbsp; In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cranica di un bambolotto che simula un  bambino di un anno
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-<img src="./img/descriptive/head_circiference_doll.png" img height="350px" align="left" border="4px"/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
-
-</div>
-
-<div style="font-size: 85%" align="right">
-
-<br/> Errori di misurazione
-
-</div>
 
 ---
 ## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
@@ -1249,32 +1266,6 @@ Train the nurses to use a consistent degree of tension in the tape measure.
 
 <div style="font-size: 85%">
 
-:dart: &nbsp;&nbsp; Nello stesso studio, un pediatria misura la circonferenza cranica di 35
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bambini di un anno
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-<img src="./img/descriptive/head_circiference_children.png" img height="350px" align="left" border="4px"/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
-
-</div>
-
-<div style="font-size: 85%" align="right">
-
-<br/>
-Differenze individuali
-
-</div>
-
-<!-- Anche qui rimangono errori di misurazione -->
-
----
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
-
-<div style="font-size: 85%">
-
 :dart: &nbsp;&nbsp; Nello stesso studio, lo stesso pediatra misura altri 35 bambini di un 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che vivono in famiglie di stato socioeconomico molto basso
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1297,30 +1288,6 @@ Differenze individuali
 <!-- Anche qui rimangono errori di misurazione e variabilita' individuale -->
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
-
-<div style="font-size: 85%">
-
-:dart: &nbsp;&nbsp; Nello stesso studio, lo stesso pediatra misura altri 35 bambini di un 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che vivono in famiglie di stato socioeconomico molto basso
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-<img src="./img/descriptive/head_circiference_children_groups.png" img height="350px" align="left" border="4px"/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
-
-</div>
-
-<div style="font-size: 85%" align="right">
-
-<br/>
-Diversa condizione sperimentale?
-
-</div>
-
----
 ## Perch&eacute; dobbiamo conoscere la differenza?
 
 <div style="font-size: 85%">
@@ -1329,14 +1296,13 @@ Diversa condizione sperimentale?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sperimentali o se &egrave; generata da differenze individuali e/o da errori di 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; misurazione
 
-</div>
 
-<span style="display:block; height:50px;"></span> 
+<span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/descriptive/head_circiference_doll.png" img height="180px"  border="4px"/> 
-<img src="./img/descriptive/head_circiference_children.png" img height="180px"  border="4px"/>
-<img src="./img/descriptive/head_circiference_children_groups.png" img height="180px" border="4px"/>
+<img src="./img/descriptive/head_circiference_doll.png" img height="190px"  border="4px"/> 
+<img src="./img/descriptive/head_circiference_children.png" img height="190px"  border="4px"/>
+<img src="./img/descriptive/head_circiference_children_groups.png" img height="190px" border="4px"/>
 </center>
 
 
@@ -1356,6 +1322,4 @@ Diversa condizione sperimentale?
 - La variabilit&agrave; che osserviamo pu&ograve; essere causata da errori di misurazione, differenze individuali e/o di condizione sperimentale
 
 </div>
-
-
 
