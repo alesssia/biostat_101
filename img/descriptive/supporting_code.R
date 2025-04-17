@@ -29,11 +29,102 @@ sdev <- sd(df$Height)
 
 p <- ggplot(df, aes(x=Height, y=10)) + geom_point(position = "jitter") + ylim(c(9.4,10.6))
 p <- p + geom_segment(aes(x = avg, y = 10.5, xend = avg, yend = 9.5), size=2, colour="darkgreen") + geom_segment(aes(x = avg-3, y = 9.5, xend = 140, yend = 9.5), arrow = arrow(length = unit(0.5, "cm")), size=2, colour="darkmagenta") + geom_segment(aes(x = avg+3, y = 9.5, xend = 190, yend = 9.5), arrow = arrow(length = unit(0.5, "cm")), size=2, colour="darkmagenta") 
-p <- p + graphic.settings + theme(legend.position="none", legend.title = element_blank()) + theme(axis.text.y=element_blank())+ylab("") + scale_y_discrete(breaks=NULL)
+p <- p + graphic.settings + theme(legend.position="none", legend.title = element_blank()) + theme(axis.text.y=element_blank()) + xlab("Altezza (cm)") + ylab("") + scale_y_discrete(breaks=NULL)
 
 png("descriptive.png", width=500, height=250)
 print(p)
 dev.off()
+
+xmin <- sapply(0:14, function(i) 0+i*3)
+xmax <- sapply(0:14, function(i) 3+i*3)
+
+rects <- data.frame(xmin=xmin, xmax=xmax,
+					ymin=rep(0, 15), ymax=rep(3, 15),
+					boxcol=c(rep("a", 7), "b", rep("c", 7)),
+					label=c(5, 18, 20, 22, 24, 25, 25, 26, 26, 26, 27, 27, 28, 29, 30),
+					x=sapply(0:14, function(i) 0+i*3+1.5), y=1.5)
+	
+
+p <- ggplot(rects, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, label=label)) + geom_rect(aes(fill = boxcol), alpha = 0.4, color = "black") + scale_fill_manual(values=(c("magenta3", "gray85", "springgreen3"))) + geom_text(aes(x=x, y=y), size=7)+ theme_void()  + theme(legend.position="none", legend.title = element_blank())  
+
+p <- p + geom_segment(aes(x = xmin[8]+1.5, y = -3, xend = xmin[8]+1.5, yend = -0.5), arrow = arrow(length = unit(0.5, "cm")), size=0.7, colour="black") + annotate("text", x = xmin[8]+1.5, y = -4, label = "Mediana", parse = FALSE, size=7) 
+
+p <- p + geom_segment(aes(x = 0, y = 4, xend = xmax[7], yend = 4), arrow = arrow(length = unit(0.5, "cm"), ends="both"), size=0.5, colour="black") + annotate("text", x = xmin[4]+1.5, y = 5, label = "50% inferiore", parse = FALSE, size=7) + geom_segment(aes(x = xmin[9], y = 4, xend = xmax[15], yend = 4), arrow = arrow(length = unit(0.5, "cm"), ends="both"), size=0.5, colour="black") + annotate("text", x = xmin[12]+1.5, y = 5, label = "50% superiore", parse = FALSE, size=7)
+
+
+p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+png("median.png", width=800, height=180, bg = "transparent")
+print(p)
+dev.off()
+
+
+rects <- data.frame(xmin=xmin, xmax=xmax,
+					ymin=rep(0, 15), ymax=rep(3, 15),
+					boxcol=c(rep("a", 3), "b", rep("c", 3), "b", rep("d", 3), "b", rep("e", 3)),
+					label=c(5, 18, 20, 22, 24, 25, 25, 26, 26, 26, 27, 27, 28, 29, 30),
+					x=sapply(0:14, function(i) 0+i*3+1.5), y=1.5)
+	
+
+p <- ggplot(rects, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, label=label)) + geom_rect(aes(fill = boxcol), alpha = 0.4, color = "black") + scale_fill_manual(values=(c("magenta1", "gray85","magenta4",  "springgreen1", "springgreen4"))) + geom_text(aes(x=x, y=y), size=7)+ theme_void()  + theme(legend.position="none", legend.title = element_blank())  
+
+p <- p + geom_segment(aes(x = xmin[8]+1.5, y = -3, xend = xmin[8]+1.5, yend = -0.5), arrow = arrow(length = unit(0.5, "cm")), size=0.7, colour="black") + annotate("text", x = xmin[8]+1.5, y = -4, label = "Mediana (Q2)", parse = FALSE, size=7) +
+	     geom_segment(aes(x = xmin[4]+1.5, y = -3, xend = xmin[4]+1.5, yend = -0.5), arrow = arrow(length = unit(0.5, "cm")), size=0.7, colour="black") + annotate("text", x = xmin[4]+1.5, y = -4, label = "Q1", parse = FALSE, size=7) +
+	     geom_segment(aes(x = xmin[12]+1.5, y = -3, xend = xmin[12]+1.5, yend = -0.5), arrow = arrow(length = unit(0.5, "cm")), size=0.7, colour="black") + annotate("text", x = xmin[12]+1.5, y = -4, label = "Q3", parse = FALSE, size=7) 
+
+p <- p + geom_segment(aes(x = 0, y = 4, xend = xmax[3], yend = 4), arrow = arrow(length = unit(0.5, "cm"), ends="both"), size=0.5, colour="black") + annotate("text", x = xmin[2]+1.5, y = 5, label = "25%", parse = FALSE, size=7) + geom_segment(aes(x = xmin[5], y = 4, xend = xmax[7], yend = 4), arrow = arrow(length = unit(0.5, "cm"), ends="both"), size=0.5, colour="black") + annotate("text", x = xmin[6]+1.5, y = 5, label = "25%", parse = FALSE, size=7) +
+	geom_segment(aes(x = xmin[9], y = 4, xend = xmax[11], yend = 4), arrow = arrow(length = unit(0.5, "cm"), ends="both"), size=0.5, colour="black") + annotate("text", x = xmin[10]+1.5, y = 5, label = "25%", parse = FALSE, size=7) + geom_segment(aes(x = xmin[13], y = 4, xend = xmax[15], yend = 4), arrow = arrow(length = unit(0.5, "cm"), ends="both"), size=0.5, colour="black") + annotate("text", x = xmin[14]+1.5, y = 5, label = "25%", parse = FALSE, size=7)
+
+
+p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+png("quartiles.png", width=800, height=180, bg = "transparent")
+print(p)
+dev.off()
+
+
+p <- ggplot(rects, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, label=label)) + geom_rect(aes(fill = boxcol), alpha = 0.4, color = "black") + scale_fill_manual(values=(c("magenta1", "gray85","magenta4",  "springgreen1", "springgreen4"))) + geom_text(aes(x=x, y=y), size=7)+ theme_void()  + theme(legend.position="none", legend.title = element_blank())  
+
+p <- p + geom_segment(aes(x = 0, y = 4, xend = xmax[3], yend = 4), arrow = arrow(length = unit(0.5, "cm"), ends="first"), size=0.5, colour="black") + annotate("text", x = xmin[2]+1.5, y = 5, label = "25%", parse = FALSE, size=7) +
+	   geom_segment(aes(x = 0, y = 6, xend = xmax[7], yend = 6), arrow = arrow(length = unit(0.5, "cm"), ends="first"), size=0.5, colour="black") + annotate("text", x = xmin[4]+1.5, y = 7, label = "50%", parse = FALSE, size=7) +
+	   geom_segment(aes(x = 0, y = 8, xend = xmax[11], yend = 8), arrow = arrow(length = unit(0.5, "cm"), ends="first"), size=0.5, colour="black") + annotate("text", x = xmax[6], y = 9, label = "75%", parse = FALSE, size=7) 
+
+p <- p + geom_segment(aes(x = xmin[8]+1.5, y = -3, xend = xmin[8]+1.5, yend = -0.5), arrow = arrow(length = unit(0.5, "cm")), size=0.7, colour="black") + annotate("text", x = xmin[8]+1.5, y = -4, label = "paste(P[50], \"\")", parse = TRUE, size=7) +
+	     geom_segment(aes(x = xmin[4]+1.5, y = -3, xend = xmin[4]+1.5, yend = -0.5), arrow = arrow(length = unit(0.5, "cm")), size=0.7, colour="black") + annotate("text", x = xmin[4]+1.5, y = -4, label = "paste(P[25], \"\")", parse = TRUE, size=7) +
+	     geom_segment(aes(x = xmin[12]+1.5, y = -3, xend = xmin[12]+1.5, yend = -0.5), arrow = arrow(length = unit(0.5, "cm")), size=0.7, colour="black") + annotate("text", x = xmin[12]+1.5, y = -4, label = "paste(P[75], \"\")", parse = TRUE, size=7) 
+
+
+ p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+ png("percentile.png", width=800, height=250, bg = "transparent")
+ print(p)
+ dev.off()
+
+p <- ggplot(rects, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, label=label)) + geom_rect(aes(fill = boxcol), alpha = 0.4, color = "black") + scale_fill_manual(values=(c("magenta1", "gray85","magenta4",  "springgreen1", "springgreen4"))) + geom_text(aes(x=x, y=y), size=7)+ theme_void()  + theme(legend.position="none", legend.title = element_blank())  
+
+p <- p + geom_segment(aes(x = xmin[5], y = 4, xend = xmax[11], yend = 4), arrow = arrow(length = unit(0.5, "cm"), ends="both"), size=0.5, colour="black") + annotate("text", x = xmin[8]+1.5, y = 5, label = "50% delle osservazioni", parse = FALSE, size=7) 
+
+p <- p + geom_segment(aes(x = xmin[8]+1.5, y = -3, xend = xmin[8]+1.5, yend = -0.5), arrow = arrow(length = unit(0.5, "cm")), size=0.7, colour="black") + annotate("text", x = xmin[8]+1.5, y = -4, label = "Mediana (Q2)", parse = FALSE, size=7) +
+	     geom_segment(aes(x = xmin[4]+1.5, y = -3, xend = xmin[4]+1.5, yend = -0.5), arrow = arrow(length = unit(0.5, "cm")), size=0.7, colour="black") + annotate("text", x = xmin[4]+1.5, y = -4, label = "Q1", parse = FALSE, size=7) +
+	     geom_segment(aes(x = xmin[12]+1.5, y = -3, xend = xmin[12]+1.5, yend = -0.5), arrow = arrow(length = unit(0.5, "cm")), size=0.7, colour="black") + annotate("text", x = xmin[12]+1.5, y = -4, label = "Q3", parse = FALSE, size=7) 
+
+
+ p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+ png("iqr.png", width=800, height=180, bg = "transparent")
+ print(p)
+ dev.off()
+
+
+
+p <- ggplot(rects, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, label=label)) + geom_rect(alpha = 0.4, color = "black", fill='springgreen3') + geom_text(aes(x=x, y=y), size=7)+ theme_void()  + theme(legend.position="none", legend.title = element_blank())  
+
+p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+png("range.png", width=800, height=50, bg = "transparent")
+print(p)
+dev.off()
+
 
 
 mean <- 0
@@ -58,7 +149,10 @@ p <-  ggplot(data = data.frame(x = c(start, end)), aes(x)) +
    scale_y_continuous(breaks = NULL) + theme_void()
 
 
-png("sd.png", width=500, height=250)
+p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+
+png("sd.png", width=500, height=250, bg = "transparent")
 print(p)
 dev.off()
 
@@ -66,18 +160,21 @@ dev.off()
 # Examples of outliers in calculating median and mean
 pp <- data.frame(x=c(6, 34, 40, 55, 175, 0, 0), y=c(rep(0, 5), 1, -1))
 
-p <- ggplot(pp, aes(x=x, y=y, label=x)) + geom_point(size=3) + geom_segment(aes(x = 0, y = 0, xend = 180, yend = 0), size=1) +  geom_text(vjust = 2) 
+p <- ggplot(pp, aes(x=x, y=y, label=x)) + geom_point(size=3) + geom_segment(aes(x = 0, y = 0, xend = 180, yend = 0), size=1) +  geom_text(vjust = 2, size=4) 
 p <- p +  geom_segment(aes(x = 40, y = -0.3, xend = 40, yend = -0.1), arrow = arrow(length = unit(0.5, "cm")), size=1, colour="darkmagenta") + annotate('text', x = 40, y = -0.35, label = "Mediana", parse=T, size=5, colour="darkmagenta")
 p <- p + ylim(-0.4, 0.4) + graphic.settings + theme(legend.position="none", legend.title = element_blank()) + theme(axis.text.y=element_blank()) + xlab("") + ylab("")  + theme(panel.grid.major.x = element_blank(), panel.grid.minor.x = element_blank(), panel.grid.major.y = element_blank(), panel.grid.minor.y = element_blank(), axis.ticks.y=element_blank(), panel.border = element_blank()) + scale_x_discrete(breaks=NULL) 
 
+p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
 
-png("median_outlier.png", width=500, height=250)
+
+png("median_outlier.png", width=500, height=250, bg = "transparent")
 print(p)
 dev.off()
 
 p <- p +  geom_segment(aes(x = 62, y = -0.3, xend = 62, yend = -0.1), arrow = arrow(length = unit(0.5, "cm")), size=1, colour="darkgreen") + annotate('text', x = 62, y = -0.35, label = "Media", parse=T, size=5, colour="darkgreen")
 
-png("mean_outlier.png", width=500, height=250)
+
+png("mean_outlier.png", width=500, height=250, bg = "transparent")
 print(p)
 dev.off()
 
@@ -97,8 +194,8 @@ Ncats=length(NumPartners)
 partners = data.frame( NumPartners2=c(NumPartners,NumPartners), Percent=c(MenPercent,WomenPercent), Gender=c(rep("M",Ncats),rep("F",Ncats)) )
 partners$Percent[partners$Gender == "F"] <- -partners$Percent[partners$Gender == "F"]
 
-p <- ggplot(partners, aes(x=NumPartners2)) + geom_bar(aes(y=Percent, fill=Gender), stat = "identity") +  geom_text(aes(x = 50, y = -5, label = "Women 35-44", color = "#FC8D62", hjust=0, size=5)) + geom_text(aes(x = 50, y = 5, label = "Men 35-44", color = "#66C2A5", hjust=0, size=5))
-p <- p + xlim(0, 61) + scale_colour_brewer(palette = "Set2") + graphic.settings + xlab("Reported number of lifetime opposite-sex partners") + ylab("Percentage") + theme(legend.position="none") + ggtitle("", subtitle="Observation > 60 were removed") 
+p <- ggplot(partners, aes(x=NumPartners2)) + geom_bar(aes(y=Percent, fill=Gender), stat = "identity") +  geom_text(aes(x = 50, y = -5, label = "Donne 35-44", color = "#FC8D62", hjust=0, size=5)) + geom_text(aes(x = 50, y = 5, label = "Uomini 35-44", color = "#66C2A5", hjust=0, size=5))
+p <- p + xlim(0, 61) + scale_colour_brewer(palette = "Set2") + graphic.settings + xlab("Numero di partner eterosessuali riportati") + ylab("Percentuale") + theme(legend.position="none") + ggtitle("", subtitle="Osservazioni > 60 sono state rimosse") 
 
 
 png("British_sex_partner_histogram.png", width = 480*1.5, height = 480)
@@ -112,7 +209,7 @@ child.1991 <- read.csv("02-5-child-heart-surgery-1991-x.csv") # read data into d
 
 p <- ggplot(child.1991, aes(x=reorder(Hospital,-Deaths), y=Deaths)) + geom_bar(stat = "identity", fill="gray74", colour="black") 
 p <- p + coord_flip() + scale_y_continuous() # breaks every two-count
-p <- p + theme(legend.position="none") + labs(y="Number of children who died", x="") + graphic.settings
+p <- p + theme(legend.position="none") + labs(y="Bambini <1 anno morti (N)", x="") + graphic.settings
  
 
 png("Children_death.png")
@@ -121,7 +218,7 @@ dev.off()
   
 p <- ggplot(child.1991, aes(x=reorder(Hospital,-Deaths), y=Operations)) + geom_bar(stat = "identity", fill="gray74", colour="black") 
 p <- p + coord_flip() + scale_y_continuous() # breaks every two-count
-p <- p + theme(legend.position="none") + labs(y="Number of surgeries carried out", x="") + graphic.settings
+p <- p + theme(legend.position="none") + labs(y="Interventi bambini <1 anno (N)", x="") + graphic.settings
  
 
 png("Children_surgery.png")
@@ -129,7 +226,7 @@ print(p)
 dev.off() 
 
 
-p <- ggplot(child.1991, aes(x=Operations, y=Deaths, label=Hospital)) + geom_point(size=3)  + geom_label_repel(aes(label = Hospital), box.padding   = 0.35, point.padding = 0.5, segment.color = 'grey50') + labs(x="Number of operations", y = "Number of death", title="Survival in under-1s, 1991-1995") + graphic.settings + geom_smooth(method="lm", se=FALSE, col="magenta", linetype="dotted", ldw=1.5)
+p <- ggplot(child.1991, aes(x=Operations, y=Deaths, label=Hospital)) + geom_point(size=3)  + geom_label_repel(aes(label = Hospital), box.padding   = 0.35, point.padding = 0.5, segment.color = 'grey50') + labs(x="Interventi (M)", y = "Morti (N)", title="Morti in bambini <1 anno, 1991-1995") + graphic.settings + geom_smooth(method="lm", se=FALSE, col="magenta", linetype="dotted", ldw=1.5)
 
 
 

@@ -88,8 +88,6 @@ dev.off()
 # print(p4)
 # dev.off()
 
-stop()
-
 
 
 # getlimit <- function(p, sd, ann)
@@ -161,8 +159,10 @@ p <-   ggplot(data = data.frame(x = c(start, end)), aes(x)) +
 	
 p <- p + xlim(start, end) + scale_y_continuous(breaks = NULL) + theme_void()
 
+p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
 
-png("Ex_Q3.png", width=500, height=250)
+
+png("Ex_Q3.png", width=500, height=250, bg = "transparent")
 print(p)
 dev.off()
 
@@ -197,7 +197,10 @@ p <-   ggplot(data = data.frame(x = c(start, end)), aes(x)) +
 	   scale_y_continuous(breaks = NULL) + theme_void()
 
 
-png("n2z.png", width=500, height=250)
+p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+
+png("n2z.png", width=500, height=250, bg = "transparent")
 print(p)
 dev.off()
 
