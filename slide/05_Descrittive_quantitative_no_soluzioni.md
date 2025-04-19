@@ -74,10 +74,15 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
 
 :dart: &nbsp;&nbsp;&nbsp; L'elemento pi&ugrave; frequente
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:20px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp; $x= \{1, 1, 1, 3, 4, 4, 7, 8, 8, 9, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(x)=1$
+<center>
+<img src="./img/descriptive/range.png" img height="65px" border="0px"/>
+</center>
+
+<span style="display:block; height:1px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; moda = 26
 
 ---
 ### Esercizio #1
@@ -86,15 +91,13 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; la moda dei seguenti insiemi?
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{1, 1, 1, 3, 4, 4, 4, 7, 8, 8, 9, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(y)= \text{ } ?$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{1, 1, 1, 3, 4, 4, 4, 7, 8, 8, 9, 9\}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(x)= \text{ } ?$
 
 <span style="display:block; height:1px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $z= \{1, 3, 4, 7, 8, 9, 11, 17, 21, 42\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(z)= \text{ } ?$
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{1, 3, 4, 7, 8, 9, 11, 17, 21, 42\}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(y)= \text{ } ?$
 
 
 <!-- se ciascun valore si presenta una volta sola, le nostre osservazioni non hanno moda
@@ -134,15 +137,13 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)= \text{ ?}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{6, 34, 40, 55, 75\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(x)= \text{ ?}$ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(z)=\text{ ?}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{6, 34, 40, 55, 175\}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=\text{ ?}$ 
 
 </div>
-
-<span style="display:block; height:40px;"></span>
 
 
 ---
@@ -215,22 +216,24 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 ---
 ## Misure di centralit&agrave;: la media
 
-<span style="display:block; height:1px;"></span>
-
 <div style="font-size: 95%">
 
-:dart: &nbsp;&nbsp;&nbsp; Media aritmetica
+:dart: &nbsp;&nbsp;&nbsp; Media (aritmetica)
 
 $$
 {\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)=
 {\frac {x_{1}+x_{2}+\dots +x_{n}}{n}}
 $$
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:30px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp;  $x= \{4, 36, 45, 50, 75\}$ 
+<center>
+<img src="./img/descriptive/range.png" img height="65px" border="0px"/>
+</center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}} = {\frac{1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right) = \frac{4 + 36 + 45 + 50 + 75}{5} = 42$
+<span style="display:block; height:1px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}}= \frac{5+18+20+22+24+25+25+26+26+26+27+27+28+29+30}{15}=23.9$
 
 </div>
 
@@ -248,11 +251,11 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le medie di questi insiemi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $y= \{6, 34, 40, 55, 75\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = \text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{6, 34, 40, 55, 75\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}} = \text{ ?}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z= \{6, 34, 40, 55, 175\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {z}} = \text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{6, 34, 40, 55, 175\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = \text{ ?}$
 
 <div>
 
@@ -348,7 +351,7 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 
 <span style="display:block; height:40px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{range}(x)= 30-5=25$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{range}= 30-5=25$
 
 <!-- INTERVALLO di VARIAZIONE. Il range pero' si basa solo sui due valori estremi, senza indicare come si distribuiscono i dati entro l’intervallo 
 
@@ -364,13 +367,15 @@ piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tien
 
 <span style="display:block; height:1px;"></span>
 
-:dart: &nbsp;&nbsp;&nbsp; ${\text{IQR}}= \text{Q3}-\text{Q1}$
+:dart: &nbsp;&nbsp;&nbsp; ${\text{IQR}}= \text{Q1}-\text{Q3}$
 
 <span style="display:block; height:20px;"></span>
 
 <center>
 <img src="./img/descriptive/iqr.png" img height="230px" border="0px"/>
 </center>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{IQR}= 22 - 27$
 
 <!-- Robusto rispetto agli outliers -->
 
@@ -392,16 +397,20 @@ piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tien
 
 <div style="font-size: 95%">
 
-:dart: &nbsp;&nbsp;&nbsp; $s^2 = \frac{1}{n-1}\sum _{i=1}^{n}(x_{i}-\bar {x} )^{2}$
+:dart: &nbsp;&nbsp;&nbsp; $s^2 = \frac{1}{n-1}\sum _{i=1}^{n}(x_{i}-\bar {x} )^{2}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dove &nbsp;&nbsp;&nbsp; ${\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)$ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dove &nbsp;&nbsp;&nbsp; ${\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)$ 
+<span style="display:block; height:30px;"></span>
+
+<center>
+<img src="./img/descriptive/range.png" img height="65px" border="0px"/>
+</center>
 
 <span style="display:block; height:1px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp;  $x= \{1, 2, 3\}$ &nbsp;&nbsp;&nbsp; $\bar{x}=\frac{1+2+3}{3}=2$
+${\bar {x}}= 23.9$
+$s^2= \frac{(5-23.9)^2+(18-23.9)^2+(20-23.9)^2+ \text{ } \dots \text{ } +(28-23.9)^2+(29-23.9)^2+(30-23.9)^2}{(15-1)}=37.6$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s = \frac{1}{3-1}\times [(1-2)^2+ (2-2)^2+(3-2)^2] =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \frac{1}{2}\times [1^2+ 0^2+1^2 ]=  \frac{1}{2}\times 2 = 1$
+</div>
 
 </div>
 
@@ -415,16 +424,20 @@ piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tien
 
 <div style="font-size: 95%">
 
-:dart: &nbsp;&nbsp;&nbsp; $s = \sqrt{s^2} = \sqrt {{\frac {1}{n-1}}\sum _{i=1}^{n}(x_{i}-\bar {x} )^{2}}$
+:dart: &nbsp;&nbsp;&nbsp; $s = \sqrt{s^2} = \sqrt {{\frac {1}{n-1}}\sum _{i=1}^{n}(x_{i}-\bar {x} )^{2}}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dove &nbsp;&nbsp;&nbsp; ${\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)$ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dove &nbsp;&nbsp;&nbsp; ${\bar {x}}= {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right)$ 
+<span style="display:block; height:30px;"></span>
+
+<center>
+<img src="./img/descriptive/range.png" img height="65px" border="0px"/>
+</center>
 
 <span style="display:block; height:1px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp;  $x= \{1, 2, 3\}$ &nbsp;&nbsp;&nbsp; $\bar{x}=\frac{1+2+3}{3}=2$
+${\bar {x}}= 23.9$
+$s= \sqrt{\frac{(5-23.9)^2+(18-23.9)^2+ \text{ } \dots \text{ } +(29-23.9)^2+(30-23.9)^2}{(15-1)}} = \sqrt{37.6}=6.1$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s = \sqrt {\frac{1}{3-1}\times [(1-2)^2+ (2-2)^2+(3-2)^2] }=$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= \sqrt {\frac{1}{2}\times [1^2+ 0^2+1^2 }]= \sqrt {\frac{1}{2}\times 2}= \sqrt {1} = 1$
+</div>
 
 </div>
 
@@ -1005,7 +1018,7 @@ Non facile da capire cosa succede, una tabella con molte righe e colonne
  -->
 
 ---
-## Visualizziamo di dati
+## Visualizziamo i dati
 
 <span style="display:block; height:1px;"></span>
 
@@ -1032,7 +1045,7 @@ Da questo plot, sembrerebbe che Bristol non sia il posto piu' problematico
 -->
 
 ---
-## Visualizziamo di dati
+## Visualizziamo i dati
 
 <span style="display:block; height:1px;"></span>
 
@@ -1072,10 +1085,7 @@ Ma c'e' una visualizzazione (e una statistica) migliore che mi per riassumere qu
 <div class="columns">
 <div>
 
-Pearson's correlation coefficient
 
-* $\rho = 0.82$
-* $\rho_\text{no Bristol} = 0.93$
 
 </div>
 <div>
@@ -1086,6 +1096,45 @@ Pearson's correlation coefficient
 
 </div>
 </div>
+
+---
+### La relazione tra due variabili numeriche
+
+<span style="display:block; height:1px;"></span>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 90%">
+
+Indice di correlazione$^1$
+
+- $r = 0.82$
+* $r_\text{no Bristol} = 0.93$
+
+
+</div>
+
+<span style="display:block; height:170px;"></span>
+
+<div style="font-size: 60%">
+
+$^1$ In questo caso di Peason. Un altro indice di 
+&nbsp;&nbsp; correlazione &egrave;  quello di Spearman
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/descriptive/Children_death_vs_surgery.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+
 
 <!-- 
 A scatterplot displays the relationship between 2 numeric variables. For each data point, the value of its first variable is represented on the X axis, the second on the Y axis
@@ -1106,6 +1155,92 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 -->
 
 ---
+### Indici di correlazione
+
+<div style="font-size: 85%">
+
+- Non indicano causalit&agrave;
+- Hanno un valore compreso tra -1 e 1
+- Il segno indica la direzione della relazione lineare
+- Il valore assoluto indica la percentuale di variabilit&agrave; di una variabile che &egrave; predetta dalla variabilit&agrave; dell'altra variabile
+$r =$ 0.82  &nbsp; $\rightarrow$  &nbsp; 82% della variabilit&agrave;
+
+
+</div>
+
+<div style="font-size: 55%" align="right">
+
+| $\|r\|$ | Interpretazione |
+| ----:    | :---- |
+0-0.25 | nessuna o poca correlazione
+0.25-0.50 | discreta correlazione
+0.50-0.75 | buona correlazione
+0.75-0.99 | eccellente correlazione
+1| perfetta correlazione 
+
+
+
+</div>
+
+---
+### Esercizio #13
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Una correlazione $r=-0.7$ indica che al crescere del valore  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di una variabile, il valore dell'altra variabile...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) cresce
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) descresce
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) rimane costante
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalle variabili
+
+</div>
+
+<span style="display:block; height:70px;"></span>
+
+---
+### Esercizio #14
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Quale dei seguenti valori di $r$ indica la correlazione pi&ugrave; forte?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $- \text{ } 0.2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $+ \text{ } 0.4$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $- \text{ } 0.7$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $+ \text{ } 1.1$
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+---
+### Esercizio #15
+
+<div style="font-size: 80%">
+
+:question: &nbsp;&nbsp;&nbsp; Posso calcolare la correlazione tra... 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) L'indice di irritabilit&agrave; e le ore dormite
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) L'indice di irritabilit&agrave; del primo e del secondo figlio
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) L'indice di irritabilit&agrave; prima e dopo un'attivit&agrave;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'indice di irritabilit&agrave; in uomini e donne
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
+
+</div>
+
+---
 ## Correlazione & valori estremi
 
 <span style="display:block; height:1px;"></span>
@@ -1114,9 +1249,48 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 <div class="columns">
 <div>
 
-Pearson's correlation coefficient
+<div style="font-size: 98%">
 
-- $\rho = 0.72$
+Altezza (cm) e numero di canestri
+
+</div>
+
+- $r = 0.72$
+
+
+<center>
+<!-- <img src="./img/descriptive/basketball.jpg" img height="250px" border="4px"/> -->
+</center>
+
+</div>
+<div>
+
+<center>
+<!-- <img src="./img/descriptive/Basketball.png" img height="500px" border="4px"/> -->
+</center>
+
+</div>
+</div>
+
+<!-- Lillard 1.88
+Adetokumbo 2.11 -->
+
+---
+## Correlazione & valori estremi
+
+<span style="display:block; height:1px;"></span>
+
+
+<div class="columns">
+<div>
+
+<div style="font-size: 98%">
+
+Altezza (cm) e numero di canestri
+
+</div>
+
+- $r = 0.72$
 
 
 <center>
@@ -1144,10 +1318,15 @@ Adetokumbo 2.11 -->
 
 <div class="columns">
 <div>
-Pearson's correlation coefficient
 
-- $\rho = 0.72$
-- $\rho_\text{no outliers} = 0.07$
+<div style="font-size: 98%">
+
+Altezza (cm) e numero di canestri
+
+</div>
+
+- $r = 0.72$
+- $r_\text{no outliers} = 0.07$
 
 </div>
 <div>
@@ -1178,7 +1357,7 @@ Pearson's correlation coefficient
 ---
 ## Parametri *vs*&nbsp; statistiche
 
-<span style="display:block; height:20px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <center>
 
@@ -1188,6 +1367,7 @@ Pearson's correlation coefficient
 | Media | $\mu$ | $\bar{x}$ |
 | Deviazione Standard | $\sigma$ | $s$ |
 | Proporzione | $\pi$ | $p$ |
+| Correlazione | $\rho$ | $r$ |
 
 </center>
 
