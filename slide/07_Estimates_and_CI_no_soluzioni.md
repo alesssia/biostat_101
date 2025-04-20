@@ -65,7 +65,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e ci siamo passati tutti!
 
 ---
-## Dalla campione alla popolazione
+## Dal campione alla popolazione
 
 <span style="display:block; height:1px;"></span>
 
@@ -76,7 +76,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 <!-- Ricapitoliamo: quando non possiamo studiare una popolazione ne usiamo un campione rappresentativo -->
 
 ---
-## Dalla campione alla popolazione
+## Dal campione alla popolazione
 
 <span style="display:block; height:1px;"></span>
 
@@ -90,7 +90,6 @@ Questo processo si chiama statistica inferenziale,
 Procedimento induttivo che ha lo scopo di stimare i parametri (caratteristiche) sconosciuti della popolazione a partire dalle statistiche (stime conosciute) del campione 
 
 Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere detto circa la popolazione da cui il campione è stato estratto? -->
-
 
 ---
 ### Esercizio #1
@@ -108,6 +107,8 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 
 </div>
 
+<span style="display:block; height:100px;"></span>
+
 ---
 ### Esercizio #2
 
@@ -124,6 +125,8 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 
 </div>
 
+<span style="display:block; height:100px;"></span>
+
 ---
 ### Esercizio #3
 
@@ -138,6 +141,8 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ha nessuna relazione con la statistica
 
 </div>
+
+<span style="display:block; height:120px;"></span>
 
 ---
 ## Quanto siamo precisi?
@@ -573,7 +578,7 @@ Rather remarkably, this has all been accomplished without any mathematics except
 <span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/sampling_distro.png" img height="350px" border="0px"/>
+<img src="./img/confidence_intervals/sampling_distro.png" img height="450px" border="0px"/>
 </center>
 
 </div>
@@ -581,9 +586,11 @@ Rather remarkably, this has all been accomplished without any mathematics except
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ &nbsp; standard error (SE)
+<span style="display:block; height:1px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per le medie:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\frac{\sigma}{\sqrt{n}}$ &nbsp; $\rightarrow$ &nbsp; standard error (SE)
 
 </div>
 
@@ -674,10 +681,10 @@ Tutti concetti che ci torneranno utili tra poco
 </div>
 <div>
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/ME_and_CI.png" img height="400px" border="4px"/>
+<img src="./img/confidence_intervals/ME_and_CI.png" img height="450px" border="0px"/>
 </center>
 
 </div>
@@ -689,20 +696,17 @@ Tutti concetti che ci torneranno utili tra poco
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; In media, Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
+:question: &nbsp;&nbsp;&nbsp; Il numero medio di partner eterosessual in campione di 760 uomini 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inglesi tra i 35 e i  44 anni di et&agrave; &egrave; 11.4 $\pm$ 11.2 partner.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il 95% CI?  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; la media della popolazione e il suo 95% CI?  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}=11.4$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s=11.2$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu=\text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?} \rightarrow$ &nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \text{ ?}$
 
 </div>
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:100px;"></span>
 
 ---
 ## Ma come si interpreta?
@@ -769,11 +773,16 @@ a confidence interval is the range of population parameters for which our observ
 ---
 ## Il coefficiente di attendibilit&agrave; $\alpha$ 
 
-:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; ?
-
 <div class="columns">
 <div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%" >
+
+:dart: &nbsp;&nbsp;&nbsp; $\text{95\% ME} \approx 2 \times \hat{SE}$ &nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; ?
+
+</div>
 
 <span style="display:block; height:10px;"></span>
 
@@ -788,8 +797,10 @@ a confidence interval is the range of population parameters for which our observ
 </div>
 <div>
 
+<span style="display:block; height:10px;"></span>
+
 <center>
-<img src="./img/confidence_intervals/alpha_level.png" img height="400px" border="4px"/>
+<img src="./img/confidence_intervals/alpha_level.png" img height="500px" border="0px"/>
 </center>
 
 </div>
@@ -802,11 +813,16 @@ Quando accettiamo un livello di confidenza del 95% accettiamo implicitamente un 
 ---
 ## Il coefficiente di attendibilit&agrave; $\alpha$ 
 
-:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; ?
-
 <div class="columns">
 <div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%" >
+
+:dart: &nbsp;&nbsp;&nbsp; $\text{95\% ME} \approx 2 \times \hat{SE}$ &nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; ?
+
+</div>
 
 <span style="display:block; height:10px;"></span>
 
@@ -829,9 +845,12 @@ $100\% - 2.5\% = 97.5\%$
 </div>
 <div>
 
+<span style="display:block; height:10px;"></span>
+
 <center>
-<img src="./img/confidence_intervals/alpha_level.png" img height="400px" border="4px"/>
+<img src="./img/confidence_intervals/alpha_level.png" img height="500px" border="0px"/>
 </center>
+
 
 </div>
 </div>
@@ -841,11 +860,17 @@ $100\% - 2.5\% = 97.5\%$
 ---
 ## Il coefficiente di attendibilit&agrave; $\alpha$ 
 
-:dart: &nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \approx 2 \times \hat{SE} \text{ ; }  \bar{x} + \approx 2 \times \hat{SE})$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; $\rightarrow 1.96$
 
 <div class="columns">
 <div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 90%" >
+
+:dart: &nbsp;&nbsp;&nbsp; $\text{95\% ME} \approx 2 \times \hat{SE}$ &nbsp;&nbsp;&nbsp;  &nbsp; $\approx 2$ &nbsp; ?
+
+</div>
 
 <span style="display:block; height:10px;"></span>
 
@@ -867,6 +892,8 @@ $100\% - 2.5\% = 97.5\% \rightarrow \mathcal{z} = 1.96$
 
 </div>
 <div>
+
+<span style="display:block; height:30px;"></span>
 
 <center>
 <img src="./img/confidence_intervals/normal_table_zoom2.png" img height="400px" border="4px"/>
@@ -909,10 +936,10 @@ $100\% - 0.5\% = 99.5\% \rightarrow \mathcal{z} = 2.58$
 </div>
 <div>
 
-<span style="display:block; height:40px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/alpha_level.png" img height="400px" border="4px"/>
+<img src="./img/confidence_intervals/alpha_level.png" img height="500px" border="0px"/>
 </center>
 
 </div>
@@ -943,17 +970,18 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 
 </div>
 
+<span style="display:block; height:60px;"></span>
+
+
 </div>
 <div>
 
 <center>
-<img src="./img/confidence_intervals/unannotated_CI.png" img height="400px" border="4px"/>
+<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
 </center>
 
 </div>
 </div>
-
-<span style="display:block; height:20px;"></span>
 
 ---
 ### Esercizio #9
@@ -974,17 +1002,18 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
 
 </div>
+
+<span style="display:block; height:60px;"></span>
+
 </div>
 <div>
 
 <center>
-<img src="./img/confidence_intervals/unannotated_CI.png" img height="400px" border="4px"/>
+<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
 </center>
 
 </div>
 </div>
-
-<span style="display:block; height:20px;"></span>
 
 ---
 ### Esercizio #10
@@ -1035,8 +1064,6 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 <span style="display:block; height:150px;"></span>
 
 
-
-
 </div>
 <div>
 
@@ -1047,6 +1074,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 </center>
 
 </div>
+
 
 ---
 ## E se il campione &egrave; piccolo?
@@ -1096,7 +1124,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 <span style="display:block; height:5px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/tdist_df1.png" img height="450px" border="4px"/>
+<img src="./img/confidence_intervals/tdist_df1.png" img height="500px" border="0px"/>
 </center>
 
 </div>
@@ -1136,7 +1164,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 <span style="display:block; height:5px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/tdist_df5.png" img height="450px" border="4px"/>
+<img src="./img/confidence_intervals/tdist_df5.png" img height="500px" border="0px"/>
 </center>
 
 </div>
@@ -1175,7 +1203,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 <span style="display:block; height:5px;"></span>
 
 <center>
-<img src="./img/confidence_intervals/tdist_df30.png" img height="450px" border="4px"/>
+<img src="./img/confidence_intervals/tdist_df30.png" img height="500px" border="0px"/>
 </center>
 
 </div>
@@ -1203,16 +1231,17 @@ Meno appuntita al centro e code pi&ugrave; alte
 
 <div style="font-size: 85%" >
 
-- Non posso approssimare a una normale
+- Non posso approssimare a una Normale
 - Uso la $\mathcal{t}$ di Student
-  - considera i gradi di libert&agrave; $(\mathcal{df})$
-  - per un campione di dimensione $n \rightarrow \mathcal{df} = n -1$
+  - considera i gradi di libert&agrave; (df)
+  - in un campione di dimensione $n$ $\rightarrow \text{df} = n -1$
   <!-- - per due campioni di dimensione $n_1 \land n_2 \rightarrow \mathcal{df} = n_1 -1 + n_2 - 1 =$
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= n_1 + n_2 -2$ -->
 
-  <br/>
+<span style="display:block; height:80px;"></span>
 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x} - \mathcal{t} \times \hat{SE}; \text{ } \bar{x} + \mathcal{t} \times \hat{SE})$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% ME} = \mathcal{t} \times \hat{SE}$ 
+
 </div>
 
 </div>
@@ -1243,6 +1272,8 @@ Meno appuntita al centro e code pi&ugrave; alte
 
 </div>
 
+<span style="display:block; height:100px;"></span>
+
 ---
 ### Esercizio #13
 
@@ -1259,6 +1290,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 
 </div>
 
+<span style="display:block; height:100px;"></span>
 
 ---
 ## Cosa abbiamo imparato in questa lezione?
@@ -1267,7 +1299,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 
 <div style="font-size: 85%">
 
-- Gli intervalli di confidenza (CI)/margini di errore sono un aspetto importante di come vengono comunicate le statistiche
+- Gli intervalli di confidenza (CI)/margini di errore (ME) sono un aspetto importante di come vengono comunicate le statistiche
 - La dimensione del campione influenza la larghezza dei CI
 - Attraverso il bootstrapping si ricampiona il dataset originale con rimpiazzo, ottenendo distribuzioni che tendono alla normale
 - Il teorema del limite centrale ci dice che le distribuzioni campionarie tendono alla normale per campioni grandi, con formule per calcolare i CI
