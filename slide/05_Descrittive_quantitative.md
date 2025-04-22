@@ -2690,7 +2690,8 @@ updateButton_exercise_12();
 </div>
 
 ---
-### La relazione tra due variabili numeriche
+### La relazione (lineare) tra due variabili numeriche
+
 
 <div style="font-size: 78%">
 
@@ -2797,7 +2798,7 @@ Ma c'e' una visualizzazione (e una statistica) migliore che mi per riassumere qu
  -->
 
 ---
-### La relazione tra due variabili numeriche
+### La relazione (lineare) tra due variabili numeriche
 
 <span style="display:block; height:1px;"></span>
 
@@ -2817,7 +2818,8 @@ Ma c'e' una visualizzazione (e una statistica) migliore che mi per riassumere qu
 </div>
 
 ---
-### La relazione tra due variabili numeriche
+### La relazione (lineare) tra due variabili numeriche
+
 
 <span style="display:block; height:1px;"></span>
 
@@ -2879,10 +2881,10 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 <div style="font-size: 85%">
 
 - Non indicano causalit&agrave;
-- Hanno un valore compreso tra -1 e 1
-- Il segno indica la direzione della relazione lineare
-- Il valore assoluto indica la percentuale di variabilit&agrave; di una variabile che &egrave; predetta dalla variabilit&agrave; dell'altra variabile
-$r =$ 0.82  &nbsp; $\rightarrow$  &nbsp; 82% della variabilit&agrave;
+- Hanno un valore compreso tra $-1$ e $1$
+- Il segno indica la direzione della relazione **lineare**
+- $r^2 \times 100 = R^2$ (o coefficiente di determinazione) indica la percentuale di variabilit&agrave; di una variabile che &egrave; predetta dalla variabilit&agrave; dell'altra variabile
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $R^2 = r^2 \times 100 = 0.82^2 \times 100 = 0.67 \times100$  &nbsp; $\rightarrow$  &nbsp; $67\%$ della variabilit&agrave;
 
 
 </div>
