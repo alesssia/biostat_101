@@ -34,7 +34,8 @@ section {
 <div style="font-size: 90%">
 
 - Formulare e verificare ipotesi
-- Interpretare P-value (e la loro relazione con i CI)
+- Interpretare i  P-value (e la loro relazione con i CI)
+- Conoscere la differenza tra significativit&agrave; statistica e clinica
 - Saper distinguere tra errori del primo e del secondo tipo 
 - Interpretare la potenza di uno studio
 
@@ -97,8 +98,8 @@ Finally, the key to good statistical science is drawing appropriate Conclusions 
 
 <span style="display:block; height:30px;"></span>
 
-:dart: &nbsp;&nbsp;&nbsp; Una possibile spiegazione per un fenomeno, che 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; non rappresenta la verit&agrave; assoluta, ma una congettura 
+:dart: &nbsp;&nbsp;&nbsp; Una possibile spiegazione per un fenomeno, che non
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rappresenta la verit&agrave; assoluta, ma una congettura 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; provvisoria
 
 <!-- 
@@ -135,6 +136,130 @@ Questo e' cosa ci aspettiamo di poter concludere come risultato del nostro test 
 Un'ipotesi puo' essere definita come una congettura su una o piu' popplaioni 
 -->
 
+--- 
+### Esercizio #1
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Supponiamo che la nostra ipotesi sia che tutti coloro che vivono pi&ugrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 90 anni siano non fumatori
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per indagare questa ipotesi &egrave; pi&ugrave; facile...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) <u>Dimostrare l'ipotesi</u> trovando ogni singola persona di 90 anni  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o pi&ugrave; e verificare che siano tutti non fumatori
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) <u>Confutare l'ipotesi</u> trovando una sola persona di 90 anni o pi&ugrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che sia un fumatore
+
+</div>
+
+<span style="display:block; height:20px;"></span>
+
+<style>
+  #countdown_exercise_1{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_1.running {
+    background-color: green;
+  }
+  #countdown_exercise_1.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_1"></button>
+
+<script>
+<!--
+const countdown_exercise_1= document.getElementById("countdown_exercise_1");
+const seconds_exercise_1= 60; // seconds_exercise_1
+let timeLeft_exercise_1= seconds_exercise_1;
+let timerInterval_exercise_1= null;
+
+function formatTime_exercise_1(seconds_exercise_1) {
+  const minutes = Math.floor(seconds_exercise_1/ 60);
+  const remainingseconds_exercise_1= seconds_exercise_1% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_1).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_1() {
+  countdown_exercise_1.textContent = formatTime_exercise_1(timeLeft_exercise_1);
+}
+
+function startTimer_exercise_1() {
+  if (timerInterval_exercise_1=== null) {
+    countdown_exercise_1.classList.add('running');
+    countdown_exercise_1.classList.remove('finished');
+    timerInterval_exercise_1= setInterval(() => {
+      if (timeLeft_exercise_1> 0) {
+        timeLeft_exercise_1--;
+        updateButton_exercise_1();
+      } else {
+        clearInterval(timerInterval_exercise_1);
+        timerInterval_exercise_1= null;
+        countdown_exercise_1.classList.remove('running');
+        countdown_exercise_1.classList.add('finished');
+        countdown_exercise_1.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_1();
+  }
+}
+
+function pauseTimer_exercise_1() {
+  clearInterval(timerInterval_exercise_1);
+  timerInterval_exercise_1= null;
+  countdown_exercise_1.classList.remove('running');
+}
+
+function resetTimer_exercise_1() {
+  timeLeft_exercise_1= seconds_exercise_1;
+  updateButton_exercise_1();
+  countdown_exercise_1.classList.remove('finished');
+  countdown_exercise_1.classList.remove('running');
+  timerInterval_exercise_1= null;
+}
+
+countdown_exercise_1.addEventListener("click", () => {
+  if (countdown_exercise_1.classList.contains('finished')) {
+    resetTimer_exercise_1();
+  } else {
+    startTimer_exercise_1();
+  }
+});
+
+updateButton_exercise_1();
+-->
+</script>
+
+
+--- 
+### Esercizio #1 -- Soluzione
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Supponiamo che la nostra ipotesi sia che tutti coloro che vivono pi&ugrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di 90 anni siano non fumatori
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per indagare questa ipotesi &egrave; pi&ugrave; facile...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) <u>Dimostrare l'ipotesi</u> trovando ogni singola persona di 90 anni  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o pi&ugrave; e verificare che siano tutti non fumatori
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) <u>Confutare l'ipotesi</u> trovando una sola persona di 90 anni o pi&ugrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che sia un fumatore &nbsp;&nbsp; :white_check_mark:
+
+</div>
+
+
+
 ---
 ### Il principio di falsificabilit&agrave; e l'ipotesi nulla
 
@@ -158,29 +283,7 @@ Il metodo scientifico si basa sulla falsificazione delle ipotesi (K. Popper), in
 -->
 
 ---
-## Il principio di falsificabilit&agrave;
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/dinosaurs.png" img height="500px" border="0px"/>
-</center>
-
-<!-- Per esempio non avendo mai trovato fossili che fossero compatibili con dinosauri con le piume, li abbiamo sempre immaginati come grossi lucertoloni coperti di squame -->
-
----
-## Il principio di falsificabilit&agrave;
-
-<span style="display:block; height:50px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/dino_with_feathers.png" img height="300px" border="4px"/>
-</center>
-
-<!-- Ma poi abbiamo trovato dell'evidenza del contrario, abbiamo falsificato la nostra ipotesi.  -->
-
----
-### Esercizio #1
+### Esercizio #2
 
 <!-- <span style="display:block; height:1px;"></span> -->
 
@@ -292,7 +395,7 @@ Tomazini, B.M., *et al.*, "Effect of dexamethasone on days alive and ventilator-
 </div>
 
 ---
-### Esercizio #1 -- Soluzione
+### Esercizio #2 -- Soluzione
 
 <!-- <span style="display:block; height:1px;"></span> -->
 
@@ -313,7 +416,7 @@ Tomazini, B.M., *et al.*, "Effect of dexamethasone on days alive and ventilator-
 
 
 ---
-### Esercizio #2
+### Esercizio #3
 
 <!-- <span style="display:block; height:1px;"></span> -->
 
@@ -423,7 +526,7 @@ updateButton_exercise_2();
 </div>
 
 ---
-### Esercizio #2 -- Soluzione
+### Esercizio #3 -- Soluzione
 
 <!-- <span style="display:block; height:1px;"></span> -->
 
@@ -540,10 +643,8 @@ ATTENZIONE ad un ultimo punto: i dati su cui andiamo a testare la nostra ipotesi
 </div>
 <div>
 
-<span style="display:block; height:10px;"></span>
-
 <center>
-<img src="./img/hypothesis_testing/Day_ventilation_free_distribution_by_treatment.png" img height="350px" border="4px"/>
+<img src="./img/hypothesis_testing/Day_ventilation_free_distribution_by_treatment.png" img height="380px" border="0px"/>
 </center>
 
 </div>
@@ -575,7 +676,7 @@ ATTENZIONE ad un ultimo punto: i dati su cui andiamo a testare la nostra ipotesi
 <span style="display:block; height:50px;"></span>
 
 <center>
-<img src="./img/hypothesis_testing/Delta_day_ventilation_free.png" img height="100px" border="4px"/>
+<img src="./img/hypothesis_testing/Delta_day_ventilation_free.png" img height="130px" border="0px"/>
 </center>
 
 </div>
@@ -659,7 +760,15 @@ Per la differenza tra due medie
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (\mu_{\text{c}} - \mu_{\text{i}}, \frac{\sigma_c^2}{n_c} + \frac{\sigma_i^2}{n_i}) \text{  } \rightarrow  \text{  } \mu_{\text{c}} - \mu_{\text{i}} = 0$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\hat{\text{SE}}= \sqrt{\frac{s_\text{c}^2}{n_\text{c}} + \frac{s_\text{i}^2}{n_\text{i}}} = 1.08$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\hat{\text{SE}}^{(*)}= \sqrt{\frac{s_\text{c}^2}{n_\text{c}} + \frac{s_\text{i}^2}{n_\text{i}}} = 1.08$ 
+
+</div>
+
+<div style="font-size: 50%" >
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $^{(*)}$ In realt&agrave; non conosciamo $\sigma$ ma solo $s$, quindi quello che usiamo &egrave; una $t$ di Student con $(n_\text{c} + n_\text{i} - 2)$ gradi di libert&agrave;
 
 </div>
 
@@ -687,26 +796,20 @@ Per la differenza tra due medie
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  una differenza di 2.6 giorni se 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} = 0$?
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $t = \frac{(\bar{x}_{\text{c}} - \bar{x}_{\text{i}}) - (\mu_{\text{c}} - \mu_{\text{i}})}{\hat{SE}} = \frac{2.6-0}{1.08} = 2.4$
+
 </div>
 
 </div>
 <div>
 
-<span style="display:block; height:1px;"></span>
-
 <center>
-<img src="./img/hypothesis_testing/Delta_day_ventilation_free_normale_standard.png" img height="300px" border="4px"/>
+<img src="./img/hypothesis_testing/Delta_day_ventilation_free_normale_standard.png" img height="450px" border="0px"/>
 </center>
 
 </div>
 </div>
 
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{(\bar{x}_{\text{c}} - \bar{x}_{\text{i}}) - (\mu_{\text{c}} - \mu_{\text{i}})}{\hat{SE}} = \frac{2.6-0}{1.08} = 2.4$
-
-
-</div>
 
 ---
 ## Verificare ipotesi
@@ -732,28 +835,18 @@ Per la differenza tra due medie
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  una differenza di 2.6 giorni se 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} = 0$?
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $t = 2.4 \rightarrow \mathcal{P} = 2 \times 0.008 = 0.016$
+
 </div>
 
 </div>
 <div>
 
-<span style="display:block; height:1px;"></span>
-
 <center>
-<img src="./img/hypothesis_testing/Delta_day_ventilation_free_normale_standard.png" img height="300px" border="4px"/>
+<img src="./img/hypothesis_testing/Delta_day_ventilation_free_normale_standard.png" img height="450px" border="0px"/>
 </center>
 
 </div>
-</div>
-
-<div style="font-size: 80%" >
-
-
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{(\bar{x}_{\text{c}} - \bar{x}_{\text{i}}) - (\mu_{\text{c}} - \mu_{\text{i}})}{\hat{SE}} = \frac{2.6-0}{1.08} = 2.4$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $\mathcal{P} = 2 \times 0.0082 = 0.0164$
-
-
 </div>
 
 
@@ -854,13 +947,168 @@ And it is important to emphasize that the exact P-value is conditional not only 
 --->
 
 ---
-### Esercizio #3
+## Perch&eacute; $\mathbf{\alpha}$ < 0.05?
+
+
+<div class="columns">
+<div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 78%" >
+
+- &Egrave; conveniente decidere quando uno pu&ograve; dire "o c'&egrave; qualcosa nel trattamento o c'&egrave; una coincidenza che avviene pi&ugrave; di 1 volta su 20" <!-- (1926) -->
+- Il valore per cui $\alpha$ = 0.05, o 1 in 20, &egrave; 1.96 o circa 2 [...] Deviazioni oltre due volte la deviazione standard sono considerate formalmente come significative <!-- (1956) -->
+- Se 1/20 non &egrave; abbastranza, e se lo preferiamo, possiamo usare 1/50 (2%) o 1/100 (1%) <!-- (1926) -->
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Youngronaldfisher2.jpg" img height="400px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+<!-- 1914, Karl Pearson published his Tables for Statisticians & Biometricians 
+
+Fisher published Statistical
+Methods for Research Workers (SMRW) in 1925, he included tables that gave the value of the
+random variable for specially selected values ofP
+
+Kendall mentioned that Fisher produced the tables of significance levels to save space and to avoid copyright problems with Karl Pearson, whom he disliked in Foundations of Statistical Inference, 1971
+
+-->
+
+---
+## Test di ipotesi, un passo alla volta
+
+<!-- This whole process has become known as Null Hypothesis Significance Testing (NHST) and, as we shall see below, it has become a source of major controversy. But first we should examine how Fisher’s ideas are used in practice.
+
+Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary because he is regarded as a pioneering figure in two distinct fields – genetics and statistics. Yet he had a notorious temper and could be extremely critical of anyone who he felt questioned his ideas, while his support for eugenics and his public criticism of the evidence for the link between smoking and lung cancer damaged his standing. His personal reputation has suffered as his financial connections with the tobacco industry have been revealed, but his scientific reputation is undiminished, as his ideas find repeated new applications in the analysis of large data sets. --> -->
+
+---
+## Test di ipotesi, un passo alla volta
+
+<div style="font-size: 90%" >
+
+1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
+
+</div>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dexamethasone e standard care  sono **tanto efficaci quanto** lo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard care da solo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H_0} : \mu_{\text{c}} - \mu_{\text{i}} = 0$
+
+</div>
+
+---
+## Test di ipotesi, un passo alla volta
+
+<div style="font-size: 90%" >
+
+1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
+2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
+
+</div>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $t$-test$^{(*)}$ della differenza di due medie campionarie
+
+</div>
+
+
+<span style="display:block; height:180px;"></span>
+
+<div style="font-size: 50%" >
+
+$^{(*)}$ Stiamo usando il $t$-test della differenza di due medie campionarie e non lo $z$-test perch&eacute; non conosciamo la deviazione standard $\sigma$ delle popolazioni (e stiamo usando $s$, quelle dei campioni).
+</div>
+
+---
+## Test di ipotesi, un passo alla volta
+
+<div style="font-size: 90%" >
+
+1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
+2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
+3. Genero la distribuzione campionaria del test scelto, assumendo $\mathcal{H_0}$ vera
+
+</div>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (\mu_\text{c} - \mu_\text{i}, \text{SE})$, con $\mu_{\text{c}} - \mu_{\text{i}} = 0 \text{ e } \hat{\text{SE}}= \sqrt{\frac{s_\text{c}^2}{n_\text{c}} + \frac{s_\text{i}^2}{n_\text{i}}}$
+</div>
+
+---
+## Test di ipotesi, un passo alla volta
+
+<div style="font-size: 90%" >
+
+1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
+2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
+3. Genero la distribuzione campionaria del test scelto, assumendo $\mathcal{H_0}$ vera
+4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilit&agrave; (P-value) a questo evento
+
+</div>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\mathcal{P} = 2 \times 0.0082 =  0.0164$
+
+</div>
+
+</div>
+<div>
+
+<img src="./img/hypothesis_testing/Delta_day_ventilation_free_normale_standard.png" img height="200px" border="0px" align="left"/>
+
+</div>
+</div>
+
+
+<!-- P-value: the probability, were the null hypothesis true, of observing such an extreme statistic. The P-value is therefore a particular tail-area. -->
+
+---
+## Test di ipotesi, un passo alla volta
+
+<div style="font-size: 90%" >
+
+1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
+2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
+3. Genero la distribuzione campionaria del test scelto, assumendo $\mathcal{H_0}$ vera
+4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilit&agrave; (P-value) a questo evento
+5. Dichiaro il risultato come statisticamente significativo se il P-value &egrave; inferiore a una soglia critica $\alpha$
+
+</div>
+
+<div style="font-size: 80%" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 2 \times 0.0082 =  0.0164 < \alpha = 0.05$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; rifiuto $\mathcal{H_0}$
+
+</div>
+<!-- P-value measures how likely it is that we would have observed such an extreme value were the null hypothesis really true. -->
+
+---
+### Esercizio #4
 
 <span style="display:block; height:5px;"></span>
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; Se non rifiuto l'ipotesi nulla significa che
+:question: &nbsp;&nbsp;&nbsp; Se **non** rifiuto l'ipotesi nulla significa che
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) ho provato che l'ipotesi nulla sia vera
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ho provato che l'ipotesi nulla sia falsa
@@ -960,13 +1208,13 @@ updateButton_exercise_3();
 
 
 ---
-### Esercizio #3 -- Soluzione
+### Esercizio #4 -- Soluzione
 
 <span style="display:block; height:5px;"></span>
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; Se non rifiuto l'ipotesi nulla significa che
+:question: &nbsp;&nbsp;&nbsp; Se **non** rifiuto l'ipotesi nulla significa che
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) ho provato che l'ipotesi nulla sia vera
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ho provato che l'ipotesi nulla sia falsa
@@ -985,160 +1233,24 @@ L’ipotesi nulla (𝐻_0 )  è l’ipotesi considerata vera finché non vengono
 
 Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
 
----
-### Significativit&agrave; statistica e significativit&agrave; clinica
- 
-<span style="display:block; height:10px;"></span>
 
-<center>
-<img src="./img/hypothesis_testing/parachute.png" img height="490px" border="4px"/>
-</center>
 
 ---
-### Significativit&agrave; statistica e significativit&agrave; clinica
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/parachute_RWY.jpg" img height="450px" border="4px"/>
-<img src="./img/hypothesis_testing/parachute_LRV.jpg" img height="450px" border="4px"/>
-<img src="./img/hypothesis_testing/parachute_BKN.jpg" img height="450px" border="4px"/>
-</center>
-
-<!-- Significativita' clinica \neq significativita' statistica -->
-
----
-## Test di ipotesi, un passo alla volta
-
-<!-- This whole process has become known as Null Hypothesis Significance Testing (NHST) and, as we shall see below, it has become a source of major controversy. But first we should examine how Fisher’s ideas are used in practice.
-
-Ronald Fisher was an extraordinary, but difficult, man. He was extraordinary because he is regarded as a pioneering figure in two distinct fields – genetics and statistics. Yet he had a notorious temper and could be extremely critical of anyone who he felt questioned his ideas, while his support for eugenics and his public criticism of the evidence for the link between smoking and lung cancer damaged his standing. His personal reputation has suffered as his financial connections with the tobacco industry have been revealed, but his scientific reputation is undiminished, as his ideas find repeated new applications in the analysis of large data sets. --> -->
-
----
-## Test di ipotesi, un passo alla volta
-
-<div style="font-size: 90%" >
-
-1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
-
-</div>
-
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dexamethasone e standard care  sono **tanto efficaci quanto** lo 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard care da solo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H_0} : \mu_{\text{c}} - \mu_{\text{i}} = 0$
-
-</div>
-
----
-## Test di ipotesi, un passo alla volta
-
-<div style="font-size: 90%" >
-
-1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
-2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
-
-</div>
-
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $t$-test$^{(*)}$ della differenza di due medie campionarie
-
-</div>
-
-
-<span style="display:block; height:180px;"></span>
-
-<div style="font-size: 50%" >
-
-Stiamo usando il $t$-test$^{(*)}$ della differenza di due medie campionarie e non lo $z$-test perch&eacute; non conosciamo la deviazione standard della popolazione (e stiamo usando quella del campione).
-</div>
-
----
-## Test di ipotesi, un passo alla volta
-
-<div style="font-size: 90%" >
-
-1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
-2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
-3. Genero la distribuzione campionaria del test scelto, assumendo $\mathcal{H_0}$ vera
-
-</div>
-
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (\mu_\text{c} - \mu_\text{i}, \text{SE})$, con $\mu_{\text{c}} - \mu_{\text{i}} = 0 \text{ e } \hat{\text{SE}}= \sqrt{\frac{s_\text{c}^2}{n_\text{c}} + \frac{s_\text{i}^2}{n_\text{i}}}$
-</div>
-
----
-## Test di ipotesi, un passo alla volta
-
-<div style="font-size: 90%" >
-
-1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
-2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
-3. Genero la distribuzione campionaria del test scelto, assumendo $\mathcal{H_0}$ vera
-4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilit&agrave; (P-value) a questo evento
-
-</div>
-
-<div class="columns">
-<div>
-
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\mathcal{P} = 2 \times 0.0082 =  0.0164$
-
-</div>
-
-</div>
-<div>
-
-<img src="./img/hypothesis_testing/Delta_day_ventilation_free_normale_standard.png" img height="200px" border="4px" align="left"/>
-
-</div>
-</div>
-
-
-<!-- P-value: the probability, were the null hypothesis true, of observing such an extreme statistic. The P-value is therefore a particular tail-area. -->
-
----
-## Test di ipotesi, un passo alla volta
-
-<div style="font-size: 90%" >
-
-1. Definisco la mia ipotesi nulla $(\mathcal{H_0})$
-2. Scelgo un test statistico che stimi qualcosa che, se abbastanza estremo, mi faccia dubitare di $\mathcal{H_0}$
-3. Genero la distribuzione campionaria del test scelto, assumendo $\mathcal{H_0}$ vera
-4. Verifico se la statistica osservata si trovi sulla coda di questa distribuzione e assegno una probabilit&agrave; (P-value) a questo evento
-5. Dichiaro il risultato come statisticamente significativo se il P-value &egrave; inferiore a una soglia critica $\alpha$
-
-</div>
-
-<div style="font-size: 80%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 2 \times 0.0082 =  0.0164 < \alpha = 0.05$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; rifiuto $\mathcal{H_0}$
-
-</div>
-<!-- P-value measures how likely it is that we would have observed such an extreme value were the null hypothesis really true. -->
-
----
-### Esercizio #4
+### Esercizio #5
 
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; In uno studio clinico randomizzato (RCT), il P-value associato alla variabile  
+:question: &nbsp;&nbsp;&nbsp; In uno studio clinico randomizzato, il P-value associato alla variabile  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “Sex” è pari a 0.48. Con un livello di significativit&agrave; del 5%, ci sono differenze 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; statisticamente significative nella distribuzione maschi/femmine nei due 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) s&igrave;, perch&eacute; si tratta di uno studio clinico randomizzato
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) s&igrave;, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) no, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ci sono informazioni sufficienti per stabilirlo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) S&igrave;, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) No, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
 
 </div>
 
@@ -1230,21 +1342,21 @@ updateButton_exercise_4();
 </script>
 
 ---
-### Esercizio #4 -- Soluzione
+### Esercizio #5 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; In uno studio clinico randomizzato (RCT), il P-value associato alla variabile  
+:question: &nbsp;&nbsp;&nbsp; In uno studio clinico randomizzato, il P-value associato alla variabile  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “Sex” è pari a 0.48. Con un livello di significativit&agrave; del 5%, ci sono differenze 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; statisticamente significative nella distribuzione maschi/femmine nei due 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) s&igrave;, perch&eacute; si tratta di uno studio clinico randomizzato
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) s&igrave;, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) no, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave; &nbsp;&nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ci sono informazioni sufficienti per stabilirlo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) S&igrave;, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave; &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) No, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
 
 </div>
 
@@ -1252,7 +1364,187 @@ updateButton_exercise_4();
 
 
 ---
-## Uguale, diverso, maggiore, minore?
+## Comunicare il risultato
+
+
+<div style="font-size: 90%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Dexamethasone e standard care non sono tanto efficaci quanto lo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard care da solo. Osserviamo una differenza statisticamente 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativa di 2.6 giorni tra i due trattamenti (P = 0.016).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; l'incertezza di questa stima?
+
+</div>
+
+---
+### Esercizio #6
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Calcoliamo il 95% CI?  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{c}} - \bar{x}_{\text{i}} = 2.6$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} = 2.6$ 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\hat{\text{SE}}= \sqrt{\frac{s_\text{c}^2}{n_\text{c}} + \frac{s_\text{i}^2}{n_\text{i}}} = 1.08$ 
+
+</div>
+
+---
+### Esercizio #6 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Calcoliamo il 95% CI? 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{c}} - \bar{x}_{\text{i}} = 2.6$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} = 2.6$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\hat{\text{SE}}= \sqrt{\frac{s_\text{c}^2}{n_\text{c}} + \frac{s_\text{i}^2}{n_\text{i}}} = 1.08$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $95\% \text{ ME} = 2 \times \hat{\text{SE}} = 2 \times 1.08 = 2.16$
+
+</div>
+
+---
+### Esercizio #6 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Calcoliamo il 95% CI? 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x}_{\text{c}} - \bar{x}_{\text{i}} = 2.6$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} = 2.6$ 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\hat{\text{SE}}= \sqrt{\frac{s_\text{c}^2}{n_\text{c}} + \frac{s_\text{i}^2}{n_\text{i}}} = 1.08$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $95\% \text{ ME} = 2 \times \hat{\text{SE}} = 2 \times 1.08 = 2.16$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{95\% CI} = (\bar{x}_{\text{i}} - \bar{x}_{\text{c}}) - \text{95\% ME} \text{ } ; \text{ } (\bar{x}_{\text{i}} - \bar{x}_{\text{c}}) + \text{95\% ME} =$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (2.6 - 2.16 \text{ } ; \text{ } 2.6+2.16 ) = (0.44 \text{ } ; \text{ } 4.78)$
+
+</div>
+
+
+---
+## Comunicare il risultato
+
+
+<div style="font-size: 90%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Dexamethasone e standard care  non sono tanto efficaci quanto lo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard care da solo. Osserviamo una differenza statisticamente 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativa di 2.6 giorni (95% CI = 0.44 ; 4.78) tra i due trattamenti 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (P = 0.016).
+
+</div>
+
+---
+## Test di ipotesi & intervallo di confidenza
+
+<div style="font-size: 80%" >
+
+:dart: &nbsp;&nbsp;&nbsp; L'intervallo di cofidenza del 95% &egrave; l'insieme delle ipotesi nulle che non sono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+
+
+<span style="display:block; height:190px;"></span>
+
+<div style="font-size: 78%" align="right">
+
+| Livello di confidenza | $\alpha$ | $\alpha/2$ |
+| ----: | ----- | ---- | 
+| 95% | 5% | 2.5% | 
+
+</div>
+
+</div>
+<div>
+
+
+<center>
+<img src="./img/confidence_intervals/alpha_level.png" img height="450px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+---
+## Test di ipotesi & intervallo di confidenza
+
+<div style="font-size: 80%" >
+
+:dart: &nbsp;&nbsp;&nbsp; L'intervallo di cofidenza del 95% &egrave; l'insieme delle ipotesi nulle che non sono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
+
+</div>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 80%" >
+
+<span style="display:block; height:10px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In un test a due code, $\text{P} <0.05$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se il 95% CI non include l'ipotesi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nulla (solitamente zero)
+
+</div>
+
+
+</div>
+<div>
+
+<center>
+<img src="./img/hypothesis_testing/rifiuto_non_rifiuto.png" img height="450px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+<!-- This intimate link between hypothesis testing and confidence intervals should stop people misinterpreting results that are not statistically significantly different from 0 – this does not mean that the null hypothesis is actually true, but simply that a confidence interval for the true value includes 0. Unfortunately, as we shall see later, this lesson is often ignored. -->
+
+
+---
+## Test di ipotesi & intervallo di confidenza
+
+<div style="font-size: 80%" >
+
+:dart: &nbsp;&nbsp;&nbsp; L'intervallo di cofidenza del 95% &egrave; l'insieme delle ipotesi nulle che non sono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In un test a due code, $\text{P} <0.05$ se il 95% CI non include l'ipotesi nulla 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (solitamente zero)
+
+<span style="display:block; height:20px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/abstract_methods_ex1.png" img height="250px"  border="4px"/>
+</center>
+
+
+<div style="font-size: 50%" align="right">
+
+<div>
+
+Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+
+</div>
+
+
+---
+## Test a una e due code
 
 <span style="display:block; height:10px;"></span>
 
@@ -1270,10 +1562,8 @@ updateButton_exercise_4();
 </div>
 <div>
 
-<span style="display:block; height:10px;"></span>
-
 <center>
-<img src="./img/hypothesis_testing/Two-tailed_test.png" img height="370px" border="4px"/>
+<img src="./img/hypothesis_testing/Two-tailed_test.png" img height="500px" border="0px"/>
 </center>
 
 </div>
@@ -1284,7 +1574,7 @@ updateButton_exercise_4();
 
 
 ---
-## Uguale, diverso, maggiore, minore?
+## Test a una e due code
 
 <span style="display:block; height:10px;"></span>
 
@@ -1309,10 +1599,9 @@ updateButton_exercise_4();
 </div>
 <div>
 
-<span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/hypothesis_testing/One-tailed_test_left.png" img height="370px" border="4px"/>
+<img src="./img/hypothesis_testing/One-tailed_test_left.png" img height="500px" border="0px"/>
 </center>
 
 </div>
@@ -1323,7 +1612,7 @@ updateButton_exercise_4();
 
 
 ---
-## Uguale, diverso, maggiore, minore?
+## Test a una e due code
 
 <span style="display:block; height:10px;"></span>
 
@@ -1348,10 +1637,8 @@ updateButton_exercise_4();
 </div>
 <div>
 
-<span style="display:block; height:10px;"></span>
-
 <center>
-<img src="./img/hypothesis_testing/One-tailed_test_right.png" img height="370px" border="4px"/>
+<img src="./img/hypothesis_testing/One-tailed_test_right.png" img height="500px" border="0px"/>
 </center>
 
 </div>
@@ -1362,139 +1649,13 @@ updateButton_exercise_4();
 
 
 ---
-### Esercizio #5
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 80%" >
-
-:question: &nbsp;&nbsp;&nbsp; Nei metodi &egrave; stato riportato che “All significance tests were 2-sided, and 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $P < 0.05$ was used to indicate significance”. Qual &egrave; il livello di significativit&agrave; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle analisi?
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.05
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.025
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) il P-value
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ci sono informazioni sufficienti per stabilirlo
-
-</div>
-
-<span style="display:block; height:70px;"></span>
-
-<style>
-  #countdown_exercise_5{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_5.running {
-    background-color: green;
-  }
-  #countdown_exercise_5.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_5"></button>
-
-<script>
-<!--
-const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 120; // seconds_exercise_5
-let timeLeft_exercise_5= seconds_exercise_5;
-let timerInterval_exercise_5= null;
-
-function formatTime_exercise_5(seconds_exercise_5) {
-  const minutes = Math.floor(seconds_exercise_5/ 60);
-  const remainingseconds_exercise_5= seconds_exercise_5% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_5() {
-  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
-}
-
-function startTimer_exercise_5() {
-  if (timerInterval_exercise_5=== null) {
-    countdown_exercise_5.classList.add('running');
-    countdown_exercise_5.classList.remove('finished');
-    timerInterval_exercise_5= setInterval(() => {
-      if (timeLeft_exercise_5> 0) {
-        timeLeft_exercise_5--;
-        updateButton_exercise_5();
-      } else {
-        clearInterval(timerInterval_exercise_5);
-        timerInterval_exercise_5= null;
-        countdown_exercise_5.classList.remove('running');
-        countdown_exercise_5.classList.add('finished');
-        countdown_exercise_5.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_5();
-  }
-}
-
-function pauseTimer_exercise_5() {
-  clearInterval(timerInterval_exercise_5);
-  timerInterval_exercise_5= null;
-  countdown_exercise_5.classList.remove('running');
-}
-
-function resetTimer_exercise_5() {
-  timeLeft_exercise_5= seconds_exercise_5;
-  updateButton_exercise_5();
-  countdown_exercise_5.classList.remove('finished');
-  countdown_exercise_5.classList.remove('running');
-  timerInterval_exercise_5= null;
-}
-
-countdown_exercise_5.addEventListener("click", () => {
-  if (countdown_exercise_5.classList.contains('finished')) {
-    resetTimer_exercise_5();
-  } else {
-    startTimer_exercise_5();
-  }
-});
-
-updateButton_exercise_5();
--->
-</script>
-
-
----
-### Esercizio #5 -- Soluzione
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 80%" >
-
-:question: &nbsp;&nbsp;&nbsp; Nei metodi &egrave; stato riportato che “All significance tests were 2-sided, and 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $P < 0.05$ was used to indicate significance”. Qual &egrave; il livello di significativit&agrave; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle analisi?
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.05 &nbsp;&nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.025
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) il P-value
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ci sono informazioni sufficienti per stabilirlo
-
-</div>
-
----
-### Esercizio #6
+### Esercizio #8
 
 <!-- <span style="display:block; height:1px;"></span> -->
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
+:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati (n = 200), abbiamo ottenuto $t=1.8$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Posso rifiutare l'ipotesi nulla $\mathcal{H}_0 \text{: } \mu_{\text{c}} - \mu_{\text{i}} \neq 0$ con $\alpha = 0.05$?
 
 </div>
@@ -1512,9 +1673,9 @@ updateButton_exercise_5();
 
 <span style="display:block; height:1px;"></span>
 
-<center>
+<!-- <center>
 <img src="./img/confidence_intervals/unannotated_CI.png" img height="350px" border="4px"/>
-</center>
+</center> -->
 
 </div>
 </div>
@@ -1610,11 +1771,11 @@ updateButton_exercise_6();
 <!-- Qui dobbiamo andare a pescare nella memoria delle cose viste in passato -->
 
 ---
-### Esercizio #6 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
+:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati (n = 200), abbiamo ottenuto $t=1.8$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Posso rifiutare l'ipotesi nulla $\mathcal{H}_0 \text{: } \mu_{\text{c}} - \mu_{\text{i}} \neq 0$ con $\alpha = 0.05$?
 
 </div>
@@ -1627,30 +1788,28 @@ updateButton_exercise_6();
 
 <div style="font-size: 78%" align="right">
 
-| Livello di confidenza | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| Livello di confidenza | $\alpha$ | $\alpha/2$ | $t_{\alpha/2}$ |
 | ----: | ----- | ---- | ----|
-| 95% | 5% | 2.5% | 1.96 |
+| 95% | 5% | 2.5% | $\approx$ 2 |
 
 </div>
 
 </div>
 <div>
 
-<span style="display:block; height:1px;"></span>
-
 <center>
-<img src="./img/confidence_intervals/alpha_level.png" img height="350px" border="4px"/>
+<img src="./img/confidence_intervals/alpha_level.png" img height="450px" border="0px"/>
 </center>
 
 </div>
 </div>
 
 ---
-### Esercizio #6 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
+:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati (n = 200), abbiamo ottenuto $t=1.8$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Posso rifiutare l'ipotesi nulla $\mathcal{H}_0 \text{: } \mu_{\text{c}} - \mu_{\text{i}} \neq 0$ con $\alpha = 0.05$?
 
 </div>
@@ -1662,19 +1821,17 @@ updateButton_exercise_6();
 
 <div style="font-size: 78%" align="right">
 
-| Livello di confidenza | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
+| Livello di confidenza | $\alpha$ | $\alpha/2$ | $t_{\alpha/2}$ |
 | ----: | ----- | ---- | ----|
-| 95% | 5% | 2.5% | 1.96 |
+| 95% | 5% | 2.5% | $\approx$ 2 |
 
 </div>
 
 </div>
 <div>
 
-<span style="display:block; height:1px;"></span>
-
 <center>
-<img src="./img/hypothesis_testing/Two-tailed_test_ex_CI.png" img height="350px" border="4px"/>
+<img src="./img/hypothesis_testing/Two-tailed_test_ex_CI.png" img height="450px" border="0px"/>
 </center>
 
 </div>
@@ -1682,11 +1839,11 @@ updateButton_exercise_6();
 
 
 ---
-### Esercizio #6 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
+:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati (n = 200), abbiamo ottenuto $t=1.8$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Posso rifiutare l'ipotesi nulla $\mathcal{H}_0 \text{: } \mu_{\text{c}} - \mu_{\text{i}} \neq 0$ con $\alpha = 0.05$?
 
 </div>
@@ -1696,31 +1853,30 @@ updateButton_exercise_6();
 
 <span style="display:block; height:1px;"></span>
 
-<div style="font-size: 90%" >
+<div style="font-size: 84%" >
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 2 \times (0.025 + \epsilon) =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 2 \times 0.029 = 0.058$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 2 \times (0.025 + 0.010) =$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 0.07$
 
 </div>
 
 </div>
 <div>
 
-<span style="display:block; height:1px;"></span>
-
 <center>
-<img src="./img/hypothesis_testing/Two-tailed_test_ex.png" img height="350px" border="4px"/>
+<img src="./img/hypothesis_testing/Two-tailed_test_ex.png" img height="450px" border="0px"/>
 </center>
 
 </div>
 </div>
 
 ---
-### Esercizio #6 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati, abbiamo ottenuto $z=1.9$
+:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati (n = 200), abbiamo ottenuto $t=1.8$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Posso rifiutare l'ipotesi nulla $\mathcal{H}_0 \text{: } \mu_{\text{c}} - \mu_{\text{i}} \neq 0$ con $\alpha = 0.05$?
 
 </div>
@@ -1730,12 +1886,13 @@ updateButton_exercise_6();
 
 <span style="display:block; height:1px;"></span>
 
-<div style="font-size: 90%" >
+<div style="font-size: 84%" >
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 2 \times (0.025 + \epsilon) =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 2 \times 0.029 = 0.058$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 2 \times (0.025 + 0.010) =$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 0.07$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 0.058 > \alpha = 0.05$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 0.07 > \alpha = 0.05$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ non rifiuto $\mathcal{H}_0$
 
 </div>
@@ -1743,121 +1900,286 @@ updateButton_exercise_6();
 </div>
 <div>
 
-<span style="display:block; height:1px;"></span>
-
 <center>
-<img src="./img/hypothesis_testing/Two-tailed_test_ex.png" img height="350px" border="4px"/>
+<img src="./img/hypothesis_testing/Two-tailed_test_ex.png" img height="450px" border="0px"/>
 </center>
 
 </div>
 </div>
 
+
+
 ---
-## Test di ipotesi & intervallo di confidenza
+### Significativit&agrave; statistica e significativit&agrave; clinica
 
-<div style="font-size: 80%" >
 
-:dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval &egrave; l'insieme delle ipotesi nulle che non sono 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
+<div style="font-size: 90%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Dexamethasone e standard care  non sono tanto efficaci quanto lo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard care da solo. Osserviamo una differenza statisticamente 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativa di 2.6 giorni (95% CI = 0.44 ; 4.78) tra i due trattamenti 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (P = 0.016).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; la significativit&agrave; clinica del trattamento, tenendo conto che la 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; differenza nella popolazione potrebbe essere di soli di 0.44 giorni?
+
+</div>
+
+---
+## La dimensione dell'effetto
+
+
+<div style="font-size: 90%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; $d \text{ di Cohen} =  \frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
 
 </div>
 
 <div class="columns">
 <div>
-
-<span style="display:block; height:1px;"></span>
-
-
-
-<span style="display:block; height:190px;"></span>
-
-<div style="font-size: 78%" align="right">
-
-| Livello di confidenza | $\alpha$ | $\alpha/2$ | $z_{\alpha/2}$ |
-| ----: | ----- | ---- | ----|
-| 95% | 5% | 2.5% | 1.96 |
-
-</div>
-
-</div>
-<div>
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/alpha_level.png" img height="350px" border="4px"/>
-</center>
-
-</div>
-</div>
-
----
-## Test di ipotesi & intervallo di confidenza
-
-<div style="font-size: 80%" >
-
-:dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval &egrave; l'insieme delle ipotesi nulle che non sono 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
-
-</div>
-
-<div class="columns">
-<div>
-
-<div style="font-size: 80%" >
 
 <span style="display:block; height:10px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In un test a due code, $\text{P} <0.05$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se il 95% CI non include l'ipotesi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nulla (solitamente zero)
-
-</div>
-
+<center>
+<img src="./img/hypothesis_testing/Small_cohen_d.png" img height="370px" border="0px"/>
+</center>
 
 </div>
 <div>
 
-<span style="display:block; height:1px;"></span>
+<span style="display:block; height:10px;"></span>
 
-<center>
-<img src="./img/hypothesis_testing/rifiuto_non_rifiuto.png" img height="350px" border="4px"/>
-</center>
+<div style="font-size: 80%" align="right">
+
+| d | Interpretazione |
+| ----:    | :---- |
+0.2| Piccolo
+&nbsp;&nbsp;&nbsp; | 
+&nbsp;&nbsp;&nbsp; | 
+
+</div>
 
 </div>
 </div>
-
-<!-- This intimate link between hypothesis testing and confidence intervals should stop people misinterpreting results that are not statistically significantly different from 0 – this does not mean that the null hypothesis is actually true, but simply that a confidence interval for the true value includes 0. Unfortunately, as we shall see later, this lesson is often ignored. -->
-
 
 ---
-## Test di ipotesi & intervallo di confidenza
+## La dimensione dell'effetto
 
-<div style="font-size: 80%" >
+<div style="font-size: 90%" >
 
-:dart: &nbsp;&nbsp;&nbsp; Il 95% confidence interval &egrave; l'insieme delle ipotesi nulle che non sono 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
+:pushpin: &nbsp;&nbsp;&nbsp; $d \text{ di Cohen} =  \frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In un test a due code, $\text{P} <0.05$ se il 95% CI non include l'ipotesi nulla 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (solitamente zero)
+</div>
 
-<span style="display:block; height:20px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/abstract_methods_ex1.png" img height="250px"  border="4px"/>
-</center>
-
-
-<div style="font-size: 50%" align="right">
-
+<div class="columns">
 <div>
 
-Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autism Spectrum Disorder*, NEJM, 2021
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Medium_cohen_d.png" img height="370px" border="0px"/>
+</center>
+
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 80%" align="right">
+
+| d | Interpretazione |
+| ----:    | :---- |
+0.2| Piccolo
+0.5 | Medio
+&nbsp;&nbsp;&nbsp; | 
+
+</div>
+
+</div>
+</div>
+
+---
+## La dimensione dell'effetto
+
+
+<div style="font-size: 90%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; $d \text{ di Cohen} =  \frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/Large_cohen_d.png" img height="370px" border="0px"/>
+</center>
+
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<div style="font-size: 80%" align="right">
+
+| d | Interpretazione |
+| ----:    | :---- |
+0.2| Piccolo
+0.5 | Medio
+0.8 | Grande
+
+
+</div>
+
+</div>
+</div>
+
+---
+### Esercizio #7
+
+??????
+
+---
+## La dimensione dell'effetto
+
+<div style="font-size: 90%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Dexamethasone e standard care  **non sono tanto efficaci quanto** lo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard care da solo. Osserviamo una differenza statisticamente 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativa di 2.6 giorni (95% CI = 0.44 ; 4.78) tra i due trattamenti 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (P = 0.016).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $d \text{ di Cohen} =  \frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s_p = \sqrt{\frac{(151 - 1) \times 10 + (148 - 1) \times 8.7}{(151 - 1) + (148 - 1)}} = 3$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $d =  \frac{2.6}{3} = 0.85$ &nbsp;&nbsp; $\rightarrow$  &nbsp;&nbsp; Grande 
+
 
 </div>
 
 ---
-### $t$-test per la differenza di proporzioni
+## Comunicare il risultato
+
+<div style="font-size: 90%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; Dexamethasone e standard care  **non sono tanto efficaci quanto** lo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard care da solo. Osserviamo una differenza statisticamente 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativa di 2.6 giorni (95% CI = 0.44 ; 4.78) tra i due trattamenti 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (P = 0.016), con un effetto grande ($d$ di Cohen  = 0.85).
+
+
+</div>
+
+
+
+
+---
+## Comunicare (e interpretare) il risultato
+
+<div style="font-size: 90%" >
+
+- **Test di ipotesi:** &egrave; la procedura che valuta la probabilit&agrave; che un’ipotesi sia supportata dai dati osservati
+
+- **Intervallo di confidenza:** identifica l'incertezza di una statistica, l'intervallo di valori plausibili se il risultato in un campione fosse applicato all'intera popolazione
+
+- **Dimensione dell'effetto:** la magnitudine dei risultati di uno studio, che determina se i risultati sono grandi abbastanza per essere utili nel mondo reale
+
+</div>
+
+<!-- Each of these statistical procedures helps researchers give meaning to the results of asignificance test -->
+
+---
+## Comunicare (e interpretare) il risultato
+
+<div style="font-size: 90%" >
+
+**Scenario 1**
+
+- Test di ipotesi: P value $< \alpha$
+- Intervallo di confidenza: molto stretto
+- Dimensione dell'effetto: medio o grande
+
+</div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 90%" align="right">
+
+Abbiamo tre evidenze che supportano la significativit&agrave; del risultato
+
+</div>
+
+---
+## Comunicare (e interpretare) il risultato
+
+<div style="font-size: 90%" >
+
+**Scenario 2**
+
+- Test di ipotesi: P value $< \alpha$
+- Intervallo di confidenza: molto stretto
+- Dimensione dell'effetto: molto piccolo o piccolo
+
+</div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 90%" align="right">
+
+Abbiamo due evidenze che supportano la significativit&agrave; statistica del risultato, ma la significativit&agrave; clinica &egrave; minima
+
+</div>
+
+---
+## Comunicare (e interpretare) il risultato
+
+<div style="font-size: 90%" >
+
+**Scenario 3**
+
+- Test di ipotesi: P value $> \alpha$
+- Intervallo di confidenza: molto largo
+- Dimensione dell'effetto: molto piccolo o piccolo
+
+</div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 90%" align="right">
+
+Abbiamo tre evidenze che supportano la mancanza di  <br/> significativit&agrave; del risultato
+
+</div>
+
+---
+## Comunicare (e interpretare) il risultato
+
+<div style="font-size: 90%" >
+
+**Scenario 4**
+
+- Test di ipotesi: P value $> \alpha$
+- Intervallo di confidenza: molto largo
+- Dimensione dell'effetto: grande
+
+</div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 90%" align="right">
+
+Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se rifiutare o meno l'ipotesi nulla
+
+</div>
+
+
+
+
+---
+### $t$-test
 
 <div style="font-size: 90%" >
 
@@ -2594,7 +2916,7 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
 <!-- df = nrighe-1 * ncolonne-1 -->
 
 ---
-### Esercizio #7
+### Esercizio #10
 
 <div style="font-size: 70%" >
 
@@ -2706,7 +3028,7 @@ updateButton_exercise_7();
 </div>
 
 ---
-### Esercizio #7 -- Soluzione
+### Esercizio #10 -- Soluzione
 
 <div style="font-size: 70%" >
 
@@ -2726,10 +3048,8 @@ updateButton_exercise_7();
 
 </div>
 
-
-
 ---
-### Esercizio #7 -- Soluzione
+### Esercizio #8 -- Soluzione
 
 <div style="font-size: 70%" >
 
@@ -2777,7 +3097,7 @@ H1: la proporzione di soggetti bla bla e' diversa (associazione)
 
 
 ---
-### Esercizio #7 -- Soluzione
+### Esercizio #10 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -2844,7 +3164,7 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 
 
 ---
-### Esercizio #7 -- Soluzione
+### Esercizio #10 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -2910,7 +3230,7 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 <!-- Andiamo quindi a calcolare le frequenze attese, sottp H0 e il valre del chi2-->
 
 ---
-### Esercizio #7 -- Soluzione
+### Esercizio #10 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -2973,7 +3293,7 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 2$
 </div>
 
 ---
-### Esercizio #7 -- Soluzione
+### Esercizio #10 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -3003,7 +3323,7 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 2$
 P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di osservare il risultato che abbiamo ottenuto, o una differenza ancora maggiore, sarebbe solo dell’3% -->
 
 ---
-### Esercizio #7 -- Soluzione
+### Esercizio #10 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -3237,7 +3557,7 @@ Falsa | Errore di <br/>II tipo   |   |
 
 
 --- 
-### Esercizio #8
+### Esercizio #11
 
 <div style="font-size: 75%" >
 
@@ -3350,7 +3670,7 @@ Type II Error (false negative): Incorrectly accepting the null hypothesis e.g vi
 -->
 
 --- 
-### Esercizio #8 -- Soluzione
+### Esercizio #11 -- Soluzione
 
 <div style="font-size: 75%" >
 
@@ -3433,7 +3753,7 @@ Falsa | $\beta$   | $1 - \beta$ <br/> Potenza |
 
 
 <center>
-<img src="./img/hypothesis_testing/power.png" img height="500px" border="4px"/>
+<img src="./img/hypothesis_testing/power.png" img height="550px" border="0px"/>
 </center>
 
 </div>
@@ -3468,7 +3788,7 @@ In fact researchers generally work in terms of 1 – β, which is termed the pow
 
 
 <center>
-<img src="./img/hypothesis_testing/power_larger_alpha.png" img height="500px" border="4px"/>
+<img src="./img/hypothesis_testing/power_larger_alpha.png" img height="550px" border="0px"/>
 </center>
 
 </div>
@@ -3501,7 +3821,7 @@ In fact researchers generally work in terms of 1 – β, which is termed the pow
 
 
 <center>
-<img src="./img/hypothesis_testing/power_larger_effect.png" img height="500px" border="4px"/>
+<img src="./img/hypothesis_testing/power_larger_effect.png" img height="550px" border="0px"/>
 </center>
 
 </div>
@@ -3535,7 +3855,7 @@ In fact researchers generally work in terms of 1 – β, which is termed the pow
 
 
 <center>
-<img src="./img/hypothesis_testing/power_smaller_sigma.png" img height="500px" border="4px"/>
+<img src="./img/hypothesis_testing/power_smaller_sigma.png" img height="550px" border="0px"/>
 </center>
 
 </div>
@@ -3571,7 +3891,7 @@ In fact researchers generally work in terms of 1 – β, which is termed the pow
 
 
 <center>
-<img src="./img/hypothesis_testing/power_smaller_sigma.png" img height="500px" border="4px"/>
+<img src="./img/hypothesis_testing/power_smaller_sigma.png" img height="550px" border="0px"/>
 </center>
 
 </div>
@@ -3587,9 +3907,12 @@ Before starting a randomized clinical trial, the protocol will specify a null hy
 
 he idea of having a large enough sample to have sufficient power to detect a plausible alternative hypothesis has become totally entrenched in planning medical studies. But studies in psychology and neuroscience often have sample sizes chosen on the basis of convenience or tradition, and can be as low as 20 subjects per condition being studied. True, and interesting, alternative hypotheses may be missed through studies simply being too small, and the need for other experimental areas to think about the power of their experiments is finally being recognized. -->
 
+---
+
+Scenario 4, non ho potenza!!!!
 
 --- 
-### Esercizio #9
+### Esercizio #12
 
 <div style="font-size: 90%" >
 
@@ -3693,7 +4016,7 @@ updateButton_exercise_9();
 
 
 --- 
-### Esercizio #9 -- Soluzione
+### Esercizio #12 -- Soluzione
 
 <div style="font-size: 90%" >
 
@@ -3767,13 +4090,13 @@ Fisher's campioni piccoli (1 cella < 5 osservazioni )
 ---
 ### Cosa abbiamo imparato in questa lezione?
 
-<span style="display:block; height:10px;"></span>
 
 <div style="font-size: 80%">
 
 - P-value misura l'incompatibilit&agrave; tra i dati e la nostra ipotesi (probabilit&agrave; di osservare valori cos&igrave; estremi se $\mathcal{H}_0$ &egrave; vera)
 - Tradizionalmente, $P < 0.05$ o $< 0.01$ sono considerati statisticamente significativi, ma queste soglie devono essere corrette per il numero di test 
 - C'&egrave; una corrispondenza tra CI e P-value, e se il 95% CI non include lo zero, possiamo rifiutare $\mathcal{H}_0$ a un livello si significativit&agrave; $\alpha=0.05$
+- Npn sempre una significativit&agrave; statistica corrisponde a una significativit&agrave; clinica
 - Errori del primo tipo dipendono dalla soglia di significativit&agrave; $\alpha$ 
 - Esiste un legame tra errori del secondo tipo $\beta$ e potenza di uno studio
 - Per dati con distribuzioni non-normali possiamo usare test non parametrici
