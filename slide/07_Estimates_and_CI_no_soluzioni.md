@@ -696,7 +696,7 @@ Tutti concetti che ci torneranno utili tra poco
 
 <div style="font-size: 90%" >
 
-:question: &nbsp;&nbsp;&nbsp; Il numero medio di partner eterosessual in campione di 760 uomini 
+:question: &nbsp;&nbsp;&nbsp; Il numero medio di partner eterosessuali in campione di 760 uomini 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inglesi tra i 35 e i  44 anni di et&agrave; &egrave; 11.4 $\pm$ 11.2 partner.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; la media della popolazione e il suo 95% CI?  
@@ -1301,7 +1301,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 
 - Gli intervalli di confidenza (CI)/margini di errore (ME) sono un aspetto importante di come vengono comunicate le statistiche
 - La dimensione del campione influenza la larghezza dei CI
-- Attraverso il bootstrapping si ricampiona il dataset originale con rimpiazzo, ottenendo distribuzioni che tendono alla normale
+- Attraverso il bootstrapping si ricampiona il campione originale con rimpiazzo, ottenendo distribuzioni che tendono alla Normale
 - Il teorema del limite centrale ci dice che le distribuzioni campionarie tendono alla normale per campioni grandi, con formule per calcolare i CI
 - Un CI del 95% risulta da una procedura che nel 95% dei casi contiene il valore della popolazione
 - Per campioni piccoli, la distribuzione campionaria viene approssimata dalla distribuzione $\mathcal{t}$ di Student

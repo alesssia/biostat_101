@@ -909,7 +909,7 @@ oppure
 <div style="font-size: 90%">
 
 - Imparare le basi della statistica medica ci permette di interpretare i nostri dati, comunicare i nostri risultati efficacemente, capire il linguaggio della ricerca ed essere dei professionisti che lavorano seguendo le prove di efficacia
-- La statistica medica &egrave; divisa in due rami strettamente interconessi
+- La statistica medica &egrave; divisa in due rami strettamente interconnessi
 - La ricerca scientifica segue  un processo circolare
 - Il processo induttivo ci permette di passare dal particolare al generale
 - Non dobbiamo aver paura a metterci in gioco

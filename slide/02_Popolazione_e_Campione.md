@@ -34,7 +34,7 @@ section {
 
 - Conoscere le differenze tra popolazione e campione
 - Conoscere le due maggiori strategie di campionamento
-- Individuare distorsioni stistematiche (o *bias*) nei campioni
+- Individuare distorsioni sistemistiche (o *bias*) nei campioni
 
 <!-- </div> -->
 
@@ -1140,7 +1140,7 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che queste 30 persone...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - hanno smesso di prendere il farmaco?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -  sono ritornate alla loro citt&agrave; di orgine?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -  sono ritornate alla loro citt&agrave; di origine?
 
 </div>
 
@@ -1162,7 +1162,7 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 
 <div style="font-size: 90%">
 
-- La popolazione &egrave; l'insieme di tutti gli individui per cui vogliamo studiare un fenomeno ed è, teoricamente, infinita
+- La popolazione &egrave; l'insieme di tutti gli individui per cui vogliamo studiare un fenomeno ed &egrave;, teoricamente, infinita
 - Il campione &egrave; un sotto insieme (rappresentativo?) della popolazione
 - Pi&ugrave; un campione &egrave; rappresentativo della popolazione, pi&ugrave; le nostre conclusioni sono robuste
 - Anche campioni rappresentativi (casuali) possono soffrire di bias

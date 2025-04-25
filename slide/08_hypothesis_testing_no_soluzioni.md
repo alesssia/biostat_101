@@ -675,7 +675,7 @@ And it is important to emphasize that the exact P-value is conditional not only 
 
 - &Egrave; conveniente decidere quando uno pu&ograve; dire "o c'&egrave; qualcosa nel trattamento o c'&egrave; una coincidenza che avviene pi&ugrave; di 1 volta su 20" <!-- (1926) -->
 - Il valore per cui $\alpha$ = 0.05, o 1 in 20, &egrave; 1.96 o circa 2 [...] Deviazioni oltre due volte la deviazione standard sono considerate formalmente come significative <!-- (1956) -->
-- Se 1/20 non &egrave; abbastranza, e se lo preferiamo, possiamo usare 1/50 (2%) o 1/100 (1%) <!-- (1926) -->
+- Se 1/20 non &egrave; abbastanza, e se lo preferiamo, possiamo usare 1/50 (2%) o 1/100 (1%) <!-- (1926) -->
 
 </div>
 
@@ -708,7 +708,7 @@ Kendall mentioned that Fisher produced the tables of significance levels to save
 
 <div style="font-size: 80%" >
 
-:question: &nbsp;&nbsp;&nbsp; Quando in uno studio si dice che il risultato &egrave; "stastisticamente significativo"
+:question: &nbsp;&nbsp;&nbsp; Quando in uno studio si dice che il risultato &egrave; "statisticamente significativo"
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significa che...
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'ipotesi nulla &egrave; stata rifiutata
@@ -932,7 +932,7 @@ $^{(*)}$ Stiamo usando il $t$-test della differenza di due medie campionarie e n
 
 <div style="font-size: 80%" >
 
-:dart: &nbsp;&nbsp;&nbsp; L'intervallo di cofidenza del 95% &egrave; l'insieme delle ipotesi nulle che non sono 
+:dart: &nbsp;&nbsp;&nbsp; L'intervallo di confidenza del 95% &egrave; l'insieme delle ipotesi nulle che non sono 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
 
 </div>
@@ -970,7 +970,7 @@ $^{(*)}$ Stiamo usando il $t$-test della differenza di due medie campionarie e n
 
 <div style="font-size: 80%" >
 
-:dart: &nbsp;&nbsp;&nbsp; L'intervallo di cofidenza del 95% &egrave; l'insieme delle ipotesi nulle che non sono 
+:dart: &nbsp;&nbsp;&nbsp; L'intervallo di confidenza del 95% &egrave; l'insieme delle ipotesi nulle che non sono 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
 
 </div>
@@ -1007,7 +1007,7 @@ $^{(*)}$ Stiamo usando il $t$-test della differenza di due medie campionarie e n
 
 <div style="font-size: 80%" >
 
-:dart: &nbsp;&nbsp;&nbsp; L'intervallo di cofidenza del 95% &egrave; l'insieme delle ipotesi nulle che non sono 
+:dart: &nbsp;&nbsp;&nbsp; L'intervallo di confidenza del 95% &egrave; l'insieme delle ipotesi nulle che non sono 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rifiutate con $\alpha = 0.05$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In un test a due code, $\text{P} <0.05$ se il 95% CI non include l'ipotesi nulla 
@@ -1347,7 +1347,7 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; differenza osservata sia effettivamente importante?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) L'intervallo di confidenza della differenza delle medie
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La dimensionde dell'effetto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La dimensione dell'effetto
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Nessuna, lo posso concludere dal P-value
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Nessuna, lo posso concludere dalla dimensione campionaria
 
@@ -1469,7 +1469,7 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 :question: &nbsp;&nbsp;&nbsp; Un test a una coda deve essere usato quando l'ipotesi alternativa 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; suppone che...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'effetto del trattamento sia positvo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'effetto del trattamento sia positivo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) l'effetto del trattamento sia negativo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) l'effetto del trattamento sia indifferentemente positivo o negativo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
@@ -2380,7 +2380,7 @@ Moltp stringente
 <div style="font-size: 88%" >
 
 :dart: &nbsp;&nbsp;&nbsp; Quando si fanno pi&ugrave; test, si richiede un $\alpha$ inferiore
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quando si fanno pi&ugrave; test, si fissa il numero di 'scopert&egrave; che sono false
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quando si fanno pi&ugrave; test, si fissa il numero di 'scoperte' che sono false
 
 <span style="display:block; height:1px;"></span>
 
@@ -2744,7 +2744,7 @@ Il nostro test non ha abbastanza potenza
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Completate le definizioni con i seguenti termini:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Errore di I tipo, Errore di II tipo, Potenza di un testtest
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Errore di I tipo, Errore di II tipo, Potenza di un test
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Concludere che un trattamento funzioni quando in realt&agrave; non ha 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  nessun  effetto si dice: ......................................... 
@@ -2848,7 +2848,7 @@ Fisher's campioni piccoli (1 cella < 5 osservazioni )
 - P-value misura l'incompatibilit&agrave; tra i dati e la nostra ipotesi (probabilit&agrave; di osservare valori cos&igrave; estremi se $\mathcal{H}_0$ &egrave; vera)
 - Tradizionalmente, $P < 0.05$ o $< 0.01$ sono considerati statisticamente significativi, ma queste soglie devono essere corrette per il numero di test 
 - C'&egrave; una corrispondenza tra CI e P-value, e se il 95% CI non include lo zero, possiamo rifiutare $\mathcal{H}_0$ a un livello si significativit&agrave; $\alpha=0.05$
-- Npn sempre una significativit&agrave; statistica corrisponde a una significativit&agrave; clinica
+- Non sempre una significativit&agrave; statistica corrisponde a una significativit&agrave; clinica
 - Errori del primo tipo dipendono dalla soglia di significativit&agrave; $\alpha$ 
 - Esiste un legame tra errori del secondo tipo $\beta$ e potenza di uno studio
 - Per dati con distribuzioni non-normali possiamo usare test non parametrici

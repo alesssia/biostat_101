@@ -200,14 +200,14 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Maria ha ricevuto un punteggo di 70 a un esame, posizionandosi 
+:question: &nbsp;&nbsp;&nbsp; Maria ha ricevuto un punteggio di 70 a un esame, posizionandosi 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel 45$^o$ percentile.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L'esame &egrave; andato...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) bene: Maria ha ricevuto un voto superiore a pi&ugrave; met&agrave; delle  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) bene: Maria ha ricevuto un voto superiore a pi&ugrave; della met&agrave; delle  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; persone che hanno dato quell'esame
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) non benissimo: Maria ha ricevuto un voto inferiore a pi&ugrave; met&agrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) non benissimo: Maria ha ricevuto un voto inferiore a pi&ugrave; della met&agrave; 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle persone che hanno dato quell'esame
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
 
@@ -953,7 +953,7 @@ Multimodale, particolarmente accentuato sull'1 -->
 
 <div style="font-size: 70%">
 
-&nbsp; :question: &nbsp; Questi dati sono stati raccolti intevistando  41 genitori
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando  41 genitori
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in un parco giochi.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
@@ -1121,7 +1121,7 @@ Indice di correlazione$^1$
 
 <div style="font-size: 60%">
 
-$^1$ In questo caso di Peason. Un altro indice di 
+$^1$ In questo caso di Pearson. Un altro indice di 
 &nbsp;&nbsp; correlazione &egrave;  quello di Spearman
 
 </div>
@@ -1194,7 +1194,7 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di una variabile, il valore dell'altra variabile...
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) cresce
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) descresce
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) decresce
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) rimane costante
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalle variabili
 

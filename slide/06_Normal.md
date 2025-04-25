@@ -32,7 +32,7 @@ section {
 <div style="font-size: 90%">
 
 - Conoscere le caratteristiche della distribuzione Normale e Normale Standardizzata
-- Calcolare e intepretare lo $z$-score
+- Calcolare e interpretare lo $z$-score
 - Calcolare la proporzione di individui in una popolazione con una determinata caratteristica
 - Calcolare la probabilit&agrave; di avere degli individui in una popolazione con una determinata caratteristica
 
@@ -1342,7 +1342,7 @@ updateButton_exercise_6();
 :question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e il neurologo che l'ha
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presa in cura la sottopone a 3 test. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1.$ Maria deve ascoltare delle parole e ripeterle (memory test). Maria ne rircorda
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1.$ Maria deve ascoltare delle parole e ripeterle (memory test). Maria ne ricorda
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  6, la popolazione generale 7, con una deviazione standard di 1.3 parole
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $2.$ Maria deve identificare degli oggetti da dei disegni (object naming test). Maria ne 
