@@ -7,27 +7,6 @@ library(gridExtra)
 font.size <- 22
 graphic.settings <- theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) +  theme(legend.title = element_blank()) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size))
 
-# ### Sexual partner in Britain
-# setwd("/Users/visconti/Documents/Teaching/biostat_101/slide/img/descriptive/")
-# partner.counts <-read.csv("02-4-sexual-partners-counts-x.csv", header=TRUE) # reads data into data frame
-#
-# attach(partner.counts)
-#
-# #Actual number of respondent
-# Men.data=rep(NumPartners,MenCount)
-# Women.data=rep(NumPartners,WomenCount)
-#
-# #Number of possible responses
-# Ncats=length(NumPartners)
-#
-# partners = data.frame( NumPartners2=c(NumPartners,NumPartners), Percent=c(MenPercent,WomenPercent), Gender=c(rep("M",Ncats),rep("F",Ncats)) )
-# partners$Percent[partners$Gender == "F"] <- -partners$Percent[partners$Gender == "F"]
-# partners <- partners[partners$Gender == "M", ]
-#
-# p <- ggplot(partners, aes(x=NumPartners2)) + geom_bar(aes(y=Percent), fill="#66C2A5", stat = "identity")
-# p <- p + graphic.settings + xlab("Reported number of lifetime opposite-sex partners") + ylab("Percentage") + theme(legend.position="none") + ggtitle("Men 35-44") + xlim(0, 50)
-
-
 
 ### Sexual partner in Britain  
 

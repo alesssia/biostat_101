@@ -36,14 +36,17 @@ n_obs <- nrow(df)
 
 p <- ggplot(df, aes(x = Bweight)) + geom_histogram(aes(y =..count..), colour = "black", fill = "gray74", binwidth = bw ) + graphic.settings + xlab("Peso alla nascita (g)") + ylab("") + theme(legend.position="none") + scale_y_continuous(labels = label_number( suffix = "k", scale = 1e-3)) + geom_segment(aes(x = 2404, y = -10, xend = 2404, yend = 171000), colour="magenta", linewidth=1.5) + labs(caption="Dati simulati a partire da dati reali, bin size: 250g") + theme(plot.caption = element_text(size = 10)) 
 
+p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
 
-png("Twin_BW_hist.png")
+png("Twin_BW_hist.png", bg = "transparent")
 print(p)
 dev.off()
 
 p1 <- p + stat_function(fun = function(x) dnorm(x, mean = mean(df$Bweight), sd = sd(df$Bweight)) * bw * n_obs, colour="black", lwd=1)
 
-png("Twin_BW_hist_normale.png")
+p1 <- p1 +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+png("Twin_BW_hist_normale.png", bg = "transparent")
 print(p1)
 dev.off()
 
@@ -54,14 +57,17 @@ gety <- function(v) dd$y[which(abs(dd$x - v) == min(abs(dd$x - v)))]
 
 p <- ggplot(df, aes(x = Bweight)) + stat_function(fun = function(x) dnorm(x, mean = mean(df$Bweight), sd = sd(df$Bweight)) * bw * n_obs, colour="black", lwd=1) + graphic.settings + xlab("Peso alla nascita (g)") + ylab("") + theme(legend.position="none") + scale_y_continuous(labels = label_number( suffix = "k", scale = 1e-3)) + geom_segment(aes(x = 2404, y = -10, xend = 2404, yend = 171000), colour="magenta", linewidth=1.5) + labs(caption="Dati simulati a partire da dati reali, bin size: 250g") + theme(plot.caption = element_text(size = 10)) 
 
+p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
 
-png("Twin_BW_normale.png")
+png("Twin_BW_normale.png", bg = "transparent")
 print(p)
 dev.off()
 
 p1 <- p + stat_function(fun = function(x) dnorm(x, mean = mean(df$Bweight), sd = sd(df$Bweight)) * bw * n_obs, colour="black", lwd=1, xlim = c(min(df$Bweight), 1500), geom = "area", fill="magenta", alpha=0.4) + geom_segment(aes(x = 1500, y = 0, xend = 1500, yend = gety(1500)), colour="black", lwd=1)
 
-png("Twin_BW_normale_area.png")
+p1 <- p1 +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+png("Twin_BW_normale_area.png", bg = "transparent")
 print(p1)
 dev.off()
 
@@ -69,44 +75,21 @@ dev.off()
 p2 <- p + geom_segment(aes(x = 2404, y = 0, xend = 2404-580, yend = 0), arrow = arrow(length = unit(0.2, "cm"), ends="last"), colour="darkgreen", lwd=1) + geom_segment(aes(x = 2404, y = 0, xend = 2404+580, yend = 0), arrow = arrow(length = unit(0.2, "cm"), ends="last"), colour="darkgreen", lwd=1)
 
 
-png("Twin_BW_normale_zscore.png")
+p2 <- p2 +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+png("Twin_BW_normale_zscore.png", bg = "transparent")
 print(p2)
 dev.off()
 
 
 p3 <- p2 + geom_segment(aes(x = 1454, y = 25000, xend = 1454, yend = 0), arrow = arrow(length = unit(0.2, "cm"), ends="last"), colour="black", lwd=1)
 
+p3 <- p3 +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
 
-png("Twin_BW_normale_zscore_annotated.png")
+
+png("Twin_BW_normale_zscore_annotated.png", bg = "transparent")
 print(p3)
 dev.off()
-
-
-# p4 <- p + stat_function(fun = function(x) dnorm(x, mean = mean(df$Bweight), sd = sd(df$Bweight)) * bw * n_obs, colour="black", lwd=1, xlim = c(min(df$Bweight), 2500), geom = "area", fill="magenta", alpha=0.4) + geom_segment(aes(x = 2500, y = 0, xend = 2500, yend = gety(2500)), colour="black", lwd=1)
-#
-# png("Twin_BW_normale_area_exercise.png")
-# print(p4)
-# dev.off()
-
-
-
-# getlimit <- function(p, sd, ann)
-# {
-# 	l <- mean(df$Bweight) - sd * sd(df$Bweight)
-# 	u <- mean(df$Bweight) + sd * sd(df$Bweight)
-#
-# 	p + geom_segment(aes(x = l, y = 0, xend = l, yend = gety(l)), colour="black", lwd=1) +
-# 	geom_segment(aes(x = u, y = 0, xend = u, yend = gety(u)), colour="black", lwd=1)
-# }
-#
-#
-# p1 <-  getlimit(p=p, sd=1)
-#
-#
-# png("Twin_BW_normale_1s.png")
-# print(p)
-# dev.off()
-
 
 
 clean()
@@ -127,9 +110,9 @@ end <- 8
 p <-   ggplot(data = data.frame(x = c(start, end)), aes(x)) +
     
 	#Areas + normal
-	stat_function(fun = dnorm, n = 101, args = list(mean = mean, sd = sd), geom = "area", fill="white", alpha=1, xlim = c(start, mean-0.67*sd)) +
-	stat_function(fun = dnorm, n = 101, args = list(mean = mean, sd = sd), geom = "area", fill="white", alpha=1, xlim = c(mean-0.67*sd, mean+0.67*sd)) + 
-	stat_function(fun = dnorm, n = 101, args = list(mean = mean, sd = sd), geom = "area", fill="firebrick", alpha=0.2, xlim = c(mean+0.67*sd, end)) + 
+	stat_function(fun = dnorm, n = 101, args = list(mean = mean, sd = sd),  xlim = c(start, mean-0.67*sd)) +
+	stat_function(fun = dnorm, n = 101, args = list(mean = mean, sd = sd),  xlim = c(mean-0.67*sd, mean+0.67*sd)) + 
+	stat_function(fun = dnorm, n = 101, args = list(mean = mean, sd = sd), geom = "area", fill="springgreen4", alpha=0.6, xlim = c(mean+0.67*sd, end)) + 
 	stat_function(fun = dnorm, n = 101, args = list(mean = mean, sd = sd), colour="black") + ylab("") +
 	geom_segment(aes(x = start, y = 0, xend = end, yend = 0), colour="black") +
 	
@@ -162,7 +145,7 @@ p <- p + xlim(start, end) + scale_y_continuous(breaks = NULL) + theme_void()
 p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
 
 
-png("Ex_Q3.png", width=500, height=250, bg = "transparent")
+png("Ex_Q3.png", width=600, height=250, bg = "transparent")
 print(p)
 dev.off()
 
@@ -211,7 +194,7 @@ end <- 4
 
 p <-   ggplot(data = data.frame(x = c(start, end)), aes(x)) +
 	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="magenta", alpha=0.4, xlim = c(start, -1.56)) +
-	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="white", alpha=1, xlim = c(-1.56, end)) + 
+	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), xlim = c(-1.56, end)) + 
 	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), colour="black") +
 	   
 	   geom_segment(aes(x = -1.56, y = 0, xend = -1.56, yend = dnorm(-1.56, mean=0, sd = 1)), colour="black") +
@@ -226,14 +209,15 @@ p <-   ggplot(data = data.frame(x = c(start, end)), aes(x)) +
 	   
 	   scale_y_continuous(breaks = NULL) + theme_void()
 
+p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
 
-png("Twin_BW_normale_area_z.png", width=300, height=250)
+png("Twin_BW_normale_area_z.png", width=300, height=250, bg = "transparent")
 print(p)
 dev.off()
 
 p1 <- ggplot(data = data.frame(x = c(start, end)), aes(x)) +
 	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="magenta", alpha=0.4, xlim = c(1.56, end)) +
-	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="white", alpha=1, xlim = c(start, 1.56)) + 
+	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), xlim = c(start, 1.56)) + 
 	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), colour="black") +
 	   
 	   geom_segment(aes(x = 1.56, y = 0, xend = 1.56, yend = dnorm(1.56, mean=0, sd = 1)), colour="black") +
@@ -249,7 +233,9 @@ p1 <- ggplot(data = data.frame(x = c(start, end)), aes(x)) +
 	   scale_y_continuous(breaks = NULL) + theme_void()
 
 
-png("Twin_BW_normale_area_z_simmetrica.png", width=300, height=250)
+p1 <- p1 +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+png("Twin_BW_normale_area_z_simmetrica.png", width=300, height=250, bg = "transparent")
 print(p1)
 dev.off()
 
@@ -257,14 +243,17 @@ dev.off()
 p2 <- p1 + geom_segment(aes(x = -3, y = dnorm(-1, mean=0, sd = 1), xend = -0.5, yend = dnorm(-3, mean=0, sd = 1)+0.1), arrow = arrow(length = unit(0.2, "cm"), ends="last"), colour="black") +
    	   annotate("text", x = -3, y=dnorm(-1, mean=0, sd = 1) + 0.01, label = "Area nelle tavole", parse = FALSE, size=3) 
 
-png("Twin_BW_normale_area_z_1-alpha.png", width=300, height=250)
+
+p2 <- p2 +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+png("Twin_BW_normale_area_z_1-alpha.png", width=300, height=250, bg = "transparent")
 print(p2)
 dev.off()
 
 
 p <-   ggplot(data = data.frame(x = c(start, end)), aes(x)) +
 	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="magenta", alpha=0.4, xlim = c(start, 0.17)) +
-	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="white", alpha=1, xlim = c(0.17, end)) + 
+	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), xlim = c(0.17, end)) + 
 	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), colour="black") +
 	   
 	   geom_segment(aes(x = 0.17, y = 0, xend = 0.17, yend = dnorm(0.17, mean=0, sd = 1)), colour="black") +
@@ -280,6 +269,8 @@ p <-   ggplot(data = data.frame(x = c(start, end)), aes(x)) +
 	   scale_y_continuous(breaks = NULL) + theme_void()
 
 
-png("Twin_BW_normale_area_z_ex.png", width=300, height=250)
+p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+png("Twin_BW_normale_area_z_ex.png", width=300, height=250, bg = "transparent")
 print(p)
 dev.off()

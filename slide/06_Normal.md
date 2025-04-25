@@ -102,10 +102,9 @@ $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
 </div>
 <div>
 
-<span style="display:block; height:30px;"></span>
 
 <center>
-<img src="./img/normal/Twin_BW_hist.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_hist.png" img height="550px" border="0px"/>
 </center>
 
 </div>
@@ -135,10 +134,9 @@ $\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
 </div>
 <div>
 
-<span style="display:block; height:30px;"></span>
 
 <center>
-<img src="./img/normal/Twin_BW_hist_normale.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_hist_normale.png" img height="550px" border="0px"/>
 </center>
 
 </div>
@@ -165,10 +163,10 @@ Figure shows a normal curve with the same mean and standard deviation as the rec
 </div>
 <div>
 
-<span style="display:block; height:30px;"></span>
+
 
 <center>
-<img src="./img/normal/Twin_BW_normale.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_normale.png" img height="550px" border="0px"/>
 </center>
 
 </div>
@@ -193,9 +191,9 @@ It is an impressive achievement to be able to summarize over a million births by
 
 <div style="font-size: 80%" align="right">
 
-$\text{``very low birth weight"} < 1500 \text{ g}$
-$\text{Gemelli ``very low birth weight"} = 6\%$
-$\mathcal{P}(\text{``ßvery low birth weight"}) = 0.06$
+$\text{neonati di peso molto basso se} < 1500 \text{ g}$
+$\text{ neonati di peso molto basso} = 6\%$
+$\mathcal{P}(\text{neonati di peso molto basso}) = 0.06$
 
 
 </div>
@@ -203,10 +201,8 @@ $\mathcal{P}(\text{``ßvery low birth weight"}) = 0.06$
 </div>
 <div>
 
-<span style="display:block; height:30px;"></span>
-
 <center>
-<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_normale_area.png" img height="550px" border="0px"/>
 </center>
 
 </div>
@@ -243,13 +239,13 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 <span style="display:block; height:80px;"></span>
 
 <center>
-<img src="./img/normal/1200px-Normal_Distribution_PDF.svg_covered.png" img height="300px" border="4px"/>
+<img src="./img/normal/1200px-Normal_Distribution_PDF.svg_covered.png" img height="350px" border="4px"/>
 </center>
 
 </div>
 </div>
 
-<span style="display:block; height:30px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <style>
   #countdown_exercise_1{
@@ -362,7 +358,7 @@ updateButton_exercise_1();
 <span style="display:block; height:80px;"></span>
 
 <center>
-<img src="./img/normal/1200px-Normal_Distribution_PDF.svg_sd_covered.png" img height="300px" border="4px"/>
+<img src="./img/normal/1200px-Normal_Distribution_PDF.svg_sd_covered.png" img height="350px" border="4px"/>
 </center>
 
 </div>
@@ -393,13 +389,13 @@ updateButton_exercise_1();
 <span style="display:block; height:80px;"></span>
 
 <center>
-<img src="./img/normal/1200px-Normal_Distribution_PDF.svg_sd_covered.png" img height="300px" border="4px"/>
+<img src="./img/normal/1200px-Normal_Distribution_PDF.svg_sd_covered.png" img height="350px" border="4px"/>
 </center>
 
 </div>
 </div>
 
-<span style="display:block; height:30px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <style>
   #countdown_exercise_2{
@@ -512,7 +508,7 @@ updateButton_exercise_2();
 <span style="display:block; height:80px;"></span>
 
 <center>
-<img src="./img/normal/1200px-Normal_Distribution_PDF.svg.png" img height="300px" border="4px"/>
+<img src="./img/normal/1200px-Normal_Distribution_PDF.svg.png" img height="350px" border="4px"/>
 </center>
 
 </div>
@@ -547,10 +543,11 @@ updateButton_exercise_2();
 </div>
 </div>
 <div>
-<span style="display:block; height:80px;"></span>
+
+<span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/normal/Standard_Normal_Distribution.png" img height="370px" border="4px"/>
+<img src="./img/normal/Standard_Normal_Distribution_3sigma.png" img height="420px" border="4px"/>
 </center>
 
 </div>
@@ -1041,7 +1038,7 @@ updateButton_exercise_5();
 <span style="display:block; height:50px;"></span>
 
 <center>
-<img src="./img/normal/Ex_Q3.png" img height="350px" border="0px"/>
+<img src="./img/normal/Ex_Q3.png" img height="400px" border="0px"/>
 </center>
 
 ---
@@ -1062,34 +1059,30 @@ updateButton_exercise_5();
 </div>
 
 ---
-## Proporzione $\equiv$ probabilit&agrave;
+## Caratterizzare una singola osservazione
 
+<span style="display:block; height:0px;"></span>
 
 <div style="font-size: 90%">
 
-<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px" align="right"/>
-
-<span style="display:block; height:70px;"></span>
-
-- 6% dei gemelli sono "very low birth weight"
-- La probabilit&agrave; essere "very low birth weight" &egrave; 0.06
-
-<span style="display:block; height:20px;"></span>
-
-<div align="right">
-Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-</div>
+Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g. 
 
 </div>
 
+<span style="display:block; height:50px;"></span>
 
+<div style="font-size: 90%" align="right">
+
+Come si caratterizza rispetto all'intera<br/> popolazione dei neonati (gemelli)?
+
+</div>
 
 ---
 ## Facciamo un passo indietro...
 
 <div style="font-size: 90%">
 
-<img src="./img/normal/Twin_BW_normale_zscore.png" img height="450px" border="4px" align="right"/>
+<img src="./img/normal/Twin_BW_normale_zscore.png" img height="500px" border="0px" align="right"/>
 
 <span style="display:block; height:70px;"></span>
 
@@ -1100,7 +1093,7 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 
 ---
-## Per un neonato con "very low birth weight"
+## Caratterizzare una singola osservazione
 
 <span style="display:block; height:0px;"></span>
 
@@ -1114,7 +1107,7 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ il neonato pesa meno della media
 
 ---
-## Per un neonato con "very low birth weight"
+## Caratterizzare una singola osservazione
 
 <span style="display:block; height:0px;"></span>
 
@@ -1136,7 +1129,7 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
 </div>
 
 ---
-## Per un neonato con "very low birth weight"
+## Caratterizzare una singola osservazione
 
 <span style="display:block; height:0px;"></span>
 
@@ -1158,7 +1151,7 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
 </div>
 
 ---
-## Per un neonato con "very low birth weight"
+## Caratterizzare una singola osservazione
 
 <span style="display:block; height:0px;"></span>
 
@@ -1168,7 +1161,7 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
 
 <span style="display:block; height:0px;"></span>
 
-<img src="./img/normal/Twin_BW_normale_zscore_annotated.png" img height="430px" border="4px" align="right"/>
+<img src="./img/normal/Twin_BW_normale_zscore_annotated.png" img height="450px" border="0px" align="right"/>
 
 <span style="display:block; height:1px;"></span>
 
@@ -1467,7 +1460,7 @@ updateButton_exercise_7();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{7-10}{0.59} = -5.09$
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.$Stroop test. &nbsp;&nbsp; $x = 15.7$; &nbsp;&nbsp;  $\mu=16.2$, &nbsp;&nbsp; $\sigma=1.3$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.$ Stroop test. &nbsp;&nbsp; $x = 15.7$; &nbsp;&nbsp;  $\mu=16.2$, &nbsp;&nbsp; $\sigma=1.3$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{15.7-16.2}{1.3} = -0.65$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime viste, il neurologo deve concentrarsi sulla memoria, sull'abilita di 
@@ -1493,7 +1486,7 @@ updateButton_exercise_7();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{7-10}{0.59} = -5.09$
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.$Stroop test. &nbsp;&nbsp; $x = 15.7$; &nbsp;&nbsp;  $\mu=16.2$, &nbsp;&nbsp; $\sigma=1.3$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.$ Stroop test. &nbsp;&nbsp; $x = 15.7$; &nbsp;&nbsp;  $\mu=16.2$, &nbsp;&nbsp; $\sigma=1.3$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{15.7-16.2}{1.3} = -0.65$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime viste, il neurologo deve concentrarsi sulla memoria, sull'abilita di 
@@ -1560,12 +1553,12 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 
 <div style="font-size: 90%">
 
-<img src="./img/normal/Twin_BW_normale_area.png" img height="450px" border="4px" align="right"/>
+<img src="./img/normal/Twin_BW_normale_area.png" img height="500px" border="0px" align="right"/>
 
 <span style="display:block; height:70px;"></span>
 
-- 6% dei gemelli sono "very low birth weight"
-- La probabilit&agrave; essere "very low birth weight" &egrave; 0.06
+- 6% dei gemelli nascono con un peso molto basso 
+- La probabilit&agrave; di nascere con un peso molto basso &egrave; 0.06 
 
 <span style="display:block; height:20px;"></span>
 
@@ -1582,7 +1575,7 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 <div style="font-size: 80%">
 
-&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+&nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
 
@@ -1600,7 +1593,7 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 <div style="font-size: 80%">
 
-&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+&nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
 
@@ -1618,11 +1611,11 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 <div style="font-size: 80%">
 
-&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+&nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
 
-<img src="./img/normal/Twin_BW_normale_area_z.png" img height="340px" align=right border="4px"/>
+<img src="./img/normal/Twin_BW_normale_area_z.png" img height="400px" align=right border="0px"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2404}{580} = \frac{-904}{580} = -1.56$
@@ -1638,7 +1631,7 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 <div style="font-size: 80%">
 
-&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+&nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
 
@@ -1661,7 +1654,7 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 <div style="font-size: 80%">
 
-&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+&nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
 
@@ -1690,7 +1683,7 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 <span style="display:block; height:1px;"></span>
 
 <center>
-<img src="./img/normal/Twin_BW_normale_area_z.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_normale_area_z.png" img height="450px" border="0px"/>
 </center>
 
 </div>
@@ -1699,7 +1692,7 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 <span style="display:block; height:1px;"></span>
 
 <center>
-<img src="./img/normal/Twin_BW_normale_area_z_simmetrica.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_normale_area_z_simmetrica.png" img height="450px" border="0px"/>
 </center>
 
 </div>
@@ -1721,7 +1714,7 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 <span style="display:block; height:1px;"></span>
 
 <center>
-<img src="./img/normal/Twin_BW_normale_area_z_1-alpha.png" img height="450px" border="4px"/>
+<img src="./img/normal/Twin_BW_normale_area_z_1-alpha.png" img height="450px" border="0px"/>
 </center>
 
 
@@ -1736,7 +1729,7 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 <div style="font-size: 80%">
 
-&nbsp;&nbsp;&nbsp; Qual &egrave; la propabilit&agrave; di avere un gemello con "very low birth weight"?
+&nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
 
@@ -1900,7 +1893,7 @@ updateButton_exercise_8();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peso alla nascita inferiore ai $2500$g &egrave; inusuale. La madre deve preoccuparsi?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<img src="./img/normal/Twin_BW_normale_area_z_ex.png" img height="380px" border="4px" align="right"/>
+<img src="./img/normal/Twin_BW_normale_area_z_ex.png" img height="430px" border="0px" align="right"/>
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
@@ -1963,7 +1956,7 @@ updateButton_exercise_8();
 <div style="font-size: 80%">
 
 - Diversi fenomeni naturali sono normalmente distribuiti
-- La distrribuzione Normale &egrave; definita dalla media e dalla deviazione standard e corrisponde a una distribuzione di probabilit&agrave;
+- La distribuzione Normale &egrave; definita dalla media e dalla deviazione standard e corrisponde a una distribuzione di probabilit&agrave;
 - La distribuzione (Normale) di una popolazione ci fornisce la probabilit&agrave; di estrarre un individuo da quella popolazione, ma anche la sua frequenza 
 - Se i dati sono normalmente distribuiti, il 68% della popolazione si trova a 1 $\sigma$ dalla media, il 95% a 2 $\sigma$ e il 99.7% a 3 $\sigma$
 - Lo $z$-score ci permette di "posizionare" un'osservazione rispetto alla popolazione e di confrontare pi&ugrave; distribuzioni (anche molto diverse)

@@ -56,7 +56,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
 <span style="display:block; height:50px;"></span>
 
 <center>
-<img src="./img/descriptive/descriptive.png" img height="350px" border="4px"/>
+<img src="./img/descriptive/descriptive.png" img height="400px" border="0px"/>
 </center>
 
 <!--   Per le variabili quantitative è necessario descrivere i dati raccolti anche numericamente… Poiché generalmente il problema è che i dati sono tanti, può risultare più semplice sintetizzarli e ridurli a pochi numeri, più facili da comprendere, utilizzare e comunicare.
@@ -1242,7 +1242,7 @@ updateButton_exercise_6();
 <span style="display:block; height:1px;"></span>
 
 <center>
-<img src="./img/descriptive/outliers_mean.png" img height="450px" border="0px"/>
+<img src="./img/descriptive/outliers_in_the_wild.png" img height="450px" border="0px"/>
 </center>
 
 <div style="font-size: 50%">

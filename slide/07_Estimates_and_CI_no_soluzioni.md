@@ -641,7 +641,7 @@ Nella maggior parte delle situazioni pratiche, n=30 e' soddisfacente, ma l'appro
 <span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/normal/Standard_Normal_Distribution.png" img height="400px" border="4px"/>
+<img src="./img/normal/Standard_Normal_Distribution_3sigma.png" img height="400px" border="4px"/>
 </center>
 </div>
 </div>

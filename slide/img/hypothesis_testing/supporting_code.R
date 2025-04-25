@@ -218,67 +218,6 @@ print(p)
 dev.off()
 
 
-
-p <-   ggplot(data = data.frame(x = c(-15, 15)), aes(x)) +
-    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="grey74", alpha=0.2, xlim = c(-10, 10)) +
-	stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="magenta", alpha=1, xlim = c(-15, -10)) + 
-	stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="magenta", alpha=1, xlim = c(10, 15)) + 
-    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), colour="black") + ylab("") +
-	geom_segment(aes(x = -10, y = -0.0025, xend = -10, yend = dnorm(-10, mean=0, sd=4)), colour="black") +
-	geom_segment(aes(x = 10, y = -0.0025, xend = 10, yend = dnorm(10, mean=0, sd=4)), colour="black") +
-    scale_y_continuous(breaks = NULL) +
-	# annotate("text", x = -12, y = dnorm(-12, mean=0, sd=4)+0.005, label = "paste(mu[1] - mu[2], \"\")", parse = TRUE, size=7) +
-	# annotate("text", x = 12, y = dnorm(12, mean=0, sd=4)+0.005, label = "paste(mu[2] - mu[1], \"\")", parse = TRUE, size=7) +
-	geom_segment(aes(x = -12, y = dnorm(-12, mean=0, sd=4)+0.01, xend = -11, yend = 0.0025), arrow = arrow(length = unit(0.2, "cm"))) +
-	geom_segment(aes(x = 12, y = dnorm(12, mean=0, sd=4)+0.01, xend = 11, yend = 0.0025), arrow = arrow(length = unit(0.2, "cm"))) +
-	annotate("text", x = -12, y = dnorm(12, mean=0, sd=4)+0.012, label = "0.025", parse = TRUE, size=5) +
-	annotate("text", x = 12, y = dnorm(12, mean=0, sd=4)+0.012, label = "0.025", parse = TRUE, size=5) +
-	# geom_segment(aes(x = 0, y = 0, xend = 0, yend = dnorm(0, mean=0, sd=4)), colour="grey60", linewidth=1, linetype="dotted") +
-	# geom_segment(aes(x = 0, y = -0.0025, xend = 0, yend = 0), colour="black") +
-	# annotate('text', x = 0, y = -0.005, label = "bar(x)", parse=T, size=5) +
-	annotate('text', x = -10, y = -0.005, label = "-2", parse=T, size=5) +
-	annotate('text', x = 10, y = -0.005, label = "2", parse=T, size=5) +
-	# geom_segment(aes(x = -10, y = 0, xend = 10, yend = 0), colour="magenta", lwd=2) +
-	theme_void() + theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_)) 
-
-png("Two-tailed_test_ex_CI.png", bg = "transparent") 
-print(p)
-dev.off()
-
-
-p <-   ggplot(data = data.frame(x = c(-15, 15)), aes(x)) +
-    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="grey74", alpha=0.2, xlim = c(-10, 10)) +
-	stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="magenta", alpha=1, xlim = c(-15, -10)) + 
-	stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="darkgreen", alpha=0.7, xlim = c(-10, -9.5)) + 
-	stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="magenta", alpha=1, xlim = c(10, 15)) + 
-	stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), geom = "area", fill="darkgreen", alpha=0.7, xlim = c(9.5, 10)) + 
-    stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 4), colour="black") + ylab("") +
-	geom_segment(aes(x = -10, y = -0.0045, xend = -10, yend = dnorm(-10, mean=0, sd=4)), colour="black") +
-	geom_segment(aes(x = 10, y = -0.0045, xend = 10, yend = dnorm(10, mean=0, sd=4)), colour="black") +
-	geom_segment(aes(x = -9.5, y = -0.002, xend = -9.5, yend = dnorm(-9.5, mean=0, sd=4)), colour="black") +
-	geom_segment(aes(x = 9.5, y = -0.002, xend = 9.5, yend = dnorm(9.5, mean=0, sd=4)), colour="black") +
-    scale_y_continuous(breaks = NULL) +
-	# annotate("text", x = -12, y = dnorm(-12, mean=0, sd=4)+0.005, label = "paste(mu[1] - mu[2], \"\")", parse = TRUE, size=7) +
-	# annotate("text", x = 12, y = dnorm(12, mean=0, sd=4)+0.005, label = "paste(mu[2] - mu[1], \"\")", parse = TRUE, size=7) +
-	geom_segment(aes(x = -12, y = dnorm(-12, mean=0, sd=4)+0.01, xend = -11, yend = 0.0025), arrow = arrow(length = unit(0.2, "cm"))) +
-	geom_segment(aes(x = 12, y = dnorm(12, mean=0, sd=4)+0.01, xend = 11, yend = 0.0025), arrow = arrow(length = unit(0.2, "cm"))) +
-	annotate("text", x = -12, y = dnorm(12, mean=0, sd=4)+0.012, label = "0.025", parse = TRUE, size=5) +
-	annotate("text", x = 12, y = dnorm(12, mean=0, sd=4)+0.012, label = "0.025", parse = TRUE, size=5) +
-	# geom_segment(aes(x = 0, y = 0, xend = 0, yend = dnorm(0, mean=0, sd=4)), colour="grey60", linewidth=1, linetype="dotted") +
-	# geom_segment(aes(x = 0, y = -0.0025, xend = 0, yend = 0), colour="black") +
-	# annotate('text', x = 0, y = -0.005, label = "bar(x)", parse=T, size=5) +
-	annotate('text', x = -9.5, y = -0.003, label = "-1.8", parse=T, size=5) +
-	annotate('text', x = 9, y = -0.003, label = "1.8", parse=T, size=5) +
-	annotate('text', x = -10, y = -0.007, label = "-2", parse=T, size=5) +
-	annotate('text', x = 10, y = -0.007, label = "2", parse=T, size=5) +
-	# geom_segment(aes(x = -10, y = 0, xend = 10, yend = 0), colour="magenta", lwd=2) +
-	theme_void() + theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_)) 
-
-
-png("Two-tailed_test_ex.png", bg = "transparent")
-print(p)
-dev.off()
-
 library(patchwork)
 
 sd <- 5
@@ -323,7 +262,7 @@ p <-   ggplot(data = data.frame(x = c(start+shift, end+shift)), aes(x)) +
 p1 <- p_null/p & theme(plot.background = element_rect(fill='transparent'), legend.background = element_rect(fill = 'transparent') )
 
 
-png("Power.png", width = 480, height = 480+480/100*20, bg = "transparent")
+png("power.png", width = 480, height = 480+480/100*20, bg = "transparent")
 print(p1)
 dev.off()
 
@@ -363,7 +302,7 @@ p <-   ggplot(data = data.frame(x = c(start+shift, end+shift)), aes(x)) +
 
 p2 <- p_null/p & theme(plot.background = element_rect(fill='transparent'), legend.background = element_rect(fill = 'transparent') )
 
-png("Power_larger_alpha.png", width = 480, height = 480+480/100*20, bg = "transparent")
+png("power_larger_alpha.png", width = 480, height = 480+480/100*20, bg = "transparent")
 print(p2)
 dev.off()
 
@@ -406,7 +345,7 @@ p <-   ggplot(data = data.frame(x = c(start+shift, end+shift)), aes(x)) +
 p3 <- p_null/p & theme(plot.background = element_rect(fill='transparent'), legend.background = element_rect(fill = 'transparent') )
 
 
-png("Power_larger_effect.png", width = 480, height = 480+480/100*20, bg = "transparent")
+png("power_larger_effect.png", width = 480, height = 480+480/100*20, bg = "transparent")
 print(p3)
 dev.off()
 
@@ -450,7 +389,7 @@ p <-   ggplot(data = data.frame(x = c(start+shift, end+shift)), aes(x)) +
 p4 <- p_null/p  & theme(plot.background = element_rect(fill='transparent'), legend.background = element_rect(fill = 'transparent') )
 
 
-png("Power_smaller_sigma.png", width = 480, height = 480+480/100*20, bg = "transparent")
+png("power_smaller_sigma.png", width = 480, height = 480+480/100*20, bg = "transparent")
 print(p4)
 dev.off()
 

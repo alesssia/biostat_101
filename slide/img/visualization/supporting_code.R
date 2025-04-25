@@ -58,13 +58,6 @@ tmp <- tmp %>%
   mutate(prop = value / sum(tmp$value) *100) %>%
   mutate(ypos = cumsum(prop)- 0.5*prop )
 
-# g <- ggplot(tmp, aes(y=stage, x=prop)) + geom_bar(stat = "identity", width=0.8, fill="gray74", colour="black") + theme(legend.position="none") + graphic.settings + ylab("Metastatic stage") + xlab("Proportion (%)")
-#
-# png("MStage_barplot_horizontal_relative.png")
-# print(g)
-# dev.off()
-
-
 g <- ggplot(tmp, aes(x="", y=prop, fill=stage)) + geom_bar(stat="identity", width=0.9, color="white") + coord_polar("y", start=0) +  theme_void() + geom_text(aes(y = ypos, label = stage), color = "black", size=6) + scale_fill_brewer(palette="Set2") + theme(legend.position="none") 
 
 png("MStage_piechart.png")
@@ -105,8 +98,6 @@ png("MStage_waffle.png")
 print(g)
 dev.off()
 
-# stop()
-
 tmp <- table(md$metastatic_stage, md$sex)
 colnames(tmp) <- c("Femmine", "Maschi")
 
@@ -129,6 +120,9 @@ g <- ggplot(tmp, aes(y=ICI_therapy, x=value)) + geom_bar(stat = "identity", widt
 png("ICI_therapy_barplot_horizotal.png")
 print(g)
 dev.off()
+
+
+
 
 ## Quantitative variables
 
@@ -171,38 +165,12 @@ print(p)
 dev.off()
   
   
-# p <- ggplot(md, aes(x=age)) + geom_histogram(aes(y=..density.., fill=ORR), position = "identity", binwidth=5, color="black", alpha=0.2) + scale_fill_manual("Risposta", values=c("#FC8D62", "#66C2A5")) + scale_color_manual("Response", values=c("#FC8D62", "#66C2A5")) + theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size)) + xlab("Dimensione dell'intervallo") + ylab("Density") + ggtitle("Bin size = 5") + theme(legend.position="bottom") + geom_density(aes(colour=ORR), adjust = 0.6, bw=5, lwd=2)
-#
-#
-# png("Age_histogram_bin5_response_density.png")
-# print(p)
-# dev.off()
-
-
-# glycans <- read.csv("/Users/visconti/Documents/Research/2017/random/mfalchi/glycans/data/original_data/Data_release_IgA_TwinsUK_20171222.csv")
-# glycans$Gender <- ifelse(glycans$Gender == "F", "Female", "Male")
-#
-# p <- ggplot(glycans, aes(x=Age)) + geom_histogram(aes(y=..density.., fill=Gender), position = "identity", binwidth=5, color="black", alpha=0.2) + scale_fill_manual("Sex", values=c("magenta", "darkgreen")) + scale_color_manual("Sex", values=c("magenta", "darkgreen")) + theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size)) + xlab("Age (years)") + ylab("Density") + ggtitle("Bin size = 5") + theme(legend.position="bottom") + geom_density(aes(colour=Gender), adjust = 0.6, bw=5, lwd=2)
-#
-# png("Age_histogram_bin5_glycan_age_sex.png")
-# print(p)
-# dev.off()
-
-
 p <- ggplot(md, aes(x=ORR, y=age)) + geom_boxplot(fill="grey84", size=0.8) + graphic.settings + xlab("Risposta") + ylab("Eta' (anni)") 
 
 
 png("Boxplot_age_ORR_simple.png")
 print(p)
 dev.off()
-
-# p <- ggplot(md, aes(x=ORR, y=age)) + geom_boxplot(fill="grey84", outlier.shape = NA, size=0.8) + graphic.settings + xlab("Response") + ylab("Age (years)")  +  geom_beeswarm(size=2, shape=16, colour="grey24", groupOnX=TRUE)
-#
-#
-# png("Boxplot_age_ORR_dots.png")
-# print(p)
-# dev.off()
-
 
 
 p <- ggplot(md, aes(x = ORR, y = age)) +
