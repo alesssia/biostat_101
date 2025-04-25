@@ -303,140 +303,6 @@ Il metodo scientifico si basa sulla falsificazione delle ipotesi (K. Popper), in
 </div>
 
 <style>
-  #countdown_exercise_1{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_1.running {
-    background-color: green;
-  }
-  #countdown_exercise_1.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_1"></button>
-
-<script>
-<!--
-const countdown_exercise_1= document.getElementById("countdown_exercise_1");
-const seconds_exercise_1= 120; // seconds_exercise_1
-let timeLeft_exercise_1= seconds_exercise_1;
-let timerInterval_exercise_1= null;
-
-function formatTime_exercise_1(seconds_exercise_1) {
-  const minutes = Math.floor(seconds_exercise_1/ 60);
-  const remainingseconds_exercise_1= seconds_exercise_1% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_1).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_1() {
-  countdown_exercise_1.textContent = formatTime_exercise_1(timeLeft_exercise_1);
-}
-
-function startTimer_exercise_1() {
-  if (timerInterval_exercise_1=== null) {
-    countdown_exercise_1.classList.add('running');
-    countdown_exercise_1.classList.remove('finished');
-    timerInterval_exercise_1= setInterval(() => {
-      if (timeLeft_exercise_1> 0) {
-        timeLeft_exercise_1--;
-        updateButton_exercise_1();
-      } else {
-        clearInterval(timerInterval_exercise_1);
-        timerInterval_exercise_1= null;
-        countdown_exercise_1.classList.remove('running');
-        countdown_exercise_1.classList.add('finished');
-        countdown_exercise_1.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_1();
-  }
-}
-
-function pauseTimer_exercise_1() {
-  clearInterval(timerInterval_exercise_1);
-  timerInterval_exercise_1= null;
-  countdown_exercise_1.classList.remove('running');
-}
-
-function resetTimer_exercise_1() {
-  timeLeft_exercise_1= seconds_exercise_1;
-  updateButton_exercise_1();
-  countdown_exercise_1.classList.remove('finished');
-  countdown_exercise_1.classList.remove('running');
-  timerInterval_exercise_1= null;
-}
-
-countdown_exercise_1.addEventListener("click", () => {
-  if (countdown_exercise_1.classList.contains('finished')) {
-    resetTimer_exercise_1();
-  } else {
-    startTimer_exercise_1();
-  }
-});
-
-updateButton_exercise_1();
--->
-</script>
-
-<span style="display:block; height:30px;"></span>
-
-<div style="font-size: 50%" align="right">
-
-Tomazini, B.M., *et al.*, "Effect of dexamethasone on days alive and ventilator-free in patients with moderate or severe acute respiratory distress syndrome and COVID-19: the CoDEX randomized clinical trial.", JAMA, 2020, doi:10.1001/jama.2020.17021
-</div>
-
----
-### Esercizio #2 -- Soluzione
-
-<!-- <span style="display:block; height:1px;"></span> -->
-
-<center>
-<img src="./img/hypothesis_testing/abstract_ex1.png" img height="180px" border="4px"/>
-</center>
-
-<div style="font-size: 66%">
-
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla di questo studio
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Dexamethasone e standard care  sono **pi&ugrave; efficaci** che lo standard care da solo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dexamethasone e standard care  sono **meno efficaci** che lo standard care da solo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Dexamethasone e standard care  sono **tanto efficaci quanto** lo standard care da solo &nbsp;&nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Dexamethasone e standard care **non** sono **tanto efficaci quanto** lo standard care da solo
-
-</div>
-
-
----
-### Esercizio #3
-
-<!-- <span style="display:block; height:1px;"></span> -->
-
-<center>
-<img src="./img/hypothesis_testing/abstract_ex1.png" img height="180px" border="4px"/>
-</center>
-
-<div style="font-size: 80%">
-
-:question: &nbsp;&nbsp;&nbsp; Come formuleresti operativamente l’ipotesi nulla di questo studio?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_{\text{c}} - \mu_{\text{i}} = 0$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_{\text{c}} - \mu_{\text{i}} \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\bar{x}_\text{c}-\bar{x}_\text{i} = 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $\bar{x}_\text{c}-\bar{x}_\text{i} \neq 0$
-
-</div>
-
-
-<style>
   #countdown_exercise_2{
     padding: 10px 20px;
     font-size: 20px;
@@ -521,9 +387,140 @@ updateButton_exercise_2();
 -->
 </script>
 
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Tomazini, B.M., *et al.*, "Effect of dexamethasone on days alive and ventilator-free in patients with moderate or severe acute respiratory distress syndrome and COVID-19: the CoDEX randomized clinical trial.", JAMA, 2020, doi:10.1001/jama.2020.17021
 
 </div>
+
+---
+### Esercizio #2 -- Soluzione
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<center>
+<img src="./img/hypothesis_testing/abstract_ex1.png" img height="180px" border="4px"/>
+</center>
+
+<div style="font-size: 66%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l'ipotesi nulla di questo studio
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Dexamethasone e standard care  sono **pi&ugrave; efficaci** che lo standard care da solo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dexamethasone e standard care  sono **meno efficaci** che lo standard care da solo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Dexamethasone e standard care  sono **tanto efficaci quanto** lo standard care da solo &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Dexamethasone e standard care **non** sono **tanto efficaci quanto** lo standard care da solo
+
 </div>
+
+
+---
+### Esercizio #3
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<center>
+<img src="./img/hypothesis_testing/abstract_ex1.png" img height="180px" border="4px"/>
+</center>
+
+<div style="font-size: 80%">
+
+:question: &nbsp;&nbsp;&nbsp; Come formuleresti operativamente l’ipotesi nulla di questo studio?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_{\text{c}} - \mu_{\text{i}} = 0$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_{\text{c}} - \mu_{\text{i}} \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\bar{x}_\text{c}-\bar{x}_\text{i} = 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $\bar{x}_\text{c}-\bar{x}_\text{i} \neq 0$
+
+</div>
+
+
+<style>
+  #countdown_exercise_3{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_3.running {
+    background-color: green;
+  }
+  #countdown_exercise_3.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_3"></button>
+
+<script>
+<!--
+const countdown_exercise_3= document.getElementById("countdown_exercise_3");
+const seconds_exercise_3= 120; // seconds_exercise_3
+let timeLeft_exercise_3= seconds_exercise_3;
+let timerInterval_exercise_3= null;
+
+function formatTime_exercise_3(seconds_exercise_3) {
+  const minutes = Math.floor(seconds_exercise_3/ 60);
+  const remainingseconds_exercise_3= seconds_exercise_3% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_3).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_3() {
+  countdown_exercise_3.textContent = formatTime_exercise_3(timeLeft_exercise_3);
+}
+
+function startTimer_exercise_3() {
+  if (timerInterval_exercise_3=== null) {
+    countdown_exercise_3.classList.add('running');
+    countdown_exercise_3.classList.remove('finished');
+    timerInterval_exercise_3= setInterval(() => {
+      if (timeLeft_exercise_3> 0) {
+        timeLeft_exercise_3--;
+        updateButton_exercise_3();
+      } else {
+        clearInterval(timerInterval_exercise_3);
+        timerInterval_exercise_3= null;
+        countdown_exercise_3.classList.remove('running');
+        countdown_exercise_3.classList.add('finished');
+        countdown_exercise_3.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_3();
+  }
+}
+
+function pauseTimer_exercise_3() {
+  clearInterval(timerInterval_exercise_3);
+  timerInterval_exercise_3= null;
+  countdown_exercise_3.classList.remove('running');
+}
+
+function resetTimer_exercise_3() {
+  timeLeft_exercise_3= seconds_exercise_3;
+  updateButton_exercise_3();
+  countdown_exercise_3.classList.remove('finished');
+  countdown_exercise_3.classList.remove('running');
+  timerInterval_exercise_3= null;
+}
+
+countdown_exercise_3.addEventListener("click", () => {
+  if (countdown_exercise_3.classList.contains('finished')) {
+    resetTimer_exercise_3();
+  } else {
+    startTimer_exercise_3();
+  }
+});
+
+updateButton_exercise_3();
+-->
+</script>
 
 ---
 ### Esercizio #3 -- Soluzione
@@ -596,6 +593,127 @@ Non rifiutando l'ipotesi nulla, non diciamo che essa sia vera, ma che potrebbe e
 ATTENZIONE ad un ultimo punto: i dati su cui andiamo a testare la nostra ipotesi sono quelli di un campione, ma l'ipotesi viene fatta sull'intera popolazione -->
 
 ---
+### Esercizio #4
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Il fatto che l'ipotesi nulla e l'ipotesi alternativa siano mutualmente 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; esclusive significa che se l'ipotesi nulla &egrave; vera, l'ipotesi alternativa...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) deve anche essere vera
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pu&ograve; essere sia vera sia falsa
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) deve essere falsa
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dall'ipotesi alternativa
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+<style>
+  #countdown_exercise_4{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_4.running {
+    background-color: green;
+  }
+  #countdown_exercise_4.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_4"></button>
+
+<script>
+<!--
+const countdown_exercise_4= document.getElementById("countdown_exercise_4");
+const seconds_exercise_4= 60; // seconds_exercise_4
+let timeLeft_exercise_4= seconds_exercise_4;
+let timerInterval_exercise_4= null;
+
+function formatTime_exercise_4(seconds_exercise_4) {
+  const minutes = Math.floor(seconds_exercise_4/ 60);
+  const remainingseconds_exercise_4= seconds_exercise_4% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_4).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_4() {
+  countdown_exercise_4.textContent = formatTime_exercise_4(timeLeft_exercise_4);
+}
+
+function startTimer_exercise_4() {
+  if (timerInterval_exercise_4=== null) {
+    countdown_exercise_4.classList.add('running');
+    countdown_exercise_4.classList.remove('finished');
+    timerInterval_exercise_4= setInterval(() => {
+      if (timeLeft_exercise_4> 0) {
+        timeLeft_exercise_4--;
+        updateButton_exercise_4();
+      } else {
+        clearInterval(timerInterval_exercise_4);
+        timerInterval_exercise_4= null;
+        countdown_exercise_4.classList.remove('running');
+        countdown_exercise_4.classList.add('finished');
+        countdown_exercise_4.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_4();
+  }
+}
+
+function pauseTimer_exercise_4() {
+  clearInterval(timerInterval_exercise_4);
+  timerInterval_exercise_4= null;
+  countdown_exercise_4.classList.remove('running');
+}
+
+function resetTimer_exercise_4() {
+  timeLeft_exercise_4= seconds_exercise_4;
+  updateButton_exercise_4();
+  countdown_exercise_4.classList.remove('finished');
+  countdown_exercise_4.classList.remove('running');
+  timerInterval_exercise_4= null;
+}
+
+countdown_exercise_4.addEventListener("click", () => {
+  if (countdown_exercise_4.classList.contains('finished')) {
+    resetTimer_exercise_4();
+  } else {
+    startTimer_exercise_4();
+  }
+});
+
+updateButton_exercise_4();
+-->
+</script>
+
+---
+### Esercizio #4 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Il fatto che l'ipotesi nulla e l'ipotesi alternativa siano mutualmente 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; esclusive significa che se l'ipotesi nulla &egrave; vera, l'ipotesi alternativa...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) deve anche essere vera
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pu&ograve; essere sia vera sia falsa
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) deve essere falsa &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dall'ipotesi alternativa
+
+</div>
+
+---
 ## Verificare ipotesi
 
 <div style="font-size: 90%" >
@@ -651,6 +769,137 @@ ATTENZIONE ad un ultimo punto: i dati su cui andiamo a testare la nostra ipotesi
 </div>
 
 </div>
+
+---
+### Esercizio #5
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Anche se l'ipotesi nulla fosse vera, la differenza delle medie potrebbe 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; non essere esattamente zero a causa...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) dell'ipotesi nulla, che &egrave; stata formulata in modo impreciso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) di differenze individuali 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) di errori di misurazione
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) se l'ipotesi nulla &egrave; vera, la differenza &egrave; sempre zero
+
+</div>
+
+<span style="display:block; height:70px;"></span>
+
+<style>
+  #countdown_exercise_5{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_5.running {
+    background-color: green;
+  }
+  #countdown_exercise_5.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_5"></button>
+
+<script>
+<!--
+const countdown_exercise_5= document.getElementById("countdown_exercise_5");
+const seconds_exercise_5= 60; // seconds_exercise_5
+let timeLeft_exercise_5= seconds_exercise_5;
+let timerInterval_exercise_5= null;
+
+function formatTime_exercise_5(seconds_exercise_5) {
+  const minutes = Math.floor(seconds_exercise_5/ 60);
+  const remainingseconds_exercise_5= seconds_exercise_5% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_5).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_5() {
+  countdown_exercise_5.textContent = formatTime_exercise_5(timeLeft_exercise_5);
+}
+
+function startTimer_exercise_5() {
+  if (timerInterval_exercise_5=== null) {
+    countdown_exercise_5.classList.add('running');
+    countdown_exercise_5.classList.remove('finished');
+    timerInterval_exercise_5= setInterval(() => {
+      if (timeLeft_exercise_5> 0) {
+        timeLeft_exercise_5--;
+        updateButton_exercise_5();
+      } else {
+        clearInterval(timerInterval_exercise_5);
+        timerInterval_exercise_5= null;
+        countdown_exercise_5.classList.remove('running');
+        countdown_exercise_5.classList.add('finished');
+        countdown_exercise_5.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_5();
+  }
+}
+
+function pauseTimer_exercise_5() {
+  clearInterval(timerInterval_exercise_5);
+  timerInterval_exercise_5= null;
+  countdown_exercise_5.classList.remove('running');
+}
+
+function resetTimer_exercise_5() {
+  timeLeft_exercise_5= seconds_exercise_5;
+  updateButton_exercise_5();
+  countdown_exercise_5.classList.remove('finished');
+  countdown_exercise_5.classList.remove('running');
+  timerInterval_exercise_5= null;
+}
+
+countdown_exercise_5.addEventListener("click", () => {
+  if (countdown_exercise_5.classList.contains('finished')) {
+    resetTimer_exercise_5();
+  } else {
+    startTimer_exercise_5();
+  }
+});
+
+updateButton_exercise_5();
+-->
+</script>
+
+
+---
+### Esercizio #5 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Anche se l'ipotesi nulla fosse vera, la differenza delle medie potrebbe 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; non essere esattamente zero a causa...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) dell'ipotesi nulla, che &egrave; stata formulata in modo impreciso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) di differenze individuali &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) di errori di misurazione &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) se l'ipotesi nulla &egrave; vera, la differenza &egrave; sempre zero
+
+</div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 90%" align="right">
+
+Errore di campionamento
+
+</div>
+
 
 ---
 ## Verificare ipotesi
@@ -947,7 +1196,7 @@ And it is important to emphasize that the exact P-value is conditional not only 
 --->
 
 ---
-## Perch&eacute; $\mathbf{\alpha}$ < 0.05?
+## Perch&eacute;?
 
 
 <div class="columns">
@@ -984,6 +1233,396 @@ random variable for specially selected values ofP
 Kendall mentioned that Fisher produced the tables of significance levels to save space and to avoid copyright problems with Karl Pearson, whom he disliked in Foundations of Statistical Inference, 1971
 
 -->
+
+---
+### Esercizio #6
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Quando in uno studio si dice che il risultato &egrave; "stastisticamente significativo"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significa che...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'ipotesi nulla &egrave; stata rifiutata
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) l'ipotesi nulla **non** &egrave;  stata rifiutata
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) il risultato osservato &egrave; probabilmente dovuto a errori di campionamento
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) il risultato osservato **non** &egrave; probabilmente dovuto a errori di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; campionamento
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) il p-value &egrave; inferiore al livello di significativit&agrave; $\alpha$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) il p-value &egrave; superiore al livello di significativit&agrave; $\alpha$
+
+</div>
+
+<span style="display:block; height:1px;"></span>
+
+<style>
+  #countdown_exercise_6{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_6.running {
+    background-color: green;
+  }
+  #countdown_exercise_6.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_6"></button>
+
+<script>
+<!--
+const countdown_exercise_6= document.getElementById("countdown_exercise_6");
+const seconds_exercise_6= 120; // seconds_exercise_6
+let timeLeft_exercise_6= seconds_exercise_6;
+let timerInterval_exercise_6= null;
+
+function formatTime_exercise_6(seconds_exercise_6) {
+  const minutes = Math.floor(seconds_exercise_6/ 60);
+  const remainingseconds_exercise_6= seconds_exercise_6% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_6() {
+  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
+}
+
+function startTimer_exercise_6() {
+  if (timerInterval_exercise_6=== null) {
+    countdown_exercise_6.classList.add('running');
+    countdown_exercise_6.classList.remove('finished');
+    timerInterval_exercise_6= setInterval(() => {
+      if (timeLeft_exercise_6> 0) {
+        timeLeft_exercise_6--;
+        updateButton_exercise_6();
+      } else {
+        clearInterval(timerInterval_exercise_6);
+        timerInterval_exercise_6= null;
+        countdown_exercise_6.classList.remove('running');
+        countdown_exercise_6.classList.add('finished');
+        countdown_exercise_6.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_6();
+  }
+}
+
+function pauseTimer_exercise_6() {
+  clearInterval(timerInterval_exercise_6);
+  timerInterval_exercise_6= null;
+  countdown_exercise_6.classList.remove('running');
+}
+
+function resetTimer_exercise_6() {
+  timeLeft_exercise_6= seconds_exercise_6;
+  updateButton_exercise_6();
+  countdown_exercise_6.classList.remove('finished');
+  countdown_exercise_6.classList.remove('running');
+  timerInterval_exercise_6= null;
+}
+
+countdown_exercise_6.addEventListener("click", () => {
+  if (countdown_exercise_6.classList.contains('finished')) {
+    resetTimer_exercise_6();
+  } else {
+    startTimer_exercise_6();
+  }
+});
+
+updateButton_exercise_6();
+-->
+</script>
+
+
+---
+### Esercizio #6 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Quando in uno studio si dice che il risultato &egrave; "stastisticamente significativo"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significa che...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'ipotesi nulla &egrave; stata rifiutata  &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) l'ipotesi nulla **non** &egrave;  stata rifiutata
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) il risultato osservato &egrave; probabilmente dovuto a errori di campionamento
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) il risultato osservato **non** &egrave; probabilmente dovuto a errori di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; campionamento &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) il p-value &egrave; inferiore al livello di significativit&agrave; $\alpha$ &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) il p-value &egrave; superiore al livello di significativit&agrave; $\alpha$
+
+</div>
+
+---
+### Esercizio #7
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; In uno studio clinico randomizzato, il P-value associato alla variabile  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “Sex” è pari a 0.48. Con un livello di significativit&agrave; del 5%, ci sono differenze 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; statisticamente significative nella distribuzione maschi/femmine nei due 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppi?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) S&igrave;, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) No, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
+
+</div>
+
+<span style="display:block; height:40px;"></span>
+
+<style>
+  #countdown_exercise_7{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_7.running {
+    background-color: green;
+  }
+  #countdown_exercise_7.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_7"></button>
+
+<script>
+<!--
+const countdown_exercise_7= document.getElementById("countdown_exercise_7");
+const seconds_exercise_7= 60; // seconds_exercise_7
+let timeLeft_exercise_7= seconds_exercise_7;
+let timerInterval_exercise_7= null;
+
+function formatTime_exercise_7(seconds_exercise_7) {
+  const minutes = Math.floor(seconds_exercise_7/ 60);
+  const remainingseconds_exercise_7= seconds_exercise_7% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_7).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_7() {
+  countdown_exercise_7.textContent = formatTime_exercise_7(timeLeft_exercise_7);
+}
+
+function startTimer_exercise_7() {
+  if (timerInterval_exercise_7=== null) {
+    countdown_exercise_7.classList.add('running');
+    countdown_exercise_7.classList.remove('finished');
+    timerInterval_exercise_7= setInterval(() => {
+      if (timeLeft_exercise_7> 0) {
+        timeLeft_exercise_7--;
+        updateButton_exercise_7();
+      } else {
+        clearInterval(timerInterval_exercise_7);
+        timerInterval_exercise_7= null;
+        countdown_exercise_7.classList.remove('running');
+        countdown_exercise_7.classList.add('finished');
+        countdown_exercise_7.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_7();
+  }
+}
+
+function pauseTimer_exercise_7() {
+  clearInterval(timerInterval_exercise_7);
+  timerInterval_exercise_7= null;
+  countdown_exercise_7.classList.remove('running');
+}
+
+function resetTimer_exercise_7() {
+  timeLeft_exercise_7= seconds_exercise_7;
+  updateButton_exercise_7();
+  countdown_exercise_7.classList.remove('finished');
+  countdown_exercise_7.classList.remove('running');
+  timerInterval_exercise_7= null;
+}
+
+countdown_exercise_7.addEventListener("click", () => {
+  if (countdown_exercise_7.classList.contains('finished')) {
+    resetTimer_exercise_7();
+  } else {
+    startTimer_exercise_7();
+  }
+});
+
+updateButton_exercise_7();
+-->
+</script>
+
+---
+### Esercizio #7 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; In uno studio clinico randomizzato, il P-value associato alla variabile  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “Sex” è pari a 0.48. Con un livello di significativit&agrave; del 5%, ci sono differenze 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; statisticamente significative nella distribuzione maschi/femmine nei due 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppi?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) S&igrave;, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave; &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) No, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+---
+### Esercizio #8
+
+<span style="display:block; height:5px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Se **non** rifiuto l'ipotesi nulla significa che
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) ho provato che l'ipotesi nulla sia vera
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ho provato che l'ipotesi nulla sia falsa
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) le mie osservazioni sono compatibili con l'ipotesi nulla
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) le mie osservazioni non sono compatibili con l'ipotesi nulla
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) dipende dalla domanda di ricerca
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) nessuno dei precedenti
+
+</div>
+
+<span style="display:block; height:20px;"></span>
+
+<style>
+  #countdown_exercise_8{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_8.running {
+    background-color: green;
+  }
+  #countdown_exercise_8.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_8"></button>
+
+<script>
+<!--
+const countdown_exercise_8= document.getElementById("countdown_exercise_8");
+const seconds_exercise_8= 60; // seconds_exercise_8
+let timeLeft_exercise_8= seconds_exercise_8;
+let timerInterval_exercise_8= null;
+
+function formatTime_exercise_8(seconds_exercise_8) {
+  const minutes = Math.floor(seconds_exercise_8/ 60);
+  const remainingseconds_exercise_8= seconds_exercise_8% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_8).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_8() {
+  countdown_exercise_8.textContent = formatTime_exercise_8(timeLeft_exercise_8);
+}
+
+function startTimer_exercise_8() {
+  if (timerInterval_exercise_8=== null) {
+    countdown_exercise_8.classList.add('running');
+    countdown_exercise_8.classList.remove('finished');
+    timerInterval_exercise_8= setInterval(() => {
+      if (timeLeft_exercise_8> 0) {
+        timeLeft_exercise_8--;
+        updateButton_exercise_8();
+      } else {
+        clearInterval(timerInterval_exercise_8);
+        timerInterval_exercise_8= null;
+        countdown_exercise_8.classList.remove('running');
+        countdown_exercise_8.classList.add('finished');
+        countdown_exercise_8.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_8();
+  }
+}
+
+function pauseTimer_exercise_8() {
+  clearInterval(timerInterval_exercise_8);
+  timerInterval_exercise_8= null;
+  countdown_exercise_8.classList.remove('running');
+}
+
+function resetTimer_exercise_8() {
+  timeLeft_exercise_8= seconds_exercise_8;
+  updateButton_exercise_8();
+  countdown_exercise_8.classList.remove('finished');
+  countdown_exercise_8.classList.remove('running');
+  timerInterval_exercise_8= null;
+}
+
+countdown_exercise_8.addEventListener("click", () => {
+  if (countdown_exercise_8.classList.contains('finished')) {
+    resetTimer_exercise_8();
+  } else {
+    startTimer_exercise_8();
+  }
+});
+
+updateButton_exercise_8();
+-->
+</script>
+
+
+---
+### Esercizio #8 -- Soluzione
+
+<span style="display:block; height:5px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Se **non** rifiuto l'ipotesi nulla significa che
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) ho provato che l'ipotesi nulla sia vera
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ho provato che l'ipotesi nulla sia falsa
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) le mie osservazioni sono compatibili con l'ipotesi nulla &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) le mie osservazioni non sono compatibili con l'ipotesi nulla
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) dipende dalla domanda di ricerca
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) nessuno dei precedenti
+
+</div>
+
+<!-- Il metodo statistico formalizza questa idea (È più semplice trovare evidenze contro un’ipotesi piuttosto che evidenze a favore) attraverso l’ipotesi nulla, 
+
+HO ci dice che non ci sono differenze. I gemelli mono e di pesano uguale
+
+L’ipotesi nulla (𝐻_0 )  è l’ipotesi considerata vera finché non vengono presentate delle prove (evidenza empirica) per mostrare che non lo è
+
+Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
+
+
+
 
 ---
 ## Test di ipotesi, un passo alla volta
@@ -1102,268 +1741,6 @@ $^{(*)}$ Stiamo usando il $t$-test della differenza di due medie campionarie e n
 <!-- P-value measures how likely it is that we would have observed such an extreme value were the null hypothesis really true. -->
 
 ---
-### Esercizio #4
-
-<span style="display:block; height:5px;"></span>
-
-<div style="font-size: 90%" >
-
-:question: &nbsp;&nbsp;&nbsp; Se **non** rifiuto l'ipotesi nulla significa che
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) ho provato che l'ipotesi nulla sia vera
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ho provato che l'ipotesi nulla sia falsa
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) le mie osservazioni sono compatibili con l'ipotesi nulla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) le mie osservazioni non sono compatibili con l'ipotesi nulla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuno dei precedenti
-
-</div>
-
-<span style="display:block; height:20px;"></span>
-
-<style>
-  #countdown_exercise_3{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_3.running {
-    background-color: green;
-  }
-  #countdown_exercise_3.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_3"></button>
-
-<script>
-<!--
-const countdown_exercise_3= document.getElementById("countdown_exercise_3");
-const seconds_exercise_3= 120; // seconds_exercise_3
-let timeLeft_exercise_3= seconds_exercise_3;
-let timerInterval_exercise_3= null;
-
-function formatTime_exercise_3(seconds_exercise_3) {
-  const minutes = Math.floor(seconds_exercise_3/ 60);
-  const remainingseconds_exercise_3= seconds_exercise_3% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_3).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_3() {
-  countdown_exercise_3.textContent = formatTime_exercise_3(timeLeft_exercise_3);
-}
-
-function startTimer_exercise_3() {
-  if (timerInterval_exercise_3=== null) {
-    countdown_exercise_3.classList.add('running');
-    countdown_exercise_3.classList.remove('finished');
-    timerInterval_exercise_3= setInterval(() => {
-      if (timeLeft_exercise_3> 0) {
-        timeLeft_exercise_3--;
-        updateButton_exercise_3();
-      } else {
-        clearInterval(timerInterval_exercise_3);
-        timerInterval_exercise_3= null;
-        countdown_exercise_3.classList.remove('running');
-        countdown_exercise_3.classList.add('finished');
-        countdown_exercise_3.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_3();
-  }
-}
-
-function pauseTimer_exercise_3() {
-  clearInterval(timerInterval_exercise_3);
-  timerInterval_exercise_3= null;
-  countdown_exercise_3.classList.remove('running');
-}
-
-function resetTimer_exercise_3() {
-  timeLeft_exercise_3= seconds_exercise_3;
-  updateButton_exercise_3();
-  countdown_exercise_3.classList.remove('finished');
-  countdown_exercise_3.classList.remove('running');
-  timerInterval_exercise_3= null;
-}
-
-countdown_exercise_3.addEventListener("click", () => {
-  if (countdown_exercise_3.classList.contains('finished')) {
-    resetTimer_exercise_3();
-  } else {
-    startTimer_exercise_3();
-  }
-});
-
-updateButton_exercise_3();
--->
-</script>
-
-
----
-### Esercizio #4 -- Soluzione
-
-<span style="display:block; height:5px;"></span>
-
-<div style="font-size: 90%" >
-
-:question: &nbsp;&nbsp;&nbsp; Se **non** rifiuto l'ipotesi nulla significa che
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) ho provato che l'ipotesi nulla sia vera
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) ho provato che l'ipotesi nulla sia falsa
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) le mie osservazioni sono compatibili con l'ipotesi nulla &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) le mie osservazioni non sono compatibili con l'ipotesi nulla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuno dei precedenti
-
-</div>
-
-<!-- Il metodo statistico formalizza questa idea (È più semplice trovare evidenze contro un’ipotesi piuttosto che evidenze a favore) attraverso l’ipotesi nulla, 
-
-HO ci dice che non ci sono differenze. I gemelli mono e di pesano uguale
-
-L’ipotesi nulla (𝐻_0 )  è l’ipotesi considerata vera finché non vengono presentate delle prove (evidenza empirica) per mostrare che non lo è
-
-Non possiamo provare una teoria, ma possiamo falsificare delle affermazioni -->
-
-
-
----
-### Esercizio #5
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 80%" >
-
-:question: &nbsp;&nbsp;&nbsp; In uno studio clinico randomizzato, il P-value associato alla variabile  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “Sex” è pari a 0.48. Con un livello di significativit&agrave; del 5%, ci sono differenze 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; statisticamente significative nella distribuzione maschi/femmine nei due 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppi?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) S&igrave;, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) No, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
-
-</div>
-
-<span style="display:block; height:40px;"></span>
-
-<style>
-  #countdown_exercise_4{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_4.running {
-    background-color: green;
-  }
-  #countdown_exercise_4.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_4"></button>
-
-<script>
-<!--
-const countdown_exercise_4= document.getElementById("countdown_exercise_4");
-const seconds_exercise_4= 120; // seconds_exercise_4
-let timeLeft_exercise_4= seconds_exercise_4;
-let timerInterval_exercise_4= null;
-
-function formatTime_exercise_4(seconds_exercise_4) {
-  const minutes = Math.floor(seconds_exercise_4/ 60);
-  const remainingseconds_exercise_4= seconds_exercise_4% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_4).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_4() {
-  countdown_exercise_4.textContent = formatTime_exercise_4(timeLeft_exercise_4);
-}
-
-function startTimer_exercise_4() {
-  if (timerInterval_exercise_4=== null) {
-    countdown_exercise_4.classList.add('running');
-    countdown_exercise_4.classList.remove('finished');
-    timerInterval_exercise_4= setInterval(() => {
-      if (timeLeft_exercise_4> 0) {
-        timeLeft_exercise_4--;
-        updateButton_exercise_4();
-      } else {
-        clearInterval(timerInterval_exercise_4);
-        timerInterval_exercise_4= null;
-        countdown_exercise_4.classList.remove('running');
-        countdown_exercise_4.classList.add('finished');
-        countdown_exercise_4.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_4();
-  }
-}
-
-function pauseTimer_exercise_4() {
-  clearInterval(timerInterval_exercise_4);
-  timerInterval_exercise_4= null;
-  countdown_exercise_4.classList.remove('running');
-}
-
-function resetTimer_exercise_4() {
-  timeLeft_exercise_4= seconds_exercise_4;
-  updateButton_exercise_4();
-  countdown_exercise_4.classList.remove('finished');
-  countdown_exercise_4.classList.remove('running');
-  timerInterval_exercise_4= null;
-}
-
-countdown_exercise_4.addEventListener("click", () => {
-  if (countdown_exercise_4.classList.contains('finished')) {
-    resetTimer_exercise_4();
-  } else {
-    startTimer_exercise_4();
-  }
-});
-
-updateButton_exercise_4();
--->
-</script>
-
----
-### Esercizio #5 -- Soluzione
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 80%" >
-
-:question: &nbsp;&nbsp;&nbsp; In uno studio clinico randomizzato, il P-value associato alla variabile  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “Sex” è pari a 0.48. Con un livello di significativit&agrave; del 5%, ci sono differenze 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; statisticamente significative nella distribuzione maschi/femmine nei due 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppi?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) S&igrave;, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, perch&eacute; il P-value &egrave; maggiore del livello di significativit&agrave; &nbsp;&nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) No, perch&eacute; il P-value &egrave; minore del livello di significativit&agrave;
-
-</div>
-
-<span style="display:block; height:100px;"></span>
-
-
----
 ## Comunicare il risultato
 
 
@@ -1378,7 +1755,7 @@ updateButton_exercise_4();
 </div>
 
 ---
-### Esercizio #6
+### Esercizio #9
 
 <span style="display:block; height:1px;"></span>
 
@@ -1390,10 +1767,98 @@ updateButton_exercise_4();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\hat{\text{SE}}= \sqrt{\frac{s_\text{c}^2}{n_\text{c}} + \frac{s_\text{i}^2}{n_\text{i}}} = 1.08$ 
 
-</div>
+</div
+
+<span style="display:block; height:150px;"></span>
+
+<style>
+  #countdown_exercise_9{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_9.running {
+    background-color: green;
+  }
+  #countdown_exercise_9.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_9"></button>
+
+<script>
+<!--
+const countdown_exercise_9= document.getElementById("countdown_exercise_9");
+const seconds_exercise_9= 300; // seconds_exercise_9
+let timeLeft_exercise_9= seconds_exercise_9;
+let timerInterval_exercise_9= null;
+
+function formatTime_exercise_9(seconds_exercise_9) {
+  const minutes = Math.floor(seconds_exercise_9/ 60);
+  const remainingseconds_exercise_9= seconds_exercise_9% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_9).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_9() {
+  countdown_exercise_9.textContent = formatTime_exercise_9(timeLeft_exercise_9);
+}
+
+function startTimer_exercise_9() {
+  if (timerInterval_exercise_9=== null) {
+    countdown_exercise_9.classList.add('running');
+    countdown_exercise_9.classList.remove('finished');
+    timerInterval_exercise_9= setInterval(() => {
+      if (timeLeft_exercise_9> 0) {
+        timeLeft_exercise_9--;
+        updateButton_exercise_9();
+      } else {
+        clearInterval(timerInterval_exercise_9);
+        timerInterval_exercise_9= null;
+        countdown_exercise_9.classList.remove('running');
+        countdown_exercise_9.classList.add('finished');
+        countdown_exercise_9.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_9();
+  }
+}
+
+function pauseTimer_exercise_9() {
+  clearInterval(timerInterval_exercise_9);
+  timerInterval_exercise_9= null;
+  countdown_exercise_9.classList.remove('running');
+}
+
+function resetTimer_exercise_9() {
+  timeLeft_exercise_9= seconds_exercise_9;
+  updateButton_exercise_9();
+  countdown_exercise_9.classList.remove('finished');
+  countdown_exercise_9.classList.remove('running');
+  timerInterval_exercise_9= null;
+}
+
+countdown_exercise_9.addEventListener("click", () => {
+  if (countdown_exercise_9.classList.contains('finished')) {
+    resetTimer_exercise_9();
+  } else {
+    startTimer_exercise_9();
+  }
+});
+
+updateButton_exercise_9();
+-->
+</script>
+
 
 ---
-### Esercizio #6 -- Soluzione
+### Esercizio #9 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
@@ -1409,7 +1874,7 @@ updateButton_exercise_4();
 </div>
 
 ---
-### Esercizio #6 -- Soluzione
+### Esercizio #9 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
@@ -1543,369 +2008,6 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 </div>
 
 
----
-## Test a una e due code
-
-<span style="display:block; height:10px;"></span>
-
-<div class="columns">
-<div>
-
-<div style="font-size: 90%" >
-
-:dart: &nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} = 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a due code
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/hypothesis_testing/Two-tailed_test.png" img height="500px" border="0px"/>
-</center>
-
-</div>
-</div>
-
-
-<!-- a one-sided hypothesis test is used when a null hypothesis specifies that, say, the effect of a medical treatment is negative. This would only be rejected by large positive values of a test statistic representing an estimated treatment effect. A two-sided test would be appropriate for a null hypothesis that a treatment effect, say, is exactly zero, and so both positive and negative estimates would lead to the null being rejected. -->
-
-
----
-## Test a una e due code
-
-<span style="display:block; height:10px;"></span>
-
-<div class="columns">
-<div>
-
-<div style="font-size: 90%" >
-
-:dart: &nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} = 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a due code
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} < 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \geq  0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a una coda
-
-</div>
-
-</div>
-<div>
-
-
-<center>
-<img src="./img/hypothesis_testing/One-tailed_test_left.png" img height="500px" border="0px"/>
-</center>
-
-</div>
-</div>
-
-
-<!-- a one-sided hypothesis test is used when a null hypothesis specifies that, say, the effect of a medical treatment is negative. This would only be rejected by large positive values of a test statistic representing an estimated treatment effect. A two-sided test would be appropriate for a null hypothesis that a treatment effect, say, is exactly zero, and so both positive and negative estimates would lead to the null being rejected. -->
-
-
----
-## Test a una e due code
-
-<span style="display:block; height:10px;"></span>
-
-<div class="columns">
-<div>
-
-<div style="font-size: 90%" >
-
-:dart: &nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \neq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} = 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a due code
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} < 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \geq  0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  oppure
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} > 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \leq 0$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a una coda
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/hypothesis_testing/One-tailed_test_right.png" img height="500px" border="0px"/>
-</center>
-
-</div>
-</div>
-
-
-<!-- a one-sided hypothesis test is used when a null hypothesis specifies that, say, the effect of a medical treatment is negative. This would only be rejected by large positive values of a test statistic representing an estimated treatment effect. A two-sided test would be appropriate for a null hypothesis that a treatment effect, say, is exactly zero, and so both positive and negative estimates would lead to the null being rejected. -->
-
-
----
-### Esercizio #8
-
-<!-- <span style="display:block; height:1px;"></span> -->
-
-<div style="font-size: 90%" >
-
-:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati (n = 200), abbiamo ottenuto $t=1.8$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Posso rifiutare l'ipotesi nulla $\mathcal{H}_0 \text{: } \mu_{\text{c}} - \mu_{\text{i}} \neq 0$ con $\alpha = 0.05$?
-
-</div>
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:260px;"></span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :warning:  &nbsp;&nbsp; **Esercizio difficile** 
-
-</div>
-<div>
-
-
-<span style="display:block; height:1px;"></span>
-
-<!-- <center>
-<img src="./img/confidence_intervals/unannotated_CI.png" img height="350px" border="4px"/>
-</center> -->
-
-</div>
-</div>
-
-<span style="display:block; height:100px;"></span>
-
-<style>
-  #countdown_exercise_6{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_6.running {
-    background-color: green;
-  }
-  #countdown_exercise_6.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_6"></button>
-
-<script>
-<!--
-const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 480; // seconds_exercise_6
-let timeLeft_exercise_6= seconds_exercise_6;
-let timerInterval_exercise_6= null;
-
-function formatTime_exercise_6(seconds_exercise_6) {
-  const minutes = Math.floor(seconds_exercise_6/ 60);
-  const remainingseconds_exercise_6= seconds_exercise_6% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_6).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_6() {
-  countdown_exercise_6.textContent = formatTime_exercise_6(timeLeft_exercise_6);
-}
-
-function startTimer_exercise_6() {
-  if (timerInterval_exercise_6=== null) {
-    countdown_exercise_6.classList.add('running');
-    countdown_exercise_6.classList.remove('finished');
-    timerInterval_exercise_6= setInterval(() => {
-      if (timeLeft_exercise_6> 0) {
-        timeLeft_exercise_6--;
-        updateButton_exercise_6();
-      } else {
-        clearInterval(timerInterval_exercise_6);
-        timerInterval_exercise_6= null;
-        countdown_exercise_6.classList.remove('running');
-        countdown_exercise_6.classList.add('finished');
-        countdown_exercise_6.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_6();
-  }
-}
-
-function pauseTimer_exercise_6() {
-  clearInterval(timerInterval_exercise_6);
-  timerInterval_exercise_6= null;
-  countdown_exercise_6.classList.remove('running');
-}
-
-function resetTimer_exercise_6() {
-  timeLeft_exercise_6= seconds_exercise_6;
-  updateButton_exercise_6();
-  countdown_exercise_6.classList.remove('finished');
-  countdown_exercise_6.classList.remove('running');
-  timerInterval_exercise_6= null;
-}
-
-countdown_exercise_6.addEventListener("click", () => {
-  if (countdown_exercise_6.classList.contains('finished')) {
-    resetTimer_exercise_6();
-  } else {
-    startTimer_exercise_6();
-  }
-});
-
-updateButton_exercise_6();
--->
-</script>
-
-
-<!-- Qui dobbiamo andare a pescare nella memoria delle cose viste in passato -->
-
----
-### Esercizio #8 -- Soluzione
-
-<div style="font-size: 90%" >
-
-:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati (n = 200), abbiamo ottenuto $t=1.8$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Posso rifiutare l'ipotesi nulla $\mathcal{H}_0 \text{: } \mu_{\text{c}} - \mu_{\text{i}} \neq 0$ con $\alpha = 0.05$?
-
-</div>
-
-<div class="columns">
-<div>
-
-
-<span style="display:block; height:230px;"></span>
-
-<div style="font-size: 78%" align="right">
-
-| Livello di confidenza | $\alpha$ | $\alpha/2$ | $t_{\alpha/2}$ |
-| ----: | ----- | ---- | ----|
-| 95% | 5% | 2.5% | $\approx$ 2 |
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/alpha_level.png" img height="450px" border="0px"/>
-</center>
-
-</div>
-</div>
-
----
-### Esercizio #8 -- Soluzione
-
-<div style="font-size: 90%" >
-
-:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati (n = 200), abbiamo ottenuto $t=1.8$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Posso rifiutare l'ipotesi nulla $\mathcal{H}_0 \text{: } \mu_{\text{c}} - \mu_{\text{i}} \neq 0$ con $\alpha = 0.05$?
-
-</div>
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:230px;"></span>
-
-<div style="font-size: 78%" align="right">
-
-| Livello di confidenza | $\alpha$ | $\alpha/2$ | $t_{\alpha/2}$ |
-| ----: | ----- | ---- | ----|
-| 95% | 5% | 2.5% | $\approx$ 2 |
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/hypothesis_testing/Two-tailed_test_ex_CI.png" img height="450px" border="0px"/>
-</center>
-
-</div>
-</div>
-
-
----
-### Esercizio #8 -- Soluzione
-
-<div style="font-size: 90%" >
-
-:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati (n = 200), abbiamo ottenuto $t=1.8$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Posso rifiutare l'ipotesi nulla $\mathcal{H}_0 \text{: } \mu_{\text{c}} - \mu_{\text{i}} \neq 0$ con $\alpha = 0.05$?
-
-</div>
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 84%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 2 \times (0.025 + \epsilon) =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 2 \times (0.025 + 0.010) =$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 0.07$
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/hypothesis_testing/Two-tailed_test_ex.png" img height="450px" border="0px"/>
-</center>
-
-</div>
-</div>
-
----
-### Esercizio #8 -- Soluzione
-
-<div style="font-size: 90%" >
-
-:question: &nbsp;&nbsp;&nbsp; Dopo aver analizzato i nostri dati (n = 200), abbiamo ottenuto $t=1.8$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Posso rifiutare l'ipotesi nulla $\mathcal{H}_0 \text{: } \mu_{\text{c}} - \mu_{\text{i}} \neq 0$ con $\alpha = 0.05$?
-
-</div>
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 84%" >
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 2 \times (0.025 + \epsilon) =$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 2 \times (0.025 + 0.010) =$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= 0.07$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{P-value} = 0.07 > \alpha = 0.05$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ non rifiuto $\mathcal{H}_0$
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/hypothesis_testing/Two-tailed_test_ex.png" img height="450px" border="0px"/>
-</center>
-
-</div>
-</div>
 
 
 
@@ -1931,7 +2033,34 @@ updateButton_exercise_6();
 
 <div style="font-size: 90%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; $d \text{ di Cohen} =  \frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
+:pushpin: &nbsp;&nbsp;&nbsp; $d \text{ di Cohen}=  |\frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}|$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
+
+</div>
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+
+
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+
+
+</div>
+</div>
+
+---
+## La dimensione dell'effetto
+
+
+<div style="font-size: 90%" >
+
+:pushpin: &nbsp;&nbsp;&nbsp; $d \text{ di Cohen}=  |\frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}|$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
 
 </div>
 
@@ -1967,7 +2096,7 @@ updateButton_exercise_6();
 
 <div style="font-size: 90%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; $d \text{ di Cohen} =  \frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
+:pushpin: &nbsp;&nbsp;&nbsp; $d \text{ di Cohen}=  |\frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}|$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
 
 </div>
 
@@ -2004,7 +2133,7 @@ updateButton_exercise_6();
 
 <div style="font-size: 90%" >
 
-:pushpin: &nbsp;&nbsp;&nbsp; $d \text{ di Cohen} =  \frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
+:pushpin: &nbsp;&nbsp;&nbsp; $d \text{ di Cohen}=  |\frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}|$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
 
 </div>
 
@@ -2037,9 +2166,127 @@ updateButton_exercise_6();
 </div>
 
 ---
-### Esercizio #7
+### Esercizio #10
 
-??????
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Se in uno studio osservo $d = 0.65$, la dimensione dell'effetto &egrave;...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Piccola
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Medio-piccola
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Media
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Medio-grande
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Grande
+
+</div>
+
+<span style="display:block; height:40px;"></span>
+
+<style>
+  #countdown_exercise_10{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_10.running {
+    background-color: green;
+  }
+  #countdown_exercise_10.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_10"></button>
+
+<script>
+<!--
+const countdown_exercise_10= document.getElementById("countdown_exercise_10");
+const seconds_exercise_10= 60; // seconds_exercise_10
+let timeLeft_exercise_10= seconds_exercise_10;
+let timerInterval_exercise_10= null;
+
+function formatTime_exercise_10(seconds_exercise_10) {
+  const minutes = Math.floor(seconds_exercise_10/ 60);
+  const remainingseconds_exercise_10= seconds_exercise_10% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_10).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_10() {
+  countdown_exercise_10.textContent = formatTime_exercise_10(timeLeft_exercise_10);
+}
+
+function startTimer_exercise_10() {
+  if (timerInterval_exercise_10=== null) {
+    countdown_exercise_10.classList.add('running');
+    countdown_exercise_10.classList.remove('finished');
+    timerInterval_exercise_10= setInterval(() => {
+      if (timeLeft_exercise_10> 0) {
+        timeLeft_exercise_10--;
+        updateButton_exercise_10();
+      } else {
+        clearInterval(timerInterval_exercise_10);
+        timerInterval_exercise_10= null;
+        countdown_exercise_10.classList.remove('running');
+        countdown_exercise_10.classList.add('finished');
+        countdown_exercise_10.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_10();
+  }
+}
+
+function pauseTimer_exercise_10() {
+  clearInterval(timerInterval_exercise_10);
+  timerInterval_exercise_10= null;
+  countdown_exercise_10.classList.remove('running');
+}
+
+function resetTimer_exercise_10() {
+  timeLeft_exercise_10= seconds_exercise_10;
+  updateButton_exercise_10();
+  countdown_exercise_10.classList.remove('finished');
+  countdown_exercise_10.classList.remove('running');
+  timerInterval_exercise_10= null;
+}
+
+countdown_exercise_10.addEventListener("click", () => {
+  if (countdown_exercise_10.classList.contains('finished')) {
+    resetTimer_exercise_10();
+  } else {
+    startTimer_exercise_10();
+  }
+});
+
+updateButton_exercise_10();
+-->
+</script>
+
+---
+### Esercizio #10 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Se in uno studio osservo $d = 0.65$, la dimensione dell'effetto &egrave;...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Piccola
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Medio-piccola
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Media
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Medio-grande &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Grande
+
+</div>
+
+
 
 ---
 ## La dimensione dell'effetto
@@ -2051,7 +2298,7 @@ updateButton_exercise_6();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; significativa di 2.6 giorni (95% CI = 0.44 ; 4.78) tra i due trattamenti 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (P = 0.016).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $d \text{ di Cohen} =  \frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $d \text{ di Cohen}=  |\frac{\bar{x}_{\text{c}} - \bar{x}_{\text{i}}}{s_p}|$  &nbsp;&nbsp; con  &nbsp;&nbsp; $s_p = \sqrt{\frac{(n_i - 1) \times s_i + (n_c - 1) \times s_c}{(n_i - 1) + (n_c - 1)}}$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $s_p = \sqrt{\frac{(151 - 1) \times 10 + (148 - 1) \times 8.7}{(151 - 1) + (148 - 1)}} = 3$
 
@@ -2175,8 +2422,474 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 
 </div>
 
+---
+### Esercizio #11
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; In uno studio sono stati raccolti i voti di maturit&agrave; di 1.5M di studenti,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; osservando che i ragazzi e le ragazze raggiungono risultati diversi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (P < 0.001). Che informazione servirebbe per decidere che la  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; differenza osservata sia effettivamente importante?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) L'intervallo di confidenza della differenza delle medie
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La dimensionde dell'effetto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Nessuna, lo posso concludere dal P-value
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Nessuna, lo posso concludere dalla dimensione campionaria
+
+</div>
+
+<span style="display:block; height:20px;"></span>
+
+<style>
+  #countdown_exercise_11{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_11.running {
+    background-color: green;
+  }
+  #countdown_exercise_11.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_11"></button>
+
+<script>
+<!--
+const countdown_exercise_11= document.getElementById("countdown_exercise_11");
+const seconds_exercise_11= 60; // seconds_exercise_11
+let timeLeft_exercise_11= seconds_exercise_11;
+let timerInterval_exercise_11= null;
+
+function formatTime_exercise_11(seconds_exercise_11) {
+  const minutes = Math.floor(seconds_exercise_11/ 60);
+  const remainingseconds_exercise_11= seconds_exercise_11% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_11).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_11() {
+  countdown_exercise_11.textContent = formatTime_exercise_11(timeLeft_exercise_11);
+}
+
+function startTimer_exercise_11() {
+  if (timerInterval_exercise_11=== null) {
+    countdown_exercise_11.classList.add('running');
+    countdown_exercise_11.classList.remove('finished');
+    timerInterval_exercise_11= setInterval(() => {
+      if (timeLeft_exercise_11> 0) {
+        timeLeft_exercise_11--;
+        updateButton_exercise_11();
+      } else {
+        clearInterval(timerInterval_exercise_11);
+        timerInterval_exercise_11= null;
+        countdown_exercise_11.classList.remove('running');
+        countdown_exercise_11.classList.add('finished');
+        countdown_exercise_11.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_11();
+  }
+}
+
+function pauseTimer_exercise_11() {
+  clearInterval(timerInterval_exercise_11);
+  timerInterval_exercise_11= null;
+  countdown_exercise_11.classList.remove('running');
+}
+
+function resetTimer_exercise_11() {
+  timeLeft_exercise_11= seconds_exercise_11;
+  updateButton_exercise_11();
+  countdown_exercise_11.classList.remove('finished');
+  countdown_exercise_11.classList.remove('running');
+  timerInterval_exercise_11= null;
+}
+
+countdown_exercise_11.addEventListener("click", () => {
+  if (countdown_exercise_11.classList.contains('finished')) {
+    resetTimer_exercise_11();
+  } else {
+    startTimer_exercise_11();
+  }
+});
+
+updateButton_exercise_11();
+-->
+</script>
+
+---
+### Esercizio #11 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; In uno studio sono stati raccolti i voti di maturit&agrave; di 1.5M di studenti,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; osservando che i ragazzi e le ragazze raggiungono risultati diversi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (P < 0.001). Che informazione servirebbe per decidere che la  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; differenza osservata sia effettivamente importante?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) L'intervallo di confidenza della differenza delle medie
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La dimensionde dell'effetto &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Nessuna, lo posso concludere dal P-value
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Nessuna, lo posso concludere dalla dimensione campionaria
+
+</div>
+
+<span style="display:block; height:40px;"></span>
+
+---
+## Test a una e due code
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 90%" >
+
+:dart: &nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} = 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a due code
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/hypothesis_testing/Two-tailed_test.png" img height="500px" border="0px"/>
+</center>
+
+</div>
+</div>
 
 
+<!-- a one-sided hypothesis test is used when a null hypothesis specifies that, say, the effect of a medical treatment is negative. This would only be rejected by large positive values of a test statistic representing an estimated treatment effect. A two-sided test would be appropriate for a null hypothesis that a treatment effect, say, is exactly zero, and so both positive and negative estimates would lead to the null being rejected. -->
+
+
+---
+## Test a una e due code
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 90%" >
+
+:dart: &nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} = 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a due code
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} < 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \geq  0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a una coda
+
+</div>
+
+</div>
+<div>
+
+
+<center>
+<img src="./img/hypothesis_testing/One-tailed_test_left.png" img height="500px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+<!-- a one-sided hypothesis test is used when a null hypothesis specifies that, say, the effect of a medical treatment is negative. This would only be rejected by large positive values of a test statistic representing an estimated treatment effect. A two-sided test would be appropriate for a null hypothesis that a treatment effect, say, is exactly zero, and so both positive and negative estimates would lead to the null being rejected. -->
+
+
+---
+## Test a una e due code
+
+<span style="display:block; height:10px;"></span>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 90%" >
+
+:dart: &nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \neq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} = 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a due code
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} < 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \geq  0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  oppure
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_1$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} > 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: &nbsp;&nbsp;&nbsp; $\mu_{\text{c}} - \mu_{\text{i}} \leq 0$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ test a una coda
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/hypothesis_testing/One-tailed_test_right.png" img height="500px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+<!-- a one-sided hypothesis test is used when a null hypothesis specifies that, say, the effect of a medical treatment is negative. This would only be rejected by large positive values of a test statistic representing an estimated treatment effect. A two-sided test would be appropriate for a null hypothesis that a treatment effect, say, is exactly zero, and so both positive and negative estimates would lead to the null being rejected. -->
+
+---
+### Esercizio #12
+
+<span style="display:block; height:5px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Un test a una coda deve essere usato quando l'ipotesi alternativa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; suppone che...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'effetto del trattamento sia positvo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) l'effetto del trattamento sia negativo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) l'effetto del trattamento sia indifferentemente positivo o negativo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
+
+</div>
+
+<span style="display:block; height:50px;"></span>
+
+<style>
+  #countdown_exercise_12{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_12.running {
+    background-color: green;
+  }
+  #countdown_exercise_12.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_12"></button>
+
+<script>
+<!--
+const countdown_exercise_12= document.getElementById("countdown_exercise_12");
+const seconds_exercise_12= 60; // seconds_exercise_12
+let timeLeft_exercise_12= seconds_exercise_12;
+let timerInterval_exercise_12= null;
+
+function formatTime_exercise_12(seconds_exercise_12) {
+  const minutes = Math.floor(seconds_exercise_12/ 60);
+  const remainingseconds_exercise_12= seconds_exercise_12% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_12).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_12() {
+  countdown_exercise_12.textContent = formatTime_exercise_12(timeLeft_exercise_12);
+}
+
+function startTimer_exercise_12() {
+  if (timerInterval_exercise_12=== null) {
+    countdown_exercise_12.classList.add('running');
+    countdown_exercise_12.classList.remove('finished');
+    timerInterval_exercise_12= setInterval(() => {
+      if (timeLeft_exercise_12> 0) {
+        timeLeft_exercise_12--;
+        updateButton_exercise_12();
+      } else {
+        clearInterval(timerInterval_exercise_12);
+        timerInterval_exercise_12= null;
+        countdown_exercise_12.classList.remove('running');
+        countdown_exercise_12.classList.add('finished');
+        countdown_exercise_12.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_12();
+  }
+}
+
+function pauseTimer_exercise_12() {
+  clearInterval(timerInterval_exercise_12);
+  timerInterval_exercise_12= null;
+  countdown_exercise_12.classList.remove('running');
+}
+
+function resetTimer_exercise_12() {
+  timeLeft_exercise_12= seconds_exercise_12;
+  updateButton_exercise_12();
+  countdown_exercise_12.classList.remove('finished');
+  countdown_exercise_12.classList.remove('running');
+  timerInterval_exercise_12= null;
+}
+
+countdown_exercise_12.addEventListener("click", () => {
+  if (countdown_exercise_12.classList.contains('finished')) {
+    resetTimer_exercise_12();
+  } else {
+    startTimer_exercise_12();
+  }
+});
+
+updateButton_exercise_12();
+-->
+</script>
+
+---
+### Esercizio #12 -- Soluzione
+
+<span style="display:block; height:5px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Un test a una coda deve essere usato quando l'ipotesi alternativa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; suppone che...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'effetto del trattamento sia positvo &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) l'effetto del trattamento sia negativo &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) l'effetto del trattamento sia indifferentemente positivo o negativo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
+
+</div>
+
+---
+### Esercizio #13
+
+<span style="display:block; height:5px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Quali delle seguenti formulazioni operative rappresenta l'ipotesi nulla 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in un test a una coda?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_1 \geq \mu_2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_1 > \mu_2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\mu_1 \neq \mu_2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
+
+</div>
+
+<span style="display:block; height:50px;"></span>
+
+<style>
+  #countdown_exercise_13{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_13.running {
+    background-color: green;
+  }
+  #countdown_exercise_13.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_13"></button>
+
+<script>
+<!--
+const countdown_exercise_13= document.getElementById("countdown_exercise_13");
+const seconds_exercise_13= 60; // seconds_exercise_13
+let timeLeft_exercise_13= seconds_exercise_13;
+let timerInterval_exercise_13= null;
+
+function formatTime_exercise_13(seconds_exercise_13) {
+  const minutes = Math.floor(seconds_exercise_13/ 60);
+  const remainingseconds_exercise_13= seconds_exercise_13% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_13).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_13() {
+  countdown_exercise_13.textContent = formatTime_exercise_13(timeLeft_exercise_13);
+}
+
+function startTimer_exercise_13() {
+  if (timerInterval_exercise_13=== null) {
+    countdown_exercise_13.classList.add('running');
+    countdown_exercise_13.classList.remove('finished');
+    timerInterval_exercise_13= setInterval(() => {
+      if (timeLeft_exercise_13> 0) {
+        timeLeft_exercise_13--;
+        updateButton_exercise_13();
+      } else {
+        clearInterval(timerInterval_exercise_13);
+        timerInterval_exercise_13= null;
+        countdown_exercise_13.classList.remove('running');
+        countdown_exercise_13.classList.add('finished');
+        countdown_exercise_13.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_13();
+  }
+}
+
+function pauseTimer_exercise_13() {
+  clearInterval(timerInterval_exercise_13);
+  timerInterval_exercise_13= null;
+  countdown_exercise_13.classList.remove('running');
+}
+
+function resetTimer_exercise_13() {
+  timeLeft_exercise_13= seconds_exercise_13;
+  updateButton_exercise_13();
+  countdown_exercise_13.classList.remove('finished');
+  countdown_exercise_13.classList.remove('running');
+  timerInterval_exercise_13= null;
+}
+
+countdown_exercise_13.addEventListener("click", () => {
+  if (countdown_exercise_13.classList.contains('finished')) {
+    resetTimer_exercise_13();
+  } else {
+    startTimer_exercise_13();
+  }
+});
+
+updateButton_exercise_13();
+-->
+</script>
+
+---
+### Esercizio #13 -- Soluzione
+
+<span style="display:block; height:5px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Quali delle seguenti formulazioni operative rappresenta l'ipotesi nulla 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in un test a una coda?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $\mu_1 \geq \mu_2$ &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $\mu_1 > \mu_2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $\mu_1 \neq \mu_2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
+
+</div>
 
 ---
 ### $t$-test
@@ -2916,7 +3629,7 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
 <!-- df = nrighe-1 * ncolonne-1 -->
 
 ---
-### Esercizio #10
+### Esercizio #14
 
 <div style="font-size: 70%" >
 
@@ -2935,7 +3648,7 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
 </div>
 
 <style>
-  #countdown_exercise_7{
+  #countdown_exercise_14{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -2945,77 +3658,77 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_7.running {
+  #countdown_exercise_14.running {
     background-color: green;
   }
-  #countdown_exercise_7.finished {
+  #countdown_exercise_14.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_7"></button>
+<button id="countdown_exercise_14"></button>
 
 <script>
 <!--
-const countdown_exercise_7= document.getElementById("countdown_exercise_7");
-const seconds_exercise_7= 900; // seconds_exercise_7
-let timeLeft_exercise_7= seconds_exercise_7;
-let timerInterval_exercise_7= null;
+const countdown_exercise_14= document.getElementById("countdown_exercise_14");
+const seconds_exercise_14= 900; // seconds_exercise_14
+let timeLeft_exercise_14= seconds_exercise_14;
+let timerInterval_exercise_14= null;
 
-function formatTime_exercise_7(seconds_exercise_7) {
-  const minutes = Math.floor(seconds_exercise_7/ 60);
-  const remainingseconds_exercise_7= seconds_exercise_7% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_7).padStart(2, '0')}`;
+function formatTime_exercise_14(seconds_exercise_14) {
+  const minutes = Math.floor(seconds_exercise_14/ 60);
+  const remainingseconds_exercise_14= seconds_exercise_14% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_14).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_7() {
-  countdown_exercise_7.textContent = formatTime_exercise_7(timeLeft_exercise_7);
+function updateButton_exercise_14() {
+  countdown_exercise_14.textContent = formatTime_exercise_14(timeLeft_exercise_14);
 }
 
-function startTimer_exercise_7() {
-  if (timerInterval_exercise_7=== null) {
-    countdown_exercise_7.classList.add('running');
-    countdown_exercise_7.classList.remove('finished');
-    timerInterval_exercise_7= setInterval(() => {
-      if (timeLeft_exercise_7> 0) {
-        timeLeft_exercise_7--;
-        updateButton_exercise_7();
+function startTimer_exercise_14() {
+  if (timerInterval_exercise_14=== null) {
+    countdown_exercise_14.classList.add('running');
+    countdown_exercise_14.classList.remove('finished');
+    timerInterval_exercise_14= setInterval(() => {
+      if (timeLeft_exercise_14> 0) {
+        timeLeft_exercise_14--;
+        updateButton_exercise_14();
       } else {
-        clearInterval(timerInterval_exercise_7);
-        timerInterval_exercise_7= null;
-        countdown_exercise_7.classList.remove('running');
-        countdown_exercise_7.classList.add('finished');
-        countdown_exercise_7.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_14);
+        timerInterval_exercise_14= null;
+        countdown_exercise_14.classList.remove('running');
+        countdown_exercise_14.classList.add('finished');
+        countdown_exercise_14.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_7();
+    pauseTimer_exercise_14();
   }
 }
 
-function pauseTimer_exercise_7() {
-  clearInterval(timerInterval_exercise_7);
-  timerInterval_exercise_7= null;
-  countdown_exercise_7.classList.remove('running');
+function pauseTimer_exercise_14() {
+  clearInterval(timerInterval_exercise_14);
+  timerInterval_exercise_14= null;
+  countdown_exercise_14.classList.remove('running');
 }
 
-function resetTimer_exercise_7() {
-  timeLeft_exercise_7= seconds_exercise_7;
-  updateButton_exercise_7();
-  countdown_exercise_7.classList.remove('finished');
-  countdown_exercise_7.classList.remove('running');
-  timerInterval_exercise_7= null;
+function resetTimer_exercise_14() {
+  timeLeft_exercise_14= seconds_exercise_14;
+  updateButton_exercise_14();
+  countdown_exercise_14.classList.remove('finished');
+  countdown_exercise_14.classList.remove('running');
+  timerInterval_exercise_14= null;
 }
 
-countdown_exercise_7.addEventListener("click", () => {
-  if (countdown_exercise_7.classList.contains('finished')) {
-    resetTimer_exercise_7();
+countdown_exercise_14.addEventListener("click", () => {
+  if (countdown_exercise_14.classList.contains('finished')) {
+    resetTimer_exercise_14();
   } else {
-    startTimer_exercise_7();
+    startTimer_exercise_14();
   }
 });
 
-updateButton_exercise_7();
+updateButton_exercise_14();
 -->
 </script>
 
@@ -3028,7 +3741,7 @@ updateButton_exercise_7();
 </div>
 
 ---
-### Esercizio #10 -- Soluzione
+### Esercizio #14 -- Soluzione
 
 <div style="font-size: 70%" >
 
@@ -3049,7 +3762,7 @@ updateButton_exercise_7();
 </div>
 
 ---
-### Esercizio #8 -- Soluzione
+### Esercizio #14 -- Soluzione
 
 <div style="font-size: 70%" >
 
@@ -3097,7 +3810,7 @@ H1: la proporzione di soggetti bla bla e' diversa (associazione)
 
 
 ---
-### Esercizio #10 -- Soluzione
+### Esercizio #14 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -3164,7 +3877,7 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 
 
 ---
-### Esercizio #10 -- Soluzione
+### Esercizio #14 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -3230,7 +3943,7 @@ Se non ci fosse differenza tra i due gruppi, la proporzione di infetti nei due c
 <!-- Andiamo quindi a calcolare le frequenze attese, sottp H0 e il valre del chi2-->
 
 ---
-### Esercizio #10 -- Soluzione
+### Esercizio #14 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -3293,7 +4006,7 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 2$
 </div>
 
 ---
-### Esercizio #10 -- Soluzione
+### Esercizio #14 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -3323,7 +4036,7 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 2$
 P-value di 0.03 ci dice che se l’ipotesi nulla fosse vera, la probabilità di osservare il risultato che abbiamo ottenuto, o una differenza ancora maggiore, sarebbe solo dell’3% -->
 
 ---
-### Esercizio #10 -- Soluzione
+### Esercizio #14 -- Soluzione
 
 <div style="font-size: 80%" >
 
@@ -3557,7 +4270,7 @@ Falsa | Errore di <br/>II tipo   |   |
 
 
 --- 
-### Esercizio #11
+### Esercizio #15
 
 <div style="font-size: 75%" >
 
@@ -3577,7 +4290,7 @@ Falsa | Errore di <br/>II tipo   |   |
 </div>
 
 <style>
-  #countdown_exercise_8{
+  #countdown_exercise_15{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -3587,77 +4300,77 @@ Falsa | Errore di <br/>II tipo   |   |
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_8.running {
+  #countdown_exercise_15.running {
     background-color: green;
   }
-  #countdown_exercise_8.finished {
+  #countdown_exercise_15.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_8"></button>
+<button id="countdown_exercise_15"></button>
 
 <script>
 <!--
-const countdown_exercise_8= document.getElementById("countdown_exercise_8");
-const seconds_exercise_8= 120; // seconds_exercise_8
-let timeLeft_exercise_8= seconds_exercise_8;
-let timerInterval_exercise_8= null;
+const countdown_exercise_15= document.getElementById("countdown_exercise_15");
+const seconds_exercise_15= 120; // seconds_exercise_15
+let timeLeft_exercise_15= seconds_exercise_15;
+let timerInterval_exercise_15= null;
 
-function formatTime_exercise_8(seconds_exercise_8) {
-  const minutes = Math.floor(seconds_exercise_8/ 60);
-  const remainingseconds_exercise_8= seconds_exercise_8% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_8).padStart(2, '0')}`;
+function formatTime_exercise_15(seconds_exercise_15) {
+  const minutes = Math.floor(seconds_exercise_15/ 60);
+  const remainingseconds_exercise_15= seconds_exercise_15% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_15).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_8() {
-  countdown_exercise_8.textContent = formatTime_exercise_8(timeLeft_exercise_8);
+function updateButton_exercise_15() {
+  countdown_exercise_15.textContent = formatTime_exercise_15(timeLeft_exercise_15);
 }
 
-function startTimer_exercise_8() {
-  if (timerInterval_exercise_8=== null) {
-    countdown_exercise_8.classList.add('running');
-    countdown_exercise_8.classList.remove('finished');
-    timerInterval_exercise_8= setInterval(() => {
-      if (timeLeft_exercise_8> 0) {
-        timeLeft_exercise_8--;
-        updateButton_exercise_8();
+function startTimer_exercise_15() {
+  if (timerInterval_exercise_15=== null) {
+    countdown_exercise_15.classList.add('running');
+    countdown_exercise_15.classList.remove('finished');
+    timerInterval_exercise_15= setInterval(() => {
+      if (timeLeft_exercise_15> 0) {
+        timeLeft_exercise_15--;
+        updateButton_exercise_15();
       } else {
-        clearInterval(timerInterval_exercise_8);
-        timerInterval_exercise_8= null;
-        countdown_exercise_8.classList.remove('running');
-        countdown_exercise_8.classList.add('finished');
-        countdown_exercise_8.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_15);
+        timerInterval_exercise_15= null;
+        countdown_exercise_15.classList.remove('running');
+        countdown_exercise_15.classList.add('finished');
+        countdown_exercise_15.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_8();
+    pauseTimer_exercise_15();
   }
 }
 
-function pauseTimer_exercise_8() {
-  clearInterval(timerInterval_exercise_8);
-  timerInterval_exercise_8= null;
-  countdown_exercise_8.classList.remove('running');
+function pauseTimer_exercise_15() {
+  clearInterval(timerInterval_exercise_15);
+  timerInterval_exercise_15= null;
+  countdown_exercise_15.classList.remove('running');
 }
 
-function resetTimer_exercise_8() {
-  timeLeft_exercise_8= seconds_exercise_8;
-  updateButton_exercise_8();
-  countdown_exercise_8.classList.remove('finished');
-  countdown_exercise_8.classList.remove('running');
-  timerInterval_exercise_8= null;
+function resetTimer_exercise_15() {
+  timeLeft_exercise_15= seconds_exercise_15;
+  updateButton_exercise_15();
+  countdown_exercise_15.classList.remove('finished');
+  countdown_exercise_15.classList.remove('running');
+  timerInterval_exercise_15= null;
 }
 
-countdown_exercise_8.addEventListener("click", () => {
-  if (countdown_exercise_8.classList.contains('finished')) {
-    resetTimer_exercise_8();
+countdown_exercise_15.addEventListener("click", () => {
+  if (countdown_exercise_15.classList.contains('finished')) {
+    resetTimer_exercise_15();
   } else {
-    startTimer_exercise_8();
+    startTimer_exercise_15();
   }
 });
 
-updateButton_exercise_8();
+updateButton_exercise_15();
 -->
 </script>
 
@@ -3670,7 +4383,7 @@ Type II Error (false negative): Incorrectly accepting the null hypothesis e.g vi
 -->
 
 --- 
-### Esercizio #11 -- Soluzione
+### Esercizio #15 -- Soluzione
 
 <div style="font-size: 75%" >
 
@@ -3908,11 +4621,30 @@ Before starting a randomized clinical trial, the protocol will specify a null hy
 he idea of having a large enough sample to have sufficient power to detect a plausible alternative hypothesis has become totally entrenched in planning medical studies. But studies in psychology and neuroscience often have sample sizes chosen on the basis of convenience or tradition, and can be as low as 20 subjects per condition being studied. True, and interesting, alternative hypotheses may be missed through studies simply being too small, and the need for other experimental areas to think about the power of their experiments is finally being recognized. -->
 
 ---
+## Comunicare (e interpretare) il risultato
 
-Scenario 4, non ho potenza!!!!
+<div style="font-size: 90%" >
+
+**Scenario 4**
+
+- Test di ipotesi: P value $> \alpha$
+- Intervallo di confidenza: molto largo
+- Dimensione dell'effetto: grande
+
+</div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 90%" align="right">
+
+Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se rifiutare o meno l'ipotesi nulla
+
+Il nostro test non ha abbastanza potenza
+</div>
+
 
 --- 
-### Esercizio #12
+### Esercizio #16
 
 <div style="font-size: 90%" >
 
@@ -3930,7 +4662,7 @@ Scenario 4, non ho potenza!!!!
 <span style="display:block; height:70px;"></span>
 
 <style>
-  #countdown_exercise_9{
+  #countdown_exercise_16{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -3940,83 +4672,83 @@ Scenario 4, non ho potenza!!!!
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_9.running {
+  #countdown_exercise_16.running {
     background-color: green;
   }
-  #countdown_exercise_9.finished {
+  #countdown_exercise_16.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_9"></button>
+<button id="countdown_exercise_16"></button>
 
 <script>
 <!--
-const countdown_exercise_9= document.getElementById("countdown_exercise_9");
-const seconds_exercise_9= 120; // seconds_exercise_9
-let timeLeft_exercise_9= seconds_exercise_9;
-let timerInterval_exercise_9= null;
+const countdown_exercise_16= document.getElementById("countdown_exercise_16");
+const seconds_exercise_16= 60; // seconds_exercise_16
+let timeLeft_exercise_16= seconds_exercise_16;
+let timerInterval_exercise_16= null;
 
-function formatTime_exercise_9(seconds_exercise_9) {
-  const minutes = Math.floor(seconds_exercise_9/ 60);
-  const remainingseconds_exercise_9= seconds_exercise_9% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_9).padStart(2, '0')}`;
+function formatTime_exercise_16(seconds_exercise_16) {
+  const minutes = Math.floor(seconds_exercise_16/ 60);
+  const remainingseconds_exercise_16= seconds_exercise_16% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_16).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_9() {
-  countdown_exercise_9.textContent = formatTime_exercise_9(timeLeft_exercise_9);
+function updateButton_exercise_16() {
+  countdown_exercise_16.textContent = formatTime_exercise_16(timeLeft_exercise_16);
 }
 
-function startTimer_exercise_9() {
-  if (timerInterval_exercise_9=== null) {
-    countdown_exercise_9.classList.add('running');
-    countdown_exercise_9.classList.remove('finished');
-    timerInterval_exercise_9= setInterval(() => {
-      if (timeLeft_exercise_9> 0) {
-        timeLeft_exercise_9--;
-        updateButton_exercise_9();
+function startTimer_exercise_16() {
+  if (timerInterval_exercise_16=== null) {
+    countdown_exercise_16.classList.add('running');
+    countdown_exercise_16.classList.remove('finished');
+    timerInterval_exercise_16= setInterval(() => {
+      if (timeLeft_exercise_16> 0) {
+        timeLeft_exercise_16--;
+        updateButton_exercise_16();
       } else {
-        clearInterval(timerInterval_exercise_9);
-        timerInterval_exercise_9= null;
-        countdown_exercise_9.classList.remove('running');
-        countdown_exercise_9.classList.add('finished');
-        countdown_exercise_9.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_16);
+        timerInterval_exercise_16= null;
+        countdown_exercise_16.classList.remove('running');
+        countdown_exercise_16.classList.add('finished');
+        countdown_exercise_16.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_9();
+    pauseTimer_exercise_16();
   }
 }
 
-function pauseTimer_exercise_9() {
-  clearInterval(timerInterval_exercise_9);
-  timerInterval_exercise_9= null;
-  countdown_exercise_9.classList.remove('running');
+function pauseTimer_exercise_16() {
+  clearInterval(timerInterval_exercise_16);
+  timerInterval_exercise_16= null;
+  countdown_exercise_16.classList.remove('running');
 }
 
-function resetTimer_exercise_9() {
-  timeLeft_exercise_9= seconds_exercise_9;
-  updateButton_exercise_9();
-  countdown_exercise_9.classList.remove('finished');
-  countdown_exercise_9.classList.remove('running');
-  timerInterval_exercise_9= null;
+function resetTimer_exercise_16() {
+  timeLeft_exercise_16= seconds_exercise_16;
+  updateButton_exercise_16();
+  countdown_exercise_16.classList.remove('finished');
+  countdown_exercise_16.classList.remove('running');
+  timerInterval_exercise_16= null;
 }
 
-countdown_exercise_9.addEventListener("click", () => {
-  if (countdown_exercise_9.classList.contains('finished')) {
-    resetTimer_exercise_9();
+countdown_exercise_16.addEventListener("click", () => {
+  if (countdown_exercise_16.classList.contains('finished')) {
+    resetTimer_exercise_16();
   } else {
-    startTimer_exercise_9();
+    startTimer_exercise_16();
   }
 });
 
-updateButton_exercise_9();
+updateButton_exercise_16();
 -->
 </script>
 
 
 --- 
-### Esercizio #12 -- Soluzione
+### Esercizio #16 -- Soluzione
 
 <div style="font-size: 90%" >
 
@@ -4028,6 +4760,305 @@ updateButton_exercise_9();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la deviazione standard ($\sigma^2$) dei due campioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) la dimensione $n$ dei due campioni &nbsp;&nbsp;:white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
+
+</div>
+
+---
+### Esercizio #17
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Completate le definizioni con i seguenti termini:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Errore di I tipo, Errore di II tipo, Potenza di un testtest
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Concludere che un trattamento funzioni quando in realt&agrave; non ha 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  nessun  effetto si dice: ......................................... 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Concludere che un trattamento **non** funzioni quando in realt&agrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &egrave; efficace si dice: ......................................... 
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Concludere correttamente  che un  trattamento funzioni si dice
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ......................................... 
+
+
+</div>
+
+<style>
+  #countdown_exercise_17{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_17.running {
+    background-color: green;
+  }
+  #countdown_exercise_17.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_17"></button>
+
+<script>
+<!--
+const countdown_exercise_17= document.getElementById("countdown_exercise_17");
+const seconds_exercise_17= 120; // seconds_exercise_17
+let timeLeft_exercise_17= seconds_exercise_17;
+let timerInterval_exercise_17= null;
+
+function formatTime_exercise_17(seconds_exercise_17) {
+  const minutes = Math.floor(seconds_exercise_17/ 60);
+  const remainingseconds_exercise_17= seconds_exercise_17% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_17).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_17() {
+  countdown_exercise_17.textContent = formatTime_exercise_17(timeLeft_exercise_17);
+}
+
+function startTimer_exercise_17() {
+  if (timerInterval_exercise_17=== null) {
+    countdown_exercise_17.classList.add('running');
+    countdown_exercise_17.classList.remove('finished');
+    timerInterval_exercise_17= setInterval(() => {
+      if (timeLeft_exercise_17> 0) {
+        timeLeft_exercise_17--;
+        updateButton_exercise_17();
+      } else {
+        clearInterval(timerInterval_exercise_17);
+        timerInterval_exercise_17= null;
+        countdown_exercise_17.classList.remove('running');
+        countdown_exercise_17.classList.add('finished');
+        countdown_exercise_17.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_17();
+  }
+}
+
+function pauseTimer_exercise_17() {
+  clearInterval(timerInterval_exercise_17);
+  timerInterval_exercise_17= null;
+  countdown_exercise_17.classList.remove('running');
+}
+
+function resetTimer_exercise_17() {
+  timeLeft_exercise_17= seconds_exercise_17;
+  updateButton_exercise_17();
+  countdown_exercise_17.classList.remove('finished');
+  countdown_exercise_17.classList.remove('running');
+  timerInterval_exercise_17= null;
+}
+
+countdown_exercise_17.addEventListener("click", () => {
+  if (countdown_exercise_17.classList.contains('finished')) {
+    resetTimer_exercise_17();
+  } else {
+    startTimer_exercise_17();
+  }
+});
+
+updateButton_exercise_17();
+-->
+</script>
+
+---
+### Esercizio #17 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Completate le definizioni con i seguenti termini:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Errore di I tipo, Errore di II tipo, Potenza di un test
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Concludere che un trattamento funzioni quando in realt&agrave; non ha 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  nessun  effetto si dice: ...*Errore di I tipo*... 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Concludere che un trattamento **non** funzioni quando in realt&agrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &egrave; efficace si dice: ...*Errore di II tipo*... 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Concludere correttamente  che un  trattamento funzioni si dice
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ...*Potenza di un test*...
+
+</div>
+
+---
+### Esercizio #18
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una probabilit&agrave; maggiore di un errore di I tipo?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una probabilit&agrave; maggiore di un errore di II tipo?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una maggiore potenza?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05
+
+</div>
+
+
+<style>
+  #countdown_exercise_18{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; 
+  }
+  #countdown_exercise_18.running {
+    background-color: green;
+  }
+  #countdown_exercise_18.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_18"></button>
+
+<script>
+<!--
+const countdown_exercise_18= document.getElementById("countdown_exercise_18");
+const seconds_exercise_18= 120; // seconds_exercise_18
+let timeLeft_exercise_18= seconds_exercise_18;
+let timerInterval_exercise_18= null;
+
+function formatTime_exercise_18(seconds_exercise_18) {
+  const minutes = Math.floor(seconds_exercise_18/ 60);
+  const remainingseconds_exercise_18= seconds_exercise_18% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_18).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_18() {
+  countdown_exercise_18.textContent = formatTime_exercise_18(timeLeft_exercise_18);
+}
+
+function startTimer_exercise_18() {
+  if (timerInterval_exercise_18=== null) {
+    countdown_exercise_18.classList.add('running');
+    countdown_exercise_18.classList.remove('finished');
+    timerInterval_exercise_18= setInterval(() => {
+      if (timeLeft_exercise_18> 0) {
+        timeLeft_exercise_18--;
+        updateButton_exercise_18();
+      } else {
+        clearInterval(timerInterval_exercise_18);
+        timerInterval_exercise_18= null;
+        countdown_exercise_18.classList.remove('running');
+        countdown_exercise_18.classList.add('finished');
+        countdown_exercise_18.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_18();
+  }
+}
+
+function pauseTimer_exercise_18() {
+  clearInterval(timerInterval_exercise_18);
+  timerInterval_exercise_18= null;
+  countdown_exercise_18.classList.remove('running');
+}
+
+function resetTimer_exercise_18() {
+  timeLeft_exercise_18= seconds_exercise_18;
+  updateButton_exercise_18();
+  countdown_exercise_18.classList.remove('finished');
+  countdown_exercise_18.classList.remove('running');
+  timerInterval_exercise_18= null;
+}
+
+countdown_exercise_18.addEventListener("click", () => {
+  if (countdown_exercise_18.classList.contains('finished')) {
+    resetTimer_exercise_18();
+  } else {
+    startTimer_exercise_18();
+  }
+});
+
+updateButton_exercise_18();
+-->
+</script>
+
+---
+### Esercizio #18 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una probabilit&agrave; maggiore di un errore di I tipo?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05 &nbsp;&nbsp; :white_check_mark:
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una probabilit&agrave; maggiore di un errore di II tipo?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una maggiore potenza?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05
+
+</div>
+
+---
+### Esercizio #18 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una probabilit&agrave; maggiore di un errore di I tipo?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05 &nbsp;&nbsp; :white_check_mark:
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una probabilit&agrave; maggiore di un errore di II tipo?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una maggiore potenza?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05
+
+</div>
+
+---
+### Esercizio #18 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una probabilit&agrave; maggiore di un errore di I tipo?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05 &nbsp;&nbsp; :white_check_mark:
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una probabilit&agrave; maggiore di un errore di II tipo?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05
+
+<span style="display:block; height:1px;"></span>
+
+:question: &nbsp;&nbsp;&nbsp; Quale $\alpha$ genera una maggiore potenza?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 0.01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 0.05 &nbsp;&nbsp; :white_check_mark:
 
 </div>
 
