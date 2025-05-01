@@ -196,7 +196,7 @@ Si usa soprattutto per i dati categorici -->
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; la moda dei seguenti insiemi?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{1, 1, 1, 3, 4, 4, 4, 7, 8, 8, 9, 9\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(x)=1 \land   4$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{moda}(x)=1 \text{ e }   4$
 
 <span style="display:block; height:1px;"></span>
 
@@ -338,7 +338,7 @@ updateButton_exercise_2();
 
 
 
-<!-- La mediana non e' influenzata da valori anomali o estremi (outliers) -->
+<!-- La mediana non e' influenzata da valori estremi o estremi (outliers) -->
 
 ---
 ### Esercizio #2 -- Soluzione
@@ -350,7 +350,7 @@ updateButton_exercise_2();
 :question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{6, 34, 40, 55, 75\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(x)=y_3=40$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(x)=x_3=40$ 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{6, 34, 40, 55, 175\}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=\text{ ?}$
@@ -367,7 +367,7 @@ updateButton_exercise_2();
 </div>
 
 
-<!-- La mediana non e' influenzata da valori anomali o estremi (outliers) -->
+<!-- La mediana non e' influenzata da valori estremi o estremi (outliers) -->
 
 ---
 ### Esercizio #2 -- Soluzione
@@ -379,10 +379,10 @@ updateButton_exercise_2();
 :question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{6, 34, 40, 55, 75\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(x)=y_3=40$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(x)=x_3=40$ 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{6, 34, 40, 55, 175\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=z_3=40$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=y_3=40$ 
 
 
 
@@ -397,10 +397,10 @@ updateButton_exercise_2();
 </div>
 
 
-<!-- La mediana non e' influenzata da valori anomali o estremi (outliers) -->
+<!-- La mediana non e' influenzata da valori estremi o estremi (outliers) -->
 
 ---
-## Mediana e valori anomali
+## Mediana e valori estremi
 
 <center>
 <img src="./img/descriptive/median_outlier.png" img height="500px" border="0px"/>
@@ -458,9 +458,9 @@ updateButton_exercise_2();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L'esame &egrave; andato...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) bene: Maria ha ricevuto un voto superiore a pi&ugrave; met&agrave; delle  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) bene: ha ricevuto un voto superiore a pi&ugrave; di met&agrave; delle  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; persone che hanno dato quell'esame
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) non benissimo: Maria ha ricevuto un voto inferiore a pi&ugrave; met&agrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) non benissimo: ha ricevuto un voto inferiore a pi&ugrave; di met&agrave; 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle persone che hanno dato quell'esame
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
 
@@ -561,9 +561,9 @@ updateButton_exercise_3();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L'esame &egrave; andato...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) bene: Maria ha ricevuto un voto superiore a pi&ugrave; met&agrave; delle  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) bene: ha ricevuto un voto superiore a pi&ugrave; di met&agrave; delle  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; persone che hanno dato quell'esame
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) non benissimo: Maria ha ricevuto un voto inferiore a pi&ugrave; met&agrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) non benissimo: ha ricevuto un voto inferiore a pi&ugrave; di met&agrave; 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle persone che hanno dato quell'esame &nbsp;&nbsp; :white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
 
@@ -729,7 +729,7 @@ Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori
 Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori alla media per evidenziare queste situazioni  -->
 
 ---
-## Media e valori anomali
+## Media e valori estremi
 
 <center>
 <img src="./img/descriptive/mean_outlier.png" img height="500px" border="0px"/>
@@ -738,11 +738,12 @@ Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori
 ---
 ## La forma delle distribuzioni
 
-<span style="display:block; height:70px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/descriptive/434px-Relationship_between_mean_and_median_under_different_skewness.png" img height="250px" border="0px"/>
+<img src="./img/descriptive/Relationship_between_mean_and_median_under_different_skewness.png" img height="450px" border="0px"/>
 </center>
+
 
 <!-- La posizione di moda media e mediana va a definire anche quella che e' la forma della distribuzione, che descrive come una Distribuzione empirica e/o Di- stribuzione di popolazione si distribuisce. 
 
@@ -756,10 +757,10 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 ---
 ## La forma delle distribuzioni
 
-<span style="display:block; height:70px;"></span>
+<span style="display:block; height:40px;"></span>
 
 <center>
-<img src="./img/descriptive/Bimodal_geological.png" img height="350px" border="0px"/>
+<img src="./img/descriptive/Bimodal.png" img height="420px" border="0px"/>
 </center>
 
 <!-- Si dice che una distribuzione sia bi- o multi-modale quando presenta due o piu` gobbe corrispondenti ai diversi valori che la moda puo` assumere nel campione.
@@ -926,7 +927,7 @@ updateButton_exercise_5();
 
 <!-- INTERVALLO di VARIAZIONE. Il range pero' si basa solo sui due valori estremi, senza indicare come si distribuiscono i dati entro l’intervallo 
 
-piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tiene conto solo di due valori, e non e' robusta quando ci sono valori anomali 
+piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tiene conto solo di due valori, e non e' robusta quando ci sono valori estremi 
 
  Non fornisce però informazioni sulla distribuzione delle osservazioni: non è ad esempio possibile capire se i valori siano dispersi o raggruppati in un’estremità…
 
@@ -1262,13 +1263,12 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 ---
 ### Esercizio #7
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Coronary-artery calcium scores averaged 68.9&plusmn;244.2 (range 0 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to 1526) in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *The density of calcification in the coronary artery averaged 68.9&plusmn;244.2 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (range 0 to 1526) in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
 
@@ -1373,13 +1373,12 @@ con la mediana e il range interquartile (perché la variabile non ha una distrib
 ---
 ### Esercizio #7 -- Soluzione
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Coronary-artery calcium scores averaged 68.9&plusmn;244.2 (range 0 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to 1526) in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *The density of calcification in the coronary artery averaged 68.9&plusmn;244.2 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (range 0 to 1526) in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
 
@@ -1413,8 +1412,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di bambine e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragazze nel gruppo di intervento?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale femmine nel 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di intervento?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 12%
@@ -1539,8 +1538,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di bambine e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragazze nel gruppo di intervento?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale femmine nel 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di intervento?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 12% &nbsp;&nbsp; :white_check_mark: 
@@ -1747,8 +1746,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media dei pazienti nel  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di controllo?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media nel gruppo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di controllo?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 10.4
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 4.1
@@ -1870,8 +1869,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media dei pazienti nel  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di controllo?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media nel gruppo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di controllo?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 10.4 &nbsp;&nbsp; :white_check_mark: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 4.1
@@ -2840,7 +2839,7 @@ Indice di correlazione$^1$
 
 <div style="font-size: 60%">
 
-$^1$ In questo caso di Peason. Un altro indice di 
+$^1$ In questo caso di Pearson. Un altro indice di 
 &nbsp;&nbsp; correlazione &egrave;  quello di Spearman
 
 </div>

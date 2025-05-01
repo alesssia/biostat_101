@@ -387,6 +387,80 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A quale di queste fasce d'et&agrave; appartieni?
 
 ---
+## Discretizzazione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:40px;"></span>
+
+<div style="font-size: 80%">
+
+- Da una serie di valori continui a intervalli (o classi)
+- La scelta del numero di classi e degli estremi è arbitraria
+- Le classi devono essere mutualmente esclusive
+- Riportate anche le classi nulle (frequenza zero)
+
+</div>
+
+</div>
+<div>
+
+<div style="font-size: 90%">
+
+:pushpin: &nbsp;&nbsp;&nbsp; $\text{IMC (BMI)} = \frac{\text{peso}_\text{kg}}{\text{altezza}_m^2}$
+
+| IMC (BMI) | Classificazione
+| ----: | -----: |
+|< 18,5 | Sottopeso
+18,5 – 24, 9 | Normopeso
+25,0 – 29,9 | Sovrappeso
+30,0 – 34,9  | Obesità 1° grado
+35,0 – 39,9 | Obesità 2° grado
+| > 39,9 | Obesità 3° grado
+
+</div>
+
+</div>
+</div>
+
+<!-- Frequenze si usato per dati qualitativi, ma cosa facciamo se abbiamo dati quantitativi?
+
+In questo caso si possono ancora usare, ma la frequenza non è riferita ad un singolo valore, ma ad intervalli (o classi) di valori. 
+
+ESEMPIO QUI DEL BMI
+
+La scelta del numero di classi e degli estremi è arbitraria. Entrambi vengono determinati in base a criteri di convenienza.
+
+Il numero di classi può oscillare e dipende dalla numerosità dei dati (in genere utilizzare da 5 a 20 classi).
+
+Scegliere estremi che siano clinicamente/biologicamente significativi o naturali e, preferibilmente, di uguale ampiezza.
+
+Le classi debbono essere mutuamente esclusive (fate attenzione agli estremi!!).
+
+-->
+
+---
+## Discretizzazione
+
+<span style="display:block; height:20px;"></span>
+
+<center>
+<img src="./img/data/Table1_discrete.png" img height="300px" border="4px"/>
+</center>
+
+<span style="display:block; height:70px;"></span>
+
+<div style="font-size: 50%">
+ 
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+
+</div>
+
+<!-- Lactate dehydrogenase, dichotomized according to the upper limit of normal for each centre. -->
+
+
+---
 ### Esercizio #5
 
 <span style="display:block; height:10px;"></span>

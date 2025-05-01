@@ -199,13 +199,10 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <img src="./img/descriptive/Table1_sex.png" img height="250px" border="4px"/>
 </center>
 
-
-
 </div>
 </div>
 
 <!-- Le frequenze relative: facilitano la percezione del peso delle modalità -->
-
 
 ---
 ## Tabelle di contingenza
@@ -234,8 +231,8 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute usando le
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -255,13 +252,34 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 </div>
 
-<!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili. 
-
-La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoterapia "focalizzata sul problema" e "orientata all'azione". Essa si concentra sul cambiamento delle distorsioni cognitive (come pensieri, convinzioni e atteggiamenti) e sui comportamenti ad esse associati, per migliorare la regolazione emotiva[1][2] e sviluppare adeguate strategie di coping. 
--->
-
 ---
 ### Esercizio #3
+
+<div style="font-size: 80%">
+
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze relative usando la tabella
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di contingenza con le frequenze assolute appena calcolate
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
+</center>
+
+<center>
+
+|  | CBT | Standard | Totale |
+| ----: | -----: | ----: | ----: |
+| Maschi |  35 |  29 | 64 |
+| Femmine | 72 |  65 | 137 |
+| Totale | 107 | 94  | 201 |
+
+</center>
+
+</div>
+
+---
+### Esercizio #4
 
 <div style="font-size: 80%">
 
@@ -283,15 +301,8 @@ La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoter
 
 <div>
 
-
-
-<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
-
-LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna dei totali, Le donne sono il doppio degli uomini. No, non sono uguali
--->
-
 ---
-### Esercizio #4
+### Esercizio #5
 
 <div style="font-size: 80%">
 
@@ -331,9 +342,8 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 </div>
 </div>
 
-
 ---
-### Esercizio #5
+### Esercizio #6
 
 <div style="font-size: 90%">
 
@@ -345,18 +355,17 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 
 | Reparto/Astemio | Si | No  | Totale |
 | ----: | -----: | ----: | ----: |
-| Medicina |   |    |    |
-| Chirurgia |   |    |  |
-| Altro |  |   |  |
-| Totale |  |   |  |
+| Medicina | 122  |  157  |  279  |
+| Chirurgia | 107  | 123   | 230 |
+| Altro | 51 |  79 | 130 |
+| Totale | 280 | 359  | 639 |
 
 </center>
 
 </div>
 
-
 ---
-### Esercizio #6
+### Esercizio #7
 
 <div style="font-size: 90%">
 
@@ -369,104 +378,16 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna
 
 | Reparto/Astemio | Si | No  | Totale |
 | ----: | -----: | ----: | ----: |
-| Medicina |   |    |    |
-| Chirurgia |   |    |  |
-| Altro |  |   |  |
-| Totale |  |   |  |
+| Medicina | 122  |  157  |  279  |
+| Chirurgia | 107  | 123   | 230 |
+| Altro | 51 |  79 | 130 |
+| Totale | 280 | 359  | 639 |
 
 </center>
 
 </center>
 
 </div>
-
----
-## Discretizzazione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:40px;"></span>
-
-<div style="font-size: 80%">
-
-- Da una serie di valori continui a intervalli (o classi)
-- La scelta del numero di classi e degli estremi è arbitraria
-- Le classi devono essere mutualmente esclusive
-- Riportate anche le classi nulle (frequenza zero)
-
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 90%">
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\text{IMC (BMI)} = \frac{\text{peso}_\text{kg}}{\text{altezza}_m^2}$
-
-| IMC (BMI) | Classificazione
-| ----: | -----: |
-|< 18,5 | Sottopeso
-18,5 – 24, 9 | Normopeso
-25,0 – 29,9 | Sovrappeso
-30,0 – 34,9  | Obesità 1° grado
-35,0 – 39,9 | Obesità 2° grado
-| > 39,9 | Obesità 3° grado
-
-</div>
-
-</div>
-</div>
-
-<!-- Frequenze si usato per dati qualitativi, ma cosa facciamo se abbiamo dati quantitativi?
-
-In questo caso si possono ancora usare, ma la frequenza non è riferita ad un singolo valore, ma ad intervalli (o classi) di valori. 
-
-ESEMPIO QUI DEL BMI
-
-La scelta del numero di classi e degli estremi è arbitraria. Entrambi vengono determinati in base a criteri di convenienza.
-
-Il numero di classi può oscillare e dipende dalla numerosità dei dati (in genere utilizzare da 5 a 20 classi).
-
-Scegliere estremi che siano clinicamente/biologicamente significativi o naturali e, preferibilmente, di uguale ampiezza.
-
-Le classi debbono essere mutuamente esclusive (fate attenzione agli estremi!!).
-
--->
-
----
-## Discretizzazione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:120px;"></span>
-
-<center>
-<img src="./img/descriptive/Table1_caption.png" img height="120px" border="4px"/>
-</center>
-
-<span style="display:block; height:100px;"></span>
-
-<div style="font-size: 50%">
- 
-Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
-
-</div>
-
-</div>
-<div>
-
-<span style="display:block; height:80px;"></span>
-
-<center>
-<img src="./img/descriptive/Table1_discrete.png" img height="250px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!-- Lactate dehydrogenase, dichotomized according to the upper limit of normal for each centre. -->
 
 ---
 <span style="display:block; height:150px;"></span>

@@ -147,7 +147,7 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 
 
 ---
-## Mediana e valori anomali
+## Mediana e valori estremi
 
 <center>
 <img src="./img/descriptive/median_outlier.png" img height="500px" border="0px"/>
@@ -205,9 +205,9 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L'esame &egrave; andato...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) bene: Maria ha ricevuto un voto superiore a pi&ugrave; della met&agrave; delle  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) bene: ha ricevuto un voto superiore a pi&ugrave; di met&agrave; delle  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; persone che hanno dato quell'esame
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) non benissimo: Maria ha ricevuto un voto inferiore a pi&ugrave; della met&agrave; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) non benissimo: ha ricevuto un voto inferiore a pi&ugrave; di met&agrave; 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle persone che hanno dato quell'esame
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non ho abbastanza elementi per decidere
 
@@ -262,7 +262,7 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
 <span style="display:block; height:10px;"></span>
 
 ---
-## Media e valori anomali
+## Media e valori estremi
 
 <center>
 <img src="./img/descriptive/mean_outlier.png" img height="500px" border="0px"/>
@@ -271,10 +271,10 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
 ---
 ## La forma delle distribuzioni
 
-<span style="display:block; height:70px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <center>
-<img src="./img/descriptive/434px-Relationship_between_mean_and_median_under_different_skewness.png" img height="250px" border="0px"/>
+<img src="./img/descriptive/Relationship_between_mean_and_median_under_different_skewness.png" img height="450px" border="0px"/>
 </center>
 
 <!-- La posizione di moda media e mediana va a definire anche quella che e' la forma della distribuzione, che descrive come una Distribuzione empirica e/o Di- stribuzione di popolazione si distribuisce. 
@@ -289,10 +289,10 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 ---
 ## La forma delle distribuzioni
 
-<span style="display:block; height:70px;"></span>
+<span style="display:block; height:40px;"></span>
 
 <center>
-<img src="./img/descriptive/Bimodal_geological.png" img height="350px" border="0px"/>
+<img src="./img/descriptive/Bimodal.png" img height="420px" border="0px"/>
 </center>
 
 <!-- Si dice che una distribuzione sia bi- o multi-modale quando presenta due o piu` gobbe corrispondenti ai diversi valori che la moda puo` assumere nel campione.
@@ -355,7 +355,7 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 
 <!-- INTERVALLO di VARIAZIONE. Il range pero' si basa solo sui due valori estremi, senza indicare come si distribuiscono i dati entro l’intervallo 
 
-piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tiene conto solo di due valori, e non e' robusta quando ci sono valori anomali 
+piu; semplice, meno informativo  Il range ha tuttavia un'utilita' limitata: tiene conto solo di due valori, e non e' robusta quando ci sono valori estremi 
 
  Non fornisce però informazioni sulla distribuzione delle osservazioni: non è ad esempio possibile capire se i valori siano dispersi o raggruppati in un’estremità…
 
@@ -495,13 +495,12 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 ---
 ### Esercizio #7
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
 :question: &nbsp;&nbsp;&nbsp; Nei risultati di uno studio è riportata la seguente frase:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Coronary-artery calcium scores averaged 68.9&plusmn;244.2 (range 0 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to 1526) in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *The density of calcification in the coronary artery averaged 68.9&plusmn;244.2 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (range 0 to 1526) in  patients and 8.8&plusmn;41.8 (range 0 to 243.4) in controls.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
 
@@ -535,8 +534,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di bambine e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragazze nel gruppo di intervento?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale femmine nel 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di intervento?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 12%
@@ -618,8 +617,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media dei pazienti nel  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di controllo?
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; l’et&agrave; media nel gruppo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di controllo?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 10.4
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) 4.1

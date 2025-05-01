@@ -225,7 +225,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <script>
 <!--
 const countdown_exercize_1= document.getElementById("countdown_exercize_1");
-const seconds_exercize_1= 60; // seconds_exercize_1
+const seconds_exercize_1= 30; // seconds_exercize_1
 let timeLeft_exercize_1= seconds_exercize_1;
 let timerInterval_exercize_1= null;
 
@@ -354,8 +354,8 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute usando le
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -399,7 +399,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 <script>
 <!--
 const countdown_exercize_2= document.getElementById("countdown_exercize_2");
-const seconds_exercize_2= 300; // seconds_exercize_2
+const seconds_exercize_2= 120; // seconds_exercize_2
 let timeLeft_exercize_2= seconds_exercize_2;
 let timerInterval_exercize_2= null;
 
@@ -470,8 +470,8 @@ La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoter
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute usando le
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -496,8 +496,8 @@ La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoter
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute usando le
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -522,8 +522,8 @@ La CBT (in italiano: terapia cognitivo-comportamentale) è una forma di psicoter
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute usando le
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   informazioni contenute nell'abstract
 
 <span style="display:block; height:1px;"></span>
 
@@ -552,180 +552,30 @@ Abbiamo completato la nostra Tabella di Contingenza (con frequenze assolute)
 <!--  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili.  -->
 
 ---
-### Esercizio #2 -- Soluzione
-
-<div style="font-size: 80%">
-
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
-</center>
-
-<center>
-
-|  | CBT | Standard | Totale |
-| ----: | -----: | ----: | ----: |
-| Maschi |  35 (35/107) |  29 (29/94) | 64  (64/201)|
-| Femmine | 72 (72/107) |  65 (65/94) | 137 (64/201) |
-| Totale | 107 | 94  | 201 |
-
-</center>
-
-</div>
-
-<div style="font-size: 72%" align="right">
- 
-Opzione 1: andiamo a dividere "per colonne", ovvero a calcolare la </br> percentuale di maschi e di femmine in ciascun braccio dell'esperimento
-
-</div>
-
-
-<!-- Indentifico i gruppi e poi lavoro al loro interno
-
-Le frequenze relative le potete fare in entrambe le direzioni, o di riga o di colonna, a seconda del messaggio che volete trasmettere.
-
-Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fatto io, dividendo per il totale di colonna) o la frequenza dei due trattamenti per ciascun sesso (se aveste diviso per il totale di riga). Qualcuno ha diviso per riga?
-
- -->
-
----
-### Esercizio #2 -- Soluzione
-
-<div style="font-size: 80%">
-
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
-</center>
-
-<center>
-
-|  | CBT | Standard | Totale |
-| ----: | -----: | ----: | ----: |
-| Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
-| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%) |
-| Totale | 107 | 94  | 201 |
-
-</center>
-
-</div>
-
-
-<div style="font-size: 72%" align="right">
- 
-Opzione 1: andiamo a dividere "per colonne", ovvero a calcolare la </br> percentuale di maschi e di femmine in ciascun braccio dell'esperimento
-
-</div>
-
-
-<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità -->
-
----
-### Esercizio #2 -- Soluzione
-
-<div style="font-size: 80%">
-
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
-</center>
-
-<center>
-
-|  | CBT | Standard | Totale |
-| ----: | -----: | ----: | ----: |
-| Maschi |  35 (35/64) |  29 (29/64) | 64  |
-| Femmine | 72 (72/137) |  65 (65/137) | 137 |
-| Totale | 107 (107/201) | 94 (94/201)  | 201 |
-
-</center>
-
-</div>
-
-<div style="font-size: 72%" align="right">
-
-Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </br> di persone soggette alla terapia o meno per ciascun sesso
-
-</div>
-
-
-<!-- Le frequenze relative le potete fare in entrambe le direzioni, o di riga o di colonna, a seconda del messaggio che volete trasmettere.
-
-Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fatto io, dividendo per il totale di colonna) o la frequenza dei due trattamenti per ciascun sesso (se aveste diviso per il totale di riga). Qualcuno ha diviso per riga?
-
- -->
-
----
-### Esercizio #2 -- Soluzione
-
-<div style="font-size: 80%">
-
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute e relative
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  usando le informazioni contenute nell'abstract
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
-</center>
-
-<center>
-
-|  | CBT | Standard | Totale |
-| ----: | -----: | ----: | ----: |
-| Maschi |  35 (54.7%) |  29 (45.3%) | 64  |
-| Femmine | 72 (52.6%) |  65 (47.4%) | 137 |
-| Totale | 107 (53.2%) | 94 (46.8%)  | 201 |
-
-
-</center>
-
-</div>
-
-
-<div style="font-size: 72%" align="right">
- 
-Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </br> di persone soggette alla terapia o meno per ciascun sesso
-
-</div>
-
-
-<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità -->
-
----
 ### Esercizio #3
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze relative usando la tabella
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di contingenza con le frequenze assolute appena calcolate
 
-:question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
+</center>
 
 <center>
 
 |  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
-| Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
-| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%) |
+| Maschi |  35 |  29 | 64 |
+| Femmine | 72 |  65 | 137 |
 | Totale | 107 | 94  | 201 |
 
 </center>
 
-<div>
+</div>
 
 <style>
   #countdown_exercize_3{
@@ -751,7 +601,7 @@ Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </b
 <script>
 <!--
 const countdown_exercize_3= document.getElementById("countdown_exercize_3");
-const seconds_exercize_3= 120; // seconds_exercize_3
+const seconds_exercize_3= 180; // seconds_exercize_3
 let timeLeft_exercize_3= seconds_exercize_3;
 let timerInterval_exercize_3= null;
 
@@ -811,107 +661,180 @@ countdown_exercize_3.addEventListener("click", () => {
 updateButton_exercize_3();
 -->
 </script>
+---
+### Esercizio #3 -- Soluzione
 
-<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
+<div style="font-size: 80%">
 
-LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna dei totali, Le donne sono il doppio degli uomini. No, non sono uguali
--->
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze relative usando la tabella
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di contingenza con le frequenze assolute appena calcolate
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
+</center>
+
+<center>
+
+|  | CBT | Standard | Totale |
+| ----: | -----: | ----: | ----: |
+| Maschi |  35 (35/107) |  29 (29/94) | 64  (64/201)|
+| Femmine | 72 (72/107) |  65 (65/94) | 137 (64/201) |
+| Totale | 107 | 94  | 201 |
+
+</center>
+
+</div>
+
+<div style="font-size: 72%" align="right">
+ 
+Opzione 1: andiamo a dividere "per colonne", ovvero a calcolare la </br> percentuale di maschi e di femmine in ciascun braccio dell'esperimento
+
+</div>
+
+
+<!-- Indentifico i gruppi e poi lavoro al loro interno
+
+Le frequenze relative le potete fare in entrambe le direzioni, o di riga o di colonna, a seconda del messaggio che volete trasmettere.
+
+Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fatto io, dividendo per il totale di colonna) o la frequenza dei due trattamenti per ciascun sesso (se aveste diviso per il totale di riga). Qualcuno ha diviso per riga?
+
+ -->
 
 ---
 ### Esercizio #3 -- Soluzione
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze relative usando la tabella
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di contingenza con le frequenze assolute appena calcolate
 
-:question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;   &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
+</center>
 
 <center>
 
 |  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
 | Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
-| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%1) |
+| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%) |
 | Totale | 107 | 94  | 201 |
 
 </center>
 
-<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
+</div>
 
-Nel campione, quindi vado a vedere la colonna dei totali, Le donne sono il doppio degli uomini. No, non sono uguali
 
-LEGGERE PRIMA DI DARE LA SOLUZIONE DELLA SECONDA Nel due bracci dell'esperimento, quindi vado a confrontare le due colonne, la proporzione di donne e' sempre il 70% e di uomini e' sempre il 30%, quindi si', sono simili
-
--->
+<div style="font-size: 72%" align="right">
+ 
+Opzione 1: andiamo a dividere "per colonne", ovvero a calcolare la </br> percentuale di maschi e di femmine in ciascun braccio dell'esperimento
 
 </div>
+
+
+<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità -->
 
 ---
 ### Esercizio #3 -- Soluzione
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze relative usando la tabella
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di contingenza con le frequenze assolute appena calcolate
 
-:question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile? 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
+</center>
 
 <center>
 
 |  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
-| Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
-| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%1) |
-| Totale | 107 | 94  | 201 |
+| Maschi |  35 (35/64) |  29 (29/64) | 64  |
+| Femmine | 72 (72/137) |  65 (65/137) | 137 |
+| Totale | 107 (107/201) | 94 (94/201)  | 201 |
 
 </center>
 
-<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
+</div>
 
+<div style="font-size: 72%" align="right">
 
-Nel due bracci dell'esperimento, quindi vado a confrontare le due colonne, la proporzione di donne e' sempre il 70% e di uomini e' sempre il 30%, quindi si', sono simili
--->
+Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </br> di persone soggette alla terapia o meno per ciascun sesso
 
 </div>
+
+
+<!-- Le frequenze relative le potete fare in entrambe le direzioni, o di riga o di colonna, a seconda del messaggio che volete trasmettere.
+
+Potete calcolare la frequenza dei due sessi in ciuascun ramo del RCT (come ho fatto io, dividendo per il totale di colonna) o la frequenza dei due trattamenti per ciascun sesso (se aveste diviso per il totale di riga). Qualcuno ha diviso per riga?
+
+ -->
+
+---
+### Esercizio #3 -- Soluzione
+
+<div style="font-size: 80%">
+
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze relative usando la tabella
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di contingenza con le frequenze assolute appena calcolate
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
+</center>
+
+<center>
+
+|  | CBT | Standard | Totale |
+| ----: | -----: | ----: | ----: |
+| Maschi |  35 (54.7%) |  29 (45.3%) | 64  |
+| Femmine | 72 (52.6%) |  65 (47.4%) | 137 |
+| Totale | 107 (53.2%) | 94 (46.8%)  | 201 |
+
+
+</center>
+
+</div>
+
+
+<div style="font-size: 72%" align="right">
+ 
+Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </br> di persone soggette alla terapia o meno per ciascun sesso
+
+</div>
+
+
+<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità -->
 
 ---
 ### Esercizio #4
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
+:question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
+:question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 <center>
 
-| Reparto/Astemio | Si | No  | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
-| Medicina |   |    |    |
-| Chirurgia |   |    |  |
-| Altro |  |   |  |
-| Totale |  |   |  |
+| Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
+| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%) |
+| Totale | 107 | 94  | 201 |
 
 </center>
 
-</div>
-
-<div class="columns">
-<div>
-
-<div style="font-size: 50%" align="left">
-
- Albano, L. *et al.*, *Alcohol consumption in a sample of Italian healthcare workers: A cross-sectional study*, Archives of Environmental & Occupational Health, 2020
-
-</div>
-
-
-</div>
 <div>
 
 <style>
@@ -938,7 +861,7 @@ Nel due bracci dell'esperimento, quindi vado a confrontare le due colonne, la pr
 <script>
 <!--
 const countdown_exercise_4= document.getElementById("countdown_exercise_4");
-const seconds_exercise_4= 300; // seconds_exercise_4
+const seconds_exercise_4= 60; // seconds_exercise_4
 let timeLeft_exercise_4= seconds_exercise_4;
 let timerInterval_exercise_4= null;
 
@@ -999,58 +922,39 @@ updateButton_exercise_4();
 -->
 </script>
 
-</div>
-</div>
+<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
 
-
-
-
+LEGGERE PRIMA DI DARE LA SOLUZIONE Nel campione, quindi vado a vedere la colonna dei totali, Le donne sono il doppio degli uomini. No, non sono uguali
+-->
 
 ---
 ### Esercizio #4 -- Soluzione
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
+:question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
-
-<center>
-
-| Reparto/Astemio | Si | No  | Totale |
-| ----: | -----: | ----: | ----: |
-| Medicina | 122  |    |  279  |
-| Chirurgia | 107  |    | 230 |
-| Altro | 51 |   | 130 |
-| Totale |  |   |  |
-
-</center>
-
-</div>
-
----
-### Esercizio #4 -- Soluzione
-
-<div style="font-size: 80%">
-
-:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
+:question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;   &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 <center>
 
-| Reparto/Astemio | Si | No  | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
-| Medicina | 122  |  157  |  279  |
-| Chirurgia | 107  | 123   | 230 |
-| Altro | 51 | 79  | 130 |
-| Totale |  |   |  |
+| Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
+| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%1) |
+| Totale | 107 | 94  | 201 |
 
 </center>
+
+<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
+
+Nel campione, quindi vado a vedere la colonna dei totali, Le donne sono il doppio degli uomini. No, non sono uguali
+
+LEGGERE PRIMA DI DARE LA SOLUZIONE DELLA SECONDA Nel due bracci dell'esperimento, quindi vado a confrontare le due colonne, la proporzione di donne e' sempre il 70% e di uomini e' sempre il 30%, quindi si', sono simili
+
+-->
 
 </div>
 
@@ -1059,46 +963,66 @@ updateButton_exercise_4();
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
+:question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark: &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
+:question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile? 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
 <center>
 
-| Reparto/Astemio | Si | No  | Totale |
+|  | CBT | Standard | Totale |
 | ----: | -----: | ----: | ----: |
-| Medicina | 122  |  157  |  279  |
-| Chirurgia | 107  | 123   | 230 |
-| Altro | 51 |  79 | 130 |
-| Totale | 280 | 359  | 639 |
+| Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
+| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%1) |
+| Totale | 107 | 94  | 201 |
 
 </center>
+
+<!-- Le frequenze relative consentono di confrontare la distribuzione di una variabile in campioni di diversa numerosità 
+
+
+Nel due bracci dell'esperimento, quindi vado a confrontare le due colonne, la proporzione di donne e' sempre il 70% e di uomini e' sempre il 30%, quindi si', sono simili
+-->
 
 </div>
 
 ---
 ### Esercizio #5
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di astemi nei diversi reparti?
+:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
 
-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
 <center>
 
 | Reparto/Astemio | Si | No  | Totale |
 | ----: | -----: | ----: | ----: |
-| Medicina | 122  |  157  |  279  |
-| Chirurgia | 107  | 123   | 230 |
-| Altro | 51 |  79 | 130 |
-| Totale | 280 | 359  | 639 |
+| Medicina |   |    |    |
+| Chirurgia |   |    |  |
+| Altro |  |   |  |
+| Totale |  |   |  |
 
 </center>
 
 </div>
+
+<div class="columns">
+<div>
+
+<div style="font-size: 50%" align="left">
+
+ Albano, L. *et al.*, *Alcohol consumption in a sample of Italian healthcare workers: A cross-sectional study*, Archives of Environmental & Occupational Health, 2020
+
+</div>
+
+
+</div>
+<div>
 
 <style>
   #countdown_exercise_5{
@@ -1124,7 +1048,7 @@ updateButton_exercise_4();
 <script>
 <!--
 const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 300; // seconds_exercise_5
+const seconds_exercise_5= 120; // seconds_exercise_5
 let timeLeft_exercise_5= seconds_exercise_5;
 let timerInterval_exercise_5= null;
 
@@ -1185,24 +1109,32 @@ updateButton_exercise_5();
 -->
 </script>
 
+</div>
+</div>
+
+
+
+
 
 ---
 ### Esercizio #5 -- Soluzione
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di astemi nei diversi reparti?
+:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
 
-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
 <center>
 
 | Reparto/Astemio | Si | No  | Totale |
 | ----: | -----: | ----: | ----: |
-| Medicina | 122 (122/279)  |  157 (157/279)  |  279  |
-| Chirurgia | 107 (107/230)  | 123 (123/230)   | 230 |
-| Altro | 51 (51/130) |  79 (79/130) | 130 |
-| Totale | 280 | 359  | 639 |
+| Medicina | 122  |    |  279  |
+| Chirurgia | 107  |    | 230 |
+| Altro | 51 |   | 130 |
+| Totale |  |   |  |
 
 </center>
 
@@ -1211,34 +1143,37 @@ updateButton_exercise_5();
 ---
 ### Esercizio #5 -- Soluzione
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di astemi nei diversi reparti?
+:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
 
-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
 <center>
 
 | Reparto/Astemio | Si | No  | Totale |
 | ----: | -----: | ----: | ----: |
-| Medicina | 122 (43.7%)  |  157 (56.3%)  |  279  |
-| Chirurgia | 107 (46.5%)  | 123 (53.5%)   | 230 |
-| Altro | 51 (39.2%) |  79 (60.7%) | 130 |
-| Totale | 280 | 359  | 639 |
+| Medicina | 122  |  157  |  279  |
+| Chirurgia | 107  | 123   | 230 |
+| Altro | 51 | 79  | 130 |
+| Totale |  |   |  |
 
 </center>
 
-<div>
+</div>
 
 ---
-### Esercizio #6
+### Esercizio #5 -- Soluzione
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Con quale percentuale si distribuiscono gli astemi (o meno) 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nei diversi reparti?
+:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
 
-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
 
 <center>
 
@@ -1250,6 +1185,26 @@ updateButton_exercise_5();
 | Totale | 280 | 359  | 639 |
 
 </center>
+
+</div>
+
+---
+### Esercizio #6
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di astemi nei diversi reparti?
+
+<br/>
+
+<center>
+
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122  |  157  |  279  |
+| Chirurgia | 107  | 123   | 230 |
+| Altro | 51 |  79 | 130 |
+| Totale | 280 | 359  | 639 |
 
 </center>
 
@@ -1279,7 +1234,7 @@ updateButton_exercise_5();
 <script>
 <!--
 const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 300; // seconds_exercise_6
+const seconds_exercise_6= 180; // seconds_exercise_6
 let timeLeft_exercise_6= seconds_exercise_6;
 let timerInterval_exercise_6= null;
 
@@ -1346,6 +1301,161 @@ updateButton_exercise_6();
 
 <div style="font-size: 90%">
 
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di astemi nei diversi reparti?
+
+<br/>
+
+<center>
+
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122 (122/279)  |  157 (157/279)  |  279  |
+| Chirurgia | 107 (107/230)  | 123 (123/230)   | 230 |
+| Altro | 51 (51/130) |  79 (79/130) | 130 |
+| Totale | 280 | 359  | 639 |
+
+</center>
+
+</div>
+
+---
+### Esercizio #6 -- Soluzione
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di astemi nei diversi reparti?
+
+<br/>
+
+<center>
+
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122 (43.7%)  |  157 (56.3%)  |  279  |
+| Chirurgia | 107 (46.5%)  | 123 (53.5%)   | 230 |
+| Altro | 51 (39.2%) |  79 (60.7%) | 130 |
+| Totale | 280 | 359  | 639 |
+
+</center>
+
+<div>
+
+---
+### Esercizio #7
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Con quale percentuale si distribuiscono gli astemi (o meno) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nei diversi reparti?
+
+<br/>
+
+<center>
+
+| Reparto/Astemio | Si | No  | Totale |
+| ----: | -----: | ----: | ----: |
+| Medicina | 122  |  157  |  279  |
+| Chirurgia | 107  | 123   | 230 |
+| Altro | 51 |  79 | 130 |
+| Totale | 280 | 359  | 639 |
+
+</center>
+
+</center>
+
+</div>
+
+<style>
+  #countdown_exercise_7{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_7.running {
+    background-color: green;
+  }
+  #countdown_exercise_7.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_7"></button>
+
+<script>
+<!--
+const countdown_exercise_7= document.getElementById("countdown_exercise_7");
+const seconds_exercise_7= 120; // seconds_exercise_7
+let timeLeft_exercise_7= seconds_exercise_7;
+let timerInterval_exercise_7= null;
+
+function formatTime_exercise_7(seconds_exercise_7) {
+  const minutes = Math.floor(seconds_exercise_7/ 60);
+  const remainingseconds_exercise_7= seconds_exercise_7% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_7).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_7() {
+  countdown_exercise_7.textContent = formatTime_exercise_7(timeLeft_exercise_7);
+}
+
+function startTimer_exercise_7() {
+  if (timerInterval_exercise_7=== null) {
+    countdown_exercise_7.classList.add('running');
+    countdown_exercise_7.classList.remove('finished');
+    timerInterval_exercise_7= setInterval(() => {
+      if (timeLeft_exercise_7> 0) {
+        timeLeft_exercise_7--;
+        updateButton_exercise_7();
+      } else {
+        clearInterval(timerInterval_exercise_7);
+        timerInterval_exercise_7= null;
+        countdown_exercise_7.classList.remove('running');
+        countdown_exercise_7.classList.add('finished');
+        countdown_exercise_7.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_7();
+  }
+}
+
+function pauseTimer_exercise_7() {
+  clearInterval(timerInterval_exercise_7);
+  timerInterval_exercise_7= null;
+  countdown_exercise_7.classList.remove('running');
+}
+
+function resetTimer_exercise_7() {
+  timeLeft_exercise_7= seconds_exercise_7;
+  updateButton_exercise_7();
+  countdown_exercise_7.classList.remove('finished');
+  countdown_exercise_7.classList.remove('running');
+  timerInterval_exercise_7= null;
+}
+
+countdown_exercise_7.addEventListener("click", () => {
+  if (countdown_exercise_7.classList.contains('finished')) {
+    resetTimer_exercise_7();
+  } else {
+    startTimer_exercise_7();
+  }
+});
+
+updateButton_exercise_7();
+-->
+</script>
+
+
+---
+### Esercizio #7 -- Soluzione
+
+<div style="font-size: 90%">
+
 :question: &nbsp;&nbsp;&nbsp; Con quale percentuale si distribuiscono gli astemi (o meno) 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nei diversi reparti?
 
@@ -1365,7 +1475,7 @@ updateButton_exercise_6();
 </div>
 
 ---
-### Esercizio #6 -- Soluzione
+### Esercizio #7 -- Soluzione
 
 <div style="font-size: 90%">
 
@@ -1388,93 +1498,6 @@ updateButton_exercise_6();
 
 </div>
 
----
-## Discretizzazione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:40px;"></span>
-
-<div style="font-size: 80%">
-
-- Da una serie di valori continui a intervalli (o classi)
-- La scelta del numero di classi e degli estremi è arbitraria
-- Le classi devono essere mutualmente esclusive
-- Riportate anche le classi nulle (frequenza zero)
-
-</div>
-
-</div>
-<div>
-
-<div style="font-size: 90%">
-
-:pushpin: &nbsp;&nbsp;&nbsp; $\text{IMC (BMI)} = \frac{\text{peso}_\text{kg}}{\text{altezza}_m^2}$
-
-| IMC (BMI) | Classificazione
-| ----: | -----: |
-|< 18,5 | Sottopeso
-18,5 – 24, 9 | Normopeso
-25,0 – 29,9 | Sovrappeso
-30,0 – 34,9  | Obesità 1° grado
-35,0 – 39,9 | Obesità 2° grado
-| > 39,9 | Obesità 3° grado
-
-</div>
-
-</div>
-</div>
-
-<!-- Frequenze si usato per dati qualitativi, ma cosa facciamo se abbiamo dati quantitativi?
-
-In questo caso si possono ancora usare, ma la frequenza non è riferita ad un singolo valore, ma ad intervalli (o classi) di valori. 
-
-ESEMPIO QUI DEL BMI
-
-La scelta del numero di classi e degli estremi è arbitraria. Entrambi vengono determinati in base a criteri di convenienza.
-
-Il numero di classi può oscillare e dipende dalla numerosità dei dati (in genere utilizzare da 5 a 20 classi).
-
-Scegliere estremi che siano clinicamente/biologicamente significativi o naturali e, preferibilmente, di uguale ampiezza.
-
-Le classi debbono essere mutuamente esclusive (fate attenzione agli estremi!!).
-
--->
-
----
-## Discretizzazione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:120px;"></span>
-
-<center>
-<img src="./img/descriptive/Table1_caption.png" img height="120px" border="4px"/>
-</center>
-
-<span style="display:block; height:100px;"></span>
-
-<div style="font-size: 50%">
- 
-Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
-
-</div>
-
-</div>
-<div>
-
-<span style="display:block; height:80px;"></span>
-
-<center>
-<img src="./img/descriptive/Table1_discrete.png" img height="250px" border="4px"/>
-</center>
-
-</div>
-</div>
-
-<!-- Lactate dehydrogenase, dichotomized according to the upper limit of normal for each centre. -->
 
 ---
 <span style="display:block; height:150px;"></span>
