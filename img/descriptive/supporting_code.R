@@ -8,6 +8,7 @@ library(waffle)
 library(ggbeeswarm)
 library(gghalves)
 library(ggrepel)
+library(patchwork)
 
 font.size <- 22
 graphic.settings <- theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) +  theme(legend.title = element_blank()) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size))
@@ -157,6 +158,91 @@ png("sd.png", width=500, height=250, bg = "transparent")
 print(p)
 dev.off()
 
+yanchor <- dnorm(50, mean=50, sd = 2)
+
+p_symmetrical <-  ggplot(data = data.frame(x = c(40, 60)), aes(x)) +
+   stat_function(fun = dnorm, n = 101, args = list(mean = 50, sd = 2), colour="black") +
+   
+   geom_segment(aes(x = 40, y = 0, xend = 60, yend = 0), colour="black") +
+	
+   geom_segment(aes(x = 50, y = 0, xend = 50, yend = dnorm(50, mean=50, sd = 2)), colour="black", linetype="dashed") +
+   annotate("text", x = 50, y = c(yanchor+0.01, yanchor+0.02, yanchor+0.03), label = c("Moda", "Mediana", "Media"), parse = FALSE, size=5) +
+   annotate("text", x = 50, y = c(-0.01, -0.02, -0.033), label = c("Distribuzione", "simmetrica", ""), parse = FALSE, size=5) +
+
+   scale_y_continuous(breaks = NULL) + theme_void() +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+mode_p <- which(max(dlnorm(1:130, meanlog=3.5, sdlog = 0.5)) == dlnorm(1:130, meanlog=3.5, sdlog = 0.5))
+p_asymmetrical_positive <-   ggplot(data = data.frame(x = c(2, 130)), aes(x)) +
+      stat_function(fun = dlnorm, n = 101, args = list(meanlog = 3.5, sdlog = 0.5), colour="black") +
+   
+      geom_segment(aes(x = 0, y = 0, xend = 130, yend = 0), colour="black") +
+	
+      geom_segment(aes(x = 50, y = 0, xend = 50, yend = dlnorm(50, meanlog=3.5, sdlog = 0.5)), colour="black", linetype="dashed") +
+      annotate("text", x = 55, y = dlnorm(50, meanlog=3.5, sdlog = 0.5)+0.00095, label = "Media", parse = FALSE, size=5) +
+   
+      geom_segment(aes(x = mode_p, y = 0, xend = mode_p, yend = dlnorm(mode_p, meanlog=3.5, sdlog = 0.5)), colour="black",  linetype="dotted") +
+      annotate("text", x = mode_p, y = dlnorm(mode_p, meanlog=3.5, sdlog = 0.5)+0.00095, label = "Moda", parse = FALSE, size=5) + 
+   
+      geom_segment(aes(x = 33, y = 0, xend = 33, yend = dlnorm(33, meanlog=3.5, sdlog = 0.5)), colour="black",  linetype="dotted") +
+      annotate("text", x = 41, y = dlnorm(33, meanlog=3.5, sdlog = 0.5)+0.00055, label = "Mediana", parse = FALSE, size=5) +
+   
+      annotate("text", x = 50, y = c(-0.001, -0.0025, -0.004), label = c("Distribuzione", "asimmetrica a destra", "(o positiva)"), parse = FALSE, size=5) +
+
+      scale_y_continuous(breaks = NULL) + theme_void() +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+
+rdlnorm <- function(x, meanlog, sdlog) dlnorm(130-x, meanlog=meanlog, sdlog=sdlog)	  
+mode_n <- which(max(rdlnorm(1:130, meanlog=3.5, sdlog = 0.5)) == rdlnorm(1:130, meanlog=3.5, sdlog = 0.5))
+
+p_asymmetrical_negative <-   ggplot(data = data.frame(x = c(2, 130)), aes(x)) +
+	     stat_function(fun = rdlnorm, n = 101, args = list(meanlog = 3.5, sdlog = 0.5), colour="black") +
+   
+	     geom_segment(aes(x = 0, y = 0, xend = 130, yend = 0), colour="black") +
+	
+	     geom_segment(aes(x = 130-50, y = 0, xend = 130-50, yend = rdlnorm(130-50, meanlog=3.5, sdlog = 0.5)), colour="black", linetype="dashed") +
+	     annotate("text", x = 75, y = dlnorm(50, meanlog=3.5, sdlog = 0.5)+0.00095, label = "Media", parse = FALSE, size=5) +
+   
+	     geom_segment(aes(x = mode_n, y = 0, xend = mode_n, yend = rdlnorm(mode_n, meanlog=3.5, sdlog = 0.5)), colour="black", linetype="dotted") +
+	     annotate("text", x = mode_n, y = rdlnorm(mode_n, meanlog=3.5, sdlog = 0.5)+0.00095, label = "Moda", parse = FALSE, size=5) + 
+   
+	     geom_segment(aes(x = 130-33, y = 0, xend = 130-33, yend = rdlnorm(130-33, meanlog=3.5, sdlog = 0.5)), colour="black",  linetype="dotted") +
+	     annotate("text", x = 130-41, y = dlnorm(33, meanlog=3.5, sdlog = 0.5)+0.00055, label = "Mediana", parse = FALSE, size=5) +
+   
+	     annotate("text", x = 130-50, y = c(-0.001, -0.0025, -0.004), label = c("Distribuzione", "asimmetrica a sinistra", "(o negativa)"), parse = FALSE, size=5) +
+
+	     scale_y_continuous(breaks = NULL) + theme_void() +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+
+p <- p_asymmetrical_positive + p_symmetrical  + p_asymmetrical_negative & theme(plot.background = element_rect(fill='transparent'), legend.background = element_rect(fill = 'transparent') )
+
+png("Relationship_between_mean_and_median_under_different_skewness.png", width=900, height=350, bg = "transparent")
+print(p)
+dev.off()
+
+
+set.seed(42)
+mm <- data.frame(dist="mixture", x=rnorm(1000, rep(c(-1, 1), each = 10) * sqrt(0.8), sqrt(0.1)))
+
+bmode <- table(round(mm$x, 3))
+bmode <- as.numeric(names(bmode[(which(bmode == max(bmode)))]))
+
+p_bimodal <-  ggplot(mm, aes(x = x)) + geom_density() +
+   
+   geom_segment(aes(x = -2, y = 0, xend = 2, yend = 0), colour="black") +
+	
+   geom_segment(aes(x = bmode, y = 0, xend = bmode, yend = dnorm(sqrt(0.084), mean=sqrt(0.5), sd = sqrt(0.1))), colour="black", linetype="dashed") +
+   annotate("text", x = bmode, y = dnorm(sqrt(0.089), mean=sqrt(0.5), sd = sqrt(0.1))+0.015, label = "Moda[1]", parse = TRUE, size=5) +
+   geom_segment(aes(x = -bmode, y = 0, xend = -bmode, yend = dnorm(sqrt(0.082), mean=sqrt(0.5), sd = sqrt(0.1))), colour="black", linetype="dashed") +
+   annotate("text", x = -bmode, y = dnorm(sqrt(0.09), mean=sqrt(0.5), sd = sqrt(0.1))+0.015, label = "Moda[2]", parse = TRUE, size=5) +
+
+   scale_y_continuous(breaks = NULL) + theme_void() +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+
+
+png("Bimodal.png", width=500, height=250, bg = "transparent")
+print(p_bimodal)
+dev.off()
+
+
 
 # Examples of outliers in calculating median and mean
 pp <- data.frame(x=c(6, 34, 40, 55, 175, 0, 0), y=c(rep(0, 5), 1, -1))
@@ -178,6 +264,7 @@ p <- p +  geom_segment(aes(x = 62, y = -0.3, xend = 62, yend = -0.1), arrow = ar
 png("mean_outlier.png", width=500, height=250, bg = "transparent")
 print(p)
 dev.off()
+
 
 
 ### Sexual partner in Britain  
