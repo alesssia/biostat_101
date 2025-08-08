@@ -38,15 +38,15 @@ section {
 ---
 ## Le fasi della ricerca
 
-<span style="display:block; height:2px;"></span>
+<!-- <span style="display:block; height:2px;"></span> -->
 
 <center>
-<img src="./img/descriptive/PPDAC_quantitative.png" img height="450px" border="0px"/>
+<img src="./img/descriptive/PPDAC_quantitative.png" img height="500px" border="0px"/>
 </center>
 
 <div style="font-size: 50%" align="right">
 
-Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (Edizione Italiana: Einaudi, 2020)
 
 </div>
 
@@ -934,7 +934,7 @@ Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver a
 
 <div style="font-size: 50%" align="right">
 
-Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019
+Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (Edizione Italiana: Einaudi, 2020)
 
 </div>
 
