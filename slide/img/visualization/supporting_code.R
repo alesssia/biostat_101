@@ -26,20 +26,20 @@ tmp <- as.data.frame(cbind(names(tmp), tmp))
 colnames(tmp) <- c("stage", "value")
 tmp$value <- as.numeric(tmp$value)
 
-g <- ggplot(tmp, aes(x=stage, y=value)) + geom_bar(stat = "identity", width=0.8, fill="gray74", colour="black") + theme(legend.position="none") + graphic.settings + xlab("Stadio di metastasi") + ylab("Numero")
+g <- ggplot(tmp, aes(x=stage, y=value)) + geom_bar(stat = "identity", width=0.8, fill="gray74", colour="black") + theme(legend.position="none") + graphic.settings + xlab("Stadio di metastasi") + ylab("Frequenza")
 
 png("MStage_barplot_vertical.png")
 print(g)
 dev.off()
 
-g <- ggplot(tmp, aes(y=stage, x=value)) + geom_bar(stat = "identity", width=0.8, fill="gray74", colour="black") + theme(legend.position="none") + graphic.settings + ylab("Stadio di metastasi") + xlab("Numero")
+g <- ggplot(tmp, aes(y=stage, x=value)) + geom_bar(stat = "identity", width=0.8, fill="gray74", colour="black") + theme(legend.position="none") + graphic.settings + ylab("Stadio di metastasi") + xlab("Frequenza")
 
 png("MStage_barplot_horizontal.png")
 print(g)
 dev.off()
 
 
-g <- ggplot(tmp, aes(x=value, y=stage)) + geom_segment( aes(x=1, xend=value, y=stage, yend=stage), color="black", linewidth=1) + geom_point( color="darkmagenta", size=6) + theme(legend.position="none") + graphic.settings + ylab("Stadio di metastasi") + xlab("Numero")
+g <- ggplot(tmp, aes(x=value, y=stage)) + geom_segment( aes(x=1, xend=value, y=stage, yend=stage), color="black", linewidth=1) + geom_point( color="darkmagenta", size=6) + theme(legend.position="none") + graphic.settings + ylab("Stadio di metastasi") + xlab("Frequenza")
 
 
 png("MStage_lollipop_horizontal.png")
@@ -112,10 +112,11 @@ tmp <- table(md$ICI_therapy)
 tmp <- as.data.frame(cbind(names(tmp), tmp))
 colnames(tmp) <- c("ICI_therapy", "value")
 tmp$value <- as.numeric(tmp$value)
+tmp$ICI_therapy[tmp$ICI_therapy == "Ipilimumab+Nivolumab"] <- "Combined"
 
 tmp$ICI_therapy = factor(tmp$ICI_therapy, levels=unique(tmp$ICI_therapy[order(tmp$value)]))
 
-g <- ggplot(tmp, aes(y=ICI_therapy, x=value)) + geom_bar(stat = "identity", width=0.8, fill="gray74", colour="black") + theme(legend.position="none") + graphic.settings + ylab("Terapia immunoterapica") + xlab("Numero")
+g <- ggplot(tmp, aes(y=ICI_therapy, x=value)) + geom_bar(stat = "identity", width=0.8, fill="gray74", colour="black") + theme(legend.position="none") + graphic.settings + ylab("Terapia immunoterapica") + xlab("Frequenza")
 
 png("ICI_therapy_barplot_horizotal.png")
 print(g)
@@ -127,13 +128,13 @@ dev.off()
 ## Quantitative variables
 
 
-p <- ggplot(md, aes(x=age)) + geom_histogram(fill="gray74", binwidth=1, color="black") + graphic.settings + xlab("Eta' (anni)") + ylab("Numero") + ggtitle("Dimensione dell'intervallo = 1")
+p <- ggplot(md, aes(x=age)) + geom_histogram(fill="gray74", binwidth=1, color="black") + graphic.settings + xlab("Eta' (anni)") + ylab("Frequenza") + ggtitle("Dimensione dell'intervallo = 1")
 
 png("Age_histogram_bin1.png")
 print(p)
 dev.off()
 
-p <- ggplot(md, aes(x=age)) + geom_histogram(fill="gray74", binwidth=5, color="black") + graphic.settings + xlab("Eta' (anni)") + ylab("Numero") + ggtitle("Dimensione dell'intervallo = 5")
+p <- ggplot(md, aes(x=age)) + geom_histogram(fill="gray74", binwidth=5, color="black") + graphic.settings + xlab("Eta' (anni)") + ylab("Frequenza") + ggtitle("Dimensione dell'intervallo = 5")
 
 png("Age_histogram_bin5.png")
 print(p)
@@ -144,7 +145,7 @@ md$ORR[md$ORR == 1] <- "Si'"
 md$ORR[md$ORR == 0] <- "No"
 md$ORR <- as.factor(md$ORR)
 
-p <- ggplot(md, aes(x=age, fill=ORR)) + geom_histogram(binwidth=5, color="black", alpha=0.6, position = 'identity') + scale_fill_manual("Risposta", values=c("#FC8D62", "#66C2A5")) + theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size)) + xlab("Eta' (anni)") + ylab("Numero") + ggtitle("Dimensione dell'intervallo = 5") + theme(legend.position="bottom")
+p <- ggplot(md, aes(x=age, fill=ORR)) + geom_histogram(binwidth=5, color="black", alpha=0.6, position = 'identity') + scale_fill_manual("Risposta", values=c("#FC8D62", "#66C2A5")) + theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size)) + xlab("Eta' (anni)") + ylab("Frequenza") + ggtitle("Dimensione dell'intervallo = 5") + theme(legend.position="bottom")
 
 png("Age_histogram_bin5_response.png")
 print(p)
@@ -158,7 +159,7 @@ p <- ggplot(data, aes(x=x) ) +
   geom_label( aes(x=100, y=2.5, label="Risposta: Si'"), color="#66C2A5") +
   geom_histogram( aes(x = var2, y=-..count..), binwidth=5, color="black", fill= "#FC8D62") +
   geom_label( aes(x=100, y=-2.5, label="Risposta: No"), color="#FC8D62")  +
-  ylim(-11, 11) + xlim(20, 110) + graphic.settings + xlab("Eta' (anni)") + ylab("Numero") + ggtitle("Dimensione dell'intervallo = 5") + theme(legend.position="bottom") 
+  ylim(-11, 11) + xlim(20, 110) + graphic.settings + xlab("Eta' (anni)") + ylab("Frequenza") + ggtitle("Dimensione dell'intervallo = 5") + theme(legend.position="bottom") 
   
 png("Age_histogram_bin5_response_mirror.png")
 print(p)

@@ -362,19 +362,58 @@ print(cor(df$h[1:n], df$s[1:n]))
 gym <- c(rep(0, 20), rep(5, 4), rep(6, 6), rep(7,7), rep(8, 3), 9)  
 gym <- data.frame(p=1:length(gym), hours=gym)
 
-p <- ggplot(gym, aes(x=hours)) + geom_histogram(bins=10, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + graphic.settings + xlab("Ore di palestra alla settimana") + ylab("Numero") + ggtitle("")
+p <- ggplot(gym, aes(x=hours)) + geom_histogram(bins=10, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + scale_x_continuous(breaks = 0:9) + scale_y_continuous(breaks = seq(0, 21, 5)) + graphic.settings + xlab("Ore di palestra alla settimana") + ylab("Frequenza") + ggtitle("")
 
 
 png("gym.png")
 print(p)
 dev.off()
 
+
+phonecall <- c(rep(0, 3), rep(1, 4), rep(2, 6), rep(3, 18), rep(4, 20), rep(5, 14), rep(6, 11), rep(7, 7), rep(8, 4), rep(9, 2))  
+phonecall <- data.frame(p=1:length(phonecall), times=phonecall)
+
+p <- ggplot(phonecall, aes(x=times)) + geom_histogram(bins=10, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + scale_x_continuous(breaks = 0:9) +  scale_y_continuous(breaks = seq(0, 20, 5))  + graphic.settings + xlab("Numero di telefonate al mese") + ylab("Frequenza") + ggtitle("")
+
+
+png("phonecall.png")
+print(p)
+dev.off()
+
+
+
+fines <- c(rep(0, 10), rep(1, 5), rep(2,3), 3:6)  
+fines <- data.frame(p=1:length(fines), times=fines)
+
+p <- ggplot(fines, aes(x=times)) + geom_histogram(bins=10, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + scale_x_continuous(breaks = 0:6) + scale_y_continuous(breaks = seq(0, 10, 2)) + graphic.settings + xlab("Numero di multe") + ylab("Frequenza") + ggtitle("Multe per divieto di sosta", subtitle="(Primi 10 anni di patente)")
+
+png("fines.png")
+print(p)
+dev.off()
+
+
+hypnosis <- data.frame(number=c(410, 460), responses=c("Si'", "No"))
+
+p <- ggplot(hypnosis, aes(x=responses, y=number)) + geom_bar(stat = "identity", width=0.8, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + theme(legend.position="none") + graphic.settings + xlab("Sono d'accordo...") + ylab("Frequenza") + ggtitle("L'ipnosi migliora la memoria?") 
+
+png("hypnosis.png")
+print(p)
+dev.off()
+
+p1 <- p + coord_cartesian(ylim=c(380, 460)) 
+
+
+png("hypnosis_not_from_zero.png")
+print(p1)
+dev.off()
+
+
 # Variability
 
 head_circ <- c(43, rep(44,3), rep(45, 4), rep(46, 5), rep(47,3), rep(48,2))
 head_circ <- data.frame(p=1:length(head_circ), hc=head_circ)
 
-p <- ggplot(head_circ, aes(x=hc)) + geom_histogram(bins=10, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + graphic.settings + xlab("Circonferenza cranica (cm)") + ylab("Numero") + scale_x_continuous(breaks=min(head_circ$hc):max(head_circ$hc))
+p <- ggplot(head_circ, aes(x=hc)) + geom_histogram(bins=10, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + graphic.settings + xlab("Circonferenza cranica (cm)") + ylab("Frequenza") + scale_x_continuous(breaks=min(head_circ$hc):max(head_circ$hc))
 
 
 png("head_circiference_doll.png", width=480, height=250)
@@ -385,7 +424,7 @@ dev.off()
 head_circ <- c(41, rep(42, 2), rep(43,3), rep(44,3), rep(45, 5), rep(46, 6), rep(47,4), rep(48,4), rep(49,3), rep(50,2), 51, 52)
 head_circ <- data.frame(p=1:length(head_circ), hc=head_circ)
 
-p <- ggplot(head_circ, aes(x=hc)) + geom_histogram(bins=10, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + graphic.settings + xlab("Circonferenza cranica (cm)") + ylab("Numero") + scale_x_continuous(breaks=min(head_circ$hc):max(head_circ$hc))
+p <- ggplot(head_circ, aes(x=hc)) + geom_histogram(bins=10, fill="darkgreen", binwidth=1, color="black", alpha=0.4) + graphic.settings + xlab("Circonferenza cranica (cm)") + ylab("Frequenza") + scale_x_continuous(breaks=min(head_circ$hc):max(head_circ$hc))
 
 png("head_circiference_children.png", width=480, height=250)
 print(p)
@@ -394,7 +433,7 @@ dev.off()
 head_circ_2 <- c(33, rep(34, 2), rep(35, 3), rep(36, 5), rep(37, 7), rep(38, 6), rep(39, 4), rep(40, 3), rep(41, 2), 42, 43)+6
 head_circ <- rbind(data.frame(head_circ, study="A"), data.frame(p=1:length(head_circ_2), hc=head_circ_2, study="B"))
 
-p <- ggplot(head_circ, aes(x=hc, fill=study)) + geom_histogram(binwidth=1, color="black", alpha=0.4, position = 'identity') + scale_fill_manual("Study", values=c("darkgreen", "magenta")) + graphic.settings + xlab("Circonferenza cranica (cm)") + ylab("Numero") + scale_x_continuous(breaks=min(head_circ$hc):max(head_circ$hc)) + theme(legend.position="none")
+p <- ggplot(head_circ, aes(x=hc, fill=study)) + geom_histogram(binwidth=1, color="black", alpha=0.4, position = 'identity') + scale_fill_manual("Study", values=c("darkgreen", "magenta")) + graphic.settings + xlab("Circonferenza cranica (cm)") + ylab("Frequenza") + scale_x_continuous(breaks=min(head_circ$hc):max(head_circ$hc)) + theme(legend.position="none")
 
 png("head_circiference_children_groups.png", width=480, height=250)
 print(p)
