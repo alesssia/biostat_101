@@ -898,7 +898,7 @@ updateButton_exercise_5();
 
 <!-- <span style="display:block; height:1px;"></span> -->
 
-<div style="font-size: 90%" >
+<div style="font-size: 85%" >
 
 
 
@@ -941,7 +941,7 @@ Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
 
 <!-- <span style="display:block; height:1px;"></span> -->
 
-<div style="font-size: 90%" >
+<div style="font-size: 85%" >
 
 - Competizione presso la "Mostra del Pollame e del Bestiame da Macello, Plymounth, 1907
 - Obiettivo: indovinare il peso "lavorato" della carne macellata
@@ -988,7 +988,7 @@ Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
 
 <!-- <span style="display:block; height:1px;"></span> -->
 
-<div style="font-size: 90%" >
+<div style="font-size: 85%" >
 
 - Giudizio non influenzato da passioni personali e/o proselitismo vario
 - Burloni evitati dal costo di ingresso
@@ -1033,7 +1033,7 @@ Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
 
 <!-- <span style="display:block; height:1px;"></span> -->
 
-<div style="font-size: 90%" >
+<div style="font-size: 85%" >
 
 - **Mediana** dei 787 tentativi: 1207 lb (547 kg)
 - Peso "lavorato": 1198 lb (543 kg)
@@ -2347,7 +2347,7 @@ Think &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button>
 <script>
 <!--
 const countdown_think = document.getElementById("countdown_think");
-const seconds_think = 120; // seconds_think
+const seconds_think = 60; // seconds_think
 let timeLeft_think = seconds_think;
 let timerInterval_think = null;
 
@@ -2480,7 +2480,7 @@ Pair &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button>
 <script>
 <!--
 const countdown_pair = document.getElementById("countdown_pair");
-const seconds_pair = 180; // seconds_pair
+const seconds_pair = 120; // seconds_pair
 let timeLeft_pair = seconds_pair;
 let timerInterval_pair = null;
 
@@ -2737,27 +2737,24 @@ Multimodale, particolarmente accentuato sull'1 -->
 
 <span style="display:block; height:1px;"></span>
 
-<img src="./img/descriptive/gym.png" img height="400px" align="left" border="4px"/>
+<img src="./img/descriptive/phonecall.png" img height="400px" align="left" border="4px"/>
 
 <div style="font-size: 70%">
 
-&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando  41 genitori
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in un parco giochi.
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 89 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; studenti universitari fuori sede
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Gli intervistati spendono tra le 0 e le 9 ore 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra, con una media di 3.4 $\pm$  3.4 ore 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (mediana: 5 ore; moda: 0 ore).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La media perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La mediana perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La moda perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Circa la met&agrave; degli intervistati ha riportato di non
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; essere andata in palestra. I rimanenti spendono 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra tra le 5 e le 9 ore, con una media  di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6 $\pm$ 1.1 ore  (mediana: 7 ore)
 
 </div>
-
 
 <style>
   #countdown_exercise_12{
@@ -2783,7 +2780,7 @@ Multimodale, particolarmente accentuato sull'1 -->
 <script>
 <!--
 const countdown_exercise_12= document.getElementById("countdown_exercise_12");
-const seconds_exercise_12= 120; // seconds_exercise_12
+const seconds_exercise_12= 60; // seconds_exercise_12
 let timeLeft_exercise_12= seconds_exercise_12;
 let timerInterval_exercise_12= null;
 
@@ -2849,6 +2846,549 @@ updateButton_exercise_12();
 
 <span style="display:block; height:1px;"></span>
 
+<img src="./img/descriptive/phonecall.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 89 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; studenti universitari fuori sede
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La media perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La mediana perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La moda perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica
+
+</div>
+
+---
+### Esercizio #13
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/fines.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 22 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; automobilisti 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La media perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; molto asimmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La mediana perch&eacute; i dati sono numerici discreti e &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; molto asimmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La moda perch&eacute; i dati sono numerici discreti e &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; molto asimmetrica
+
+</div>
+
+<style>
+  #countdown_exercise_13{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_13.running {
+    background-color: green;
+  }
+  #countdown_exercise_13.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_13"></button>
+
+<script>
+<!--
+const countdown_exercise_13= document.getElementById("countdown_exercise_13");
+const seconds_exercise_13= 60; // seconds_exercise_13
+let timeLeft_exercise_13= seconds_exercise_13;
+let timerInterval_exercise_13= null;
+
+function formatTime_exercise_13(seconds_exercise_13) {
+  const minutes = Math.floor(seconds_exercise_13/ 60);
+  const remainingseconds_exercise_13= seconds_exercise_13% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_13).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_13() {
+  countdown_exercise_13.textContent = formatTime_exercise_13(timeLeft_exercise_13);
+}
+
+function startTimer_exercise_13() {
+  if (timerInterval_exercise_13=== null) {
+    countdown_exercise_13.classList.add('running');
+    countdown_exercise_13.classList.remove('finished');
+    timerInterval_exercise_13= setInterval(() => {
+      if (timeLeft_exercise_13> 0) {
+        timeLeft_exercise_13--;
+        updateButton_exercise_13();
+      } else {
+        clearInterval(timerInterval_exercise_13);
+        timerInterval_exercise_13= null;
+        countdown_exercise_13.classList.remove('running');
+        countdown_exercise_13.classList.add('finished');
+        countdown_exercise_13.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_13();
+  }
+}
+
+function pauseTimer_exercise_13() {
+  clearInterval(timerInterval_exercise_13);
+  timerInterval_exercise_13= null;
+  countdown_exercise_13.classList.remove('running');
+}
+
+function resetTimer_exercise_13() {
+  timeLeft_exercise_13= seconds_exercise_13;
+  updateButton_exercise_13();
+  countdown_exercise_13.classList.remove('finished');
+  countdown_exercise_13.classList.remove('running');
+  timerInterval_exercise_13= null;
+}
+
+countdown_exercise_13.addEventListener("click", () => {
+  if (countdown_exercise_13.classList.contains('finished')) {
+    resetTimer_exercise_13();
+  } else {
+    startTimer_exercise_13();
+  }
+});
+
+updateButton_exercise_13();
+-->
+</script>
+
+---
+### Esercizio #13 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/fines.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 22 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; automobilisti 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La media perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; molto asimmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La mediana perch&eacute; i dati sono numerici discreti e &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; molto asimmetrica &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La moda perch&eacute; i dati sono numerici discreti e &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; molto asimmetrica
+
+</div>
+
+---
+### Esercizio #14
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/hypnosis_not_from_zero.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 870 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; psicologi 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La media perch&eacute; i dati sono categorici e la
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; distribuzione &egrave; asimmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La mediana perch&eacute; i dati sono categorici e la
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; distribuzione &egrave;  asimmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La moda perch&eacute; i dati sono categorici 
+
+</div>
+
+<style>
+  #countdown_exercise_14{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_14.running {
+    background-color: green;
+  }
+  #countdown_exercise_14.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_14"></button>
+
+<script>
+<!--
+const countdown_exercise_14= document.getElementById("countdown_exercise_14");
+const seconds_exercise_14= 60; // seconds_exercise_14
+let timeLeft_exercise_14= seconds_exercise_14;
+let timerInterval_exercise_14= null;
+
+function formatTime_exercise_14(seconds_exercise_14) {
+  const minutes = Math.floor(seconds_exercise_14/ 60);
+  const remainingseconds_exercise_14= seconds_exercise_14% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_14).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_14() {
+  countdown_exercise_14.textContent = formatTime_exercise_14(timeLeft_exercise_14);
+}
+
+function startTimer_exercise_14() {
+  if (timerInterval_exercise_14=== null) {
+    countdown_exercise_14.classList.add('running');
+    countdown_exercise_14.classList.remove('finished');
+    timerInterval_exercise_14= setInterval(() => {
+      if (timeLeft_exercise_14> 0) {
+        timeLeft_exercise_14--;
+        updateButton_exercise_14();
+      } else {
+        clearInterval(timerInterval_exercise_14);
+        timerInterval_exercise_14= null;
+        countdown_exercise_14.classList.remove('running');
+        countdown_exercise_14.classList.add('finished');
+        countdown_exercise_14.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_14();
+  }
+}
+
+function pauseTimer_exercise_14() {
+  clearInterval(timerInterval_exercise_14);
+  timerInterval_exercise_14= null;
+  countdown_exercise_14.classList.remove('running');
+}
+
+function resetTimer_exercise_14() {
+  timeLeft_exercise_14= seconds_exercise_14;
+  updateButton_exercise_14();
+  countdown_exercise_14.classList.remove('finished');
+  countdown_exercise_14.classList.remove('running');
+  timerInterval_exercise_14= null;
+}
+
+countdown_exercise_14.addEventListener("click", () => {
+  if (countdown_exercise_14.classList.contains('finished')) {
+    resetTimer_exercise_14();
+  } else {
+    startTimer_exercise_14();
+  }
+});
+
+updateButton_exercise_14();
+-->
+</script>
+
+---
+### Esercizio #14 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/hypnosis_not_from_zero.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 870 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; psicologi 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La media perch&eacute; i dati sono categorici e la
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; distribuzione &egrave; asimmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La mediana perch&eacute; i dati sono categorici e la
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; distribuzione &egrave;  asimmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La moda perch&eacute; i dati sono categorici &nbsp; :white_check_mark:
+
+</div>
+
+---
+### Esercizio #15
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/hypnosis_not_from_zero.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 870 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; psicologi 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; La rappresentazione usata &egrave; corretta?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) No
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+<style>
+  #countdown_exercise_15{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_15.running {
+    background-color: green;
+  }
+  #countdown_exercise_15.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_15"></button>
+
+<script>
+<!--
+const countdown_exercise_15= document.getElementById("countdown_exercise_15");
+const seconds_exercise_15= 60; // seconds_exercise_15
+let timeLeft_exercise_15= seconds_exercise_15;
+let timerInterval_exercise_15= null;
+
+function formatTime_exercise_15(seconds_exercise_15) {
+  const minutes = Math.floor(seconds_exercise_15/ 60);
+  const remainingseconds_exercise_15= seconds_exercise_15% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_15).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_15() {
+  countdown_exercise_15.textContent = formatTime_exercise_15(timeLeft_exercise_15);
+}
+
+function startTimer_exercise_15() {
+  if (timerInterval_exercise_15=== null) {
+    countdown_exercise_15.classList.add('running');
+    countdown_exercise_15.classList.remove('finished');
+    timerInterval_exercise_15= setInterval(() => {
+      if (timeLeft_exercise_15> 0) {
+        timeLeft_exercise_15--;
+        updateButton_exercise_15();
+      } else {
+        clearInterval(timerInterval_exercise_15);
+        timerInterval_exercise_15= null;
+        countdown_exercise_15.classList.remove('running');
+        countdown_exercise_15.classList.add('finished');
+        countdown_exercise_15.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_15();
+  }
+}
+
+function pauseTimer_exercise_15() {
+  clearInterval(timerInterval_exercise_15);
+  timerInterval_exercise_15= null;
+  countdown_exercise_15.classList.remove('running');
+}
+
+function resetTimer_exercise_15() {
+  timeLeft_exercise_15= seconds_exercise_15;
+  updateButton_exercise_15();
+  countdown_exercise_15.classList.remove('finished');
+  countdown_exercise_15.classList.remove('running');
+  timerInterval_exercise_15= null;
+}
+
+countdown_exercise_15.addEventListener("click", () => {
+  if (countdown_exercise_15.classList.contains('finished')) {
+    resetTimer_exercise_15();
+  } else {
+    startTimer_exercise_15();
+  }
+});
+
+updateButton_exercise_15();
+-->
+</script>
+
+---
+### Esercizio #15
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 70%">
+
+:question: &nbsp; Quale rappresentazione grafica &egrave; corretta?
+
+</div>
+
+<span style="display:block; height:1px;"></span>
+
+<div class="columns">
+<div>
+
+<img src="./img/descriptive/hypnosis_not_from_zero.png" img height="392px" align="left" border="4px"/> 
+
+</div>
+<div>
+
+<img src="./img/descriptive/hypnosis.png" img height="400px" align="left" border="4px"/>
+
+</div>
+</div>
+
+
+---
+### Esercizio #15 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/hypnosis_not_from_zero.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 870 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; psicologi 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; La rappresentazione usata &egrave; corretta?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) No &nbsp; :white_check_mark:
+
+</div>
+
+---
+### Esercizio #16
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/gym.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando  41 genitori
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in un parco giochi.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Gli intervistati spendono tra le 0 e le 9 ore 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra, con una media di 3.4 $\pm$  3.4 ore 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (mediana: 5 ore; moda: 0 ore).
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Circa la met&agrave; degli intervistati ha riportato di non
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; essere andata in palestra. I rimanenti spendono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra tra le 5 e le 9 ore, con una media  di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6 $\pm$ 1.1 ore  (mediana: 7 ore)
+
+</div>
+
+
+<style>
+  #countdown_exercise_16{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_16.running {
+    background-color: green;
+  }
+  #countdown_exercise_16.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_16"></button>
+
+<script>
+<!--
+const countdown_exercise_16= document.getElementById("countdown_exercise_16");
+const seconds_exercise_16= 60; // seconds_exercise_16
+let timeLeft_exercise_16= seconds_exercise_16;
+let timerInterval_exercise_16= null;
+
+function formatTime_exercise_16(seconds_exercise_16) {
+  const minutes = Math.floor(seconds_exercise_16/ 60);
+  const remainingseconds_exercise_16= seconds_exercise_16% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_16).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_16() {
+  countdown_exercise_16.textContent = formatTime_exercise_16(timeLeft_exercise_16);
+}
+
+function startTimer_exercise_16() {
+  if (timerInterval_exercise_16=== null) {
+    countdown_exercise_16.classList.add('running');
+    countdown_exercise_16.classList.remove('finished');
+    timerInterval_exercise_16= setInterval(() => {
+      if (timeLeft_exercise_16> 0) {
+        timeLeft_exercise_16--;
+        updateButton_exercise_16();
+      } else {
+        clearInterval(timerInterval_exercise_16);
+        timerInterval_exercise_16= null;
+        countdown_exercise_16.classList.remove('running');
+        countdown_exercise_16.classList.add('finished');
+        countdown_exercise_16.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_16();
+  }
+}
+
+function pauseTimer_exercise_16() {
+  clearInterval(timerInterval_exercise_16);
+  timerInterval_exercise_16= null;
+  countdown_exercise_16.classList.remove('running');
+}
+
+function resetTimer_exercise_16() {
+  timeLeft_exercise_16= seconds_exercise_16;
+  updateButton_exercise_16();
+  countdown_exercise_16.classList.remove('finished');
+  countdown_exercise_16.classList.remove('running');
+  timerInterval_exercise_16= null;
+}
+
+countdown_exercise_16.addEventListener("click", () => {
+  if (countdown_exercise_16.classList.contains('finished')) {
+    resetTimer_exercise_16();
+  } else {
+    startTimer_exercise_16();
+  }
+});
+
+updateButton_exercise_16();
+-->
+</script>
+
+---
+### Esercizio #16 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
 <img src="./img/descriptive/gym.png" img height="400px" align="left" border="4px"/>
 
 <div style="font-size: 70%">
@@ -2876,7 +3416,7 @@ updateButton_exercise_12();
 
 <div style="font-size: 78%">
 
-Cosa &egrave; successo ai bambini sottoposti a interventi cardiochirugici in alcuni ospedali britannici tra il 1984 e il 1995?
+Cosa &egrave; successo ai bambini sottoposti a interventi cardiochirugici in alcuni ospedali britannici tra il 1991 e il 1995?
 
 </div>
 
@@ -3017,12 +3557,13 @@ Indice di correlazione$^1$
 
 </div>
 
-<span style="display:block; height:170px;"></span>
+<span style="display:block; height:150px;"></span>
 
 <div style="font-size: 60%">
 
-$^1$ In questo caso di Pearson. Un altro indice di 
-&nbsp;&nbsp; correlazione &egrave;  quello di Spearman
+$^1$ In questo caso di Pearson (ma formulato da  
+&nbsp;&nbsp; Galton). Un altro indice di correlazione &egrave;  quello 
+&nbsp;&nbsp; di Spearman
 
 </div>
 
@@ -3085,7 +3626,7 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 </div>
 
 ---
-### Esercizio #13
+### Esercizio #17
 
 <span style="display:block; height:1px;"></span>
 
@@ -3104,7 +3645,7 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 <span style="display:block; height:70px;"></span>
 
 <style>
-  #countdown_exercise_13{
+  #countdown_exercise_17{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -3114,82 +3655,82 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_13.running {
+  #countdown_exercise_17.running {
     background-color: green;
   }
-  #countdown_exercise_13.finished {
+  #countdown_exercise_17.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_13"></button>
+<button id="countdown_exercise_17"></button>
 
 <script>
 <!--
-const countdown_exercise_13= document.getElementById("countdown_exercise_13");
-const seconds_exercise_13= 60; // seconds_exercise_13
-let timeLeft_exercise_13= seconds_exercise_13;
-let timerInterval_exercise_13= null;
+const countdown_exercise_17= document.getElementById("countdown_exercise_17");
+const seconds_exercise_17= 60; // seconds_exercise_17
+let timeLeft_exercise_17= seconds_exercise_17;
+let timerInterval_exercise_17= null;
 
-function formatTime_exercise_13(seconds_exercise_13) {
-  const minutes = Math.floor(seconds_exercise_13/ 60);
-  const remainingseconds_exercise_13= seconds_exercise_13% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_13).padStart(2, '0')}`;
+function formatTime_exercise_17(seconds_exercise_17) {
+  const minutes = Math.floor(seconds_exercise_17/ 60);
+  const remainingseconds_exercise_17= seconds_exercise_17% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_17).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_13() {
-  countdown_exercise_13.textContent = formatTime_exercise_13(timeLeft_exercise_13);
+function updateButton_exercise_17() {
+  countdown_exercise_17.textContent = formatTime_exercise_17(timeLeft_exercise_17);
 }
 
-function startTimer_exercise_13() {
-  if (timerInterval_exercise_13=== null) {
-    countdown_exercise_13.classList.add('running');
-    countdown_exercise_13.classList.remove('finished');
-    timerInterval_exercise_13= setInterval(() => {
-      if (timeLeft_exercise_13> 0) {
-        timeLeft_exercise_13--;
-        updateButton_exercise_13();
+function startTimer_exercise_17() {
+  if (timerInterval_exercise_17=== null) {
+    countdown_exercise_17.classList.add('running');
+    countdown_exercise_17.classList.remove('finished');
+    timerInterval_exercise_17= setInterval(() => {
+      if (timeLeft_exercise_17> 0) {
+        timeLeft_exercise_17--;
+        updateButton_exercise_17();
       } else {
-        clearInterval(timerInterval_exercise_13);
-        timerInterval_exercise_13= null;
-        countdown_exercise_13.classList.remove('running');
-        countdown_exercise_13.classList.add('finished');
-        countdown_exercise_13.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_17);
+        timerInterval_exercise_17= null;
+        countdown_exercise_17.classList.remove('running');
+        countdown_exercise_17.classList.add('finished');
+        countdown_exercise_17.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_13();
+    pauseTimer_exercise_17();
   }
 }
 
-function pauseTimer_exercise_13() {
-  clearInterval(timerInterval_exercise_13);
-  timerInterval_exercise_13= null;
-  countdown_exercise_13.classList.remove('running');
+function pauseTimer_exercise_17() {
+  clearInterval(timerInterval_exercise_17);
+  timerInterval_exercise_17= null;
+  countdown_exercise_17.classList.remove('running');
 }
 
-function resetTimer_exercise_13() {
-  timeLeft_exercise_13= seconds_exercise_13;
-  updateButton_exercise_13();
-  countdown_exercise_13.classList.remove('finished');
-  countdown_exercise_13.classList.remove('running');
-  timerInterval_exercise_13= null;
+function resetTimer_exercise_17() {
+  timeLeft_exercise_17= seconds_exercise_17;
+  updateButton_exercise_17();
+  countdown_exercise_17.classList.remove('finished');
+  countdown_exercise_17.classList.remove('running');
+  timerInterval_exercise_17= null;
 }
 
-countdown_exercise_13.addEventListener("click", () => {
-  if (countdown_exercise_13.classList.contains('finished')) {
-    resetTimer_exercise_13();
+countdown_exercise_17.addEventListener("click", () => {
+  if (countdown_exercise_17.classList.contains('finished')) {
+    resetTimer_exercise_17();
   } else {
-    startTimer_exercise_13();
+    startTimer_exercise_17();
   }
 });
 
-updateButton_exercise_13();
+updateButton_exercise_17();
 -->
 </script>
 
 ---
-### Esercizio #13 -- Soluzione
+### Esercizio #17 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
@@ -3206,7 +3747,7 @@ updateButton_exercise_13();
 </div>
 
 ---
-### Esercizio #14
+### Esercizio #18
 
 <span style="display:block; height:1px;"></span>
 
@@ -3224,7 +3765,7 @@ updateButton_exercise_13();
 <span style="display:block; height:100px;"></span>
 
 <style>
-  #countdown_exercise_14{
+  #countdown_exercise_18{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -3234,82 +3775,82 @@ updateButton_exercise_13();
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_14.running {
+  #countdown_exercise_18.running {
     background-color: green;
   }
-  #countdown_exercise_14.finished {
+  #countdown_exercise_18.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_14"></button>
+<button id="countdown_exercise_18"></button>
 
 <script>
 <!--
-const countdown_exercise_14= document.getElementById("countdown_exercise_14");
-const seconds_exercise_14= 60; // seconds_exercise_14
-let timeLeft_exercise_14= seconds_exercise_14;
-let timerInterval_exercise_14= null;
+const countdown_exercise_18= document.getElementById("countdown_exercise_18");
+const seconds_exercise_18= 60; // seconds_exercise_18
+let timeLeft_exercise_18= seconds_exercise_18;
+let timerInterval_exercise_18= null;
 
-function formatTime_exercise_14(seconds_exercise_14) {
-  const minutes = Math.floor(seconds_exercise_14/ 60);
-  const remainingseconds_exercise_14= seconds_exercise_14% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_14).padStart(2, '0')}`;
+function formatTime_exercise_18(seconds_exercise_18) {
+  const minutes = Math.floor(seconds_exercise_18/ 60);
+  const remainingseconds_exercise_18= seconds_exercise_18% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_18).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_14() {
-  countdown_exercise_14.textContent = formatTime_exercise_14(timeLeft_exercise_14);
+function updateButton_exercise_18() {
+  countdown_exercise_18.textContent = formatTime_exercise_18(timeLeft_exercise_18);
 }
 
-function startTimer_exercise_14() {
-  if (timerInterval_exercise_14=== null) {
-    countdown_exercise_14.classList.add('running');
-    countdown_exercise_14.classList.remove('finished');
-    timerInterval_exercise_14= setInterval(() => {
-      if (timeLeft_exercise_14> 0) {
-        timeLeft_exercise_14--;
-        updateButton_exercise_14();
+function startTimer_exercise_18() {
+  if (timerInterval_exercise_18=== null) {
+    countdown_exercise_18.classList.add('running');
+    countdown_exercise_18.classList.remove('finished');
+    timerInterval_exercise_18= setInterval(() => {
+      if (timeLeft_exercise_18> 0) {
+        timeLeft_exercise_18--;
+        updateButton_exercise_18();
       } else {
-        clearInterval(timerInterval_exercise_14);
-        timerInterval_exercise_14= null;
-        countdown_exercise_14.classList.remove('running');
-        countdown_exercise_14.classList.add('finished');
-        countdown_exercise_14.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_18);
+        timerInterval_exercise_18= null;
+        countdown_exercise_18.classList.remove('running');
+        countdown_exercise_18.classList.add('finished');
+        countdown_exercise_18.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_14();
+    pauseTimer_exercise_18();
   }
 }
 
-function pauseTimer_exercise_14() {
-  clearInterval(timerInterval_exercise_14);
-  timerInterval_exercise_14= null;
-  countdown_exercise_14.classList.remove('running');
+function pauseTimer_exercise_18() {
+  clearInterval(timerInterval_exercise_18);
+  timerInterval_exercise_18= null;
+  countdown_exercise_18.classList.remove('running');
 }
 
-function resetTimer_exercise_14() {
-  timeLeft_exercise_14= seconds_exercise_14;
-  updateButton_exercise_14();
-  countdown_exercise_14.classList.remove('finished');
-  countdown_exercise_14.classList.remove('running');
-  timerInterval_exercise_14= null;
+function resetTimer_exercise_18() {
+  timeLeft_exercise_18= seconds_exercise_18;
+  updateButton_exercise_18();
+  countdown_exercise_18.classList.remove('finished');
+  countdown_exercise_18.classList.remove('running');
+  timerInterval_exercise_18= null;
 }
 
-countdown_exercise_14.addEventListener("click", () => {
-  if (countdown_exercise_14.classList.contains('finished')) {
-    resetTimer_exercise_14();
+countdown_exercise_18.addEventListener("click", () => {
+  if (countdown_exercise_18.classList.contains('finished')) {
+    resetTimer_exercise_18();
   } else {
-    startTimer_exercise_14();
+    startTimer_exercise_18();
   }
 });
 
-updateButton_exercise_14();
+updateButton_exercise_18();
 -->
 </script>
 
 ---
-### Esercizio #14 -- Soluzione
+### Esercizio #18 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
@@ -3327,7 +3868,7 @@ updateButton_exercise_14();
 <span style="display:block; height:100px;"></span>
 
 ---
-### Esercizio #15
+### Esercizio #19
 
 <div style="font-size: 80%">
 
@@ -3348,7 +3889,7 @@ updateButton_exercise_14();
 </div>
 
 <style>
-  #countdown_exercise_15{
+  #countdown_exercise_19{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -3358,84 +3899,84 @@ updateButton_exercise_14();
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_15.running {
+  #countdown_exercise_19.running {
     background-color: green;
   }
-  #countdown_exercise_15.finished {
+  #countdown_exercise_19.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_15"></button>
+<button id="countdown_exercise_19"></button>
 
 <script>
 <!--
-const countdown_exercise_15= document.getElementById("countdown_exercise_15");
-const seconds_exercise_15= 120; // seconds_exercise_15
-let timeLeft_exercise_15= seconds_exercise_15;
-let timerInterval_exercise_15= null;
+const countdown_exercise_19= document.getElementById("countdown_exercise_19");
+const seconds_exercise_19= 120; // seconds_exercise_19
+let timeLeft_exercise_19= seconds_exercise_19;
+let timerInterval_exercise_19= null;
 
-function formatTime_exercise_15(seconds_exercise_15) {
-  const minutes = Math.floor(seconds_exercise_15/ 60);
-  const remainingseconds_exercise_15= seconds_exercise_15% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_15).padStart(2, '0')}`;
+function formatTime_exercise_19(seconds_exercise_19) {
+  const minutes = Math.floor(seconds_exercise_19/ 60);
+  const remainingseconds_exercise_19= seconds_exercise_19% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_19).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_15() {
-  countdown_exercise_15.textContent = formatTime_exercise_15(timeLeft_exercise_15);
+function updateButton_exercise_19() {
+  countdown_exercise_19.textContent = formatTime_exercise_19(timeLeft_exercise_19);
 }
 
-function startTimer_exercise_15() {
-  if (timerInterval_exercise_15=== null) {
-    countdown_exercise_15.classList.add('running');
-    countdown_exercise_15.classList.remove('finished');
-    timerInterval_exercise_15= setInterval(() => {
-      if (timeLeft_exercise_15> 0) {
-        timeLeft_exercise_15--;
-        updateButton_exercise_15();
+function startTimer_exercise_19() {
+  if (timerInterval_exercise_19=== null) {
+    countdown_exercise_19.classList.add('running');
+    countdown_exercise_19.classList.remove('finished');
+    timerInterval_exercise_19= setInterval(() => {
+      if (timeLeft_exercise_19> 0) {
+        timeLeft_exercise_19--;
+        updateButton_exercise_19();
       } else {
-        clearInterval(timerInterval_exercise_15);
-        timerInterval_exercise_15= null;
-        countdown_exercise_15.classList.remove('running');
-        countdown_exercise_15.classList.add('finished');
-        countdown_exercise_15.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_19);
+        timerInterval_exercise_19= null;
+        countdown_exercise_19.classList.remove('running');
+        countdown_exercise_19.classList.add('finished');
+        countdown_exercise_19.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_15();
+    pauseTimer_exercise_19();
   }
 }
 
-function pauseTimer_exercise_15() {
-  clearInterval(timerInterval_exercise_15);
-  timerInterval_exercise_15= null;
-  countdown_exercise_15.classList.remove('running');
+function pauseTimer_exercise_19() {
+  clearInterval(timerInterval_exercise_19);
+  timerInterval_exercise_19= null;
+  countdown_exercise_19.classList.remove('running');
 }
 
-function resetTimer_exercise_15() {
-  timeLeft_exercise_15= seconds_exercise_15;
-  updateButton_exercise_15();
-  countdown_exercise_15.classList.remove('finished');
-  countdown_exercise_15.classList.remove('running');
-  timerInterval_exercise_15= null;
+function resetTimer_exercise_19() {
+  timeLeft_exercise_19= seconds_exercise_19;
+  updateButton_exercise_19();
+  countdown_exercise_19.classList.remove('finished');
+  countdown_exercise_19.classList.remove('running');
+  timerInterval_exercise_19= null;
 }
 
-countdown_exercise_15.addEventListener("click", () => {
-  if (countdown_exercise_15.classList.contains('finished')) {
-    resetTimer_exercise_15();
+countdown_exercise_19.addEventListener("click", () => {
+  if (countdown_exercise_19.classList.contains('finished')) {
+    resetTimer_exercise_19();
   } else {
-    startTimer_exercise_15();
+    startTimer_exercise_19();
   }
 });
 
-updateButton_exercise_15();
+updateButton_exercise_19();
 -->
 </script>
 
 
 
 ---
-### Esercizio #15 -- Soluzione
+### Esercizio #19 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -3456,7 +3997,7 @@ updateButton_exercise_15();
 </div>
 
 ---
-### Esercizio #15 -- Soluzione
+### Esercizio #19 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -3478,7 +4019,7 @@ updateButton_exercise_15();
 
 
 ---
-### Esercizio #15 -- Soluzione
+### Esercizio #19 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -3499,7 +4040,7 @@ updateButton_exercise_15();
 </div>
 
 ---
-### Esercizio #15 -- Soluzione
+### Esercizio #19 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -3618,6 +4159,69 @@ Altezza (cm) e numero di canestri
 </div>
 
 ---
+## Correlazione: interpolare a estrapolare
+
+<div style="font-size: 80%"> 
+
+:question: &nbsp;&nbsp;&nbsp; Quante bambine di nome Emma sono nate nel 2004, 2010, 2015 e 2020?
+
+</div>
+
+<span style="display:block; height:0px;"></span>
+
+<center>
+<img src="./img/descriptive/emma_hidden.png" img height="400px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+https://www.istat.it/dati/calcolatori/contanomi/
+
+</div>
+
+---
+## Correlazione: interpolare a estrapolare
+
+<div style="font-size: 80%"> 
+
+:question: &nbsp;&nbsp;&nbsp; Quante bambine di nome Emma sono nate nel 2004, 2010, 2015 e 2020?
+
+</div>
+
+<span style="display:block; height:0px;"></span>
+
+<center>
+<img src="./img/descriptive/emma_guess.png" img height="400px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+https://www.istat.it/dati/calcolatori/contanomi/
+
+</div>
+
+---
+## Correlazione: interpolare a estrapolare
+
+<div style="font-size: 80%"> 
+
+:question: &nbsp;&nbsp;&nbsp; Quante bambine di nome Emma sono nate nel 2004, 2010, 2015 e 2020?
+
+</div>
+
+<span style="display:block; height:0px;"></span>
+
+<center>
+<img src="./img/descriptive/emma_all.png" img height="400px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+https://www.istat.it/dati/calcolatori/contanomi/
+
+</div>
+
+---
 ## Perch&eacute; visualizzare i dati?
 
 <span style="display:block; height:2px;"></span>
@@ -3651,7 +4255,7 @@ Altezza (cm) e numero di canestri
 </center>
 
 ---
-### Esercizio #16
+### Esercizio #20
 
 <span style="display:block; height:1px;"></span>
 
@@ -3669,7 +4273,7 @@ Altezza (cm) e numero di canestri
 <span style="display:block; height:100px;"></span>
 
 <style>
-  #countdown_exercise_16{
+  #countdown_exercise_20{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -3679,82 +4283,82 @@ Altezza (cm) e numero di canestri
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_16.running {
+  #countdown_exercise_20.running {
     background-color: green;
   }
-  #countdown_exercise_16.finished {
+  #countdown_exercise_20.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_16"></button>
+<button id="countdown_exercise_20"></button>
 
 <script>
 <!--
-const countdown_exercise_16= document.getElementById("countdown_exercise_16");
-const seconds_exercise_16= 60; // seconds_exercise_16
-let timeLeft_exercise_16= seconds_exercise_16;
-let timerInterval_exercise_16= null;
+const countdown_exercise_20= document.getElementById("countdown_exercise_20");
+const seconds_exercise_20= 60; // seconds_exercise_20
+let timeLeft_exercise_20= seconds_exercise_20;
+let timerInterval_exercise_20= null;
 
-function formatTime_exercise_16(seconds_exercise_16) {
-  const minutes = Math.floor(seconds_exercise_16/ 60);
-  const remainingseconds_exercise_16= seconds_exercise_16% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_16).padStart(2, '0')}`;
+function formatTime_exercise_20(seconds_exercise_20) {
+  const minutes = Math.floor(seconds_exercise_20/ 60);
+  const remainingseconds_exercise_20= seconds_exercise_20% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_20).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_16() {
-  countdown_exercise_16.textContent = formatTime_exercise_16(timeLeft_exercise_16);
+function updateButton_exercise_20() {
+  countdown_exercise_20.textContent = formatTime_exercise_20(timeLeft_exercise_20);
 }
 
-function startTimer_exercise_16() {
-  if (timerInterval_exercise_16=== null) {
-    countdown_exercise_16.classList.add('running');
-    countdown_exercise_16.classList.remove('finished');
-    timerInterval_exercise_16= setInterval(() => {
-      if (timeLeft_exercise_16> 0) {
-        timeLeft_exercise_16--;
-        updateButton_exercise_16();
+function startTimer_exercise_20() {
+  if (timerInterval_exercise_20=== null) {
+    countdown_exercise_20.classList.add('running');
+    countdown_exercise_20.classList.remove('finished');
+    timerInterval_exercise_20= setInterval(() => {
+      if (timeLeft_exercise_20> 0) {
+        timeLeft_exercise_20--;
+        updateButton_exercise_20();
       } else {
-        clearInterval(timerInterval_exercise_16);
-        timerInterval_exercise_16= null;
-        countdown_exercise_16.classList.remove('running');
-        countdown_exercise_16.classList.add('finished');
-        countdown_exercise_16.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_20);
+        timerInterval_exercise_20= null;
+        countdown_exercise_20.classList.remove('running');
+        countdown_exercise_20.classList.add('finished');
+        countdown_exercise_20.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_16();
+    pauseTimer_exercise_20();
   }
 }
 
-function pauseTimer_exercise_16() {
-  clearInterval(timerInterval_exercise_16);
-  timerInterval_exercise_16= null;
-  countdown_exercise_16.classList.remove('running');
+function pauseTimer_exercise_20() {
+  clearInterval(timerInterval_exercise_20);
+  timerInterval_exercise_20= null;
+  countdown_exercise_20.classList.remove('running');
 }
 
-function resetTimer_exercise_16() {
-  timeLeft_exercise_16= seconds_exercise_16;
-  updateButton_exercise_16();
-  countdown_exercise_16.classList.remove('finished');
-  countdown_exercise_16.classList.remove('running');
-  timerInterval_exercise_16= null;
+function resetTimer_exercise_20() {
+  timeLeft_exercise_20= seconds_exercise_20;
+  updateButton_exercise_20();
+  countdown_exercise_20.classList.remove('finished');
+  countdown_exercise_20.classList.remove('running');
+  timerInterval_exercise_20= null;
 }
 
-countdown_exercise_16.addEventListener("click", () => {
-  if (countdown_exercise_16.classList.contains('finished')) {
-    resetTimer_exercise_16();
+countdown_exercise_20.addEventListener("click", () => {
+  if (countdown_exercise_20.classList.contains('finished')) {
+    resetTimer_exercise_20();
   } else {
-    startTimer_exercise_16();
+    startTimer_exercise_20();
   }
 });
 
-updateButton_exercise_16();
+updateButton_exercise_20();
 -->
 </script>
 
 ---
-### Esercizio #16 -- Soluzione
+### Esercizio #20 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 

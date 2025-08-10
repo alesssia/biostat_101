@@ -356,7 +356,44 @@ dev.off()
 
 print(cor(df$h, df$s))
 print(cor(df$h[1:n], df$s[1:n]))
+
+
+emma <- data.frame(year=seq(1999, 2023, 1), n=c(658, 821, 847, 1000, 1148, 1925, 2550, 2787, 2992, 3166, 3487, 4154, 4759, 4971, 4538, 3971, 3690, 3814, 3525, 3481, 3245, 3069, 2876, 2800, 2529))
+
+emma$type <- 0
+emma$type[seq(1, 14, 2)] <- 1
+# emma$selected[which(emma$year %in% c(2004, 2010, 2015, 2020))] <- "real"
+
+m <- lm(n ~ year, emma[emma$type == 1, ])
+intercept <- summary(m)$coefficients[1,1]
+slope <- summary(m)$coefficients[2,1]
+
   
+p <- ggplot(emma[emma$type == 1, ], aes(x=year, y=n)) + geom_point(size=3) + labs(x="Anno", y = "N", title="Nuovi nati di nome Emma", subtitle="Fonte: ISTAT") + graphic.settings  + geom_abline(intercept = intercept, slope = slope, col="magenta", linetype="dotted", linewidth=1.5) + scale_y_continuous(breaks = seq(0, 10000, 2000), limits = c(0, 10000)) + scale_x_continuous(breaks = seq(1999, 2023, 2), limits = c(1999, 2023))
+
+
+png("emma_hidden.png", width=780, height=400)
+print(p)
+dev.off()
+
+guessed <- data.frame(year=c(2004, 2010, 2015, 2020), n=c(2004, 2010, 2015, 2020)*slope+intercept, type=2)
+emma <- rbind(emma, guessed)
+emma$type <- as.factor(emma$type)
+
+p <- ggplot(emma[emma$type %in% c(1,2), ], aes(x=year, y=n, shape=type)) + geom_point(size=3) + labs(x="Anno", y = "N", title="Nuovi nati di nome Emma", subtitle="Fonte: ISTAT") + graphic.settings  + geom_abline(intercept = intercept, slope = slope, col="magenta", linetype="dotted", linewidth=1.5) + scale_y_continuous(breaks = seq(0, 10000, 2000), limits = c(0, 10000)) + scale_x_continuous(breaks = seq(1999, 2023, 2), limits = c(1999, 2023)) + scale_shape_manual(values = c(16, 23)) + theme(legend.position="none")
+
+
+png("emma_guess.png", width=780, height=400)
+print(p)
+dev.off()
+
+
+p <- ggplot(emma, aes(x=year, y=n, shape=type)) + geom_point(size=3) + labs(x="Anno", y = "N", title="Nuovi nati di nome Emma", subtitle="Fonte: ISTAT") + graphic.settings  + geom_abline(intercept = intercept, slope = slope, col="magenta", linetype="dotted", linewidth=1.5) + scale_y_continuous(breaks = seq(0, 10000, 2000), limits = c(0, 10000)) + scale_x_continuous(breaks = seq(1999, 2023, 2), limits = c(1999, 2023)) + scale_shape_manual(values = c(21, 16, 23)) + theme(legend.position="none")
+
+
+png("emma_all.png", width=780, height=400)
+print(p)
+dev.off()
   
 #Exercize  
 gym <- c(rep(0, 20), rep(5, 4), rep(6, 6), rep(7,7), rep(8, 3), 9)  
