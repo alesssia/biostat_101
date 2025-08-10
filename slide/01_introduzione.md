@@ -646,6 +646,162 @@ If the law of the country is that cars should drive on the right, then we can de
 ## Due parole sul corso...
 
 ---
+## Materiale a disposizione (Moodle)
+
+<span style="display:block; height:2px;"></span>
+
+- Slides
+  - Senza/con soluzioni agli esercizi
+- Glossario
+- Quiz & simulazioni di esame
+
+
+<span style="display:block; height:60px;"></span>
+
+<div style="font-size: 80%" align="right">
+
+Se preferite un libro di testo, contattatemi in aula o via email. 
+Tutti i libri sono disponibili in biblioteca.
+
+</div>
+
+---
+## Qual &egrave; il modo migliore di prepararsi?
+
+<span style="display:block; height:2px;"></span>
+
+- Seguire le lezioni
+- Esercitarsi in aula
+- Rivedere il materiale didattico prima di ogni lezione
+
+---
+## Qual &egrave; il modo migliore di prepararsi?
+
+<span style="display:block; height:2px;"></span>
+
+- Riassumere
+- Costruire delle *"mappe"*
+
+<span style="display:block; height:250px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Fiorella L & Mayer R.E.,  *Learning as a Generative Activity: Eight Learning Strategies 
+That Promote Understanding*, Cambridge University Press, 2015
+
+</div>
+
+<!-- Summarizing involves restating the main ideas of a lesson in one’s own words. For example, a student may read a chapter in a history textbook and write a one-sentence summary stating the main idea after each paragraph. The theoretical rationale for summarizing is that it encourages learners to select the most relevant material from a lesson, organize it into a concise representation, and integrate it with their existing knowledge by using their own words. 
+
+Learning by mapping occurs when learners are asked to convert a text lesson into a spatial arrangement of words. A concept map is a spatial array consisting of nodes (typically ovals or rectangles) containing words representing key concepts, and lines that connect the nodes and represent key relationships (typically with words describing the relationship written along the lines). 
+ -->
+
+---
+## Il *"formulario"* per l'esame
+
+<span style="display:block; height:2px;"></span>
+
+- A5, due lati <sup>(*)</sup>
+- Pu&ograve; contenere qualsiasi cosa (formule, grafici, definizioni, ...)
+- In qualsiasi forma (testo, mappe concettuali, grafici, ...)
+- **Deve limitarsi a questo modulo**
+
+<span style="display:block; height:40px;"></span>
+
+<div align="right">
+
+&nbsp;
+
+</div>
+
+
+<div style="font-size: 90%" align="left">
+
+ <sup>(*)</sup> Studenti DSA: formato A4, due lati
+
+</div>
+
+---
+## Il *"formulario"* per l'esame
+
+<span style="display:block; height:2px;"></span>
+
+- A5, due lati <sup>(*)</sup>
+- Pu&ograve; contenere qualsiasi cosa (formule, grafici, definizioni, ...)
+- In qualsiasi forma (testo, mappe concettuali, grafici, ...)
+- **Deve limitarsi a questo modulo**
+
+<span style="display:block; height:40px;"></span>
+
+<div align="right">
+
+Dovete anche portare una calcolatrice!
+
+</div>
+
+
+<div style="font-size: 90%" align="left">
+
+ <sup>(*)</sup> Studenti DSA: formato A4, due lati
+
+</div>
+
+---
+## Qual &egrave; il modo migliore di prepararsi?
+
+<span style="display:block; height:2px;"></span>
+
+- Riassumere
+- Costruire delle *"mappe"*
+- Self-testing (o autoverifica) <sup>&#9733;</sup>
+- Self-explaining (o autospiegazioni) <sup>&#9733;</sup>
+- ...
+
+
+<span style="display:block; height:70px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Fiorella L & Mayer R.E.,  *Learning as a Generative Activity: Eight Learning Strategies 
+That Promote Understanding*, Cambridge University Press, 2015
+
+</div>
+
+<!-- 
+
+Self-testing involves answering practice questions about previously studied material to enhance long-term learning. For example, after reading a chapter in a textbook, a student answers practice questions on the material without referring back to the chapter. 
+
+
+Self-explaining occurs when students explain the content of a lesson to themselves during learning. For example, students may read a lesson on how the human circulatory system works and generate comments that explain how the system works in their own words, including how the information they are currently reading relates to previous information in the lesson and to their relevant prior knowledge. The theoretical rationale for self-explaining is that it causes learners to select relevant elements of information from the lesson, organize them into a coherent mental model, and relate them to their existing mental model. 
+
+ -->
+
+---
+## GenAI e la preparazione universitaria
+
+<span style="display:block; height:2px;"></span>
+
+<div style="font-size: 93%">
+
+- Ricordate che le vostre tasse pagano delle persone reali, che conoscono benissimo l'argomento, per spiegarvi le cose
+- Ricordate che i vostri colleghi vi possono fornire un suppporto non solo "scolatico", ma anche umano
+
+<span style="display:block; height:1px;"></span>
+
+* Non sono vietate ma vanno usate con spirito critico
+  - *"As in any fairytale, accepting magical assistance comes with risks.*"
+
+</div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+https://tedunderwood.com/2024/08/31/will-ai-make-us-overconfident/
+
+</div>
+
+---
 ## Esercizi che faremo in classe
 
 <div class="columns">
