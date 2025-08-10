@@ -890,6 +890,188 @@ updateButton_exercise_5();
 </div>
 
 ---
+## Vox populi <sup>*</sup>
+
+
+<div class="columns">
+<div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 90%" >
+
+
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/500px-Sir_Francis_Galton,_1890s.jpg" img height="380px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+<div style="font-size: 70%">
+
+<sup>*</sup> Wisdom of Crowds o Saggezza della Folla
+
+</div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 50%" align="right">
+
+Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
+
+</div>
+
+
+---
+## Vox populi <sup>*</sup>
+
+
+<div class="columns">
+<div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 90%" >
+
+- Competizione presso la "Mostra del Pollame e del Bestiame da Macello, Plymounth, 1907
+- Obiettivo: indovinare il peso "lavorato" della carne macellata
+- Costo: 6 penny
+- Partecipanti: 787
+- Vincita: premio non specificato
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Bovino_Ayrshire_03.jpg" img height="380px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+<div style="font-size: 70%">
+
+<sup>*</sup> Wisdom of Crowds o Saggezza della Folla
+
+</div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 50%" align="right">
+
+Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
+
+</div>
+
+
+---
+## Vox populi <sup>*</sup>
+
+
+<div class="columns">
+<div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 90%" >
+
+- Giudizio non influenzato da passioni personali e/o proselitismo vario
+- Burloni evitati dal costo di ingresso
+- Premio incita a fare del proprio meglio
+- Partecipano soprattutto "esperti"
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Bovino_Ayrshire_03.jpg" img height="380px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+<div style="font-size: 70%">
+
+<sup>*</sup> Wisdom of Crowds o Saggezza della Folla
+
+</div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 50%" align="right">
+
+Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
+
+</div>
+
+---
+## Vox populi <sup>*</sup>
+
+
+<div class="columns">
+<div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 90%" >
+
+- **Mediana** dei 787 tentativi: 1207 lb (547 kg)
+- Peso "lavorato": 1198 lb (543 kg)
+- Differenza: 9 lb (4kg, 0.8%)
+
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/500px-Sir_Francis_Galton,_1890s.jpg" img height="380px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+<div style="font-size: 70%">
+
+<sup>*</sup> Wisdom of Crowds o Saggezza della Folla
+
+</div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 50%" align="right">
+
+Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
+
+</div>
+
+<!--  Mediana perche' i dati potrebbero non essere simmetrici (in questo caso asimmetrici a dx, sovrastimando il peso lavorato (dressed)) -->
+
+---
 ## Misure di dispersione
 
 <span style="display:block; height:10px;"></span>
