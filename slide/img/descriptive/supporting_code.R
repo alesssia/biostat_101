@@ -445,6 +445,57 @@ print(p1)
 dev.off()
 
 
+# Extra ex Pearson
+
+createdf <- function(N, rho)
+{
+	x <- rnorm(n = N, mean = 30, sd = 2)
+	y <- (rho * x) + sqrt(1 - rho*rho) * rnorm(n = N, mean = 30, sd = 2);
+	data.frame(x=x, y=y)
+}
+
+set.seed(1)
+df <- createdf(50, 0.9)
+p <- ggplot(df, aes(x=x, y=y)) + geom_point(size=3) + graphic.settings  
+
+png("scatter1.png")
+print(p)
+dev.off() 
+
+set.seed(42)
+df <- createdf(50, -0.9)
+p <- ggplot(df, aes(x=x, y=y)) + geom_point(size=3) + graphic.settings  
+
+png("scatter2.png")
+print(p)
+dev.off() 
+
+
+set.seed(1)
+df <- createdf(50, 0.1)
+p <- ggplot(df, aes(x=x, y=y)) + geom_point(size=3) + graphic.settings  
+
+png("scatter3.png")
+print(p)
+dev.off() 
+
+
+createcurve <- function(N)
+{
+	x <- rnorm(n = N, mean = 30, sd = 50)
+	y <- 2*(x^2) + x + 20 + 100*rnorm(n = N, mean = 30^2, sd = 20)
+	data.frame(x=x, y=y)
+}
+
+set.seed(42)
+df <- createcurve(80)
+p <- ggplot(df, aes(x=x, y=y)) + geom_point(size=3) + graphic.settings  
+
+png("scatter4.png")
+print(p)
+dev.off() 
+
+
 # Variability
 
 head_circ <- c(43, rep(44,3), rep(45, 4), rep(46, 5), rep(47,3), rep(48,2))

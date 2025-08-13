@@ -490,7 +490,7 @@ updateButton_exercise_2();
 <script>
 <!--
 const countdown_exercise_3= document.getElementById("countdown_exercise_3");
-const seconds_exercise_3= 60; // seconds_exercise_3
+const seconds_exercise_3= 30; // seconds_exercise_3
 let timeLeft_exercise_3= seconds_exercise_3;
 let timerInterval_exercise_3= null;
 
@@ -767,7 +767,7 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
  -->
 
 ---
-### Esercizio 5
+### Esercizio #5
 
 <div style="font-size: 90%">
 
@@ -810,7 +810,7 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 <script>
 <!--
 const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 120; // seconds_exercise_5
+const seconds_exercise_5= 60; // seconds_exercise_5
 let timeLeft_exercise_5= seconds_exercise_5;
 let timerInterval_exercise_5= null;
 
@@ -1247,7 +1247,7 @@ Esempio lunghezza della degenza, giorni e giorni^2
 <script>
 <!--
 const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 180; // seconds_exercise_6
+const seconds_exercise_6= 60; // seconds_exercise_6
 let timeLeft_exercise_6= seconds_exercise_6;
 let timerInterval_exercise_6= null;
 
@@ -1485,7 +1485,7 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 <script>
 <!--
 const countdown_exercise_7= document.getElementById("countdown_exercise_7");
-const seconds_exercise_7= 120; // seconds_exercise_7
+const seconds_exercise_7= 60; // seconds_exercise_7
 let timeLeft_exercise_7= seconds_exercise_7;
 let timerInterval_exercise_7= null;
 
@@ -1631,7 +1631,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_8= document.getElementById("countdown_exercise_8");
-const seconds_exercise_8= 60; // seconds_exercise_8
+const seconds_exercise_8= 30; // seconds_exercise_8
 let timeLeft_exercise_8= seconds_exercise_8;
 let timerInterval_exercise_8= null;
 
@@ -1798,7 +1798,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_9= document.getElementById("countdown_exercise_9");
-const seconds_exercise_9= 60; // seconds_exercise_9
+const seconds_exercise_9= 30; // seconds_exercise_9
 let timeLeft_exercise_9= seconds_exercise_9;
 let timerInterval_exercise_9= null;
 
@@ -1964,7 +1964,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_10= document.getElementById("countdown_exercise_10");
-const seconds_exercise_10= 60; // seconds_exercise_10
+const seconds_exercise_10= 30; // seconds_exercise_10
 let timeLeft_exercise_10= seconds_exercise_10;
 let timerInterval_exercise_10= null;
 
@@ -2780,7 +2780,7 @@ Multimodale, particolarmente accentuato sull'1 -->
 <script>
 <!--
 const countdown_exercise_12= document.getElementById("countdown_exercise_12");
-const seconds_exercise_12= 60; // seconds_exercise_12
+const seconds_exercise_12= 30; // seconds_exercise_12
 let timeLeft_exercise_12= seconds_exercise_12;
 let timerInterval_exercise_12= null;
 
@@ -2909,7 +2909,7 @@ updateButton_exercise_12();
 <script>
 <!--
 const countdown_exercise_13= document.getElementById("countdown_exercise_13");
-const seconds_exercise_13= 60; // seconds_exercise_13
+const seconds_exercise_13= 30; // seconds_exercise_13
 let timeLeft_exercise_13= seconds_exercise_13;
 let timerInterval_exercise_13= null;
 
@@ -3037,7 +3037,7 @@ updateButton_exercise_13();
 <script>
 <!--
 const countdown_exercise_14= document.getElementById("countdown_exercise_14");
-const seconds_exercise_14= 60; // seconds_exercise_14
+const seconds_exercise_14= 30; // seconds_exercise_14
 let timeLeft_exercise_14= seconds_exercise_14;
 let timerInterval_exercise_14= null;
 
@@ -3165,7 +3165,7 @@ updateButton_exercise_14();
 <script>
 <!--
 const countdown_exercise_15= document.getElementById("countdown_exercise_15");
-const seconds_exercise_15= 60; // seconds_exercise_15
+const seconds_exercise_15= 30; // seconds_exercise_15
 let timeLeft_exercise_15= seconds_exercise_15;
 let timerInterval_exercise_15= null;
 
@@ -3668,7 +3668,7 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 <script>
 <!--
 const countdown_exercise_17= document.getElementById("countdown_exercise_17");
-const seconds_exercise_17= 60; // seconds_exercise_17
+const seconds_exercise_17= 30; // seconds_exercise_17
 let timeLeft_exercise_17= seconds_exercise_17;
 let timerInterval_exercise_17= null;
 
@@ -3788,7 +3788,7 @@ updateButton_exercise_17();
 <script>
 <!--
 const countdown_exercise_18= document.getElementById("countdown_exercise_18");
-const seconds_exercise_18= 60; // seconds_exercise_18
+const seconds_exercise_18= 30; // seconds_exercise_18
 let timeLeft_exercise_18= seconds_exercise_18;
 let timerInterval_exercise_18= null;
 
@@ -3870,23 +3870,25 @@ updateButton_exercise_18();
 ---
 ### Esercizio #19
 
-<div style="font-size: 80%">
+<span style="display:block; height:1px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Posso calcolare la correlazione tra... 
+<img src="./img/descriptive/scatter1.png" img height="500px" align="left" border="4px"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) L'indice di irritabilit&agrave; e le ore dormite
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
- 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) L'indice di irritabilit&agrave; del primo e del secondo figlio
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
+<div style="font-size: 70%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) L'indice di irritabilit&agrave; prima e dopo un'attivit&agrave;  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'indice di irritabilit&agrave; in uomini e donne
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
 
 </div>
+
+<span style="display:block; height:60px;"></span>
 
 <style>
   #countdown_exercise_19{
@@ -3912,7 +3914,7 @@ updateButton_exercise_18();
 <script>
 <!--
 const countdown_exercise_19= document.getElementById("countdown_exercise_19");
-const seconds_exercise_19= 120; // seconds_exercise_19
+const seconds_exercise_19= 30; // seconds_exercise_19
 let timeLeft_exercise_19= seconds_exercise_19;
 let timerInterval_exercise_19= null;
 
@@ -3974,9 +3976,654 @@ updateButton_exercise_19();
 </script>
 
 
-
 ---
 ### Esercizio #19 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter1.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ &nbsp;&nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
+
+</div>
+
+---
+### Esercizio #20
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter2.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+<style>
+  #countdown_exercise_20{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_20.running {
+    background-color: green;
+  }
+  #countdown_exercise_20.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_20"></button>
+
+<script>
+<!--
+const countdown_exercise_20= document.getElementById("countdown_exercise_20");
+const seconds_exercise_20= 30; // seconds_exercise_20
+let timeLeft_exercise_20= seconds_exercise_20;
+let timerInterval_exercise_20= null;
+
+function formatTime_exercise_20(seconds_exercise_20) {
+  const minutes = Math.floor(seconds_exercise_20/ 60);
+  const remainingseconds_exercise_20= seconds_exercise_20% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_20).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_20() {
+  countdown_exercise_20.textContent = formatTime_exercise_20(timeLeft_exercise_20);
+}
+
+function startTimer_exercise_20() {
+  if (timerInterval_exercise_20=== null) {
+    countdown_exercise_20.classList.add('running');
+    countdown_exercise_20.classList.remove('finished');
+    timerInterval_exercise_20= setInterval(() => {
+      if (timeLeft_exercise_20> 0) {
+        timeLeft_exercise_20--;
+        updateButton_exercise_20();
+      } else {
+        clearInterval(timerInterval_exercise_20);
+        timerInterval_exercise_20= null;
+        countdown_exercise_20.classList.remove('running');
+        countdown_exercise_20.classList.add('finished');
+        countdown_exercise_20.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_20();
+  }
+}
+
+function pauseTimer_exercise_20() {
+  clearInterval(timerInterval_exercise_20);
+  timerInterval_exercise_20= null;
+  countdown_exercise_20.classList.remove('running');
+}
+
+function resetTimer_exercise_20() {
+  timeLeft_exercise_20= seconds_exercise_20;
+  updateButton_exercise_20();
+  countdown_exercise_20.classList.remove('finished');
+  countdown_exercise_20.classList.remove('running');
+  timerInterval_exercise_20= null;
+}
+
+countdown_exercise_20.addEventListener("click", () => {
+  if (countdown_exercise_20.classList.contains('finished')) {
+    resetTimer_exercise_20();
+  } else {
+    startTimer_exercise_20();
+  }
+});
+
+updateButton_exercise_20();
+-->
+</script>
+
+---
+### Esercizio #20 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter2.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ &nbsp;&nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
+
+</div>
+
+---
+### Esercizio #21
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter3.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+
+<style>
+  #countdown_exercise_21{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_21.running {
+    background-color: green;
+  }
+  #countdown_exercise_21.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_21"></button>
+
+<script>
+<!--
+const countdown_exercise_21= document.getElementById("countdown_exercise_21");
+const seconds_exercise_21= 30; // seconds_exercise_21
+let timeLeft_exercise_21= seconds_exercise_21;
+let timerInterval_exercise_21= null;
+
+function formatTime_exercise_21(seconds_exercise_21) {
+  const minutes = Math.floor(seconds_exercise_21/ 60);
+  const remainingseconds_exercise_21= seconds_exercise_21% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_21).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_21() {
+  countdown_exercise_21.textContent = formatTime_exercise_21(timeLeft_exercise_21);
+}
+
+function startTimer_exercise_21() {
+  if (timerInterval_exercise_21=== null) {
+    countdown_exercise_21.classList.add('running');
+    countdown_exercise_21.classList.remove('finished');
+    timerInterval_exercise_21= setInterval(() => {
+      if (timeLeft_exercise_21> 0) {
+        timeLeft_exercise_21--;
+        updateButton_exercise_21();
+      } else {
+        clearInterval(timerInterval_exercise_21);
+        timerInterval_exercise_21= null;
+        countdown_exercise_21.classList.remove('running');
+        countdown_exercise_21.classList.add('finished');
+        countdown_exercise_21.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_21();
+  }
+}
+
+function pauseTimer_exercise_21() {
+  clearInterval(timerInterval_exercise_21);
+  timerInterval_exercise_21= null;
+  countdown_exercise_21.classList.remove('running');
+}
+
+function resetTimer_exercise_21() {
+  timeLeft_exercise_21= seconds_exercise_21;
+  updateButton_exercise_21();
+  countdown_exercise_21.classList.remove('finished');
+  countdown_exercise_21.classList.remove('running');
+  timerInterval_exercise_21= null;
+}
+
+countdown_exercise_21.addEventListener("click", () => {
+  if (countdown_exercise_21.classList.contains('finished')) {
+    resetTimer_exercise_21();
+  } else {
+    startTimer_exercise_21();
+  }
+});
+
+updateButton_exercise_21();
+-->
+</script>
+
+---
+### Esercizio #21 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter3.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$ &nbsp;&nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
+
+</div>
+
+
+---
+### Esercizio #22
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter4.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+
+<style>
+  #countdown_exercise_22{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_22.running {
+    background-color: green;
+  }
+  #countdown_exercise_22.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_22"></button>
+
+<script>
+<!--
+const countdown_exercise_22= document.getElementById("countdown_exercise_22");
+const seconds_exercise_22= 30; // seconds_exercise_22
+let timeLeft_exercise_22= seconds_exercise_22;
+let timerInterval_exercise_22= null;
+
+function formatTime_exercise_22(seconds_exercise_22) {
+  const minutes = Math.floor(seconds_exercise_22/ 60);
+  const remainingseconds_exercise_22= seconds_exercise_22% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_22).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_22() {
+  countdown_exercise_22.textContent = formatTime_exercise_22(timeLeft_exercise_22);
+}
+
+function startTimer_exercise_22() {
+  if (timerInterval_exercise_22=== null) {
+    countdown_exercise_22.classList.add('running');
+    countdown_exercise_22.classList.remove('finished');
+    timerInterval_exercise_22= setInterval(() => {
+      if (timeLeft_exercise_22> 0) {
+        timeLeft_exercise_22--;
+        updateButton_exercise_22();
+      } else {
+        clearInterval(timerInterval_exercise_22);
+        timerInterval_exercise_22= null;
+        countdown_exercise_22.classList.remove('running');
+        countdown_exercise_22.classList.add('finished');
+        countdown_exercise_22.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_22();
+  }
+}
+
+function pauseTimer_exercise_22() {
+  clearInterval(timerInterval_exercise_22);
+  timerInterval_exercise_22= null;
+  countdown_exercise_22.classList.remove('running');
+}
+
+function resetTimer_exercise_22() {
+  timeLeft_exercise_22= seconds_exercise_22;
+  updateButton_exercise_22();
+  countdown_exercise_22.classList.remove('finished');
+  countdown_exercise_22.classList.remove('running');
+  timerInterval_exercise_22= null;
+}
+
+countdown_exercise_22.addEventListener("click", () => {
+  if (countdown_exercise_22.classList.contains('finished')) {
+    resetTimer_exercise_22();
+  } else {
+    startTimer_exercise_22();
+  }
+});
+
+updateButton_exercise_22();
+-->
+</script>
+
+---
+### Esercizio #22 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter4.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile &nbsp;&nbsp;&nbsp; :white_check_mark:
+
+</div>
+
+---
+### Esercizio #23
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Uno studio ha indivuduato una correlazione  lineare $r=-0.7$ tra le ore di sonno e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; un indice di irritabilit&agrave; (scala 0-100; 0: poco irritabile, 100: molto irritabile).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come interpreto questo valore?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) All'aumentare delle ore di sonno aumenta l'irritabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) All'aumentare delle ore di sonno dinuisce l'irritabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La mancanza di sonno causa un aumento dell'irritabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) La mancanza di sonno causa una diminuzione dell'irritabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precendenti
+
+</div>
+
+<span style="display:block; height:20px;"></span>
+
+<style>
+  #countdown_exercise_23{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_23.running {
+    background-color: green;
+  }
+  #countdown_exercise_23.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_23"></button>
+
+<script>
+<!--
+const countdown_exercise_23= document.getElementById("countdown_exercise_23");
+const seconds_exercise_23= 30; // seconds_exercise_23
+let timeLeft_exercise_23= seconds_exercise_23;
+let timerInterval_exercise_23= null;
+
+function formatTime_exercise_23(seconds_exercise_23) {
+  const minutes = Math.floor(seconds_exercise_23/ 60);
+  const remainingseconds_exercise_23= seconds_exercise_23% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_23).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_23() {
+  countdown_exercise_23.textContent = formatTime_exercise_23(timeLeft_exercise_23);
+}
+
+function startTimer_exercise_23() {
+  if (timerInterval_exercise_23=== null) {
+    countdown_exercise_23.classList.add('running');
+    countdown_exercise_23.classList.remove('finished');
+    timerInterval_exercise_23= setInterval(() => {
+      if (timeLeft_exercise_23> 0) {
+        timeLeft_exercise_23--;
+        updateButton_exercise_23();
+      } else {
+        clearInterval(timerInterval_exercise_23);
+        timerInterval_exercise_23= null;
+        countdown_exercise_23.classList.remove('running');
+        countdown_exercise_23.classList.add('finished');
+        countdown_exercise_23.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_23();
+  }
+}
+
+function pauseTimer_exercise_23() {
+  clearInterval(timerInterval_exercise_23);
+  timerInterval_exercise_23= null;
+  countdown_exercise_23.classList.remove('running');
+}
+
+function resetTimer_exercise_23() {
+  timeLeft_exercise_23= seconds_exercise_23;
+  updateButton_exercise_23();
+  countdown_exercise_23.classList.remove('finished');
+  countdown_exercise_23.classList.remove('running');
+  timerInterval_exercise_23= null;
+}
+
+countdown_exercise_23.addEventListener("click", () => {
+  if (countdown_exercise_23.classList.contains('finished')) {
+    resetTimer_exercise_23();
+  } else {
+    startTimer_exercise_23();
+  }
+});
+
+updateButton_exercise_23();
+-->
+</script>
+
+---
+### Esercizio #23 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Uno studio ha indivuduato una correlazione  lineare $r=-0.7$ tra le ore di sonno e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; un indice di irritabilit&agrave; (scala 0-100; 0: poco irritabile, 100: molto irritabile).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come interpreto questo valore?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) All'aumentare delle ore di sonno aumenta l'irritabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) All'aumentare delle ore di sonno dinuisce l'irritabilit&agrave; &nbsp;&nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La mancanza di sonno causa un aumento dell'irritabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) La mancanza di sonno causa una diminuzione dell'irritabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precendenti
+
+</div>
+
+---
+### Esercizio #24
+
+<div style="font-size: 80%">
+
+:question: &nbsp;&nbsp;&nbsp; Posso calcolare la correlazione tra... 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) L'indice di irritabilit&agrave; e le ore dormite
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) L'indice di irritabilit&agrave; del primo e del secondo figlio
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) L'indice di irritabilit&agrave; prima e dopo un'attivit&agrave;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) L'indice di irritabilit&agrave; in uomini e donne
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
+
+</div>
+
+<style>
+  #countdown_exercise_24{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_24.running {
+    background-color: green;
+  }
+  #countdown_exercise_24.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_24"></button>
+
+<script>
+<!--
+const countdown_exercise_24= document.getElementById("countdown_exercise_24");
+const seconds_exercise_24= 30; // seconds_exercise_24
+let timeLeft_exercise_24= seconds_exercise_24;
+let timerInterval_exercise_24= null;
+
+function formatTime_exercise_24(seconds_exercise_24) {
+  const minutes = Math.floor(seconds_exercise_24/ 60);
+  const remainingseconds_exercise_24= seconds_exercise_24% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_24).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_24() {
+  countdown_exercise_24.textContent = formatTime_exercise_24(timeLeft_exercise_24);
+}
+
+function startTimer_exercise_24() {
+  if (timerInterval_exercise_24=== null) {
+    countdown_exercise_24.classList.add('running');
+    countdown_exercise_24.classList.remove('finished');
+    timerInterval_exercise_24= setInterval(() => {
+      if (timeLeft_exercise_24> 0) {
+        timeLeft_exercise_24--;
+        updateButton_exercise_24();
+      } else {
+        clearInterval(timerInterval_exercise_24);
+        timerInterval_exercise_24= null;
+        countdown_exercise_24.classList.remove('running');
+        countdown_exercise_24.classList.add('finished');
+        countdown_exercise_24.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_24();
+  }
+}
+
+function pauseTimer_exercise_24() {
+  clearInterval(timerInterval_exercise_24);
+  timerInterval_exercise_24= null;
+  countdown_exercise_24.classList.remove('running');
+}
+
+function resetTimer_exercise_24() {
+  timeLeft_exercise_24= seconds_exercise_24;
+  updateButton_exercise_24();
+  countdown_exercise_24.classList.remove('finished');
+  countdown_exercise_24.classList.remove('running');
+  timerInterval_exercise_24= null;
+}
+
+countdown_exercise_24.addEventListener("click", () => {
+  if (countdown_exercise_24.classList.contains('finished')) {
+    resetTimer_exercise_24();
+  } else {
+    startTimer_exercise_24();
+  }
+});
+
+updateButton_exercise_24();
+-->
+</script>
+
+
+
+---
+### Esercizio #24 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -3997,7 +4644,7 @@ updateButton_exercise_19();
 </div>
 
 ---
-### Esercizio #19 -- Soluzione
+### Esercizio #24 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -4019,7 +4666,7 @@ updateButton_exercise_19();
 
 
 ---
-### Esercizio #19 -- Soluzione
+### Esercizio #24 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -4040,7 +4687,7 @@ updateButton_exercise_19();
 </div>
 
 ---
-### Esercizio #19 -- Soluzione
+### Esercizio #24 -- Soluzione
 
 <div style="font-size: 80%">
 
@@ -4159,7 +4806,7 @@ Altezza (cm) e numero di canestri
 </div>
 
 ---
-## Correlazione: interpolare a estrapolare
+## Correlazione: interpolare ed estrapolare
 
 <div style="font-size: 80%"> 
 
@@ -4180,7 +4827,7 @@ https://www.istat.it/dati/calcolatori/contanomi/
 </div>
 
 ---
-## Correlazione: interpolare a estrapolare
+## Correlazione: interpolare ed estrapolare
 
 <div style="font-size: 80%"> 
 
@@ -4201,7 +4848,7 @@ https://www.istat.it/dati/calcolatori/contanomi/
 </div>
 
 ---
-## Correlazione: interpolare a estrapolare
+## Correlazione: interpolare ed estrapolare
 
 <div style="font-size: 80%"> 
 
@@ -4255,7 +4902,7 @@ https://www.istat.it/dati/calcolatori/contanomi/
 </center>
 
 ---
-### Esercizio #20
+### Esercizio #25
 
 <span style="display:block; height:1px;"></span>
 
@@ -4273,7 +4920,7 @@ https://www.istat.it/dati/calcolatori/contanomi/
 <span style="display:block; height:100px;"></span>
 
 <style>
-  #countdown_exercise_20{
+  #countdown_exercise_25{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -4283,82 +4930,82 @@ https://www.istat.it/dati/calcolatori/contanomi/
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_20.running {
+  #countdown_exercise_25.running {
     background-color: green;
   }
-  #countdown_exercise_20.finished {
+  #countdown_exercise_25.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_20"></button>
+<button id="countdown_exercise_25"></button>
 
 <script>
 <!--
-const countdown_exercise_20= document.getElementById("countdown_exercise_20");
-const seconds_exercise_20= 60; // seconds_exercise_20
-let timeLeft_exercise_20= seconds_exercise_20;
-let timerInterval_exercise_20= null;
+const countdown_exercise_25= document.getElementById("countdown_exercise_25");
+const seconds_exercise_25= 30; // seconds_exercise_25
+let timeLeft_exercise_25= seconds_exercise_25;
+let timerInterval_exercise_25= null;
 
-function formatTime_exercise_20(seconds_exercise_20) {
-  const minutes = Math.floor(seconds_exercise_20/ 60);
-  const remainingseconds_exercise_20= seconds_exercise_20% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_20).padStart(2, '0')}`;
+function formatTime_exercise_25(seconds_exercise_25) {
+  const minutes = Math.floor(seconds_exercise_25/ 60);
+  const remainingseconds_exercise_25= seconds_exercise_25% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_25).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_20() {
-  countdown_exercise_20.textContent = formatTime_exercise_20(timeLeft_exercise_20);
+function updateButton_exercise_25() {
+  countdown_exercise_25.textContent = formatTime_exercise_25(timeLeft_exercise_25);
 }
 
-function startTimer_exercise_20() {
-  if (timerInterval_exercise_20=== null) {
-    countdown_exercise_20.classList.add('running');
-    countdown_exercise_20.classList.remove('finished');
-    timerInterval_exercise_20= setInterval(() => {
-      if (timeLeft_exercise_20> 0) {
-        timeLeft_exercise_20--;
-        updateButton_exercise_20();
+function startTimer_exercise_25() {
+  if (timerInterval_exercise_25=== null) {
+    countdown_exercise_25.classList.add('running');
+    countdown_exercise_25.classList.remove('finished');
+    timerInterval_exercise_25= setInterval(() => {
+      if (timeLeft_exercise_25> 0) {
+        timeLeft_exercise_25--;
+        updateButton_exercise_25();
       } else {
-        clearInterval(timerInterval_exercise_20);
-        timerInterval_exercise_20= null;
-        countdown_exercise_20.classList.remove('running');
-        countdown_exercise_20.classList.add('finished');
-        countdown_exercise_20.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_25);
+        timerInterval_exercise_25= null;
+        countdown_exercise_25.classList.remove('running');
+        countdown_exercise_25.classList.add('finished');
+        countdown_exercise_25.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_20();
+    pauseTimer_exercise_25();
   }
 }
 
-function pauseTimer_exercise_20() {
-  clearInterval(timerInterval_exercise_20);
-  timerInterval_exercise_20= null;
-  countdown_exercise_20.classList.remove('running');
+function pauseTimer_exercise_25() {
+  clearInterval(timerInterval_exercise_25);
+  timerInterval_exercise_25= null;
+  countdown_exercise_25.classList.remove('running');
 }
 
-function resetTimer_exercise_20() {
-  timeLeft_exercise_20= seconds_exercise_20;
-  updateButton_exercise_20();
-  countdown_exercise_20.classList.remove('finished');
-  countdown_exercise_20.classList.remove('running');
-  timerInterval_exercise_20= null;
+function resetTimer_exercise_25() {
+  timeLeft_exercise_25= seconds_exercise_25;
+  updateButton_exercise_25();
+  countdown_exercise_25.classList.remove('finished');
+  countdown_exercise_25.classList.remove('running');
+  timerInterval_exercise_25= null;
 }
 
-countdown_exercise_20.addEventListener("click", () => {
-  if (countdown_exercise_20.classList.contains('finished')) {
-    resetTimer_exercise_20();
+countdown_exercise_25.addEventListener("click", () => {
+  if (countdown_exercise_25.classList.contains('finished')) {
+    resetTimer_exercise_25();
   } else {
-    startTimer_exercise_20();
+    startTimer_exercise_25();
   }
 });
 
-updateButton_exercise_20();
+updateButton_exercise_25();
 -->
 </script>
 
 ---
-### Esercizio #20 -- Soluzione
+### Esercizio #25 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
