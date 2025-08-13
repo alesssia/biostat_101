@@ -419,7 +419,7 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 \newglossaryentry{pcc}
 {
 	 name={Pearson correlation coefficient},
-	 description={o indice di correlazione di Pearson, \`e un indice che misura l'esistenza di una relazione lineare (o \gls{correlation}) tra due variabili. Ha un valore compreso tra $+ 1$ e $- 1$ , dove $+ 1$ corrisponde alla perfetta correlazione lineare positiva, $0$ corrisponde a un'assenza di correlazione lineare e $- 1$ corrisponde alla perfetta correlazione lineare negativa.},
+	 description={o indice di correlazione di Pearson, \`e un indice che misura l'esistenza di una relazione lineare (o \gls{correlation}) tra due variabili. Ha un valore compreso tra $+ 1$ e $- 1$ , dove $+ 1$ corrisponde alla perfetta correlazione lineare positiva, $0$ corrisponde a un'assenza di correlazione lineare e $- 1$ corrisponde alla perfetta correlazione lineare negativa. Valori di $r$ (o $\rho$) $< 0.25$ indicano poca (o bassa) correlazione, tra  $0.25$ e $0.50$ discreta, $0.50$ e $0.70$ buona, e tra $0.75$ e $0.99$ eccellente. Viene usata anche per misurare la \gls{effect_size}.},
 	 sort={Pearson correlation coefficient}
 }
 
@@ -435,6 +435,21 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 	 name={Valori estremi},
 	 description={sono dei valori chiaramente distanti dalle altre osservazioni disponibili. Non ne esiste una definizione matematica formale, ma, empiricamente, vengono definiti come valori pi\`u lontani dal primo e terzo \gls{quartiles} di $1.5$ volte l'\gls{iqr} (vedi anche: \gls{boxplot}) o pi\`u lontani dalla \gls{mean} di $3$ \gls{standard_deviation} (vedi anche: \gls{three_sigma_rule}). Queste distanze coincidono se la \gls{sample_distribution} \`e distribuita secondo una \gls{normal_distribution}.},
 	 sort={valori estremi}
+}
+
+
+\newglossaryentry{regression_to_the_mean}
+{
+	 name={Regressione verso la media},
+	 description={avviene quando un valore molto alto o molto basso \`e seguito da uno meno estremo e pi\`u vicino alla \gls{mean}. Questo avviene perch\'e la ragione del primo valore (estremo) osservato  \`e dovuto al caso ed \`e improbabile che si ripeta con la stessa magnitudine.},
+	 sort={regressione verso la media}
+}
+
+\newglossaryentry{wisdom_of_crowds}
+{
+	 name={Saggezza della Folla},
+	 description={o Wisdom of Crowds, \`e  una teoria per cui, sotto determinate condizioni, una sintesi (per esempio, la \gls{sample_median}) delle risposte fornite da un gruppo di persone si avvicini di pi\`u  alla realtà di quanto non lo facciano i singoli individui.},
+	 sort={saggezza della Folla}
 }
 
 
@@ -676,6 +691,22 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 	 name={Test a due code},
 	 description={o test bilaterale, \`e usato quando l'\gls{null_hypothesis} specifica che il risultato atteso sia nullo (non esiste differenza, per esempio: il farmaco non ha un effetto sul valore di un biomarcatore nel sangue) e viene rifiutata se si osservano effetti sia molto positivi che molto negativi. Vedi anche: \gls{hypothesis_testing}.},
 	 sort={test a due code}
+}
+
+
+\newglossaryentry{effect_size}
+{
+	 name={Dimensione dell'effetto},
+	 description={misura la forza della relazione tra due variabili fornendo una valutazione quantitativa dell’importanza di un fenomeno osservato, causato, per esempio, da un intervento e/o un trattamento. Viene solitamente categorizzato in debole, medio o forte. Esempi di modi per valutare la dimensione dell'effetto sono il \gls{pcc} o il \gls{Cohen_d}.} ,
+	 sort={dimensione dell'effetto}
+}
+
+
+\newglossaryentry{Cohen_d}
+{
+	 name={$d$ di Cohen},
+	 description={misura la differenza tra le medie di due \gls{sample} (che seguono una \gls{normal_distribution}), esprimendola in termini di deviazioni standard e viene usata per esprimere la \gls{effect_size}. Valori di $d = 0.2$, $0.5$ e $0.8$ indicano un effetto piccolo (o debole), medio e forte, rispettivamente.} ,
+	 sort={d di Cohen}
 }
 
 \newglossaryentry{expected_frequencies}
@@ -1021,7 +1052,7 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 
 
-\subsection*{Dati \& variabili}
+\subsection*{Variabili}
 
 \noindent \gls{variability}
 
@@ -1100,7 +1131,9 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 \noindent \gls{scatterplot}
 
+\noindent \gls{regression_to_the_mean}
 
+\noindent \gls{wisdom_of_crowds}
 
 
 
@@ -1175,6 +1208,10 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 \noindent \gls{two-sided_test}
 
 \noindent \gls{alpha}
+
+\noindent \gls{effect_size}
+
+\noindent \gls{Cohen_d}
 
 \noindent \gls{Type_I_error}
 
