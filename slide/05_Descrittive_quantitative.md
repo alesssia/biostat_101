@@ -4869,6 +4869,32 @@ https://www.istat.it/dati/calcolatori/contanomi/
 </div>
 
 ---
+## La regressione verso la media
+
+
+---
+## La regressione verso la media
+
+<span style="display:block; height:0px;"></span>
+
+<center>
+<img src="./img/descriptive/mother_daughter.png" img height="440px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+F. Galton, *Regression Towards Mediocrity in Hereditary Stature*, The Journal of the 
+Anthropological Institute of Great Britain and Ireland, 1886, https://doi.org/10.2307/2841583
+
+</div>
+
+<!-- 
+Si ha la regressione verso la media quando fenomeni estremi nella variabile di risposta si riavvicinano alla media a lungo termine, perché il contributo precedente a questi valori estremi era un puro caso
+
+La regressione verso la media si applica anche agli studi clinici. Nello scorso capitolo abbiamo visto che occorrono studi randomizzati per valutare a dovere i nuovi farmaci, perché si osservano benefici anche nei membri del gruppo di controllo: lo chiamiamo eﬀetto placebo. Spesso l’interpretazione è che prendere una semplice pillola di zucchero (soprattutto se rossa) farebbe davvero bene alla salute. 
+Ma i miglioramenti osservati nelle persone che non ricevono nessun principio attivo sono forse dovuti in gran parte alla regressione verso la media, poiché si arruolano negli studi pazienti aﬀetti da sintomi, che in molti casi sarebbero scomparsi comunque. -->
+
+---
 ## Perch&eacute; visualizzare i dati?
 
 <span style="display:block; height:2px;"></span>

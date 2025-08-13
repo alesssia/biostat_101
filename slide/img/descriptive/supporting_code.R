@@ -496,6 +496,21 @@ print(p)
 dev.off() 
 
 
+# Regression to the mean
+GaltonData <- read.csv("07-4-galton-x.csv") # 
+mother_daughter <- GaltonData[GaltonData$Gender=="F",]
+
+# Converts to cm from inches
+mother_daughter$Mother <- mother_daughter$Mother * 2.54
+mother_daughter$Height <- mother_daughter$Height * 2.54
+
+p <- ggplot(mother_daughter, aes(x=Mother, y=Height)) + geom_point(size=2)  + labs(x="Altezza della madre (cm)", y = "Altezza della figlia (cm)") + graphic.settings  + geom_smooth(method="lm", se=FALSE, col="magenta", linetype="dashed", linewidth=1.5) + xlim(140, 180) + ylim(140, 180) + geom_abline(intercept = 0, slope = 1, col="black", linetype="dotted", linewidth=1) 
+
+
+png("mother_daughter.png")
+print(p)
+dev.off() 
+
 # Variability
 
 head_circ <- c(43, rep(44,3), rep(45, 4), rep(46, 5), rep(47,3), rep(48,2))
