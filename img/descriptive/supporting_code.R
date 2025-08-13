@@ -445,6 +445,72 @@ print(p1)
 dev.off()
 
 
+# Extra ex Pearson
+
+createdf <- function(N, rho)
+{
+	x <- rnorm(n = N, mean = 30, sd = 2)
+	y <- (rho * x) + sqrt(1 - rho*rho) * rnorm(n = N, mean = 30, sd = 2);
+	data.frame(x=x, y=y)
+}
+
+set.seed(1)
+df <- createdf(50, 0.9)
+p <- ggplot(df, aes(x=x, y=y)) + geom_point(size=3) + graphic.settings  
+
+png("scatter1.png")
+print(p)
+dev.off() 
+
+set.seed(42)
+df <- createdf(50, -0.9)
+p <- ggplot(df, aes(x=x, y=y)) + geom_point(size=3) + graphic.settings  
+
+png("scatter2.png")
+print(p)
+dev.off() 
+
+
+set.seed(1)
+df <- createdf(50, 0.1)
+p <- ggplot(df, aes(x=x, y=y)) + geom_point(size=3) + graphic.settings  
+
+png("scatter3.png")
+print(p)
+dev.off() 
+
+
+createcurve <- function(N)
+{
+	x <- rnorm(n = N, mean = 30, sd = 50)
+	y <- 2*(x^2) + x + 20 + 100*rnorm(n = N, mean = 30^2, sd = 20)
+	data.frame(x=x, y=y)
+}
+
+set.seed(42)
+df <- createcurve(80)
+p <- ggplot(df, aes(x=x, y=y)) + geom_point(size=3) + graphic.settings  
+
+png("scatter4.png")
+print(p)
+dev.off() 
+
+
+# Regression to the mean
+GaltonData <- read.csv("07-4-galton-x.csv") # 
+mother_daughter <- GaltonData[GaltonData$Gender=="F",]
+
+# Converts to cm from inches
+mother_daughter$Mother <- mother_daughter$Mother * 2.54
+mother_daughter$Height <- mother_daughter$Height * 2.54
+
+p <- ggplot(mother_daughter, aes(x=Mother, y=Height)) + geom_point(size=2)  + labs(x="Altezza della madre (cm)", y = "Altezza della figlia (cm)") + graphic.settings  + geom_smooth(method="lm", se=FALSE, col="magenta", linetype="dashed", linewidth=1.5) + xlim(140, 180) + ylim(140, 180) + geom_abline(intercept = 0, slope = 1, col="black", linetype="dotted", linewidth=1) 
+
+
+png("mother_daughter.png")
+print(p)
+dev.off() 
+
 # Variability
 
 head_circ <- c(43, rep(44,3), rep(45, 4), rep(46, 5), rep(47,3), rep(48,2))
