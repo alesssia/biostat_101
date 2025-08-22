@@ -670,7 +670,7 @@ Tutti i libri sono disponibili in biblioteca.
 
 <span style="display:block; height:2px;"></span>
 
-- Seguire le lezioni
+- Seguire le lezioni e **prendere appunti**
 - Esercitarsi in aula
 - Rivedere il materiale didattico prima di ogni lezione
 
@@ -800,6 +800,7 @@ Self-explaining occurs when students explain the content of a lesson to themselv
 https://tedunderwood.com/2024/08/31/will-ai-make-us-overconfident/
 
 </div>
+
 
 ---
 ## Esercizi che faremo in classe
@@ -1056,6 +1057,110 @@ oppure
 
 
 <!-- - Fare errori (e poi correggerli) &egrave; come impariamo cose nuove -->
+
+---
+## Insegnare e imparare
+
+---
+## Insegnare e imparare
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+
+<img src="./img/introduction/nsousanis_panel_1.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
+
+</center>
+
+---
+## Insegnare e imparare
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+
+<img src="./img/introduction/nsousanis_panel_1.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_panel_2.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
+
+</center>
+
+---
+## Insegnare e imparare
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+
+<img src="./img/introduction/nsousanis_panel_1.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_panel_2.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_panel_3.png" img height="500px" border="4px">
+
+</center>
+
+---
+## Insegnare e imparare
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+
+<img src="./img/introduction/nsousanis_panel_4.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
+
+</center>
+
+---
+## Insegnare e imparare
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+
+<img src="./img/introduction/nsousanis_panel_4.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_panel_5.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
+
+</center>
+
+---
+## Insegnare e imparare
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+
+<img src="./img/introduction/nsousanis_panel_4.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_panel_5.png" img height="500px" border="4px">
+
+<img src="./img/introduction/nsousanis_panel_6.png" img height="500px" border="4px">
+
+</center>
+
+---
+## Insegnare e imparare
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+
+<img src="./img/introduction/nsousanis_panel_7.png" img height="500px" border="4px">
+
+</center>
 
 ---
 ### Cosa abbiamo imparato in questa lezione?
