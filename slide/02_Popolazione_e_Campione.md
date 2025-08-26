@@ -157,7 +157,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_1= document.getElementById("countdown_exercise_1");
-const seconds_exercise_1= 120; // seconds_exercise_1
+const seconds_exercise_1= 30; // seconds_exercise_1
 let timeLeft_exercise_1= seconds_exercise_1;
 let timerInterval_exercise_1= null;
 
@@ -318,7 +318,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_2= document.getElementById("countdown_exercise_2");
-const seconds_exercise_2= 60; // seconds_exercise_2
+const seconds_exercise_2= 30; // seconds_exercise_2
 let timeLeft_exercise_2= seconds_exercise_2;
 let timerInterval_exercise_2= null;
 
@@ -482,7 +482,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_3= document.getElementById("countdown_exercise_3");
-const seconds_exercise_3= 60; // seconds_exercise_3
+const seconds_exercise_3= 30; // seconds_exercise_3
 let timeLeft_exercise_3= seconds_exercise_3;
 let timerInterval_exercise_3= null;
 
@@ -587,13 +587,13 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 
 ---
-## Campione di convenienza 
+## Strategie di campionamento
 
 <span style="display:block; height:30px;"></span>
 
 <div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp;&nbsp; Un campione di convenienza &egrave; un campione estratto da una
+:dart: &nbsp;&nbsp;&nbsp; Un **campione di convenienza** &egrave; un campione estratto da una
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  parte della popolazione a cui abbiamo un facile accesso e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  che potrebbe non rappresentarla nella sua interezza
 
@@ -617,13 +617,13 @@ Chiedere le intenzioni di voto alle prime 10 pagine di utenti con il numero di t
 -->
 
 ---
-## Campionamento casuale semplice
+## Strategie di campionamento
 
 <span style="display:block; height:30px;"></span>
 
 <div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp;&nbsp; Nel campionamento casuale semplice tutti i soggetti della  
+:dart: &nbsp;&nbsp;&nbsp; Nel **campionamento casuale semplice** tutti i soggetti della  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popolazione hanno la stessa probabilit&agrave; di venire inclusi 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel campione
 
@@ -744,7 +744,7 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 <script>
 <!--
 const countdown_exercise_4= document.getElementById("countdown_exercise_4");
-const seconds_exercise_4= 120; // seconds_exercise_4
+const seconds_exercise_4= 30; // seconds_exercise_4
 let timeLeft_exercise_4= seconds_exercise_4;
 let timerInterval_exercise_4= null;
 
@@ -872,7 +872,7 @@ updateButton_exercise_4();
 <script>
 <!--
 const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 60; // seconds_exercise_5
+const seconds_exercise_5= 30; // seconds_exercise_5
 let timeLeft_exercise_5= seconds_exercise_5;
 let timerInterval_exercise_5= null;
 
