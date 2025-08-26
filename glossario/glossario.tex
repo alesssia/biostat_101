@@ -194,7 +194,7 @@
 \newglossaryentry{categorical_variable}
 {
 	 name={Variabile categorica},
-	 description={\`e una variabile che pu\`o assumere due o pi\`u valori discreti (per esempio: gruppo sanguigno, colore degli occhi), che possono essere ordinati o meno. Una variabili categorica con due sole categorie viene detta \gls{binary_data}. Una variabili categorica ordinata viene detta\gls{variabili_ordinali}.},
+	 description={o qualitativa, \`e una variabile che pu\`o assumere due o pi\`u valori discreti (per esempio: gruppo sanguigno, colore degli occhi), che possono essere ordinati o meno. Una variabili categorica con due sole categorie viene detta \gls{binary_data}. Una variabili categorica ordinata viene detta\gls{variabili_ordinali}.},
 	 sort={variabile categorica}
 }
 
@@ -225,6 +225,14 @@
 	 description={\`e una variabile che pu\`o assumere qualsiasi valore intero (per esempio: numero di ingressi in pronto soccorso, numero di figli).},
 	 sort={variabile discreta}
 }
+
+\newglossaryentry{numerical_variable}
+{
+	 name={Variabile numerica},
+	 description={o quantitativa, \`e una variabile che pu\`o assumere valori numerici sia interi, o discreti (\gls{count_variables}), sia continui (\gls{continuous_variable}).},
+	 sort={variabile numerica}
+}
+
 
 
 
@@ -348,7 +356,7 @@
 \newglossaryentry{variability}
 {
 	 name={Variabilit\`a},
-	 description={sono le differenze che sono presenti tra le diverse osservazioni e/o misure.},
+	 description={le differenze che sono presenti tra le diverse osservazioni e/o misure. Possono essere generate sia da fattori conosciuti o conoscibili, sia da fattori casuali (o random noise, per esempio, errori di misurazione). Le differenze individuali (per esempio, genetiche) e le condizioni sperimentali (per esempio, l'assunzione di un farmaco o un determinato stile di vita) appartengono ai fattori conosciuti o conoscibili. Per capire quale insieme di fattori \`e responsabile della variabilit\`a osservata, \`e necessario usare un \gls{hypothesis_testing}.},
 	 sort={variabilit\`a}
 }
 
@@ -1061,6 +1069,8 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 \noindent \gls{binary_data}
 
 \noindent \gls{variabili_ordinali}
+
+\noindent \gls{numerical_variable}
 
 \noindent \gls{continuous_variable}
 
