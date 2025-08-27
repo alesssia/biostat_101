@@ -77,9 +77,9 @@ Finally, the key to good statistical science is drawing appropriate Conclusions 
 <span style="display:block; height:40px;"></span> 
 
 <center>
-<img src="./img/descriptive/head_circiference_doll.png" img height="180px"  border="4px"/> 
-<img src="./img/descriptive/head_circiference_children.png" img height="180px"  border="4px"/>
-<img src="./img/descriptive/head_circiference_children_groups.png" img height="180px" border="4px"/>
+<img src="./img/data/head_circiference_doll.png" img height="180px"  border="4px"/> 
+<img src="./img/data/head_circiference_children.png" img height="180px"  border="4px"/>
+<img src="./img/data/head_circiference_children_groups.png" img height="180px" border="4px"/>
 </center>
 
 
@@ -179,7 +179,7 @@ Un'ipotesi puo' essere definita come una congettura su una o piu' popplaioni
 <script>
 <!--
 const countdown_exercise_1= document.getElementById("countdown_exercise_1");
-const seconds_exercise_1= 60; // seconds_exercise_1
+const seconds_exercise_1= 30; // seconds_exercise_1
 let timeLeft_exercise_1= seconds_exercise_1;
 let timerInterval_exercise_1= null;
 
@@ -326,7 +326,7 @@ Il metodo scientifico si basa sulla falsificazione delle ipotesi (K. Popper), in
 <script>
 <!--
 const countdown_exercise_2= document.getElementById("countdown_exercise_2");
-const seconds_exercise_2= 120; // seconds_exercise_2
+const seconds_exercise_2= 30; // seconds_exercise_2
 let timeLeft_exercise_2= seconds_exercise_2;
 let timerInterval_exercise_2= null;
 
@@ -461,7 +461,7 @@ Tomazini, B.M., *et al.*, "Effect of dexamethasone on days alive and ventilator-
 <script>
 <!--
 const countdown_exercise_3= document.getElementById("countdown_exercise_3");
-const seconds_exercise_3= 120; // seconds_exercise_3
+const seconds_exercise_3= 60; // seconds_exercise_3
 let timeLeft_exercise_3= seconds_exercise_3;
 let timerInterval_exercise_3= null;
 
@@ -1280,7 +1280,7 @@ Kendall mentioned that Fisher produced the tables of significance levels to save
 <script>
 <!--
 const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 120; // seconds_exercise_6
+const seconds_exercise_6= 60; // seconds_exercise_6
 let timeLeft_exercise_6= seconds_exercise_6;
 let timerInterval_exercise_6= null;
 
@@ -1407,7 +1407,7 @@ updateButton_exercise_6();
 <script>
 <!--
 const countdown_exercise_7= document.getElementById("countdown_exercise_7");
-const seconds_exercise_7= 60; // seconds_exercise_7
+const seconds_exercise_7= 30; // seconds_exercise_7
 let timeLeft_exercise_7= seconds_exercise_7;
 let timerInterval_exercise_7= null;
 
@@ -1795,7 +1795,7 @@ $^{(*)}$ Stiamo usando il $t$-test della differenza di due medie campionarie e n
 <script>
 <!--
 const countdown_exercise_9= document.getElementById("countdown_exercise_9");
-const seconds_exercise_9= 300; // seconds_exercise_9
+const seconds_exercise_9= 240; // seconds_exercise_9
 let timeLeft_exercise_9= seconds_exercise_9;
 let timerInterval_exercise_9= null;
 
@@ -2208,7 +2208,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_10= document.getElementById("countdown_exercise_10");
-const seconds_exercise_10= 60; // seconds_exercise_10
+const seconds_exercise_10= 30; // seconds_exercise_10
 let timeLeft_exercise_10= seconds_exercise_10;
 let timerInterval_exercise_10= null;
 
@@ -2465,7 +2465,7 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 <script>
 <!--
 const countdown_exercise_11= document.getElementById("countdown_exercise_11");
-const seconds_exercise_11= 60; // seconds_exercise_11
+const seconds_exercise_11= 30; // seconds_exercise_11
 let timeLeft_exercise_11= seconds_exercise_11;
 let timerInterval_exercise_11= null;
 
@@ -2659,8 +2659,8 @@ updateButton_exercise_11();
 :question: &nbsp;&nbsp;&nbsp; Un test a una coda deve essere usato quando l'ipotesi alternativa 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; suppone che...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'effetto del trattamento sia positivo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) l'effetto del trattamento sia negativo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'effetto del trattamento sia strettamente positivo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) l'effetto del trattamento sia strettamente negativo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) l'effetto del trattamento sia indifferentemente positivo o negativo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
 
@@ -2763,8 +2763,8 @@ updateButton_exercise_12();
 :question: &nbsp;&nbsp;&nbsp; Un test a una coda deve essere usato quando l'ipotesi alternativa 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; suppone che...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'effetto del trattamento sia positivo &nbsp;&nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) l'effetto del trattamento sia negativo &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'effetto del trattamento sia strettamente positivo &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) l'effetto del trattamento sia strettamente negativo &nbsp;&nbsp; :white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) l'effetto del trattamento sia indifferentemente positivo o negativo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
 
@@ -2919,7 +2919,7 @@ updateButton_exercise_13();
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; diverso rispetto ad altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; diverso rispetto ad altri ospedali britannici
 
 </div>
 
@@ -2929,10 +2929,10 @@ updateButton_exercise_13();
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; diverso rispetto ad altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; diverso rispetto ad altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: Il numero di bambini deceduti a seguito di interventi cardiochirugici a   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 </div>
 
@@ -2942,7 +2942,7 @@ updateButton_exercise_13();
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -2956,7 +2956,7 @@ updateButton_exercise_13();
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -2987,7 +2987,7 @@ updateButton_exercise_13();
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -3015,7 +3015,7 @@ updateButton_exercise_13();
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -3038,7 +3038,7 @@ updateButton_exercise_13();
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -3088,7 +3088,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -3134,7 +3134,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -3177,7 +3177,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -3241,7 +3241,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -3298,7 +3298,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -3356,7 +3356,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 </div>
 
@@ -3421,7 +3421,7 @@ $\chi^2 = \sum \frac{(Osservati- Attesi)^2}{Attesi} = \frac{(41-17.1)^2}{17.1} +
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 </div>
 
@@ -3485,7 +3485,7 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 1$
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 <span style="display:block; height:10px;"></span>
 
@@ -3511,7 +3511,7 @@ I GdL sono numero di righe -1 * numero di colonne -1 -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 <span style="display:block; height:10px;"></span>
 
@@ -4313,7 +4313,7 @@ Falsa | Errore di <br/>II tipo   |   |
 <script>
 <!--
 const countdown_exercise_15= document.getElementById("countdown_exercise_15");
-const seconds_exercise_15= 120; // seconds_exercise_15
+const seconds_exercise_15= 60; // seconds_exercise_15
 let timeLeft_exercise_15= seconds_exercise_15;
 let timerInterval_exercise_15= null;
 
@@ -4561,7 +4561,7 @@ In fact researchers generally work in terms of 1 – β, which is termed the pow
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - all'aumentare della differenza 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\mu_{\text{c}} - \mu_{\text{i}}$ o $\pi_{\text{c}} - \pi_{\text{i}}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - al diminuire della deviazione  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard $\sigma^2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard $\sigma$
 
 </div>
 <div>
@@ -4595,7 +4595,7 @@ In fact researchers generally work in terms of 1 – β, which is termed the pow
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - all'aumentare della differenza 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\mu_{\text{c}} - \mu_{\text{i}}$ o $\pi_{\text{c}} - \pi_{\text{i}}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - al diminuire della deviazione  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard $\sigma^2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard $\sigma$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - all'aumentare della  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dimensione campionaria  $n$
 
@@ -4653,7 +4653,7 @@ Il nostro test non ha abbastanza potenza
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativit&agrave; $\alpha$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) la differenza  $\mu_{\text{c}} - \mu_{\text{i}}$ o $\pi_{\text{c}} - \pi_{\text{i}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la deviazione standard ($\sigma^2$) dei due campioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la deviazione standard ($\sigma$) dei due campioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) la dimensione $n$ dei due campioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
 
@@ -4757,7 +4757,7 @@ updateButton_exercise_16();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativit&agrave; $\alpha$ &nbsp;&nbsp; :white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) la differenza  $\mu_{\text{c}} - \mu_{\text{i}}$ o $\pi_{\text{c}} - \pi_{\text{i}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la deviazione standard ($\sigma^2$) dei due campioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la deviazione standard ($\sigma$) dei due campioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) la dimensione $n$ dei due campioni &nbsp;&nbsp;:white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
 
@@ -4769,7 +4769,7 @@ updateButton_exercise_16();
 <div style="font-size: 90%" >
 
 :question: &nbsp;&nbsp;&nbsp; Completate le definizioni con i seguenti termini:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Errore di I tipo, Errore di II tipo, Potenza di un testtest
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Errore di I tipo, Errore di II tipo, Potenza di un test
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Concludere che un trattamento funzioni quando in realt&agrave; non ha 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  nessun  effetto si dice: ......................................... 
@@ -4808,7 +4808,7 @@ updateButton_exercise_16();
 <script>
 <!--
 const countdown_exercise_17= document.getElementById("countdown_exercise_17");
-const seconds_exercise_17= 120; // seconds_exercise_17
+const seconds_exercise_17= 60; // seconds_exercise_17
 let timeLeft_exercise_17= seconds_exercise_17;
 let timerInterval_exercise_17= null;
 
@@ -4935,7 +4935,7 @@ updateButton_exercise_17();
 <script>
 <!--
 const countdown_exercise_18= document.getElementById("countdown_exercise_18");
-const seconds_exercise_18= 120; // seconds_exercise_18
+const seconds_exercise_18= 60; // seconds_exercise_18
 let timeLeft_exercise_18= seconds_exercise_18;
 let timerInterval_exercise_18= null;
 
