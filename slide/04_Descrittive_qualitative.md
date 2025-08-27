@@ -225,7 +225,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <script>
 <!--
 const countdown_exercize_1= document.getElementById("countdown_exercize_1");
-const seconds_exercize_1= 30; // seconds_exercize_1
+const seconds_exercize_1= 10; // seconds_exercize_1
 let timeLeft_exercize_1= seconds_exercize_1;
 let timerInterval_exercize_1= null;
 
@@ -601,7 +601,7 @@ Abbiamo completato la nostra Tabella di Contingenza (con frequenze assolute)
 <script>
 <!--
 const countdown_exercize_3= document.getElementById("countdown_exercize_3");
-const seconds_exercize_3= 180; // seconds_exercize_3
+const seconds_exercize_3= 120; // seconds_exercize_3
 let timeLeft_exercize_3= seconds_exercize_3;
 let timerInterval_exercize_3= null;
 
@@ -861,7 +861,7 @@ Opzione 2: andiamo a dividere "per righe", ovvero a calcolare la percentuale </b
 <script>
 <!--
 const countdown_exercise_4= document.getElementById("countdown_exercise_4");
-const seconds_exercise_4= 60; // seconds_exercise_4
+const seconds_exercise_4= 30; // seconds_exercise_4
 let timeLeft_exercise_4= seconds_exercise_4;
 let timerInterval_exercise_4= null;
 
@@ -1234,7 +1234,7 @@ updateButton_exercise_5();
 <script>
 <!--
 const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 180; // seconds_exercise_6
+const seconds_exercise_6= 120; // seconds_exercise_6
 let timeLeft_exercise_6= seconds_exercise_6;
 let timerInterval_exercise_6= null;
 
@@ -1500,9 +1500,9 @@ updateButton_exercise_7();
 
 
 ---
-<span style="display:block; height:150px;"></span>
+<span style="display:block; height:200px;"></span>
 
-# La visualizzazione dei dati categorici
+## La visualizzazione dei dati categorici
 
 ---
 ## Bar chart
@@ -1909,13 +1909,12 @@ round(prop.table(freq_a)*100, 0)
 ---
 ### Cosa abbiamo imparato in questa lezione?
 
-<span style="display:block; height:20px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%">
 
 - Le variabili categoriche possono essere rappresentate con le loro frequenze, assolute o relative
 - Tabelle di frequenze e di contingenza ci aiutano a paragonare, a colpo d'occhio, due o pi&ugrave; variabili
-- Variabili numeriche possono essere trasformate in variabili categoriche attraverso la loro "discretizzazione"
 - Le variabili categoriche possono essere rappresentate graficamente in diversi modi, ma bar chart sono da preferire, seguiti da waffle chart
 
 </div>
