@@ -177,7 +177,8 @@ dev.off()
 p <- ggplot(md, aes(x = ORR, y = age)) +
   geom_half_boxplot(fill="grey84", outlier.shape = NA, size=0.8, nudge = 0.05) + 
   geom_half_dotplot(colour="grey24", method="histodot", dotsize=0.5) +
-  geom_half_violin(fill="grey84", side = "r", alpha=0.5, nudge = 0.01) + graphic.settings + xlab("Risposta") + ylab("Eta' (anni)")
+  # geom_half_hist(fill="grey84", side = "r", alpha=0.5, nudge = 0.01) + 
+  graphic.settings + xlab("Risposta") + ylab("Eta' (anni)")
   
 png("Boxplot_age_ORR_violin.png")
 print(p)
