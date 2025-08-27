@@ -58,7 +58,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (E
 
 <span style="display:block; height:1px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se questa parte vi sembra difficile &egrave; perch&eacute; &egrave; difficile.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se questa parte vi sembra complessa &egrave; perch&eacute; &egrave; complessa.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Potreste doverci spendere un bel po' di tempo prima di 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; riuscire a capirla del tutto: non vi preoccupate, &egrave; normale 
@@ -133,7 +133,7 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 <script>
 <!--
 const countdown_exercise_1= document.getElementById("countdown_exercise_1");
-const seconds_exercise_1= 60; // seconds_exercise_1
+const seconds_exercise_1= 30; // seconds_exercise_1
 let timeLeft_exercise_1= seconds_exercise_1;
 let timerInterval_exercise_1= null;
 
@@ -253,7 +253,7 @@ updateButton_exercise_1();
 <script>
 <!--
 const countdown_exercise_2= document.getElementById("countdown_exercise_2");
-const seconds_exercise_2= 60; // seconds_exercise_2
+const seconds_exercise_2= 10; // seconds_exercise_2
 let timeLeft_exercise_2= seconds_exercise_2;
 let timerInterval_exercise_2= null;
 
@@ -372,7 +372,7 @@ updateButton_exercise_2();
 <script>
 <!--
 const countdown_exercise_3= document.getElementById("countdown_exercise_3");
-const seconds_exercise_3= 60; // seconds_exercise_3
+const seconds_exercise_3= 30; // seconds_exercise_3
 let timeLeft_exercise_3= seconds_exercise_3;
 let timerInterval_exercise_3= null;
 
@@ -692,7 +692,7 @@ Density should use another scale -->
 <script>
 <!--
 const countdown_exercise_4= document.getElementById("countdown_exercise_4");
-const seconds_exercise_4= 60; // seconds_exercise_4
+const seconds_exercise_4= 30; // seconds_exercise_4
 let timeLeft_exercise_4= seconds_exercise_4;
 let timerInterval_exercise_4= null;
 
@@ -972,7 +972,7 @@ Bootstrapping provides an intuitive, computer-intensive way of assessing the unc
 <script>
 <!--
 const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 60; // seconds_exercise_5
+const seconds_exercise_5= 30; // seconds_exercise_5
 let timeLeft_exercise_5= seconds_exercise_5;
 let timerInterval_exercise_5= null;
 
@@ -1053,7 +1053,7 @@ updateButton_exercise_5();
 
 <div style="font-size: 90%">
 
-Abbiamo introdotto due concetti difficili e importanti:
+Abbiamo introdotto due concetti complicati e importanti:
 
   1. esiste una variabilit&agrave; nella stima dei parametri che dipende dal campione
 
@@ -1376,7 +1376,6 @@ Stima intervallare definita come stimatore +/- il prodotto tra coeff di attendib
 
 </div>
 
-
 ---
 ## Ma come si interpreta?
 
@@ -1463,7 +1462,7 @@ a confidence interval is the range of population parameters for which our observ
 <script>
 <!--
 const countdown_exercise_7= document.getElementById("countdown_exercise_7");
-const seconds_exercise_7= 120; // seconds_exercise_7
+const seconds_exercise_7= 60; // seconds_exercise_7
 let timeLeft_exercise_7= seconds_exercise_7;
 let timerInterval_exercise_7= null;
 
@@ -1541,6 +1540,609 @@ updateButton_exercise_7();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) nessuna delle precedenti
 
 </div>
+
+---
+### Esercizio #8
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Il numero medio di partner eterosessuali in campione di 760 uomini 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inglesi tra i 35 e i  44 anni di et&agrave; &egrave; 11.4 $\pm$ 11.2 partner.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; la media della popolazione e il suo 68% CI?  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu=\text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?} \rightarrow$ &nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \text{ ?}$
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+<style>
+  #countdown_exercise_8{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_8.running {
+    background-color: green;
+  }
+  #countdown_exercise_8.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_8"></button>
+
+<script>
+<!--
+const countdown_exercise_8= document.getElementById("countdown_exercise_8");
+const seconds_exercise_8= 180; // seconds_exercise_8
+let timeLeft_exercise_8= seconds_exercise_8;
+let timerInterval_exercise_8= null;
+
+function formatTime_exercise_8(seconds_exercise_8) {
+  const minutes = Math.floor(seconds_exercise_8/ 60);
+  const remainingseconds_exercise_8= seconds_exercise_8% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_8).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_8() {
+  countdown_exercise_8.textContent = formatTime_exercise_8(timeLeft_exercise_8);
+}
+
+function startTimer_exercise_8() {
+  if (timerInterval_exercise_8=== null) {
+    countdown_exercise_8.classList.add('running');
+    countdown_exercise_8.classList.remove('finished');
+    timerInterval_exercise_8= setInterval(() => {
+      if (timeLeft_exercise_8> 0) {
+        timeLeft_exercise_8--;
+        updateButton_exercise_8();
+      } else {
+        clearInterval(timerInterval_exercise_8);
+        timerInterval_exercise_8= null;
+        countdown_exercise_8.classList.remove('running');
+        countdown_exercise_8.classList.add('finished');
+        countdown_exercise_8.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_8();
+  }
+}
+
+function pauseTimer_exercise_8() {
+  clearInterval(timerInterval_exercise_8);
+  timerInterval_exercise_8= null;
+  countdown_exercise_8.classList.remove('running');
+}
+
+function resetTimer_exercise_8() {
+  timeLeft_exercise_8= seconds_exercise_8;
+  updateButton_exercise_8();
+  countdown_exercise_8.classList.remove('finished');
+  countdown_exercise_8.classList.remove('running');
+  timerInterval_exercise_8= null;
+}
+
+countdown_exercise_8.addEventListener("click", () => {
+  if (countdown_exercise_8.classList.contains('finished')) {
+    resetTimer_exercise_8();
+  } else {
+    startTimer_exercise_8();
+  }
+});
+
+updateButton_exercise_8();
+-->
+</script>
+
+
+---
+### Esercizio #8 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Il numero medio di partner eterosessuali in campione di 760 uomini 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inglesi tra i 35 e i  44 anni di et&agrave; &egrave; 11.4 $\pm$ 11.2 partner.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; la media della popolazione e il suo 68% CI? 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu=11.4$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?} \rightarrow$ &nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \frac{11.2}{\sqrt760}=0.41$
+
+<div>
+
+---
+### Esercizio #8 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Il numero medio di partner eterosessuali in campione di 760 uomini 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inglesi tra i 35 e i  44 anni di et&agrave; &egrave; 11.4 $\pm$ 11.2 partner.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; la media della popolazione e il suo 68% CI? 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu=11.4$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\hat{\text{SE}}=s/\sqrt{n} = \frac{11.2}{\sqrt760}=0.41$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $68\% \text{ ME} = 1 \times \hat{\text{SE}} = 1 \times 0.41 = 0.41$
+
+</div>
+
+---
+### Esercizio #8 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Il numero medio di partner eterosessuali in campione di 760 uomini 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inglesi tra i 35 e i  44 anni di et&agrave; &egrave; 11.4 $\pm$ 11.2 partner.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; la media della popolazione e il suo 68% CI? 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu=11.4$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \frac{11.2}{\sqrt760}=0.41$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $68\% \text{ ME} = 1 \times \hat{\text{SE}} = 1 \times 0.41 = 0.41$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $68\% \text{CI} =  (\bar{x} - 68\% \text{ ME} \text{ } ; \text{ } \bar{x} + 68\% \text{ ME} ) =$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $=(11.4 - 0.41; 11.4 + 0.41) =$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $= (10.99; 11.81)$
+
+</div>
+
+<!-- Per il CTL e per la legge dei grandi numeri, la media del campione e' la media della popolazione. Se io prendo 2SE a sx della media e 2SE a destra (quindi x +/- 2 SE) ho il 95% di probabilta' di includere il vero valore mu, la media della popolazione
+
+1,96 e' il coefficiente di attendibilita', ci dice entro quanti errori standard si trova il 95% di tutti i possibili valori della media campionaria
+
+Stima intervallare definita come stimatore +/- il prodotto tra coeff di attendibilita' e SE. Questa quantita' si chiama anche PRECISIONE della STIMA o MARGINE DI ERRORE -->
+
+
+---
+### Esercizio #9
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 79%" >
+
+:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+<style>
+  #countdown_exercise_9{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_9.running {
+    background-color: green;
+  }
+  #countdown_exercise_9.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_9"></button>
+
+<script>
+<!--
+const countdown_exercise_9= document.getElementById("countdown_exercise_9");
+const seconds_exercise_9= 60; // seconds_exercise_9
+let timeLeft_exercise_9= seconds_exercise_9;
+let timerInterval_exercise_9= null;
+
+function formatTime_exercise_9(seconds_exercise_9) {
+  const minutes = Math.floor(seconds_exercise_9/ 60);
+  const remainingseconds_exercise_9= seconds_exercise_9% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_9).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_9() {
+  countdown_exercise_9.textContent = formatTime_exercise_9(timeLeft_exercise_9);
+}
+
+function startTimer_exercise_9() {
+  if (timerInterval_exercise_9=== null) {
+    countdown_exercise_9.classList.add('running');
+    countdown_exercise_9.classList.remove('finished');
+    timerInterval_exercise_9= setInterval(() => {
+      if (timeLeft_exercise_9> 0) {
+        timeLeft_exercise_9--;
+        updateButton_exercise_9();
+      } else {
+        clearInterval(timerInterval_exercise_9);
+        timerInterval_exercise_9= null;
+        countdown_exercise_9.classList.remove('running');
+        countdown_exercise_9.classList.add('finished');
+        countdown_exercise_9.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_9();
+  }
+}
+
+function pauseTimer_exercise_9() {
+  clearInterval(timerInterval_exercise_9);
+  timerInterval_exercise_9= null;
+  countdown_exercise_9.classList.remove('running');
+}
+
+function resetTimer_exercise_9() {
+  timeLeft_exercise_9= seconds_exercise_9;
+  updateButton_exercise_9();
+  countdown_exercise_9.classList.remove('finished');
+  countdown_exercise_9.classList.remove('running');
+  timerInterval_exercise_9= null;
+}
+
+countdown_exercise_9.addEventListener("click", () => {
+  if (countdown_exercise_9.classList.contains('finished')) {
+    resetTimer_exercise_9();
+  } else {
+    startTimer_exercise_9();
+  }
+});
+
+updateButton_exercise_9();
+-->
+</script>
+
+</div>
+<div>
+
+<center>
+<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+
+---
+### Esercizio #9 -- Soluzione
+
+<span style="display:block; height:30px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/small_large_CI_likelihood.png" img height="450px" border="0px"/>
+</center>
+
+---
+### Esercizio #9 -- Soluzione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 79%" >
+
+:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$ :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
+
+</div>
+</div>
+<div>
+
+<center>
+<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border=0px"/>
+</center>
+
+</div>
+</div>
+
+---
+### Esercizio #10
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+<style>
+  #countdown_exercise_10{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_10.running {
+    background-color: green;
+  }
+  #countdown_exercise_10.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_10"></button>
+
+<script>
+<!--
+const countdown_exercise_10= document.getElementById("countdown_exercise_10");
+const seconds_exercise_10= 60; // seconds_exercise_10
+let timeLeft_exercise_10= seconds_exercise_10;
+let timerInterval_exercise_10= null;
+
+function formatTime_exercise_10(seconds_exercise_10) {
+  const minutes = Math.floor(seconds_exercise_10/ 60);
+  const remainingseconds_exercise_10= seconds_exercise_10% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_10).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_10() {
+  countdown_exercise_10.textContent = formatTime_exercise_10(timeLeft_exercise_10);
+}
+
+function startTimer_exercise_10() {
+  if (timerInterval_exercise_10=== null) {
+    countdown_exercise_10.classList.add('running');
+    countdown_exercise_10.classList.remove('finished');
+    timerInterval_exercise_10= setInterval(() => {
+      if (timeLeft_exercise_10> 0) {
+        timeLeft_exercise_10--;
+        updateButton_exercise_10();
+      } else {
+        clearInterval(timerInterval_exercise_10);
+        timerInterval_exercise_10= null;
+        countdown_exercise_10.classList.remove('running');
+        countdown_exercise_10.classList.add('finished');
+        countdown_exercise_10.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_10();
+  }
+}
+
+function pauseTimer_exercise_10() {
+  clearInterval(timerInterval_exercise_10);
+  timerInterval_exercise_10= null;
+  countdown_exercise_10.classList.remove('running');
+}
+
+function resetTimer_exercise_10() {
+  timeLeft_exercise_10= seconds_exercise_10;
+  updateButton_exercise_10();
+  countdown_exercise_10.classList.remove('finished');
+  countdown_exercise_10.classList.remove('running');
+  timerInterval_exercise_10= null;
+}
+
+countdown_exercise_10.addEventListener("click", () => {
+  if (countdown_exercise_10.classList.contains('finished')) {
+    resetTimer_exercise_10();
+  } else {
+    startTimer_exercise_10();
+  }
+});
+
+updateButton_exercise_10();
+-->
+</script>
+
+</div>
+<div>
+
+<center>
+<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+---
+### Esercizio #10 -- Soluzione
+
+<span style="display:block; height:30px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/small_large_CI_precision.png" img height="450px" border="0px"/>
+</center>
+
+---
+### Esercizio #10 -- Soluzione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
+
+</div>
+</div>
+<div>
+
+<center>
+<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+<!--  It is far easier to obtain exact intervals that are based on probability theory and provided in standard software, and Table 9.1 shows they give very similar results. The ‘exact’ intervals based on probability theory require more assumptions than the bootstrap approach, and strictly speaking would only be precisely correct if the underlying population distribution were normal. But the Central Limit Theorem means that with such a large sample size it is reasonable to assume our estimates have got normal distributions and so the exact intervals are acceptable.
+--->
+
+---
+### Esercizio #11
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Dato che $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}} \rightarrow$ &nbsp; standard error (SE), 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  come posso restringere l'intervallo di confidenza?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) aumentando $n$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) diminuendo $n$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) aumentando $\sigma$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) diminuendo $\sigma$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) non ho abbastanza elementi per rispondere
+
+</div>
+
+<style>
+  #countdown_exercise_11{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_11.running {
+    background-color: green;
+  }
+  #countdown_exercise_11.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_11"></button>
+
+<script>
+<!--
+const countdown_exercise_11= document.getElementById("countdown_exercise_11");
+const seconds_exercise_11= 60; // seconds_exercise_11
+let timeLeft_exercise_11= seconds_exercise_11;
+let timerInterval_exercise_11= null;
+
+function formatTime_exercise_11(seconds_exercise_11) {
+  const minutes = Math.floor(seconds_exercise_11/ 60);
+  const remainingseconds_exercise_11= seconds_exercise_11% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_11).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_11() {
+  countdown_exercise_11.textContent = formatTime_exercise_11(timeLeft_exercise_11);
+}
+
+function startTimer_exercise_11() {
+  if (timerInterval_exercise_11=== null) {
+    countdown_exercise_11.classList.add('running');
+    countdown_exercise_11.classList.remove('finished');
+    timerInterval_exercise_11= setInterval(() => {
+      if (timeLeft_exercise_11> 0) {
+        timeLeft_exercise_11--;
+        updateButton_exercise_11();
+      } else {
+        clearInterval(timerInterval_exercise_11);
+        timerInterval_exercise_11= null;
+        countdown_exercise_11.classList.remove('running');
+        countdown_exercise_11.classList.add('finished');
+        countdown_exercise_11.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_11();
+  }
+}
+
+function pauseTimer_exercise_11() {
+  clearInterval(timerInterval_exercise_11);
+  timerInterval_exercise_11= null;
+  countdown_exercise_11.classList.remove('running');
+}
+
+function resetTimer_exercise_11() {
+  timeLeft_exercise_11= seconds_exercise_11;
+  updateButton_exercise_11();
+  countdown_exercise_11.classList.remove('finished');
+  countdown_exercise_11.classList.remove('running');
+  timerInterval_exercise_11= null;
+}
+
+countdown_exercise_11.addEventListener("click", () => {
+  if (countdown_exercise_11.classList.contains('finished')) {
+    resetTimer_exercise_11();
+  } else {
+    startTimer_exercise_11();
+  }
+});
+
+updateButton_exercise_11();
+-->
+</script>
+
+
+---
+### Esercizio #11 -- Soluzione
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Dato che $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}} \rightarrow$ &nbsp; standard error (SE), 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  come posso restringere l'intervallo di confidenza?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) aumentando $n$ &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) diminuendo $n$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) aumentando $\sigma$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) diminuendo $\sigma$ &nbsp; :ballot_box_with_check:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) non ho abbastanza elementi per rispondere
+
+</div>
+
+<!-- Abbiamo un confidence interval molto stretto perche' si sono verificate due condizioni che, indipendentemente, migliorano la stima intervallare:
+- un'alta numerosit&agrave; campionaria e
+- una bassa variabilita s tra le osservazioni 
+
+Peccato che sigma non la possiamo controllare :) 
+-->
 
 
 ---
@@ -1722,458 +2324,6 @@ $100\% - 0.5\% = 99.5\% \rightarrow \mathcal{z} = 2.58$
 
 Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 
-
----
-### Esercizio #8
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-<div style="font-size: 79%" >
-
-:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
-
-</div>
-
-<span style="display:block; height:60px;"></span>
-
-<style>
-  #countdown_exercise_8{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_8.running {
-    background-color: green;
-  }
-  #countdown_exercise_8.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_8"></button>
-
-<script>
-<!--
-const countdown_exercise_8= document.getElementById("countdown_exercise_8");
-const seconds_exercise_8= 120; // seconds_exercise_8
-let timeLeft_exercise_8= seconds_exercise_8;
-let timerInterval_exercise_8= null;
-
-function formatTime_exercise_8(seconds_exercise_8) {
-  const minutes = Math.floor(seconds_exercise_8/ 60);
-  const remainingseconds_exercise_8= seconds_exercise_8% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_8).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_8() {
-  countdown_exercise_8.textContent = formatTime_exercise_8(timeLeft_exercise_8);
-}
-
-function startTimer_exercise_8() {
-  if (timerInterval_exercise_8=== null) {
-    countdown_exercise_8.classList.add('running');
-    countdown_exercise_8.classList.remove('finished');
-    timerInterval_exercise_8= setInterval(() => {
-      if (timeLeft_exercise_8> 0) {
-        timeLeft_exercise_8--;
-        updateButton_exercise_8();
-      } else {
-        clearInterval(timerInterval_exercise_8);
-        timerInterval_exercise_8= null;
-        countdown_exercise_8.classList.remove('running');
-        countdown_exercise_8.classList.add('finished');
-        countdown_exercise_8.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_8();
-  }
-}
-
-function pauseTimer_exercise_8() {
-  clearInterval(timerInterval_exercise_8);
-  timerInterval_exercise_8= null;
-  countdown_exercise_8.classList.remove('running');
-}
-
-function resetTimer_exercise_8() {
-  timeLeft_exercise_8= seconds_exercise_8;
-  updateButton_exercise_8();
-  countdown_exercise_8.classList.remove('finished');
-  countdown_exercise_8.classList.remove('running');
-  timerInterval_exercise_8= null;
-}
-
-countdown_exercise_8.addEventListener("click", () => {
-  if (countdown_exercise_8.classList.contains('finished')) {
-    resetTimer_exercise_8();
-  } else {
-    startTimer_exercise_8();
-  }
-});
-
-updateButton_exercise_8();
--->
-</script>
-
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
-</center>
-
-</div>
-</div>
-
-
-
----
-### Esercizio #8 -- Soluzione
-
-<span style="display:block; height:30px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/small_large_CI_likelihood.png" img height="450px" border="0px"/>
-</center>
-
----
-### Esercizio #8 -- Soluzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-<div style="font-size: 79%" >
-
-:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$ :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
-
-</div>
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border=0px"/>
-</center>
-
-</div>
-</div>
-
-
-
----
-### Esercizio #9
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-<div style="font-size: 80%" >
-
-:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
-
-</div>
-
-<span style="display:block; height:60px;"></span>
-
-<style>
-  #countdown_exercise_9{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_9.running {
-    background-color: green;
-  }
-  #countdown_exercise_9.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_9"></button>
-
-<script>
-<!--
-const countdown_exercise_9= document.getElementById("countdown_exercise_9");
-const seconds_exercise_9= 120; // seconds_exercise_9
-let timeLeft_exercise_9= seconds_exercise_9;
-let timerInterval_exercise_9= null;
-
-function formatTime_exercise_9(seconds_exercise_9) {
-  const minutes = Math.floor(seconds_exercise_9/ 60);
-  const remainingseconds_exercise_9= seconds_exercise_9% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_9).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_9() {
-  countdown_exercise_9.textContent = formatTime_exercise_9(timeLeft_exercise_9);
-}
-
-function startTimer_exercise_9() {
-  if (timerInterval_exercise_9=== null) {
-    countdown_exercise_9.classList.add('running');
-    countdown_exercise_9.classList.remove('finished');
-    timerInterval_exercise_9= setInterval(() => {
-      if (timeLeft_exercise_9> 0) {
-        timeLeft_exercise_9--;
-        updateButton_exercise_9();
-      } else {
-        clearInterval(timerInterval_exercise_9);
-        timerInterval_exercise_9= null;
-        countdown_exercise_9.classList.remove('running');
-        countdown_exercise_9.classList.add('finished');
-        countdown_exercise_9.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_9();
-  }
-}
-
-function pauseTimer_exercise_9() {
-  clearInterval(timerInterval_exercise_9);
-  timerInterval_exercise_9= null;
-  countdown_exercise_9.classList.remove('running');
-}
-
-function resetTimer_exercise_9() {
-  timeLeft_exercise_9= seconds_exercise_9;
-  updateButton_exercise_9();
-  countdown_exercise_9.classList.remove('finished');
-  countdown_exercise_9.classList.remove('running');
-  timerInterval_exercise_9= null;
-}
-
-countdown_exercise_9.addEventListener("click", () => {
-  if (countdown_exercise_9.classList.contains('finished')) {
-    resetTimer_exercise_9();
-  } else {
-    startTimer_exercise_9();
-  }
-});
-
-updateButton_exercise_9();
--->
-</script>
-
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
-</center>
-
-</div>
-</div>
-
-
-
----
-### Esercizio #9 -- Soluzione
-
-<span style="display:block; height:30px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/small_large_CI_precision.png" img height="450px" border="0px"/>
-</center>
-
----
-### Esercizio #9 -- Soluzione
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-<div style="font-size: 80%" >
-
-:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
-
-</div>
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
-</center>
-
-</div>
-</div>
-
-
-
-
-<!--  It is far easier to obtain exact intervals that are based on probability theory and provided in standard software, and Table 9.1 shows they give very similar results. The ‘exact’ intervals based on probability theory require more assumptions than the bootstrap approach, and strictly speaking would only be precisely correct if the underlying population distribution were normal. But the Central Limit Theorem means that with such a large sample size it is reasonable to assume our estimates have got normal distributions and so the exact intervals are acceptable.
---->
-
----
-### Esercizio #10
-
-<div style="font-size: 90%" >
-
-:question: &nbsp;&nbsp;&nbsp; Dato che $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}} \rightarrow$ &nbsp; standard error (SE), 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  come posso restringere l'intervallo di confidenza?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) aumentando $n$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) diminuendo $n$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) aumentando $\sigma$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) diminuendo $\sigma$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) non ho abbastanza elementi per rispondere
-
-</div>
-
-<style>
-  #countdown_exercise_10{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_10.running {
-    background-color: green;
-  }
-  #countdown_exercise_10.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_10"></button>
-
-<script>
-<!--
-const countdown_exercise_10= document.getElementById("countdown_exercise_10");
-const seconds_exercise_10= 120; // seconds_exercise_10
-let timeLeft_exercise_10= seconds_exercise_10;
-let timerInterval_exercise_10= null;
-
-function formatTime_exercise_10(seconds_exercise_10) {
-  const minutes = Math.floor(seconds_exercise_10/ 60);
-  const remainingseconds_exercise_10= seconds_exercise_10% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_10).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_10() {
-  countdown_exercise_10.textContent = formatTime_exercise_10(timeLeft_exercise_10);
-}
-
-function startTimer_exercise_10() {
-  if (timerInterval_exercise_10=== null) {
-    countdown_exercise_10.classList.add('running');
-    countdown_exercise_10.classList.remove('finished');
-    timerInterval_exercise_10= setInterval(() => {
-      if (timeLeft_exercise_10> 0) {
-        timeLeft_exercise_10--;
-        updateButton_exercise_10();
-      } else {
-        clearInterval(timerInterval_exercise_10);
-        timerInterval_exercise_10= null;
-        countdown_exercise_10.classList.remove('running');
-        countdown_exercise_10.classList.add('finished');
-        countdown_exercise_10.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_10();
-  }
-}
-
-function pauseTimer_exercise_10() {
-  clearInterval(timerInterval_exercise_10);
-  timerInterval_exercise_10= null;
-  countdown_exercise_10.classList.remove('running');
-}
-
-function resetTimer_exercise_10() {
-  timeLeft_exercise_10= seconds_exercise_10;
-  updateButton_exercise_10();
-  countdown_exercise_10.classList.remove('finished');
-  countdown_exercise_10.classList.remove('running');
-  timerInterval_exercise_10= null;
-}
-
-countdown_exercise_10.addEventListener("click", () => {
-  if (countdown_exercise_10.classList.contains('finished')) {
-    resetTimer_exercise_10();
-  } else {
-    startTimer_exercise_10();
-  }
-});
-
-updateButton_exercise_10();
--->
-</script>
-
-
----
-### Esercizio #10 -- Soluzione
-
-<div style="font-size: 90%" >
-
-:question: &nbsp;&nbsp;&nbsp; Dato che $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}} \rightarrow$ &nbsp; standard error (SE), 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  come posso restringere l'intervallo di confidenza?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) aumentando $n$ &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) diminuendo $n$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) aumentando $\sigma$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) diminuendo $\sigma$ &nbsp; :ballot_box_with_check:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) non ho abbastanza elementi per rispondere
-
-</div>
-
-<!-- Abbiamo un confidence interval molto stretto perche' si sono verificate due condizioni che, indipendentemente, migliorano la stima intervallare:
-- un'alta numerosit&agrave; campionaria e
-- una bassa variabilita s tra le osservazioni 
-
-Peccato che sigma non la possiamo controllare :) 
--->
-
-
-
 ---
 ## Una regola empirica
 
@@ -2186,7 +2336,7 @@ Peccato che sigma non la possiamo controllare :)
 -->
 
 ---
-### Esercizio #11
+### Esercizio #12
 
 :dart: &nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
 
@@ -2205,7 +2355,7 @@ Peccato che sigma non la possiamo controllare :)
 <span style="display:block; height:150px;"></span>
 
 <style>
-  #countdown_exercise_11{
+  #countdown_exercise_12{
     padding: 10px 20px;
     font-size: 20px;
     color: white;
@@ -2215,77 +2365,77 @@ Peccato che sigma non la possiamo controllare :)
     cursor: pointer;
     float: right;
   }
-  #countdown_exercise_11.running {
+  #countdown_exercise_12.running {
     background-color: green;
   }
-  #countdown_exercise_11.finished {
+  #countdown_exercise_12.finished {
     background-color: red;
   }
 </style>
 
-<button id="countdown_exercise_11"></button>
+<button id="countdown_exercise_12"></button>
 
 <script>
 <!--
-const countdown_exercise_11= document.getElementById("countdown_exercise_11");
-const seconds_exercise_11= 300; // seconds_exercise_11
-let timeLeft_exercise_11= seconds_exercise_11;
-let timerInterval_exercise_11= null;
+const countdown_exercise_12= document.getElementById("countdown_exercise_12");
+const seconds_exercise_12= 300; // seconds_exercise_12
+let timeLeft_exercise_12= seconds_exercise_12;
+let timerInterval_exercise_12= null;
 
-function formatTime_exercise_11(seconds_exercise_11) {
-  const minutes = Math.floor(seconds_exercise_11/ 60);
-  const remainingseconds_exercise_11= seconds_exercise_11% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_11).padStart(2, '0')}`;
+function formatTime_exercise_12(seconds_exercise_12) {
+  const minutes = Math.floor(seconds_exercise_12/ 60);
+  const remainingseconds_exercise_12= seconds_exercise_12% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_12).padStart(2, '0')}`;
 }
 
-function updateButton_exercise_11() {
-  countdown_exercise_11.textContent = formatTime_exercise_11(timeLeft_exercise_11);
+function updateButton_exercise_12() {
+  countdown_exercise_12.textContent = formatTime_exercise_12(timeLeft_exercise_12);
 }
 
-function startTimer_exercise_11() {
-  if (timerInterval_exercise_11=== null) {
-    countdown_exercise_11.classList.add('running');
-    countdown_exercise_11.classList.remove('finished');
-    timerInterval_exercise_11= setInterval(() => {
-      if (timeLeft_exercise_11> 0) {
-        timeLeft_exercise_11--;
-        updateButton_exercise_11();
+function startTimer_exercise_12() {
+  if (timerInterval_exercise_12=== null) {
+    countdown_exercise_12.classList.add('running');
+    countdown_exercise_12.classList.remove('finished');
+    timerInterval_exercise_12= setInterval(() => {
+      if (timeLeft_exercise_12> 0) {
+        timeLeft_exercise_12--;
+        updateButton_exercise_12();
       } else {
-        clearInterval(timerInterval_exercise_11);
-        timerInterval_exercise_11= null;
-        countdown_exercise_11.classList.remove('running');
-        countdown_exercise_11.classList.add('finished');
-        countdown_exercise_11.textContent = "Time's up!";
+        clearInterval(timerInterval_exercise_12);
+        timerInterval_exercise_12= null;
+        countdown_exercise_12.classList.remove('running');
+        countdown_exercise_12.classList.add('finished');
+        countdown_exercise_12.textContent = "Time's up!";
       }
     }, 1000);
   } else {
-    pauseTimer_exercise_11();
+    pauseTimer_exercise_12();
   }
 }
 
-function pauseTimer_exercise_11() {
-  clearInterval(timerInterval_exercise_11);
-  timerInterval_exercise_11= null;
-  countdown_exercise_11.classList.remove('running');
+function pauseTimer_exercise_12() {
+  clearInterval(timerInterval_exercise_12);
+  timerInterval_exercise_12= null;
+  countdown_exercise_12.classList.remove('running');
 }
 
-function resetTimer_exercise_11() {
-  timeLeft_exercise_11= seconds_exercise_11;
-  updateButton_exercise_11();
-  countdown_exercise_11.classList.remove('finished');
-  countdown_exercise_11.classList.remove('running');
-  timerInterval_exercise_11= null;
+function resetTimer_exercise_12() {
+  timeLeft_exercise_12= seconds_exercise_12;
+  updateButton_exercise_12();
+  countdown_exercise_12.classList.remove('finished');
+  countdown_exercise_12.classList.remove('running');
+  timerInterval_exercise_12= null;
 }
 
-countdown_exercise_11.addEventListener("click", () => {
-  if (countdown_exercise_11.classList.contains('finished')) {
-    resetTimer_exercise_11();
+countdown_exercise_12.addEventListener("click", () => {
+  if (countdown_exercise_12.classList.contains('finished')) {
+    resetTimer_exercise_12();
   } else {
-    startTimer_exercise_11();
+    startTimer_exercise_12();
   }
 });
 
-updateButton_exercise_11();
+updateButton_exercise_12();
 -->
 </script>
 
@@ -2302,7 +2452,7 @@ updateButton_exercise_11();
 </div>
 
 ---
-### Esercizio #11 -- Soluzione
+### Esercizio #12 -- Soluzione
 
 :dart: &nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
 
@@ -2521,133 +2671,13 @@ Meno appuntita al centro e code pi&ugrave; alte
 <!-- Piccoli == <30 circa  -->
 
 ---
-### Esercizio #12
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 90%">
-
-:question: &nbsp;&nbsp;&nbsp; Un ricercatore usa la statistica inferenziale se sta usando i 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; propri risultati per...
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) descrivere i dati che ha raccolto
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) stimare un parametro di una popolazione
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) nessuna delle precedenti
-
-</div>
-
-<span style="display:block; height:100px;"></span>
-
-<style>
-  #countdown_exercise_12{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_12.running {
-    background-color: green;
-  }
-  #countdown_exercise_12.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_12"></button>
-
-<script>
-<!--
-const countdown_exercise_12= document.getElementById("countdown_exercise_12");
-const seconds_exercise_12= 60; // seconds_exercise_12
-let timeLeft_exercise_12= seconds_exercise_12;
-let timerInterval_exercise_12= null;
-
-function formatTime_exercise_12(seconds_exercise_12) {
-  const minutes = Math.floor(seconds_exercise_12/ 60);
-  const remainingseconds_exercise_12= seconds_exercise_12% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_12).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_12() {
-  countdown_exercise_12.textContent = formatTime_exercise_12(timeLeft_exercise_12);
-}
-
-function startTimer_exercise_12() {
-  if (timerInterval_exercise_12=== null) {
-    countdown_exercise_12.classList.add('running');
-    countdown_exercise_12.classList.remove('finished');
-    timerInterval_exercise_12= setInterval(() => {
-      if (timeLeft_exercise_12> 0) {
-        timeLeft_exercise_12--;
-        updateButton_exercise_12();
-      } else {
-        clearInterval(timerInterval_exercise_12);
-        timerInterval_exercise_12= null;
-        countdown_exercise_12.classList.remove('running');
-        countdown_exercise_12.classList.add('finished');
-        countdown_exercise_12.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_12();
-  }
-}
-
-function pauseTimer_exercise_12() {
-  clearInterval(timerInterval_exercise_12);
-  timerInterval_exercise_12= null;
-  countdown_exercise_12.classList.remove('running');
-}
-
-function resetTimer_exercise_12() {
-  timeLeft_exercise_12= seconds_exercise_12;
-  updateButton_exercise_12();
-  countdown_exercise_12.classList.remove('finished');
-  countdown_exercise_12.classList.remove('running');
-  timerInterval_exercise_12= null;
-}
-
-countdown_exercise_12.addEventListener("click", () => {
-  if (countdown_exercise_12.classList.contains('finished')) {
-    resetTimer_exercise_12();
-  } else {
-    startTimer_exercise_12();
-  }
-});
-
-updateButton_exercise_12();
--->
-</script>
-
-
----
-### Esercizio #12 -- Soluzione
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 90%">
-
-:question: &nbsp;&nbsp;&nbsp; Un ricercatore usa la statistica inferenziale se sta usando i 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; propri risultati per...
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) descrivere i dati che ha raccolto
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) stimare un parametro di una popolazione &nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) nessuna delle precedenti
-
-</div>
-
----
 ### Esercizio #13
 
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Un ricercatore usa la statistica descrittiva se sta usando i 
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore usa la statistica inferenziale se sta usando i 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; propri risultati per...
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) descrivere i dati che ha raccolto
@@ -2682,7 +2712,7 @@ updateButton_exercise_12();
 <script>
 <!--
 const countdown_exercise_13= document.getElementById("countdown_exercise_13");
-const seconds_exercise_13= 60; // seconds_exercise_13
+const seconds_exercise_13= 30; // seconds_exercise_13
 let timeLeft_exercise_13= seconds_exercise_13;
 let timerInterval_exercise_13= null;
 
@@ -2746,6 +2776,126 @@ updateButton_exercise_13();
 
 ---
 ### Esercizio #13 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore usa la statistica inferenziale se sta usando i 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; propri risultati per...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) descrivere i dati che ha raccolto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) stimare un parametro di una popolazione &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) nessuna delle precedenti
+
+</div>
+
+---
+### Esercizio #14
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore usa la statistica descrittiva se sta usando i 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; propri risultati per...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) descrivere i dati che ha raccolto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) stimare un parametro di una popolazione
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) nessuna delle precedenti
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+<style>
+  #countdown_exercise_14{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_14.running {
+    background-color: green;
+  }
+  #countdown_exercise_14.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_14"></button>
+
+<script>
+<!--
+const countdown_exercise_14= document.getElementById("countdown_exercise_14");
+const seconds_exercise_14= 30; // seconds_exercise_14
+let timeLeft_exercise_14= seconds_exercise_14;
+let timerInterval_exercise_14= null;
+
+function formatTime_exercise_14(seconds_exercise_14) {
+  const minutes = Math.floor(seconds_exercise_14/ 60);
+  const remainingseconds_exercise_14= seconds_exercise_14% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_14).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_14() {
+  countdown_exercise_14.textContent = formatTime_exercise_14(timeLeft_exercise_14);
+}
+
+function startTimer_exercise_14() {
+  if (timerInterval_exercise_14=== null) {
+    countdown_exercise_14.classList.add('running');
+    countdown_exercise_14.classList.remove('finished');
+    timerInterval_exercise_14= setInterval(() => {
+      if (timeLeft_exercise_14> 0) {
+        timeLeft_exercise_14--;
+        updateButton_exercise_14();
+      } else {
+        clearInterval(timerInterval_exercise_14);
+        timerInterval_exercise_14= null;
+        countdown_exercise_14.classList.remove('running');
+        countdown_exercise_14.classList.add('finished');
+        countdown_exercise_14.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_14();
+  }
+}
+
+function pauseTimer_exercise_14() {
+  clearInterval(timerInterval_exercise_14);
+  timerInterval_exercise_14= null;
+  countdown_exercise_14.classList.remove('running');
+}
+
+function resetTimer_exercise_14() {
+  timeLeft_exercise_14= seconds_exercise_14;
+  updateButton_exercise_14();
+  countdown_exercise_14.classList.remove('finished');
+  countdown_exercise_14.classList.remove('running');
+  timerInterval_exercise_14= null;
+}
+
+countdown_exercise_14.addEventListener("click", () => {
+  if (countdown_exercise_14.classList.contains('finished')) {
+    resetTimer_exercise_14();
+  } else {
+    startTimer_exercise_14();
+  }
+});
+
+updateButton_exercise_14();
+-->
+</script>
+
+
+---
+### Esercizio #14 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
