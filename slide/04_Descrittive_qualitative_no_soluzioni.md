@@ -204,6 +204,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 
 <!-- Le frequenze relative: facilitano la percezione del peso delle modalità -->
 
+
 ---
 ## Tabelle di contingenza
 
@@ -342,6 +343,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 </div>
 </div>
 
+
 ---
 ### Esercizio #6
 
@@ -363,6 +365,7 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 </center>
 
 </div>
+
 
 ---
 ### Esercizio #7
@@ -389,10 +392,11 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 </div>
 
----
-<span style="display:block; height:150px;"></span>
 
-# La visualizzazione dei dati categorici
+---
+<span style="display:block; height:200px;"></span>
+
+## La visualizzazione dei dati categorici
 
 ---
 ## Bar chart
@@ -799,13 +803,12 @@ round(prop.table(freq_a)*100, 0)
 ---
 ### Cosa abbiamo imparato in questa lezione?
 
-<span style="display:block; height:20px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%">
 
 - Le variabili categoriche possono essere rappresentate con le loro frequenze, assolute o relative
 - Tabelle di frequenze e di contingenza ci aiutano a paragonare, a colpo d'occhio, due o pi&ugrave; variabili
-- Variabili numeriche possono essere trasformate in variabili categoriche attraverso la loro "discretizzazione"
 - Le variabili categoriche possono essere rappresentate graficamente in diversi modi, ma bar chart sono da preferire, seguiti da waffle chart
 
 </div>

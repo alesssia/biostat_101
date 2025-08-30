@@ -30,9 +30,13 @@ section {
 
 <span style="display:block; height:50px;"></span>
 
+<!-- <div style="font-size: 90%"> -->
+
 - Conoscere le differenze tra popolazione e campione
 - Conoscere le due maggiori strategie di campionamento
-- Individuare distorsioni sistematiche (o *bias*) nei campioni
+- Individuare distorsioni sistemistiche (o *bias*) nei campioni
+
+<!-- </div> -->
 
 ---
 ## Le fasi della ricerca
@@ -130,10 +134,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <span style="display:block; height:100px;"></span>
 
 
-
 </div>
 </div>
-
 
 ---
 ### Esercizio #2
@@ -171,10 +173,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <span style="display:block; height:100px;"></span>
 
-
 </div>
 </div>
-
 
 ---
 ### Esercizio #3
@@ -211,20 +211,19 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <span style="display:block; height:100px;"></span>
 
-
 </div>
 </div>
 
 ---
-## Campione di convenienza 
+## Strategie di campionamento
 
 <span style="display:block; height:30px;"></span>
 
 <div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp;&nbsp; Un campione di convenienza &egrave; un campione estratto da una
+:dart: &nbsp;&nbsp;&nbsp; Un **campione di convenienza** &egrave; un campione estratto da una
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  parte della popolazione a cui abbiamo un facile accesso e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  che potrebbe non rappresentarla nella sua  interezza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  che potrebbe non rappresentarla nella sua interezza
 
 
 <span style="display:block; height:1px;"></span>
@@ -246,13 +245,13 @@ Chiedere le intenzioni di voto alle prime 10 pagine di utenti con il numero di t
 -->
 
 ---
-## Campionamento casuale semplice
+## Strategie di campionamento
 
 <span style="display:block; height:30px;"></span>
 
 <div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp;&nbsp; Nel campionamento casuale semplice tutti i soggetti della  
+:dart: &nbsp;&nbsp;&nbsp; Nel **campionamento casuale semplice** tutti i soggetti della  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popolazione hanno la stessa probabilit&agrave; di venire inclusi 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel campione
 
@@ -349,11 +348,8 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 
 <span style="display:block; height:10px;"></span>
 
-
 </div>
 </div>
-
-
 
 ---
 ### Esercizio #5
@@ -396,10 +392,7 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 </div>
 </div>
 
-<!-- 
-bias == DISTORSIONE SISTEMATICA
-
-Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
+<!-- Anche se facciamo attenzione i nostri sample possono avere delle distorsioni
 
 - voglio andare a vedere dove gli aerei da guerra vengono colpiti per rinforzarli
 e l’errore logico che si commette quando si prendano in considerazione solo gli elementi che hanno superato un determinato pro- cesso di selezione, trascurando i restanti; tipicamente ci`o avviene poich ́e i primi sono fisicamente disponibili/visibili e i secondi no. -->
@@ -567,7 +560,7 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che queste 30 persone...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - hanno smesso di prendere il farmaco?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -  sono ritornate alla loro citt&agrave; di origine
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -  sono ritornate alla loro citt&agrave; di origine?
 
 </div>
 

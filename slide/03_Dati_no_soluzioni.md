@@ -31,6 +31,7 @@ section {
 <span style="display:block; height:50px;"></span>
 
 - Saper definire cos'&egrave; una variabile
+- Sapere cosa causa la variabilit&agrave; di un'osservazione
 - Conoscere le differenze tra i diversi tipi di variabile
 
 ---
@@ -70,11 +71,198 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (E
 
 
 Un dato corrisponde a un'informazione su un membro di una popolazione (sesso, altezza, numero dei battiti cardiaci, titolo di studio, età,…) , viene codificata in variabili. 
+-->
+
+---
+## Le variabili...
+
+<span style="display:block; height:1px;"></span>
+
+- sono imperfette: non sempre misurano quello che ci interessa 
+  - conoscenza su una materia $\neq$ voto all'esame
+  - benessere di un Paese $\neq$ quanto sei felice da 1 a 10
+
+* variano: da una persona all’altra, da un momento all’altro, ...,  e apparentemente lo fanno in modo casuale
+
+
+<!-- Proxy: chiedendo alla gente quanto si sentisse felice la settimana
+scorsa in una scala da 0 a 10 non si coglie piú di tanto il benessere emotivo
+del Paese. 
+
+
 La variabilita' di tali variabili (differenze che vediamo tra le osservazioni) ci dice come le caratteristiche di una paopolazione (eta', sesso, altezza... ) differiscano da individuo a individuo 
 
 Questa variabilita' dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
+ -->
+
+---
+## Perch&eacute; c'&egrave; variabilit&agrave;?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cranica di un bambolotto che simula un  bambino di un anno
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="./img/data/head_circiference_doll.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<!-- Given that all nurses were measuring the head of the same doll, all of the head circumference measurements should be the same. In other words, there should be no variability in the measurements. However, the above graph clearly illustrates that there was variability in the measurements. Why was there variability in the measurements of the doll’s head circumference? (Select all that apply.)
+
+Some nurses held the tape measure tighter around the infants head while others held it looser.
+Each nurse put the tape measure in a slightly different place on the doll’s head
+Some nurses may have misread the tape measure.
+The doll’s head changed size between measurements. -->
+
+---
+## Perch&eacute; c'&egrave; variabilit&agrave;?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cranica di un bambolotto che simula un  bambino di un anno
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<img src="./img/data/head_circiference_doll.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<div style="font-size: 85%" align="right">
+
+<br/> Errori di misurazione
+
+</div>
+
+---
+## Perch&eacute; c'&egrave; variabilit&agrave;?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; Nello stesso studio, un pediatria misura la circonferenza cranica di 35
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bambini di un anno
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<img src="./img/data/head_circiference_children.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<div style="font-size: 85%" align="right">
+
+
+
+</div>
+
+<!--   the above question, all of the variability in scores was created by measurement error because everyone was measuring the same thing and, therefore, should have obtained the same score. Unfortunately, measurement error is always present. No matter what you are measuring, you will never be able to measure it perfectly every time. You can, however, reduce the amount of measurement error. In the context of measuring an infant’s head circumference, how could the developmental psychologist and/or nurses reduce the variability in scores created by measurement error (i.e., what could they do to increase the accuracy/reliability of each measurement?). Select all that apply.
+
+Give the nurses a lot of practice measuring different dolls’ heads.
+Train the nurses to use a consistent degree of tension in the tape measure.
 -->
 
+---
+## Perch&eacute; c'&egrave; variabilit&agrave;?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; Nello stesso studio, un pediatria misura la circonferenza cranica di 35
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bambini di un anno
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<img src="./img/data/head_circiference_children.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<div style="font-size: 85%" align="right">
+
+<br/>
+Differenze individuali
+
+</div>
+
+<!-- Anche qui rimangono errori di misurazione -->
+
+---
+## Perch&eacute; c'&egrave; variabilit&agrave;?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; Nello stesso studio, lo stesso pediatra misura altri 35 bambini di un 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che vivono in famiglie di stato socioeconomico molto basso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<img src="./img/data/head_circiference_children_groups.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<div style="font-size: 85%" align="right">
+
+<br/>
+
+
+</div>
+
+<!-- Anche qui rimangono errori di misurazione e variabilita' individuale -->
+
+---
+## Perch&eacute; c'&egrave; variabilit&agrave;?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; Nello stesso studio, lo stesso pediatra misura altri 35 bambini di un 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che vivono in famiglie di stato socioeconomico molto basso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<img src="./img/data/head_circiference_children_groups.png" img height="350px" align="left" border="4px"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+
+</div>
+
+<div style="font-size: 85%" align="right">
+
+<br/>
+Diversa condizione sperimentale?
+
+</div>
+
+---
+## Perch&eacute; dobbiamo conoscere la differenza?
+
+<div style="font-size: 85%">
+
+:dart: &nbsp;&nbsp; Vedremo come determinare se la variabilit&agrave; &egrave; generata dalle condizioni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sperimentali o se &egrave; generata da differenze individuali e/o da errori di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; misurazione
+
+
+<span style="display:block; height:60px;"></span>
+
+<center>
+<img src="./img/data/head_circiference_doll.png" img height="190px"  border="4px"/> 
+<img src="./img/data/head_circiference_children.png" img height="190px"  border="4px"/>
+<img src="./img/data/head_circiference_children_groups.png" img height="190px" border="4px"/>
+</center>
 
 
 ---
@@ -241,12 +429,12 @@ Categoriche si dividono in 2 classi
 :question: &nbsp;&nbsp;&nbsp; Di che tipo sono le variabili
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in questa tabella?
 
-<span style="display:block; height:260px;"></span>
+<span style="display:block; height:170px;"></span>
 
 
 <div style="font-size: 50%">
 	
-Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+<br/><br/><br/> Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
 
 </div>
 
@@ -265,7 +453,6 @@ Dopo che lo hanno fatto, farli votare e discutere
 
 Lactate dehydrogenase, dichotomized according to the upper limit of normal for each centre.
 -->
- 
 
 ---
 ### Esercizio #2
@@ -330,6 +517,8 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 </div>
 </div>
 
+</div>
+</div>
 
 ---
 ### Esercizio #4 
@@ -350,7 +539,6 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 
 </div>
-
 
 ---
 ## Una sola variabile, tanti tipi
@@ -478,7 +666,6 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 
 <span style="display:block; height:60px;"></span>
 
-
 ---
 ### Esercizio #6
 
@@ -497,17 +684,16 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 
 <span style="display:block; height:60px;"></span>
 
-
 ---
 ### Cosa abbiamo imparato in questa lezione?
 
-<span style="display:block; height:10px;"></span>
+<!-- <span style="display:block; height:px;"></span> -->
 
 <div style="font-size: 90%">
 
 - Una caratteristica di interesse viene codificata in variabili
-- Le differenze che esistono tra le osservazioni (variabilit&agrave;) dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
-- Le variabili sono di diversi tipi, a seconda della caratteristica che codificano
-- Variabili numeriche possono essere trasformate in variabili categoriche (vedremo come)
+- Le differenze che esistono tra le osservazioni (variabilit&agrave;) dipende sia da fattori conosciuti o conoscibili (differenze individuali, condizioni sperimentali, ...) sia da effetti casuali (random noise, per esempio errori di misurazione)
+- Le variabili sono di diversi tipi, a seconda della caratteristica che vanno a rappresentare
+- Variabili numeriche possono essere discretizzate (quindi trasformate in variabili categoriche)
 
 </div>

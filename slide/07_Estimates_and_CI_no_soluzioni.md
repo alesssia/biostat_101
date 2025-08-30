@@ -58,7 +58,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (E
 
 <span style="display:block; height:1px;"></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se questa parte vi sembra difficile &egrave; perch&eacute; &egrave; difficile.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Se questa parte vi sembra complessa &egrave; perch&eacute; &egrave; complessa.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Potreste doverci spendere un bel po' di tempo prima di 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; riuscire a capirla del tutto: non vi preoccupate, &egrave; normale 
@@ -108,6 +108,7 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 </div>
 
 <span style="display:block; height:100px;"></span>
+
 
 ---
 ### Esercizio #2
@@ -545,7 +546,7 @@ Bootstrapping provides an intuitive, computer-intensive way of assessing the unc
 
 <div style="font-size: 90%">
 
-Abbiamo introdotto due concetti difficili e importanti:
+Abbiamo introdotto due concetti complicati e importanti:
 
   1. esiste una variabilit&agrave; nella stima dei parametri che dipende dal campione
 
@@ -708,6 +709,7 @@ Tutti concetti che ci torneranno utili tra poco
 
 <span style="display:block; height:100px;"></span>
 
+
 ---
 ## Ma come si interpreta?
 
@@ -769,6 +771,110 @@ a confidence interval is the range of population parameters for which our observ
 <span style="display:block; height:40px;"></span>
 
 <!-- Questa differenza di 200 euro a dx e sx della media e' il margine di errore del 95% -->
+
+---
+### Esercizio #8
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Il numero medio di partner eterosessuali in campione di 760 uomini 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inglesi tra i 35 e i  44 anni di et&agrave; &egrave; 11.4 $\pm$ 11.2 partner.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; la media della popolazione e il suo 68% CI?  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mu=\text{ ?}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{SE}=\sigma/\sqrt{n} = \text{ ?} \rightarrow$ &nbsp;&nbsp;&nbsp; $\hat{\text{SE}}=s/\sqrt{n} = \text{ ?}$
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+---
+### Esercizio #9
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 79%" >
+
+:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+
+
+</div>
+<div>
+
+<center>
+<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+
+---
+### Esercizio #10
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 80%" >
+
+:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+
+
+</div>
+<div>
+
+<center>
+<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+---
+### Esercizio #11
+
+<div style="font-size: 90%" >
+
+:question: &nbsp;&nbsp;&nbsp; Dato che $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}} \rightarrow$ &nbsp; standard error (SE), 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  come posso restringere l'intervallo di confidenza?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) aumentando $n$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) diminuendo $n$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) aumentando $\sigma$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) diminuendo $\sigma$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) non ho abbastanza elementi per rispondere
+
+</div>
 
 ---
 ## Il coefficiente di attendibilit&agrave; $\alpha$ 
@@ -949,90 +1055,6 @@ $100\% - 0.5\% = 99.5\% \rightarrow \mathcal{z} = 2.58$
 
 Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 
-
----
-### Esercizio #8
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-<div style="font-size: 79%" >
-
-:question: &nbsp;&nbsp;&nbsp; Se l'intervallo di confidenza 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) &egrave; pi&ugrave; probabile che includa $\mu$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) &egrave; meno probabile che includa $\mu$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
-
-</div>
-
-<span style="display:block; height:60px;"></span>
-
-
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
-</center>
-
-</div>
-</div>
-
----
-### Esercizio #9
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-<div style="font-size: 80%" >
-
-:question: &nbsp;&nbsp;&nbsp; Pi&ugrave; l'intervallo di confidenza  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &egrave; largo...
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) meno siamo precisi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) pi&ugrave; siamo precisi
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non posso rispondere
-
-</div>
-
-<span style="display:block; height:60px;"></span>
-
-</div>
-<div>
-
-<center>
-<img src="./img/confidence_intervals/unannotated_CI.png" img height="500px" border="0px"/>
-</center>
-
-</div>
-</div>
-
----
-### Esercizio #10
-
-<div style="font-size: 90%" >
-
-:question: &nbsp;&nbsp;&nbsp; Dato che $\mathcal{N} = (\mu, \frac{\sigma^2}{n})$ con $\sqrt{ \frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}} \rightarrow$ &nbsp; standard error (SE), 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  come posso restringere l'intervallo di confidenza?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) aumentando $n$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) diminuendo $n$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) aumentando $\sigma$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) diminuendo $\sigma$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) non ho abbastanza elementi per rispondere
-
-</div>
-
-
 ---
 ## Una regola empirica
 
@@ -1045,7 +1067,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 -->
 
 ---
-### Esercizio #11
+### Esercizio #12
 
 :dart: &nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
 
@@ -1062,6 +1084,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 </div>
 
 <span style="display:block; height:150px;"></span>
+
 
 
 </div>
@@ -1257,7 +1280,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 <!-- Piccoli == <30 circa  -->
 
 ---
-### Esercizio #12
+### Esercizio #13
 
 <span style="display:block; height:1px;"></span>
 
@@ -1275,7 +1298,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 <span style="display:block; height:100px;"></span>
 
 ---
-### Esercizio #13
+### Esercizio #14
 
 <span style="display:block; height:1px;"></span>
 

@@ -145,6 +145,7 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 
 </div>
 
+<span style="display:block; height:40px;"></span>
 
 ---
 ## Mediana e valori estremi
@@ -213,6 +214,7 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 
 </div>
 
+
 ---
 ## Misure di centralit&agrave;: la media
 
@@ -277,6 +279,7 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
 <img src="./img/descriptive/Relationship_between_mean_and_median_under_different_skewness.png" img height="450px" border="0px"/>
 </center>
 
+
 <!-- La posizione di moda media e mediana va a definire anche quella che e' la forma della distribuzione, che descrive come una Distribuzione empirica e/o Di- stribuzione di popolazione si distribuisce. 
 
 Si dice che una distribuzione abbia una forma simmetrica quando Moda, Mediana e Media coincidono e dividono la distribuzione stessa in due parti identiche. 
@@ -299,7 +302,7 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
  -->
 
 ---
-### Esercizio 5
+### Esercizio #5
 
 <div style="font-size: 90%">
 
@@ -316,6 +319,188 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 
 </div>
 
+<span style="display:block; height:10px;"></span>
+
+---
+## Vox populi <sup>*</sup>
+
+
+<div class="columns">
+<div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 85%" >
+
+
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/500px-Sir_Francis_Galton,_1890s.jpg" img height="380px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+<div style="font-size: 70%">
+
+<sup>*</sup> Wisdom of Crowds o Saggezza della Folla
+
+</div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 50%" align="right">
+
+Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
+
+</div>
+
+
+---
+## Vox populi <sup>*</sup>
+
+
+<div class="columns">
+<div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 85%" >
+
+- Competizione presso la "Mostra del Pollame e del Bestiame da Macello, Plymounth, 1907
+- Obiettivo: indovinare il peso "lavorato" della carne macellata
+- Costo: 6 penny
+- Partecipanti: 787
+- Vincita: premio non specificato
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Bovino_Ayrshire_03.jpg" img height="380px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+<div style="font-size: 70%">
+
+<sup>*</sup> Wisdom of Crowds o Saggezza della Folla
+
+</div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 50%" align="right">
+
+Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
+
+</div>
+
+
+---
+## Vox populi <sup>*</sup>
+
+
+<div class="columns">
+<div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 85%" >
+
+- Giudizio non influenzato da passioni personali e/o proselitismo vario
+- Burloni evitati dal costo di ingresso
+- Premio incita a fare del proprio meglio
+- Partecipano soprattutto "esperti"
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/Bovino_Ayrshire_03.jpg" img height="380px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+<div style="font-size: 70%">
+
+<sup>*</sup> Wisdom of Crowds o Saggezza della Folla
+
+</div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 50%" align="right">
+
+Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
+
+</div>
+
+---
+## Vox populi <sup>*</sup>
+
+<div class="columns">
+<div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 85%" >
+
+- **Mediana** dei 787 tentativi: 1207 lb (547 kg)
+- Peso "lavorato": 1198 lb (543 kg)
+- Differenza: 9 lb (4kg, 0.8%)
+
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/descriptive/500px-Sir_Francis_Galton,_1890s.jpg" img height="380px" border="0px"/>
+</center>
+
+</div>
+</div>
+
+
+<div style="font-size: 70%">
+
+<sup>*</sup> Wisdom of Crowds o Saggezza della Folla
+
+</div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 50%" align="right">
+
+Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
+
+</div>
+
+<!--  Mediana perche' i dati potrebbero non essere simmetrici (in questo caso asimmetrici a dx, sovrastimando il peso lavorato (dressed)) -->
 
 ---
 ## Misure di dispersione
@@ -590,9 +775,9 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <span style="display:block; height:100px;"></span>
 
 
+</div>
+</div>
 
-</div>
-</div>
 
 ---
 ### Esercizio #10
@@ -628,6 +813,8 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 </div>
 
 <span style="display:block; height:100px;"></span>
+
+
 
 </div>
 </div>
@@ -856,20 +1043,125 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 
 Boxplot hides the underlying distribution. Use jitter if low number of data points, or use violin with bigger data. Leggermente bimodale -->
 
----
-### Esercizio #11
-
-<div style="font-size: 90%">
-
-Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
-
-<!-- The purpose of this question is not simply to be nosey about people’s private lives. When AIDS first became a serious concern in the 1980s, public health officials realized that there was no reliable evidence about sexual behaviour in Britain, particularly in terms of the frequency with which people changed partners, how many had multiple simultaneous partners, and what sexual practices people engaged in. This knowledge was essential to predict the spread of sexually transmitted diseases through society and to plan health services
-
-resulting in the National Sexual Attitudes and Lifestyle Survey (Natsal) which has been carried out in the UK every ten years since 1990.
- -->
 
 ---
 ### Esercizio #11
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/phonecall.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 89 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; studenti universitari fuori sede
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La media perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La mediana perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La moda perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica
+
+
+</div>
+
+---
+### Esercizio #12
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/fines.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 22 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; automobilisti 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La media perch&eacute; i dati sono numerici discreti e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; molto asimmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La mediana perch&eacute; i dati sono numerici discreti e &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; molto asimmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La moda perch&eacute; i dati sono numerici discreti e &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; molto asimmetrica
+
+</div>
+
+---
+### Esercizio #13
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/hypnosis_not_from_zero.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 870 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; psicologi 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La media perch&eacute; i dati sono categorici e la
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; distribuzione &egrave; asimmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La mediana perch&eacute; i dati sono categorici e la
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; distribuzione &egrave;  asimmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La moda perch&eacute; i dati sono categorici 
+
+</div>
+
+
+---
+### Esercizio #14
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/hypnosis_not_from_zero.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando 870 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; psicologi 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; La rappresentazione usata &egrave; corretta?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) No
+
+</div>
+
+<span style="display:block; height:100px;"></span>
+
+
+---
+### Esercizio #15
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/gym.png" img height="400px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando  41 genitori
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in un parco giochi.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Gli intervistati spendono tra le 0 e le 9 ore 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra, con una media di 3.4 $\pm$  3.4 ore 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (mediana: 5 ore; moda: 0 ore).
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Circa la met&agrave; degli intervistati ha riportato di non
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; essere andata in palestra. I rimanenti spendono 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra tra le 5 e le 9 ore, con una media  di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6 $\pm$ 1.1 ore  (mediana: 7 ore)
+
+</div>
+
+---
+### Esercizio #16
 
 <div style="font-size: 90%">
 
@@ -918,8 +1210,9 @@ Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver a
  It is a good exercise to use these summaries alone to try to reconstruct what the pattern of data might look like.
 -->
 
+
 ---
-### Esercizio #11 (bis)
+### Esercizio #16 (bis)
 
 <div style="font-size: 90%">
 
@@ -943,38 +1236,14 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (E
 Bimps sulle decine, asimmetrica
 Multimodale, particolarmente accentuato sull'1 -->
 
----
-### Esercizio #12
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/gym.png" img height="400px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Questi dati sono stati raccolti intervistando  41 genitori
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in un parco giochi.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; il modo migliore per descriverli?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Gli intervistati spendono tra le 0 e le 9 ore 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra, con una media di 3.4 $\pm$  3.4 ore 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (mediana: 5 ore; moda: 0 ore).
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Circa la met&agrave; degli intervistati ha riportato di non
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; essere andata in palestra. I rimanenti spendono 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra tra le 5 e le 9 ore, con una media  di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6 $\pm$ 1.1 ore  (mediana: 7 ore)
-
-</div>
 
 ---
 ### La relazione (lineare) tra due variabili numeriche
 
+
 <div style="font-size: 78%">
 
-Cosa &egrave; successo ai bambini sottoposti a interventi cardiochirugici in alcuni ospedali britannici tra il 1984 e il 1995?
+Cosa &egrave; successo ai bambini sottoposti a interventi cardiochirugici in alcuni ospedali britannici tra il 1991 e il 1995?
 
 </div>
 
@@ -1079,7 +1348,6 @@ Ma c'e' una visualizzazione (e una statistica) migliore che mi per riassumere qu
 ---
 ### La relazione (lineare) tra due variabili numeriche
 
-
 <span style="display:block; height:1px;"></span>
 
 <div class="columns">
@@ -1116,12 +1384,13 @@ Indice di correlazione$^1$
 
 </div>
 
-<span style="display:block; height:170px;"></span>
+<span style="display:block; height:150px;"></span>
 
 <div style="font-size: 60%">
 
-$^1$ In questo caso di Pearson. Un altro indice di 
-&nbsp;&nbsp; correlazione &egrave;  quello di Spearman
+$^1$ In questo caso di Pearson (ma formulato da  
+&nbsp;&nbsp; Galton). Un altro indice di correlazione &egrave;  quello 
+&nbsp;&nbsp; di Spearman
 
 </div>
 
@@ -1166,6 +1435,7 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 - $r^2 \times 100 = R^2$ (o coefficiente di determinazione) indica la percentuale di variabilit&agrave; di una variabile che &egrave; predetta dalla variabilit&agrave; dell'altra variabile
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $R^2 = r^2 \times 100 = 0.82^2 \times 100 = 0.67 \times100$  &nbsp; $\rightarrow$  &nbsp; $67\%$ della variabilit&agrave;
 
+
 </div>
 
 <div style="font-size: 55%" align="right">
@@ -1183,7 +1453,7 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 </div>
 
 ---
-### Esercizio #13
+### Esercizio #17
 
 <span style="display:block; height:1px;"></span>
 
@@ -1202,7 +1472,7 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 <span style="display:block; height:70px;"></span>
 
 ---
-### Esercizio #14
+### Esercizio #18
 
 <span style="display:block; height:1px;"></span>
 
@@ -1220,7 +1490,123 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 <span style="display:block; height:100px;"></span>
 
 ---
-### Esercizio #15
+### Esercizio #19
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter1.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+
+
+---
+### Esercizio #20
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter2.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+---
+### Esercizio #21
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter3.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+---
+### Esercizio #22
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter4.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+---
+### Esercizio #23
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Uno studio ha indivuduato una correlazione  lineare $r=-0.7$ tra le ore di sonno e 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; un indice di irritabilit&agrave; (scala 0-100; 0: poco irritabile, 100: molto irritabile).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come interpreto questo valore?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) All'aumentare delle ore di sonno aumenta l'irritabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) All'aumentare delle ore di sonno dinuisce l'irritabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La mancanza di sonno causa un aumento dell'irritabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) La mancanza di sonno causa una diminuzione dell'irritabilit&agrave;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precendenti
+
+</div>
+
+<span style="display:block; height:20px;"></span>
+
+---
+### Esercizio #24
 
 <div style="font-size: 80%">
 
@@ -1239,6 +1625,7 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vero  &nbsp;&nbsp;&nbsp;&nbsp; Falso 
 
 </div>
+
 
 ---
 ## Correlazione & valori estremi
@@ -1339,6 +1726,49 @@ Altezza (cm) e numero di canestri
 </div>
 
 ---
+## Correlazione: interpolare ed estrapolare
+
+<div style="font-size: 80%"> 
+
+:question: &nbsp;&nbsp;&nbsp; Quante bambine di nome Emma sono nate nel 2004, 2010, 2015 e 2020?
+
+</div>
+
+<span style="display:block; height:0px;"></span>
+
+<center>
+<img src="./img/descriptive/emma_hidden.png" img height="400px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+https://www.istat.it/dati/calcolatori/contanomi/
+
+</div>
+a
+---
+## La regressione verso la media
+
+<span style="display:block; height:0px;"></span>
+
+<center>
+<img src="./img/descriptive/mother_daughter.png" img height="440px" border="4px"/>
+</center>
+
+<div style="font-size: 50%" align="right">
+
+F. Galton, *Regression Towards Mediocrity in Hereditary Stature*, The Journal of the 
+Anthropological Institute of Great Britain and Ireland, 1886, https://doi.org/10.2307/2841583
+
+</div>
+
+<!-- 
+Si ha la regressione verso la media quando fenomeni estremi nella variabile di risposta si riavvicinano alla media a lungo termine, perché il contributo precedente a questi valori estremi era un puro caso
+
+La regressione verso la media si applica anche agli studi clinici. Nello scorso capitolo abbiamo visto che occorrono studi randomizzati per valutare a dovere i nuovi farmaci, perché si osservano benefici anche nei membri del gruppo di controllo: lo chiamiamo eﬀetto placebo. Spesso l’interpretazione è che prendere una semplice pillola di zucchero (soprattutto se rossa) farebbe davvero bene alla salute. 
+Ma i miglioramenti osservati nelle persone che non ricevono nessun principio attivo sono forse dovuti in gran parte alla regressione verso la media, poiché si arruolano negli studi pazienti aﬀetti da sintomi, che in molti casi sarebbero scomparsi comunque. -->
+
+---
 ## Perch&eacute; visualizzare i dati?
 
 <span style="display:block; height:2px;"></span>
@@ -1355,9 +1785,9 @@ Altezza (cm) e numero di canestri
 
 
 ---
-## Parametri *vs*&nbsp; statistiche
+## Parametri *vs* statistiche
 
-<span style="display:block; height:1px;"></span>
+<span style="display:block; height:10px;"></span>
 
 <center>
 
@@ -1372,7 +1802,7 @@ Altezza (cm) e numero di canestri
 </center>
 
 ---
-### Esercizio #13
+### Esercizio #25
 
 <span style="display:block; height:1px;"></span>
 
@@ -1390,104 +1820,6 @@ Altezza (cm) e numero di canestri
 <span style="display:block; height:100px;"></span>
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
-
-<div style="font-size: 85%">
-
-:dart: &nbsp;&nbsp; In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cranica di un bambolotto che simula un  bambino di un anno
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<img src="./img/descriptive/head_circiference_doll.png" img height="350px" align="left" border="4px"/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
-
-</div>
-
-<!-- Given that all nurses were measuring the head of the same doll, all of the head circumference measurements should be the same. In other words, there should be no variability in the measurements. However, the above graph clearly illustrates that there was variability in the measurements. Why was there variability in the measurements of the doll’s head circumference? (Select all that apply.)
-
-Some nurses held the tape measure tighter around the infants head while others held it looser.
-Each nurse put the tape measure in a slightly different place on the doll’s head
-Some nurses may have misread the tape measure.
-The doll’s head changed size between measurements. -->
-
----
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
-
-<div style="font-size: 85%">
-
-:dart: &nbsp;&nbsp; Nello stesso studio, un pediatria misura la circonferenza cranica di 35
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bambini di un anno
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-<img src="./img/descriptive/head_circiference_children.png" img height="350px" align="left" border="4px"/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
-
-</div>
-
-<div style="font-size: 85%" align="right">
-
-
-
-</div>
-
-<!--   the above question, all of the variability in scores was created by measurement error because everyone was measuring the same thing and, therefore, should have obtained the same score. Unfortunately, measurement error is always present. No matter what you are measuring, you will never be able to measure it perfectly every time. You can, however, reduce the amount of measurement error. In the context of measuring an infant’s head circumference, how could the developmental psychologist and/or nurses reduce the variability in scores created by measurement error (i.e., what could they do to increase the accuracy/reliability of each measurement?). Select all that apply.
-
-Give the nurses a lot of practice measuring different dolls’ heads.
-Train the nurses to use a consistent degree of tension in the tape measure.
--->
-
----
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
-
-<div style="font-size: 85%">
-
-:dart: &nbsp;&nbsp; Nello stesso studio, lo stesso pediatra misura altri 35 bambini di un 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che vivono in famiglie di stato socioeconomico molto basso
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-<img src="./img/descriptive/head_circiference_children_groups.png" img height="350px" align="left" border="4px"/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
-
-</div>
-
-<div style="font-size: 85%" align="right">
-
-<br/>
-
-
-</div>
-
-<!-- Anche qui rimangono errori di misurazione e variabilita' individuale -->
-
----
-## Perch&eacute; dobbiamo conoscere la differenza?
-
-<div style="font-size: 85%">
-
-:dart: &nbsp;&nbsp; Vedremo come determinare se la variabilit&agrave; &egrave; generata dalle condizioni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sperimentali o se &egrave; generata da differenze individuali e/o da errori di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; misurazione
-
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/descriptive/head_circiference_doll.png" img height="190px"  border="4px"/> 
-<img src="./img/descriptive/head_circiference_children.png" img height="190px"  border="4px"/>
-<img src="./img/descriptive/head_circiference_children_groups.png" img height="190px" border="4px"/>
-</center>
-
-
-
----
 ### Cosa abbiamo imparato in questa lezione?
 
 <!-- -->
@@ -1499,7 +1831,6 @@ Train the nurses to use a consistent degree of tension in the tape measure.
 - Le variabili numeriche possono essere rappresentate graficamente in diversi modi, ma alcune  possono nascondere dettagli importanti delle distribuzioni empiriche
 - Visualizzare i dati &egrave; importante per interpretarli
 - Il campione viene rappresentato con le statistiche, la popolazione con i parametri
-- La variabilit&agrave; che osserviamo pu&ograve; essere causata da errori di misurazione, differenze individuali e/o di condizione sperimentale
 
 </div>
 

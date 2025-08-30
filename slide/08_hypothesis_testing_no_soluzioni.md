@@ -77,9 +77,9 @@ Finally, the key to good statistical science is drawing appropriate Conclusions 
 <span style="display:block; height:40px;"></span> 
 
 <center>
-<img src="./img/descriptive/head_circiference_doll.png" img height="180px"  border="4px"/> 
-<img src="./img/descriptive/head_circiference_children.png" img height="180px"  border="4px"/>
-<img src="./img/descriptive/head_circiference_children_groups.png" img height="180px" border="4px"/>
+<img src="./img/data/head_circiference_doll.png" img height="180px"  border="4px"/> 
+<img src="./img/data/head_circiference_children.png" img height="180px"  border="4px"/>
+<img src="./img/data/head_circiference_children_groups.png" img height="180px" border="4px"/>
 </center>
 
 
@@ -155,6 +155,7 @@ Un'ipotesi puo' essere definita come una congettura su una o piu' popplaioni
 
 <span style="display:block; height:20px;"></span>
 
+
 ---
 ### Il principio di falsificabilit&agrave; e l'ipotesi nulla
 
@@ -203,6 +204,7 @@ Il metodo scientifico si basa sulla falsificazione delle ipotesi (K. Popper), in
 <div style="font-size: 50%" align="right">
 
 Tomazini, B.M., *et al.*, "Effect of dexamethasone on days alive and ventilator-free in patients with moderate or severe acute respiratory distress syndrome and COVID-19: the CoDEX randomized clinical trial.", JAMA, 2020, doi:10.1001/jama.2020.17021
+
 </div>
 
 ---
@@ -224,6 +226,7 @@ Tomazini, B.M., *et al.*, "Effect of dexamethasone on days alive and ventilator-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) $\bar{x}_\text{c}-\bar{x}_\text{i} \neq 0$
 
 </div>
+
 
 ---
 ## Formulare ipotesi
@@ -291,6 +294,7 @@ ATTENZIONE ad un ultimo punto: i dati su cui andiamo a testare la nostra ipotesi
 </div>
 
 <span style="display:block; height:60px;"></span>
+
 
 ---
 ## Verificare ipotesi
@@ -367,6 +371,7 @@ ATTENZIONE ad un ultimo punto: i dati su cui andiamo a testare la nostra ipotesi
 </div>
 
 <span style="display:block; height:70px;"></span>
+
 
 ---
 ## Verificare ipotesi
@@ -722,6 +727,7 @@ Kendall mentioned that Fisher produced the tables of significance levels to save
 </div>
 
 <span style="display:block; height:1px;"></span>
+
 
 ---
 ### Esercizio #7
@@ -1237,6 +1243,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 </div>
 
+
 ---
 ## Comunicare (e interpretare) il risultato
 
@@ -1469,8 +1476,8 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 :question: &nbsp;&nbsp;&nbsp; Un test a una coda deve essere usato quando l'ipotesi alternativa 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; suppone che...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'effetto del trattamento sia positivo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) l'effetto del trattamento sia negativo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) l'effetto del trattamento sia strettamente positivo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) l'effetto del trattamento sia strettamente negativo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) l'effetto del trattamento sia indifferentemente positivo o negativo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) dipende dalla domanda di ricerca
 
@@ -1525,7 +1532,7 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; diverso rispetto ad altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; diverso rispetto ad altri ospedali britannici
 
 </div>
 
@@ -1535,10 +1542,10 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; diverso rispetto ad altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; diverso rispetto ad altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{H}_0$: Il numero di bambini deceduti a seguito di interventi cardiochirugici a   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 </div>
 
@@ -1548,7 +1555,7 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -1562,7 +1569,7 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -1593,7 +1600,7 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -1621,7 +1628,7 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -1644,7 +1651,7 @@ Probabilmente abbiamo un campione troppo piccolo per decidere con sicurezza se r
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -1694,7 +1701,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nell'ospedale di Bristol, sono stati effettuati 143  interventi cardiochirugici e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stati registrati 41 decessi (27.8%). Negli altri ospedali britannici, a 
@@ -1740,7 +1747,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -1783,7 +1790,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -1847,7 +1854,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -1904,7 +1911,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\Pi = \frac{tot_\text{decessi}}{tot_\text{interventi}} = \frac{397}{3319} = 0.1196$
 
@@ -1962,7 +1969,7 @@ non le riporto nelle slide perche' tra poco diventeranno parecchio piene! -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 </div>
 
@@ -2027,7 +2034,7 @@ $\chi^2 = \sum \frac{(Osservati- Attesi)^2}{Attesi} = \frac{(41-17.1)^2}{17.1} +
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 </div>
 
@@ -2091,7 +2098,7 @@ $\text{df}= (n_\text{righe}-1) \times (n_\text{colonne}-1) = 1$
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 <span style="display:block; height:10px;"></span>
 
@@ -2117,7 +2124,7 @@ I GdL sono numero di righe -1 * numero di colonne -1 -->
 <div style="font-size: 80%" >
 
 :pushpin: &nbsp;&nbsp;&nbsp; Il numero di bambini deceduti a seguito di interventi cardiochirugici a      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1984 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bristol tra il 1991 e il 1995 &egrave; **lo stesso** degli altri ospedali britannici
 
 <span style="display:block; height:10px;"></span>
 
@@ -2263,7 +2270,6 @@ Totale | $\Sigma \text{Colonna}_1$ | $\Sigma \text{Colonna}_2$ | $\Sigma \text{C
 
 </div>
 
-
 ---
 ## Quando facciamo pi&ugrave; di un test alla volta?
 
@@ -2380,7 +2386,7 @@ Moltp stringente
 <div style="font-size: 88%" >
 
 :dart: &nbsp;&nbsp;&nbsp; Quando si fanno pi&ugrave; test, si richiede un $\alpha$ inferiore
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quando si fanno pi&ugrave; test, si fissa il numero di 'scoperte' che sono false
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quando si fanno pi&ugrave; test, si fissa il numero di 'scopert&egrave; che sono false
 
 <span style="display:block; height:1px;"></span>
 
@@ -2487,6 +2493,7 @@ Falsa | Errore di <br/>II tipo   |   |
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuno dei precedenti
 
 </div>
+
 
 ---
 ## Errori dei test statistici 
@@ -2640,7 +2647,7 @@ In fact researchers generally work in terms of 1 – β, which is termed the pow
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - all'aumentare della differenza 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\mu_{\text{c}} - \mu_{\text{i}}$ o $\pi_{\text{c}} - \pi_{\text{i}}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - al diminuire della deviazione  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard $\sigma^2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard $\sigma$
 
 </div>
 <div>
@@ -2674,7 +2681,7 @@ In fact researchers generally work in terms of 1 – β, which is termed the pow
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - all'aumentare della differenza 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\mu_{\text{c}} - \mu_{\text{i}}$ o $\pi_{\text{c}} - \pi_{\text{i}}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - al diminuire della deviazione  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard $\sigma^2$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; standard $\sigma$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - all'aumentare della  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dimensione campionaria  $n$
 
@@ -2732,11 +2739,13 @@ Il nostro test non ha abbastanza potenza
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) il livello di significativit&agrave; $\alpha$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) la differenza  $\mu_{\text{c}} - \mu_{\text{i}}$ o $\pi_{\text{c}} - \pi_{\text{i}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la deviazione standard ($\sigma^2$) dei due campioni
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) la deviazione standard ($\sigma$) dei due campioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) la dimensione $n$ dei due campioni
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) nessuna delle precedenti
 
 </div>
+
+<span style="display:block; height:70px;"></span>
 
 ---
 ### Esercizio #17
@@ -2758,7 +2767,6 @@ Il nostro test non ha abbastanza potenza
 
 
 </div>
-
 
 
 ---

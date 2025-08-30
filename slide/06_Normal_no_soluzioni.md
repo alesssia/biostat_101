@@ -94,8 +94,8 @@ Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
 <div style="font-size: 80%" align="right">
 
 $N=1 \text{M}$
-$mediana = 2408\text{ g}$
-$\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+$mediana = 2400\text{ g}$
+$\mu = 2400\text{ g}; \text{ } \sigma = 580\text{ g}$
 
 </div>
 
@@ -126,8 +126,8 @@ Qual &egrave; la distribuzione del peso alla nascita per i gemelli inglesi?
 <div style="font-size: 80%" align="right">
 
 $N=1 \text{M}$
-$mediana = 2408\text{ g}$
-$\mu = 2404\text{ g}; \text{ } \sigma = 580\text{ g}$
+$mediana = 2400\text{ g}$
+$\mu = 2400\text{ g}; \text{ } \sigma = 580\text{ g}$
 
 </div>
 
@@ -281,6 +281,7 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 
 <span style="display:block; height:1px;"></span>
 
+
 ---
 ## La distribuzione Normale
 
@@ -350,6 +351,7 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 
 </div>
 
+
 ---
 ### Esercizio #4
 
@@ -388,7 +390,6 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <span style="display:block; height:100px;"></span>
 
 
-
 </div>
 </div>
 
@@ -411,6 +412,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <span style="display:block; height:40px;"></span>
 
+
 ---
 ## Caratterizzare una singola osservazione
 
@@ -418,7 +420,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 90%">
 
-Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g. 
+Supponiamo di avere presa in cura un neonato (gemello) che pesa 1450g. 
 
 </div>
 
@@ -452,11 +454,11 @@ Come si caratterizza rispetto all'intera<br/> popolazione dei neonati (gemelli)?
 
 <div style="font-size: 90%">
 
-Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
+Supponiamo di avere presa in cura un neonato (gemello) che pesa 1450g
 
 - La media ci dice qual &egrave; il centro di una distribuzione
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $x = 1454\text{ g} < \mu = 2404\text{ g}$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $x - \mu = 1454\text{ g}-2404\text{ g}=-950\text{ g}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $x = 1450\text{ g} < \mu = 2400\text{ g}$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $x - \mu = 1450\text{ g}-2400\text{ g}=-950\text{ g}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ il neonato pesa meno della media
 
 ---
@@ -466,11 +468,11 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
 
 <div style="font-size: 90%">
 
-Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
+Supponiamo di avere presa in cura un neonato (gemello) che pesa 1450g
 
 - La media ci dice qual &egrave; il centro di una distribuzione
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $x = 1454\text{ g} < \mu = 2404\text{ g}$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $x - \mu = 1454\text{ g}-2404\text{ g}=-950\text{ g}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $x = 1450\text{ g} < \mu = 2400\text{ g}$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $x - \mu = 1450\text{ g}-2400\text{ g}=-950\text{ g}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ il neonato pesa meno della media
 
 - La deviazione standard ci dice qual &egrave; la distanza "tipica" dalla media
@@ -488,11 +490,11 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
 
 <div style="font-size: 90%">
 
-Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
+Supponiamo di avere presa in cura un neonato (gemello) che pesa 1450g
 
 - La media ci dice qual &egrave; il centro di una distribuzione
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $x = 1454\text{ g} < \mu = 2404\text{ g}$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $x - \mu = 1454\text{ g}-2404\text{ g}=-950\text{ g}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $x = 1450\text{ g} < \mu = 2400\text{ g}$ &nbsp;&nbsp; $\rightarrow$ &nbsp;&nbsp; $x - \mu = 1450\text{ g}-2400\text{ g}=-950\text{ g}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ il neonato pesa meno della media
 
 - La deviazione standard ci dice qual &egrave; la distanza "tipica" dalla media
@@ -510,7 +512,7 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
 
 <div style="font-size: 90%">
 
-Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
+Supponiamo di avere presa in cura un neonato (gemello) che pesa 1450g
 
 <span style="display:block; height:0px;"></span>
 
@@ -583,7 +585,7 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1454g
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.$ Maria ha un elenco di colori scritti con inchiostri diversi e deve dire di quale
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  colore &egrave; ciascun inchiostro il pi&ugrave; velocemente possibile (Stroop test). Maria impiega
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  15.7 secondi, la popolazione generale 16.2, con una deviazione  standard di 1.30 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  15.7 secondi, la popolazione generale 16.2, con una deviazione  standard di 1.3
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; secondi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime viste, il neurologo deve concentrarsi sulla memoria, sull'abilita di 
@@ -672,9 +674,12 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 &nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2400, 580^2)$
 
 <span style="display:block; height:1px;"></span>
+
+
+
 
 </div>
 
@@ -687,12 +692,12 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 &nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2400, 580^2)$
 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2404}{580} = \frac{-904}{580} = -1.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2400}{580} = \frac{-900}{580} = -1.55$
 
 </div>
 
@@ -705,12 +710,12 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 &nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2400, 580^2)$
 
 <img src="./img/normal/Twin_BW_normale_area_z.png" img height="400px" align=right border="0px"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2404}{580} = \frac{-904}{580} = -1.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2400}{580} = \frac{-900}{580} = -1.55$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Identifichiamo l'area
 
@@ -725,12 +730,12 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 &nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2400, 580^2)$
 
 <img src="./img/normal/normal_table_zoom.jpg" img height="350px" align=right border="4px"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2404}{580} = \frac{-904}{580} = -1.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2400}{580} = \frac{-900}{580} = -1.55$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Identifichiamo l'area
 
@@ -748,12 +753,12 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 &nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2400, 580^2)$
 
 <img src="./img/introduction/panic.gif" img height="350px" align=right border="4px"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2404}{580} = \frac{-904}{580} = -1.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2400}{580} = \frac{-900}{580} = -1.55$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Identifichiamo l'area
 
@@ -823,12 +828,12 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 &nbsp;&nbsp;&nbsp; Qual &egrave; la probabilit&agrave;, per un gemello, di nascere con un peso molto basso?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2400, 580^2)$
 
 <img src="./img/normal/normal_table_zoom_example.jpg" img height="350px" align=right border="4px"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Calcoliamo lo $z$-score
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2404}{580} = \frac{-904}{580} = -1.56$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{x - \mu}{\sigma} = \frac{1500-2400}{580} = \frac{-900}{580} = -1.55$
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Identifichiamo l'area
 
@@ -836,7 +841,7 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Cerchiamo lo $z$-score sulle tavole e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ragioniamo sull'area identificata
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.9406 = 0.0594 \rightarrow 5.94\%$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 1 - 0.9394 = 0.0606 \rightarrow 6.06\%$
 
 <!-- Fare vedere che la curva e' simmetrica quindi possiamo usare 1.56 per conoscere l'area -->
 
@@ -852,11 +857,12 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 <img src="./img/normal/normal_table_zoom.jpg" img height="380px" border="4px" align="right"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2404, 580^2)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{N} = (2400, 580^2)$
 
 </div>
 
 <span style="display:block; height:200px;"></span>
+
 
 
 </div>
@@ -886,7 +892,7 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 <div style="font-size: 90%" align="right">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 56.75\%$ ci dice che il nostro bambino &egrave; nel 56.75$^o$ percentile
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{P} = 0.57$ ci dice che il nostro bambino &egrave; nel 57$^o$ percentile
 
 </div>
 
