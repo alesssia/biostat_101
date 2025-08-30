@@ -71,13 +71,32 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (E
 
 
 Un dato corrisponde a un'informazione su un membro di una popolazione (sesso, altezza, numero dei battiti cardiaci, titolo di studio, età,…) , viene codificata in variabili. 
-La variabilita' di tali variabili (differenze che vediamo tra le osservazioni) ci dice come le caratteristiche di una paopolazione (eta', sesso, altezza... ) differiscano da individuo a individuo 
-
-Questa variabilita' dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
 -->
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+## Le variabili...
+
+<span style="display:block; height:1px;"></span>
+
+- sono imperfette: non sempre misurano quello che ci interessa 
+  - conoscenza su una materia $\neq$ voto all'esame
+  - benessere di un Paese $\neq$ quanto sei felice da 1 a 10
+
+* variano: da una persona all’altra, da un momento all’altro, ...,  e apparentemente lo fanno in modo casuale
+
+
+<!-- Proxy: chiedendo alla gente quanto si sentisse felice la settimana
+scorsa in una scala da 0 a 10 non si coglie piú di tanto il benessere emotivo
+del Paese. 
+
+
+La variabilita' di tali variabili (differenze che vediamo tra le osservazioni) ci dice come le caratteristiche di una paopolazione (eta', sesso, altezza... ) differiscano da individuo a individuo 
+
+Questa variabilita' dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
+ -->
+
+---
+## Perch&eacute; c'&egrave; variabilit&agrave;?
 
 <div style="font-size: 85%">
 
@@ -100,7 +119,7 @@ Some nurses may have misread the tape measure.
 The doll’s head changed size between measurements. -->
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+## Perch&eacute; c'&egrave; variabilit&agrave;?
 
 <div style="font-size: 85%">
 
@@ -123,7 +142,7 @@ The doll’s head changed size between measurements. -->
 </div>
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+## Perch&eacute; c'&egrave; variabilit&agrave;?
 
 <div style="font-size: 85%">
 
@@ -152,7 +171,7 @@ Train the nurses to use a consistent degree of tension in the tape measure.
 -->
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+## Perch&eacute; c'&egrave; variabilit&agrave;?
 
 <div style="font-size: 85%">
 
@@ -178,7 +197,7 @@ Differenze individuali
 <!-- Anche qui rimangono errori di misurazione -->
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+## Perch&eacute; c'&egrave; variabilit&agrave;?
 
 <div style="font-size: 85%">
 
@@ -204,7 +223,7 @@ Differenze individuali
 <!-- Anche qui rimangono errori di misurazione e variabilita' individuale -->
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
+## Perch&eacute; c'&egrave; variabilit&agrave;?
 
 <div style="font-size: 85%">
 
@@ -1424,7 +1443,7 @@ updateButton_exercise_6();
 ---
 ### Cosa abbiamo imparato in questa lezione?
 
-<span style="display:block; height:1px;"></span>
+<!-- <span style="display:block; height:px;"></span> -->
 
 <div style="font-size: 90%">
 
