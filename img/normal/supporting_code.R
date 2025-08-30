@@ -34,7 +34,7 @@ df <- data.frame(Bweight=sample(df1$Bweight, 1000000, replace=TRUE))
 bw <- 250
 n_obs <- nrow(df)
 
-p <- ggplot(df, aes(x = Bweight)) + geom_histogram(aes(y =..count..), colour = "black", fill = "gray74", binwidth = bw ) + graphic.settings + xlab("Peso alla nascita (g)") + ylab("") + theme(legend.position="none") + scale_y_continuous(labels = label_number( suffix = "k", scale = 1e-3)) + geom_segment(aes(x = 2404, y = -10, xend = 2404, yend = 171000), colour="magenta", linewidth=1.5) + labs(caption="Dati simulati a partire da dati reali, bin size: 250g") + theme(plot.caption = element_text(size = 10)) 
+p <- ggplot(df, aes(x = Bweight)) + geom_histogram(aes(y =..count..), colour = "black", fill = "gray74", binwidth = bw ) + graphic.settings + xlab("Peso alla nascita (g)") + ylab("") + theme(legend.position="none") + scale_y_continuous(labels = label_number( suffix = "k", scale = 1e-3)) + geom_segment(aes(x = 2400, y = -10, xend = 2400, yend = 171000), colour="magenta", linewidth=1.5) + labs(caption="Dati simulati a partire da dati reali, bin size: 250g") + theme(plot.caption = element_text(size = 10)) 
 
 p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
 
@@ -55,7 +55,7 @@ dd <- unique(data.frame(x=df$Bweight, y=fun(df$Bweight)*bw*n_obs) )
 
 gety <- function(v) dd$y[which(abs(dd$x - v) == min(abs(dd$x - v)))]
 
-p <- ggplot(df, aes(x = Bweight)) + stat_function(fun = function(x) dnorm(x, mean = mean(df$Bweight), sd = sd(df$Bweight)) * bw * n_obs, colour="black", lwd=1) + graphic.settings + xlab("Peso alla nascita (g)") + ylab("") + theme(legend.position="none") + scale_y_continuous(labels = label_number( suffix = "k", scale = 1e-3)) + geom_segment(aes(x = 2404, y = -10, xend = 2404, yend = 171000), colour="magenta", linewidth=1.5) + labs(caption="Dati simulati a partire da dati reali, bin size: 250g") + theme(plot.caption = element_text(size = 10)) 
+p <- ggplot(df, aes(x = Bweight)) + stat_function(fun = function(x) dnorm(x, mean = mean(df$Bweight), sd = sd(df$Bweight)) * bw * n_obs, colour="black", lwd=1) + graphic.settings + xlab("Peso alla nascita (g)") + ylab("") + theme(legend.position="none") + scale_y_continuous(labels = label_number( suffix = "k", scale = 1e-3)) + geom_segment(aes(x = 2400, y = -10, xend = 2400, yend = 171000), colour="magenta", linewidth=1.5) + labs(caption="Dati simulati a partire da dati reali, bin size: 250g") + theme(plot.caption = element_text(size = 10)) 
 
 p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
 
@@ -72,7 +72,7 @@ print(p1)
 dev.off()
 
 
-p2 <- p + geom_segment(aes(x = 2404, y = 0, xend = 2404-580, yend = 0), arrow = arrow(length = unit(0.2, "cm"), ends="last"), colour="darkgreen", lwd=1) + geom_segment(aes(x = 2404, y = 0, xend = 2404+580, yend = 0), arrow = arrow(length = unit(0.2, "cm"), ends="last"), colour="darkgreen", lwd=1)
+p2 <- p + geom_segment(aes(x = 2400, y = 0, xend = 2400-580, yend = 0), arrow = arrow(length = unit(0.2, "cm"), ends="last"), colour="darkgreen", lwd=1) + geom_segment(aes(x = 2400, y = 0, xend = 2400+580, yend = 0), arrow = arrow(length = unit(0.2, "cm"), ends="last"), colour="darkgreen", lwd=1)
 
 
 p2 <- p2 +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
@@ -193,18 +193,18 @@ start <- -4
 end <- 4
 
 p <-   ggplot(data = data.frame(x = c(start, end)), aes(x)) +
-	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="magenta", alpha=0.4, xlim = c(start, -1.56)) +
-	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), xlim = c(-1.56, end)) + 
+	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="magenta", alpha=0.4, xlim = c(start, -1.55)) +
+	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), xlim = c(-1.55, end)) + 
 	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), colour="black") +
 	   
-	   geom_segment(aes(x = -1.56, y = 0, xend = -1.56, yend = dnorm(-1.56, mean=0, sd = 1)), colour="black") +
-	   geom_segment(aes(x = -1.56, y = 0, xend = start, yend = 0), colour="black") +
+	   geom_segment(aes(x = -1.55, y = 0, xend = -1.55, yend = dnorm(-1.55, mean=0, sd = 1)), colour="black") +
+	   geom_segment(aes(x = -1.55, y = 0, xend = start, yend = 0), colour="black") +
 	     
 	   geom_segment(aes(x = start, y = -0.01, xend = end, yend = -0.01), colour="black") +
 	   geom_segment(aes(x = 0, y = -0.01, xend = 0, yend = -0.02), colour="black") +
-	   geom_segment(aes(x = -1.56, y = -0.01, xend = -1.56, yend = -0.02), colour="black") + 
+	   geom_segment(aes(x = -1.55, y = -0.01, xend = -1.55, yend = -0.02), colour="black") + 
 	   
-	   annotate("text", x = -1.56, y = -0.031, label = "z = -1.56", parse = FALSE, size=4) +
+	   annotate("text", x = -1.55, y = -0.031, label = "z = -1.55", parse = FALSE, size=4) +
 	   annotate("text", x = 0, y = -0.031, label = "0", parse = FALSE, size=4) +
 	   
 	   scale_y_continuous(breaks = NULL) + theme_void()
@@ -216,19 +216,19 @@ print(p)
 dev.off()
 
 p1 <- ggplot(data = data.frame(x = c(start, end)), aes(x)) +
-	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="magenta", alpha=0.4, xlim = c(1.56, end)) +
-	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), xlim = c(start, 1.56)) + 
+	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="magenta", alpha=0.4, xlim = c(1.55, end)) +
+	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), xlim = c(start, 1.55)) + 
 	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), colour="black") +
 	   
-	   geom_segment(aes(x = 1.56, y = 0, xend = 1.56, yend = dnorm(1.56, mean=0, sd = 1)), colour="black") +
-	   geom_segment(aes(x = 1.56, y = 0, xend = end, yend = 0), colour="black") +
+	   geom_segment(aes(x = 1.55, y = 0, xend = 1.55, yend = dnorm(1.55, mean=0, sd = 1)), colour="black") +
+	   geom_segment(aes(x = 1.55, y = 0, xend = end, yend = 0), colour="black") +
 	     
 	   geom_segment(aes(x = start, y = -0.01, xend = end, yend = -0.01), colour="black") +
 	   geom_segment(aes(x = 0, y = -0.01, xend = 0, yend = -0.02), colour="black") +
-	   geom_segment(aes(x = 1.56, y = -0.01, xend = 1.56, yend = -0.02), colour="black") + 
+	   geom_segment(aes(x = 1.55, y = -0.01, xend = 1.55, yend = -0.02), colour="black") + 
 	   
 	   annotate("text", x = 0, y = -0.031, label = "0", parse = FALSE, size=4) +
-	   annotate("text", x = 1.56, y = -0.031, label = "z = 1.56", parse = FALSE, size=4) +
+	   annotate("text", x = 1.55, y = -0.031, label = "z = 1.55", parse = FALSE, size=4) +
 	   
 	   scale_y_continuous(breaks = NULL) + theme_void()
 
