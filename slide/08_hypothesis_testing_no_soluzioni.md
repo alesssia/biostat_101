@@ -2792,33 +2792,6 @@ Il nostro test non ha abbastanza potenza
 </div>
 
 ---
-## Campioni indipendenti & dipendenti
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/independent_vs_paired.png" img height="300px" border="0px"/>
-</center>
-
-<!-- Sino ad ora abbiamo lavorato su Campioni indipendenti: non vi è relazione tra osservazioni appartenenti a campioni diversi
-
-Esistiono per&ograve; anche campioni appaiati, in cui dati di un campione sono associati con quelli dell’altro. Ad ogni osservazione nel primo gruppo corrisponde un’osservazione nel secondo
-
-Indipendenti> peso nei pazienti diabetici e nei sani
-Appaiati: peso nei pazienti diabetici alla diagnosi e dopo 10 anni -->
-
----
-## Campioni indipendenti & dipendenti
-
-<span style="display:block; height:60px;"></span>
-
-<center>
-<img src="./img/hypothesis_testing/independent_vs_paired_2.png" img height="300px" border="0px"/>
-</center>
-
-<!-- I capioni appaiati possono anche essere essere persone diverse ma matchate per caratteristiche salienti (eta', sesso, peso corporeo, ...)  -->
-
----
 ## Test non-parametrici
 
 <span style="display:block; height:20px;"></span>

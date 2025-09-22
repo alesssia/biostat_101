@@ -20,7 +20,7 @@
 \newglossaryentry{data_literacy}
 {
 	 name={Data literacy},
-	 description={\`e la capacit\`a di \emph{a)}~capire i principi che guidano l'apprendimento dai dati, \emph{b)}~effettuare semplici analisi dati, e \emph{c)}~interpretare correttamente e in modo critico le conclusioni che derivano da un'analisi dati, anche in studi non effettuati in prima persona.},
+	 description={o alfabetizzazione ai dati, \`e la capacit\`a di \emph{a)}~capire i principi che guidano l'apprendimento dai dati, \emph{b)}~effettuare semplici analisi dati, e \emph{c)}~interpretare correttamente e in modo critico le conclusioni che derivano da un'analisi dati, anche in studi non effettuati in prima persona.},
 	 sort={data literacy}
 }
 
@@ -41,7 +41,7 @@
 \newglossaryentry{PPDAC}
 {
 	 name={PPDAC cycle},
-	 description={o Problem-Plan-Data-Analysis-Conclusion cycle, \`e un processo circolare che definisce $5$ \gls{fasi_della_ricerca}. Nella prima fase si definisce un problema, solitamente formulato come una domanda di ricerca (per esempio, ``l'uso di un farmaco \`e efficace nel controllare i sintomi di una malattia?''). Nella parte di Planning, il ricercatore decide come rispondere alla domanda di ricerca. Questo include, \emph{i)}~verificare se esiste una collezione di dati di alta qualit\`a (vedi \gls{sampling_bias}) che pu\`o essere usata, \emph{ii)}~decidere e giustificare perch\'e sia necessario raccogliere nuove collezioni di dati, e quali dati siano necessari e come debbano essere raccolti (via questionario, analisi strumentali, \dots), \emph{iii)}~decidere e giustificare da quale \gls{population} i dati verranno raccolti, tenendo anche in considerazione considerazione etiche e logistiche (per esempio, questionari che richiedano un tempo troppo lungo per essere completati), \emph{iv)}~decidere e giustificare quando e dove la raccolta dati debba iniziare e finire, \emph{v)}~decidere e giustificare i metodi analitici che verranno utilizzati, e \emph{vi)}~definire delle probabili risposte alla domanda di ricerca. Nella terza fase, i dati vengono raccolti, organizzati, puliti e verificati. Nella quarta fase, i dati vengono esplorati, visualizzati e analizzati, per esempio attraverso la creazione di tabelle e/o grafici (per esempio: \gls{contingency_table}, \gls{bar_chart}, \gls{istogramma}, \dots), di statistiche descrittive (per esempio, \gls{sample_mode}, \gls{sample_median}, \gls{mean}, \gls{iqr}, \gls{standard_deviation}, \dots). In questo contesto si inseriscono anche il \gls{hypothesis_testing} e il calcolo e l'interpretazione di un \gls{confidence_interval} di una \gls{statistic}. Nell'ultima fase, i risultati vengono interpretati e comunicati e usati per formulare nuove domande di ricerca la cui risposta verr\`a ricercata nel prossimo \gls{PPDAC}.},
+	 description={o Problem-Plan-Data-Analysis-Conclusion cycle, \`e un processo circolare che definisce $5$ \gls{fasi_della_ricerca}. Nella prima fase si definisce un problema, solitamente formulato come una domanda di ricerca (per esempio, ``l'uso di un farmaco \`e efficace nel controllare i sintomi di una malattia?''). Nella parte di Planning in cui si definisce il \gls{esperimental_design}. Nella terza fase, i dati vengono raccolti, organizzati, puliti e verificati. Nella quarta fase, i dati vengono esplorati, visualizzati e analizzati, per esempio attraverso la creazione di tabelle e/o grafici (per esempio: \gls{contingency_table}, \gls{bar_chart}, \gls{istogramma}, \dots), di statistiche descrittive (per esempio, \gls{sample_mode}, \gls{sample_median}, \gls{mean}, \gls{iqr}, \gls{standard_deviation}, \dots). In questo contesto si inseriscono anche il \gls{hypothesis_testing} e il calcolo e l'interpretazione di un \gls{confidence_interval} di una \gls{statistic}. Nell'ultima fase, i risultati vengono interpretati e comunicati e usati per formulare nuove domande di ricerca la cui risposta verr\`a ricercata nel prossimo \gls{PPDAC}.},
 	 sort={ppdac cycle}
 }
 
@@ -62,7 +62,7 @@
 \newglossaryentry{statisticulation}
 {
 	 name={Statisticulation},
-	 description={\`e un termine inventato da Darrell Huff nel suo libro \emph{``How to lie with statistics''} (pubblicato nel 1954). Viene usato per descrivere tutti quei casi un cui le \gls{statistical_science} vengono usate in modo fuorviante, sia accidentalmente (per esempio, presentando la \gls{mean} quando riportare la \gls{sample_median} sarebbe pi\`u appropriato) ma anche volontariamente (per esempio, presentando un \gls{istogramma} o un \gls{bar_chart} che partono da una posizione arbitraria sull'asse delle ordinate per accentuare una differenza tra i valori raccolti).  Vedi anche \gls{framing}.},
+	 description={\`e un termine inventato da Darrell Huff nel suo libro \emph{``How to lie with statistics''} (``Come mentire con la statistica", pubblicato nel 1954). Viene usato per descrivere tutti quei casi un cui le \gls{statistical_science} vengono usate in modo fuorviante, sia accidentalmente (per esempio, presentando la \gls{mean} quando riportare la \gls{sample_median} sarebbe pi\`u appropriato) ma anche volontariamente (per esempio, presentando un \gls{istogramma} o un \gls{bar_chart} che partono da una posizione arbitraria sull'asse delle ordinate per accentuare una differenza tra i valori raccolti).  Vedi anche \gls{framing}.},
 	 sort={statisticulation}
 }
 
@@ -96,15 +96,8 @@
 \newglossaryentry{sample}
 {
 	 name={Campione},
-	 description={\`e un sottoinsieme di una \gls{population} di elementi a cui siamo interessati in un determinato momento. Per tecniche di campionamento vedi: \gls{campionamento_opportunistico} e \gls{campionamento_casuale_semplice}. Vedi anche: \gls{sampling_bias}.},
+	 description={\`e un sottoinsieme di una \gls{population} di elementi a cui siamo interessati in un determinato momento. Per tecniche di campionamento vedi: \gls{campionamento_opportunistico} e \gls{campionamento_casuale_semplice}. A seconda del \gls{esperimental_design} si pu\`o trattare di \gls{independent_sample} o \gls{paired_sample}. Vedi anche: \gls{sampling_bias}.},
 	 sort={campione}
-}
-
-\newglossaryentry{sample_size}
-{
-	 name={Dimensione campionaria},
-	 description={o numerosit\`a, \`e il numero di osservazioni che compongono un \gls{sample}.},
-	 sort={dimensione campionaria}
 }
 
 \newglossaryentry{independent_sample}
@@ -119,6 +112,13 @@
 	 name={Campioni dipendenti},
 	 description={o appaiati, sono due o pi\`u \gls{sample} caratterizzati dal fatto che ciascuna osservazione di un campione abbia un corrispettivo (appaiato) begli altri. Nel caso si tratti dello stesso campione in due condizioni diverse (per esempio, prima o dopo un trattamento) o dopo un intervallo temporale (per esempio, gli stessi individui doo un certo numero di anni), si parla di auto-appaiamento. Le osservazioni possono anche essere in individui diversi, ma accoppiati per condizioni salienti (per esempio, et\`a, sesso, indice di massa corporea, stato socioeconomico, $\dots$, vedi \gls{case_control}). Vedi anche: \gls{independent_sample}.},
 	 sort={campioni dipendenti}
+}
+
+\newglossaryentry{sample_size}
+{
+	 name={Dimensione campionaria},
+	 description={o numerosit\`a, \`e il numero di osservazioni che compongono un \gls{sample}.},
+	 sort={dimensione campionaria}
 }
 
 \newglossaryentry{population_distribution}
@@ -150,10 +150,19 @@
 	 sort={campionamento casuale semplice}
 }
 
+
+\newglossaryentry{sampling_frame}
+{
+	 name={Finestra di campionamento},
+	 description={\`e l'elenco di tutti gli individui in una \gls{population} da cui si scelgono soggetti che faranno parte del \gls{sample}.},
+	 sort={finestra di campionamento}
+}
+
+
 \newglossaryentry{sampling_bias}
 {
 	 name={Sampling bias},
-	 description={o bias di campionamento, si verifica quando un \gls{sample} viene raccolto in modo tale che alcuni membri della \gls{population} abbiano una probabilit\`a di campionamento diversa rispetto ad altri. Si ottiene cos\`i un campione distorto e non rappresentativo della popolazione.},
+	 description={o distorsione sistematica di campionamento si verifica quando un \gls{sample} viene raccolto in modo tale che alcuni membri della \gls{population} abbiano una probabilit\`a di campionamento diversa rispetto ad altri. Si ottiene cos\`i un campione distorto e non rappresentativo della popolazione.},
 	 sort={Ssampling bias}
 }
 
@@ -169,6 +178,14 @@
 	 name={Volunteer bias},
 	 description={occorre quando i volontari hanno caratteristiche diverse rispetto alla \gls{population} che si vuole studiare. Per esempio, \`e stato dimostrato che i volontari tendono ad avere uno stato socioeconomico pi\`u alto, e che le donne sono pi\`u propense a partecipare agli studi che gli uomini. Vedi \gls{sampling_bias}.},
 	 sort={volunteer bias}
+}
+
+
+\newglossaryentry{nonresponse_bias}
+{
+	 name={Non-response bias},
+	 description={o bias di mancata risposta, occorre quando il \gls{sample}, anche scelto in modo casuale, per esempio usando un \gls{campionamento_casuale_semplice}, diventa non rappresentativo perch\`e i soggetti che non rispondono posseggono tutti le stesse caratteristiche (per esempio, et\`a, sesso, condizione socioeconomica), rendendolo il campione sistematicamente differente dalla \gls{population} che vuole essere rappresentata. Vedi \gls{sampling_bias}.},
+	 sort={nonresponse bias}
 }
 
 \newglossaryentry{Lost_to_follow_up_bias}
@@ -842,17 +859,25 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 % Epidemiology
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\newglossaryentry{esperimental_design}
+{
+	 name={Disegno sperimentale},
+	 description={o piano sperimentale o disegno statistico degli esperimenti, \`e una procedura per la pianificazione di un esperimento scientifico, prodotto prima dell'esecuzione dell'esperimento stesso, che cerca di garantire che i dati raccolti e le analisi condotte possano essere analizzati per fornire conclusioni valide e oggettive, e in cui il ricercatore decide come rispondere alla domanda di ricerca. Questo include, \emph{i)}~verificare se esiste una collezione di dati di alta qualit\`a (vedi \gls{sampling_bias}) che pu\`o essere riutilizzata, \emph{ii)}~decidere e giustificare perch\'e sia necessario raccogliere nuove collezioni di dati, e quali dati siano necessari e come debbano essere raccolti (via questionario, analisi strumentali, \dots), \emph{iii)}~decidere e giustificare da quale \gls{population} i dati verranno raccolti, tenendo anche in considerazione considerazione etiche e logistiche (per esempio, questionari che richiedano un tempo troppo lungo per essere completati), \emph{iv)}~decidere e giustificare quando e dove la raccolta dati debba iniziare e finire, \emph{v)}~decidere e giustificare i metodi analitici che verranno utilizzati, e \emph{vi)}~definire delle probabili risposte alla domanda di ricerca (\gls{hypothesis}).},
+	 sort={disegno sperimentale}
+}
+
+
 \newglossaryentry{rct}
 {
 	 name={Randomized controlled trial (RCT)},
-	 description={o studio clinico randomizzato, \`e un disegno sperimentale in cui un gruppo di individui viene assegnato in modo casuale a diversi trattamenti (a differenza di uno \gls{observational_study}), assicurando che i diversi gruppi (bracci dell'esperimento) siano ragionevolmente bilanciati per fattori conosciuti e sconosciuti. Se al termine dell'esperimento si osserva una differenza statisticamente significativa (vedi: \gls{alpha}) tra i gruppi (come misurato da un \gls{P-value}) allora si pu\`o ragionevolmente concludere che essa sia dovuta al trattamento. Vedi anche: \gls{causation}.},
+	 description={o studio clinico randomizzato, \`e un \gls{esperimental_design} in cui un gruppo di individui viene assegnato in modo casuale a diversi trattamenti (a differenza di uno \gls{observational_study}), assicurando che i diversi gruppi (bracci dell'esperimento) siano ragionevolmente bilanciati per fattori conosciuti e sconosciuti. Se al termine dell'esperimento si osserva una differenza statisticamente significativa (vedi: \gls{alpha}) tra i gruppi (come misurato da un \gls{P-value}) allora si pu\`o ragionevolmente concludere che essa sia dovuta al trattamento. Vedi anche: \gls{causation}.},
 	 sort={randomized controlled trial}
 }
 
 \newglossaryentry{observational_study}
 {
 	 name={Studio osservazionale},
-	 description={\`e un tipo di studio in cui un gruppo di individui viene osservato senza alcun intervento da parte dello sperimentatore (a differenza di un \gls{rct}) per individuare possibili fattori di rischio di una malattia o outcome di interesse. Questo tipo di studi permette di stabilire una \gls{correlation} tra il fattore di rischio individuato e la malattia/outcome, ma non \`e possibile concludere che ci sia un nesso di \gls{causation}.},
+	 description={\`e un tipo di studio o \gls{esperimental_design} in cui un gruppo di individui viene osservato senza alcun intervento da parte dello sperimentatore (a differenza di un \gls{rct}) per individuare possibili fattori di rischio di una malattia o outcome di interesse. Questo tipo di studi permette di stabilire una \gls{correlation} tra il fattore di rischio individuato e la malattia/outcome, ma non \`e possibile concludere che ci sia un nesso di \gls{causation}.},
 	 sort={Studio osservazionale}
 }
 
@@ -907,7 +932,7 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 \newglossaryentry{blinding}
 {
 	 name={Blinding},
-	 description={o cecit\`a, \`e la strategia in cui le persone coinvolte in un \gls{rct} non conoscono a quale braccio un paziente sia stato assegnato. Il blinding permette di non creare bias nella misurazione dell'evento di interesse. Single blinding avviene quando il paziente non conosce a quale braccio \`e stato assegnato; double blinding avviene quando anche le persone che monitorano il paziente non conoscono questa informazione; triple blinding avviene quando anche gli statistici che analizzano i dati e le persone che monitorano il trial non conoscono a quale trattamento corrisponda ciascun braccio. },
+	 description={o cecit\`a, \`e la strategia in cui le persone coinvolte in un \gls{rct} non conoscono a quale braccio un paziente sia stato assegnato. Il blinding permette di non creare bias nella misurazione dell'evento di interesse. Single blinding avviene quando il paziente non conosce a quale braccio \`e stato assegnato; double blinding avviene quando anche le persone che monitorano il paziente non conoscono questa informazione; triple blinding avviene quando anche gli statistici che analizzano i dati e le persone che monitorano il trial non conoscono a quale trattamento corrisponda ciascun braccio. Viene definita dal \gls{esperimental_design}.},
 	 sort={blinding}
 }
 
@@ -1009,6 +1034,8 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 \subsection*{Cenni di epidemiologia}
 
+\noindent \gls{esperimental_design}
+
 \noindent \gls{rct}
 
 \noindent \gls{blinding}
@@ -1063,6 +1090,8 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 \noindent \gls{Lost_to_follow_up_bias}
 
 \noindent \gls{ascertainment bias}
+
+\noindent \gls{nonresponse_bias}
 
 
 

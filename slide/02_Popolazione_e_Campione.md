@@ -585,7 +585,6 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 </div>
 </div>
 
-
 ---
 ## Strategie di campionamento
 
@@ -953,6 +952,73 @@ updateButton_exercise_5();
 </div>
 
 ---
+## Dalla popolazione...
+
+<center>
+<img src="./img/sampling/Beinasco.png" img height="550px" border="4px"/>
+<center>
+
+---
+## ... attraverso la finestra di campionamento 
+
+<center>
+<img src="./img/sampling/Elenco_page1.png" img height="500px" border="4px"/>
+
+<img src="./img/sampling/Elenco_page2.png" img height="500px" border="4px"/>
+</center>
+
+---
+## ... al campione
+
+
+<center>
+<img src="./img/sampling/Elenco_page1_sampled.png" img height="500px" border="4px"/>
+
+<img src="./img/sampling/Elenco_page2_sampled.png" img height="500px" border="4px"/>
+</center>
+
+
+---
+## Abbiamo finito?
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+- chi non &egrave; eleggibile?
+
+</div>
+<div>
+
+<span style="display:block; height:50px;"></span>
+
+<img src="./img/sampling/Ineligible.png" img height="200px" border="4px"/>
+
+</div>
+</div>
+
+<!-- An ineligible sampling unit is an individual or entity selected through a sampling process but does not meet the specific eligibility criteria for the survey or study. These units are identified during data collection, often through a screening process, and are then removed from the sample so they do not skew results. Reasons for ineligibility include being outside a geographic boundary, failing to meet demographic requirements (e.g., age), or being a business when the survey targets individuals -->
+
+---
+## Abbiamo finito?
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+- chi non &egrave; eleggibile?
+- chi non risponde?
+
+</div>
+<div>
+
+
+</div>
+</div>
+
+---
 ## Bias nella selezione del campione
 
 <div class="columns">
@@ -1153,7 +1219,52 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 - Survivor bias
 - Volunteer bias
 - Lost to follow up bias
+- Non-response bias
+
+
+<!-- Faccio domande molto personali (uso di cannabis) 
+
+Surveys asking for personal, legal, or other sensitive information are prone to non-response bias, simply because there is some information respondents don’t feel comfortable disclosing.
+-->
+
+
+---
+## Bias nella selezione del campione
+
+<span style="display:block; height:1px;"></span>
+
+- Survivor bias
+- Volunteer bias
+- Lost to follow up bias
+- Non-response bias
 - $\dots$
+
+---
+## Campioni indipendenti & dipendenti
+
+<span style="display:block; height:60px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/independent_vs_paired.png" img height="300px" border="0px"/>
+</center>
+
+<!-- Sino ad ora abbiamo lavorato su Campioni indipendenti: non vi è relazione tra osservazioni appartenenti a campioni diversi
+
+Esistiono per&ograve; anche campioni appaiati, in cui dati di un campione sono associati con quelli dell’altro. Ad ogni osservazione nel primo gruppo corrisponde un’osservazione nel secondo
+
+Indipendenti> peso nei pazienti diabetici e nei sani
+Appaiati: peso nei pazienti diabetici alla diagnosi e dopo 10 anni -->
+
+---
+## Campioni indipendenti & dipendenti
+
+<span style="display:block; height:60px;"></span>
+
+<center>
+<img src="./img/hypothesis_testing/independent_vs_paired_2.png" img height="300px" border="0px"/>
+</center>
+
+<!-- I capioni appaiati possono anche essere essere persone diverse ma matchate per caratteristiche salienti (eta', sesso, peso corporeo, ...)  -->
 
 ---
 ### Cosa abbiamo imparato in questa lezione?
@@ -1166,5 +1277,6 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 - Il campione &egrave; un sotto insieme (rappresentativo?) della popolazione
 - Pi&ugrave; un campione &egrave; rappresentativo della popolazione, pi&ugrave; le nostre conclusioni sono robuste
 - Anche campioni rappresentativi (casuali) possono soffrire di bias
+- Esistono diversi disegni sperimentali
 
 </div>
