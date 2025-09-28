@@ -30,8 +30,8 @@ section {
 
 <span style="display:block; height:50px;"></span>
 
-- Saper definire cos'&egrave; una variabile
-- Sapere cosa causa la variabilit&agrave; di un'osservazione
+- Definire cos'&egrave; una variabile
+- Definire quali sono le cause della variabilit&agrave; di un'osservazione
 - Conoscere le differenze tra i diversi tipi di variabile
 
 ---
@@ -79,10 +79,10 @@ Un dato corrisponde a un'informazione su un membro di una popolazione (sesso, al
 <span style="display:block; height:1px;"></span>
 
 - sono imperfette: non sempre misurano quello che ci interessa 
-  - conoscenza su una materia $\neq$ voto all'esame
-  - benessere di un Paese $\neq$ quanto sei felice da 1 a 10
+  - conoscenza di una materia $\neq$ voto all'esame
+  - benessere di un Paese $\neq$ prodotto interno lordo
 
-* variano: da una persona all’altra, da un momento all’altro, ...,  e apparentemente lo fanno in modo casuale
+* variano: da una persona all’altra, da un momento all’altro, $\dots$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e lo fanno in modo apparentemente casuale
 
 
 <!-- Proxy: chiedendo alla gente quanto si sentisse felice la settimana
@@ -96,7 +96,7 @@ Questa variabilita' dipende sia da fattori conosciuti o conoscibili sia da effet
  -->
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave;?
+## Da cosa dipende questa variabilit&agrave;?
 
 <div style="font-size: 85%">
 
@@ -106,8 +106,7 @@ Questa variabilita' dipende sia da fattori conosciuti o conoscibili sia da effet
 
 <img src="./img/data/head_circiference_doll.png" img height="350px" align="left" border="4px"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati variano?
 
 </div>
 
@@ -119,30 +118,7 @@ Some nurses may have misread the tape measure.
 The doll’s head changed size between measurements. -->
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave;?
-
-<div style="font-size: 85%">
-
-:dart: &nbsp;&nbsp; In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cranica di un bambolotto che simula un  bambino di un anno
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-<img src="./img/data/head_circiference_doll.png" img height="350px" align="left" border="4px"/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
-
-</div>
-
-<div style="font-size: 85%" align="right">
-
-<br/> Errori di misurazione
-
-</div>
-
----
-## Perch&eacute; c'&egrave; variabilit&agrave;?
+## Da cosa dipende questa variabilit&agrave;?
 
 <div style="font-size: 85%">
 
@@ -153,8 +129,7 @@ The doll’s head changed size between measurements. -->
 
 <img src="./img/data/head_circiference_children.png" img height="350px" align="left" border="4px"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati variano?
 
 </div>
 
@@ -170,30 +145,6 @@ Give the nurses a lot of practice measuring different dolls’ heads.
 Train the nurses to use a consistent degree of tension in the tape measure.
 -->
 
----
-## Perch&eacute; c'&egrave; variabilit&agrave;?
-
-<div style="font-size: 85%">
-
-:dart: &nbsp;&nbsp; Nello stesso studio, un pediatria misura la circonferenza cranica di 35
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bambini di un anno
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-<img src="./img/data/head_circiference_children.png" img height="350px" align="left" border="4px"/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
-
-</div>
-
-<div style="font-size: 85%" align="right">
-
-<br/>
-Differenze individuali
-
-</div>
-
 <!-- Anche qui rimangono errori di misurazione -->
 
 ---
@@ -202,14 +153,13 @@ Differenze individuali
 <div style="font-size: 85%">
 
 :dart: &nbsp;&nbsp; Nello stesso studio, lo stesso pediatra misura altri 35 bambini di un 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che vivono in famiglie di stato socioeconomico molto basso
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che sono per&ograve; esposti al fumo passivo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 <img src="./img/data/head_circiference_children_groups.png" img height="350px" align="left" border="4px"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati variano?
 
 </div>
 
@@ -223,40 +173,18 @@ Differenze individuali
 <!-- Anche qui rimangono errori di misurazione e variabilita' individuale -->
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave;?
-
-<div style="font-size: 85%">
-
-:dart: &nbsp;&nbsp; Nello stesso studio, lo stesso pediatra misura altri 35 bambini di un 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che vivono in famiglie di stato socioeconomico molto basso
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-<img src="./img/data/head_circiference_children_groups.png" img height="350px" align="left" border="4px"/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A cosa &egrave; dovuta questa 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabilit&agrave;?
-
-</div>
-
-<div style="font-size: 85%" align="right">
-
-<br/>
-Diversa condizione sperimentale?
-
-</div>
-
----
 ## Perch&eacute; dobbiamo conoscere la differenza?
 
+
+<span style="display:block; height:2px;"></span>
+
 <div style="font-size: 85%">
 
-:dart: &nbsp;&nbsp; Vedremo come determinare se la variabilit&agrave; &egrave; generata dalle condizioni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sperimentali o se &egrave; generata da differenze individuali e/o da errori di 
+:dart: &nbsp;&nbsp; Vedremo come determinare se la variabilit&agrave; dipende dalle condizioni 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sperimentali o se dipende da differenze individuali e/o da errori di 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; misurazione
 
-
-<span style="display:block; height:60px;"></span>
+<span style="display:block; height:20px;"></span>
 
 <center>
 <img src="./img/data/head_circiference_doll.png" img height="190px"  border="4px"/> 
@@ -264,6 +192,43 @@ Diversa condizione sperimentale?
 <img src="./img/data/head_circiference_children_groups.png" img height="190px" border="4px"/>
 </center>
 
+
+---
+## Variabili di esito e di esposizione<sup>*</sup>
+
+<span style="display:block; height:2px;"></span>
+
+- la variabile di cui studiamo la variazione  $\longrightarrow$ variabile di esito
+  - Esempio: la circonferenza cranica
+
+- le cause della variabilit&agrave; $\longrightarrow$ variabili di esposizione
+  - Esempio: il fumo passivo
+
+<span style="display:block; height:90px;"></span>
+
+<div style="font-size: 65%">
+
+<sup>*</sup> o dipendenti e indipendenti, o di risposta ed esplicative  o (in uno studio caso-controllo), stato e fattore di rischio. In uno studio clinico randomizzato, l'esposizione &egrave; il gruppo di trattamento.
+
+</div>
+
+<!-- In order to choose appropriate data displays and statistical methods, it is very
+important to distinguish between outcome and exposure variables, in addition to
+identifying the types of each of the variables in the data set. The outcome variable
+is the variable that is the focus of our attention, whose variation or occurrence we
+are seeking to understand. In particular we are interested in identifying factors, or
+exposures, that may influence the size or the occurrence of the outcome variable.
+Some examples are given in Table 2.4. The purpose of a statistical analysis is to
+quantify the magnitude of the association between one or more exposure variables
+and the outcome variable
+
+
+Outcome variable -> Exposure variable
+Response variable -> Explanatory variable
+Dependent variable -> Independent variable
+y-variable -> x-variable
+Case–control group -> Risk factor/Treatment group
+ -->
 
 ---
 ## I tipi di variabile
@@ -432,6 +397,8 @@ Categoriche si dividono in 2 classi
 <span style="display:block; height:170px;"></span>
 
 
+
+
 <div style="font-size: 50%">
 	
 <br/><br/><br/> Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
@@ -453,7 +420,7 @@ Dopo che lo hanno fatto, farli votare e discutere
 
 Lactate dehydrogenase, dichotomized according to the upper limit of normal for each centre.
 -->
-
+ 
 ---
 ### Esercizio #2
 
@@ -517,8 +484,10 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 </div>
 </div>
 
+
 </div>
 </div>
+
 
 ---
 ### Esercizio #4 
@@ -539,6 +508,7 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 
 </div>
+
 
 ---
 ## Una sola variabile, tanti tipi
@@ -685,15 +655,15 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <span style="display:block; height:60px;"></span>
 
 ---
-### Cosa abbiamo imparato in questa lezione?
+### Cosa abbiamo imparato?
 
 <!-- <span style="display:block; height:px;"></span> -->
 
 <div style="font-size: 90%">
 
-- Una caratteristica di interesse viene codificata in variabili
-- Le differenze che esistono tra le osservazioni (variabilit&agrave;) dipende sia da fattori conosciuti o conoscibili (differenze individuali, condizioni sperimentali, ...) sia da effetti casuali (random noise, per esempio errori di misurazione)
-- Le variabili sono di diversi tipi, a seconda della caratteristica che vanno a rappresentare
-- Variabili numeriche possono essere discretizzate (quindi trasformate in variabili categoriche)
+- Le variabili descrivono delle caratteristiche di interesse
+- Le differenze che esistono tra le osservazioni (variabilit&agrave;) dipendono sia da fattori noti o conoscibili (come le differenze individuali e le condizioni sperimentali), sia da effetti casuali (rumore statistico, come gli errori di misurazione)
+- Le variabili possono essere di diverso tipo, a seconda della caratteristica che descrivono
+- Le variabili numeriche possono essere discretizzate (quindi trasformate in variabili categoriche)
 
 </div>
