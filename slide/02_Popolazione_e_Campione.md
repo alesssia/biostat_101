@@ -32,9 +32,9 @@ section {
 
 <!-- <div style="font-size: 90%"> -->
 
-- Conoscere le differenze tra popolazione e campione
+- Definire correttamente popolazione e campione
 - Conoscere le due maggiori strategie di campionamento
-- Individuare distorsioni sistemistiche (o *bias*) nei campioni
+- Individuare distorsioni sistematiche (o *bias*) nei campioni
 
 <!-- </div> -->
 
@@ -61,7 +61,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (E
  vi) definire delle probabili risposte alla domanda di ricerca (ipotesi) -->
 
 --- 
-## Popolazione *vs*  &nbsp;campione
+## Popolazione *vs*  campione
 
 <span style="display:block; height:2px;"></span>
 
@@ -82,7 +82,7 @@ Altro svantaggio , e b) non e' possibile raccogliere tutte le informazioni possi
 -->
 
 ---
-## Popolazione *vs*  &nbsp;campione (nella  clinica)
+## Popolazione *vs*  campione (nella  clinica)
 
 <span style="display:block; height:2px;"></span>
 
@@ -588,19 +588,18 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 ---
 ## Strategie di campionamento
 
-<span style="display:block; height:30px;"></span>
+<span style="display:block; height:2px;"></span>
 
 <div style="font-size: 90%">
 
 :dart: &nbsp;&nbsp;&nbsp; Un **campione di convenienza** &egrave; un campione estratto da una
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  parte della popolazione a cui abbiamo un facile accesso e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  che potrebbe non rappresentarla nella sua interezza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  parte della popolazione facilmente accessibile che potrebbe 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; per&ograve;  non rappresentarla adeguatamente
 
 
-<span style="display:block; height:1px;"></span>
+<span style="display:block; height:50px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp; Tutti i pazienti che si presentano in uno specifico ambulatorio, 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in uno specifico ospedale, in un dato periodo di tempo
+* Esempio: tutti i pazienti che si presentano in uno specifico ambulatorio, in uno specifico ospedale, in un dato periodo di tempo
 
 
 </div>
@@ -618,7 +617,7 @@ Chiedere le intenzioni di voto alle prime 10 pagine di utenti con il numero di t
 ---
 ## Strategie di campionamento
 
-<span style="display:block; height:30px;"></span>
+<span style="display:block; height:2px;"></span>
 
 <div style="font-size: 90%">
 
@@ -626,10 +625,9 @@ Chiedere le intenzioni di voto alle prime 10 pagine di utenti con il numero di t
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popolazione hanno la stessa probabilit&agrave; di venire inclusi 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel campione
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:50px;"></span>
 
-:pushpin: &nbsp;&nbsp;&nbsp; Un sottoinsieme estratto in modo casuale dall'elenco dei 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti con la malattia
+* Esempio: un sottoinsieme estratto casualmente dall’elenco dei pazienti affetti dalla malattia
 
 <!-- Nel campionamento probabilistico ogni unità della popolazione in studio ha una probabilità NOTA di essere estratta (non distorto o viziato) 
 
@@ -952,7 +950,7 @@ updateButton_exercise_5();
 </div>
 
 ---
-## Dalla popolazione...
+## Nella pratica: dalla popolazione...
 
 <center>
 <img src="./img/sampling/Beinasco.png" img height="550px" border="4px"/>
@@ -1071,7 +1069,7 @@ e l’errore logico che si commette quando si prendano in considerazione solo gl
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *"Una volta gli edifici erano pi&ugrave; belli/resistenti"*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *"Non capisco perch&eacute; oggigiorno bisogni fare X, io non l'ho mai  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fatto e sono ancora qui a raccontarlo"*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fatto eppure sono ancora qui"*
 
 <div>
 
@@ -1115,11 +1113,12 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 
 <div style="font-size: 90%">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Un insegnante si chiede se una serie di esercitazioni migliora il 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rendimento agli esami. Invita quindi gli studenti interessati a 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iscriversi. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Un insegnante si chiede se delle esercitazioni possano  migliorare il 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; agli esami. Organizza quindi delle lezioni aggiuntive e invita gli  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; studenti interessati a iscriversi. 
 
 </div>
+
 
 <!-- Self-selection bias is likely because students who are more serious about school are more likely to sign up  -->
 
@@ -1145,9 +1144,10 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 <div style="font-size: 80%">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che queste 30 persone...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza. Trenta pazienti non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cosa possiamo concludere se vi dico   che queste 30 persone...
+
 </div>
 
 ---
@@ -1162,13 +1162,14 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 <div style="font-size: 80%">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che queste 30 persone...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza. Trenta pazienti non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cosa possiamo concludere se vi dico   che queste 30 persone...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
 
 </div>
 
+
 ---
 ## Bias nella selezione del campione
 
@@ -1181,9 +1182,9 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 <div style="font-size: 80%">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che queste 30 persone...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza. Trenta pazienti non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cosa possiamo concludere se vi dico   che queste 30 persone...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - hanno smesso di prendere il farmaco?
 
@@ -1201,9 +1202,9 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 <div style="font-size: 80%">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una ditta sta valutando l'efficacia di un nuovo farmaco su una corte di 100 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza, 30 dei quali non si 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  Cosa concludiamo sul farmaco se vi dico  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che queste 30 persone...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pazienti oncologici reclutati in un certo di eccellenza. Trenta pazienti non si 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano alla visita di controllo.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cosa possiamo concludere se vi dico   che queste 30 persone...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sono morte?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - hanno smesso di prendere il farmaco?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -  sono ritornate alla loro citt&agrave; di origine?
@@ -1267,7 +1268,7 @@ Appaiati: peso nei pazienti diabetici alla diagnosi e dopo 10 anni -->
 <!-- I capioni appaiati possono anche essere essere persone diverse ma matchate per caratteristiche salienti (eta', sesso, peso corporeo, ...)  -->
 
 ---
-### Cosa abbiamo imparato in questa lezione?
+### Cosa abbiamo imparato?
 
 <span style="display:block; height:10px;"></span>
 
