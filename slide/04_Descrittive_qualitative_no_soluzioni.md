@@ -31,9 +31,8 @@ section {
 
 <span style="display:block; height:50px;"></span>
 
-- Saper costruire e interpretare tabelle di frequenza e contingenza
-- Saper visualizzare dati categorici
-- Saper interpretare tabelle e figure in articoli scientifici
+- Riassumere i dati categorici numericamente e graficamente
+- Interpretare tabelle e figure in articoli scientifici
 
 ---
 ## Le fasi della ricerca
@@ -199,11 +198,11 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <img src="./img/descriptive/Table1_sex.png" img height="250px" border="4px"/>
 </center>
 
+
 </div>
 </div>
 
 <!-- Le frequenze relative: facilitano la percezione del peso delle modalità -->
-
 
 ---
 ## Tabelle di contingenza
@@ -225,6 +224,9 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 <!-- SPIEGARE CHE SI TRATTA DI UN RCT E COSA DIAVOLO E' UN RCT -- Useremo questo studio per costruire e capire cos'e' una tabelle di contingenza 
 
  `e una tabella a doppia entrata (con righe e colon- ne) in cui si riportano le frequenze congiunte di due variabili.
+
+ Per convenzione, le righe rappresentano le variabili di esposizione e le colonne le variabili di esito. In un RCT l'esposizione è il gruppo di trattamento.
+
 -->
 
 ---
@@ -243,10 +245,10 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 <center>
 
-|  | CBT | Standard | Totale |
+|  | Maschi | Femmine | Totale |
 | ----: | ----- | ---- | ----|
-| Maschi |  |  |  |
-| Femmine |  |  |  |
+| CBT |  |  |  |
+| Standard |  |  |  |
 | Totale |  |  |  |
 
 </center>
@@ -258,24 +260,30 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze relative usando la tabella
+:question: &nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze relative<sup>*</sup> usando la tabella
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di contingenza con le frequenze assolute appena calcolate
 
 <span style="display:block; height:1px;"></span>
 
-<center>
-<img src="./img/descriptive/Cbt_sex_abstract_numbers.png" img height="100px" border="4px"/>
-</center>
 
 <center>
 
-|  | CBT | Standard | Totale |
-| ----: | -----: | ----: | ----: |
-| Maschi |  35 |  29 | 64 |
-| Femmine | 72 |  65 | 137 |
-| Totale | 107 | 94  | 201 |
+|  | Maschi | Femmine | Totale |
+| ----: | ----- | ---- | ----|
+| CBT |  |  |  |
+| Standard |  |  |  |
+| Totale |  |  |  |
 
 </center>
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+
+<div style="font-size: 70%">
+
+<sup>*</sup> Per convenzione si calcolano le frequenze per riga
 
 </div>
 
@@ -287,35 +295,28 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 :question: &nbsp;&nbsp;&nbsp; La proporzione di uomini e donne nel campione &egrave; simile?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
-:question: &nbsp;&nbsp;&nbsp; Confrontando i due bracci, la proporzione di uomini e donne &egrave; simile?
+:question: &nbsp;&nbsp;&nbsp; La proporzione di uomini nei due bracci &egrave; simile?
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp;&nbsp;&nbsp;&nbsp; c) Servono pi&ugrave; elementi per decidere
 
-<center>
 
-|  | CBT | Standard | Totale |
-| ----: | -----: | ----: | ----: |
-| Maschi |  35 (32.7%) |  29 (30.9%) | 64  (31.8%)|
-| Femmine | 72 (67.3%) |  65 (69.1%) | 137 (68.2%) |
-| Totale | 107 | 94  | 201 |
-
-</center>
 
 <div>
+
 
 ---
 ### Esercizio #5
 
 <div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia o altro (per esempio laboratori o altri servizi 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ospedalieri) sono stati individuati 122, 107, e 51 astemi. 
+:question: &nbsp;&nbsp;&nbsp; Tra 279, 230 e 130 professionisti sanitari che lavorano nei reparti di
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; medicina, chirurgia e in altri settori (ad esempio laboratori o altri
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; reparti di  servizi ospedalieri), sono stati individuati 122, 107 e 51 astemi
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le corrette frequenze assolute
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completa la tabella con le  frequenze assolute
 
 <center>
 
-| Reparto/Astemio | Si | No  | Totale |
+|  | Astemio | Non astemio  | Totale |
 | ----: | -----: | ----: | ----: |
 | Medicina |   |    |    |
 | Chirurgia |   |    |  |
@@ -344,53 +345,31 @@ Espie. CA, *et al.*, *Randomized Clinical Effectiveness Trial of Nurse-Administe
 </div>
 
 
+<!-- Row exposure (il reparto) colonna ourcomes (essere avvinazzati o meno) -->
+
 ---
 ### Esercizio #6
 
-<div style="font-size: 90%">
+<div style="font-size: 80%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di astemi nei diversi reparti?
-
-<br/>
-
-<center>
-
-| Reparto/Astemio | Si | No  | Totale |
-| ----: | -----: | ----: | ----: |
-| Medicina | 122  |  157  |  279  |
-| Chirurgia | 107  | 123   | 230 |
-| Altro | 51 |  79 | 130 |
-| Totale | 280 | 359  | 639 |
-
-</center>
-
-</div>
-
-
----
-### Esercizio #7
-
-<div style="font-size: 90%">
-
-:question: &nbsp;&nbsp;&nbsp; Con quale percentuale si distribuiscono gli astemi (o meno) 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nei diversi reparti?
+:question: &nbsp;&nbsp;&nbsp;  Calcola ora le  frequenze relative
 
 <br/>
 
 <center>
 
-| Reparto/Astemio | Si | No  | Totale |
+|  | Astemio | Non astemio  | Totale |
 | ----: | -----: | ----: | ----: |
-| Medicina | 122  |  157  |  279  |
-| Chirurgia | 107  | 123   | 230 |
-| Altro | 51 |  79 | 130 |
-| Totale | 280 | 359  | 639 |
-
-</center>
+| Medicina |   |    |    |
+| Chirurgia |   |    |  |
+| Altro |  |   |  |
+| Totale |  |   |  |
 
 </center>
 
 </div>
+
+<span style="display:block; height:40px;"></span>
 
 
 ---
@@ -801,15 +780,15 @@ round(prop.table(freq_a)*100, 0)
  -->
 
 ---
-### Cosa abbiamo imparato in questa lezione?
+### Cosa abbiamo imparato?
 
 <span style="display:block; height:1px;"></span>
 
 <div style="font-size: 90%">
 
-- Le variabili categoriche possono essere rappresentate con le loro frequenze, assolute o relative
-- Tabelle di frequenze e di contingenza ci aiutano a paragonare, a colpo d'occhio, due o pi&ugrave; variabili
-- Le variabili categoriche possono essere rappresentate graficamente in diversi modi, ma bar chart sono da preferire, seguiti da waffle chart
+- Le variabili categoriche possono essere rappresentate numericamente con le loro frequenze (assolute o relative)
+- Le tabelle di frequenze e di contingenza ci aiutano a valutare le modalit&agrave; di una o pi&ugrave; variabili
+- Le variabili categoriche possono essere rappresentate graficamente in diversi modi, ma i bar chart sono da preferire, seguiti dai waffle chart
 
 </div>
 
