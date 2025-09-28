@@ -22,9 +22,21 @@ section {
 </style>
 
 
+### Modulo di
+# Statistica Medica
+### &nbsp;
+###### alessia.visconti@unito.it
+
+---
+<span style="display:block; height:200px;"></span>
+
 <!-- ### Lezione 1  -->
+<center>
+
 # Introduzione
 ## &nbsp;
+
+</center>
 
 ---
 ## Perch&eacute; siamo qui?
@@ -49,7 +61,7 @@ section {
   }
 </style>
 
-<div align="right"> Think: &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button> </div>
+<div align="right"> Pensa (Think): &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button> </div>
 
 <script>
 <!--
@@ -138,7 +150,7 @@ updateButton_think();
   }
 </style>
 
-<div align="right"> Pair: &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button></div>
+<div align="right"> Scambia (Pair): &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button></div>
 
 <script>
 <!--
@@ -227,7 +239,7 @@ updateButton_pair();
   }
 </style>
 
-<div align="right"> Share: &nbsp;&nbsp;&nbsp; <button id="countdown_share"></button></div>
+<div align="right"> Condividi (Share): &nbsp;&nbsp;&nbsp; <button id="countdown_share"></button></div>
 
 <script>
 <!--
@@ -319,7 +331,7 @@ Cosa vuol dire "fino al"? Se eliminasse il 10% dei batteri e raggiungesse il 20%
 
 <div style="font-size: 50%" align="right">
 
-<br/> Sies, H., *A new parameter for sex education*. Nature, 1988, doi:10.1038/332495a0
+<br/> Sies, H., *A new parameter for sex education*. Nature, 1988, [doi:10.1038/332495a0](https://www.nature.com/articles/332495a0)
 
 </div>
 
@@ -336,12 +348,12 @@ Artefatto dovuto alla doppia scala, vado a trasformare le due distribuzioni empi
 
 <span style="display:block; height:0px;"></span>
 
-- Le donne inglesi, che consumano grandi quantit&agrave; di latte, sviluppano alcuni tipi di tumore con 18 volte pi&ugrave; frequenza delle donne giapponesi, che raramente lo bevono
-* Solitamente i tumori si manifestano in tarda et&agrave;
-* Le donne inglesi vivono, in media, 12 anni pi&ugrave; a lungo delle donne giapponesi
+- Le donne inglesi, che consumano grandi quantit&agrave; di latte, sviluppano alcuni tipi di tumore con una frequenza 18 volte superiore rispetto alle donne giapponesi, che lo bevono raramente
+* Solitamente, i tumori si manifestano in et&agrave; avanzata
+* Le donne inglesi vivono in media 12 anni pi&ugrave; a lungo delle donne giapponesi
 
 
-<span style="display:block; height:50px;"></span>
+<span style="display:block; height:30px;"></span>
 
 <div style="font-size: 50%" align="right">
 
@@ -362,9 +374,9 @@ Correlation is not causation, Correlazione non e' causalita', "dopo di" non sign
 ---
 ## Perch&eacute; siamo qui?
 
-<span style="display:block; height:10px;"></span>
+<span style="display:block; height:0px;"></span>
 
-- perché i "numeri" (o meglio, il modo in cui sono presentati) a volte ingannano!
+- perché i "numeri" (o meglio, il modo in cui sono presentati) a volte ingannano
 
 
 <div class="columns">
@@ -399,7 +411,7 @@ The numbers have no way of speaking for themselves. We speak for them. We imbue 
 
 <span style="display:block; height:60px;"></span>
 
-- Perch&eacute; i soldati al fronte muoiono?
+- Cosa uccide i soldati al fronte?
 
 <!-- Ma i numeri non ci ingannano solo, ci permettono anche di rispondere a delle domande e prendere delle decisioni -->
 
@@ -420,10 +432,10 @@ Sapete chi e questa persona?
 
 Florence Nightingale era un'infermiera britannica che e' considerata la madre dell'infermieristica come la intendiamo oggi, un titolo che si e' guadagnato durante la guerra di Crimea, quando era sovrintendente di un ospedale di Instambul. 
 
-Appena arrivata ad Instabul, Florence, si accorge subito delle pessime condizioni di sovraffollameto e pulizia, ma oltre a cercare di mettere una pezza, pulendo e disinfettando tutto con le sue infermiere,  si mette anche a raccogliere dati, soprattutto sulle cause di morte dei soldati -->
+Appena arrivata ad Instabul, Florence, si accorge subito delle pessime condizioni di sovraffollamento e pulizia, ma oltre a cercare di mettere una pezza, pulendo e disinfettando tutto con le sue infermiere,  si mette anche a raccogliere dati, soprattutto sulle cause di morte dei soldati -->
 
 ---
-## Perch&eacute; i soldati al fronte muoiono?
+## Cosa uccide i soldati al fronte?
 
 <span style="display:block; height:1px;"></span>
 
@@ -436,7 +448,7 @@ Appena arrivata ad Instabul, Florence, si accorge subito delle pessime condizion
 Come si legge il grafico. Blu = malattie infettive, Rosso = ferite riportate in battaglia, nero = altre cause
 
 E cosa concludiamo? 
-Che migliorare le condizioni igenice (pulizia, luce, ventilazione, ...) degli ospedali, aumenta le possibilita' di salvare il paziente. 
+Che migliorare le condizioni igenice (pulizia, luce, ventilazione, ...) degli ospedali, aumenta le possibilità' di salvare il paziente. 
 
 E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e presentare i dati, e nel prendere delle decisioni basate su di essi. Insomma, grazie alla statistica. -->
 
@@ -444,15 +456,15 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 ---
 ## Perch&eacute; siamo qui?
 
-<span style="display:block; height:30px;"></span>
+<span style="display:block; height:2px;"></span>
 
-- perché i "numeri" (o meglio, il modo in cui sono presentati) a volte ingannano!
+- perché i "numeri" (o meglio, il modo in cui sono presentati) a volte ingannano
 - Perch&eacute; i "numeri" (e il modo in cui sono presentati) ci aiutano a descrivere, capire e cambiare il mondo
 
 ---
 ## Perch&eacute; siamo qui?
 
-<span style="display:block; height:30px;"></span>
+<span style="display:block; height:2px;"></span>
 
 - per imparare a leggere, comprendere e analizzare criticamente documenti scientifici o divulgativi
 - per essere in grado di effettuare ricerche che comportino l’acquisizione, l’elaborazione e l’analisi di dati
@@ -470,27 +482,17 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 
 ## La ricerca scientifica
 
-<!-- Iniziamo a spostarci piu' verso il terreno che ci interessa, ma prima facciamo un'escursus in un argomento un po' trasversale, ovvero come avviene la ricerca scientifica e che ruolo gioca la statistica -->
+<!-- Iniziamo a spostarci piu' verso il terreno che ci interessa, ma prima facciamo un'excursus in un argomento un po' trasversale, ovvero come avviene la ricerca scientifica e che ruolo gioca la statistica -->
 
 ---
-## In principio c'&egrave; sempre una domanda
-
-<div class="columns">
-<div>
+## Ci poniamo una domanda
 
 <span style="display:block; height:60px;"></span>
 
-- Perch&eacute; i soldati al fronte muoiono?
-
-</div>
-<div>
-
-
-</div>
-</div>
+- Cosa uccide i soldati al fronte?
 
 ---
-## Poi si prepara un piano di azione
+## Prepariamo un piano di azione
 
 <div class="columns">
 <div>
@@ -512,11 +514,13 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 <!-- Decido di andare in un ospedale da campo per raccogliere dati -->
 
 ---
-## Poi si raccolgono i dati
+## Raccolgiamo i dati
 
 <span style="display:block; height:1px;"></span>
 
 <img src="./img/introduction/reparto-ospedaliero-a-scutari-joseph-austin-benwell-1856-circa_b35770b5_800x481.jpg" img height="430px" align="right" border="4px"/>
+
+<span style="display:block; height:1px;"></span>
 
 <div style="font-size: 50%" align="right">
 
@@ -525,7 +529,7 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 </div>
 
 ---
-## Poi i dati vengono analizzati
+## Analizziamo i dati
 
 <span style="display:block; height:1px;"></span>
 
@@ -536,12 +540,13 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 <!-- Questo vuol dire anche andarli a presentare con altri numeri (statistiche) o con rappresentazioni grafiche, come vedremo la prossima lezione -->
 
 ---
-### Finalmente possiamo trarre delle conclusioni
+## Traiamo delle conclusioni
 
 <span style="display:block; height:1px;"></span>
 
 <img src="./img/introduction/Unknown_artist_-_Florence_Nightingale_(1820_-_1910)_at_Scutari_Hospital_in_Turkey_around_1855_-_(MeisterDrucke-1007503).jpg" img height="440px"  border="4px" align="right"/>
 
+<span style="display:block; height:0px;"></span>
 
 <div style="font-size: 50%" align="right">
 
@@ -550,7 +555,7 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 </div>
 
 <!-- E cosa concludiamo? 
-Che migliorare le condizioni igenice (pulizia, luce, ventilazione, ...) degli ospedali, aumenta le possibilita' di salvare il paziente.  -->
+Che migliorare le condizioni igenice (pulizia, luce, ventilazione, ...) degli ospedali, aumenta le possibilità' di salvare il paziente.  -->
 
 ---
 ## Le fasi della ricerca
@@ -599,7 +604,7 @@ Induttivo: vedo che diversi uomini muoiono, tutti gli uomini sono mortali,
 
 Dedittivo: per imparare una lingua prima imparo la grammatica, poi il vocabolario, poi la sintassi e poi parlo
 Induttivo: ascolto gli altri parlare e mi arrangio
-Insieme: in realta' nella vita usiamo insieme sia induttivo che deduttivom per esempio impariamo delle regole a scuola e dei modi di dire nel paese
+Insieme: in realta' nella vita usiamo insieme sia induttivo che deduttivo per esempio impariamo delle regole a scuola e dei modi di dire nel paese
 
 
 Quello che abbiamo fatto e' stato in taking particular instances and trying to work out general conclusions.
@@ -686,7 +691,7 @@ Tutti i libri sono disponibili in biblioteca.
 
 <div style="font-size: 50%" align="right">
 
-Fiorella L & Mayer R.E.,  *Learning as a Generative Activity: Eight Learning Strategies 
+Fiorella L & Mayer R.E.,  *Learning as a Generative Activity: Eight Learning Strategies
 That Promote Understanding*, Cambridge University Press, 2015
 
 </div>
@@ -703,7 +708,7 @@ Learning by mapping occurs when learners are asked to convert a text lesson into
 
 - A5, due lati <sup>(*)</sup>
 - Pu&ograve; contenere qualsiasi cosa (formule, grafici, definizioni, ...)
-- In qualsiasi forma (testo, mappe concettuali, grafici, ...)
+- In qualsiasi forma (testo, mappe concettuali, disegni, ...)
 - **Deve limitarsi a questo modulo**
 
 <span style="display:block; height:40px;"></span>
@@ -728,7 +733,7 @@ Learning by mapping occurs when learners are asked to convert a text lesson into
 
 - A5, due lati <sup>(*)</sup>
 - Pu&ograve; contenere qualsiasi cosa (formule, grafici, definizioni, ...)
-- In qualsiasi forma (testo, mappe concettuali, grafici, ...)
+- In qualsiasi forma (testo, mappe concettuali, disegni, ...)
 - **Deve limitarsi a questo modulo**
 
 <span style="display:block; height:40px;"></span>
@@ -753,8 +758,8 @@ Dovete anche portare una calcolatrice!
 
 - Riassumere
 - Costruire delle *"mappe"*
-- Self-testing (o autoverifica) <sup>&#9733;</sup>
-- Self-explaining (o autospiegazioni) <sup>&#9733;</sup>
+- Self-testing (o auto-verifica) <sup>&#9733;</sup>
+- Self-explaining (o auto-spiegazioni) <sup>&#9733;</sup>
 - ...
 
 
@@ -783,21 +788,21 @@ Self-explaining occurs when students explain the content of a lesson to themselv
 
 <div style="font-size: 93%">
 
-- Ricordate che le vostre tasse pagano delle persone reali, che conoscono benissimo l'argomento, per spiegarvi le cose
-- Ricordate che i vostri colleghi vi possono fornire un suppporto non solo "scolatico", ma anche umano
+- Le vostre tasse pagano delle persone reali, che conoscono benissimo l'argomento, per spiegarvi le cose
+- I vostri colleghi possono fornirvi un supporto non solo didattico, ma anche umano
 
 <span style="display:block; height:1px;"></span>
 
-* Non sono vietate ma vanno usate con spirito critico
-  - *"As in any fairytale, accepting magical assistance comes with risks.*"
+* Le GenAI non sono vietate, ma vanno usate con spirito critico
+  *"As in any fairytale, accepting magical assistance comes with risks.*" (Ted Underwood)
 
 </div>
 
-<span style="display:block; height:30px;"></span>
+<!-- <span style="display:block; height:1px;"></span> -->
 
-<div style="font-size: 50%" align="right">
+<div style="font-size: 90%" align="right">
 
-https://tedunderwood.com/2024/08/31/will-ai-make-us-overconfident/
+alessia.visconti@unito.it
 
 </div>
 
@@ -864,7 +869,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Molta terminologia &egrave; difficilmente traducibile in
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; modo efficace in italiano
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Si tratta solitamente di termini tecnici che 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; andremo ad spiegare in classes
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; andremo ad spiegare in classe
 
 </div>
 
@@ -1051,7 +1056,7 @@ oppure
 <span style="display:block; height:30px;"></span>
 
 
-- Fare errori non &egrave; solo normale ma anche utile
+- Fare errori non &egrave; solo normale, ma anche utile
 - Prendete ogni errore come un'opportunit&agrave; per imparare
 - Meglio sbagliare (e imparare) in classe che in altri momenti 
 
@@ -1162,17 +1167,33 @@ oppure
 
 </center>
 
----
-### Cosa abbiamo imparato in questa lezione?
+--- 
+## Codice di Comportamento
 
 <span style="display:block; height:0px;"></span>
 
 <div style="font-size: 90%">
 
-- Imparare le basi della statistica medica ci permette di interpretare i nostri dati, comunicare i nostri risultati efficacemente, capire il linguaggio della ricerca ed essere dei professionisti che lavorano seguendo le prove di efficacia
+In questo corso ci impegniamo insieme a creare un ambiente accogliente, rispettoso e favorevole all’apprendimento per tutt&#601;, indipendentemente da provenienza, identità o background personale.
+
+- Non sono tollerati atteggiamenti che escludano, intimidiscano o mettano a disagio altre persone.
+
+- Sono incoraggiati linguaggio inclusivo, rispetto dei punti di vista altrui, apertura alle critiche costruttive e attenzione al benessere collettivo della classe
+
+
+</div>
+
+---
+### Cosa abbiamo imparato?
+
+<span style="display:block; height:0px;"></span>
+
+<div style="font-size: 90%">
+
+- Imparare le basi della statistica medica ci permette di interpretare correttamente i dati, comunicare in modo efficace i risultati, comprendere il linguaggio della ricerca e adottare un approccio professionale basato sulle evidenze scientifiche
 - La statistica medica &egrave; divisa in due rami strettamente interconnessi
 - La ricerca scientifica segue  un processo circolare
 - Il processo induttivo ci permette di passare dal particolare al generale
-- Non dobbiamo aver paura a metterci in gioco
+- Non dobbiamo aver paura a metterci in gioco (con rispetto del prossimo)
 
 </div>
