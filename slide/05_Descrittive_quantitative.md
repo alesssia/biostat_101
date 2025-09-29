@@ -31,9 +31,9 @@ section {
 
 <span style="display:block; height:50px;"></span>
 
-- Saper calcolare e interpretare misure di centralit&agrave;, dispersione e correlazione
-- Saper visualizzare dati numerici
-- Saper interpretare tabelle e figure in articoli scientifici
+- Riassumere i dati numerici utilizzando misure di centralit&agrave;, dispersione e correlazione
+- Riassumere i dati numerici utilizzando rappresentazioni grafiche
+- Interpretare tabelle e figure in articoli scientifici
 
 ---
 ## Le fasi della ricerca
@@ -241,10 +241,10 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{6, 34, 40, 55, 75\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{40, 6, 75, 55, 34\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(x)= \text{ ?}$ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{6, 34, 40, 55, 175\}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{40, 6, 175, 55, 34\}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=\text{ ?}$ 
 
 </div>
@@ -349,10 +349,10 @@ updateButton_exercise_2();
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{6, 34, 40, 55, 75\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{40, 6, 75, 55, 34\}$ $\rightarrow$  $x'= \{6, 34, 40, 55, 75\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(x)=x_3=40$ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{6, 34, 40, 55, 175\}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{40, 6, 175, 55, 34\}$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=\text{ ?}$
 
 
@@ -378,10 +378,10 @@ updateButton_exercise_2();
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{6, 34, 40, 55, 75\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{40, 6, 75, 55, 34\}$ $\rightarrow$  $x'= \{6, 34, 40, 55, 75\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(x)=x_3=40$ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{6, 34, 40, 55, 175\}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{40, 6, 175, 55, 34\}$ $\rightarrow$  $y'= \{6, 34, 40, 55, 175\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=y_3=40$ 
 
 
@@ -490,7 +490,7 @@ updateButton_exercise_2();
 <script>
 <!--
 const countdown_exercise_3= document.getElementById("countdown_exercise_3");
-const seconds_exercise_3= 30; // seconds_exercise_3
+const seconds_exercise_3= 15; // seconds_exercise_3
 let timeLeft_exercise_3= seconds_exercise_3;
 let timerInterval_exercise_3= null;
 
@@ -607,10 +607,10 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le medie di questi insiemi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{6, 34, 40, 55, 75\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{40, 6, 75, 55, 34\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}} = \text{ ?}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{6, 34, 40, 55, 175\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{40, 6, 175, 55, 34\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = \text{ ?}$
 
 <div>
@@ -716,11 +716,11 @@ Vedremo piu' avanti, con le misure di dispersione, come accopagnare altri valori
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le medie di questi insiemi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{6, 34, 40, 55, 75\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right) = \frac{6 + 34 + 40 + 55 + 75}{5} = 42$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{40, 6, 75, 55, 34\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{x_{i}}\right) = \frac{40 + 6 + 75 + 55 + 34}{5} = 42$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{6, 34, 40, 55, 175\}$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{y_{i}}\right) = \frac{4 + 36 + 45 + 50 + 175}{5} = 62$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{40, 6, 175, 55, 34\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = {\frac {1}{n}}\left(\sum _{i=1}^{n}{y_{i}}\right) = \frac{40 + 6 + 175 + 55 + 34}{5} = 62$
 
 </div>
 
@@ -764,6 +764,18 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 </center>
 
 <!-- Si dice che una distribuzione sia bi- o multi-modale quando presenta due o piu` gobbe corrispondenti ai diversi valori che la moda puo` assumere nel campione.
+ -->
+
+ ---
+## La forma delle distribuzioni
+
+<span style="display:block; height:40px;"></span>
+
+<center>
+<img src="./img/descriptive/Bimodal_two_distro.png" img height="420px" border="0px"/>
+</center>
+
+<!-- Solitamente una distribuzione con piu' mode e' l'unione di due distribuzioni distinti (per esempio la circonferenza cranica dei bambini esposti o non esposti al fumo passivo, o i voti di chi ha frequentato o non ha frequentato le lezioni di statistica)
  -->
 
 ---
@@ -943,7 +955,7 @@ Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
 
 <div style="font-size: 85%" >
 
-- Competizione presso la "Mostra del Pollame e del Bestiame da Macello, Plymounth, 1907
+- Competizione presso la "Mostra del Pollame e del Bestiame da Macello, Plymounth", 1907
 - Obiettivo: indovinare il peso "lavorato" della carne macellata
 - Costo: 6 penny
 - Partecipanti: 787
@@ -2165,6 +2177,30 @@ Anche se a volte pou' essere confuso
  -->
 
 ---
+## Poligono di frequenza
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:350px;"></span>
+
+<div style="font-size: 50%">
+ 
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/visualization/Age_histogram_bin5_response_freq_poly.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+---
 ## Miami plot/Mirror histogram
 
 <div class="columns">
@@ -2340,7 +2376,7 @@ Boxplot hides the underlying distribution. Use jitter if low number of data poin
 <script>
 <!--
 const countdown_exercise_11= document.getElementById("countdown_exercise_11");
-const seconds_exercise_11= 30; // seconds_exercise_11
+const seconds_exercise_11= 15; // seconds_exercise_11
 let timeLeft_exercise_11= seconds_exercise_11;
 let timerInterval_exercise_11= null;
 
@@ -2469,7 +2505,7 @@ updateButton_exercise_11();
 <script>
 <!--
 const countdown_exercise_12= document.getElementById("countdown_exercise_12");
-const seconds_exercise_12= 30; // seconds_exercise_12
+const seconds_exercise_12= 15; // seconds_exercise_12
 let timeLeft_exercise_12= seconds_exercise_12;
 let timerInterval_exercise_12= null;
 
@@ -2597,7 +2633,7 @@ updateButton_exercise_12();
 <script>
 <!--
 const countdown_exercise_13= document.getElementById("countdown_exercise_13");
-const seconds_exercise_13= 30; // seconds_exercise_13
+const seconds_exercise_13= 15; // seconds_exercise_13
 let timeLeft_exercise_13= seconds_exercise_13;
 let timerInterval_exercise_13= null;
 
@@ -2725,7 +2761,7 @@ updateButton_exercise_13();
 <script>
 <!--
 const countdown_exercise_14= document.getElementById("countdown_exercise_14");
-const seconds_exercise_14= 30; // seconds_exercise_14
+const seconds_exercise_14= 15; // seconds_exercise_14
 let timeLeft_exercise_14= seconds_exercise_14;
 let timerInterval_exercise_14= null;
 
@@ -3021,7 +3057,7 @@ Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver a
   }
 </style>
 
-Think &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button>
+Pensa (Think) &nbsp;&nbsp;&nbsp; <button id="countdown_think"></button>
 
 <script>
 <!--
@@ -3154,7 +3190,7 @@ Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver a
   }
 </style>
 
-Pair &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button>
+Scambia (Pair) &nbsp;&nbsp;&nbsp; <button id="countdown_pair"></button>
 
 <script>
 <!--
@@ -3283,7 +3319,7 @@ Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver a
   }
 </style>
 
-Share &nbsp;&nbsp;&nbsp; <button id="countdown_share"></button>
+Condividi (Share) &nbsp;&nbsp;&nbsp; <button id="countdown_share"></button>
 
 <script>
 <!--
@@ -3670,7 +3706,7 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 <script>
 <!--
 const countdown_exercise_17= document.getElementById("countdown_exercise_17");
-const seconds_exercise_17= 30; // seconds_exercise_17
+const seconds_exercise_17= 15; // seconds_exercise_17
 let timeLeft_exercise_17= seconds_exercise_17;
 let timerInterval_exercise_17= null;
 
@@ -3790,7 +3826,7 @@ updateButton_exercise_17();
 <script>
 <!--
 const countdown_exercise_18= document.getElementById("countdown_exercise_18");
-const seconds_exercise_18= 30; // seconds_exercise_18
+const seconds_exercise_18= 15; // seconds_exercise_18
 let timeLeft_exercise_18= seconds_exercise_18;
 let timerInterval_exercise_18= null;
 
@@ -3916,7 +3952,7 @@ updateButton_exercise_18();
 <script>
 <!--
 const countdown_exercise_19= document.getElementById("countdown_exercise_19");
-const seconds_exercise_19= 30; // seconds_exercise_19
+const seconds_exercise_19= 15; // seconds_exercise_19
 let timeLeft_exercise_19= seconds_exercise_19;
 let timerInterval_exercise_19= null;
 
@@ -4046,7 +4082,7 @@ updateButton_exercise_19();
 <script>
 <!--
 const countdown_exercise_20= document.getElementById("countdown_exercise_20");
-const seconds_exercise_20= 30; // seconds_exercise_20
+const seconds_exercise_20= 15; // seconds_exercise_20
 let timeLeft_exercise_20= seconds_exercise_20;
 let timerInterval_exercise_20= null;
 
@@ -4176,7 +4212,7 @@ updateButton_exercise_20();
 <script>
 <!--
 const countdown_exercise_21= document.getElementById("countdown_exercise_21");
-const seconds_exercise_21= 30; // seconds_exercise_21
+const seconds_exercise_21= 15; // seconds_exercise_21
 let timeLeft_exercise_21= seconds_exercise_21;
 let timerInterval_exercise_21= null;
 
@@ -4307,7 +4343,7 @@ updateButton_exercise_21();
 <script>
 <!--
 const countdown_exercise_22= document.getElementById("countdown_exercise_22");
-const seconds_exercise_22= 30; // seconds_exercise_22
+const seconds_exercise_22= 15; // seconds_exercise_22
 let timeLeft_exercise_22= seconds_exercise_22;
 let timerInterval_exercise_22= null;
 
@@ -4435,7 +4471,7 @@ updateButton_exercise_22();
 <script>
 <!--
 const countdown_exercise_23= document.getElementById("countdown_exercise_23");
-const seconds_exercise_23= 30; // seconds_exercise_23
+const seconds_exercise_23= 15; // seconds_exercise_23
 let timeLeft_exercise_23= seconds_exercise_23;
 let timerInterval_exercise_23= null;
 
@@ -4971,7 +5007,7 @@ Ma i miglioramenti osservati nelle persone che non ricevono nessun principio att
 <script>
 <!--
 const countdown_exercise_25= document.getElementById("countdown_exercise_25");
-const seconds_exercise_25= 30; // seconds_exercise_25
+const seconds_exercise_25= 15; // seconds_exercise_25
 let timeLeft_exercise_25= seconds_exercise_25;
 let timerInterval_exercise_25= null;
 
@@ -5049,17 +5085,17 @@ updateButton_exercise_25();
 </div>
 
 ---
-### Cosa abbiamo imparato in questa lezione?
+### Cosa abbiamo imparato?
 
 <!-- -->
 
 <div style="font-size: 80%">
 
 - Le variabili numeriche possono essere rappresentate con misure di centralit&agrave;, dispersione e correlazione (statistiche)
-- Alcune statistiche sono "falsate" se le distribuzioni empiriche sono asimmetriche e/o includono valori estremi e  possono nascondere dettagli importanti dei dati
-- Le variabili numeriche possono essere rappresentate graficamente in diversi modi, ma alcune  possono nascondere dettagli importanti delle distribuzioni empiriche
+- Alcune statistiche possono risultare fuorvianti quando le distribuzioni empiriche sono asimmetriche, rischiando di nascondere informazioni importanti sui dati
+- Le variabili numeriche possono essere rappresentate graficamente in diversi modi, ma alcune possono celare importanti dettagli delle distribuzioni empiriche
 - Visualizzare i dati &egrave; importante per interpretarli
-- Il campione viene rappresentato con le statistiche, la popolazione con i parametri
+- Le statistiche rappresentano il campione, i parametri la popolazione
 
 </div>
 

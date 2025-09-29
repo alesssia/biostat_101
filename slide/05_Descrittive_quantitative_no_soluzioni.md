@@ -31,9 +31,9 @@ section {
 
 <span style="display:block; height:50px;"></span>
 
-- Saper calcolare e interpretare misure di centralit&agrave;, dispersione e correlazione
-- Saper visualizzare dati numerici
-- Saper interpretare tabelle e figure in articoli scientifici
+- Riassumere i dati numerici utilizzando misure di centralit&agrave;, dispersione e correlazione
+- Riassumere i dati numerici utilizzando rappresentazioni grafiche
+- Interpretare tabelle e figure in articoli scientifici
 
 ---
 ## Le fasi della ricerca
@@ -137,11 +137,11 @@ Quando il numero di osservazioni e' pari, ci sono due valori mediani, e in quest
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le mediane di questi insiemi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{6, 34, 40, 55, 75\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{40, 6, 75, 55, 34\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(x)= \text{ ?}$ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{6, 34, 40, 55, 175\}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=\text{ ?}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{40, 6, 175, 55, 34\}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{mediana}(y)=\text{ ?}$  
 
 </div>
 
@@ -253,10 +253,10 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
 
 :question: &nbsp;&nbsp;&nbsp; Quali sono le medie di questi insiemi?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{6, 34, 40, 55, 75\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{40, 6, 75, 55, 34\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {x}} = \text{ ?}$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{6, 34, 40, 55, 175\}$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{40, 6, 175, 55, 34\}$ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\bar {y}} = \text{ ?}$
 
 <div>
@@ -300,6 +300,18 @@ Viceversa, una distribuzione asimmetrica negativa `e caratterizzata da una curva
 
 <!-- Si dice che una distribuzione sia bi- o multi-modale quando presenta due o piu` gobbe corrispondenti ai diversi valori che la moda puo` assumere nel campione.
  -->
+
+  ---
+ ## La forma delle distribuzioni
+ 
+ <span style="display:block; height:40px;"></span>
+ 
+ <center>
+ <img src="./img/descriptive/Bimodal_two_distro.png" img height="420px" border="0px"/>
+ </center>
+ 
+ <!-- Solitamente una distribuzione con piu' mode e' l'unione di due distribuzioni distinti (per esempio la circonferenza cranica dei bambini esposti o non esposti al fumo passivo, o i voti di chi ha frequentato o non ha frequentato le lezioni di statistica)
+  -->
 
 ---
 ### Esercizio #5
@@ -915,6 +927,30 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 
 Anche se a volte pou' essere confuso
  -->
+
+---
+## Poligono di frequenza
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:350px;"></span>
+
+<div style="font-size: 50%">
+ 
+Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to immune checkpoint inhibition therapy and survival in patients with advanced melanoma*, BMC Cancer, 2023 doi:10.1186/s12885-023-10511-3
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/visualization/Age_histogram_bin5_response_freq_poly.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
 
 ---
 ## Miami plot/Mirror histogram
@@ -1820,17 +1856,17 @@ Ma i miglioramenti osservati nelle persone che non ricevono nessun principio att
 <span style="display:block; height:100px;"></span>
 
 ---
-### Cosa abbiamo imparato in questa lezione?
+### Cosa abbiamo imparato?
 
 <!-- -->
 
 <div style="font-size: 80%">
 
 - Le variabili numeriche possono essere rappresentate con misure di centralit&agrave;, dispersione e correlazione (statistiche)
-- Alcune statistiche sono "falsate" se le distribuzioni empiriche sono asimmetriche e/o includono valori estremi e  possono nascondere dettagli importanti dei dati
-- Le variabili numeriche possono essere rappresentate graficamente in diversi modi, ma alcune  possono nascondere dettagli importanti delle distribuzioni empiriche
+- Alcune statistiche possono risultare fuorvianti quando le distribuzioni empiriche sono asimmetriche, rischiando di nascondere informazioni importanti sui dati
+- Le variabili numeriche possono essere rappresentate graficamente in diversi modi, ma alcune possono celare importanti dettagli delle distribuzioni empiriche
 - Visualizzare i dati &egrave; importante per interpretarli
-- Il campione viene rappresentato con le statistiche, la popolazione con i parametri
+- Le statistiche rappresentano il campione, i parametri la popolazione
 
 </div>
 
