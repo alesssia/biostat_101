@@ -363,6 +363,15 @@
 	 sort={quartile}
 }
 
+
+\newglossaryentry{percentile}
+{
+	 name={Percentile},
+	 description={o centile, sono dei valori che dividono la distribuzione in 100 parti uguali. Il percentile k-esimo rappresenta il valore al di sotto del quale si trova il k\% dei dati. Il primo \gls{quartiles} corrisponde al 25esimo percentile, la \gls{sample_median} al 50esimo percentile e il terzo quartile al 75esimo percentile.},
+	 sort={percentile}
+}
+
+
 \newglossaryentry{mean}
 {
 	 name={Media},
@@ -415,16 +424,25 @@
 \newglossaryentry{istogramma}
 {
 	 name={Istogramma},
-	 description={\`e la rappresentazione grafica di una \gls{continuous_variable} soggetta ad un processo di \gls{discretizzazione}. Ciascuna classe identificata dal processo di discretizzazione viene rappresentata da una barra la cui dimensione \`e proporzionale al numero di osservazioni nella classe. Perch\'e le dimensioni delle barre siano esattamente proporzionali, \`e necessario che l'asse delle ordinate inizi dallo zero e non da un punto arbitrario (a questo riguardo vedi anche: \gls{statisticulation}).},
+	 description={\`e la rappresentazione grafica di una \gls{continuous_variable} soggetta ad un processo di \gls{discretizzazione}. Ciascuna classe identificata dal processo di discretizzazione viene rappresentata da una barra la cui dimensione \`e proporzionale al numero di osservazioni nella classe. Perch\'e le dimensioni delle barre siano esattamente proporzionali, \`e necessario che l'asse delle ordinate inizi dallo zero e non da un punto arbitrario (a questo riguardo vedi anche: \gls{statisticulation}). Viene utilizzato per visualizzare la \gls{distribution_shape}. A volte viene sovvrapposto al \gls{frequency_polygon} per mostrare contemporaneamente sia le barre che l’andamento generale dei dati.},
 	 sort={istogramma}
 }
 
 \newglossaryentry{density_plot}
 {
 	 name={Density plot},
-	 description={o kernel density plot o grafico basato sulla stima kernel di densit\`a,  \`e una rappresentazione grafica della distribuzione di una \gls{continuous_variable} alternativa all'\gls{istogramma}. Nel density plot, le barre dell'istogramma vengono convertite in \emph{gobbe} da uno stimatore kernel di densit\`a e  poi smussate a creare una linea arrotondata continua. },
+	 description={o kernel density plot o grafico basato sulla stima kernel di densit\`a,  \`e una rappresentazione grafica della distribuzione di una \gls{continuous_variable} alternativa all'\gls{istogramma}. Nel density plot, le barre dell'istogramma vengono convertite in \emph{gobbe} da uno stimatore kernel di densit\`a e  poi smussate a creare una linea arrotondata continua. Viene utilizzato per visualizzare la \gls{distribution_shape}.},
 	 sort={density plot}
 }
+
+\newglossaryentry{frequency_polygon}
+{
+	 name={Poligono di frequenza},
+	 description={o frequency polygon, \`e un grafico a linee che si ottiene unendo i punti medi (midpoint) della parte superiore di ciascuna barra di un \gls{istogramma}. Viene utilizzato per facilitare il confronto tra pi\`u insiemi di dati, visualizzandone le rispettive \gls{distribution_shape}. A volte viene sovvrapposto all'istogramma per mostrare contemporaneamente sia le barre che l’andamento generale dei dati.},
+	 sort={poligono di frequenza}
+}
+
+
 
 \newglossaryentry{distribution_shape}
 {
@@ -987,7 +1005,7 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 
 
-
+\setlength\parindent{0pt}
 
 
 \begin{document}
@@ -1010,284 +1028,288 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 \gls{statistical_science}
 
-\noindent \gls{data_literacy}
+\gls{data_literacy}
 
-\noindent \gls{induction}
+\gls{induction}
 
-\noindent \gls{statistical_inference}
+\gls{statistical_inference}
 
-\noindent \gls{statistical_model}
+\gls{statistical_model}
 
-\noindent \gls{causation}
+\gls{causation}
 
-\noindent \gls{statisticulation}
+\gls{statisticulation}
 
-\noindent \gls{post_hoc_fallacy}
+\gls{post_hoc_fallacy}
 
-\noindent \gls{framing}
+\gls{framing}
 
-\noindent \gls{fasi_della_ricerca}
+\gls{fasi_della_ricerca}
 
-\noindent \gls{PPDAC}
+\gls{PPDAC}
 
 
 
 \subsection*{Cenni di epidemiologia}
 
-\noindent \gls{esperimental_design}
+\gls{esperimental_design}
 
-\noindent \gls{rct}
+\gls{rct}
 
-\noindent \gls{blinding}
+\gls{blinding}
 
-\noindent \gls{observational_study}
+\gls{observational_study}
 
-\noindent \gls{cohort_study}
+\gls{cohort_study}
 
-\noindent \gls{retrospective_cohort_study}
+\gls{retrospective_cohort_study}
 
-\noindent \gls{prospective_cohort_study}
+\gls{prospective_cohort_study}
 
-\noindent \gls{case_control}
+\gls{case_control}
 
-\noindent \gls{Cross-sectional_study}
+\gls{Cross-sectional_study}
 
-\noindent \gls{longitudinal_study}
+\gls{longitudinal_study}
 
 
 
 
 \subsection*{Popolazione e Campione}
 
-\noindent \gls{population}
+\gls{population}
 
-\noindent \gls{sample}
+\gls{sample}
 
-\noindent \gls{sample_size}
+\gls{sample_size}
 
-\noindent \gls{independent_sample}
+\gls{independent_sample}
 
-\noindent \gls{paired_sample}
+\gls{paired_sample}
 
-\noindent \gls{campionamento_opportunistico}
+\gls{campionamento_opportunistico}
 
-\noindent \gls{campionamento_casuale_semplice}
+\gls{campionamento_casuale_semplice}
 
-\noindent \gls{parameters}
+\gls{parameters}
 
-\noindent \gls{statistic}
+\gls{statistic}
 
-\noindent \gls{population_distribution}
+\gls{population_distribution}
 
-\noindent \gls{sample_distribution}
+\gls{sample_distribution}
 
-\noindent \gls{sampling_bias}
+\gls{sampling_bias}
 
-\noindent \gls{Survivor_bias}
+\gls{Survivor_bias}
 
-\noindent \gls{Volunteer_bias}
+\gls{Volunteer_bias}
 
-\noindent \gls{Lost_to_follow_up_bias}
+\gls{Lost_to_follow_up_bias}
 
-\noindent \gls{ascertainment bias}
+\gls{ascertainment bias}
 
-\noindent \gls{nonresponse_bias}
+\gls{nonresponse_bias}
 
 
 
 
 \subsection*{Variabili}
 
-\noindent \gls{variability}
+\gls{variability}
 
-\noindent \gls{categorical_variable}
+\gls{categorical_variable}
 
-\noindent \gls{binary_data}
+\gls{binary_data}
 
-\noindent \gls{variabili_ordinali}
+\gls{variabili_ordinali}
 
-\noindent \gls{numerical_variable}
+\gls{numerical_variable}
 
-\noindent \gls{continuous_variable}
+\gls{continuous_variable}
 
-\noindent \gls{count_variables}
+\gls{count_variables}
 
-\noindent \gls{discretizzazione}
+\gls{discretizzazione}
 
-\noindent \gls{outliers}
+\gls{outliers}
 
 
 
 \subsection*{Statistica descrittiva -- Dati categorici}
 
-\noindent \gls{modalita}
+\gls{modalita}
 
-\noindent \gls{frequency}
+\gls{frequency}
 
-\noindent \gls{relative_frequency}
+\gls{relative_frequency}
 
-\noindent \gls{contingency_table}
+\gls{contingency_table}
 
-\noindent \gls{bar_chart}
+\gls{bar_chart}
 
-\noindent \gls{lollipop_chart}
+\gls{lollipop_chart}
 
-\noindent \gls{pie_chart}
+\gls{pie_chart}
 
-\noindent \gls{donut_chart}
+\gls{donut_chart}
 
-\noindent \gls{waffle_chart}
+\gls{waffle_chart}
 
-\noindent \gls{mosaic_plot}
+\gls{mosaic_plot}
 
 
 
 
 \subsection*{Statistica descrittiva -- Dati numerici}
 
-\noindent \gls{sample_mode}
+\gls{sample_mode}
 
-\noindent \gls{sample_median}
+\gls{sample_median}
 
-\noindent \gls{quartiles}
+\gls{quartiles}
 
-\noindent \gls{mean}
+\gls{percentile}
 
-\noindent \gls{range}
+\gls{mean}
 
-\noindent \gls{iqr}
+\gls{range}
 
-\noindent \gls{variance}
+\gls{iqr}
 
-\noindent \gls{standard_deviation}
+\gls{variance}
 
-\noindent \gls{correlation}
+\gls{standard_deviation}
 
-\noindent \gls{pcc}
+\gls{correlation}
 
-\noindent \gls{distribution_shape}
+\gls{pcc}
 
-\noindent \gls{istogramma}
+\gls{distribution_shape}
 
-\noindent \gls{density_plot}
+\gls{istogramma}
 
-\noindent \gls{boxplot}
+\gls{frequency_polygon}
 
-\noindent \gls{scatterplot}
+\gls{density_plot}
 
-\noindent \gls{regression_to_the_mean}
+\gls{boxplot}
 
-\noindent \gls{wisdom_of_crowds}
+\gls{scatterplot}
+
+\gls{regression_to_the_mean}
+
+\gls{wisdom_of_crowds}
 
 
 
 
 \subsection*{La distribuzione Normale}
 
-\noindent \gls{normal_distribution}
+\gls{normal_distribution}
 
-\noindent \gls{three_sigma_rule}
+\gls{three_sigma_rule}
 
-\noindent \gls{normal_standard_distribution}
+\gls{normal_standard_distribution}
 
-\noindent \gls{z_score}
+\gls{z_score}
 
-\noindent \gls{standardisation}
+\gls{standardisation}
 
-\noindent \gls{t_distribution}
+\gls{t_distribution}
 
-\noindent \gls{degree_of_freedom}
+\gls{degree_of_freedom}
 
 
 
 \subsection*{Statistica Inferenziale -- Stime \& Intevalli di Confidenza}
 
-\noindent \gls{sampling_distribution}
+\gls{sampling_distribution}
 
-\noindent \gls{bootstrapping}
+\gls{bootstrapping}
 
-\noindent \gls{CLT}
+\gls{CLT}
 
-\noindent \gls{LLN}
+\gls{LLN}
 
-\noindent \gls{standard_error}
+\gls{standard_error}
 
-\noindent \gls{margin_of_error}
+\gls{margin_of_error}
 
-\noindent \gls{confidence_interval}
+\gls{confidence_interval}
 
 
 
 
 \subsection*{Statistica Inferenziale -- Test di ipotesi}
 
-\noindent \gls{hypothesis}
+\gls{hypothesis}
 
-\noindent \gls{null_hypothesis}
+\gls{null_hypothesis}
 
-\noindent \gls{alternative_hypothesis}
+\gls{alternative_hypothesis}
 
-\noindent \gls{hypothesis_testing}
+\gls{hypothesis_testing}
 
-\noindent \gls{parametric_test}
+\gls{parametric_test}
 
-\noindent \gls{z_test}
+\gls{z_test}
 
-\noindent \gls{t_test}
+\gls{t_test}
 
-\noindent \gls{chisq_test}
+\gls{chisq_test}
 
-\noindent \gls{nonparametric_test}
+\gls{nonparametric_test}
 
-\noindent \gls{Mann_Whitney_test}
+\gls{Mann_Whitney_test}
 
-\noindent \gls{Wilcoxon_test}
+\gls{Wilcoxon_test}
 
-\noindent \gls{Fisher_test}
+\gls{Fisher_test}
 
-\noindent \gls{McNemar_test}
+\gls{McNemar_test}
 
-\noindent \gls{P-value}
+\gls{P-value}
 
-\noindent \gls{one-sided_test}
+\gls{one-sided_test}
 
-\noindent \gls{two-sided_test}
+\gls{two-sided_test}
 
-\noindent \gls{alpha}
+\gls{alpha}
 
-\noindent \gls{effect_size}
+\gls{effect_size}
 
-\noindent \gls{Cohen_d}
+\gls{Cohen_d}
 
-\noindent \gls{Type_I_error}
+\gls{Type_I_error}
 
-\noindent \gls{Type_II_error}
+\gls{Type_II_error}
 
-\noindent \gls{false_positive}
+\gls{false_positive}
 
-\noindent \gls{false_negative}
+\gls{false_negative}
 
-\noindent \gls{sensitivity}
+\gls{sensitivity}
 
-\noindent \gls{specificity}
+\gls{specificity}
 
-\noindent \gls{power}
+\gls{power}
 
-\noindent \gls{multiple_testing}
+\gls{multiple_testing}
 
-\noindent \gls{Bonferroni_correction}
+\gls{Bonferroni_correction}
 
-\noindent \gls{FDR}
+\gls{FDR}
 
-\noindent \gls{expected_frequencies}
+\gls{expected_frequencies}
 
-\noindent \gls{absolute_risk}
+\gls{absolute_risk}
 
-\noindent \gls{relative_risk}
+\gls{relative_risk}
 
-\noindent \gls{odds}
+\gls{odds}
 
-\noindent \gls{OR}
+\gls{OR}
 
 
 
