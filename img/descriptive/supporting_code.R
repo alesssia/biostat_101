@@ -21,7 +21,7 @@ setwd("/Users/visconti/Documents/Teaching/biostat_101/slide/img/descriptive/")
 set.seed(42)
 df <- read.csv(file = "/Users/visconti/Documents/Resources/twinsUK/BMI_130720.csv")
 df <- na.omit(df)
-df <- df[sample(1:nrow(df), 1000), ]
+df <- df[sample(1:nrow(df), 100), ]
 
 df <- df[df$Height < 200, ]
 
@@ -242,6 +242,22 @@ png("Bimodal.png", width=500, height=250, bg = "transparent")
 print(p_bimodal)
 dev.off()
 
+mm$d <- rep(rep(c("d1", "d2"), each = 10), 10)
+
+p_bimodal_2d <-  ggplot(mm, aes(x = x)) + geom_density() + geom_density(aes(y = after_stat(density * n/1210), colour=d, fill=d), alpha=0.05, linetype="dashed", linewidth=1.1) + scale_colour_manual(values=c("darkgreen", "magenta")) +  scale_fill_manual(values=c("darkgreen", "magenta")) +
+   
+   geom_segment(aes(x = -2, y = 0, xend = 2, yend = 0), colour="black") +
+	
+   geom_segment(aes(x = bmode, y = 0, xend = bmode, yend = dnorm(sqrt(0.084), mean=sqrt(0.5), sd = sqrt(0.1))), colour="black", linetype="dashed") +
+   annotate("text", x = bmode, y = dnorm(sqrt(0.089), mean=sqrt(0.5), sd = sqrt(0.1))+0.015, label = "Moda[1]", parse = TRUE, size=5) +
+   geom_segment(aes(x = -bmode, y = 0, xend = -bmode, yend = dnorm(sqrt(0.082), mean=sqrt(0.5), sd = sqrt(0.1))), colour="black", linetype="dashed") +
+   annotate("text", x = -bmode, y = dnorm(sqrt(0.09), mean=sqrt(0.5), sd = sqrt(0.1))+0.015, label = "Moda[2]", parse = TRUE, size=5) + 
+
+   scale_y_continuous(breaks = NULL) + theme_void() +  theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_)) +  theme(legend.position="none", legend.title = element_blank())
+
+png("Bimodal_two_distro.png", width=500, height=250, bg = "transparent")
+print(p_bimodal_2d)
+dev.off()
 
 
 # Examples of outliers in calculating median and mean

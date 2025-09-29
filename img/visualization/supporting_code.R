@@ -164,7 +164,20 @@ p <- ggplot(data, aes(x=x) ) +
 png("Age_histogram_bin5_response_mirror.png")
 print(p)
 dev.off()
-  
+ 
+ 
+p <- ggplot(md, aes(x=age)) + geom_histogram(aes(fill=ORR), binwidth=5, color="gray74", alpha=0.1, position = 'identity') +
+	 geom_freqpoly(aes(color=ORR, y=after_stat(count)), binwidth=5, linewidth=2) +
+
+ 	 scale_fill_manual("Risposta", values=c("#FC8D62", "#66C2A5")) + scale_color_manual("Risposta", values=c("#FC8D62", "#66C2A5")) +
+	 
+	 theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size)) + xlab("Eta' (anni)") + ylab("Frequenza") + ggtitle("Dimensione dell'intervallo = 5") + theme(legend.position="bottom")
+ 
+
+png("Age_histogram_bin5_response_freq_poly.png")
+print(p)
+dev.off()
+
   
 p <- ggplot(md, aes(x=ORR, y=age)) + geom_boxplot(fill="grey84", size=0.8) + graphic.settings + xlab("Risposta") + ylab("Eta' (anni)") 
 
