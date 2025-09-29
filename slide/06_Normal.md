@@ -33,8 +33,8 @@ section {
 
 - Conoscere le caratteristiche della distribuzione Normale e Normale Standardizzata
 - Calcolare e interpretare lo $z$-score
-- Calcolare la proporzione di individui in una popolazione con una determinata caratteristica
-- Calcolare la probabilit&agrave; di avere degli individui in una popolazione con una determinata caratteristica
+- Determinare la proporzione di individui in una popolazione che possiedono una determinata caratteristica
+- Calcolare la probabilit&agrave; che un individuo di una popolazione presenti una determinata caratteristica
 
 </div>
 
@@ -271,7 +271,7 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 <script>
 <!--
 const countdown_exercise_1= document.getElementById("countdown_exercise_1");
-const seconds_exercise_1= 60; // seconds_exercise_1
+const seconds_exercise_1= 30; // seconds_exercise_1
 let timeLeft_exercise_1= seconds_exercise_1;
 let timerInterval_exercise_1= null;
 
@@ -421,7 +421,7 @@ updateButton_exercise_1();
 <script>
 <!--
 const countdown_exercise_2= document.getElementById("countdown_exercise_2");
-const seconds_exercise_2= 60; // seconds_exercise_2
+const seconds_exercise_2= 30; // seconds_exercise_2
 let timeLeft_exercise_2= seconds_exercise_2;
 let timerInterval_exercise_2= null;
 
@@ -970,7 +970,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 60; // seconds_exercise_5
+const seconds_exercise_5= 30; // seconds_exercise_5
 let timeLeft_exercise_5= seconds_exercise_5;
 let timerInterval_exercise_5= null;
 
@@ -1237,7 +1237,7 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1450g
 <script>
 <!--
 const countdown_exercise_6= document.getElementById("countdown_exercise_6");
-const seconds_exercise_6= 30; // seconds_exercise_6
+const seconds_exercise_6= 15; // seconds_exercise_6
 let timeLeft_exercise_6= seconds_exercise_6;
 let timerInterval_exercise_6= null;
 
@@ -1949,16 +1949,16 @@ updateButton_exercise_8();
 </div>
 
 ---
-### Cosa abbiamo imparato in questa lezione?
+### Cosa abbiamo imparato?
 
 <span style="display:block; height:0px;"></span>
 
 <div style="font-size: 80%">
 
-- Diversi fenomeni naturali sono normalmente distribuiti
+- Molti fenomeni naturali seguono una distribuzione Normale
 - La distribuzione Normale &egrave; definita dalla media e dalla deviazione standard e corrisponde a una distribuzione di probabilit&agrave;
-- La distribuzione (Normale) di una popolazione ci fornisce la probabilit&agrave; di estrarre un individuo da quella popolazione, ma anche la sua frequenza 
-- Se i dati sono normalmente distribuiti, il 68% della popolazione si trova a 1 $\sigma$ dalla media, il 95% a 2 $\sigma$ e il 99.7% a 3 $\sigma$
-- Lo $z$-score ci permette di "posizionare" un'osservazione rispetto alla popolazione e di confrontare pi&ugrave; distribuzioni (anche molto diverse)
+- La distribuzione Normale di una popolazione ci consente di determinare sia la probabilit&agrave; di osservare un certo valore, sia la sua frequenza attesa
+- Se i dati seguono una distribuzione Normale, (circa) il 68% dei valori si trova entro 1 deviazione standard dalla media, il 95% entro 2 e il 99.7% entro 3 
+- Lo $z$-score ci permette di collocare un’osservazione rispetto alla popolazione di riferimento e di confrontare dati provenienti da distribuzioni anche molto diverse tra loro
 
 </div>

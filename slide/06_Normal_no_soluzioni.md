@@ -33,8 +33,8 @@ section {
 
 - Conoscere le caratteristiche della distribuzione Normale e Normale Standardizzata
 - Calcolare e interpretare lo $z$-score
-- Calcolare la proporzione di individui in una popolazione con una determinata caratteristica
-- Calcolare la probabilit&agrave; di avere degli individui in una popolazione con una determinata caratteristica
+- Determinare la proporzione di individui in una popolazione che possiedono una determinata caratteristica
+- Calcolare la probabilit&agrave; che un individuo di una popolazione presenti una determinata caratteristica
 
 </div>
 
@@ -897,16 +897,16 @@ Ma come &egrave; stato calcolato? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 </div>
 
 ---
-### Cosa abbiamo imparato in questa lezione?
+### Cosa abbiamo imparato?
 
 <span style="display:block; height:0px;"></span>
 
 <div style="font-size: 80%">
 
-- Diversi fenomeni naturali sono normalmente distribuiti
+- Molti fenomeni naturali seguono una distribuzione Normale
 - La distribuzione Normale &egrave; definita dalla media e dalla deviazione standard e corrisponde a una distribuzione di probabilit&agrave;
-- La distribuzione (Normale) di una popolazione ci fornisce la probabilit&agrave; di estrarre un individuo da quella popolazione, ma anche la sua frequenza 
-- Se i dati sono normalmente distribuiti, il 68% della popolazione si trova a 1 $\sigma$ dalla media, il 95% a 2 $\sigma$ e il 99.7% a 3 $\sigma$
-- Lo $z$-score ci permette di "posizionare" un'osservazione rispetto alla popolazione e di confrontare pi&ugrave; distribuzioni (anche molto diverse)
+- La distribuzione Normale di una popolazione ci consente di determinare sia la probabilit&agrave; di osservare un certo valore, sia la sua frequenza attesa
+- Se i dati seguono una distribuzione Normale, (circa) il 68% dei valori si trova entro 1 deviazione standard dalla media, il 95% entro 2 e il 99.7% entro 3 
+- Lo $z$-score ci permette di collocare un’osservazione rispetto alla popolazione di riferimento e di confrontare dati provenienti da distribuzioni anche molto diverse tra loro
 
 </div>
