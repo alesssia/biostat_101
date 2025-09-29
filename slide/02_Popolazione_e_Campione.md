@@ -1246,7 +1246,7 @@ Surveys asking for personal, legal, or other sensitive information are prone to 
 <span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/hypothesis_testing/independent_vs_paired.png" img height="300px" border="0px"/>
+<img src="./img/sampling/independent_vs_paired.png" img height="300px" border="0px"/>
 </center>
 
 <!-- Sino ad ora abbiamo lavorato su Campioni indipendenti: non vi è relazione tra osservazioni appartenenti a campioni diversi
@@ -1262,7 +1262,7 @@ Appaiati: peso nei pazienti diabetici alla diagnosi e dopo 10 anni -->
 <span style="display:block; height:60px;"></span>
 
 <center>
-<img src="./img/hypothesis_testing/independent_vs_paired_2.png" img height="300px" border="0px"/>
+<img src="./img/sampling/independent_vs_paired_2.png" img height="300px" border="0px"/>
 </center>
 
 <!-- I capioni appaiati possono anche essere essere persone diverse ma matchate per caratteristiche salienti (eta', sesso, peso corporeo, ...)  -->
