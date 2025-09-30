@@ -1762,7 +1762,76 @@ Altezza (cm) e numero di canestri
 </div>
 
 ---
-## Correlazione: interpolare ed estrapolare
+## Dalla correlazione alla regressione lineare
+
+<span style="display:block; height:1px;"></span>
+
+<div class="columns">
+<div>
+
+$y = \alpha + \beta x$
+
+<span style="display:block; height:200px;"></span>
+
+<div style="font-size: 90%"> 
+
+$\text{Morti} = 14 + 0.07 \times \text{Interventi}$
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/descriptive/Children_death_vs_surgery_regression_line.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+
+<!-- $\alpha \rightarrow$ intercetta
+$\beta \rightarrow$ coefficiente angolare -->
+
+---
+## Dalla correlazione alla regressione lineare
+
+<span style="display:block; height:1px;"></span>
+
+<div class="columns">
+<div>
+
+$y = \alpha + \beta x$
+
+<span style="display:block; height:200px;"></span>
+
+<div style="font-size: 90%"> 
+
+$\text{Morti} = 14 + 0.07 \times \text{Interventi}$
+
+
+
+$\text{Interventi} = 500$
+$\text{Morti} = 14 + 0.07 \times 500 = 49$
+
+</div>
+
+</div>
+<div>
+
+<center>
+<img src="./img/descriptive/Children_death_vs_surgery_regression_line_interpolate.png" img height="500px" border="4px"/>
+</center>
+
+</div>
+</div>
+
+
+<!-- $\alpha \rightarrow$ intercetta
+$\beta \rightarrow$ coefficiente angolare -->
+
+---
+## Regressione: interpolare ed estrapolare
 
 <div style="font-size: 80%"> 
 
@@ -1781,7 +1850,7 @@ Altezza (cm) e numero di canestri
 https://www.istat.it/dati/calcolatori/contanomi/
 
 </div>
-a
+
 ---
 ## La regressione verso la media
 
