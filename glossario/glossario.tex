@@ -251,7 +251,27 @@
 }
 
 
+\newglossaryentry{outcome_variable}
+{
+	 name={Variabile di esito},
+	 description={o variabile dipendente o variabile di risposta, anche indicata con la lettera $y$ nelle equazioni lineari (vedi: \gls{linear_regression}) \`e una \gls{variable} di cui ci interessa conoscere le cause della \gls{variability}. Nei \gls{case_control} la variabile di esito \`e lo stato (caso o controllo).},
+	 sort={variabile di esito}
+}
 
+\newglossaryentry{exposure_variable}
+{
+	 name={Variabile di esposizione},
+	 description={o variabile indipendente o variabile esplicativa, anche indicata con la lettera $x$ nelle equazioni lineari (vedi: \gls{linear_regression}) \`e una \gls{variable} di cui vogliamo studiare l'influenza rispetto a una \gls{outcome_variable}, ovvero se e con che intensit\`a ne determina la \gls{variability}. Nei \gls{case_control} la variabile di esposizione \`e il fattore di rischio, in un \gls{rct} invece indica il gruppo di trattamento (esempio: farmaco o placebo).},
+	 sort={variabile di esposizione}
+}
+
+
+\newglossaryentry{variable}
+{
+	 name={Variabile},
+	 description={oggetto che rappresenta una caratteristica di interesse (esempio: peso, sesso, colore degli occhi). Le variabili sono divise in due macro categorie: \gls{categorical_variable} e \gls{numerical_variable}. Hanno due principali caratteristiche: sono imperfette e non sempre misurano quello che ci interessa (sono dei \emph{proxy}, esempio: voto e comprensione di una materia) e sono soggette a una \gls{variability}. Si distinguono ulteriormente in \gls{outcome_variable} e \gls{exposure_variable}.},
+	 sort={variabile}
+}
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Descriptive Statistics
@@ -417,7 +437,7 @@
 \newglossaryentry{correlation}
 {
 	 name={Correlazione},
-	 description={\`e una relazione tra due variabili  in cui a ciascun valore di una corrisponda un valore dell'altra. Osservare una correlazione non implica un nesso di \gls{causation} ma segnala la tendenza di una variabile a cambiare in funzione dell'altra (``correlazione non significa causazione"). Vedi anche: \gls{pcc}.},
+	 description={\`e una relazione tra due variabili  in cui a ciascun valore di una corrisponda un valore dell'altra. Osservare una correlazione non implica un nesso di \gls{causation} ma segnala la tendenza di una variabile a cambiare in funzione dell'altra (``correlazione non significa causazione"). Viene solitamente visualizzata utilizzando uno \gls{scatterplot}. Vedi anche: \gls{pcc}.},
 	 sort={correlazione}
 }
 
@@ -464,6 +484,14 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 	 name={Pearson correlation coefficient},
 	 description={o indice di correlazione di Pearson, \`e un indice che misura l'esistenza di una relazione lineare (o \gls{correlation}) tra due variabili. Ha un valore compreso tra $+ 1$ e $- 1$ , dove $+ 1$ corrisponde alla perfetta correlazione lineare positiva, $0$ corrisponde a un'assenza di correlazione lineare e $- 1$ corrisponde alla perfetta correlazione lineare negativa. Valori di $r$ (o $\rho$) $< 0.25$ indicano poca (o bassa) correlazione, tra  $0.25$ e $0.50$ discreta, $0.50$ e $0.70$ buona, e tra $0.75$ e $0.99$ eccellente. Viene usata anche per misurare la \gls{effect_size}.},
 	 sort={Pearson correlation coefficient}
+}
+
+
+\newglossaryentry{linear_regression}
+{
+	 name={Regressione lineare},
+	 description={misura la relazione tra due \gls{numerical_variable}, andando a individuare la linea retta che meglio descrive la loro associazione. Tale retta viene definita dalla seguente equazione lineare: $y = \alpha + \beta x$, dove $\alpha$ \`e l'imtercetta (ovvero il valore di $y$ quando $x = 0$) e $\beta$ \`e il coefficiente angolare (che determina la pendenza della retta). Viene solitamente visualizzata utilizzando uno \gls{scatterplot}. Pu\`o essere utilizzata per predirre valori di y (vedi: \gls{outcome_variable}) per particolare valori di x (vedi: \gls{exposure_variable}). Bisogna comunque tenere a mente che mentre \`e corretto usarla per predire valori all'interno del \gls{range} delle osservazioni (interpolazione). \`e molto rischioso estenderla al di fuori di questo range (estrapolazione) in quanto non conosciamo il vero andamento della distribuzione.}
+	 sort={regressione lineare}
 }
 
 \newglossaryentry{scatterplot}
@@ -1116,6 +1144,8 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 \subsection*{Variabili}
 
+\gls{variable}
+
 \gls{variability}
 
 \gls{categorical_variable}
@@ -1129,6 +1159,10 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 \gls{continuous_variable}
 
 \gls{count_variables}
+
+\gls{outcome_variable}
+
+\gls{exposure_variable}
 
 \gls{discretizzazione}
 
@@ -1181,11 +1215,13 @@ parte sinistra, con una lunga coda a destra (anche detta: asimmetrica a destra).
 
 \gls{standard_deviation}
 
+\gls{distribution_shape}
+
 \gls{correlation}
 
 \gls{pcc}
 
-\gls{distribution_shape}
+\gls{linear_regression}
 
 \gls{istogramma}
 
