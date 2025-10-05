@@ -98,15 +98,16 @@ Questa variabilita' dipende sia da fattori conosciuti o conoscibili sia da effet
 ---
 ## Da cosa dipende questa variabilit&agrave;?
 
-<div style="font-size: 85%">
+<div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp; In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cranica di un bambolotto che simula un  bambino di un anno
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza cranica di un bambolotto che simula un  bambino di un anno
 
 <img src="./img/data/head_circiference_doll.png" img height="350px" align="left" border="4px"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati variano?
+<span style="display:block; height:1px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati raccolti 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variano?
 
 </div>
 
@@ -120,16 +121,16 @@ The doll’s head changed size between measurements. -->
 ---
 ## Da cosa dipende questa variabilit&agrave;?
 
-<div style="font-size: 85%">
+<div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp; In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cranica di un bambolotto che simula un bambino di un anno
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+-  In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza cranica di un bambolotto che simula un bambino di un anno
 
 <img src="./img/data/head_circiference_doll.png" img height="350px" align="left" border="4px"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati variano?
+<span style="display:block; height:1px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati raccolti 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variano?
 
 </div>
 
@@ -137,85 +138,70 @@ The doll’s head changed size between measurements. -->
 
 <div style="font-size: 85%" align="right">
 
-<br/> Errori di misurazione
+**Errori di misurazione**
 
 </div>
 
----
-## Da cosa dipende questa variabilit&agrave;?
-
-<div style="font-size: 85%">
-
-:dart: &nbsp;&nbsp; Nello stesso studio, un pediatria misura la circonferenza cranica di 35
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bambini di un anno
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-<img src="./img/data/head_circiference_children.png" img height="350px" align="left" border="4px"/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati variano?
-
-</div>
-
-<div style="font-size: 85%" align="right">
-
-
-
-</div>
-
-<!--   the above question, all of the variability in scores was created by measurement error because everyone was measuring the same thing and, therefore, should have obtained the same score. Unfortunately, measurement error is always present. No matter what you are measuring, you will never be able to measure it perfectly every time. You can, however, reduce the amount of measurement error. In the context of measuring an infant’s head circumference, how could the developmental psychologist and/or nurses reduce the variability in scores created by measurement error (i.e., what could they do to increase the accuracy/reliability of each measurement?). Select all that apply.
+<!--  the above question, all of the variability in scores was created by measurement error because everyone was measuring the same thing and, therefore, should have obtained the same score. Unfortunately, measurement error is always present. No matter what you are measuring, you will never be able to measure it perfectly every time. You can, however, reduce the amount of measurement error. In the context of measuring an infant’s head circumference, how could the developmental psychologist and/or nurses reduce the variability in scores created by measurement error (i.e., what could they do to increase the accuracy/reliability of each measurement?). Select all that apply.
 
 Give the nurses a lot of practice measuring different dolls’ heads.
-Train the nurses to use a consistent degree of tension in the tape measure.
--->
+Train the nurses to use a consistent degree of tension in the tape measure. -->
 
 ---
 ## Da cosa dipende questa variabilit&agrave;?
 
-<div style="font-size: 85%">
+<div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp; Nello stesso studio, un pediatria misura la circonferenza cranica di 35
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bambini di un anno
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+- Nello stesso studio sull'et&agrave; neonatale, un pediatria misura la circonferenza cranica di 35 bambini di un anno
 
 <img src="./img/data/head_circiference_children.png" img height="350px" align="left" border="4px"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati variano?
+<span style="display:block; height:1px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati raccolti 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variano?
 
 </div>
 
+---
+## Da cosa dipende questa variabilit&agrave;?
+
+<div style="font-size: 90%">
+
+- Nello stesso studio sull'et&agrave; neonatale, un pediatria misura la circonferenza cranica di 35 bambini di un anno
+
+<img src="./img/data/head_circiference_children.png" img height="350px" align="left" border="4px"/>
+
+<span style="display:block; height:1px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati raccolti 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variano?
+
 <span style="display:block; height:20px;"></span>
 
-<div style="font-size: 85%" align="right">
+</div>
 
-<br/>
-Differenze individuali
+<div style="font-size: 90%" align="right">
+
+**Differenze individuali**
 
 </div>
 
 <!-- Anche qui rimangono errori di misurazione -->
 
 ---
-## Perch&eacute; c'&egrave; variabilit&agrave;?
+## Da cosa dipende questa variabilit&agrave;?
 
-<div style="font-size: 85%">
+<div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp; Nello stesso studio, lo stesso pediatra misura altri 35 bambini di un 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che sono per&ograve; esposti al fumo passivo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+- Nello stesso studio sull'et&agrave; neonatale, lo stesso pediatra misura altri 35 bambini di un anno che sono per&ograve; esposti al fumo passivo
 
 <img src="./img/data/head_circiference_children_groups.png" img height="350px" align="left" border="4px"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati variano?
+<span style="display:block; height:1px;"></span>
 
-</div>
-
-<div style="font-size: 85%" align="right">
-
-<br/>
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati raccolti 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variano?
 
 </div>
 
@@ -224,25 +210,24 @@ Differenze individuali
 ---
 ## Da cosa dipende questa variabilit&agrave;?
 
-<div style="font-size: 85%">
+<div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp; Nello stesso studio, lo stesso pediatra misura altri 35 bambini di un 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anno che sono per&ograve; esposti al fumo passivo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+- Nello stesso studio sull'et&agrave; neonatale, lo stesso pediatra misura altri 35 bambini di un anno che sono per&ograve; esposti al fumo passivo
 
 <img src="./img/data/head_circiference_children_groups.png" img height="350px" align="left" border="4px"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati variano?
+<span style="display:block; height:1px;"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati raccolti 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variano?
 
 </div>
 
 <span style="display:block; height:20px;"></span>
 
-<div style="font-size: 85%" align="right">
+<div style="font-size: 90%" align="right">
 
-<br/>
-Diversa condizione sperimentale?
+**Diversa esposizione o condizione sperimentale?**
 
 </div>
 
@@ -250,13 +235,9 @@ Diversa condizione sperimentale?
 ## Perch&eacute; dobbiamo conoscere la differenza?
 
 
-<span style="display:block; height:2px;"></span>
+<div style="font-size: 90%">
 
-<div style="font-size: 85%">
-
-:dart: &nbsp;&nbsp; Vedremo come determinare se la variabilit&agrave; dipende dalle condizioni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sperimentali o se dipende da differenze individuali e/o da errori di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; misurazione
+- Vedremo come determinare se la variabilit&agrave; dipende dalle condizioni  sperimentali o se dipende da differenze individuali e/o da errori di misurazione
 
 <span style="display:block; height:20px;"></span>
 
@@ -266,6 +247,7 @@ Diversa condizione sperimentale?
 <img src="./img/data/head_circiference_children_groups.png" img height="190px" border="4px"/>
 </center>
 
+</div>
 
 ---
 ## Variabili di esito e di esposizione<sup>*</sup>
@@ -286,22 +268,20 @@ Diversa condizione sperimentale?
 
 </div>
 
-<!-- In order to choose appropriate data displays and statistical methods, it is very
-important to distinguish between outcome and exposure variables, in addition to
-identifying the types of each of the variables in the data set. The outcome variable
-is the variable that is the focus of our attention, whose variation or occurrence we
-are seeking to understand. In particular we are interested in identifying factors, or
-exposures, that may influence the size or the occurrence of the outcome variable.
-Some examples are given in Table 2.4. The purpose of a statistical analysis is to
-quantify the magnitude of the association between one or more exposure variables
-and the outcome variable
+<!-- In order to choose appropriate data displays and statistical methods, it is very important to distinguish between outcome and exposure variables, in addition to identifying the types of each of the variables in the data set. The outcome variable is the variable that is the focus of our attention, whose variation or occurrence we are seeking to understand. In particular we are interested in identifying factors, or exposures, that may influence the size or the occurrence of the outcome variable.
 
+The purpose of a statistical analysis is to quantify the magnitude of the association between one or more exposure variables and the outcome variable
 
 Outcome variable -> Exposure variable
 Response variable -> Explanatory variable
 Dependent variable -> Independent variable
 y-variable -> x-variable
 Case–control group -> Risk factor/Treatment group
+
+o studio caso-controllo, è un tipo di studio retrospettivp in cui le persone con una malattia o che presentano un outcome di interesse (i casi) vengono appaiati e confrontati con una o più persone che non hanno la malattia o l'outcome di interesse (i controlli) allo scopo di individuare differenze tra esposizioni e/o fattori di rischio che potrebbero essere alla base della malattia/outcome.
+
+o studio clinico randomizzato, è un disegno sperimentale in cui un gruppo di individui viene assegnato in modo casuale a diversi trattamenti, assicurando che i diversi gruppi (bracci dell'esperimento) siano ragionevolmente bilanciati per fattori conosciuti e sconosciuti. 
+
  -->
 
 ---
@@ -420,7 +400,7 @@ Categoriche si dividono in 2 classi
 
 <span style="display:block; height:40px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; La glicemia a digiuno
+:question: &nbsp;&nbsp;&nbsp; La temperatura corporea
 
 </div>
 
@@ -444,7 +424,7 @@ Categoriche si dividono in 2 classi
 
 <span style="display:block; height:40px;"></span>
 
-:question: &nbsp;&nbsp;&nbsp; Superare l'esame per la patente
+:question: &nbsp;&nbsp;&nbsp; L'esito del lancio di una moneta
 
 </div>
 
@@ -623,7 +603,7 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Avere una diagnosi di autismo &egrave; una variabile categorica dicotomica?
+:question: &nbsp;&nbsp;&nbsp; Avere una diagnosi di dislessia &egrave; una variabile categorica dicotomica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso
 
@@ -631,7 +611,7 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile qualitativa ordinale?
+:question: &nbsp;&nbsp;&nbsp; Il record nel salto in alto &egrave; una variabile qualitativa ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
@@ -728,7 +708,7 @@ updateButton_exercise_2();
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Avere una diagnosi di autismo &egrave; una variabile categorica dicotomica?
+:question: &nbsp;&nbsp;&nbsp; Avere una diagnosi di dislessia &egrave; una variabile categorica dicotomica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
 
@@ -736,7 +716,7 @@ updateButton_exercise_2();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile qualitativa ordinale?
+:question: &nbsp;&nbsp;&nbsp; Il record nel salto in alto &egrave; una  variabile qualitativa ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso
  
@@ -748,7 +728,7 @@ updateButton_exercise_2();
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Avere una diagnosi di autismo &egrave; una variabile categorica dicotomica?
+:question: &nbsp;&nbsp;&nbsp; Avere una diagnosi di dislessia &egrave; una variabile categorica dicotomica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
 
@@ -756,7 +736,7 @@ updateButton_exercise_2();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile qualitativa ordinale?
+:question: &nbsp;&nbsp;&nbsp; Il record nel salto in alto &egrave; una  variabile qualitativa ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso 
 </div>
@@ -767,7 +747,7 @@ updateButton_exercise_2();
 
 <div style="font-size: 85%">
 
-:question: &nbsp;&nbsp;&nbsp; Avere una diagnosi di autismo &egrave; una variabile categorica dicotomica?
+:question: &nbsp;&nbsp;&nbsp; Avere una diagnosi di dislessia &egrave; una variabile categorica dicotomica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
 
@@ -775,7 +755,7 @@ updateButton_exercise_2();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp; b) Falso 
 
-:question: &nbsp;&nbsp;&nbsp; Il livello di colesterolo &egrave; una  variabile qualitativa ordinale?
+:question: &nbsp;&nbsp;&nbsp; Il record nel salto in alto &egrave; una  variabile qualitativa ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Vero  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Falso &nbsp; :white_check_mark:  &nbsp;&nbsp;&nbsp;&nbsp; 
  
@@ -1246,8 +1226,8 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  discreta. Pu&ograve; trasformarla in una variabile categorica ordinale?
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; come una variabile discreta. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Pu&ograve; trasformarla in una variabile categorica ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
@@ -1351,8 +1331,8 @@ updateButton_exercise_5();
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  discreta. Pu&ograve; trasformarla in una variabile categorica ordinale?
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; come una variabile discreta. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Pu&ograve; trasformarla in una variabile categorica ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre &nbsp;&nbsp; :white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
@@ -1367,8 +1347,8 @@ updateButton_exercise_5();
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  categorica ordinale. Pu&ograve; riottenere l'esatta informazione numerica?
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; come una variabile categorica 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ordinale.  Pu&ograve; riottenere l'esatta informazione numerica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
@@ -1470,8 +1450,8 @@ updateButton_exercise_6();
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; del campione come una variabile
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  categorica ordinale. Pu&ograve; riottenere l'esatta informazione numerica?
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore ha registrato l'et&agrave; come una variabile categorica 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ordinale.  Pu&ograve; riottenere l'esatta informazione numerica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto

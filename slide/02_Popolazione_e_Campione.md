@@ -41,8 +41,6 @@ section {
 ---
 ## Le fasi della ricerca
 
-<!-- <span style="display:block; height:2px;"></span> -->
-
 <center>
 <img src="./img/sampling/PPDAC.png" img height="500px" border="0px"/>
 </center>
@@ -53,12 +51,16 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (E
 
 </div>
 
-<!-- Nella parte di Planning, il ricercatore decide come rispondere alla domanda di ricerca. Solitamente ignorata, ma assoulutamente cruciale, GARBACE IN, GARBACE OUT. Questo include, 
- i) verificare se esiste una collezione di dati di alta qualit`a che pu`o essere usata, ii) decidere e giustificare perch ́e sia necessario raccogliere nuove collezioni di dati, e quali dati siano necessari e come debbano essere raccolti 
- iii) decidere e giustificare da qua- le Popolazione i dati verranno raccolti, tenendo anche in considerazione considerazione etiche e logistiche (per esempio, questionari che richiedano un tempo troppo lungo per essere completati), 
- iv) decidere e giustificare quando e dove la raccolta dati debba iniziare e finire, 
- v) decidere e giustifi- care i metodi analitici che verranno utilizzati, e 
- vi) definire delle probabili risposte alla domanda di ricerca (ipotesi) -->
+<!-- PLANNING, DISEGNO SPERIMENTALE
+
+È una procedura per la pianificazione di un esperimento scientifico, prodotto prima dell'esecuzione dell'esperimento stesso, che cerca di garantire che i dati raccolti e le analisi condotte possano essere analizzati per fornire conclusioni valide e oggettive, e in cui il ricercatore decide come rispondere alla domanda di ricerca. 
+
+- verificare se esiste una collezione di dati di alta qualità che puòessere riutilizzata
+- decidere e giustificare perché sia necessario raccogliere nuove collezioni di dati, e quali dati siano necessari e come debbano essere raccolti (via questionario, analisi strumentali, ,,,)
+- decidere e giustificare da quale \gls{population} i dati verranno raccolti, tenendo anche in considerazione considerazione etiche e logistiche (per esempio, questionari che richiedano un tempo troppo lungo per essere completati),
+- decidere e giustificare quando e dove la raccolta dati debba iniziare e finire
+- decidere e giustificare i metodi analitici che verranno utilizzati, e 
+- definire delle probabili risposte alla domanda di ricerca (\gls{hypothesis}) -->
 
 --- 
 ## Popolazione *vs*  campione
@@ -640,7 +642,7 @@ data una popolazione di N individui ed un campione di dimensione n  la probabili
 
 -->
 
----
+<!-- ---
 ## Campionamento casuale semplice
 
 <div class="columns">
@@ -661,7 +663,7 @@ data una popolazione di N individui ed un campione di dimensione n  la probabili
 <img src="./img/sampling/numbers-tombola.jpg" img height="400px" align="right" border="0px"/>
 
 </div>
-</div>
+</div> -->
 
 <!-- Disporre di un elenco completo di tutti i soggetti della popolazione e una loro numerazione
 
@@ -669,7 +671,7 @@ n piccolo e' la nostra numerosita' campionaria
 
 Decidere quante unità si vogliono selezionare e calcolare la frazione di campionamento -->
 
----
+<!-- ---
 ## Campionamento casuale semplice
 
 <div class="columns">
@@ -692,7 +694,7 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 <img src="./img/sampling/numbers-tombola_simple.jpg" img height="400px" align="right" border="0px"/>
 
 </div>
-</div>
+</div> -->
 
 <!--  Estrarre le unità tramite sorteggio casuale o tavole dei numeri casuali (costruite in modo da non avere vizi sistematici. Sono delle serie di numeri tra 0 e 9 disposti a caso e caratterizzati dall’avere una distribuzione uniforme) -->
 
@@ -950,12 +952,17 @@ updateButton_exercise_5();
 </div>
 
 ---
-## Nella pratica: dalla popolazione...
+## In pratica: dalla popolazione...
 
 <center>
 <img src="./img/sampling/Beinasco.png" img height="550px" border="4px"/>
 <center>
 
+
+<!-- Supponiamo che tu debba valutare il gradimento di un centro di salute mentale che ha aperto, in via sperimentale, lo scorso anno a Beinasco. 
+
+Beinasco ha una \textbf{popolazione} di circa 18,000 abitanti e hai accesso ad un estratto dell'elenco telefonico
+ -->
 ---
 ## ... attraverso la finestra di campionamento 
 
@@ -964,6 +971,12 @@ updateButton_exercise_5();
 
 <img src="./img/sampling/Elenco_page2.png" img height="500px" border="4px"/>
 </center>
+
+<!-- e l'elenco di tutti gli individui in una popolazione da cui si scelgono soggetti che faranno parte del campione 
+
+Come facciamo a scegliere chi estrarre?
+
+-->
 
 ---
 ## ... al campione
@@ -1015,6 +1028,27 @@ updateButton_exercise_5();
 
 </div>
 </div>
+
+<!-- ---
+## Abbiamo finito?
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+- chi non &egrave; eleggibile?
+- chi non risponde?
+
+</div>
+<div>
+
+<span style="display:block; height:50px;"></span>
+
+<img src="./img/sampling/sampling_schema.png" img height="450px" align="right" border="0px"/>
+
+</div>
+</div> -->
 
 ---
 ## Bias nella selezione del campione
@@ -1120,7 +1154,10 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 </div>
 
 
-<!-- Self-selection bias is likely because students who are more serious about school are more likely to sign up  -->
+<!-- Self-selection bias is likely because students who are more serious about school are more likely to sign up 
+
+Potrei dividervi lato destro dell'aula fa esercitazione e sinistro no e poi confronto i risultati dell'esame per vedere se quelli a destra hanno un voto piu' alto -- qui siamo nella statistica inferenziale!
+ -->
 
 
 ---
@@ -1251,10 +1288,16 @@ Surveys asking for personal, legal, or other sensitive information are prone to 
 
 <!-- Sino ad ora abbiamo lavorato su Campioni indipendenti: non vi è relazione tra osservazioni appartenenti a campioni diversi
 
+Per esempio 
+- peso nei pazienti diabetici e nei sani
+- lato sinistro e destro dell'aula nel test se le esercitazioni aiutano
+
 Esistiono per&ograve; anche campioni appaiati, in cui dati di un campione sono associati con quelli dell’altro. Ad ogni osservazione nel primo gruppo corrisponde un’osservazione nel secondo
 
-Indipendenti> peso nei pazienti diabetici e nei sani
-Appaiati: peso nei pazienti diabetici alla diagnosi e dopo 10 anni -->
+Per esempio
+- peso nei pazienti diabetici alla diagnosi e dopo 10 anni 
+- voto di esame prima e dopo le esercitazioni
+-->
 
 ---
 ## Campioni indipendenti & dipendenti
@@ -1265,7 +1308,14 @@ Appaiati: peso nei pazienti diabetici alla diagnosi e dopo 10 anni -->
 <img src="./img/sampling/independent_vs_paired_2.png" img height="300px" border="0px"/>
 </center>
 
-<!-- I capioni appaiati possono anche essere essere persone diverse ma matchate per caratteristiche salienti (eta', sesso, peso corporeo, ...)  -->
+<!-- I capioni appaiati possono anche essere essere persone diverse ma matchate per caratteristiche salienti (eta', sesso, peso corporeo, ...) 
+
+Per esempio:
+- accoppio una persona che ha preso 100 all'esame di maturità nel gruppo "esercitazioni" con una che a preso 100 nel gruppo "lezione normale"
+
+o studio caso-controllo, è un tipo di studio retrospettivp in cui le persone con una malattia o che presentano un outcome di interesse (i casi) vengono appaiati e confrontati con una o più persone che non hanno la malattia o l'outcome di interesse (i controlli) allo scopo di individuare differenze tra esposizioni e/o fattori di rischio che potrebbero essere alla base della malattia/outcome.
+
+ -->
 
 ---
 ### Cosa abbiamo imparato?
