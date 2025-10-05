@@ -22,9 +22,8 @@ section {
 </style>
 
 
-### Modulo di
 # Statistica Medica
-### &nbsp;
+<!-- ### &nbsp; -->
 ###### alessia.visconti@unito.it
 
 ---
@@ -332,6 +331,7 @@ Cosa vuol dire "fino al"? Se eliminasse il 10% dei batteri e raggiungesse il 20%
 <div style="font-size: 50%" align="right">
 
 <br/> Sies, H., *A new parameter for sex education*. Nature, 1988, [doi:10.1038/332495a0](https://www.nature.com/articles/332495a0)
+Ulteriori esempi: <a href="https://www.tylervigen.com/spurious-correlations">Spurious correlations</a>
 
 </div>
 
@@ -344,7 +344,7 @@ Artefatto dovuto alla doppia scala, vado a trasformare le due distribuzioni empi
 -->
 
 ---
-## Cosa ne concludete?
+## Latte e tumori
 
 <span style="display:block; height:0px;"></span>
 
@@ -372,27 +372,57 @@ Correlation is not causation, Correlazione non e' causalita', "dopo di" non sign
 -->
 
 ---
+## Latte e tumori
+
+<span style="display:block; height:0px;"></span>
+
+- Le donne inglesi, che consumano grandi quantit&agrave; di latte, sviluppano alcuni tipi di tumore con una frequenza 18 volte superiore rispetto alle donne giapponesi, che lo bevono raramente
+- Solitamente, i tumori si manifestano in et&agrave; avanzata
+- Le donne inglesi vivono in media 12 anni pi&ugrave; a lungo delle donne giapponesi
+
+
+<div align="right">
+
+**Post-hoc fallacy**
+
+</div>
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+<div style="font-size: 50%" align="right">
+
+<br/> Huff, D., *How to lie with statistics*. W. W. Norton & Company, 1954
+
+</div>
+
+---
 ## Perch&eacute; siamo qui?
 
 <span style="display:block; height:0px;"></span>
 
 - perché i "numeri" (o meglio, il modo in cui sono presentati) a volte ingannano
 
+<div align="right">
+
+**Statisticulation**
+
+</div>
 
 <div class="columns">
+<div>
+
+<center>
+<img src="./img/introduction/tobacco.png" img height="330px" border="4px"/>
+</center>
+
+
+</div>
 <div>
 
 <span style="display:block; height:10px;"></span>
 
 <center>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./img/introduction/correlation.png" img height="185px" border="4px"/>
-</center>
-
-</div>
-<div>
-
-<center>
-<img src="./img/introduction/tobacco.png" img height="330px" border="4px"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./img/introduction/correlation.png" img height="200px" border="4px"/>
 </center>
 
 </div>
@@ -499,7 +529,7 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 
 <span style="display:block; height:60px;"></span>
 
-- Come rispondo alla mia domanda?
+- Il disegno sperimentale
 
 </div>
 <div>
@@ -511,7 +541,20 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 </div>
 </div>
 
-<!-- Decido di andare in un ospedale da campo per raccogliere dati -->
+<!-- Decido di andare in un ospedale da campo per raccogliere dati, ma decido anche che dati raccogliere, come, da quando a quando, e un sacco di altre cose.
+
+Solitamente questa e' la parte piu' importante di uno studio scientifico, che viene spesso ignorata per motivi che sinceramente mi sfuggono.
+
+È una procedura per la pianificazione di un esperimento scientifico, prodotto prima dell'esecuzione dell'esperimento stesso, che cerca di garantire che i dati raccolti e le analisi condotte possano essere analizzati per fornire conclusioni valide e oggettive, e in cui il ricercatore decide come rispondere alla domanda di ricerca. 
+
+- verificare se esiste una collezione di dati di alta qualità che puòessere riutilizzata
+- decidere e giustificare perché sia necessario raccogliere nuove collezioni di dati, e quali dati siano necessari e come debbano essere raccolti (via questionario, analisi strumentali, ,,,)
+- decidere e giustificare da quale \gls{population} i dati verranno raccolti, tenendo anche in considerazione considerazione etiche e logistiche (per esempio, questionari che richiedano un tempo troppo lungo per essere completati),
+- decidere e giustificare quando e dove la raccolta dati debba iniziare e finire
+- decidere e giustificare i metodi analitici che verranno utilizzati, e 
+- definire delle probabili risposte alla domanda di ricerca (\gls{hypothesis})
+
+-->
 
 ---
 ## Raccolgiamo i dati
@@ -527,6 +570,8 @@ E se questo e' ovvio oggi, lo dobbiamo alla sua abilita' nel raccogliere e prese
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> Reparto ospedaliero a Scutari. J.A. Benwell. 1856 circa
 
 </div>
+
+
 
 ---
 ## Analizziamo i dati
@@ -577,17 +622,15 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (E
 
  Problem-Plan-Data-Analysis-Conclusion cycle. 
  
- Nella prima fase si definisce un problema, solitamente formulato come una domanda di ricerca. 
- Nella parte di Planning, il ricercatore decide come rispondere alla domanda di ricerca. Solitamente ignorata, ma assoulutamente cruciale, GARBACE IN, GARBACE OUT. Questo include, 
- i) verificare se esiste una collezione di dati di alta qualit`a che pu`o essere usata, ii) decidere e giustificare perch ́e sia necessario raccogliere nuove collezioni di dati, e quali dati siano necessari e come debbano essere raccolti 
- iii) decidere e giustificare da qua- le Popolazione i dati verranno raccolti, tenendo anche in considerazione considerazione etiche e logistiche (per esempio, questionari che richiedano un tempo troppo lungo per essere completati), 
- iv) decidere e giustificare quando e dove la raccolta dati debba iniziare e finire, 
- v) decidere e giustifi- care i metodi analitici che verranno utilizzati, e 
- vi) definire delle probabili risposte alla domanda di ricerca (ipotesi)
- 
- Nella terza fase, i dati vengono raccolti, organizzati, puliti e verificati. 
- Nella quarta fase, i dati vengono esplora- ti, visualizzati e analizzati, per esempio attraverso la creazione di tabelle e/o grafici, di statistiche descrittive. In questo contesto si inseriscono anche il Test di ipotesi e il calcolo e l’interpretazione di un Intervallo di confidenza di una Statistica. 
- Nell’ultima fase, i risultati vengono interpre- tati e comunicati e usati per formulare nuove domande di ricerca la cui risposta verr`a ricercata nel prossimo PPDAC cycle.
+1)  si definisce un problema, solitamente formulato come una domanda di ricerca. 
+
+2) il ricercatore decide come rispondere alla domanda di ricerca. Solitamente ignorata, ma assoulutamente cruciale, GARBACE IN, GARBACE OUT. Il disegno sperimentale che abbiamo introdotto prima.
+
+3) i dati vengono raccolti, organizzati, puliti e verificati. 
+
+4) i dati vengono esplora- ti, visualizzati e analizzati, per esempio attraverso la creazione di tabelle e/o grafici, di statistiche descrittive. In questo contesto si inseriscono anche il Test di ipotesi e il calcolo e l’interpretazione di un Intervallo di confidenza di una Statistica. 
+
+5) i risultati vengono interpre- tati e comunicati e usati per formulare nuove domande di ricerca la cui risposta verr`a ricercata nel prossimo PPDAC cycle.
 -->
 
 ---
@@ -599,21 +642,16 @@ Stabilire una legge universale partendo da singoli casi particolari
 
 <!-- 
 
-Deduttivo: tutti gli uomini sono mortali, Pinco Pallo e' un uomo, Pinco Pallo e' mortale.
-Induttivo: vedo che diversi uomini muoiono, tutti gli uomini sono mortali,
-
 Dedittivo: per imparare una lingua prima imparo la grammatica, poi il vocabolario, poi la sintassi e poi parlo
 Induttivo: ascolto gli altri parlare e mi arrangio
 Insieme: in realta' nella vita usiamo insieme sia induttivo che deduttivo per esempio impariamo delle regole a scuola e dei modi di dire nel paese
 
-
 Quello che abbiamo fatto e' stato in taking particular instances and trying to work out general conclusions.
-
-we don’t know the customs in a community about kissing female friends on the cheek, and we have to try to work it out by observing whether people kiss once, twice, three times, or not at all.
-
 Questo e' il contrario del ragionamento deduttivo, using the rules of cold logic to work from general premises to particular conclusions. 
 
-If the law of the country is that cars should drive on the right, then we can deduce that on any particular occasion it is best to drive on the right. But induction works the other way,  -->
+Deduttivo: tutti gli uomini sono mortali, Pinco Pallo e' un uomo, Pinco Pallo e' mortale.
+Induttivo: vedo che diversi uomini muoiono, tutti gli uomini sono mortali,
+ -->
 
 
 ---
