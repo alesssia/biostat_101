@@ -33,7 +33,7 @@ section {
 <!-- <div style="font-size: 90%"> -->
 
 - Definire correttamente popolazione e campione
-- Conoscere le due maggiori strategie di campionamento
+- Conoscere le maggiori strategie di campionamento
 - Individuare distorsioni sistematiche (o *bias*) nei campioni
 
 <!-- </div> -->
@@ -124,9 +124,9 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; la popolazione di studio?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti inglesi tra 3-17  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anni con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti inglesi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
@@ -159,7 +159,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_1= document.getElementById("countdown_exercise_1");
-const seconds_exercise_1= 30; // seconds_exercise_1
+const seconds_exercise_1= 10; // seconds_exercise_1
 let timeLeft_exercise_1= seconds_exercise_1;
 let timerInterval_exercise_1= null;
 
@@ -248,10 +248,10 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; la popolazione di studio?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo :white_check_mark: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti inglesi tra 3-17  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anni con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti inglesi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo :white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
 
@@ -285,10 +285,10 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; il campione selezionato?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti inglesi tra 3-17  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anni con autismo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti inglesi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
 
@@ -320,7 +320,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_2= document.getElementById("countdown_exercise_2");
-const seconds_exercise_2= 30; // seconds_exercise_2
+const seconds_exercise_2= 10; // seconds_exercise_2
 let timeLeft_exercise_2= seconds_exercise_2;
 let timerInterval_exercise_2= null;
 
@@ -411,9 +411,9 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 :question: &nbsp;&nbsp;&nbsp; Qual &egrave; il campione selezionato?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti tra 3-17 anni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; con autismo &nbsp; :white_check_mark: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti in Inghilterra
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Bambini e adolescenti inglesi tra 3-17  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; anni con autismo &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Bambini e adolescenti inglesi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Bambini e adolescenti con autismo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Bambini e adolescenti che non 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presentano sintomi di autismo
@@ -448,7 +448,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la numerosit&agrave; del campione
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la numerosit&agrave; del campione?
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 277
@@ -484,7 +484,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_3= document.getElementById("countdown_exercise_3");
-const seconds_exercise_3= 30; // seconds_exercise_3
+const seconds_exercise_3= 10; // seconds_exercise_3
 let timeLeft_exercise_3= seconds_exercise_3;
 let timerInterval_exercise_3= null;
 
@@ -572,7 +572,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la numerosit&agrave; del campione
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la numerosit&agrave; del campione?
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 277 &nbsp;&nbsp; :white_check_mark: 
@@ -586,6 +586,9 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 </div>
 </div>
+
+<!-- The trial was conducted from August 2014 through June 2017. Of the 355 children and adolescents who underwent screening, 290 met the eligibility criteria, were randomly assigned to a trial group, received at least one dose of oxytocin or placebo, and were included in the safety analyses. The efficacy analyses excluded 11 participants who had no ABC-mSW assessments after randomization and 2 who did not have a baseline ABC-mSW score, which yielded 277 participants for the modified intention-to-treat analysis. -->
+
 
 ---
 ## Strategie di campionamento
@@ -623,7 +626,7 @@ Chiedere le intenzioni di voto alle prime 10 pagine di utenti con il numero di t
 
 <div style="font-size: 90%">
 
-:dart: &nbsp;&nbsp;&nbsp; Nel **campionamento casuale semplice** tutti i soggetti della  
+:dart: &nbsp;&nbsp;&nbsp; In un **campionamento probabilistico** tutti i soggetti della  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popolazione hanno la stessa probabilit&agrave; di venire inclusi 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nel campione
 
@@ -642,8 +645,8 @@ data una popolazione di N individui ed un campione di dimensione n  la probabili
 
 -->
 
-<!-- ---
-## Campionamento casuale semplice
+---
+### Strategia #1: Campionamento casuale semplice
 
 <div class="columns">
 <div>
@@ -663,7 +666,7 @@ data una popolazione di N individui ed un campione di dimensione n  la probabili
 <img src="./img/sampling/numbers-tombola.jpg" img height="400px" align="right" border="0px"/>
 
 </div>
-</div> -->
+</div> 
 
 <!-- Disporre di un elenco completo di tutti i soggetti della popolazione e una loro numerazione
 
@@ -671,8 +674,8 @@ n piccolo e' la nostra numerosita' campionaria
 
 Decidere quante unità si vogliono selezionare e calcolare la frazione di campionamento -->
 
-<!-- ---
-## Campionamento casuale semplice
+---
+### Strategia #1: Campionamento casuale semplice
 
 <div class="columns">
 <div>
@@ -694,9 +697,122 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 <img src="./img/sampling/numbers-tombola_simple.jpg" img height="400px" align="right" border="0px"/>
 
 </div>
-</div> -->
+</div>
 
 <!--  Estrarre le unità tramite sorteggio casuale o tavole dei numeri casuali (costruite in modo da non avere vizi sistematici. Sono delle serie di numeri tra 0 e 9 disposti a caso e caratterizzati dall’avere una distribuzione uniforme) -->
+
+---
+### Strategia #2: Campionamento stratificato
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:dart: &nbsp;&nbsp;&nbsp; La popolazione &egrave; divisa in gruppi omogenei (strata) assicurandosi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  che siano tutti adeguatamente rappresentati.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Una variazione prevede che il numero di elementi estratti da ciascun
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo sia proporzionale alla frequenza di quel gruppo
+
+<!-- a simple random sample is taken from a number of distinct subgroups, or strata, of the population in order to ensure that they are all adequately represented. If different sampling fractions are used in the different strata, simple summary statistics will not be representative of the whole popu- 
+lation. -->
+
+---
+### Strategia #2: Campionamento stratificato
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 90%">
+
+:pushpin: &nbsp;&nbsp;&nbsp;  $N=90$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_{female}=60$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_{male}=30$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n=9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{female} = 6$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_{male} = 3$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $Females: 46, 20, 26,$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $50, 47,  3$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $Males: 69, 85, 87$
+
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<img src="./img/sampling/numbers-tombola_stratified.jpg" img height="400px" align="right" border="0px"/>
+
+</div>
+</div>
+
+<!-- Esempi di strata : sesso, eta', condizione sociale -->
+
+---
+### Strategia #3: Campionamento a grappolo 
+
+<span style="display:block; height:10px;"></span>
+
+:dart: &nbsp;&nbsp;&nbsp; La popolazione &egrave; divisa in gruppi gerarchici (cluster) da cui 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; viene poi estratto il campione (si estrae il gruppo e non il 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; singolo elemento).
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A uno stadio&nbsp;: osservo tutti gli elementi nel cluster
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A due stadi&nbsp;&nbsp;&nbsp;: campiono tra gli elementi del cluster
+
+<!-- Le unità della popolazione sono suddivise in CLUSTER o GRAPPOLI in base a circostanze organizzative, strutturali, geografiche.
+All’interno dei cluster le unità possono essere molto diverse tra di loro.
+
+Il campione si forma estraendo casualmente un numero prestabilito di cluster, dopodichè si possono includere tutte le unità che appartengono al cluster (1 stadio) o solo una parte (2 stadi, usano campionamento semplice o stratificato)
+ -->
+
+---
+### Strategia #3: Campionamento a grappolo 
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/sampling/google-earth-torino.jpg" img height="450px" border="0px"/>
+</center>
+
+--- 
+## Campionamento nel mondo reale
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:450px;"></span>
+
+<div style="font-size: 80%" align="right">
+https://hbsc.org
+</div>
+
+</div>
+<div>
+
+<span style="display:block; height:1px;"></span>
+
+<center>
+<img src="./img/sampling/hbsc.jpg" img height="500px" border="4px"/>
+</center>
+
+</div>
+
+<!--  Health beavious in school aged children 
+Studio internazionale che si tiene ogni 4 anni e che raccoglie informazioni sui ragazzi di 11, 13, 15 e, recentemente anche 17 anni (che sono la mia popolazione) 
+Ma non li raccoglie tutti, ne raccoglie un campione.
+
+Innanzitutto li devo dividere per regioni (stratificato), poi vado a identifcare le scuole (cluster)
+All'interno delle scuole vado a fare un ulteriore strato per grado/eta' e poi prpcedo con un sistematic sampling all'interno di ciascuno strato per identiicare le classi (di cui scelgo TUTTI gli studenti della classe)
+
+Countries may choose to stratify their samples to ensure representation by, for example, geographic location,
+ethnic group or school type.
+-->
 
 
 ---
@@ -706,18 +822,19 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; In quale tipi di studio può capitare di selezionare un campione 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di convenienza?
+:question: &nbsp;&nbsp;&nbsp; Un rappresentante sta conducendo un sondaggio sul gradimento di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; un nuovo prodotto intervistando un cliente ogni cinque che entra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; all'ipermercato vicino alla ditta per la quale lavora
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Censimenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Studi di popolazione
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Studi clinici
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nessuno: durante uno studio, il campione è sempre 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; casualmente selezionato dalla popolazione 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Che strategia di campionamento sta usando??
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Casuale semplice
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Sistematico
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Stratificato
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Di convenienza
 
 </div>
 
-<span style="display:block; height:10px;"></span>
 
 <style>
   #countdown_exercise_4{
@@ -743,7 +860,7 @@ Decidere quante unità si vogliono selezionare e calcolare la frazione di campio
 <script>
 <!--
 const countdown_exercise_4= document.getElementById("countdown_exercise_4");
-const seconds_exercise_4= 30; // seconds_exercise_4
+const seconds_exercise_4= 20; // seconds_exercise_4
 let timeLeft_exercise_4= seconds_exercise_4;
 let timerInterval_exercise_4= null;
 
@@ -804,9 +921,6 @@ updateButton_exercise_4();
 -->
 </script>
 
-</div>
-</div>
-
 ---
 ### Esercizio #4 -- Soluzione
 
@@ -814,15 +928,16 @@ updateButton_exercise_4();
 
 <div style="font-size: 90%">
 
-:question: &nbsp;&nbsp;&nbsp; In quale tipi di studio può capitare di selezionare un campione 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; di convenienza?
+:question: &nbsp;&nbsp;&nbsp; Un rappresentante sta conducendo un sondaggio sul gradimento di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; un nuovo prodotto intervistando un cliente ogni cinque che entra 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; all'ipermercato vicino alla ditta per la quale lavora
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Censimenti
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Studi di popolazione
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Studi clinici &nbsp;&nbsp; :white_check_mark: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nessuno: durante uno studio, il campione è sempre 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; casualmente selezionato dalla popolazione 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Che strategia di campionamento sta usando??
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Casuale semplice
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Sistematico
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Stratificato
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Di convenienza &nbsp; :white_check_mark:
 
 </div>
 
@@ -871,7 +986,7 @@ updateButton_exercise_4();
 <script>
 <!--
 const countdown_exercise_5= document.getElementById("countdown_exercise_5");
-const seconds_exercise_5= 30; // seconds_exercise_5
+const seconds_exercise_5= 20; // seconds_exercise_5
 let timeLeft_exercise_5= seconds_exercise_5;
 let timerInterval_exercise_5= null;
 
@@ -948,6 +1063,36 @@ updateButton_exercise_5();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 150.000 persone residenti in 2000 Comuni)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Un campione selezionato tra gli studenti di UniTO :white_check_mark: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nessuno dei precedenti 
+
+</div>
+
+---
+## E se il campione non &egrave; rappresentativo?
+
+<!-- <span style="display:block; height:1px;"></span> -->
+
+- Le conclusioni **non** possono generalizzate
+
+<center>
+<img src="./img/sampling/ATD_Family.png" img height="300px" border="0px"/>
+<center>
+
+
+<!-- Per anni il manichino e' stato solo male, nonostante le donne comprino il 62% delle auto in nord-america e il "female" dummy e' un downsize del male e provato solo nel sedile del passeggero 
+
+Le donne soffrono maggiori colpi di frusta
+
+primo test con vero manichino donna nel 2023
+
+
+consider a vaccine trial carried out using student volunteers. If it is reasonable to assume that in their response to the vaccine and exposure to disease students are typical of the community at large, the results will have general applicability. If, on the other hand, students differ in any respect which may materially affect their response to the vaccine or exposure to disease, the conclusions from the trial are restricted to the population of students and do not have general applicability. Deciding whether or not ‘students are typical’ is not a statistical issue, but depends on an informed judgement taking into account relevant biological and epidemiological knowledge.
+-->
+
+<span style="display:block; height:30px;"></span>
+
+<div style="font-size: 50%" align="right">
+
+Caroline Criado-Perez, *Invisible Women: Exposing Data Bias in a World Designed for Men*, Ballantine Books, 2019
 
 </div>
 
@@ -1029,7 +1174,7 @@ Come facciamo a scegliere chi estrarre?
 </div>
 </div>
 
-<!-- ---
+---
 ## Abbiamo finito?
 
 <div class="columns">
@@ -1048,7 +1193,7 @@ Come facciamo a scegliere chi estrarre?
 <img src="./img/sampling/sampling_schema.png" img height="450px" align="right" border="0px"/>
 
 </div>
-</div> -->
+</div>
 
 ---
 ## Bias nella selezione del campione
@@ -1058,7 +1203,30 @@ Come facciamo a scegliere chi estrarre?
 
 <span style="display:block; height:10px;"></span>
 
-- Survivor bias
+- **Non-response bias**
+
+</div>
+<div>
+
+
+</div>
+</div>
+
+<!-- Faccio domande molto personali (uso di cannabis) 
+
+Surveys asking for personal, legal, or other sensitive information are prone to non-response bias, simply because there is some information respondents don’t feel comfortable disclosing.
+-->
+
+
+---
+## Bias nella selezione del campione
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+- **Survivor bias**
 
 </div>
 <div>
@@ -1080,7 +1248,7 @@ e l’errore logico che si commette quando si prendano in considerazione solo gl
 
 <span style="display:block; height:1px;"></span>
 
-- Survivor bias
+- **Survivor bias**
 
 <div style="font-size: 90%">
 
@@ -1096,7 +1264,7 @@ e l’errore logico che si commette quando si prendano in considerazione solo gl
 
 <span style="display:block; height:1px;"></span>
 
-- Survivor bias
+- **Survivor bias**
 
 <div style="font-size: 90%">
 
@@ -1120,9 +1288,7 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 
 <span style="display:block; height:10px;"></span>
 
-- Survivor bias
-- Volunteer bias
-
+- **Volunteer bias**
 
 </div>
 <div>
@@ -1142,8 +1308,7 @@ X indossare una cintura di sicurezza, mettere le sicurezze sul lavoro... when he
 
 <span style="display:block; height:1px;"></span>
 
-- Survivor bias
-- Volunteer bias
+- **Volunteer bias**
 
 <div style="font-size: 90%">
 
@@ -1165,18 +1330,7 @@ Potrei dividervi lato destro dell'aula fa esercitazione e sinistro no e poi conf
 
 <span style="display:block; height:1px;"></span>
 
-- Survivor bias
-- Volunteer bias
-- Lost to follow up bias
-
----
-## Bias nella selezione del campione
-
-<span style="display:block; height:1px;"></span>
-
-- Survivor bias
-- Volunteer bias
-- Lost to follow up bias
+- **Lost to follow up bias**
 
 <div style="font-size: 80%">
 
@@ -1192,9 +1346,7 @@ Potrei dividervi lato destro dell'aula fa esercitazione e sinistro no e poi conf
 
 <span style="display:block; height:1px;"></span>
 
-- Survivor bias
-- Volunteer bias
-- Lost to follow up bias
+- **Lost to follow up bias**
 
 <div style="font-size: 80%">
 
@@ -1212,9 +1364,7 @@ Potrei dividervi lato destro dell'aula fa esercitazione e sinistro no e poi conf
 
 <span style="display:block; height:1px;"></span>
 
-- Survivor bias
-- Volunteer bias
-- Lost to follow up bias
+- **Lost to follow up bias**
 
 <div style="font-size: 80%">
 
@@ -1232,9 +1382,7 @@ Potrei dividervi lato destro dell'aula fa esercitazione e sinistro no e poi conf
 
 <span style="display:block; height:1px;"></span>
 
-- Survivor bias
-- Volunteer bias
-- Lost to follow up bias
+- **Lost to follow up bias**
 
 <div style="font-size: 80%">
 
@@ -1248,34 +1396,6 @@ Potrei dividervi lato destro dell'aula fa esercitazione e sinistro no e poi conf
 
 </div>
 
-
----
-## Bias nella selezione del campione
-
-<span style="display:block; height:1px;"></span>
-
-- Survivor bias
-- Volunteer bias
-- Lost to follow up bias
-- Non-response bias
-
-
-<!-- Faccio domande molto personali (uso di cannabis) 
-
-Surveys asking for personal, legal, or other sensitive information are prone to non-response bias, simply because there is some information respondents don’t feel comfortable disclosing.
--->
-
-
----
-## Bias nella selezione del campione
-
-<span style="display:block; height:1px;"></span>
-
-- Survivor bias
-- Volunteer bias
-- Lost to follow up bias
-- Non-response bias
-- $\dots$
 
 ---
 ## Campioni indipendenti & dipendenti
