@@ -288,6 +288,40 @@ Case–control group -> Risk factor/Treatment group
  -->
 
 ---
+### Esercizio #1
+
+<div style="font-size: 80%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore si chiede se il numero di figli dipenda dal livello di educazione.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Per rispondere a questa domanda divide le persone in 4 categorie (licenza
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  media e/o elementare, diploma, laurea, dottorato) e ne trascrive il numero
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  di figli.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; la variabile di esito? Quale di esposizione?
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Educazione &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: .....................
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Numero di figli &nbsp;: .....................
+
+</div>
+
+---
+### Esercizio #2
+
+<div style="font-size: 78%">
+
+:question: &nbsp;&nbsp;&nbsp; Un ricercatore disegna uno studio in cui pazienti con alti livelli di colesterolo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono assegnati in modo casuale a prendere o un nuovo farmaco o un placebo.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I livelli di colesterolo e vengono misurati prima e dopo 3 mesi di trattamento
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qual &egrave; la variabile di esito? Quale di esposizione?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Trattamento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: .....................
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Livelli di colesterolo : .....................
+
+</div>
+
+---
 ## I tipi di variabile
 
 <span style="display:block; height:1px;"></span>
@@ -443,7 +477,7 @@ Categoriche si dividono in 2 classi
 
 
 ---
-### Esercizio #1
+### Esercizio #3
 
 <div class="columns">
 <div>
@@ -479,7 +513,7 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 -->
  
 ---
-### Esercizio #2
+### Esercizio #4
 
 <div style="font-size: 85%">
 
@@ -498,7 +532,7 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 </div>
 
 ---
-### Esercizio #3
+### Esercizio #5
 
 <div style="font-size: 80%">
 
@@ -547,7 +581,7 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 
 
 ---
-### Esercizio #4 
+### Esercizio #6
 
 <div style="font-size: 78%">
 
@@ -676,7 +710,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 
 
 ---
-### Esercizio #5
+### Esercizio #7
 
 <span style="display:block; height:10px;"></span>
 
@@ -694,7 +728,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 <span style="display:block; height:60px;"></span>
 
 ---
-### Esercizio #6
+### Esercizio #8
 
 <span style="display:block; height:10px;"></span>
 
@@ -721,6 +755,6 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 - Le variabili descrivono delle caratteristiche di interesse
 - Le differenze che esistono tra le osservazioni (variabilit&agrave;) dipendono sia da fattori noti o conoscibili (come le differenze individuali e le condizioni sperimentali), sia da effetti casuali (rumore statistico, come gli errori di misurazione)
 - Le variabili possono essere di diverso tipo, a seconda della caratteristica che descrivono
-- Le variabili numeriche possono essere discretizzate (quindi trasformate in variabili categoriche)
+- Le variabili numeriche possono essere sempre discretizzate (quindi trasformate in variabili categoriche ordinali)
 
 </div>
