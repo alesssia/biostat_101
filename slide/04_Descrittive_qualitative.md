@@ -891,10 +891,10 @@ LEGGERE PRIMA DI DARE LA SOLUZIONE DELLA SECONDA Nel due bracci dell'esperimento
 
 
 |  | Maschi | Femmine | Totale |
-| ----: | -----: | ----: | ----: |
-| CBT |  35 (54.7%) |  29 (45.3%) | 64  |
-| Standard | 72 (52.6%) |  65 (47.4%) | 137 |
-| Totale | 107 (53.2%) | 94 (46.8%)  | 201 |
+| ----: | ----- | ---- | ----|
+| CBT | 35 (32.7%) | 72 (67.3%) |  107 |
+| Standard | 29 (30.9%) | 65 (69.1%) | 94 |
+| Totale | 64 (31.8%) | 137 (68.2%) |  201 |
 
 </center>
 
