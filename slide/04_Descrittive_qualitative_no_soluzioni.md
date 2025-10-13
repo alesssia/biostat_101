@@ -50,7 +50,7 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (E
 </div>
 
 ---
-### I tipi di dato
+## Di che tipo di variabile si tratta?
 
 <div class="columns">
 <div>
