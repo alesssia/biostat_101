@@ -644,6 +644,23 @@ Esempio lunghezza della degenza, giorni e giorni^2
  -->
 
 ---
+## Deviazione standard e valori estremi
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 95%">
+
+:dart: &nbsp;&nbsp;&nbsp; Quali sono le deviazioni standard di questi insiemi?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{40, 6, 75, 55, 34\}$ &nbsp;&nbsp;&nbsp;&nbsp; $\bar{x} = 42$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${s_{x}} = 25.6$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{40, 6, 175, 55, 34\}$ &nbsp;&nbsp;&nbsp; $\bar{y} = 62$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${s_{y}} = 65.6$
+
+<div>
+
+---
 ### Esercizio #6
 
 <div style="font-size: 73%">
@@ -702,9 +719,9 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) con media e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con media e interquantile range
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) con mediana e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) con mediana e interquantile range
 
 </div>
 
@@ -731,7 +748,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale femmine nel 
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di femmine nel 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di intervento?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
@@ -1493,6 +1510,99 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 
 <span style="display:block; height:1px;"></span>
 
+<img src="./img/descriptive/scatter1.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+---
+### Esercizio #18
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter2.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+---
+### Esercizio #19
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter3.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+---
+### Esercizio #20
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter4.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+
+---
+### Esercizio #21
+
+<span style="display:block; height:1px;"></span>
+
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Una correlazione $r=-0.7$ indica che al crescere del valore  
@@ -1508,7 +1618,7 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 <span style="display:block; height:70px;"></span>
 
 ---
-### Esercizio #18
+### Esercizio #22
 
 <span style="display:block; height:1px;"></span>
 
@@ -1525,99 +1635,6 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 
 <span style="display:block; height:100px;"></span>
 
----
-### Esercizio #19
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter1.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
-
-</div>
-
-<span style="display:block; height:60px;"></span>
-
-
-
----
-### Esercizio #20
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter2.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
-
-</div>
-
-<span style="display:block; height:60px;"></span>
-
----
-### Esercizio #21
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter3.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
-
-</div>
-
-<span style="display:block; height:60px;"></span>
-
----
-### Esercizio #22
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter4.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
-
-</div>
-
-<span style="display:block; height:60px;"></span>
 
 ---
 ### Esercizio #23

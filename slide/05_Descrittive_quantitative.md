@@ -123,7 +123,7 @@ Dispersione o variabilita'  -> Forniscono un’indicazione della dispersione del
 <script>
 <!--
 const countdown_exercise_1= document.getElementById("countdown_exercise_1");
-const seconds_exercise_1= 60; // seconds_exercise_1
+const seconds_exercise_1= 15; // seconds_exercise_1
 let timeLeft_exercise_1= seconds_exercise_1;
 let timerInterval_exercise_1= null;
 
@@ -641,7 +641,7 @@ in generla la media e' la misura piu' usata per descrivere la tendenza centrale 
 <script>
 <!--
 const countdown_exercise_4= document.getElementById("countdown_exercise_4");
-const seconds_exercise_4= 300; // seconds_exercise_4
+const seconds_exercise_4= 180; // seconds_exercise_4
 let timeLeft_exercise_4= seconds_exercise_4;
 let timerInterval_exercise_4= null;
 
@@ -1213,6 +1213,25 @@ Esempio lunghezza della degenza, giorni e giorni^2
  -->
 
 ---
+## Deviazione standard e valori estremi
+
+<span style="display:block; height:1px;"></span>
+
+<div style="font-size: 95%">
+
+:dart: &nbsp;&nbsp;&nbsp; Quali sono le deviazioni standard di questi insiemi?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $x= \{40, 6, 75, 55, 34\}$ &nbsp;&nbsp;&nbsp;&nbsp; $\bar{x} = 42$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${s_{x}} = 25.6$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $y= \{40, 6, 175, 55, 34\}$ &nbsp;&nbsp;&nbsp; $\bar{y} = 62$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${s_{y}} = 65.6$
+
+<div>
+
+
+
+---
 ### Esercizio #6
 
 <div style="font-size: 73%">
@@ -1467,9 +1486,9 @@ Inoltre, Se la numerosità del campione è piccola, la mediana e il range interq
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) con media e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con media e interquantile range
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) con mediana e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) con mediana e interquantile range 
 
 </div>
 
@@ -1577,9 +1596,9 @@ con la mediana e il range interquartile (perché la variabile non ha una distrib
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Come descrivereste in Table 1 questa variabile?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) con media e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con mediana e interquantile range  &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) con media e interquantile range
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) con mediana e deviazione standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d)  non ho abbastanza elementi per decidere
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) con mediana e interquantile range  &nbsp; :white_check_mark:
 
 </div>
 
@@ -1606,7 +1625,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale femmine nel 
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di femmine nel 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di intervento?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
@@ -1643,7 +1662,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_8= document.getElementById("countdown_exercise_8");
-const seconds_exercise_8= 30; // seconds_exercise_8
+const seconds_exercise_8= 10; // seconds_exercise_8
 let timeLeft_exercise_8= seconds_exercise_8;
 let timerInterval_exercise_8= null;
 
@@ -1732,7 +1751,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 
 <div style="font-size: 70%">
 
-:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale femmine nel 
+:question: &nbsp;&nbsp;&nbsp; Qual &egrave; la percentuale di femmine nel 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gruppo di intervento?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) 13%
@@ -1810,7 +1829,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_9= document.getElementById("countdown_exercise_9");
-const seconds_exercise_9= 30; // seconds_exercise_9
+const seconds_exercise_9= 15; // seconds_exercise_9
 let timeLeft_exercise_9= seconds_exercise_9;
 let timerInterval_exercise_9= null;
 
@@ -1976,7 +1995,7 @@ Sikich, L. *et al.*, *Intranasal Oxytocin in Children and Adolescents with Autis
 <script>
 <!--
 const countdown_exercise_10= document.getElementById("countdown_exercise_10");
-const seconds_exercise_10= 30; // seconds_exercise_10
+const seconds_exercise_10= 10; // seconds_exercise_10
 let timeLeft_exercise_10= seconds_exercise_10;
 let timerInterval_exercise_10= null;
 
@@ -2454,7 +2473,7 @@ updateButton_exercise_11();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) La media perch&eacute; i dati sono numerici discreti e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica &nbsp; :white_check_mark:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) La mediana perch&eacute; i dati sono numerici discreti e 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) La moda perch&eacute; i dati sono numerici discreti e 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la distribuzione &egrave; abbastanza simmetrica
 
@@ -2996,7 +3015,7 @@ updateButton_exercise_15();
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Gli intervistati spendono tra le 0 e le 9 ore 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in palestra, con una media di 3.4 $\pm$  3.4 ore 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (mediana: 5 ore; moda: 0 ore).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (mediana: 5 ore; moda: 0 ore). &nbsp; :ballot_box_with_check:
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Circa la met&agrave; degli intervistati ha riportato di non
@@ -3668,6 +3687,526 @@ launched an investigation after complaints from Joshua’s and other bereaved pa
 
 <span style="display:block; height:1px;"></span>
 
+<img src="./img/descriptive/scatter1.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+<style>
+  #countdown_exercise_19{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_19.running {
+    background-color: green;
+  }
+  #countdown_exercise_19.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_19"></button>
+
+<script>
+<!--
+const countdown_exercise_19= document.getElementById("countdown_exercise_19");
+const seconds_exercise_19= 15; // seconds_exercise_19
+let timeLeft_exercise_19= seconds_exercise_19;
+let timerInterval_exercise_19= null;
+
+function formatTime_exercise_19(seconds_exercise_19) {
+  const minutes = Math.floor(seconds_exercise_19/ 60);
+  const remainingseconds_exercise_19= seconds_exercise_19% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_19).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_19() {
+  countdown_exercise_19.textContent = formatTime_exercise_19(timeLeft_exercise_19);
+}
+
+function startTimer_exercise_19() {
+  if (timerInterval_exercise_19=== null) {
+    countdown_exercise_19.classList.add('running');
+    countdown_exercise_19.classList.remove('finished');
+    timerInterval_exercise_19= setInterval(() => {
+      if (timeLeft_exercise_19> 0) {
+        timeLeft_exercise_19--;
+        updateButton_exercise_19();
+      } else {
+        clearInterval(timerInterval_exercise_19);
+        timerInterval_exercise_19= null;
+        countdown_exercise_19.classList.remove('running');
+        countdown_exercise_19.classList.add('finished');
+        countdown_exercise_19.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_19();
+  }
+}
+
+function pauseTimer_exercise_19() {
+  clearInterval(timerInterval_exercise_19);
+  timerInterval_exercise_19= null;
+  countdown_exercise_19.classList.remove('running');
+}
+
+function resetTimer_exercise_19() {
+  timeLeft_exercise_19= seconds_exercise_19;
+  updateButton_exercise_19();
+  countdown_exercise_19.classList.remove('finished');
+  countdown_exercise_19.classList.remove('running');
+  timerInterval_exercise_19= null;
+}
+
+countdown_exercise_19.addEventListener("click", () => {
+  if (countdown_exercise_19.classList.contains('finished')) {
+    resetTimer_exercise_19();
+  } else {
+    startTimer_exercise_19();
+  }
+});
+
+updateButton_exercise_19();
+-->
+</script>
+
+
+---
+### Esercizio #17 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter1.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ &nbsp;&nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare
+</div>
+
+---
+### Esercizio #18
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter2.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+<style>
+  #countdown_exercise_20{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_20.running {
+    background-color: green;
+  }
+  #countdown_exercise_20.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_20"></button>
+
+<script>
+<!--
+const countdown_exercise_20= document.getElementById("countdown_exercise_20");
+const seconds_exercise_20= 15; // seconds_exercise_20
+let timeLeft_exercise_20= seconds_exercise_20;
+let timerInterval_exercise_20= null;
+
+function formatTime_exercise_20(seconds_exercise_20) {
+  const minutes = Math.floor(seconds_exercise_20/ 60);
+  const remainingseconds_exercise_20= seconds_exercise_20% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_20).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_20() {
+  countdown_exercise_20.textContent = formatTime_exercise_20(timeLeft_exercise_20);
+}
+
+function startTimer_exercise_20() {
+  if (timerInterval_exercise_20=== null) {
+    countdown_exercise_20.classList.add('running');
+    countdown_exercise_20.classList.remove('finished');
+    timerInterval_exercise_20= setInterval(() => {
+      if (timeLeft_exercise_20> 0) {
+        timeLeft_exercise_20--;
+        updateButton_exercise_20();
+      } else {
+        clearInterval(timerInterval_exercise_20);
+        timerInterval_exercise_20= null;
+        countdown_exercise_20.classList.remove('running');
+        countdown_exercise_20.classList.add('finished');
+        countdown_exercise_20.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_20();
+  }
+}
+
+function pauseTimer_exercise_20() {
+  clearInterval(timerInterval_exercise_20);
+  timerInterval_exercise_20= null;
+  countdown_exercise_20.classList.remove('running');
+}
+
+function resetTimer_exercise_20() {
+  timeLeft_exercise_20= seconds_exercise_20;
+  updateButton_exercise_20();
+  countdown_exercise_20.classList.remove('finished');
+  countdown_exercise_20.classList.remove('running');
+  timerInterval_exercise_20= null;
+}
+
+countdown_exercise_20.addEventListener("click", () => {
+  if (countdown_exercise_20.classList.contains('finished')) {
+    resetTimer_exercise_20();
+  } else {
+    startTimer_exercise_20();
+  }
+});
+
+updateButton_exercise_20();
+-->
+</script>
+
+---
+### Esercizio #18 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter2.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ &nbsp;&nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare
+
+</div>
+
+---
+### Esercizio #19
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter3.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+
+<style>
+  #countdown_exercise_21{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_21.running {
+    background-color: green;
+  }
+  #countdown_exercise_21.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_21"></button>
+
+<script>
+<!--
+const countdown_exercise_21= document.getElementById("countdown_exercise_21");
+const seconds_exercise_21= 15; // seconds_exercise_21
+let timeLeft_exercise_21= seconds_exercise_21;
+let timerInterval_exercise_21= null;
+
+function formatTime_exercise_21(seconds_exercise_21) {
+  const minutes = Math.floor(seconds_exercise_21/ 60);
+  const remainingseconds_exercise_21= seconds_exercise_21% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_21).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_21() {
+  countdown_exercise_21.textContent = formatTime_exercise_21(timeLeft_exercise_21);
+}
+
+function startTimer_exercise_21() {
+  if (timerInterval_exercise_21=== null) {
+    countdown_exercise_21.classList.add('running');
+    countdown_exercise_21.classList.remove('finished');
+    timerInterval_exercise_21= setInterval(() => {
+      if (timeLeft_exercise_21> 0) {
+        timeLeft_exercise_21--;
+        updateButton_exercise_21();
+      } else {
+        clearInterval(timerInterval_exercise_21);
+        timerInterval_exercise_21= null;
+        countdown_exercise_21.classList.remove('running');
+        countdown_exercise_21.classList.add('finished');
+        countdown_exercise_21.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_21();
+  }
+}
+
+function pauseTimer_exercise_21() {
+  clearInterval(timerInterval_exercise_21);
+  timerInterval_exercise_21= null;
+  countdown_exercise_21.classList.remove('running');
+}
+
+function resetTimer_exercise_21() {
+  timeLeft_exercise_21= seconds_exercise_21;
+  updateButton_exercise_21();
+  countdown_exercise_21.classList.remove('finished');
+  countdown_exercise_21.classList.remove('running');
+  timerInterval_exercise_21= null;
+}
+
+countdown_exercise_21.addEventListener("click", () => {
+  if (countdown_exercise_21.classList.contains('finished')) {
+    resetTimer_exercise_21();
+  } else {
+    startTimer_exercise_21();
+  }
+});
+
+updateButton_exercise_21();
+-->
+</script>
+
+---
+### Esercizio #19 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter3.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$ &nbsp;&nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare
+
+</div>
+
+
+---
+### Esercizio #20
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter4.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare
+
+</div>
+
+<span style="display:block; height:60px;"></span>
+
+
+<style>
+  #countdown_exercise_22{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  #countdown_exercise_22.running {
+    background-color: green;
+  }
+  #countdown_exercise_22.finished {
+    background-color: red;
+  }
+</style>
+
+<button id="countdown_exercise_22"></button>
+
+<script>
+<!--
+const countdown_exercise_22= document.getElementById("countdown_exercise_22");
+const seconds_exercise_22= 15; // seconds_exercise_22
+let timeLeft_exercise_22= seconds_exercise_22;
+let timerInterval_exercise_22= null;
+
+function formatTime_exercise_22(seconds_exercise_22) {
+  const minutes = Math.floor(seconds_exercise_22/ 60);
+  const remainingseconds_exercise_22= seconds_exercise_22% 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_22).padStart(2, '0')}`;
+}
+
+function updateButton_exercise_22() {
+  countdown_exercise_22.textContent = formatTime_exercise_22(timeLeft_exercise_22);
+}
+
+function startTimer_exercise_22() {
+  if (timerInterval_exercise_22=== null) {
+    countdown_exercise_22.classList.add('running');
+    countdown_exercise_22.classList.remove('finished');
+    timerInterval_exercise_22= setInterval(() => {
+      if (timeLeft_exercise_22> 0) {
+        timeLeft_exercise_22--;
+        updateButton_exercise_22();
+      } else {
+        clearInterval(timerInterval_exercise_22);
+        timerInterval_exercise_22= null;
+        countdown_exercise_22.classList.remove('running');
+        countdown_exercise_22.classList.add('finished');
+        countdown_exercise_22.textContent = "Time's up!";
+      }
+    }, 1000);
+  } else {
+    pauseTimer_exercise_22();
+  }
+}
+
+function pauseTimer_exercise_22() {
+  clearInterval(timerInterval_exercise_22);
+  timerInterval_exercise_22= null;
+  countdown_exercise_22.classList.remove('running');
+}
+
+function resetTimer_exercise_22() {
+  timeLeft_exercise_22= seconds_exercise_22;
+  updateButton_exercise_22();
+  countdown_exercise_22.classList.remove('finished');
+  countdown_exercise_22.classList.remove('running');
+  timerInterval_exercise_22= null;
+}
+
+countdown_exercise_22.addEventListener("click", () => {
+  if (countdown_exercise_22.classList.contains('finished')) {
+    resetTimer_exercise_22();
+  } else {
+    startTimer_exercise_22();
+  }
+});
+
+updateButton_exercise_22();
+-->
+</script>
+
+---
+### Esercizio #20 -- Soluzione
+
+<span style="display:block; height:1px;"></span>
+
+<img src="./img/descriptive/scatter4.png" img height="500px" align="left" border="4px"/>
+
+<div style="font-size: 70%">
+
+&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; una relazione lineare &nbsp; :white_check_mark:
+
+</div>
+
+
+---
+### Esercizio #21
+
+<span style="display:block; height:1px;"></span>
+
 <div style="font-size: 90%">
 
 :question: &nbsp;&nbsp;&nbsp; Una correlazione $r=-0.7$ indica che al crescere del valore  
@@ -3768,7 +4307,7 @@ updateButton_exercise_17();
 </script>
 
 ---
-### Esercizio #17 -- Soluzione
+### Esercizio #21 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
@@ -3785,7 +4324,7 @@ updateButton_exercise_17();
 </div>
 
 ---
-### Esercizio #18
+### Esercizio #22
 
 <span style="display:block; height:1px;"></span>
 
@@ -3888,7 +4427,7 @@ updateButton_exercise_18();
 </script>
 
 ---
-### Esercizio #18 -- Soluzione
+### Esercizio #22 -- Soluzione
 
 <span style="display:block; height:1px;"></span>
 
@@ -3905,525 +4444,7 @@ updateButton_exercise_18();
 
 <span style="display:block; height:100px;"></span>
 
----
-### Esercizio #19
 
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter1.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
-
-</div>
-
-<span style="display:block; height:60px;"></span>
-
-<style>
-  #countdown_exercise_19{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_19.running {
-    background-color: green;
-  }
-  #countdown_exercise_19.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_19"></button>
-
-<script>
-<!--
-const countdown_exercise_19= document.getElementById("countdown_exercise_19");
-const seconds_exercise_19= 15; // seconds_exercise_19
-let timeLeft_exercise_19= seconds_exercise_19;
-let timerInterval_exercise_19= null;
-
-function formatTime_exercise_19(seconds_exercise_19) {
-  const minutes = Math.floor(seconds_exercise_19/ 60);
-  const remainingseconds_exercise_19= seconds_exercise_19% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_19).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_19() {
-  countdown_exercise_19.textContent = formatTime_exercise_19(timeLeft_exercise_19);
-}
-
-function startTimer_exercise_19() {
-  if (timerInterval_exercise_19=== null) {
-    countdown_exercise_19.classList.add('running');
-    countdown_exercise_19.classList.remove('finished');
-    timerInterval_exercise_19= setInterval(() => {
-      if (timeLeft_exercise_19> 0) {
-        timeLeft_exercise_19--;
-        updateButton_exercise_19();
-      } else {
-        clearInterval(timerInterval_exercise_19);
-        timerInterval_exercise_19= null;
-        countdown_exercise_19.classList.remove('running');
-        countdown_exercise_19.classList.add('finished');
-        countdown_exercise_19.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_19();
-  }
-}
-
-function pauseTimer_exercise_19() {
-  clearInterval(timerInterval_exercise_19);
-  timerInterval_exercise_19= null;
-  countdown_exercise_19.classList.remove('running');
-}
-
-function resetTimer_exercise_19() {
-  timeLeft_exercise_19= seconds_exercise_19;
-  updateButton_exercise_19();
-  countdown_exercise_19.classList.remove('finished');
-  countdown_exercise_19.classList.remove('running');
-  timerInterval_exercise_19= null;
-}
-
-countdown_exercise_19.addEventListener("click", () => {
-  if (countdown_exercise_19.classList.contains('finished')) {
-    resetTimer_exercise_19();
-  } else {
-    startTimer_exercise_19();
-  }
-});
-
-updateButton_exercise_19();
--->
-</script>
-
-
----
-### Esercizio #19 -- Soluzione
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter1.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ &nbsp;&nbsp;&nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
-
-</div>
-
----
-### Esercizio #20
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter2.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
-
-</div>
-
-<span style="display:block; height:60px;"></span>
-
-<style>
-  #countdown_exercise_20{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_20.running {
-    background-color: green;
-  }
-  #countdown_exercise_20.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_20"></button>
-
-<script>
-<!--
-const countdown_exercise_20= document.getElementById("countdown_exercise_20");
-const seconds_exercise_20= 15; // seconds_exercise_20
-let timeLeft_exercise_20= seconds_exercise_20;
-let timerInterval_exercise_20= null;
-
-function formatTime_exercise_20(seconds_exercise_20) {
-  const minutes = Math.floor(seconds_exercise_20/ 60);
-  const remainingseconds_exercise_20= seconds_exercise_20% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_20).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_20() {
-  countdown_exercise_20.textContent = formatTime_exercise_20(timeLeft_exercise_20);
-}
-
-function startTimer_exercise_20() {
-  if (timerInterval_exercise_20=== null) {
-    countdown_exercise_20.classList.add('running');
-    countdown_exercise_20.classList.remove('finished');
-    timerInterval_exercise_20= setInterval(() => {
-      if (timeLeft_exercise_20> 0) {
-        timeLeft_exercise_20--;
-        updateButton_exercise_20();
-      } else {
-        clearInterval(timerInterval_exercise_20);
-        timerInterval_exercise_20= null;
-        countdown_exercise_20.classList.remove('running');
-        countdown_exercise_20.classList.add('finished');
-        countdown_exercise_20.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_20();
-  }
-}
-
-function pauseTimer_exercise_20() {
-  clearInterval(timerInterval_exercise_20);
-  timerInterval_exercise_20= null;
-  countdown_exercise_20.classList.remove('running');
-}
-
-function resetTimer_exercise_20() {
-  timeLeft_exercise_20= seconds_exercise_20;
-  updateButton_exercise_20();
-  countdown_exercise_20.classList.remove('finished');
-  countdown_exercise_20.classList.remove('running');
-  timerInterval_exercise_20= null;
-}
-
-countdown_exercise_20.addEventListener("click", () => {
-  if (countdown_exercise_20.classList.contains('finished')) {
-    resetTimer_exercise_20();
-  } else {
-    startTimer_exercise_20();
-  }
-});
-
-updateButton_exercise_20();
--->
-</script>
-
----
-### Esercizio #20 -- Soluzione
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter2.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ &nbsp;&nbsp;&nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
-
-</div>
-
----
-### Esercizio #21
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter3.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
-
-</div>
-
-<span style="display:block; height:60px;"></span>
-
-
-<style>
-  #countdown_exercise_21{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_21.running {
-    background-color: green;
-  }
-  #countdown_exercise_21.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_21"></button>
-
-<script>
-<!--
-const countdown_exercise_21= document.getElementById("countdown_exercise_21");
-const seconds_exercise_21= 15; // seconds_exercise_21
-let timeLeft_exercise_21= seconds_exercise_21;
-let timerInterval_exercise_21= null;
-
-function formatTime_exercise_21(seconds_exercise_21) {
-  const minutes = Math.floor(seconds_exercise_21/ 60);
-  const remainingseconds_exercise_21= seconds_exercise_21% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_21).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_21() {
-  countdown_exercise_21.textContent = formatTime_exercise_21(timeLeft_exercise_21);
-}
-
-function startTimer_exercise_21() {
-  if (timerInterval_exercise_21=== null) {
-    countdown_exercise_21.classList.add('running');
-    countdown_exercise_21.classList.remove('finished');
-    timerInterval_exercise_21= setInterval(() => {
-      if (timeLeft_exercise_21> 0) {
-        timeLeft_exercise_21--;
-        updateButton_exercise_21();
-      } else {
-        clearInterval(timerInterval_exercise_21);
-        timerInterval_exercise_21= null;
-        countdown_exercise_21.classList.remove('running');
-        countdown_exercise_21.classList.add('finished');
-        countdown_exercise_21.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_21();
-  }
-}
-
-function pauseTimer_exercise_21() {
-  clearInterval(timerInterval_exercise_21);
-  timerInterval_exercise_21= null;
-  countdown_exercise_21.classList.remove('running');
-}
-
-function resetTimer_exercise_21() {
-  timeLeft_exercise_21= seconds_exercise_21;
-  updateButton_exercise_21();
-  countdown_exercise_21.classList.remove('finished');
-  countdown_exercise_21.classList.remove('running');
-  timerInterval_exercise_21= null;
-}
-
-countdown_exercise_21.addEventListener("click", () => {
-  if (countdown_exercise_21.classList.contains('finished')) {
-    resetTimer_exercise_21();
-  } else {
-    startTimer_exercise_21();
-  }
-});
-
-updateButton_exercise_21();
--->
-</script>
-
----
-### Esercizio #21 -- Soluzione
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter3.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$ &nbsp;&nbsp;&nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
-
-</div>
-
-
----
-### Esercizio #22
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter4.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile
-
-</div>
-
-<span style="display:block; height:60px;"></span>
-
-
-<style>
-  #countdown_exercise_22{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-  }
-  #countdown_exercise_22.running {
-    background-color: green;
-  }
-  #countdown_exercise_22.finished {
-    background-color: red;
-  }
-</style>
-
-<button id="countdown_exercise_22"></button>
-
-<script>
-<!--
-const countdown_exercise_22= document.getElementById("countdown_exercise_22");
-const seconds_exercise_22= 15; // seconds_exercise_22
-let timeLeft_exercise_22= seconds_exercise_22;
-let timerInterval_exercise_22= null;
-
-function formatTime_exercise_22(seconds_exercise_22) {
-  const minutes = Math.floor(seconds_exercise_22/ 60);
-  const remainingseconds_exercise_22= seconds_exercise_22% 60;
-  return `${String(minutes).padStart(2, '0')}:${String(remainingseconds_exercise_22).padStart(2, '0')}`;
-}
-
-function updateButton_exercise_22() {
-  countdown_exercise_22.textContent = formatTime_exercise_22(timeLeft_exercise_22);
-}
-
-function startTimer_exercise_22() {
-  if (timerInterval_exercise_22=== null) {
-    countdown_exercise_22.classList.add('running');
-    countdown_exercise_22.classList.remove('finished');
-    timerInterval_exercise_22= setInterval(() => {
-      if (timeLeft_exercise_22> 0) {
-        timeLeft_exercise_22--;
-        updateButton_exercise_22();
-      } else {
-        clearInterval(timerInterval_exercise_22);
-        timerInterval_exercise_22= null;
-        countdown_exercise_22.classList.remove('running');
-        countdown_exercise_22.classList.add('finished');
-        countdown_exercise_22.textContent = "Time's up!";
-      }
-    }, 1000);
-  } else {
-    pauseTimer_exercise_22();
-  }
-}
-
-function pauseTimer_exercise_22() {
-  clearInterval(timerInterval_exercise_22);
-  timerInterval_exercise_22= null;
-  countdown_exercise_22.classList.remove('running');
-}
-
-function resetTimer_exercise_22() {
-  timeLeft_exercise_22= seconds_exercise_22;
-  updateButton_exercise_22();
-  countdown_exercise_22.classList.remove('finished');
-  countdown_exercise_22.classList.remove('running');
-  timerInterval_exercise_22= null;
-}
-
-countdown_exercise_22.addEventListener("click", () => {
-  if (countdown_exercise_22.classList.contains('finished')) {
-    resetTimer_exercise_22();
-  } else {
-    startTimer_exercise_22();
-  }
-});
-
-updateButton_exercise_22();
--->
-</script>
-
----
-### Esercizio #22 -- Soluzione
-
-<span style="display:block; height:1px;"></span>
-
-<img src="./img/descriptive/scatter4.png" img height="500px" align="left" border="4px"/>
-
-<div style="font-size: 70%">
-
-&nbsp; :question: &nbsp; Osservando lo scatterplot, quale tra questi  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  potrebbe essere un valore plausibile per  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l'indice di correlazione di Pearson tra le 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; due variabili mostrate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) $r=+0.1$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) $r=+0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) $r=-0.9$ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non &egrave; calcolabile &nbsp;&nbsp;&nbsp; :white_check_mark:
-
-</div>
 
 ---
 ### Esercizio #23
