@@ -8,11 +8,12 @@ font.size <- 22
 graphic.settings <- theme_bw(base_size = font.size) + theme(axis.ticks = element_line(size = 0.3)) +  theme(legend.title = element_blank()) + theme(plot.subtitle=element_text(size=font.size/4*3), plot.title=element_text(size=font.size))
 
 
+setwd("/Users/visconti/Documents/Teaching/biostat_101/slide/img/confidence_intervals/")
+
 ### Sexual partner in Britain  
 
 sample_n <- function(n, prob=PMen){ sample(NumPartners, n, prob=prob, replace=TRUE) } # sample n with replacement from data
 
-setwd("/Users/visconti/Documents/Teaching/biostat_101/slide/img/confidence_intervals/")
 SexData <-read.csv("../descriptive/02-4-sexual-partners-counts-x.csv", header=TRUE) # reads data into data frame
 SexData50 <- SexData[SexData$NumPartners<51,]
 
@@ -237,6 +238,125 @@ png("sampling_distro.png", width=760, height=400, bg = "transparent")
 print(p)
 dev.off()
 				
+
+# Sampling variability
+p <- ggplot() + 
+		geom_polygon(data=circleFun(center=c(1, 3), diameter = 1.5), aes(x,y), fill="steelblue1", colour="black", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(1, 1), diameter = 0.5), aes(x,y), fill="transparent", colour="transparent", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(2.5, 1.5), diameter = 0.5), aes(x,y), fill="transparent", colour="transparent", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(3, 3), diameter = 0.5), aes(x,y), fill="transparent", colour="transparent", alpha=0.6) +
+				
+		annotate("text", x = 1, y=3, label = "Popolazione", parse = FALSE, size=7) #+
+		# annotate("text", x = 1, y=1, label = "bar(x)[1]", parse = TRUE, size=7) +
+# 		annotate("text", x = 2.5, y=1.5, label = "bar(x)[2]", parse = TRUE, size=7) +
+# 		annotate("text", x = 3, y=3, label = "bar(x)[3]", parse = TRUE, size=7) +
+#
+# 		geom_segment(aes(x = 1, y = 2.2, xend = 1, yend = 1.3), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") +
+# 		geom_segment(aes(x = 1.6, y = 2.45, xend = 2.3, yend = 1.7), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") +
+# 		geom_segment(aes(x = 1.8, y = 3, xend = 2.7, yend = 3), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") +
+
+p <- p + theme_void() + theme(legend.position="none", legend.title = element_blank()) +
+		 theme(legend.position="none", legend.title = element_blank()) + 
+		 theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_)) 
+
+png("sampling_variability_1.png", width=760, height=400, bg = "transparent")
+print(p)
+dev.off()
+	
+p <- ggplot() + 
+		geom_polygon(data=circleFun(center=c(1, 3), diameter = 1.5), aes(x,y), fill="steelblue1", colour="black", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(1, 1), diameter = 0.5), aes(x,y), fill="springgreen4", colour="black", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(2.5, 1.5), diameter = 0.5), aes(x,y), fill="transparent", colour="transparent", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(3, 3), diameter = 0.5), aes(x,y), fill="transparent", colour="transparent", alpha=0.6) +
+				
+		annotate("text", x = 1, y=3, label = "Popolazione", parse = FALSE, size=7) +
+		annotate("text", x = 1, y=1, label = "bar(x)[1]", parse = TRUE, size=7) +
+# 		annotate("text", x = 2.5, y=1.5, label = "bar(x)[2]", parse = TRUE, size=7) +
+# 		annotate("text", x = 3, y=3, label = "bar(x)[3]", parse = TRUE, size=7) +
+#
+ 		geom_segment(aes(x = 1, y = 2.2, xend = 1, yend = 1.3), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") #+
+# 		geom_segment(aes(x = 1.6, y = 2.45, xend = 2.3, yend = 1.7), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") +
+# 		geom_segment(aes(x = 1.8, y = 3, xend = 2.7, yend = 3), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") +
+
+p <- p + theme_void() + theme(legend.position="none", legend.title = element_blank()) +
+		 theme(legend.position="none", legend.title = element_blank()) + 
+		 theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_)) 
+
+png("sampling_variability_2.png", width=760, height=400, bg = "transparent")
+print(p)
+dev.off()	
+
+p <- ggplot() + 
+		geom_polygon(data=circleFun(center=c(1, 3), diameter = 1.5), aes(x,y), fill="steelblue1", colour="black", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(1, 1), diameter = 0.5), aes(x,y), fill="transparent", colour="transparent", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(2.5, 1.5), diameter = 0.5), aes(x,y), fill="firebrick", colour="black", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(3, 3), diameter = 0.5), aes(x,y), fill="transparent", colour="transparent", alpha=0.6) +
+				
+		annotate("text", x = 1, y=3, label = "Popolazione", parse = FALSE, size=7) +
+#		annotate("text", x = 1, y=1, label = "bar(x)[1]", parse = TRUE, size=7) +
+ 		annotate("text", x = 2.5, y=1.5, label = "bar(x)[2]", parse = TRUE, size=7) +
+# 		annotate("text", x = 3, y=3, label = "bar(x)[3]", parse = TRUE, size=7) +
+#
+# 		geom_segment(aes(x = 1, y = 2.2, xend = 1, yend = 1.3), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") +
+ 		geom_segment(aes(x = 1.6, y = 2.45, xend = 2.3, yend = 1.7), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") #+
+# 		geom_segment(aes(x = 1.8, y = 3, xend = 2.7, yend = 3), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") +
+
+p <- p + theme_void() + theme(legend.position="none", legend.title = element_blank()) +
+		 theme(legend.position="none", legend.title = element_blank()) + 
+		 theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_)) 
+
+png("sampling_variability_3.png", width=760, height=400, bg = "transparent")
+print(p)
+dev.off()	
+
+
+p <- ggplot() + 
+		geom_polygon(data=circleFun(center=c(1, 3), diameter = 1.5), aes(x,y), fill="steelblue1", colour="black", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(1, 1), diameter = 0.5), aes(x,y), fill="transparent", colour="transparent", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(2.5, 1.5), diameter = 0.5), aes(x,y), fill="transparent", colour="transparent", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(3, 3), diameter = 0.5), aes(x,y), fill="orange", colour="black", alpha=0.6) +
+				
+		annotate("text", x = 1, y=3, label = "Popolazione", parse = FALSE, size=7) +
+#		annotate("text", x = 1, y=1, label = "bar(x)[1]", parse = TRUE, size=7) +
+# 		annotate("text", x = 2.5, y=1.5, label = "bar(x)[2]", parse = TRUE, size=7) +
+ 		annotate("text", x = 3, y=3, label = "bar(x)[3]", parse = TRUE, size=7) +
+#
+# 		geom_segment(aes(x = 1, y = 2.2, xend = 1, yend = 1.3), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") +
+# 		geom_segment(aes(x = 1.6, y = 2.45, xend = 2.3, yend = 1.7), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") #+
+ 		geom_segment(aes(x = 1.8, y = 3, xend = 2.7, yend = 3), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") 
+
+p <- p + theme_void() + theme(legend.position="none", legend.title = element_blank()) +
+		 theme(legend.position="none", legend.title = element_blank()) + 
+		 theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_)) 
+
+png("sampling_variability_4.png", width=760, height=400, bg = "transparent")
+print(p)
+dev.off()	
+
+		
+p <- ggplot() + 
+		geom_polygon(data=circleFun(center=c(1, 3), diameter = 1.5), aes(x,y), fill="steelblue1", colour="black", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(1, 1), diameter = 0.5), aes(x,y), fill="springgreen4", colour="black", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(2.5, 1.5), diameter = 0.5), aes(x,y), fill="firebrick", colour="black", alpha=0.6) +
+		geom_polygon(data=circleFun(center=c(3, 3), diameter = 0.5), aes(x,y), fill="orange", colour="black", alpha=0.6) +
+				
+		annotate("text", x = 1, y=3, label = "Popolazione", parse = FALSE, size=7) +
+		annotate("text", x = 1, y=1, label = "bar(x)[1]", parse = TRUE, size=7) +
+ 		annotate("text", x = 2.5, y=1.5, label = "bar(x)[2]", parse = TRUE, size=7) +
+ 		annotate("text", x = 3, y=3, label = "bar(x)[3]", parse = TRUE, size=7) +
+
+ 		geom_segment(aes(x = 1, y = 2.2, xend = 1, yend = 1.3), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") +
+ 		geom_segment(aes(x = 1.6, y = 2.45, xend = 2.3, yend = 1.7), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") +
+ 		geom_segment(aes(x = 1.8, y = 3, xend = 2.7, yend = 3), arrow = arrow(length = unit(0.5, "cm"), ends="last"), colour="black") 
+
+p <- p + theme_void() + theme(legend.position="none", legend.title = element_blank()) +
+		 theme(legend.position="none", legend.title = element_blank()) + 
+		 theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_)) 
+
+png("sampling_variability_5.png", width=760, height=400, bg = "transparent")
+print(p)
+dev.off()	
+
 
 p1 <- ggplot() +
   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="grey74", alpha=0.2, xlim = c(-2, 2)) +

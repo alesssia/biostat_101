@@ -146,6 +146,15 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 <span style="display:block; height:120px;"></span>
 
 ---
+## La variabilit&agrave; campionaria
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/sampling_variability_5.png" img height="450px" border="0px"/>
+</center>
+
+---
 ## Quanto siamo precisi?
 
 <div style="font-size: 90%">

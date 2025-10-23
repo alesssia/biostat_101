@@ -449,6 +449,54 @@ updateButton_exercise_3();
 
 </div>
 
+---
+## La variabilit&agrave; campionaria
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/sampling_variability_1.png" img height="450px" border="0px"/>
+</center>
+
+---
+## La variabilit&agrave; campionaria
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/sampling_variability_2.png" img height="450px" border="0px"/>
+</center>
+
+---
+## La variabilit&agrave; campionaria
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/sampling_variability_3.png" img height="450px" border="0px"/>
+</center>
+
+---
+## La variabilit&agrave; campionaria
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/sampling_variability_4.png" img height="450px" border="0px"/>
+</center>
+
+---
+## La variabilit&agrave; campionaria
+
+<span style="display:block; height:10px;"></span>
+
+<center>
+<img src="./img/confidence_intervals/sampling_variability_5.png" img height="450px" border="0px"/>
+</center>
+
+---
+## Quanto siamo precisi?
+
 
 ---
 ## Quanto siamo precisi?
