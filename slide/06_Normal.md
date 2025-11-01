@@ -176,42 +176,6 @@ Figure shows a normal curve with the same mean and standard deviation as the rec
 It is an impressive achievement to be able to summarize over a million births by just these two quantities. 
  -->
 
----
-## La distribuzione Normale
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:40px;"></span>
-
-- Area sottesa alla curva $= 1$
-- proporzione $\equiv$ probabilit&agrave;
-
-<span style="display:block; height:120px;"></span>
-
-<div style="font-size: 80%" align="right">
-
-$\text{neonati di peso molto basso se} < 1500 \text{ g}$
-$\text{ neonati di peso molto basso} = 6\%$
-$\mathcal{P}(\text{neonati di peso molto basso}) = 0.06$
-
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/normal/Twin_BW_normale_area.png" img height="550px" border="0px"/>
-</center>
-
-</div>
-
-<!-- il fatto che l'area e' 1 dipende dal fatto che la normale sia una distribuzione di probabilita'
-
-For medical rather than statistical reasons, babies below 1,500 g ‘very low birth weight’. Figure 3.2(d) shows that we would expect 6% of babies in this group to be very low birth weight – in fact the actual number is ~74K (0.7%), in close agreement with the prediction from the normal curve. 
-
- -->
 
 ---
 ### Esercizio #1
@@ -229,8 +193,7 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Blu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Gialla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non lo posso sapere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nessuna delle precedenti
 
 </div>
 
@@ -271,7 +234,7 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 <script>
 <!--
 const countdown_exercise_1= document.getElementById("countdown_exercise_1");
-const seconds_exercise_1= 30; // seconds_exercise_1
+const seconds_exercise_1= 15; // seconds_exercise_1
 let timeLeft_exercise_1= seconds_exercise_1;
 let timerInterval_exercise_1= null;
 
@@ -348,8 +311,7 @@ updateButton_exercise_1();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Blu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Gialla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non lo posso sapere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti &nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nessuna delle precedenti &nbsp; :white_check_mark:
 
 </div>
 
@@ -379,8 +341,7 @@ updateButton_exercise_1();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Blu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Gialla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non lo posso sapere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nessuna delle precedenti
 
 </div>
 
@@ -421,7 +382,7 @@ updateButton_exercise_1();
 <script>
 <!--
 const countdown_exercise_2= document.getElementById("countdown_exercise_2");
-const seconds_exercise_2= 30; // seconds_exercise_2
+const seconds_exercise_2= 15; // seconds_exercise_2
 let timeLeft_exercise_2= seconds_exercise_2;
 let timerInterval_exercise_2= null;
 
@@ -498,8 +459,7 @@ updateButton_exercise_2();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Blu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Gialla &nbsp;&nbsp;&nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non lo posso sapere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nessuna delle precedenti
 
 </div>
 
@@ -516,29 +476,18 @@ updateButton_exercise_2();
 <!-- A diverse combinazioni di mu/sigma corrispondono diverse (e infinte) distribuzioni normali 
 -->
 
-
-
 ---
-## La distribuzione Normale
+## La regola dei 3-sigma
 
 <div class="columns">
 <div>
 
-<span style="display:block; height:0px;"></span>
+<span style="display:block; height:60px;"></span>
 
 <div style="font-size: 85%">
 
-- Regola del 3 $\sigma$:
-  - 68% dei valori osservati sono a 1 $\sigma$ dalla media
-  - 95% sono a 2 $\sigma$
-  - 99.7% sono a 3 $\sigma$
-  
-<span style="display:block; height:0px;"></span>
+- 68% dei valori osservati sono a 1 deviazione standard (sigma, $\sigma$) dalla media
 
-- Regola empirica:
-  - valori $< 2 \sigma$ sono *"comuni"*
-  - valori $> 2 \sigma$ sono *"inusuali"*  
-  - valori $> 3 \sigma$ sono *"estremi"*  
 
 </div>
 </div>
@@ -546,9 +495,9 @@ updateButton_exercise_2();
 
 <span style="display:block; height:10px;"></span>
 
-<center>
-<img src="./img/normal/Standard_Normal_Distribution_3sigma.png" img height="420px" border="4px"/>
-</center>
+
+<img src="./img/normal/3sigma_1.png" img height="320px" border="0px"/>
+
 
 </div>
 
@@ -556,8 +505,111 @@ updateButton_exercise_2();
 
 68% at 1SD -> valori comuni vs valori inusuali -->
 
+
 ---
-## I valori estremi 
+## La regola dei 3-sigma
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<div style="font-size: 85%">
+
+- 68% dei valori osservati sono a 1 deviazione standard (sigma, $\sigma$) dalla media
+- 95% sono a 2 $\sigma$ dalla media
+
+</div>
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<img src="./img/normal/3sigma_2_a.png" img height="320px" border="0px"/>
+
+
+</div>
+
+---
+## La regola dei 3-sigma
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<div style="font-size: 85%">
+
+- 68% dei valori osservati sono a 1 deviazione standard (sigma, $\sigma$) dalla media
+- 95% sono a 2 $\sigma$ dalla media
+
+</div>
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<img src="./img/normal/3sigma_2_b.png" img height="320px" border="0px"/>
+
+
+</div>
+
+---
+## La regola dei 3-sigma
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<div style="font-size: 85%">
+
+- 68% dei valori osservati sono a 1 deviazione standard (sigma, $\sigma$) dalla media
+- 95% sono a 2 $\sigma$ dalla media
+- 99.7% sono a 3 $\sigma$ dalla media
+
+</div>
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+
+<img src="./img/normal/3sigma_3_a.png" img height="320px" border="0px"/>
+
+
+</div>
+
+---
+## La regola dei 3-sigma
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<div style="font-size: 85%">
+
+- 68% dei valori osservati sono a 1 deviazione standard (sigma, $\sigma$) dalla media
+- 95% sono a 2 $\sigma$ dalla media
+- 99.7% sono a 3 $\sigma$ dalla media
+
+</div>
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+
+<img src="./img/normal/3sigma_3_b.png" img height="320px" border="0px"/>
+
+
+</div>
+
+
+
+---
+## Ritorniamo al boxplot
 
 <span style="display:block; height:1px;"></span>
 
@@ -1339,7 +1391,7 @@ updateButton_exercise_6();
 
 <div style="font-size: 65%">
 
-:question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e il neurologo che l'ha
+:question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e la neurologa che l'ha
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presa in cura la sottopone a 3 test. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1.$ Maria deve ascoltare delle parole e ripeterle (memory test). Maria ne ricorda
@@ -1353,7 +1405,7 @@ updateButton_exercise_6();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  15.7 secondi, la popolazione generale 16.2, con una deviazione  standard di 1.3
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; secondi
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime viste, il neurologo deve concentrarsi sulla memoria, sull'abilita di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime visite, la neurologa deve concentrarsi sulla memoria, sull'abilita di 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nominare le cose o sull'attenzione di Maria?
 
 </div>
@@ -1383,7 +1435,7 @@ updateButton_exercise_6();
 <script>
 <!--
 const countdown_exercise_7= document.getElementById("countdown_exercise_7");
-const seconds_exercise_7= 300; // seconds_exercise_7
+const seconds_exercise_7= 180; // seconds_exercise_7
 let timeLeft_exercise_7= seconds_exercise_7;
 let timerInterval_exercise_7= null;
 
@@ -1449,7 +1501,7 @@ updateButton_exercise_7();
 
 <div style="font-size: 65%">
 
-:question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e il neurologo che l'ha
+:question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e la neurologa che l'ha
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  presa in cura la sottopone a 3 test. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1.$ Memory test. &nbsp;&nbsp; $x = 6$; &nbsp;&nbsp;  $\mu=7$, &nbsp;&nbsp; $\sigma=1.3$
@@ -1463,7 +1515,7 @@ updateButton_exercise_7();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.$ Stroop test. &nbsp;&nbsp; $x = 15.7$; &nbsp;&nbsp;  $\mu=16.2$, &nbsp;&nbsp; $\sigma=1.3$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{15.7-16.2}{1.3} = -0.39$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime viste, il neurologo deve concentrarsi sulla memoria, sull'abilita di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime visite, la neurologa deve concentrarsi sulla memoria, sull'abilita di 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nominare le cose o sull'attenzione di Maria?
 
 
@@ -1475,7 +1527,7 @@ updateButton_exercise_7();
 
 <div style="font-size: 65%">
 
-:question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e il neurologo che l'ha
+:question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e la neurologa che l'ha
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  presa in cura la sottopone a 3 test. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1.$ Memory test. &nbsp;&nbsp; $x = 6$; &nbsp;&nbsp;  $\mu=7$, &nbsp;&nbsp; $\sigma=1.3$
@@ -1489,7 +1541,7 @@ updateButton_exercise_7();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.$ Stroop test. &nbsp;&nbsp; $x = 15.7$; &nbsp;&nbsp;  $\mu=16.2$, &nbsp;&nbsp; $\sigma=1.3$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $z = \frac{15.7-16.2}{1.3} = -0.39$
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime viste, il neurologo deve concentrarsi sulla memoria, sull'abilita di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime visite, la neurologa deve concentrarsi sulla memoria, sull'abilita di 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nominare le cose o sull'attenzione di Maria?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\rightarrow$ sull'abilita di nominare le cose
@@ -1509,7 +1561,6 @@ updateButton_exercise_7();
 </duv>
 
 <img src="./img/normal/n2z.png" img height="400px" align="right" border="0px"/>
-
 
 
 ---
@@ -1557,7 +1608,7 @@ Ci sono diverse versioni di queste tabelle, per esempio quella complementare che
 
 <span style="display:block; height:70px;"></span>
 
-- 6% dei gemelli nascono con un peso molto basso 
+- 6% dei gemelli nascono con un peso molto basso (< 1500g)
 - La probabilit&agrave; di nascere con un peso molto basso &egrave; 0.06 
 
 <span style="display:block; height:20px;"></span>

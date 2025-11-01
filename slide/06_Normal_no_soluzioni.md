@@ -176,42 +176,6 @@ Figure shows a normal curve with the same mean and standard deviation as the rec
 It is an impressive achievement to be able to summarize over a million births by just these two quantities. 
  -->
 
----
-## La distribuzione Normale
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:40px;"></span>
-
-- Area sottesa alla curva $= 1$
-- proporzione $\equiv$ probabilit&agrave;
-
-<span style="display:block; height:120px;"></span>
-
-<div style="font-size: 80%" align="right">
-
-$\text{neonati di peso molto basso se} < 1500 \text{ g}$
-$\text{ neonati di peso molto basso} = 6\%$
-$\mathcal{P}(\text{neonati di peso molto basso}) = 0.06$
-
-
-</div>
-
-</div>
-<div>
-
-<center>
-<img src="./img/normal/Twin_BW_normale_area.png" img height="550px" border="0px"/>
-</center>
-
-</div>
-
-<!-- il fatto che l'area e' 1 dipende dal fatto che la normale sia una distribuzione di probabilita'
-
-For medical rather than statistical reasons, babies below 1,500 g ‘very low birth weight’. Figure 3.2(d) shows that we would expect 6% of babies in this group to be very low birth weight – in fact the actual number is ~74K (0.7%), in close agreement with the prediction from the normal curve. 
-
- -->
 
 ---
 ### Esercizio #1
@@ -229,8 +193,7 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Blu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Gialla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non lo posso sapere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nessuna delle precedenti
 
 </div>
 
@@ -263,8 +226,7 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Verde
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Blu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Gialla
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Non lo posso sapere
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Nessuna delle precedenti
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Nessuna delle precedenti
 
 </div>
 
@@ -281,28 +243,18 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 
 <span style="display:block; height:1px;"></span>
 
-
 ---
-## La distribuzione Normale
+## La regola dei 3-sigma
 
 <div class="columns">
 <div>
 
-<span style="display:block; height:0px;"></span>
+<span style="display:block; height:60px;"></span>
 
 <div style="font-size: 85%">
 
-- Regola del 3 $\sigma$:
-  - 68% dei valori osservati sono a 1 $\sigma$ dalla media
-  - 95% sono a 2 $\sigma$
-  - 99.7% sono a 3 $\sigma$
-  
-<span style="display:block; height:0px;"></span>
+- 68% dei valori osservati sono a 1 deviazione standard (sigma, $\sigma$) dalla media
 
-- Regola empirica:
-  - valori $< 2 \sigma$ sono *"comuni"*
-  - valori $> 2 \sigma$ sono *"inusuali"*  
-  - valori $> 3 \sigma$ sono *"estremi"*  
 
 </div>
 </div>
@@ -310,9 +262,9 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 
 <span style="display:block; height:10px;"></span>
 
-<center>
-<img src="./img/normal/Standard_Normal_Distribution_3sigma.png" img height="420px" border="4px"/>
-</center>
+
+<img src="./img/normal/3sigma_1.png" img height="320px" border="0px"/>
+
 
 </div>
 
@@ -320,8 +272,109 @@ For medical rather than statistical reasons, babies below 1,500 g ‘very low bi
 
 68% at 1SD -> valori comuni vs valori inusuali -->
 
+
 ---
-## I valori estremi 
+## La regola dei 3-sigma
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<div style="font-size: 85%">
+
+- 68% dei valori osservati sono a 1 deviazione standard (sigma, $\sigma$) dalla media
+- 95% sono a 2 $\sigma$ dalla media
+
+</div>
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<img src="./img/normal/3sigma_2_a.png" img height="320px" border="0px"/>
+
+
+</div>
+
+---
+## La regola dei 3-sigma
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<div style="font-size: 85%">
+
+- 68% dei valori osservati sono a 1 deviazione standard (sigma, $\sigma$) dalla media
+- 95% sono a 2 $\sigma$ dalla media
+
+</div>
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+<img src="./img/normal/3sigma_2_b.png" img height="320px" border="0px"/>
+
+
+</div>
+
+---
+## La regola dei 3-sigma
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<div style="font-size: 85%">
+
+- 68% dei valori osservati sono a 1 deviazione standard (sigma, $\sigma$) dalla media
+- 95% sono a 2 $\sigma$ dalla media
+- 99.7% sono a 3 $\sigma$ dalla media
+
+</div>
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+
+<img src="./img/normal/3sigma_3_a.png" img height="320px" border="0px"/>
+
+
+</div>
+
+---
+## La regola dei 3-sigma
+
+<div class="columns">
+<div>
+
+<span style="display:block; height:60px;"></span>
+
+<div style="font-size: 85%">
+
+- 68% dei valori osservati sono a 1 deviazione standard (sigma, $\sigma$) dalla media
+- 95% sono a 2 $\sigma$ dalla media
+- 99.7% sono a 3 $\sigma$ dalla media
+
+</div>
+</div>
+<div>
+
+<span style="display:block; height:10px;"></span>
+
+
+<img src="./img/normal/3sigma_3_b.png" img height="320px" border="0px"/>
+
+
+</div>
+
+---
+## Ritorniamo al boxplot
 
 <span style="display:block; height:1px;"></span>
 
@@ -574,7 +627,7 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1450g
 
 <div style="font-size: 65%">
 
-:question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e il neurologo che l'ha
+:question: &nbsp;&nbsp;&nbsp; Maria ha subito un trauma cranico a seguito di un incidente e la neurologa che l'ha
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; presa in cura la sottopone a 3 test. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $1.$ Maria deve ascoltare delle parole e ripeterle (memory test). Maria ne ricorda
@@ -588,7 +641,7 @@ Supponiamo di avere presa in cura un neonato (gemello) che pesa 1450g
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  15.7 secondi, la popolazione generale 16.2, con una deviazione  standard di 1.3
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; secondi
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime viste, il neurologo deve concentrarsi sulla memoria, sull'abilita di 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelle prossime visite, la neurologa deve concentrarsi sulla memoria, sull'abilita di 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nominare le cose o sull'attenzione di Maria?
 
 </div>
