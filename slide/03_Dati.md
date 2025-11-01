@@ -59,33 +59,26 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (E
  Nella terza fase, i dati vengono raccolti, organizzati, puliti e verificati.  -->
 
 ---
-
-<span style="display:block; height:170px;"></span>
-
-<div style="font-size: 140%">
-
-
-**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabile $\longleftrightarrow$ informazione**
-
-<!-- Dato informazione su una variabile di interesse
-
-
-Un dato corrisponde a un'informazione su un membro di una popolazione (sesso, altezza, numero dei battiti cardiaci, titolo di studio, età,…) , viene codificata in variabili. 
--->
-
----
 ## Le variabili...
 
 <span style="display:block; height:1px;"></span>
 
-- sono imperfette: non sempre misurano quello che ci interessa 
+- Registrano informazioni su una caratteristica di interesse
+
+* sono imperfette: non sempre misurano quello che ci interessa 
   - conoscenza di una materia $\neq$ voto all'esame
-  - benessere di un Paese $\neq$ prodotto interno lordo
+  <!-- - benessere di un Paese $\neq$ prodotto interno lordo -->
 
 * variano: da una persona all’altra, da un momento all’altro, $\dots$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e lo fanno in modo apparentemente casuale
 
 
-<!-- Proxy: chiedendo alla gente quanto si sentisse felice la settimana
+<!-- 
+
+Dato informazione su una variabile di interesse
+
+Un dato corrisponde a un'informazione su un membro di una popolazione (sesso, altezza, numero dei battiti cardiaci, titolo di studio, età,…) , viene codificata in variabili. 
+
+Proxy: chiedendo alla gente quanto si sentisse felice la settimana
 scorsa in una scala da 0 a 10 non si coglie piú di tanto il benessere emotivo
 del Paese. 
 
@@ -1401,7 +1394,7 @@ updateButton_exercise_6();
 - Da una serie di valori continui a intervalli (o classi)
 - La scelta del numero di classi e degli estremi è arbitraria
 - Le classi devono essere mutualmente esclusive
-- Riportate anche le classi nulle (frequenza zero)
+<!-- - Riportate anche le classi nulle (frequenza zero) -->
 
 </div>
 
@@ -1473,8 +1466,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Pu&ograve; trasformarla in una variabile categorica ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, mai
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) No, mai
 
 </div>
 
@@ -1578,8 +1570,7 @@ updateButton_exercise_7();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Pu&ograve; trasformarla in una variabile categorica ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre &nbsp;&nbsp; :white_check_mark:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, mai
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) No, mai
 
 </div>
 
@@ -1594,8 +1585,7 @@ updateButton_exercise_7();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ordinale.  Pu&ograve; riottenere l'esatta informazione numerica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, mai
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) No, mai
 
 </div>
 
@@ -1697,8 +1687,7 @@ updateButton_exercise_8();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ordinale.  Pu&ograve; riottenere l'esatta informazione numerica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, mai &nbsp;&nbsp; :white_check_mark:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) No, mai &nbsp;&nbsp; :white_check_mark:
 
 </div>
 

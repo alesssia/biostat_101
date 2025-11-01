@@ -59,41 +59,17 @@ Spiegelhalter, D., *The Art of Statistics: Learning From Data*, Pelican, 2019 (E
  Nella terza fase, i dati vengono raccolti, organizzati, puliti e verificati.  -->
 
 ---
-
-<span style="display:block; height:170px;"></span>
-
-<div style="font-size: 140%">
-
-
-**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variabile $\longleftrightarrow$ informazione**
-
-<!-- Dato informazione su una variabile di interesse
-
-
-Un dato corrisponde a un'informazione su un membro di una popolazione (sesso, altezza, numero dei battiti cardiaci, titolo di studio, età,…) , viene codificata in variabili. 
--->
-
----
 ## Le variabili...
 
 <span style="display:block; height:1px;"></span>
 
-- sono imperfette: non sempre misurano quello che ci interessa 
+- Registrano informazioni su una caratteristica di interesse
+
+* sono imperfette: non sempre misurano quello che ci interessa 
   - conoscenza di una materia $\neq$ voto all'esame
-  - benessere di un Paese $\neq$ prodotto interno lordo
+  <!-- - benessere di un Paese $\neq$ prodotto interno lordo -->
 
 * variano: da una persona all’altra, da un momento all’altro, $\dots$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e lo fanno in modo apparentemente casuale
-
-
-<!-- Proxy: chiedendo alla gente quanto si sentisse felice la settimana
-scorsa in una scala da 0 a 10 non si coglie piú di tanto il benessere emotivo
-del Paese. 
-
-
-La variabilita' di tali variabili (differenze che vediamo tra le osservazioni) ci dice come le caratteristiche di una paopolazione (eta', sesso, altezza... ) differiscano da individuo a individuo 
-
-Questa variabilita' dipende sia da fattori conosciuti o conoscibili sia da effetti casuali (random noise)
- -->
 
 ---
 ## Da cosa dipende questa variabilit&agrave;?
@@ -123,35 +99,6 @@ The doll’s head changed size between measurements. -->
 
 <div style="font-size: 90%">
 
--  In uno studio sull'et&agrave; neonatale, 18 pediatri misurano la circonferenza cranica di un bambolotto che simula un bambino di un anno
-
-<img src="./img/data/head_circiference_doll.png" img height="350px" align="left" border="4px"/>
-
-<span style="display:block; height:1px;"></span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati raccolti 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variano?
-
-</div>
-
-<span style="display:block; height:20px;"></span>
-
-<div style="font-size: 85%" align="right">
-
-**Errori di misurazione**
-
-</div>
-
-<!--  the above question, all of the variability in scores was created by measurement error because everyone was measuring the same thing and, therefore, should have obtained the same score. Unfortunately, measurement error is always present. No matter what you are measuring, you will never be able to measure it perfectly every time. You can, however, reduce the amount of measurement error. In the context of measuring an infant’s head circumference, how could the developmental psychologist and/or nurses reduce the variability in scores created by measurement error (i.e., what could they do to increase the accuracy/reliability of each measurement?). Select all that apply.
-
-Give the nurses a lot of practice measuring different dolls’ heads.
-Train the nurses to use a consistent degree of tension in the tape measure. -->
-
----
-## Da cosa dipende questa variabilit&agrave;?
-
-<div style="font-size: 90%">
-
 - Nello stesso studio sull'et&agrave; neonatale, un pediatria misura la circonferenza cranica di 35 bambini di un anno
 
 <img src="./img/data/head_circiference_children.png" img height="350px" align="left" border="4px"/>
@@ -162,32 +109,6 @@ Train the nurses to use a consistent degree of tension in the tape measure. -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variano?
 
 </div>
-
----
-## Da cosa dipende questa variabilit&agrave;?
-
-<div style="font-size: 90%">
-
-- Nello stesso studio sull'et&agrave; neonatale, un pediatria misura la circonferenza cranica di 35 bambini di un anno
-
-<img src="./img/data/head_circiference_children.png" img height="350px" align="left" border="4px"/>
-
-<span style="display:block; height:1px;"></span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati raccolti 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variano?
-
-<span style="display:block; height:20px;"></span>
-
-</div>
-
-<div style="font-size: 90%" align="right">
-
-**Differenze individuali**
-
-</div>
-
-<!-- Anche qui rimangono errori di misurazione -->
 
 ---
 ## Da cosa dipende questa variabilit&agrave;?
@@ -206,28 +127,6 @@ Train the nurses to use a consistent degree of tension in the tape measure. -->
 </div>
 
 <!-- Anche qui rimangono errori di misurazione e variabilita' individuale -->
-
----
-## Da cosa dipende questa variabilit&agrave;?
-
-<div style="font-size: 90%">
-
-- Nello stesso studio sull'et&agrave; neonatale, lo stesso pediatra misura altri 35 bambini di un anno che sono per&ograve; esposti al fumo passivo
-
-<img src="./img/data/head_circiference_children_groups.png" img height="350px" align="left" border="4px"/>
-
-<span style="display:block; height:1px;"></span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perch&eacute; i dati raccolti 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; variano?
-
-</div>
-
-<span style="display:block; height:20px;"></span>
-
-<div style="font-size: 90%" align="right">
-
-**Diversa esposizione o condizione sperimentale?**
 
 </div>
 
@@ -648,7 +547,7 @@ Lactate dehydrogenase, dichotomized according to the upper limit of normal for e
 - Da una serie di valori continui a intervalli (o classi)
 - La scelta del numero di classi e degli estremi è arbitraria
 - Le classi devono essere mutualmente esclusive
-- Riportate anche le classi nulle (frequenza zero)
+<!-- - Riportate anche le classi nulle (frequenza zero) -->
 
 </div>
 
@@ -720,8 +619,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Pu&ograve; trasformarla in una variabile categorica ordinale?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, mai
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) No, mai
 
 </div>
 
@@ -738,8 +636,7 @@ Visconti A., *et al.*, *Total serum *N*‐glycans associate with response to imm
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ordinale.  Pu&ograve; riottenere l'esatta informazione numerica?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) S&igrave;, sempre 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Dipende dal contesto
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) No, mai
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) No, mai
 
 </div>
 
