@@ -274,3 +274,121 @@ p <- p +  theme(panel.background = element_rect(fill = "transparent", colour = N
 png("Twin_BW_normale_area_z_ex.png", width=300, height=250, bg = "transparent")
 print(p)
 dev.off()
+
+
+# 3-sigma rule
+
+plot_sigma_rule <- function(sd, percent, annotated = FALSE, start=-3.5, end=3.5)
+{
+	p <-   ggplot(data = data.frame(x = c(start, end)), aes(x)) +
+		
+		   # main normal + yaxis + mean segment
+		   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), colour="black") +
+		   geom_segment(aes(x = start, y = 0, xend = end, yend = 0), colour="black") +
+		   geom_segment(aes(x = 0, y = 0, xend = 0, yend = dnorm(0, mean=0, sd = 1)), colour="black", linetype="dashed", linewidth=0.1) +
+		   annotate("text", x = 0, y=-0.02, label = "mu", parse = TRUE, size=6, colour="black") +
+	   
+		   # area + area delims
+		   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="magenta", alpha=0.2, xlim = c(-sd, sd)) +
+		   geom_segment(aes(x = -(sd), y = 0, xend = -sd, yend = dnorm(-sd, mean=0, sd = 1)), colour="darkmagenta") + 
+		   geom_segment(aes(x = sd, y = 0, xend = sd, yend = dnorm(sd, mean=0, sd = 1)), colour="darkmagenta") +
+		   annotate("text", x = -(sd), y=-0.02, label =  paste("-", sd, "%*% sigma"), parse = TRUE, size=5, colour="black") +
+		   annotate("text", x = sd, y=-0.02, label = paste("+", sd, "%*% sigma"), parse = TRUE, size=5, colour="black") +
+	   
+		   #arrow & annotation
+		   geom_segment(aes(x = -sd, y = 0.05, xend = sd, yend = 0.05), arrow = arrow(length = unit(0.2, "cm"), ends="both"), colour="black") +
+		   annotate("text", x = 0, y=0.07, label = paste(percent, "%"), parse = FALSE, size=7, colour="black") 
+		   
+		   if (sd == 2 & annotated)
+		   {
+			   p <- p + geom_segment(aes(x = -0.5, y = 0.15, xend = -2, yend = 0.3), arrow = arrow(length = unit(0.2, "cm")), colour="black", linewidth=0.2) +
+		   annotate("text", x = -2, y=0.33, label = "Valori comuni", parse = FALSE, size=7, colour="black") +
+		   
+		      geom_segment(aes(x = -2.2, y = 0.02, xend = 2, yend = 0.2), arrow = arrow(length = unit(0.2, "cm")), colour="black", linewidth=0.2) +
+			  geom_segment(aes(x = 2.2, y = 0.01, xend = 2.2, yend = 0.2), arrow = arrow(length = unit(0.2, "cm")), colour="black", linewidth=0.2) +
+			  
+		   	  annotate("text", x = 2, y=0.23, label = "Valori inusuali", parse = FALSE, size=7, colour="black")
+		   
+		   }
+		   
+		   if (sd == 3 & annotated)
+		   {
+			   p <- p + geom_segment(aes(x = -3.3, y = 0.001, xend = 2, yend = 0.2), arrow = arrow(length = unit(0.2, "cm")), colour="black", linewidth=0.2) +
+			  geom_segment(aes(x = 3.3, y = 0.001, xend = 2.2, yend = 0.2), arrow = arrow(length = unit(0.2, "cm")), colour="black", linewidth=0.2) +
+			  
+		   	  annotate("text", x = 2, y=0.23, label = "Valori estremi", parse = FALSE, size=7, colour="black")
+			
+		   }
+		   
+
+	p <- p + scale_y_continuous(breaks = NULL) + theme_void() + theme(panel.background = element_rect(fill = "transparent", colour = NA_character_), plot.background = element_rect(fill = "transparent", colour = NA_character_))
+	
+	p
+}
+
+
+png("3sigma_1.png", width=500, height=250, bg = "transparent")
+print(plot_sigma_rule(sd=1, percent=68))
+dev.off()
+
+
+png("3sigma_2_a.png", width=500, height=250, bg = "transparent")
+print(plot_sigma_rule(sd=2, percent=95))
+dev.off()
+
+png("3sigma_2_b.png", width=500, height=250, bg = "transparent")
+print(plot_sigma_rule(sd=2, percent=95, annotated=TRUE))
+dev.off()
+
+
+png("3sigma_3_a.png", width=500, height=250, bg = "transparent")
+print(plot_sigma_rule(sd=3, percent=99.7))
+dev.off()
+
+
+png("3sigma_3_b.png", width=500, height=250, bg = "transparent")
+print(plot_sigma_rule(sd=3, percent=99.7, annotated=TRUE))
+dev.off()
+
+start <- -3.5
+end <- 3.5
+
+p <-   ggplot(data = data.frame(x = c(start, end)), aes(x)) +
+	
+	   # main normal + yaxis + mean segment
+	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), colour="black") +
+	   geom_segment(aes(x = start, y = 0, xend = end, yend = 0), colour="black") +
+	   geom_segment(aes(x = 0, y = 0, xend = 0, yend = dnorm(0, mean=0, sd = 1)), colour="black", linetype="dashed", linewidth=0.1) +
+	   annotate("text", x = 0, y=-0.02, label = "mu", parse = TRUE, size=6, colour="black")
+   
+p <-   p +  
+	 	# area + area delims (1sigma)
+	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="magenta", alpha=0.2, xlim = c(-1, 1)) +
+	   geom_segment(aes(x = -1, y = 0, xend = -1, yend = dnorm(-1, mean=0, sd = 1)), colour="darkmagenta") + 
+	   geom_segment(aes(x = 1, y = 0, xend = 1, yend = dnorm(1, mean=0, sd = 1)), colour="darkmagenta") +
+	   annotate("text", x = -1, y=-0.02, label =  paste("-", 1, "%*% sigma"), parse = TRUE, size=5, colour="black") +
+	   annotate("text", x = 1, y=-0.02, label = paste("+", 1, "%*% sigma"), parse = TRUE, size=5, colour="black") +
+   
+	   #arrow & annotation (1sigma)
+	   geom_segment(aes(x = -1, y = 0.2, xend = 1, yend = 0.2), arrow = arrow(length = unit(0.2, "cm"), ends="both"), colour="black") +
+	   annotate("text", x = 0, y=0.23, label = paste(68, "%"), parse = FALSE, size=7, colour="black")
+
+p <-   p + 	   
+	   # area + area delims (2sigma)
+	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="magenta", alpha=0.4, xlim = c(-2, -1)) +
+	   stat_function(fun = dnorm, n = 101, args = list(mean = 0, sd = 1), geom = "area", fill="magenta", alpha=0.4, xlim = c(1, 2)) +
+	   geom_segment(aes(x = -2, y = 0, xend = -2 yend = dnorm(-2, mean=0, sd = 1)), colour="darkmagenta") + 
+	   geom_segment(aes(x = 2, y = 0, xend = 2, yend = dnorm(2, mean=0, sd = 1)), colour="darkmagenta") +
+	   annotate("text", x = -2, y=-0.02, label =  paste("-", 1, "%*% sigma"), parse = TRUE, size=5, colour="black") +
+	   annotate("text", x = 2, y=-0.02, label = paste("+", 1, "%*% sigma"), parse = TRUE, size=5, colour="black") +
+   
+	   #arrow & annotation (2sigma)
+	   geom_segment(aes(x = -2, y = 0.2, xend = 2, yend = 0.2), arrow = arrow(length = unit(0.2, "cm"), ends="both"), colour="black") +
+	   annotate("text", x = 0, y=0.23, label = paste(95, "%"), parse = FALSE, size=7, colour="black") 
+	  
+
+
+
+png("Normal_Distribution_3sigma.png", width=500, height=250, bg = "transparent")
+print(plot_sigma_rule(sd=1, percent=68))
+dev.off()
