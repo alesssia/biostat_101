@@ -64,25 +64,19 @@ Finally, the key to good statistical science is drawing appropriate Conclusions 
 ---
 ## Perch&eacute; c'&egrave; variabilit&agrave; nelle osservazioni?
 
-<span style="display:block; height:1px;"></span>
+<div style="font-size: 90%">
 
-<div style="font-size: 88%">
+- Stiamo finalmente a determinare se la variabilit&agrave; dipende dalle condizioni  sperimentali o se dipende da differenze individuali e/o da errori di misurazione
 
-:dart: &nbsp;&nbsp; Vedremo come determinare se la variabilit&agrave; &egrave; generata dalle condizioni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sperimentali o se &egrave; generata da differenze individuali e/o da errori di 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; misurazione
-
-</div>
-
-<span style="display:block; height:40px;"></span> 
+<span style="display:block; height:20px;"></span>
 
 <center>
-<img src="./img/data/head_circiference_doll.png" img height="180px"  border="4px"/> 
-<img src="./img/data/head_circiference_children.png" img height="180px"  border="4px"/>
-<img src="./img/data/head_circiference_children_groups.png" img height="180px" border="4px"/>
+<img src="./img/data/head_circiference_doll.png" img height="190px"  border="4px"/> 
+<img src="./img/data/head_circiference_children.png" img height="190px"  border="4px"/>
+<img src="./img/data/head_circiference_children_groups.png" img height="190px" border="4px"/>
 </center>
 
-
+</div>
 
 ---
 ## <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:warning:  Attenzione  :warning:
