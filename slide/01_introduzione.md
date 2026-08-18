@@ -740,16 +740,17 @@ Learning by mapping occurs when learners are asked to convert a text lesson into
  -->
 
 ---
-## Il *"formulario"* per l'esame
+## Gli *"appunti"* per l'esame
 
-<span style="display:block; height:2px;"></span>
+<span style="display:block; height:1px;"></span>
 
 - A5, due lati <sup>(*)</sup>
 - Pu&ograve; contenere qualsiasi cosa (formule, grafici, definizioni, ...)
 - In qualsiasi forma (testo, mappe concettuali, disegni, ...)
+- Scritto **a mano** 
 - **Deve limitarsi a questo modulo**
 
-<span style="display:block; height:40px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <div align="right">
 
@@ -765,16 +766,17 @@ Learning by mapping occurs when learners are asked to convert a text lesson into
 </div>
 
 ---
-## Il *"formulario"* per l'esame
+## Gli *"appunti"* per l'esame
 
-<span style="display:block; height:2px;"></span>
+<span style="display:block; height:1px;"></span>
 
 - A5, due lati <sup>(*)</sup>
 - Pu&ograve; contenere qualsiasi cosa (formule, grafici, definizioni, ...)
 - In qualsiasi forma (testo, mappe concettuali, disegni, ...)
+- Scritto **a mano** 
 - **Deve limitarsi a questo modulo**
 
-<span style="display:block; height:40px;"></span>
+<span style="display:block; height:1px;"></span>
 
 <div align="right">
 
@@ -829,10 +831,11 @@ Self-explaining occurs when students explain the content of a lesson to themselv
 - Le vostre tasse pagano delle persone reali, che conoscono benissimo l'argomento, per spiegarvi le cose
 - I vostri colleghi possono fornirvi un supporto non solo didattico, ma anche umano
 
-<span style="display:block; height:1px;"></span>
+
+<!-- <span style="display:block; height:1px;"></span>
 
 * Le GenAI non sono vietate, ma vanno usate con spirito critico
-  *"As in any fairytale, accepting magical assistance comes with risks.*" (Ted Underwood)
+  *"As in any fairytale, accepting magical assistance comes with risks.*" (Ted Underwood) -->
 
 </div>
 
@@ -1101,109 +1104,6 @@ oppure
 
 <!-- - Fare errori (e poi correggerli) &egrave; come impariamo cose nuove -->
 
----
-## Insegnare e imparare
-
----
-## Insegnare e imparare
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-
-<img src="./img/introduction/nsousanis_panel_1.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
-
-</center>
-
----
-## Insegnare e imparare
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-
-<img src="./img/introduction/nsousanis_panel_1.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_panel_2.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
-
-</center>
-
----
-## Insegnare e imparare
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-
-<img src="./img/introduction/nsousanis_panel_1.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_panel_2.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_panel_3.png" img height="500px" border="4px">
-
-</center>
-
----
-## Insegnare e imparare
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-
-<img src="./img/introduction/nsousanis_panel_4.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
-
-</center>
-
----
-## Insegnare e imparare
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-
-<img src="./img/introduction/nsousanis_panel_4.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_panel_5.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_placeholder.png" img height="500px" border="4px">
-
-</center>
-
----
-## Insegnare e imparare
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-
-<img src="./img/introduction/nsousanis_panel_4.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_panel_5.png" img height="500px" border="4px">
-
-<img src="./img/introduction/nsousanis_panel_6.png" img height="500px" border="4px">
-
-</center>
-
----
-## Insegnare e imparare
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-
-<img src="./img/introduction/nsousanis_panel_7.png" img height="500px" border="4px">
-
-</center>
 
 --- 
 ## Codice di Comportamento
