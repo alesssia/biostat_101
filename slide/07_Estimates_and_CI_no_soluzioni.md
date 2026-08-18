@@ -146,7 +146,7 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 <span style="display:block; height:120px;"></span>
 
 ---
-## La variabilit&agrave; campionaria
+## Quanto siamo precisi?
 
 <span style="display:block; height:10px;"></span>
 
@@ -154,430 +154,6 @@ Sulla base di un campione estratto casualmente da 1 popolazione cosa può essere
 <img src="./img/confidence_intervals/sampling_variability_5.png" img height="450px" border="0px"/>
 </center>
 
----
-## Quanto siamo precisi?
-
-<div style="font-size: 90%">
-
-Quanti partner (etero)sessuali le persone in Gran Bretagna riferiscono di aver avuto nella loro vita?
-
-</div>
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{donne} = 1100$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 796$
-
-
-</div>
-<div>
-
-<div style="font-size: 75%">
-
-<center>
-
-|  | Uomini 35-44 | Donne 35-44 |
-| ----: | -----: | ----: |
-| Moda | 1 | 1  |
-| Range | 0-500 | 0-550  |
-| Media |  14.3 | 8.5 | 
-| SD | 24.2 | 19.7  | 
-| Mediana |  8 | 5  | 
-| IQR | 4-18  | 3-10  |
-
-</center>
-
-</div>
-</div>
-
-<!-- In the age band of 35–44 there were 1,100 female and 796 male respondents, so it was a large survey from which the sample summary statistics shown in Table 2–2 were calculated, such as the median number of reported partners being 8 for men and 5 for women. Since we know the survey was based on a proper random-sampling scheme, it is fairly reasonable to assume that the study population matches the target population, which is the adult British population. The crucial question is: how close are these statistics to what we would have found had we been able to ask everyone in the country? -->
-
----
-## Ricalcoliamo senza i "valori estremi"
-
-<div style="font-size: 90%">
-
-Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
-
-</div>
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:30px;"></span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{uomini} = 760$
-
-
-</div>
-<div>
-
-<div style="font-size: 75%">
-
-<center>
-
-|  | Uomini 35-44 |
-| ----: | -----: | 
-| Moda | 1 |
-| Range | 0-50 | 
-| Media |  11.4 | 
-| SD | 11.2 |  
-| Mediana |  7 |
-| IQR | 4-16  |
-
-</center>
-
-</div>
-</div>
-
-<!-- Per semplificare la visualizzazione, concentriamoci sugli uomini che hanno avuto < 50 partner (solo 36 riportano di averne avuto di piu'), quindi ricalcoliamo tutte le statistiche su questo campione 
-
-I valori estremi propriamente detti sarebbero quelli >87, ma facciamo finta vada bene cosi'
-
-Notiamo i valori "stabili" (non influenzati dagli outliers)
--->
-
----
-## La dimensione del campione
-
-<div style="font-size: 90%">
-
-Quanti partner (etero)sessuali gli uomini inglesi, tra i 35 e 44 anni di et&agrave;, riferiscono di aver avuto nella loro vita?
-
-</div>
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/British_sex_partner_complete_dataset.png" img height="380px" border="4px"/>
-</center>
-
-<!-- Magenta dotted line is the mean
-
-As an illustration of how the accuracy of statistics depends on sample size, we shall pretend for the moment that the men in the survey in fact represent the population in which we are interested. 
--->
-
----
-## La dimensione del campione
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 10$
-
-</div>
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/British_sex_partner_N10.png" img height="420px" border="4px"/>
-</center>
-
-<!--
-For illustration, we then take successive samples of individuals from this ‘population’ of 760 men, pausing when we reach 10, 50, 100, 200 and 380 men. 
-
-The data distributions of these samples are shown 
-
-it is clear that the smaller samples are ‘bumpier’, and the summary stats (mean here) is sensitive to single data-points
-
- Magenta dotted line is the mean
-Density should use another scale -->
-
----
-## La dimensione del campione
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 50$
-
-</div>
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/British_sex_partner_N50.png" img height="420px" border="4px"/>
-</center>
-
-<!-- the rather high number of partners  in the first sample of ten individuals gets steadily overwhelmed, as the statistics get closer and closer to those of the whole group of 796 men as the sample size increases. -->
-
----
-## La dimensione del campione
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 100$
-
-</div>
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/British_sex_partner_N100.png" img height="420px" border="4px"/>
-</center>
-
-<!-- the rather high number of partners  in the first sample of ten individuals gets steadily overwhelmed, as the statistics get closer and closer to those of the whole group of 796 men as the sample size increases. -->
-
----
-## La dimensione del campione
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 200$
-
-</div>
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/British_sex_partner_N200.png" img height="420px" border="4px"/>
-</center>
-
-<!-- the rather high number of partners  in the first sample of ten individuals gets steadily overwhelmed, as the statistics get closer and closer to those of the whole group of 796 men as the sample size increases. -->
-
----
-## La dimensione del campione
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $n_\text{campione} = 380$
-
-</div>
-
-<span style="display:block; height:1px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/British_sex_partner_N380.png" img height="420px" border="4px"/>
-</center>
-
-<!-- the rather high number of partners  in the first sample of ten individuals gets steadily overwhelmed, as the statistics get closer and closer to those of the whole group of 796 men as the sample size increases. -->
-
----
-### Esercizio #4
-
-<span style="display:block; height:1px;"></span>
-
-<div style="font-size: 90%">
-
-:question: &nbsp;&nbsp;&nbsp; Al crescere della dimensione del campione
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) migliorano le stime dei parametri
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) le stime dei parametri diventano pi&ugrave; sensibili alle singole 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; osservazioni 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
-
-</div>
-
-<span style="display:block; height:80px;"></span>
-
----
-## Quanto siamo precisi?
-
-<span style="display:block; height:1px;"></span>
-
-Con questo esempio, abbiamo introdotto due concetti:<br/>
-
-  1. Campioni pi&ugrave; grandi stimano meglio i parametri di una popolazione
-
-  2. Continuare ad estrarre campioni ci da un'idea della variazione attorno al valore "plausibile" del parametro che ci interessa
-
-<span style="display:block; height:1px;"></span>
-
-<div align="right">
-
-Quindi come procediamo?
-
-</div>
-
----
-## Stima dei parametri e del margine di errore
-
-Come stimo la variazione rispetto al valore reale nella popolazione se quello che sto cercando &egrave; proprio il valore reale nella popolazione? 
-
-<span style="display:block; height:10px;"></span>
-
-<img src="./img/confidence_intervals/dog-chasing-tail-6.gif" img height="300px" border="0px" style="float: right; padding: 10px 50px 100px 100px;"/>
-
-<!--  
-Now we come to a critical step. In order to work out how accurate these statistics might be, we need to think of how much our statistics might change if we (in our imagination) were to repeat the sampling process many times. In other words, if we repeatedly drew samples of 796 men from the country, how much would the calculated statistics vary?
-
-If we knew how much these estimates would vary, then it would help tell us how accurate our actual estimate was. But unfortunately we could only work out the precise variability in our estimates if we knew precisely the details of the population. And this is exactly what we do not know.  -->
-
----
-## Stima dei parametri e del margine di errore
-
-<span style="display:block; height:10px;"></span>
-
-1. Assumendo che la popolazione assomigli al campione <br/> $\rightarrow$ via bootstrapping
-
-2. Facendo assunzioni matematiche sulla forma della distribuzione nella popolazione <br/> $\rightarrow$ via distribuzione campionaria & teorema del limite centrale
-
-<!-- There are two ways to resolve this circularity. The first is to make some mathematical assumptions about the shape of the population distribution, and use sophisticated probability theory to work out the variability we would expect in our estimate, and hence how far away we might expect, say, the average of our sample to be from the mean of the population. This is the traditional method that is taught in statistics textbooks, and we shall see how this works in Chapter 9. 
-
-However, there is an alternative approach, based on the plausible assumption that the population should look roughly like the sample. Since we cannot repeatedly draw a new sample from the population, we instead repeatedly draw new samples from our sample! -->
-
----
-## Stima dei parametri e del margine di errore
-
-<div style="font-size: 90%">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{Bootstrapping} = 1000$
-
-</div>
-
-<span style="display:block; height:0px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/bootstrapping.png" img height="450px" border="4px"/>
-</center>
-
-<!-- If we repeat this resampling, say, 1,000 times, we get 1,000 possible estimates of the mean. These are displayed as histograms, with each histogram showing the spread of bootstrap estimates around the mean of the original sample. These are known as sampling distributions of estimates, since they reflect the variability in estimates that arise from repeated sampling of data.
-
-Figure displays some clear features. The first, and perhaps most notable, is that almost all trace of the skewness of the original samples has gone – the distributions of the estimates based on the resampled data are almost symmetric around the mean of the original data. This is a first glimpse of what is known as the Central Limit Theorem, which says that the distribution of sample means tends towards the form of a normal distribution with increasing sample size, almost regardless of the shape of the original data distribution. 
-
-Additionally, is that the bootstrap distributions get narrower as the sample size increases
- -->
-
----
-## L'intervallo di confidenza
-
-<div style="font-size: 90%">
-
-:dart: &nbsp;&nbsp;&nbsp; Intervallo che contiene il 95% delle medie ottenute via Bootstrapping
-
-</div>
-
-<span style="display:block; height:0px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/bootstrapping_fence.png" img height="450px" border="4px"/>
-</center>
-
-<!-- For example, we can find the range of values that contains 95% of the means of the bootstrap resamples, and call this a 95% uncertainty interval
-for the original estimates, or alternatively they can be called margins of error. These are shown in Table 7.2 – the symmetry of the bootstrap distributions means the uncertainty intervals are roughly symmetric around the original estimate.
-
-Per farlo sfruttiamo le proprieta' della distribuzione normale (indipendentemente dalla distribuzione del campione) 
-
-Ma prima osserviamo ancora che the bootstrap distributions get narrower as the sample size increases, which is reflected in the steadily narrower 95% uncertainty intervals.
- -->
-
- ---
-## L'intervallo di confidenza
-
-<div style="font-size: 90%">
-
-:dart: &nbsp;&nbsp;&nbsp; Intervallo che contiene il 95% delle medie ottenute via Bootstrapping
-
-</div>
-
-<span style="display:block; height:0px;"></span>
-
-<center>
-<img src="./img/confidence_intervals/bootstrapping_CI.png" img height="450px" border="4px"/>
-</center>
-
-<!-- For example, we can find the range of values that contains 95% of the means of the bootstrap resamples, and call this a 95% uncertainty interval
-for the original estimates, or alternatively they can be called margins of error. These are shown in Table 7.2 – the symmetry of the bootstrap distributions means the uncertainty intervals are roughly symmetric around the original estimate.
-
-Per farlo sfruttiamo le proprieta' della distribuzione normale (indipendentemente dalla distribuzione del campione) 
-
-Ma prima osserviamo ancora che the bootstrap distributions get narrower as the sample size increases, which is reflected in the steadily narrower 95% uncertainty intervals.
- -->
-
----
-## L'intervallo di confidenza
-
-<div style="font-size: 90%">
-
-:dart: &nbsp;&nbsp; Intervallo che contiene il 95% delle medie ottenute via Bootstrapping
-
-</div>
-
-<span style="display:block; height:1px;"></span>
-
-<div class="columns">
-<div>
-
-<span style="display:block; height:10px;"></span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $N_\text{Bootstrapping} = 1000$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\bar{x} = 11.4$
-
-
-</div>
-<div>
-
-<div style="font-size: 75%">
-
-<center>
-
-| $n_\text{campione}$ | Media | 95% CI |
-| ----: | -----: |  -----: | 
-| 10 | 11.4 | (5.0; 19.0)
-| 50 | 11.4 | (8.4; 14.6)
-| 100 | 11.4  | (9.2; 13.5) 
-| 200 | 11.3 |  (9.9; 12.9)
-| 380 | 11.3  | (10.2; 12.4)
-| 760 | 11.3 | (10.6, 12.1)
-
-
-</center>
-
-</div>
-</div>
-
-<!-- The second important feature of Figure 7.3 is that the bootstrap distributions get narrower as the sample size increases, which is reflected in the steadily narrower 95% uncertainty intervals. 
-
-Bootstrapping provides an intuitive, computer-intensive way of assessing the uncertainty in our estimates, without making strong assumptions and without using probability theory. But the technique is not feasible when it comes to, say, working out the margins of error on unemployment surveys of 100,000 people. Although bootstrapping is a simple, brilliant and extraordinarily effective idea, it is just too clumsy to bootstrap such large quantities of data, especially when a convenient theory exists that can generate formulae for the width of uncertainty intervals.
-
--->
-
----
-### Esercizio #5
-
-<span style="display:block; height:1px;"></span>
-
-:question: &nbsp;&nbsp;&nbsp; Al crescere della dimensione del campione
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) peggiora la stima dell'incertezza del parametro
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) migliora la stima dell'incertezza del parametro
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) non c'&egrave; differenza
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) non ho abbastanza elementi per rispondere
-
-<span style="display:block; height:80px;"></span>
-
----
-## Fermiamoci un attimo
-
-<span style="display:block; height:10px;"></span>
-
-<div style="font-size: 90%">
-
-Abbiamo introdotto due concetti complicati e importanti:
-
-  1. esiste una variabilit&agrave; nella stima dei parametri che dipende dal campione
-
-  2. la forma della distribuzione delle statistiche non dipende dalla forma della distribuzione originaria e tende alla normale per insiemi grandi
-
-<span style="display:block; height:1px;"></span>
-
-<div align="right">
-
-Ora abbiamo le basi per affrontare il secondo approccio <br/>per stimare i parametri e l'intervallo di confidenza
-
-</div>
-</div>
-
-<!-- 
-- the variability in statistics based on samples
-
-- the fact that the shape of the distribution of the statistics does not depend on the shape of the original distribution from which the individual data-points are drawn
-
-- bootstrapping data when we do not want to make assumptions about the shape of the population
-
-Rather remarkably, this has all been accomplished without any mathematics except the idea of drawing observations at random. -->
 
 ---
 ### La distribuzione campionaria & <br/> il teorema del limite centrale
@@ -702,7 +278,7 @@ Tutti concetti che ci torneranno utili tra poco
 
 
 ---
-### Esercizio #6
+### Esercizio #4
 
 <div style="font-size: 90%" >
 
@@ -761,7 +337,7 @@ a confidence interval is the range of population parameters for which our observ
 -->
 
 ---
-### Esercizio #7
+### Esercizio #5
 
 <div style="font-size: 90%" >
 
@@ -782,7 +358,7 @@ a confidence interval is the range of population parameters for which our observ
 <!-- Questa differenza di 200 euro a dx e sx della media e' il margine di errore del 95% -->
 
 ---
-### Esercizio #8
+### Esercizio #6
 
 <div style="font-size: 90%" >
 
@@ -799,7 +375,7 @@ a confidence interval is the range of population parameters for which our observ
 <span style="display:block; height:100px;"></span>
 
 ---
-### Esercizio #9
+### Esercizio #7
 
 <div class="columns">
 <div>
@@ -835,7 +411,7 @@ a confidence interval is the range of population parameters for which our observ
 
 
 ---
-### Esercizio #10
+### Esercizio #8
 
 <div class="columns">
 <div>
@@ -869,7 +445,7 @@ a confidence interval is the range of population parameters for which our observ
 </div>
 
 ---
-### Esercizio #11
+### Esercizio #9
 
 <div style="font-size: 90%" >
 
@@ -1076,7 +652,7 @@ Faremo piu' avanti degli esercizi in cui ci calcoleremo 90 e 99% CI -->
 -->
 
 ---
-### Esercizio #12
+### Esercizio #10
 
 :dart: &nbsp;&nbsp;&nbsp; Il margine di errore (in percentuale) &egrave; al pi&ugrave; $\pm \text{ } 100/\sqrt{n}$
 
@@ -1289,7 +865,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 <!-- Piccoli == <30 circa  -->
 
 ---
-### Esercizio #13
+### Esercizio #11
 
 <span style="display:block; height:1px;"></span>
 
@@ -1307,7 +883,7 @@ Meno appuntita al centro e code pi&ugrave; alte
 <span style="display:block; height:100px;"></span>
 
 ---
-### Esercizio #14
+### Esercizio #12
 
 <span style="display:block; height:1px;"></span>
 
