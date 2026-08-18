@@ -423,14 +423,13 @@ Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
 </div>
 
 
----
+<!-- ---
 ## Vox populi <sup>*</sup>
 
 
 <div class="columns">
 <div>
 
-<!-- <span style="display:block; height:1px;"></span> -->
 
 <div style="font-size: 85%" >
 
@@ -460,13 +459,11 @@ Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
 
 </div>
 
-<!-- <span style="display:block; height:1px;"></span> -->
-
 <div style="font-size: 50%" align="right">
 
 Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
 
-</div>
+</div> -->
 
 ---
 ## Vox populi <sup>*</sup>
@@ -491,7 +488,7 @@ Galton, F. *Vox Populi*, Nature, 1907, https://doi.org/10.1038/075450a0
 <span style="display:block; height:1px;"></span>
 
 <center>
-<img src="./img/descriptive/500px-Sir_Francis_Galton,_1890s.jpg" img height="380px" border="0px"/>
+<img src="./img/descriptive/Bovino_Ayrshire_03.jpg" img height="380px" border="0px"/>
 </center>
 
 </div>
